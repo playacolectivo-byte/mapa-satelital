@@ -1,0 +1,99 @@
+[
+  {
+    "ID": "S01",
+    "Nombre": "Línea de costa de México en función del relieve 2025",
+    "Institución": "INEGI",
+    "URL": "https://www.inegi.org.mx/app/biblioteca/ficha.html?upc=794551196540",
+    "Tipo": "Dataset",
+    "Formato": "SHP/ZIP + PRJ/XML/PDF",
+    "Cobertura": "Nacional; presencia local verificada",
+    "Fecha": "Ciclo 2025; insumos 2023-01-01 a 2025-10-31 según metadato interno",
+    "Actualización": "Metadato 2025-11-27; edición ficha 2026; Last-Modified HTTP 2026-07-15",
+    "CRS": "Mexico ITRF2008 / LCC; ITRF08 época 2010.0",
+    "Resolución": "Representación 1:4,000 o menor detalle; exactitud local no certificada",
+    "Descarga": "Sí, 20,023,826 bytes, inspección completa",
+    "Integración": "UTILIZABLE CON TRANSFORMACIÓN",
+    "Licencia": "Libre uso INEGI: atribución, preservar metadatos y declarar transformaciones; S41.",
+    "Confiabilidad": "Alta",
+    "Estado": "Oficial",
+    "Uso_potencial": "Costa de referencia y subtipos publicados",
+    "Limitaciones": "Ficha web dice ITRF92; PRJ y metadato interno coinciden en ITRF2008. Fecha de imagen por segmento no incluida. No es serie de erosión. CLASE/NOMBRE vacíos. OBJECTID no único: 34,045 repeticiones excedentes; 34,030 filas de atributos repetidas, sin geometrías idénticas.",
+    "Consulta": "2026-09-02",
+    "Enlaces_adicionales": [
+      "https://www.inegi.org.mx/contenidos/productos/prod_serv/contenidos/espanol/bvinegi/productos/geografia/lcmex/794551196540_s.zip"
+    ]
+  },
+  {
+    "ID": "S02",
+    "Nombre": "Localidades amanzanadas y catálogo de localidades de Progreso",
+    "Institución": "INEGI",
+    "URL": "https://gaia.inegi.org.mx/wscatgeo/v2/geo/localidades/pol/31/059",
+    "Tipo": "API / dataset",
+    "Formato": "GeoJSON / JSON",
+    "Cobertura": "Municipio 31059; Chelem 310590003 y Chuburná 310590005 verificadas",
+    "Fecha": "Marco diciembre 2025; estadísticas Censo 2020",
+    "Actualización": "INFORMACIÓN NO LOCALIZADA",
+    "CRS": "EPSG:6365 en cada geometría",
+    "Resolución": "Escala/precisión local INFORMACIÓN NO LOCALIZADA",
+    "Descarga": "Sí, 8 geometrías y tabla municipal",
+    "Integración": "UTILIZABLE CON TRANSFORMACIÓN",
+    "Licencia": "Libre uso INEGI: atribución, preservar metadatos y declarar transformaciones; S41.",
+    "Confiabilidad": "Alta",
+    "Estado": "Oficial",
+    "Uso_potencial": "Localidades y referencias territoriales",
+    "Limitaciones": "GeoJSON heredado con CRS dentro de geometría; transformar antes de RFC7946. periodo=2015-06-01 no significa fecha censal ni actualización vectorial.",
+    "Consulta": "2026-09-02",
+    "Enlaces_adicionales": [
+      "https://gaia.inegi.org.mx/wscatgeo/v2/localidades/31059",
+      "https://www.inegi.org.mx/servicios/catalogounico.html"
+    ]
+  },
+  {
+    "ID": "S12",
+    "Nombre": "Distribución de los manglares en México en 2020",
+    "Institución": "CONABIO / SMMM",
+    "URL": "http://geoportal.conabio.gob.mx/metadatos/doc/html/mx_man20gw.html",
+    "Tipo": "Dataset / metadato",
+    "Formato": "SHP/ZIP",
+    "Cobertura": "Nacional; intersección Chelem confirmada",
+    "Fecha": "Cobertura 2020; publicación 2021-01-11",
+    "Actualización": "Metadato 2021-01-13; archivo HTTP 2023-01-17",
+    "CRS": "WGS84 geográfico",
+    "Resolución": "1:50,000; insumos Sentinel2 de10m; no precisión predial",
+    "Descarga": "Sí por HTTP, 62,280,147 bytes",
+    "Integración": "UTILIZABLE CON TRANSFORMACIÓN",
+    "Licencia": "Metadato específico CC BY4.0, atribuir mapa y CONABIO; conservar evidencia ante pie general NC del portal",
+    "Confiabilidad": "Alta",
+    "Estado": "Oficial",
+    "Uso_potencial": "Manglar",
+    "Limitaciones": "2020 no describe estado2026. HTTPS falló TLS, HTTP oficial funcionó. No equivaler ausencia de polígono a ausencia ecológica.",
+    "Consulta": "2026-09-02",
+    "Enlaces_adicionales": [
+      "http://www.conabio.gob.mx/informacion/gis/maps/geo/mx_man20gw.zip"
+    ]
+  },
+  {
+    "ID": "S13",
+    "Nombre": "Uso del suelo y vegetación de la zona costera asociada a los manglares de México en 2020",
+    "Institución": "CONABIO / SMMM",
+    "URL": "https://geoportal.conabio.gob.mx/metadatos/doc/html/mx_oc2020gw.html",
+    "Tipo": "Dataset / metadato",
+    "Formato": "SHP/ZIP",
+    "Cobertura": "Zonas costeras asociadas al manglar; no inventario universal de humedales",
+    "Fecha": "2020; publicación 2021-01-11",
+    "Actualización": "Metadato2021-01-13; archivo HTTP2023-01-17",
+    "CRS": "WGS84 geográfico",
+    "Resolución": "1:50,000; insumo10m, eliminación cartográfica de polígonos pequeños",
+    "Descarga": "Sí, 449,248,010 bytes; ZIP íntegro y 112,733 polígonos inspeccionados",
+    "Integración": "UTILIZABLE CON TRANSFORMACIÓN",
+    "Licencia": "Metadato específico CC BY4.0 con atribución",
+    "Confiabilidad": "Alta",
+    "Estado": "Oficial",
+    "Uso_potencial": "Otros humedales, cuerpos de agua, vegetación asociada",
+    "Limitaciones": "Ocho clases; 180 polígonos intersectan la ventana de auditoría, incluidos humedales y agua. Otra vegetación no equivale a duna. HTTPS falló; descarga HTTP reanudada con rangos y CRC válido. 40,289,700 vértices nacionales: requiere selección geográfica.",
+    "Consulta": "2026-09-02",
+    "Enlaces_adicionales": [
+      "http://www.conabio.gob.mx/informacion/gis/maps/geo/mx_oc2020gw.zip"
+    ]
+  }
+]

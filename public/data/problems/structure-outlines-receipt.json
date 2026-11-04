@@ -1,0 +1,103 @@
+{
+  "source": "OpenStreetMap community database via Overpass API",
+  "endpoint": "https://overpass-api.de/api/interpreter",
+  "downloaded_utc": "2026-10-22T23:10:26.622570+00:00",
+  "database_timestamp_utc": "2026-10-22T23:07:05Z",
+  "query_path": "overpass-query.txt",
+  "raw_response": "overpass-original.json",
+  "license": "ODbL-1.0",
+  "license_url": "https://www.openstreetmap.org/copyright",
+  "license_legalcode": "https://opendatacommons.org/licenses/odbl/1-0/",
+  "attribution": "© OpenStreetMap contributors",
+  "requested_bbox_south_west_north_east": [
+    20.8,
+    -90.5,
+    21.75,
+    -87.6
+  ],
+  "source_counts": {
+    "pier": 231,
+    "breakwater": 9,
+    "groyne": 1
+  },
+  "derived_collections": {
+    "structures-osm-north-yucatan.geojson": {
+      "features": 241,
+      "geometry_types": {
+        "LineString": 201,
+        "Polygon": 40
+      },
+      "mapped_types": {
+        "pier": 231,
+        "breakwater": 9,
+        "groyne": 1
+      },
+      "sha256": "917756ff231b937031382fc73562e01f72aaa9c7d92f96f688ad28fb00c5fdd6",
+      "size": 384855
+    },
+    "structures-osm-celestun-chabihau.geojson": {
+      "features": 191,
+      "geometry_types": {
+        "LineString": 157,
+        "Polygon": 34
+      },
+      "mapped_types": {
+        "pier": 183,
+        "breakwater": 8
+      },
+      "sha256": "74ac8b3e62ad3c3f70c0cbc20813eda0aa69f23c560f94d6bb61fe880fdea885",
+      "size": 311236
+    },
+    "structures-osm-chelem-progreso.geojson": {
+      "features": 171,
+      "geometry_types": {
+        "Polygon": 25,
+        "LineString": 146
+      },
+      "mapped_types": {
+        "pier": 167,
+        "breakwater": 4
+      },
+      "sha256": "0d0b72de9fe6b86640905a1577901fd0f268fcb15c75032b8359f1801c41e40d",
+      "size": 270100
+    }
+  },
+  "transformations": [
+    "lat/lon keys reordered to GeoJSON lon/lat without rounding",
+    "Explicit area=yes ways represented as Polygon only if their source node ring is closed",
+    "One multipolygon relation assembled from its two matching outer member traces; no artificial segments inserted",
+    "Subsets select complete original geometries by bbox intersection; no spatial clipping/simplification/buffer",
+    "Source geometry copied verbatim; no widths or construction dates inferred"
+  ],
+  "limits": [
+    "Not an authoritative surveyed inventory, scientific damage polygon, current inspection or cadastral boundary",
+    "OSM timestamps describe mapping edits/database snapshots, not image capture or construction",
+    "A LineString is a mapped axis/trace, not a full physical footprint",
+    "Neither completeness nor positional accuracy has been independently established",
+    "Only one mapped groyne occurs in broad query; no groyne in Celestun–Chabihau subset; does not replace published359 point inventory",
+    "Some queried piers may be inland/lagoon structures, and broadbbox may contain areas outside Yucatan state; spatial subset is operational only"
+  ],
+  "files": [
+    {
+      "path": "overpass-original.json",
+      "size": 155641,
+      "sha256": "1f46a2826424418792bb03331691b1961ab7aaebd3bbda5a4016fc812558e6c8"
+    },
+    {
+      "path": "overpass-query.txt",
+      "size": 203,
+      "sha256": "6066b14b5392215f72c127b8de6e4d76d3c7bc88556afad31fc32d59f602ae49"
+    },
+    {
+      "path": "derive_osm_structures.py",
+      "size": 6562,
+      "sha256": "65b1fd17968fe9f62fd67a5cb28fd0de39f5e1d30274be2f9d7b969d50a0b42e"
+    }
+  ],
+  "geometry_validation": {
+    "file": "geometry-validation.json",
+    "sha256": "294ef78c461a23c451f8d56c34630f7c6074baec8e9640b3ecf787b1a1295e7b",
+    "validator": "Shapely 2.1.2",
+    "no_source_repairs_applied": true
+  }
+}

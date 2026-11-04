@@ -1,0 +1,71 @@
+{
+  "source_id": "CONABIO-MP2020",
+  "retrieved": "2026-10-22",
+  "source_title": "Distribución de manglar perturbado de México en 2020",
+  "author": "CONABIO",
+  "publisher_mirror": "CONAFOR IDEFOR",
+  "metadata_url": "https://idefor.cnf.gob.mx/layers/geonode:mx_mp2020gw",
+  "download_url": "https://idefor.cnf.gob.mx/layers/download/geonode%3Amx_mp2020gw/ESRI%20Shapefile",
+  "definition_url": "https://biodiversidad.gob.mx/monitoreo/smmm/manglar-perturbado",
+  "source_crs": "WGS 1984 geographic, source PRJ retained",
+  "source_scale_denominator": 50000,
+  "image_period": "2020-01 to 2020-05",
+  "national_features": 1203,
+  "original_zip": {
+    "path": "conabio-manglar-perturbado-2020-original.zip",
+    "size": 2087505,
+    "sha256": "7aef4a492561fdff2652778cf953f8b8a565d728709c91b88ef78f36963fe13b"
+  },
+  "members": [
+    {
+      "path": "mx_mp2020gw_iiV2Fa3.dbf",
+      "size": 133791,
+      "sha256": "ad59dc01a81cfe9894ea7309be253acabdfa944f055b95bacccf9ccd1d5398d2"
+    },
+    {
+      "path": "mx_mp2020gw_iiV2Fa3.prj",
+      "size": 143,
+      "sha256": "98aaf3d1c0ecadf1a424a4536de261c3daf4e373697cb86c40c43b989daf52eb"
+    },
+    {
+      "path": "mx_mp2020gw_iiV2Fa3.shp",
+      "size": 2987532,
+      "sha256": "03dd8d5e7824cc7c1d16a3656d875f137fe303d410bbd98a4de9ce45f73b59e5"
+    },
+    {
+      "path": "mx_mp2020gw_iiV2Fa3.shx",
+      "size": 9724,
+      "sha256": "bbad8d3a202df4d287f0d342644c99c6df5e0ddce50cd6b2e8dda20926367013"
+    }
+  ],
+  "interpretation": "Published class6: dead/regenerating/disturbed mangrove. Both storm/natural and infrastructure/human causes may occur. Not equivalent to proven clearing, causal responsibility, annual loss or dune vegetation extent.",
+  "method": "Select complete original features intersecting camera envelopes; no clipping, simplification, buffers, redrawing or coordinate transformations.",
+  "outputs": [
+    {
+      "path": "manglar-perturbado-2020-corridor.geojson",
+      "camera_bounds": [
+        -90.5,
+        20.8,
+        -89.05,
+        21.5
+      ],
+      "features": 40,
+      "invalid_source_fids": [],
+      "size": 433582,
+      "sha256": "b72aac96b19d0cbbda21c8eff5930542869542f2a3fd3610af2820b13c661765"
+    },
+    {
+      "path": "manglar-perturbado-2020-chelem.geojson",
+      "camera_bounds": [
+        -89.87630051779166,
+        21.220924823115606,
+        -89.59438105741117,
+        21.377625402958135
+      ],
+      "features": 0,
+      "invalid_source_fids": [],
+      "size": 43,
+      "sha256": "6d18edfe75b3149104038dcbca4d0096bbcb923f0f9fa4b49f4815344e75bb90"
+    }
+  ]
+}

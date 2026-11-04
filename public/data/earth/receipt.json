@@ -1,0 +1,18 @@
+{
+  "generated_utc": "2026-10-22",
+  "sha256": "4590a80878cffd0ed8261e2d7a49bb8128235dc11a111992e522d30f204f3559",
+  "bytes": 2456573,
+  "feature_counts": {
+    "s2": 6992,
+    "l8": 5328,
+    "l5": 3385,
+    "coast": 424,
+    "localities": 3,
+    "mangrove": 149,
+    "wetlands": 82,
+    "water": 33,
+    "structures": 359
+  },
+  "preservation": "All input display coordinates preserved. Official geometry and original S34 rates not recalculated. No Google imagery included; no TimeSpan is assigned to analytical rates or structure references. MC2026 Year is retained literally, not used as construction date or present condition. Approximate geotube case view uses LookAt only, without a point or polygon.",
+  "desktop_open_test": "Not performed: no connection to user laptop or Google Earth Pro desktop."
+}

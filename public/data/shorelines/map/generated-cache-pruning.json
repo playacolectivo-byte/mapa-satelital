@@ -1,0 +1,5 @@
+{
+  "policy": "Only generated hash chunks without a reference in any retained map index",
+  "referenced_chunks": 1630,
+  "pruned": []
+}

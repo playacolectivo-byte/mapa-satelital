@@ -1,0 +1,15 @@
+import type {HistoricalManifest} from './history.ts';
+import {historicalEpochForYear} from './history.ts';
+import type {RasterFrame} from './raster-frame-cache';
+import type {ImageInfo} from '@/components/timeline-pill';
+
+export type AnnualBackdrop={year:number;provider:'eox'|'inegi'|'pc';frame:RasterFrame;info:ImageInfo;label:string;attribution:string;licenseUrl:string};
+const eoxYears=new Set([2019,2020,2021,2022,2023,2024,2025]);
+// These exact layers passed decoded coastal checks at all18localities in the
+// local review. Older EOX vintages mix years and are deliberately excluded.
+export function annualBackdropForYear(year:number,geomedian:HistoricalManifest|null):AnnualBackdrop|null{
+ if(eoxYears.has(year))return {year,provider:'eox',frame:{key:'eox-annual:'+year,url:'https://tiles.maps.eox.at/wmts/1.0.0/s2cloudless-'+year+'_3857/default/GoogleMapsCompatible/{z}/{y}/{x}.jpg',options:{tileSize:256,maxNativeZoom:14,maxZoom:20,noWrap:true,updateWhenIdle:true,updateWhenZooming:false,keepBuffer:1,className:'temporal-raster-frame'}},label:'Sentinel-2 · 10 m',attribution:'EOxCloudless by EOX IT Services GmbH · Contains modified Copernicus Sentinel data '+year,licenseUrl:'https://creativecommons.org/licenses/by-nc-sa/4.0/',info:{title:'Sentinel-2 · mosaico anual '+year,capture:'Mosaico de '+year,captureDate:null,provider:'EOX / Copernicus Sentinel-2',resolution:'10 m por píxel original · sin detalle de casas',url:'https://cloudless.eox.at/documentation/product-list',note:'Respaldo del mismo año cuando Esri no confirma una captura local. Producto anual del proveedor, compuesto por varias capturas; no se dispone aquí de fecha individual por píxel. Revisión de18localidades/13municipios, no auditoría de cada píxel. Sólo fondo visual: no se midió erosión usando este mosaico. Uso local de evaluación bajo CC BY-NC-SA4.0; producción comercial requiere otra licencia del proveedor.'}};
+ const epoch=historicalEpochForYear(geomedian,year),frame=geomedian?.frames.find(f=>f.epoch===epoch?.id);
+ if(!epoch || !frame?.wms || frame.capture_year!==year || frame.date_precision!=='year')return null;
+ return {year,provider:'inegi',frame:{key:'inegi-annual-fallback:'+year,url:frame.wms.url,wms:frame.wms,options:{tileSize:256,minNativeZoom:frame.minzoom,maxNativeZoom:frame.maxzoom,maxZoom:20,noWrap:true,updateWhenIdle:true,updateWhenZooming:false,keepBuffer:1,className:'temporal-raster-frame'}},label:'Landsat · INEGI · 30 m',attribution:'INEGI · Geomediana Landsat '+year+' · USGS/NASA',licenseUrl:'https://www.inegi.org.mx/inegi/terminos.html',info:{title:'Landsat · mosaico anual INEGI '+year,capture:'Compuesto anual '+year,captureDate:null,provider:geomedian!.attribution,resolution:'30 m por píxel original · sin detalle de casas',url:frame.catalogue_url,note:'Respaldo del mismo año: compuesto estadístico anual Landsat, no fotografía de un día. Capa anual ya revisada en el proyecto. No se repite el mapa de otro año ni se utiliza este RGB como una nueva medición de erosión.'}};
+}

@@ -1,0 +1,597 @@
+{
+  "format": 1,
+  "layers": [
+    {
+      "source": "regional-2025-2026.geojson",
+      "features": 2502,
+      "source_bytes": 26221326,
+      "map_index_bytes": 1602991,
+      "details_bytes": 25817587,
+      "reduction_percent": 94
+    },
+    {
+      "source": "years/2013.geojson",
+      "features": 28,
+      "source_bytes": 33914,
+      "map_index_bytes": 21583,
+      "details_bytes": 19767,
+      "reduction_percent": 36
+    },
+    {
+      "source": "years/2015.geojson",
+      "features": 19,
+      "source_bytes": 19421,
+      "map_index_bytes": 11632,
+      "details_bytes": 12580,
+      "reduction_percent": 40
+    },
+    {
+      "source": "years/2018.geojson",
+      "features": 315,
+      "source_bytes": 307010,
+      "map_index_bytes": 187775,
+      "details_bytes": 210468,
+      "reduction_percent": 39
+    },
+    {
+      "source": "years/2019.geojson",
+      "features": 104,
+      "source_bytes": 103460,
+      "map_index_bytes": 63748,
+      "details_bytes": 69234,
+      "reduction_percent": 38
+    },
+    {
+      "source": "years/2020.geojson",
+      "features": 1004,
+      "source_bytes": 2500016,
+      "map_index_bytes": 571687,
+      "details_bytes": 2337024,
+      "reduction_percent": 77
+    },
+    {
+      "source": "years/2021.geojson",
+      "features": 1010,
+      "source_bytes": 2514085,
+      "map_index_bytes": 580686,
+      "details_bytes": 2343888,
+      "reduction_percent": 77
+    },
+    {
+      "source": "years/2022.geojson",
+      "features": 268,
+      "source_bytes": 300737,
+      "map_index_bytes": 195672,
+      "details_bytes": 182567,
+      "reduction_percent": 35
+    },
+    {
+      "source": "years/2023.geojson",
+      "features": 340,
+      "source_bytes": 381193,
+      "map_index_bytes": 247611,
+      "details_bytes": 232080,
+      "reduction_percent": 35
+    },
+    {
+      "source": "years/2024.geojson",
+      "features": 92,
+      "source_bytes": 94985,
+      "map_index_bytes": 59338,
+      "details_bytes": 61688,
+      "reduction_percent": 38
+    },
+    {
+      "source": "years/2025.geojson",
+      "features": 2716,
+      "source_bytes": 12023352,
+      "map_index_bytes": 1435493,
+      "details_bytes": 11689596,
+      "reduction_percent": 88
+    },
+    {
+      "source": "years/2026.geojson",
+      "features": 2792,
+      "source_bytes": 11361793,
+      "map_index_bytes": 1552680,
+      "details_bytes": 10938575,
+      "reduction_percent": 86
+    },
+    {
+      "source": "annual/2011.geojson",
+      "features": 199,
+      "source_bytes": 887281,
+      "map_index_bytes": 162143,
+      "details_bytes": 850031,
+      "reduction_percent": 82
+    },
+    {
+      "source": "annual/2012.geojson",
+      "features": 3,
+      "source_bytes": 12899,
+      "map_index_bytes": 2681,
+      "details_bytes": 12125,
+      "reduction_percent": 79
+    },
+    {
+      "source": "annual/2019.geojson",
+      "features": 925,
+      "source_bytes": 2361470,
+      "map_index_bytes": 719283,
+      "details_bytes": 2219815,
+      "reduction_percent": 70
+    },
+    {
+      "source": "annual/2020.geojson",
+      "features": 958,
+      "source_bytes": 2445482,
+      "map_index_bytes": 745719,
+      "details_bytes": 2298852,
+      "reduction_percent": 70
+    },
+    {
+      "source": "annual/2021.geojson",
+      "features": 900,
+      "source_bytes": 7435547,
+      "map_index_bytes": 686511,
+      "details_bytes": 7203602,
+      "reduction_percent": 91
+    },
+    {
+      "source": "annual/2022.geojson",
+      "features": 856,
+      "source_bytes": 2182606,
+      "map_index_bytes": 664989,
+      "details_bytes": 2051487,
+      "reduction_percent": 70
+    },
+    {
+      "source": "annual/2023.geojson",
+      "features": 1308,
+      "source_bytes": 3326561,
+      "map_index_bytes": 1015329,
+      "details_bytes": 3126759,
+      "reduction_percent": 69
+    },
+    {
+      "source": "annual/2024.geojson",
+      "features": 827,
+      "source_bytes": 2111807,
+      "map_index_bytes": 644576,
+      "details_bytes": 1985031,
+      "reduction_percent": 69
+    },
+    {
+      "source": "annual/2025.geojson",
+      "features": 86,
+      "source_bytes": 219409,
+      "map_index_bytes": 66999,
+      "details_bytes": 205415,
+      "reduction_percent": 69
+    },
+    {
+      "source": "reference-2010/2010.geojson",
+      "features": 320,
+      "source_bytes": 1410863,
+      "map_index_bytes": 260200,
+      "details_bytes": 1348213,
+      "reduction_percent": 82
+    },
+    {
+      "source": "reference-2010/2011.geojson",
+      "features": 298,
+      "source_bytes": 1905274,
+      "map_index_bytes": 248617,
+      "details_bytes": 1847626,
+      "reduction_percent": 87
+    },
+    {
+      "source": "reference-2010/2012.geojson",
+      "features": 259,
+      "source_bytes": 2717287,
+      "map_index_bytes": 217770,
+      "details_bytes": 2667531,
+      "reduction_percent": 92
+    },
+    {
+      "source": "reference-2010/2013.geojson",
+      "features": 258,
+      "source_bytes": 2815304,
+      "map_index_bytes": 217118,
+      "details_bytes": 2765832,
+      "reduction_percent": 92
+    },
+    {
+      "source": "reference-2010/2014.geojson",
+      "features": 258,
+      "source_bytes": 2816493,
+      "map_index_bytes": 217158,
+      "details_bytes": 2767005,
+      "reduction_percent": 92
+    },
+    {
+      "source": "reference-2010/2015.geojson",
+      "features": 258,
+      "source_bytes": 2816419,
+      "map_index_bytes": 217179,
+      "details_bytes": 2766940,
+      "reduction_percent": 92
+    },
+    {
+      "source": "reference-2010/2016.geojson",
+      "features": 258,
+      "source_bytes": 2815376,
+      "map_index_bytes": 217198,
+      "details_bytes": 2765921,
+      "reduction_percent": 92
+    },
+    {
+      "source": "reference-2010/2017.geojson",
+      "features": 258,
+      "source_bytes": 2816506,
+      "map_index_bytes": 217233,
+      "details_bytes": 2767041,
+      "reduction_percent": 92
+    },
+    {
+      "source": "reference-2010/2018.geojson",
+      "features": 258,
+      "source_bytes": 2814233,
+      "map_index_bytes": 217273,
+      "details_bytes": 2764750,
+      "reduction_percent": 92
+    },
+    {
+      "source": "reference-2010/2019.geojson",
+      "features": 258,
+      "source_bytes": 2815362,
+      "map_index_bytes": 217291,
+      "details_bytes": 2765886,
+      "reduction_percent": 92
+    },
+    {
+      "source": "reference-2010/2020.geojson",
+      "features": 258,
+      "source_bytes": 2816444,
+      "map_index_bytes": 217342,
+      "details_bytes": 2766955,
+      "reduction_percent": 92
+    },
+    {
+      "source": "reference-2010/2021.geojson",
+      "features": 258,
+      "source_bytes": 2816522,
+      "map_index_bytes": 217304,
+      "details_bytes": 2767066,
+      "reduction_percent": 92
+    },
+    {
+      "source": "reference-2010/2022.geojson",
+      "features": 258,
+      "source_bytes": 2815405,
+      "map_index_bytes": 217341,
+      "details_bytes": 2765924,
+      "reduction_percent": 92
+    },
+    {
+      "source": "reference-2010/2023.geojson",
+      "features": 258,
+      "source_bytes": 2816471,
+      "map_index_bytes": 217333,
+      "details_bytes": 2766983,
+      "reduction_percent": 92
+    },
+    {
+      "source": "reference-2010/2024.geojson",
+      "features": 258,
+      "source_bytes": 2816631,
+      "map_index_bytes": 217337,
+      "details_bytes": 2767155,
+      "reduction_percent": 92
+    },
+    {
+      "source": "reference-2010/2025.geojson",
+      "features": 258,
+      "source_bytes": 2428987,
+      "map_index_bytes": 217297,
+      "details_bytes": 2379954,
+      "reduction_percent": 91
+    },
+    {
+      "source": "reference-2010/2026.geojson",
+      "features": 211,
+      "source_bytes": 1867204,
+      "map_index_bytes": 177713,
+      "details_bytes": 1826939,
+      "reduction_percent": 90
+    },
+    {
+      "source": "series-2015/annual/2015.geojson",
+      "features": 0,
+      "source_bytes": 224,
+      "map_index_bytes": 239,
+      "details_bytes": 0,
+      "reduction_percent": -7
+    },
+    {
+      "source": "series-2015/reference2015/2015.geojson",
+      "features": 1166,
+      "source_bytes": 7110704,
+      "map_index_bytes": 1117871,
+      "details_bytes": 6908494,
+      "reduction_percent": 84
+    },
+    {
+      "source": "series-2015/reference2020/2015.geojson",
+      "features": 0,
+      "source_bytes": 189,
+      "map_index_bytes": 239,
+      "details_bytes": 0,
+      "reduction_percent": -26
+    },
+    {
+      "source": "series-2015/annual/2016.geojson",
+      "features": 236,
+      "source_bytes": 2241528,
+      "map_index_bytes": 222370,
+      "details_bytes": 2203902,
+      "reduction_percent": 90
+    },
+    {
+      "source": "series-2015/reference2015/2016.geojson",
+      "features": 476,
+      "source_bytes": 2944606,
+      "map_index_bytes": 469674,
+      "details_bytes": 2860883,
+      "reduction_percent": 84
+    },
+    {
+      "source": "series-2015/reference2020/2016.geojson",
+      "features": 0,
+      "source_bytes": 189,
+      "map_index_bytes": 239,
+      "details_bytes": 0,
+      "reduction_percent": -26
+    },
+    {
+      "source": "series-2015/annual/2017.geojson",
+      "features": 878,
+      "source_bytes": 7721799,
+      "map_index_bytes": 826749,
+      "details_bytes": 7579979,
+      "reduction_percent": 89
+    },
+    {
+      "source": "series-2015/reference2015/2017.geojson",
+      "features": 622,
+      "source_bytes": 3897503,
+      "map_index_bytes": 608848,
+      "details_bytes": 3787865,
+      "reduction_percent": 84
+    },
+    {
+      "source": "series-2015/reference2020/2017.geojson",
+      "features": 0,
+      "source_bytes": 189,
+      "map_index_bytes": 239,
+      "details_bytes": 0,
+      "reduction_percent": -26
+    },
+    {
+      "source": "series-2015/annual/2018.geojson",
+      "features": 1446,
+      "source_bytes": 17994644,
+      "map_index_bytes": 1364772,
+      "details_bytes": 17777558,
+      "reduction_percent": 92
+    },
+    {
+      "source": "series-2015/reference2015/2018.geojson",
+      "features": 618,
+      "source_bytes": 5768619,
+      "map_index_bytes": 605683,
+      "details_bytes": 5664567,
+      "reduction_percent": 90
+    },
+    {
+      "source": "series-2015/reference2020/2018.geojson",
+      "features": 0,
+      "source_bytes": 189,
+      "map_index_bytes": 239,
+      "details_bytes": 0,
+      "reduction_percent": -26
+    },
+    {
+      "source": "series-2015/annual/2019.geojson",
+      "features": 2769,
+      "source_bytes": 19801461,
+      "map_index_bytes": 2462935,
+      "details_bytes": 19367766,
+      "reduction_percent": 88
+    },
+    {
+      "source": "series-2015/reference2015/2019.geojson",
+      "features": 618,
+      "source_bytes": 5768606,
+      "map_index_bytes": 605748,
+      "details_bytes": 5664530,
+      "reduction_percent": 89
+    },
+    {
+      "source": "series-2015/reference2020/2019.geojson",
+      "features": 0,
+      "source_bytes": 189,
+      "map_index_bytes": 239,
+      "details_bytes": 0,
+      "reduction_percent": -26
+    },
+    {
+      "source": "series-2015/annual/2020.geojson",
+      "features": 2918,
+      "source_bytes": 15297304,
+      "map_index_bytes": 2592117,
+      "details_bytes": 14819985,
+      "reduction_percent": 83
+    },
+    {
+      "source": "series-2015/reference2015/2020.geojson",
+      "features": 562,
+      "source_bytes": 3637802,
+      "map_index_bytes": 551641,
+      "details_bytes": 3539000,
+      "reduction_percent": 85
+    },
+    {
+      "source": "series-2015/reference2020/2020.geojson",
+      "features": 3290,
+      "source_bytes": 14239543,
+      "map_index_bytes": 3096131,
+      "details_bytes": 13661207,
+      "reduction_percent": 78
+    },
+    {
+      "source": "series-2015/annual/2021.geojson",
+      "features": 2343,
+      "source_bytes": 12500718,
+      "map_index_bytes": 2012964,
+      "details_bytes": 12022681,
+      "reduction_percent": 84
+    },
+    {
+      "source": "series-2015/reference2015/2021.geojson",
+      "features": 247,
+      "source_bytes": 775315,
+      "map_index_bytes": 249510,
+      "details_bytes": 730830,
+      "reduction_percent": 68
+    },
+    {
+      "source": "series-2015/reference2020/2021.geojson",
+      "features": 2195,
+      "source_bytes": 7600843,
+      "map_index_bytes": 2049377,
+      "details_bytes": 7201937,
+      "reduction_percent": 73
+    },
+    {
+      "source": "series-2015/annual/2022.geojson",
+      "features": 2451,
+      "source_bytes": 8600568,
+      "map_index_bytes": 2163969,
+      "details_bytes": 8183939,
+      "reduction_percent": 75
+    },
+    {
+      "source": "series-2015/reference2015/2022.geojson",
+      "features": 185,
+      "source_bytes": 578337,
+      "map_index_bytes": 185222,
+      "details_bytes": 546680,
+      "reduction_percent": 68
+    },
+    {
+      "source": "series-2015/reference2020/2022.geojson",
+      "features": 1929,
+      "source_bytes": 7376656,
+      "map_index_bytes": 1801243,
+      "details_bytes": 7027325,
+      "reduction_percent": 76
+    },
+    {
+      "source": "series-2015/annual/2023.geojson",
+      "features": 4101,
+      "source_bytes": 14528669,
+      "map_index_bytes": 3613655,
+      "details_bytes": 13847219,
+      "reduction_percent": 75
+    },
+    {
+      "source": "series-2015/reference2015/2023.geojson",
+      "features": 242,
+      "source_bytes": 752896,
+      "map_index_bytes": 242349,
+      "details_bytes": 711255,
+      "reduction_percent": 68
+    },
+    {
+      "source": "series-2015/reference2020/2023.geojson",
+      "features": 1929,
+      "source_bytes": 6950306,
+      "map_index_bytes": 1788986,
+      "details_bytes": 6612982,
+      "reduction_percent": 74
+    },
+    {
+      "source": "series-2015/annual/2024.geojson",
+      "features": 5012,
+      "source_bytes": 18117407,
+      "map_index_bytes": 4509340,
+      "details_bytes": 17266147,
+      "reduction_percent": 75
+    },
+    {
+      "source": "series-2015/reference2015/2024.geojson",
+      "features": 190,
+      "source_bytes": 609804,
+      "map_index_bytes": 190476,
+      "details_bytes": 576820,
+      "reduction_percent": 69
+    },
+    {
+      "source": "series-2015/reference2020/2024.geojson",
+      "features": 1995,
+      "source_bytes": 6617652,
+      "map_index_bytes": 1848482,
+      "details_bytes": 6267674,
+      "reduction_percent": 72
+    },
+    {
+      "source": "series-2015/annual/2025.geojson",
+      "features": 5025,
+      "source_bytes": 18765357,
+      "map_index_bytes": 4611618,
+      "details_bytes": 17885186,
+      "reduction_percent": 75
+    },
+    {
+      "source": "series-2015/reference2015/2025.geojson",
+      "features": 221,
+      "source_bytes": 725309,
+      "map_index_bytes": 221209,
+      "details_bytes": 687377,
+      "reduction_percent": 70
+    },
+    {
+      "source": "series-2015/reference2020/2025.geojson",
+      "features": 1023,
+      "source_bytes": 3650401,
+      "map_index_bytes": 958726,
+      "details_bytes": 3458114,
+      "reduction_percent": 74
+    },
+    {
+      "source": "series-2015/annual/2026.geojson",
+      "features": 6008,
+      "source_bytes": 37990657,
+      "map_index_bytes": 4997835,
+      "details_bytes": 37042842,
+      "reduction_percent": 87
+    },
+    {
+      "source": "series-2015/reference2015/2026.geojson",
+      "features": 230,
+      "source_bytes": 722093,
+      "map_index_bytes": 230284,
+      "details_bytes": 682598,
+      "reduction_percent": 68
+    },
+    {
+      "source": "series-2015/reference2020/2026.geojson",
+      "features": 1012,
+      "source_bytes": 3289226,
+      "map_index_bytes": 948508,
+      "details_bytes": 3098947,
+      "reduction_percent": 71
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "source_id": "S34",
+  "retrieved_utc": "2026-09-25",
+  "doi": "10.1016/j.rsma.2023.103247",
+  "url": "https://www.dropbox.com/s/8pok6qgc0ow04n5/Cambio%20l%C3%ADnea%20costa.kmz?dl=1",
+  "original_bytes": 3081450,
+  "original_sha256": "b46b1a221d228005fbc644b0db4993209d440313111b2b4376c7f0de91c1b836",
+  "unique_idPol_Tran_across_folders": 15479,
+  "series": {
+    "S2": {
+      "source_count": 15479,
+      "erosion_count": 6992,
+      "source_classes": {
+        "Estable": 4843,
+        "Acreción Alta": 2569,
+        "Acreción Baja": 1075,
+        "Erosión Baja": 2377,
+        "Erosión Alta": 4615
+      },
+      "derived_sha256": "7f3ed501d1e18cef6f5bd6abd20cfe0e3d97356e4ace0b053d54fa7fc819227b"
+    },
+    "L5": {
+      "source_count": 15249,
+      "erosion_count": 3385,
+      "source_classes": {
+        "Erosión Baja": 2041,
+        "Estable": 9342,
+        "Erosión Alta": 1344,
+        "Acreción Alta": 1134,
+        "Acreción Baja": 1388
+      },
+      "derived_sha256": "22cf69832b246c523674dfb46df36ca2e19903d09f152d67298648cdf76882df"
+    },
+    "L8": {
+      "source_count": 15167,
+      "erosion_count": 5328,
+      "source_classes": {
+        "Acreción Alta": 2367,
+        "Acreción Baja": 1057,
+        "Estable": 6415,
+        "Erosión Baja": 2065,
+        "Erosión Alta": 3263
+      },
+      "derived_sha256": "1589366bfab195196b3e1740a16970cdff7282069b94e4f147c122f0cac20f8a"
+    }
+  },
+  "method": "Select original Erosión Baja/Alta classes for each folder. Convert KML LineString to GeoJSON; preserve coordinates and all supplied fields. Missing cross-sensor fields remain absent. No rate calculation or temporal interpolation.",
+  "limitations": [
+    "Periods are mission ranges reported by paper section 3.3.2, not per-transect acquisition dates.",
+    "KMZ does not contain individual imagery, confidence intervals, cell boundaries or property boundaries.",
+    "Different folders overlap; never add their counts as unique sites.",
+    "Omitted transects are not a classification of healthy coast.",
+    "Separate dataset license not identified; attribution and source link retained."
+  ]
+}

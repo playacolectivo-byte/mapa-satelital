@@ -1,0 +1,9 @@
+profile_id,municipality,window_id,delta_m,n_2025,n_2026,context_review,context_flags,qc_status
+4-0-156,Hunucmá,FEB,-9.097195150372201,1,1,False,[],PRELIMINARY_root_RGB_review_complete_independent_numeric_QA_PENDING
+5-0-1,Hunucmá,FEB,0.5813889572829751,1,1,False,[],PRELIMINARY_root_RGB_review_complete_independent_numeric_QA_PENDING
+6-0-3,,FEB,-0.7722708331711363,1,1,True,"[""municipal_attribution_ambiguous"", ""near_port_channel_or_coastal_structures""]",PRELIMINARY_root_RGB_review_complete_independent_numeric_QA_PENDING
+88-0-41,Progreso,FEB,1.4135542207260974,1,1,False,[],PRELIMINARY_root_RGB_review_complete_independent_numeric_QA_PENDING
+88-0-58,Progreso,FEB,7.296061406823616,1,1,False,[],PRELIMINARY_root_RGB_review_complete_independent_numeric_QA_PENDING
+88-0-70,Progreso,FEB,12.520954847556407,1,1,False,[],PRELIMINARY_root_RGB_review_complete_independent_numeric_QA_PENDING
+522-0-0,Progreso,FEB,15.224744801303597,1,1,False,[],PRELIMINARY_root_RGB_review_complete_independent_numeric_QA_PENDING
+21-0-0,Dzilam de Bravo,MAY,5.728832907731912,1,1,True,"[""vegetated_coastal_fringe_and_turbid_water_indicator""]",PRELIMINARY_root_RGB_review_complete_independent_numeric_QA_PENDING

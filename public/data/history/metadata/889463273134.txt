@@ -1,0 +1,26 @@
+ORTOFOTO DIGITAL: F16C31F4
+
+FUENTE: Fotografías aéreas escala 1:40,000 de Enero de 2005.
+PROCESAMIENTO: Rectificación de fotografías aéreas, con auxilio de
+puntos de control geodésico y Modelo Digital de Elevación.
+PROYECCION: Universal Transversa de Mercator (UTM)
+DATUM: ITRF92
+ELIPSOIDE: GRS 80
+DIMENSIONES DE LA IMAGEN:
+            Columnas : 5935
+            Renglones: 7071
+ZONA UTM: 16
+COORDENADAS DE LA ESQUINA NOROESTE:
+            Este:   217453.0
+            Norte: 2359198.0
+COORDENADAS DE LA ESQUINA SURESTE:
+            Este:   223388
+            Norte: 2352127
+DIMENSIONES DEL PIXEL X,Y: 1.0 metros
+FORMATO: Datos binarios crudos: 1 byte por pixel
+
+
+NOTA:
+1.- ORTOFOTOS GENERADAS CON MODELO DE SUPERFICIE Y REALIZADAS A PARTIR DE UN MOSAICO.
+2.- PRESENCIA DE PELUSA Y MARCAS DEL REVELADO EN f4.
+3.- PRESENCIA DE RAYONES EN f4.

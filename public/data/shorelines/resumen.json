@@ -1,0 +1,576 @@
+{
+  "generated_at": "2026-10-29T01:40:28.046788+00:00",
+  "method": "S2-C1-NDWI-strict100+rescue60+alternate-lote2-CANDIDATE",
+  "scenes_selected": 96,
+  "scenes_received": 96,
+  "profiles_total": 2884,
+  "annual_positions": 4613,
+  "change_bars": 2105,
+  "valid_single_scene_positions": 10441,
+  "observations_by_method_family": {
+    "v2.1_ancla_local_y_mar_continuo": 2644,
+    "v1_anclas_lejanas": 7797
+  },
+  "v2_candidates_added_before_orientation_filter": 2644,
+  "combination_rule": "v1firstforprofile+scene;v2.1onlyiffirstmethodnotvalid;oneobservationperscene,commonorientation;conflictsrejected",
+  "status_counts": {
+    "sin_comparacion_2025_2026": 779,
+    "cambio_parcial_procesado": 1615,
+    "cambio_multifecha_procesado": 443,
+    "atribucion_municipal_ambigua": 47
+  },
+  "by_municipality": {
+    "Celestún": {
+      "sin_comparacion_2025_2026": 87,
+      "cambio_parcial_procesado": 267,
+      "cambio_multifecha_procesado": 12
+    },
+    "Hunucmá": {
+      "cambio_parcial_procesado": 163,
+      "sin_comparacion_2025_2026": 171,
+      "cambio_multifecha_procesado": 46
+    },
+    "AMBIGUO": {
+      "sin_comparacion_2025_2026": 20,
+      "atribucion_municipal_ambigua": 47
+    },
+    "Río Lagartos": {
+      "cambio_parcial_procesado": 228,
+      "sin_comparacion_2025_2026": 87,
+      "cambio_multifecha_procesado": 28
+    },
+    "Tizimín": {
+      "sin_comparacion_2025_2026": 51,
+      "cambio_parcial_procesado": 259,
+      "cambio_multifecha_procesado": 42
+    },
+    "San Felipe": {
+      "sin_comparacion_2025_2026": 47,
+      "cambio_parcial_procesado": 63,
+      "cambio_multifecha_procesado": 3
+    },
+    "Dzilam de Bravo": {
+      "cambio_parcial_procesado": 188,
+      "sin_comparacion_2025_2026": 163,
+      "cambio_multifecha_procesado": 45
+    },
+    "Dzidzantún": {
+      "sin_comparacion_2025_2026": 42,
+      "cambio_parcial_procesado": 43,
+      "cambio_multifecha_procesado": 14
+    },
+    "Yobaín": {
+      "cambio_multifecha_procesado": 15,
+      "cambio_parcial_procesado": 43,
+      "sin_comparacion_2025_2026": 13
+    },
+    "Telchac Puerto": {
+      "sin_comparacion_2025_2026": 10,
+      "cambio_parcial_procesado": 58,
+      "cambio_multifecha_procesado": 31
+    },
+    "Sinanché": {
+      "cambio_parcial_procesado": 36,
+      "cambio_multifecha_procesado": 30,
+      "sin_comparacion_2025_2026": 1
+    },
+    "Progreso": {
+      "sin_comparacion_2025_2026": 79,
+      "cambio_parcial_procesado": 163,
+      "cambio_multifecha_procesado": 129
+    },
+    "Ixil": {
+      "cambio_parcial_procesado": 28,
+      "cambio_multifecha_procesado": 3,
+      "sin_comparacion_2025_2026": 1
+    },
+    "Dzemul": {
+      "cambio_parcial_procesado": 76,
+      "sin_comparacion_2025_2026": 7,
+      "cambio_multifecha_procesado": 45
+    }
+  },
+  "source_scene_receipts": {
+    "S2B_T15QYD_20250312T164725_L2A": {
+      "year": 2025,
+      "tile": "MGRS-15QYD",
+      "datetime": "2025-03-12T16:47:45.006000Z"
+    },
+    "S2C_T15QYD_20250307T164555_L2A": {
+      "year": 2025,
+      "tile": "MGRS-15QYD",
+      "datetime": "2025-03-07T16:48:07.128000Z"
+    },
+    "S2A_T15QYD_20250319T163700_L2A": {
+      "year": 2025,
+      "tile": "MGRS-15QYD",
+      "datetime": "2025-03-19T16:47:55.375000Z"
+    },
+    "S2B_T15QZD_20250319T162822_L2A": {
+      "year": 2025,
+      "tile": "MGRS-15QZD",
+      "datetime": "2025-03-19T16:37:47.327000Z"
+    },
+    "S2C_T15QZD_20250413T163452_L2A": {
+      "year": 2025,
+      "tile": "MGRS-15QZD",
+      "datetime": "2025-04-13T16:38:06.062000Z"
+    },
+    "S2C_T15QZD_20250314T163519_L2A": {
+      "year": 2025,
+      "tile": "MGRS-15QZD",
+      "datetime": "2025-03-14T16:38:07.818000Z"
+    },
+    "S2C_T16QBJ_20250413T163452_L2A": {
+      "year": 2025,
+      "tile": "MGRS-16QBJ",
+      "datetime": "2025-04-13T16:38:04.935000Z"
+    },
+    "S2B_T16QBJ_20250319T162822_L2A": {
+      "year": 2025,
+      "tile": "MGRS-16QBJ",
+      "datetime": "2025-03-19T16:37:46.200000Z"
+    },
+    "S2B_T16QBJ_20250418T163555_L2A": {
+      "year": 2025,
+      "tile": "MGRS-16QBJ",
+      "datetime": "2025-04-18T16:37:45.681000Z"
+    },
+    "S2C_T16QCJ_20250413T163452_L2A": {
+      "year": 2025,
+      "tile": "MGRS-16QCJ",
+      "datetime": "2025-04-13T16:38:01.632000Z"
+    },
+    "S2B_T16QCJ_20250319T162822_L2A": {
+      "year": 2025,
+      "tile": "MGRS-16QCJ",
+      "datetime": "2025-03-19T16:37:42.906000Z"
+    },
+    "S2B_T16QCJ_20250418T163555_L2A": {
+      "year": 2025,
+      "tile": "MGRS-16QCJ",
+      "datetime": "2025-04-18T16:37:42.386000Z"
+    },
+    "S2B_T16QDJ_20250319T162822_L2A": {
+      "year": 2025,
+      "tile": "MGRS-16QDJ",
+      "datetime": "2025-03-19T16:37:38.959000Z"
+    },
+    "S2C_T16QDJ_20250413T163452_L2A": {
+      "year": 2025,
+      "tile": "MGRS-16QDJ",
+      "datetime": "2025-04-13T16:37:57.673000Z"
+    },
+    "S2B_T16QDJ_20250418T163555_L2A": {
+      "year": 2025,
+      "tile": "MGRS-16QDJ",
+      "datetime": "2025-04-18T16:37:38.437000Z"
+    },
+    "S2B_T15QYD_20260327T164106_L2A": {
+      "year": 2026,
+      "tile": "MGRS-15QYD",
+      "datetime": "2026-03-27T16:47:39.709000Z"
+    },
+    "S2C_T15QYD_20260322T164046_L2A": {
+      "year": 2026,
+      "tile": "MGRS-15QYD",
+      "datetime": "2026-03-22T16:47:45.441000Z"
+    },
+    "S2A_T15QYD_20260403T163856_L2A": {
+      "year": 2026,
+      "tile": "MGRS-15QYD",
+      "datetime": "2026-04-03T16:48:03.206000Z"
+    },
+    "S2C_T15QZD_20260428T163509_L2A": {
+      "year": 2026,
+      "tile": "MGRS-15QZD",
+      "datetime": "2026-04-28T16:37:45.400000Z"
+    },
+    "S2A_T15QZD_20260331T163258_L2A": {
+      "year": 2026,
+      "tile": "MGRS-15QZD",
+      "datetime": "2026-03-31T16:38:04.665000Z"
+    },
+    "S2B_T15QZD_20260304T162939_L2A": {
+      "year": 2026,
+      "tile": "MGRS-15QZD",
+      "datetime": "2026-03-04T16:37:43.013000Z"
+    },
+    "S2B_T16QBJ_20260324T162938_L2A": {
+      "year": 2026,
+      "tile": "MGRS-16QBJ",
+      "datetime": "2026-03-24T16:37:40.602000Z"
+    },
+    "S2C_T16QBJ_20260428T163509_L2A": {
+      "year": 2026,
+      "tile": "MGRS-16QBJ",
+      "datetime": "2026-04-28T16:37:44.265000Z"
+    },
+    "S2A_T16QBJ_20260331T163258_L2A": {
+      "year": 2026,
+      "tile": "MGRS-16QBJ",
+      "datetime": "2026-03-31T16:38:03.535000Z"
+    },
+    "S2C_T16QCJ_20260418T163118_L2A": {
+      "year": 2026,
+      "tile": "MGRS-16QCJ",
+      "datetime": "2026-04-18T16:37:39.674000Z"
+    },
+    "S2B_T16QCJ_20260324T162938_L2A": {
+      "year": 2026,
+      "tile": "MGRS-16QCJ",
+      "datetime": "2026-03-24T16:37:37.309000Z"
+    },
+    "S2C_T16QCJ_20260428T163509_L2A": {
+      "year": 2026,
+      "tile": "MGRS-16QCJ",
+      "datetime": "2026-04-28T16:37:40.956000Z"
+    },
+    "S2C_T16QDJ_20260418T163118_L2A": {
+      "year": 2026,
+      "tile": "MGRS-16QDJ",
+      "datetime": "2026-04-18T16:37:35.715000Z"
+    },
+    "S2C_T16QDJ_20260408T163427_L2A": {
+      "year": 2026,
+      "tile": "MGRS-16QDJ",
+      "datetime": "2026-04-08T16:37:33.783000Z"
+    },
+    "S2B_T16QDJ_20260324T162938_L2A": {
+      "year": 2026,
+      "tile": "MGRS-16QDJ",
+      "datetime": "2026-03-24T16:37:33.360000Z"
+    },
+    "S2C_T15QYD_20250327T164315_L2A": {
+      "year": 2025,
+      "tile": "MGRS-15QYD",
+      "datetime": "2025-03-27T16:48:04.541000Z"
+    },
+    "S2B_T15QZD_20250418T163555_L2A": {
+      "year": 2025,
+      "tile": "MGRS-15QZD",
+      "datetime": "2025-04-18T16:37:46.808000Z"
+    },
+    "S2C_T15QYD_20250426T164423_L2A": {
+      "year": 2025,
+      "tile": "MGRS-15QYD",
+      "datetime": "2025-04-26T16:48:05.271000Z"
+    },
+    "S2A_T15QYD_20250428T164346_L2A": {
+      "year": 2025,
+      "tile": "MGRS-15QYD",
+      "datetime": "2025-04-28T16:47:57.476000Z"
+    },
+    "S2A_T15QZD_20250415T162701_L2A": {
+      "year": 2025,
+      "tile": "MGRS-15QZD",
+      "datetime": "2025-04-15T16:37:57.466000Z"
+    },
+    "S2B_T15QZD_20250309T162600_L2A": {
+      "year": 2025,
+      "tile": "MGRS-15QZD",
+      "datetime": "2025-03-09T16:37:47.196000Z"
+    },
+    "S2A_T16QBJ_20250415T162701_L2A": {
+      "year": 2025,
+      "tile": "MGRS-16QBJ",
+      "datetime": "2025-04-15T16:37:56.335000Z"
+    },
+    "S2C_T16QBJ_20250314T163519_L2A": {
+      "year": 2025,
+      "tile": "MGRS-16QBJ",
+      "datetime": "2025-03-14T16:38:06.693000Z"
+    },
+    "S2B_T16QBJ_20250309T162600_L2A": {
+      "year": 2025,
+      "tile": "MGRS-16QBJ",
+      "datetime": "2025-03-09T16:37:46.069000Z"
+    },
+    "S2A_T16QCJ_20250415T162701_L2A": {
+      "year": 2025,
+      "tile": "MGRS-16QCJ",
+      "datetime": "2025-04-15T16:37:53.035000Z"
+    },
+    "S2C_T16QCJ_20250314T163519_L2A": {
+      "year": 2025,
+      "tile": "MGRS-16QCJ",
+      "datetime": "2025-03-14T16:38:03.392000Z"
+    },
+    "S2A_T16QCJ_20250326T163011_L2A": {
+      "year": 2025,
+      "tile": "MGRS-16QCJ",
+      "datetime": "2025-03-26T16:37:48.582000Z"
+    },
+    "S2C_T16QDJ_20250314T163519_L2A": {
+      "year": 2025,
+      "tile": "MGRS-16QDJ",
+      "datetime": "2025-03-14T16:37:59.433000Z"
+    },
+    "S2A_T16QDJ_20250326T163011_L2A": {
+      "year": 2025,
+      "tile": "MGRS-16QDJ",
+      "datetime": "2025-03-26T16:37:44.625000Z"
+    },
+    "S2C_T16QDJ_20250304T163635_L2A": {
+      "year": 2025,
+      "tile": "MGRS-16QDJ",
+      "datetime": "2025-03-04T16:38:00.531000Z"
+    },
+    "S2B_T15QYD_20260307T164442_L2A": {
+      "year": 2026,
+      "tile": "MGRS-15QYD",
+      "datetime": "2026-03-07T16:47:41.444000Z"
+    },
+    "S2A_T15QYD_20260423T163857_L2A": {
+      "year": 2026,
+      "tile": "MGRS-15QYD",
+      "datetime": "2026-04-23T16:48:00.462000Z"
+    },
+    "S2B_T15QYD_20260416T164554_L2A": {
+      "year": 2026,
+      "tile": "MGRS-15QYD",
+      "datetime": "2026-04-16T16:47:40.375000Z"
+    },
+    "S2B_T15QZD_20260324T162938_L2A": {
+      "year": 2026,
+      "tile": "MGRS-15QZD",
+      "datetime": "2026-03-24T16:37:41.724000Z"
+    },
+    "S2B_T15QZD_20260423T163328_L2A": {
+      "year": 2026,
+      "tile": "MGRS-15QZD",
+      "datetime": "2026-04-23T16:37:39.936000Z"
+    },
+    "S2B_T15QZD_20260327T164106_L2A": {
+      "year": 2026,
+      "tile": "MGRS-15QZD",
+      "datetime": "2026-03-27T16:47:37.549000Z"
+    },
+    "S2B_T16QBJ_20260423T163328_L2A": {
+      "year": 2026,
+      "tile": "MGRS-16QBJ",
+      "datetime": "2026-04-23T16:37:38.820000Z"
+    },
+    "S2B_T16QBJ_20260327T164106_L2A": {
+      "year": 2026,
+      "tile": "MGRS-16QBJ",
+      "datetime": "2026-03-27T16:47:35.690000Z"
+    },
+    "S2C_T16QBJ_20260329T163543_L2A": {
+      "year": 2026,
+      "tile": "MGRS-16QBJ",
+      "datetime": "2026-03-29T16:37:44.692000Z"
+    },
+    "S2B_T16QCJ_20260423T163328_L2A": {
+      "year": 2026,
+      "tile": "MGRS-16QCJ",
+      "datetime": "2026-04-23T16:37:35.530000Z"
+    },
+    "S2C_T16QCJ_20260408T163427_L2A": {
+      "year": 2026,
+      "tile": "MGRS-16QCJ",
+      "datetime": "2026-04-08T16:37:37.745000Z"
+    },
+    "S2B_T16QCJ_20260403T163534_L2A": {
+      "year": 2026,
+      "tile": "MGRS-16QCJ",
+      "datetime": "2026-04-03T16:37:38.941000Z"
+    },
+    "S2C_T16QDJ_20260309T163431_L2A": {
+      "year": 2026,
+      "tile": "MGRS-16QDJ",
+      "datetime": "2026-03-09T16:37:37.617000Z"
+    },
+    "S2C_T16QDJ_20260428T163509_L2A": {
+      "year": 2026,
+      "tile": "MGRS-16QDJ",
+      "datetime": "2026-04-28T16:37:37.005000Z"
+    },
+    "S2B_T16QDJ_20260304T162939_L2A": {
+      "year": 2026,
+      "tile": "MGRS-16QDJ",
+      "datetime": "2026-03-04T16:37:34.644000Z"
+    },
+    "S2A_T16QBJ_20250326T163011_L2A": {
+      "year": 2025,
+      "tile": "MGRS-16QBJ",
+      "datetime": "2025-03-26T16:37:51.871000Z"
+    },
+    "S2A_T16QCJ_20260420T162815_L2A": {
+      "year": 2026,
+      "tile": "MGRS-16QCJ",
+      "datetime": "2026-04-20T16:37:58.241000Z"
+    },
+    "S2B_T15QYD_20250411T164025_L2A": {
+      "year": 2025,
+      "tile": "MGRS-15QYD",
+      "datetime": "2025-04-11T16:47:45.697000Z"
+    },
+    "S2B_T16QCJ_20260304T162939_L2A": {
+      "year": 2026,
+      "tile": "MGRS-16QCJ",
+      "datetime": "2026-03-04T16:37:38.593000Z"
+    },
+    "S2C_T16QDJ_20260329T163543_L2A": {
+      "year": 2026,
+      "tile": "MGRS-16QDJ",
+      "datetime": "2026-03-29T16:37:37.430000Z"
+    },
+    "S2A_T15QZD_20250319T163700_L2A": {
+      "year": 2025,
+      "tile": "MGRS-15QZD",
+      "datetime": "2025-03-19T16:47:52.046000Z"
+    },
+    "S2A_T15QYD_20260314T164357_L2A": {
+      "year": 2026,
+      "tile": "MGRS-15QYD",
+      "datetime": "2026-03-14T16:48:03.986000Z"
+    },
+    "S2C_T15QZD_20260322T164046_L2A": {
+      "year": 2026,
+      "tile": "MGRS-15QZD",
+      "datetime": "2026-03-22T16:47:42.083000Z"
+    },
+    "S2C_T16QCJ_20250423T163210_L2A": {
+      "year": 2025,
+      "tile": "MGRS-16QCJ",
+      "datetime": "2025-04-23T16:38:02.056000Z"
+    },
+    "S2C_T15QYD_20250406T164500_L2A": {
+      "year": 2025,
+      "tile": "MGRS-15QYD",
+      "datetime": "2025-04-06T16:48:06.261000Z"
+    },
+    "S2C_T15QZD_20250307T164555_L2A": {
+      "year": 2025,
+      "tile": "MGRS-15QZD",
+      "datetime": "2025-03-07T16:48:03.784000Z"
+    },
+    "S2B_T15QYD_20260426T164122_L2A": {
+      "year": 2026,
+      "tile": "MGRS-15QYD",
+      "datetime": "2026-04-26T16:47:39.189000Z"
+    },
+    "S2B_T16QCK_20260304T162939_L2A": {
+      "year": 2026,
+      "tile": "MGRS-16QCK",
+      "datetime": "2026-03-04T16:37:24.029000Z"
+    },
+    "S2C_T16QDJ_20250324T163524_L2A": {
+      "year": 2025,
+      "tile": "MGRS-16QDJ",
+      "datetime": "2025-03-24T16:37:58.212000Z"
+    },
+    "S2B_T16QCJ_20250309T162600_L2A": {
+      "year": 2025,
+      "tile": "MGRS-16QCJ",
+      "datetime": "2025-03-09T16:37:42.777000Z"
+    },
+    "S2B_T15QZD_20260416T164554_L2A": {
+      "year": 2026,
+      "tile": "MGRS-15QZD",
+      "datetime": "2026-04-16T16:47:37.044000Z"
+    },
+    "S2B_T16QDJ_20260423T163328_L2A": {
+      "year": 2026,
+      "tile": "MGRS-16QDJ",
+      "datetime": "2026-04-23T16:37:31.578000Z"
+    },
+    "S2C_T16QBJ_20250403T163229_L2A": {
+      "year": 2025,
+      "tile": "MGRS-16QBJ",
+      "datetime": "2025-04-03T16:38:06.528000Z"
+    },
+    "S2A_T16QBJ_20260420T162815_L2A": {
+      "year": 2026,
+      "tile": "MGRS-16QBJ",
+      "datetime": "2026-04-20T16:38:01.540000Z"
+    },
+    "S2A_T15QZD_20260420T162815_L2A": {
+      "year": 2026,
+      "tile": "MGRS-15QZD",
+      "datetime": "2026-04-20T16:38:02.669000Z"
+    },
+    "S2C_T16QBJ_20260408T163427_L2A": {
+      "year": 2026,
+      "tile": "MGRS-16QBJ",
+      "datetime": "2026-04-08T16:37:41.043000Z"
+    },
+    "S2C_T15QZD_20260329T163543_L2A": {
+      "year": 2026,
+      "tile": "MGRS-15QZD",
+      "datetime": "2026-03-29T16:37:45.820000Z"
+    },
+    "S2A_T16QDJ_20250415T162701_L2A": {
+      "year": 2025,
+      "tile": "MGRS-16QDJ",
+      "datetime": "2025-04-15T16:37:49.083000Z"
+    },
+    "S2C_T16QCJ_20260309T163431_L2A": {
+      "year": 2026,
+      "tile": "MGRS-16QCJ",
+      "datetime": "2026-03-09T16:37:41.576000Z"
+    },
+    "S2B_T15QZD_20250312T164725_L2A": {
+      "year": 2025,
+      "tile": "MGRS-15QZD",
+      "datetime": "2025-03-12T16:47:41.671000Z"
+    },
+    "S2A_T16QDJ_20260420T162815_L2A": {
+      "year": 2026,
+      "tile": "MGRS-16QDJ",
+      "datetime": "2026-04-20T16:37:54.289000Z"
+    },
+    "S2C_T16QBJ_20250307T164555_L2A": {
+      "year": 2025,
+      "tile": "MGRS-16QBJ",
+      "datetime": "2025-03-07T16:48:01.746000Z"
+    },
+    "S2B_T16QCJ_20250428T162951_L2A": {
+      "year": 2025,
+      "tile": "MGRS-16QCJ",
+      "datetime": "2025-04-28T16:37:41.643000Z"
+    },
+    "S2C_T15QZD_20250327T164315_L2A": {
+      "year": 2025,
+      "tile": "MGRS-15QZD",
+      "datetime": "2025-03-27T16:48:01.202000Z"
+    },
+    "S2A_T16QBJ_20250319T163700_L2A": {
+      "year": 2025,
+      "tile": "MGRS-16QBJ",
+      "datetime": "2025-03-19T16:47:50.053000Z"
+    },
+    "S2C_T16QDJ_20250423T163210_L2A": {
+      "year": 2025,
+      "tile": "MGRS-16QDJ",
+      "datetime": "2025-04-23T16:37:58.100000Z"
+    },
+    "S2B_T15QYD_20250302T164354_L2A": {
+      "year": 2025,
+      "tile": "MGRS-15QYD",
+      "datetime": "2025-03-02T16:47:46.273000Z"
+    },
+    "S2C_T15QYD_20260302T164200_L2A": {
+      "year": 2026,
+      "tile": "MGRS-15QYD",
+      "datetime": "2026-03-02T16:47:43.757000Z"
+    },
+    "S2C_T15QYD_20250416T164222_L2A": {
+      "year": 2025,
+      "tile": "MGRS-15QYD",
+      "datetime": "2025-04-16T16:48:03.280000Z"
+    },
+    "S2A_T16QCJ_20260331T163258_L2A": {
+      "year": 2026,
+      "tile": "MGRS-16QCJ",
+      "datetime": "2026-03-31T16:38:00.236000Z"
+    },
+    "S2A_T16QDJ_20260331T163258_L2A": {
+      "year": 2026,
+      "tile": "MGRS-16QDJ",
+      "datetime": "2026-03-31T16:37:56.286000Z"
+    }
+  },
+  "note": "Capa científica derivada, no demuestra erosión confirmada. Diferencia entre medianas de capturas estacionales, no cierres anuales. Rango entre fechas no es intervalo de confianza total."
+}

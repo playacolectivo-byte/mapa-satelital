@@ -1,0 +1,1750 @@
+{
+  "prepared_on": "2026-10-22T20:09:40.678354+00:00",
+  "source": "Copernicus Sentinel-2 Level-2A / Microsoft Planetary Computer",
+  "license_url": "https://dataspace.copernicus.eu/terms-and-conditions",
+  "method": "Up to one scene per year and sector, January–April except 2015 June–December; lowest scene-level cloud cover below 15% among catalogue results. This is a visual selection, not an annual mosaic, local cloud validation, a tidally corrected shoreline, or an erosion measurement.",
+  "limitations": "10 m true-colour pixels. Cloud percentage describes the whole scene; no tide datum is attached. Original multispectral rasters have not been downloaded. Each accepted entry has a received, decoded nontransparent PNG sample and a STAC metadata snapshot.",
+  "sectors": [
+    {
+      "id": "west",
+      "name": "Celestún · El Palmar",
+      "point": [
+        -90.39,
+        20.87
+      ],
+      "tile": "15QYD"
+    },
+    {
+      "id": "east",
+      "name": "Sisal · Chelem · Chabihau",
+      "point": [
+        -89.743,
+        21.275
+      ],
+      "tile": "15QZD"
+    }
+  ],
+  "scenes": [
+    {
+      "id": "S2A_MSIL2A_20151225T163712_R083_T15QZD_20210526T182744",
+      "sector": "east",
+      "datetime": "2015-12-25T16:37:12.029000Z",
+      "platform": "Sentinel-2A",
+      "resolution_m": 10,
+      "cloud_cover_scene_pct": 0.273321,
+      "bbox": [
+        -90.1204748,
+        20.6664391,
+        -89.0418491,
+        21.6780763
+      ],
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -90.1012087,
+              21.6780763
+            ],
+            [
+              -90.1204748,
+              20.687251
+            ],
+            [
+              -89.0681176,
+              20.6664391
+            ],
+            [
+              -89.0418491,
+              21.6561717
+            ],
+            [
+              -90.1012087,
+              21.6780763
+            ],
+            [
+              -90.1012087,
+              21.6780763
+            ]
+          ]
+        ]
+      },
+      "tiles": "https://planetarycomputer.microsoft.com/api/data/v1/item/tiles/WebMercatorQuad/{z}/{x}/{y}@1x?collection=sentinel-2-l2a&item=S2A_MSIL2A_20151225T163712_R083_T15QZD_20210526T182744&assets=visual&asset_bidx=visual%7C1,2,3&nodata=0&format=png",
+      "native_zoom": 14,
+      "metadata_url": "https://planetarycomputer.microsoft.com/api/stac/v1/collections/sentinel-2-l2a/items/S2A_MSIL2A_20151225T163712_R083_T15QZD_20210526T182744",
+      "asset_url": "https://sentinel2l2a01.blob.core.windows.net/sentinel2-l2/15/Q/ZD/2015/12/25/S2A_MSIL2A_20151225T163712_N0300_R083_T15QZD_20210526T182744.SAFE/GRANULE/L2A_T15QZD_A002654_20151225T164536/IMG_DATA/R10m/T15QZD_20151225T163712_TCI_10m.tif",
+      "tide_m": null,
+      "verification": {
+        "kind": "rendered_png_sample",
+        "point": [
+          -89.743,
+          21.275
+        ],
+        "zoom": 13,
+        "path": "east-2015-z13.png",
+        "bytes": 107870,
+        "sha256": "7c3317ecf5ea5fd55e5610f310e597b35b6ec2f3cbd16cb84f95bfb238e2886d"
+      }
+    },
+    {
+      "id": "S2A_MSIL2A_20160410T162332_R040_T15QZD_20210211T030003",
+      "sector": "east",
+      "datetime": "2016-04-10T16:23:32.030000Z",
+      "platform": "Sentinel-2A",
+      "resolution_m": 10,
+      "cloud_cover_scene_pct": 12.184709,
+      "bbox": [
+        -90.1204748,
+        20.6664391,
+        -89.0418491,
+        21.6780763
+      ],
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -90.1012087,
+              21.6780763
+            ],
+            [
+              -90.1204748,
+              20.687251
+            ],
+            [
+              -89.0681176,
+              20.6664391
+            ],
+            [
+              -89.0418491,
+              21.6561717
+            ],
+            [
+              -90.1012087,
+              21.6780763
+            ]
+          ]
+        ]
+      },
+      "tiles": "https://planetarycomputer.microsoft.com/api/data/v1/item/tiles/WebMercatorQuad/{z}/{x}/{y}@1x?collection=sentinel-2-l2a&item=S2A_MSIL2A_20160410T162332_R040_T15QZD_20210211T030003&assets=visual&asset_bidx=visual%7C1,2,3&nodata=0&format=png",
+      "native_zoom": 14,
+      "metadata_url": "https://planetarycomputer.microsoft.com/api/stac/v1/collections/sentinel-2-l2a/items/S2A_MSIL2A_20160410T162332_R040_T15QZD_20210211T030003",
+      "asset_url": "https://sentinel2l2a01.blob.core.windows.net/sentinel2-l2/15/Q/ZD/2016/04/10/S2A_MSIL2A_20160410T162332_N0212_R040_T15QZD_20210211T030003.SAFE/GRANULE/L2A_T15QZD_A004184_20160410T163251/IMG_DATA/R10m/T15QZD_20160410T162332_TCI_10m.tif",
+      "tide_m": null,
+      "verification": {
+        "kind": "rendered_png_sample",
+        "point": [
+          -89.743,
+          21.275
+        ],
+        "zoom": 13,
+        "path": "east-2016-z13.png",
+        "bytes": 109950,
+        "sha256": "f889df12a3ad408503680232561607a218ccb3a99e17c2acd18a07621a60a4a4"
+      }
+    },
+    {
+      "id": "S2A_MSIL2A_20170224T162331_R040_T15QZD_20210208T164555",
+      "sector": "east",
+      "datetime": "2017-02-24T16:23:31.026000Z",
+      "platform": "Sentinel-2A",
+      "resolution_m": 10,
+      "cloud_cover_scene_pct": 0.517838,
+      "bbox": [
+        -90.1028527,
+        20.6664391,
+        -89.0418491,
+        21.673793
+      ],
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -89.5101151,
+              20.6751803
+            ],
+            [
+              -89.6301495,
+              20.6971609
+            ],
+            [
+              -89.6294441,
+              20.7001091
+            ],
+            [
+              -89.6318587,
+              20.7005072
+            ],
+            [
+              -89.6316974,
+              20.7012111
+            ],
+            [
+              -89.8518101,
+              20.7373351
+            ],
+            [
+              -89.8519155,
+              20.7368723
+            ],
+            [
+              -89.8520071,
+              20.7368873
+            ],
+            [
+              -89.8524152,
+              20.735117
+            ],
+            [
+              -89.8524239,
+              20.7351185
+            ],
+            [
+              -89.8524532,
+              20.7349921
+            ],
+            [
+              -89.8525816,
+              20.7350138
+            ],
+            [
+              -89.8526745,
+              20.734618
+            ],
+            [
+              -90.1028527,
+              20.7758695
+            ],
+            [
+              -90.0951937,
+              20.8084559
+            ],
+            [
+              -90.0606206,
+              20.956841
+            ],
+            [
+              -90.026043,
+              21.1052008
+            ],
+            [
+              -89.9915378,
+              21.2534905
+            ],
+            [
+              -89.9572124,
+              21.4017498
+            ],
+            [
+              -89.9228695,
+              21.5499643
+            ],
+            [
+              -89.8940544,
+              21.673793
+            ],
+            [
+              -89.0418491,
+              21.6561717
+            ],
+            [
+              -89.0681176,
+              20.6664391
+            ],
+            [
+              -89.5101151,
+              20.6751803
+            ],
+            [
+              -89.5101151,
+              20.6751803
+            ]
+          ]
+        ]
+      },
+      "tiles": "https://planetarycomputer.microsoft.com/api/data/v1/item/tiles/WebMercatorQuad/{z}/{x}/{y}@1x?collection=sentinel-2-l2a&item=S2A_MSIL2A_20170224T162331_R040_T15QZD_20210208T164555&assets=visual&asset_bidx=visual%7C1,2,3&nodata=0&format=png",
+      "native_zoom": 14,
+      "metadata_url": "https://planetarycomputer.microsoft.com/api/stac/v1/collections/sentinel-2-l2a/items/S2A_MSIL2A_20170224T162331_R040_T15QZD_20210208T164555",
+      "asset_url": "https://sentinel2l2a01.blob.core.windows.net/sentinel2-l2/15/Q/ZD/2017/02/24/S2A_MSIL2A_20170224T162331_N0212_R040_T15QZD_20210208T164555.SAFE/GRANULE/L2A_T15QZD_A008760_20170224T162512/IMG_DATA/R10m/T15QZD_20170224T162331_TCI_10m.tif",
+      "tide_m": null,
+      "verification": {
+        "kind": "rendered_png_sample",
+        "point": [
+          -89.743,
+          21.275
+        ],
+        "zoom": 13,
+        "path": "east-2017-z13.png",
+        "bytes": 113058,
+        "sha256": "794afb8641ffb213bc067c7ecc3f8896f8e52ec9f0722c87a1a2fa967682b2b8"
+      }
+    },
+    {
+      "id": "S2B_MSIL2A_20180326T161909_R040_T15QZD_20201013T144621",
+      "sector": "east",
+      "datetime": "2018-03-26T16:19:09.027000Z",
+      "platform": "Sentinel-2B",
+      "resolution_m": 10,
+      "cloud_cover_scene_pct": 0.779377,
+      "bbox": [
+        -90.12048,
+        20.6664391,
+        -89.04184,
+        21.6739406
+      ],
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -90.11951,
+              20.7375659
+            ],
+            [
+              -90.109314,
+              20.7814798
+            ],
+            [
+              -90.0748,
+              20.9298791
+            ],
+            [
+              -90.04022,
+              21.0783141
+            ],
+            [
+              -90.005615,
+              21.2267565
+            ],
+            [
+              -89.97098,
+              21.375193
+            ],
+            [
+              -89.93634,
+              21.5235736
+            ],
+            [
+              -89.90167,
+              21.6718592
+            ],
+            [
+              -89.901184,
+              21.6739406
+            ],
+            [
+              -89.04184,
+              21.6561717
+            ],
+            [
+              -89.068115,
+              20.6664391
+            ],
+            [
+              -90.12048,
+              20.687251
+            ],
+            [
+              -90.11951,
+              20.7375659
+            ]
+          ]
+        ]
+      },
+      "tiles": "https://planetarycomputer.microsoft.com/api/data/v1/item/tiles/WebMercatorQuad/{z}/{x}/{y}@1x?collection=sentinel-2-l2a&item=S2B_MSIL2A_20180326T161909_R040_T15QZD_20201013T144621&assets=visual&asset_bidx=visual%7C1,2,3&nodata=0&format=png",
+      "native_zoom": 14,
+      "metadata_url": "https://planetarycomputer.microsoft.com/api/stac/v1/collections/sentinel-2-l2a/items/S2B_MSIL2A_20180326T161909_R040_T15QZD_20201013T144621",
+      "asset_url": "https://sentinel2l2a01.blob.core.windows.net/sentinel2-l2/15/Q/ZD/2018/03/26/S2B_MSIL2A_20180326T161909_N0212_R040_T15QZD_20201013T144621.SAFE/GRANULE/L2A_T15QZD_A005500_20180326T162756/IMG_DATA/R10m/T15QZD_20180326T161909_TCI_10m.tif",
+      "tide_m": null,
+      "verification": {
+        "kind": "rendered_png_sample",
+        "point": [
+          -89.743,
+          21.275
+        ],
+        "zoom": 13,
+        "path": "east-2018-z13.png",
+        "bytes": 112546,
+        "sha256": "2dc4b6a0fcc802961c45a178fb5d0518ed9f16d9822a88b034dc09a42260e48f"
+      }
+    },
+    {
+      "id": "S2B_MSIL2A_20190410T161839_R040_T15QZD_20201105T113823",
+      "sector": "east",
+      "datetime": "2019-04-10T16:18:39.024000Z",
+      "platform": "Sentinel-2B",
+      "resolution_m": 10,
+      "cloud_cover_scene_pct": 0.512053,
+      "bbox": [
+        -90.12048,
+        20.6664391,
+        -89.04184,
+        21.6740568
+      ],
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -90.11899,
+              20.7629527
+            ],
+            [
+              -90.11252,
+              20.7909255
+            ],
+            [
+              -90.078125,
+              20.9392969
+            ],
+            [
+              -90.04364,
+              21.0877149
+            ],
+            [
+              -90.00906,
+              21.2361489
+            ],
+            [
+              -89.97443,
+              21.3845536
+            ],
+            [
+              -89.93979,
+              21.5329742
+            ],
+            [
+              -89.90683,
+              21.6740568
+            ],
+            [
+              -89.04184,
+              21.6561717
+            ],
+            [
+              -89.068115,
+              20.6664391
+            ],
+            [
+              -90.12048,
+              20.687251
+            ],
+            [
+              -90.11899,
+              20.7629527
+            ]
+          ]
+        ]
+      },
+      "tiles": "https://planetarycomputer.microsoft.com/api/data/v1/item/tiles/WebMercatorQuad/{z}/{x}/{y}@1x?collection=sentinel-2-l2a&item=S2B_MSIL2A_20190410T161839_R040_T15QZD_20201105T113823&assets=visual&asset_bidx=visual%7C1,2,3&nodata=0&format=png",
+      "native_zoom": 14,
+      "metadata_url": "https://planetarycomputer.microsoft.com/api/stac/v1/collections/sentinel-2-l2a/items/S2B_MSIL2A_20190410T161839_R040_T15QZD_20201105T113823",
+      "asset_url": "https://sentinel2l2a01.blob.core.windows.net/sentinel2-l2/15/Q/ZD/2019/04/10/S2B_MSIL2A_20190410T161839_N0212_R040_T15QZD_20201105T113823.SAFE/GRANULE/L2A_T15QZD_A010934_20190410T163256/IMG_DATA/R10m/T15QZD_20190410T161839_TCI_10m.tif",
+      "tide_m": null,
+      "verification": {
+        "kind": "rendered_png_sample",
+        "point": [
+          -89.743,
+          21.275
+        ],
+        "zoom": 13,
+        "path": "east-2019-z13.png",
+        "bytes": 109198,
+        "sha256": "39c0d28fe5e016e14032882dba3267e982b8a2182515de760155e5111608b291"
+      }
+    },
+    {
+      "id": "S2B_MSIL2A_20200424T161829_R040_T15QZD_20200921T233156",
+      "sector": "east",
+      "datetime": "2020-04-24T16:18:29.024000Z",
+      "platform": "Sentinel-2B",
+      "resolution_m": 10,
+      "cloud_cover_scene_pct": 0.770218,
+      "bbox": [
+        -90.12048,
+        20.6664391,
+        -89.04184,
+        21.6737553
+      ],
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -90.12033,
+              20.6945696
+            ],
+            [
+              -90.10779,
+              20.7487208
+            ],
+            [
+              -90.0733,
+              20.8970817
+            ],
+            [
+              -90.03879,
+              21.0454257
+            ],
+            [
+              -90.00424,
+              21.1937752
+            ],
+            [
+              -89.969635,
+              21.3421408
+            ],
+            [
+              -89.93503,
+              21.4905034
+            ],
+            [
+              -89.90039,
+              21.6388221
+            ],
+            [
+              -89.89224,
+              21.6737553
+            ],
+            [
+              -89.04184,
+              21.6561717
+            ],
+            [
+              -89.068115,
+              20.6664391
+            ],
+            [
+              -90.12048,
+              20.687251
+            ],
+            [
+              -90.12033,
+              20.6945696
+            ]
+          ]
+        ]
+      },
+      "tiles": "https://planetarycomputer.microsoft.com/api/data/v1/item/tiles/WebMercatorQuad/{z}/{x}/{y}@1x?collection=sentinel-2-l2a&item=S2B_MSIL2A_20200424T161829_R040_T15QZD_20200921T233156&assets=visual&asset_bidx=visual%7C1,2,3&nodata=0&format=png",
+      "native_zoom": 14,
+      "metadata_url": "https://planetarycomputer.microsoft.com/api/stac/v1/collections/sentinel-2-l2a/items/S2B_MSIL2A_20200424T161829_R040_T15QZD_20200921T233156",
+      "asset_url": "https://sentinel2l2a01.blob.core.windows.net/sentinel2-l2/15/Q/ZD/2020/04/24/S2B_MSIL2A_20200424T161829_N0212_R040_T15QZD_20200921T233156.SAFE/GRANULE/L2A_T15QZD_A016368_20200424T162601/IMG_DATA/R10m/T15QZD_20200424T161829_TCI_10m.tif",
+      "tide_m": null,
+      "verification": {
+        "kind": "rendered_png_sample",
+        "point": [
+          -89.743,
+          21.275
+        ],
+        "zoom": 13,
+        "path": "east-2020-z13.png",
+        "bytes": 96585,
+        "sha256": "71377132398bba9ec8084ef3c007f99db42ed1c5df45df2fb752e35bfe0521d0"
+      }
+    },
+    {
+      "id": "S2A_MSIL2A_20210325T161921_R040_T15QZD_20210326T072604",
+      "sector": "east",
+      "datetime": "2021-03-25T16:19:21.024000Z",
+      "platform": "Sentinel-2A",
+      "resolution_m": 10,
+      "cloud_cover_scene_pct": 0.721861,
+      "bbox": [
+        -90.12048,
+        20.6664391,
+        -89.04184,
+        21.6740058
+      ],
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -90.11923,
+              20.7517967
+            ],
+            [
+              -90.09421,
+              20.8595745
+            ],
+            [
+              -90.059784,
+              21.0078866
+            ],
+            [
+              -90.02527,
+              21.1562207
+            ],
+            [
+              -89.99066,
+              21.3046151
+            ],
+            [
+              -89.956024,
+              21.4530269
+            ],
+            [
+              -89.921326,
+              21.6014464
+            ],
+            [
+              -89.90436,
+              21.6740058
+            ],
+            [
+              -89.04184,
+              21.6561717
+            ],
+            [
+              -89.068115,
+              20.6664391
+            ],
+            [
+              -90.12048,
+              20.687251
+            ],
+            [
+              -90.11923,
+              20.7517967
+            ]
+          ]
+        ]
+      },
+      "tiles": "https://planetarycomputer.microsoft.com/api/data/v1/item/tiles/WebMercatorQuad/{z}/{x}/{y}@1x?collection=sentinel-2-l2a&item=S2A_MSIL2A_20210325T161921_R040_T15QZD_20210326T072604&assets=visual&asset_bidx=visual%7C1,2,3&nodata=0&format=png",
+      "native_zoom": 14,
+      "metadata_url": "https://planetarycomputer.microsoft.com/api/stac/v1/collections/sentinel-2-l2a/items/S2A_MSIL2A_20210325T161921_R040_T15QZD_20210326T072604",
+      "asset_url": "https://sentinel2l2a01.blob.core.windows.net/sentinel2-l2/15/Q/ZD/2021/03/25/S2A_MSIL2A_20210325T161921_N0212_R040_T15QZD_20210326T072604.SAFE/GRANULE/L2A_T15QZD_A030067_20210325T163554/IMG_DATA/R10m/T15QZD_20210325T161921_TCI_10m.tif",
+      "tide_m": null,
+      "verification": {
+        "kind": "rendered_png_sample",
+        "point": [
+          -89.743,
+          21.275
+        ],
+        "zoom": 13,
+        "path": "east-2021-z13.png",
+        "bytes": 114946,
+        "sha256": "4e2d6fc57d52b3369df1edc6a6622d97bffbd222d9af9cb5fc57c4f9ad78b0fc"
+      }
+    },
+    {
+      "id": "S2B_MSIL2A_20220404T161829_R040_T15QZD_20240603T090951",
+      "sector": "east",
+      "datetime": "2022-04-04T16:18:29.024000Z",
+      "platform": "Sentinel-2B",
+      "resolution_m": 10,
+      "cloud_cover_scene_pct": 0.63493,
+      "bbox": [
+        -90.1204748,
+        20.6664391,
+        -89.0418491,
+        21.6740277
+      ],
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -90.1191266,
+              20.7565863
+            ],
+            [
+              -90.1031448,
+              20.8253652
+            ],
+            [
+              -90.0686077,
+              20.9737922
+            ],
+            [
+              -90.0340411,
+              21.1222203
+            ],
+            [
+              -89.9994554,
+              21.2706305
+            ],
+            [
+              -89.9648631,
+              21.4189994
+            ],
+            [
+              -89.9302868,
+              21.5673266
+            ],
+            [
+              -89.9054069,
+              21.6740277
+            ],
+            [
+              -89.0418491,
+              21.6561717
+            ],
+            [
+              -89.0681176,
+              20.6664391
+            ],
+            [
+              -90.1204748,
+              20.687251
+            ],
+            [
+              -90.1191266,
+              20.7565863
+            ]
+          ]
+        ]
+      },
+      "tiles": "https://planetarycomputer.microsoft.com/api/data/v1/item/tiles/WebMercatorQuad/{z}/{x}/{y}@1x?collection=sentinel-2-l2a&item=S2B_MSIL2A_20220404T161829_R040_T15QZD_20240603T090951&assets=visual&asset_bidx=visual%7C1,2,3&nodata=0&format=png",
+      "native_zoom": 14,
+      "metadata_url": "https://planetarycomputer.microsoft.com/api/stac/v1/collections/sentinel-2-l2a/items/S2B_MSIL2A_20220404T161829_R040_T15QZD_20240603T090951",
+      "asset_url": "https://sentinel2l2a01.blob.core.windows.net/sentinel2-l2/15/Q/ZD/2022/04/04/S2B_MSIL2A_20220404T161829_N0510_R040_T15QZD_20240603T090951.SAFE/GRANULE/L2A_T15QZD_A026521_20220404T163128/IMG_DATA/R10m/T15QZD_20220404T161829_TCI_10m.tif",
+      "tide_m": null,
+      "verification": {
+        "kind": "rendered_png_sample",
+        "point": [
+          -89.743,
+          21.275
+        ],
+        "zoom": 13,
+        "path": "east-2022-z13.png",
+        "bytes": 123983,
+        "sha256": "147d9a4b98571d5a5c27347926383883dd4c3c069708a1e8785f5c3dfb1f37ac"
+      }
+    },
+    {
+      "id": "S2B_MSIL2A_20230313T163059_R083_T15QZD_20240820T081811",
+      "sector": "east",
+      "datetime": "2023-03-13T16:30:59.024000Z",
+      "platform": "Sentinel-2B",
+      "resolution_m": 10,
+      "cloud_cover_scene_pct": 0.014119,
+      "bbox": [
+        -90.1204748,
+        20.6804581,
+        -89.5277871,
+        21.6780763
+      ],
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -89.5277871,
+              21.6662196
+            ],
+            [
+              -89.5436568,
+              21.6040068
+            ],
+            [
+              -89.5812919,
+              21.4559523
+            ],
+            [
+              -89.6187767,
+              21.3079284
+            ],
+            [
+              -89.6561787,
+              21.1599617
+            ],
+            [
+              -89.6935304,
+              21.0119723
+            ],
+            [
+              -89.7308052,
+              20.8639933
+            ],
+            [
+              -89.7464599,
+              20.8016561
+            ],
+            [
+              -89.7678894,
+              20.7165698
+            ],
+            [
+              -89.7769893,
+              20.6804581
+            ],
+            [
+              -90.1204748,
+              20.687251
+            ],
+            [
+              -90.1012087,
+              21.6780763
+            ],
+            [
+              -89.5277871,
+              21.6662196
+            ]
+          ]
+        ]
+      },
+      "tiles": "https://planetarycomputer.microsoft.com/api/data/v1/item/tiles/WebMercatorQuad/{z}/{x}/{y}@1x?collection=sentinel-2-l2a&item=S2B_MSIL2A_20230313T163059_R083_T15QZD_20240820T081811&assets=visual&asset_bidx=visual%7C1,2,3&nodata=0&format=png",
+      "native_zoom": 14,
+      "metadata_url": "https://planetarycomputer.microsoft.com/api/stac/v1/collections/sentinel-2-l2a/items/S2B_MSIL2A_20230313T163059_R083_T15QZD_20240820T081811",
+      "asset_url": "https://sentinel2l2a01.blob.core.windows.net/sentinel2-l2/15/Q/ZD/2023/03/13/S2B_MSIL2A_20230313T163059_N0510_R083_T15QZD_20240820T081811.SAFE/GRANULE/L2A_T15QZD_A031426_20230313T164132/IMG_DATA/R10m/T15QZD_20230313T163059_TCI_10m.tif",
+      "tide_m": null,
+      "verification": {
+        "kind": "rendered_png_sample",
+        "point": [
+          -89.743,
+          21.275
+        ],
+        "zoom": 13,
+        "path": "east-2023-z13.png",
+        "bytes": 126472,
+        "sha256": "d8295faa7ab1f076df4643d443f0434283ccb4d6249bb29565136d9eca64ee87"
+      }
+    },
+    {
+      "id": "S2B_MSIL2A_20240406T162829_R083_T15QZD_20240406T211445",
+      "sector": "east",
+      "datetime": "2024-04-06T16:28:29.024000Z",
+      "platform": "Sentinel-2B",
+      "resolution_m": 10,
+      "cloud_cover_scene_pct": 0.194344,
+      "bbox": [
+        -90.1204748,
+        20.6801901,
+        -89.5137236,
+        21.6780763
+      ],
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -89.5137236,
+              21.6659288
+            ],
+            [
+              -89.5450136,
+              21.5428857
+            ],
+            [
+              -89.5826274,
+              21.394761
+            ],
+            [
+              -89.6202114,
+              21.2465811
+            ],
+            [
+              -89.6577736,
+              21.0983918
+            ],
+            [
+              -89.6952771,
+              20.9502035
+            ],
+            [
+              -89.7327206,
+              20.8020218
+            ],
+            [
+              -89.7634361,
+              20.6801901
+            ],
+            [
+              -90.1204748,
+              20.687251
+            ],
+            [
+              -90.1012087,
+              21.6780763
+            ],
+            [
+              -89.5137236,
+              21.6659288
+            ]
+          ]
+        ]
+      },
+      "tiles": "https://planetarycomputer.microsoft.com/api/data/v1/item/tiles/WebMercatorQuad/{z}/{x}/{y}@1x?collection=sentinel-2-l2a&item=S2B_MSIL2A_20240406T162829_R083_T15QZD_20240406T211445&assets=visual&asset_bidx=visual%7C1,2,3&nodata=0&format=png",
+      "native_zoom": 14,
+      "metadata_url": "https://planetarycomputer.microsoft.com/api/stac/v1/collections/sentinel-2-l2a/items/S2B_MSIL2A_20240406T162829_R083_T15QZD_20240406T211445",
+      "asset_url": "https://sentinel2l2a01.blob.core.windows.net/sentinel2-l2/15/Q/ZD/2024/04/06/S2B_MSIL2A_20240406T162829_N0510_R083_T15QZD_20240406T211445.SAFE/GRANULE/L2A_T15QZD_A037003_20240406T164357/IMG_DATA/R10m/T15QZD_20240406T162829_TCI_10m.tif",
+      "tide_m": null,
+      "verification": {
+        "kind": "rendered_png_sample",
+        "point": [
+          -89.743,
+          21.275
+        ],
+        "zoom": 13,
+        "path": "east-2024-z13.png",
+        "bytes": 139534,
+        "sha256": "3c05dead3e6b9aefc9e4f856c37586f4af10aae7e9ea655aa0adfcaad0efffdd"
+      }
+    },
+    {
+      "id": "S2C_MSIL2A_20250413T161851_R040_T15QZD_20250413T212014",
+      "sector": "east",
+      "datetime": "2025-04-13T16:18:51.025000Z",
+      "platform": "Sentinel-2C",
+      "resolution_m": 10,
+      "cloud_cover_scene_pct": 0.021079,
+      "bbox": [
+        -90.1204748,
+        20.6664391,
+        -89.0418491,
+        21.6742083
+      ],
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -90.1183374,
+              20.7971737
+            ],
+            [
+              -90.1018111,
+              20.8683272
+            ],
+            [
+              -90.0672789,
+              21.0167459
+            ],
+            [
+              -90.0327698,
+              21.1651703
+            ],
+            [
+              -89.9982726,
+              21.3135818
+            ],
+            [
+              -89.96374,
+              21.4619468
+            ],
+            [
+              -89.9291161,
+              21.6102526
+            ],
+            [
+              -89.9141407,
+              21.6742083
+            ],
+            [
+              -89.0418491,
+              21.6561717
+            ],
+            [
+              -89.0681176,
+              20.6664391
+            ],
+            [
+              -90.1204748,
+              20.687251
+            ],
+            [
+              -90.1183374,
+              20.7971737
+            ]
+          ]
+        ]
+      },
+      "tiles": "https://planetarycomputer.microsoft.com/api/data/v1/item/tiles/WebMercatorQuad/{z}/{x}/{y}@1x?collection=sentinel-2-l2a&item=S2C_MSIL2A_20250413T161851_R040_T15QZD_20250413T212014&assets=visual&asset_bidx=visual%7C1,2,3&nodata=0&format=png",
+      "native_zoom": 14,
+      "metadata_url": "https://planetarycomputer.microsoft.com/api/stac/v1/collections/sentinel-2-l2a/items/S2C_MSIL2A_20250413T161851_R040_T15QZD_20250413T212014",
+      "asset_url": "https://sentinel2l2a01.blob.core.windows.net/sentinel2-l2/15/Q/ZD/2025/04/13/S2C_MSIL2A_20250413T161851_N0511_R040_T15QZD_20250413T212014.SAFE/GRANULE/L2A_T15QZD_A003156_20250413T163452/IMG_DATA/R10m/T15QZD_20250413T161851_TCI_10m.tif",
+      "tide_m": null,
+      "verification": {
+        "kind": "rendered_png_sample",
+        "point": [
+          -89.743,
+          21.275
+        ],
+        "zoom": 13,
+        "path": "east-2025-z13.png",
+        "bytes": 121487,
+        "sha256": "8b842c8546e03ef0cff736ca293074cc0e8eedb1de31d7f8bfd4bfcafd2460cb"
+      }
+    },
+    {
+      "id": "S2C_MSIL2A_20260428T161901_R040_T15QZD_20260428T211111",
+      "sector": "east",
+      "datetime": "2026-04-28T16:19:01.025000Z",
+      "platform": "Sentinel-2C",
+      "resolution_m": 10,
+      "cloud_cover_scene_pct": 0.26246,
+      "bbox": [
+        -90.1204748,
+        20.6664391,
+        -89.0418491,
+        21.6743977
+      ],
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -90.1174927,
+              20.8406139
+            ],
+            [
+              -90.1147575,
+              20.8524047
+            ],
+            [
+              -90.0802926,
+              21.0007585
+            ],
+            [
+              -90.0458002,
+              21.1491002
+            ],
+            [
+              -90.0112677,
+              21.2974405
+            ],
+            [
+              -89.9766994,
+              21.4457754
+            ],
+            [
+              -89.9420856,
+              21.5940614
+            ],
+            [
+              -89.9233006,
+              21.6743977
+            ],
+            [
+              -89.0418491,
+              21.6561717
+            ],
+            [
+              -89.0681176,
+              20.6664391
+            ],
+            [
+              -90.1204748,
+              20.687251
+            ],
+            [
+              -90.1174927,
+              20.8406139
+            ]
+          ]
+        ]
+      },
+      "tiles": "https://planetarycomputer.microsoft.com/api/data/v1/item/tiles/WebMercatorQuad/{z}/{x}/{y}@1x?collection=sentinel-2-l2a&item=S2C_MSIL2A_20260428T161901_R040_T15QZD_20260428T211111&assets=visual&asset_bidx=visual%7C1,2,3&nodata=0&format=png",
+      "native_zoom": 14,
+      "metadata_url": "https://planetarycomputer.microsoft.com/api/stac/v1/collections/sentinel-2-l2a/items/S2C_MSIL2A_20260428T161901_R040_T15QZD_20260428T211111",
+      "asset_url": "https://sentinel2l2a01.blob.core.windows.net/sentinel2-l2/15/Q/ZD/2026/04/28/S2C_MSIL2A_20260428T161901_N0512_R040_T15QZD_20260428T211111.SAFE/GRANULE/L2A_T15QZD_A008590_20260428T163509/IMG_DATA/R10m/T15QZD_20260428T161901_TCI_10m.tif",
+      "tide_m": null,
+      "verification": {
+        "kind": "rendered_png_sample",
+        "point": [
+          -89.743,
+          21.275
+        ],
+        "zoom": 13,
+        "path": "east-2026-z13.png",
+        "bytes": 126608,
+        "sha256": "f101b6639615763abfa96c94fdf654ef78e026d39c0783c776d0793966c90c26"
+      }
+    },
+    {
+      "id": "S2A_MSIL2A_20151225T163712_R083_T15QYD_20210526T182740",
+      "sector": "west",
+      "datetime": "2015-12-25T16:37:12.029000Z",
+      "platform": "Sentinel-2A",
+      "resolution_m": 10,
+      "cloud_cover_scene_pct": 0.048733,
+      "bbox": [
+        -91.0800649,
+        20.6856572,
+        -90.0067983,
+        21.6921513
+      ],
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -91.067207,
+              21.6921513
+            ],
+            [
+              -91.0800649,
+              20.7006237
+            ],
+            [
+              -90.0266897,
+              20.6856572
+            ],
+            [
+              -90.0067983,
+              21.6763989
+            ],
+            [
+              -91.067207,
+              21.6921513
+            ],
+            [
+              -91.067207,
+              21.6921513
+            ]
+          ]
+        ]
+      },
+      "tiles": "https://planetarycomputer.microsoft.com/api/data/v1/item/tiles/WebMercatorQuad/{z}/{x}/{y}@1x?collection=sentinel-2-l2a&item=S2A_MSIL2A_20151225T163712_R083_T15QYD_20210526T182740&assets=visual&asset_bidx=visual%7C1,2,3&nodata=0&format=png",
+      "native_zoom": 14,
+      "metadata_url": "https://planetarycomputer.microsoft.com/api/stac/v1/collections/sentinel-2-l2a/items/S2A_MSIL2A_20151225T163712_R083_T15QYD_20210526T182740",
+      "asset_url": "https://sentinel2l2a01.blob.core.windows.net/sentinel2-l2/15/Q/YD/2015/12/25/S2A_MSIL2A_20151225T163712_N0300_R083_T15QYD_20210526T182740.SAFE/GRANULE/L2A_T15QYD_A002654_20151225T164536/IMG_DATA/R10m/T15QYD_20151225T163712_TCI_10m.tif",
+      "tide_m": null,
+      "verification": {
+        "kind": "rendered_png_sample",
+        "point": [
+          -90.39,
+          20.87
+        ],
+        "zoom": 13,
+        "path": "west-2015-z13.png",
+        "bytes": 111152,
+        "sha256": "cf81bf2248839287c32637df5c4dff51f0b890c8b27cd59e39a8ec9aac579146"
+      }
+    },
+    {
+      "id": "S2A_MSIL2A_20160423T163322_R083_T15QYD_20210211T055327",
+      "sector": "west",
+      "datetime": "2016-04-23T16:33:22.030000Z",
+      "platform": "Sentinel-2A",
+      "resolution_m": 10,
+      "cloud_cover_scene_pct": 9.413579,
+      "bbox": [
+        -91.0800649,
+        20.6856572,
+        -90.0067983,
+        21.6921513
+      ],
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -91.067207,
+              21.6921513
+            ],
+            [
+              -91.0800649,
+              20.7006238
+            ],
+            [
+              -90.0266897,
+              20.6856572
+            ],
+            [
+              -90.0067983,
+              21.6763989
+            ],
+            [
+              -91.067207,
+              21.6921513
+            ]
+          ]
+        ]
+      },
+      "tiles": "https://planetarycomputer.microsoft.com/api/data/v1/item/tiles/WebMercatorQuad/{z}/{x}/{y}@1x?collection=sentinel-2-l2a&item=S2A_MSIL2A_20160423T163322_R083_T15QYD_20210211T055327&assets=visual&asset_bidx=visual%7C1,2,3&nodata=0&format=png",
+      "native_zoom": 14,
+      "metadata_url": "https://planetarycomputer.microsoft.com/api/stac/v1/collections/sentinel-2-l2a/items/S2A_MSIL2A_20160423T163322_R083_T15QYD_20210211T055327",
+      "asset_url": "https://sentinel2l2a01.blob.core.windows.net/sentinel2-l2/15/Q/YD/2016/04/23/S2A_MSIL2A_20160423T163322_N0212_R083_T15QYD_20210211T055327.SAFE/GRANULE/L2A_T15QYD_A004370_20160423T164641/IMG_DATA/R10m/T15QYD_20160423T163322_TCI_10m.tif",
+      "tide_m": null,
+      "verification": {
+        "kind": "rendered_png_sample",
+        "point": [
+          -90.39,
+          20.87
+        ],
+        "zoom": 13,
+        "path": "west-2016-z13.png",
+        "bytes": 91091,
+        "sha256": "44635bbc636ce922893a9e395b91993db5706fcc6fa9de51f89192551635798f"
+      }
+    },
+    {
+      "id": "S2A_MSIL2A_20170329T163321_R083_T15QYD_20210209T025451",
+      "sector": "west",
+      "datetime": "2017-03-29T16:33:21.026000Z",
+      "platform": "Sentinel-2A",
+      "resolution_m": 10,
+      "cloud_cover_scene_pct": 0.445937,
+      "bbox": [
+        -91.0800649,
+        20.6856572,
+        -90.0067983,
+        21.6921513
+      ],
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -91.067207,
+              21.6921513
+            ],
+            [
+              -90.0067983,
+              21.6763989
+            ],
+            [
+              -90.0266897,
+              20.6856572
+            ],
+            [
+              -91.0800649,
+              20.7006238
+            ],
+            [
+              -91.067207,
+              21.6921513
+            ],
+            [
+              -91.067207,
+              21.6921513
+            ]
+          ]
+        ]
+      },
+      "tiles": "https://planetarycomputer.microsoft.com/api/data/v1/item/tiles/WebMercatorQuad/{z}/{x}/{y}@1x?collection=sentinel-2-l2a&item=S2A_MSIL2A_20170329T163321_R083_T15QYD_20210209T025451&assets=visual&asset_bidx=visual%7C1,2,3&nodata=0&format=png",
+      "native_zoom": 14,
+      "metadata_url": "https://planetarycomputer.microsoft.com/api/stac/v1/collections/sentinel-2-l2a/items/S2A_MSIL2A_20170329T163321_R083_T15QYD_20210209T025451",
+      "asset_url": "https://sentinel2l2a01.blob.core.windows.net/sentinel2-l2/15/Q/YD/2017/03/29/S2A_MSIL2A_20170329T163321_N0212_R083_T15QYD_20210209T025451.SAFE/GRANULE/L2A_T15QYD_A009232_20170329T163958/IMG_DATA/R10m/T15QYD_20170329T163321_TCI_10m.tif",
+      "tide_m": null,
+      "verification": {
+        "kind": "rendered_png_sample",
+        "point": [
+          -90.39,
+          20.87
+        ],
+        "zoom": 13,
+        "path": "west-2017-z13.png",
+        "bytes": 126505,
+        "sha256": "ee5841a2418956b170c80a20f96079764bb7eebdb0c22da8b89ee5cf326bb6eb"
+      }
+    },
+    {
+      "id": "S2B_MSIL2A_20180227T163319_R083_T15QYD_20201014T014129",
+      "sector": "west",
+      "datetime": "2018-02-27T16:33:19.027000Z",
+      "platform": "Sentinel-2B",
+      "resolution_m": 10,
+      "cloud_cover_scene_pct": 0.04276,
+      "bbox": [
+        -91.08008,
+        20.6856572,
+        -90.006805,
+        21.6921513
+      ],
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -91.0672,
+              21.6921513
+            ],
+            [
+              -90.006805,
+              21.6763989
+            ],
+            [
+              -90.0267,
+              20.6856572
+            ],
+            [
+              -91.08008,
+              20.7006238
+            ],
+            [
+              -91.0672,
+              21.6921513
+            ]
+          ]
+        ]
+      },
+      "tiles": "https://planetarycomputer.microsoft.com/api/data/v1/item/tiles/WebMercatorQuad/{z}/{x}/{y}@1x?collection=sentinel-2-l2a&item=S2B_MSIL2A_20180227T163319_R083_T15QYD_20201014T014129&assets=visual&asset_bidx=visual%7C1,2,3&nodata=0&format=png",
+      "native_zoom": 14,
+      "metadata_url": "https://planetarycomputer.microsoft.com/api/stac/v1/collections/sentinel-2-l2a/items/S2B_MSIL2A_20180227T163319_R083_T15QYD_20201014T014129",
+      "asset_url": "https://sentinel2l2a01.blob.core.windows.net/sentinel2-l2/15/Q/YD/2018/02/27/S2B_MSIL2A_20180227T163319_N0212_R083_T15QYD_20201014T014129.SAFE/GRANULE/L2A_T15QYD_A005114_20180227T164523/IMG_DATA/R10m/T15QYD_20180227T163319_TCI_10m.tif",
+      "tide_m": null,
+      "verification": {
+        "kind": "rendered_png_sample",
+        "point": [
+          -90.39,
+          20.87
+        ],
+        "zoom": 13,
+        "path": "west-2018-z13.png",
+        "bytes": 124337,
+        "sha256": "e1a19a535ad002e4021ffc1e2cdcc6820dd9dd11aa509a935cf8621b2b78dace"
+      }
+    },
+    {
+      "id": "S2B_MSIL2A_20190413T162839_R083_T15QYD_20201007T014728",
+      "sector": "west",
+      "datetime": "2019-04-13T16:28:39.024000Z",
+      "platform": "Sentinel-2B",
+      "resolution_m": 10,
+      "cloud_cover_scene_pct": 0.28128,
+      "bbox": [
+        -91.08008,
+        20.6856572,
+        -90.006805,
+        21.6921513
+      ],
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -91.0672,
+              21.6921513
+            ],
+            [
+              -90.006805,
+              21.6763989
+            ],
+            [
+              -90.0267,
+              20.6856572
+            ],
+            [
+              -91.08008,
+              20.7006238
+            ],
+            [
+              -91.0672,
+              21.6921513
+            ]
+          ]
+        ]
+      },
+      "tiles": "https://planetarycomputer.microsoft.com/api/data/v1/item/tiles/WebMercatorQuad/{z}/{x}/{y}@1x?collection=sentinel-2-l2a&item=S2B_MSIL2A_20190413T162839_R083_T15QYD_20201007T014728&assets=visual&asset_bidx=visual%7C1,2,3&nodata=0&format=png",
+      "native_zoom": 14,
+      "metadata_url": "https://planetarycomputer.microsoft.com/api/stac/v1/collections/sentinel-2-l2a/items/S2B_MSIL2A_20190413T162839_R083_T15QYD_20201007T014728",
+      "asset_url": "https://sentinel2l2a01.blob.core.windows.net/sentinel2-l2/15/Q/YD/2019/04/13/S2B_MSIL2A_20190413T162839_N0212_R083_T15QYD_20201007T014728.SAFE/GRANULE/L2A_T15QYD_A010977_20190413T163913/IMG_DATA/R10m/T15QYD_20190413T162839_TCI_10m.tif",
+      "tide_m": null,
+      "verification": {
+        "kind": "rendered_png_sample",
+        "point": [
+          -90.39,
+          20.87
+        ],
+        "zoom": 13,
+        "path": "west-2019-z13.png",
+        "bytes": 121052,
+        "sha256": "9131668baf1a3cdc8892f5998c2cb6255609ae45bf1269675ad5bda33dc23cbe"
+      }
+    },
+    {
+      "id": "S2B_MSIL2A_20200407T162829_R083_T15QYD_20200925T104510",
+      "sector": "west",
+      "datetime": "2020-04-07T16:28:29.024000Z",
+      "platform": "Sentinel-2B",
+      "resolution_m": 10,
+      "cloud_cover_scene_pct": 0.340341,
+      "bbox": [
+        -91.08008,
+        20.6856572,
+        -90.006805,
+        21.6921513
+      ],
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -91.0672,
+              21.6921513
+            ],
+            [
+              -90.006805,
+              21.6763989
+            ],
+            [
+              -90.0267,
+              20.6856572
+            ],
+            [
+              -91.08008,
+              20.7006238
+            ],
+            [
+              -91.0672,
+              21.6921513
+            ]
+          ]
+        ]
+      },
+      "tiles": "https://planetarycomputer.microsoft.com/api/data/v1/item/tiles/WebMercatorQuad/{z}/{x}/{y}@1x?collection=sentinel-2-l2a&item=S2B_MSIL2A_20200407T162829_R083_T15QYD_20200925T104510&assets=visual&asset_bidx=visual%7C1,2,3&nodata=0&format=png",
+      "native_zoom": 14,
+      "metadata_url": "https://planetarycomputer.microsoft.com/api/stac/v1/collections/sentinel-2-l2a/items/S2B_MSIL2A_20200407T162829_R083_T15QYD_20200925T104510",
+      "asset_url": "https://sentinel2l2a01.blob.core.windows.net/sentinel2-l2/15/Q/YD/2020/04/07/S2B_MSIL2A_20200407T162829_N0212_R083_T15QYD_20200925T104510.SAFE/GRANULE/L2A_T15QYD_A016125_20200407T164520/IMG_DATA/R10m/T15QYD_20200407T162829_TCI_10m.tif",
+      "tide_m": null,
+      "verification": {
+        "kind": "rendered_png_sample",
+        "point": [
+          -90.39,
+          20.87
+        ],
+        "zoom": 13,
+        "path": "west-2020-z13.png",
+        "bytes": 130525,
+        "sha256": "2ee9a6224fe7f1260e26392d6f7372cc0ec6f659c470d200d97fe092296f6952"
+      }
+    },
+    {
+      "id": "S2B_MSIL2A_20210412T162829_R083_T15QYD_20210413T111146",
+      "sector": "west",
+      "datetime": "2021-04-12T16:28:29.024000Z",
+      "platform": "Sentinel-2B",
+      "resolution_m": 10,
+      "cloud_cover_scene_pct": 0.323124,
+      "bbox": [
+        -91.08008,
+        20.6856572,
+        -90.006805,
+        21.6921513
+      ],
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -91.0672,
+              21.6921513
+            ],
+            [
+              -90.006805,
+              21.6763989
+            ],
+            [
+              -90.0267,
+              20.6856572
+            ],
+            [
+              -91.08008,
+              20.7006238
+            ],
+            [
+              -91.0672,
+              21.6921513
+            ]
+          ]
+        ]
+      },
+      "tiles": "https://planetarycomputer.microsoft.com/api/data/v1/item/tiles/WebMercatorQuad/{z}/{x}/{y}@1x?collection=sentinel-2-l2a&item=S2B_MSIL2A_20210412T162829_R083_T15QYD_20210413T111146&assets=visual&asset_bidx=visual%7C1,2,3&nodata=0&format=png",
+      "native_zoom": 14,
+      "metadata_url": "https://planetarycomputer.microsoft.com/api/stac/v1/collections/sentinel-2-l2a/items/S2B_MSIL2A_20210412T162829_R083_T15QYD_20210413T111146",
+      "asset_url": "https://sentinel2l2a01.blob.core.windows.net/sentinel2-l2/15/Q/YD/2021/04/12/S2B_MSIL2A_20210412T162829_N0212_R083_T15QYD_20210413T111146.SAFE/GRANULE/L2A_T15QYD_A021416_20210412T163550/IMG_DATA/R10m/T15QYD_20210412T162829_TCI_10m.tif",
+      "tide_m": null,
+      "verification": {
+        "kind": "rendered_png_sample",
+        "point": [
+          -90.39,
+          20.87
+        ],
+        "zoom": 13,
+        "path": "west-2021-z13.png",
+        "bytes": 125999,
+        "sha256": "ca176c1cac3d114c62baaa1018172ec99b853b5251f2802d3eddacfd89574c56"
+      }
+    },
+    {
+      "id": "S2B_MSIL2A_20220417T162829_R083_T15QYD_20240602T090230",
+      "sector": "west",
+      "datetime": "2022-04-17T16:28:29.024000Z",
+      "platform": "Sentinel-2B",
+      "resolution_m": 10,
+      "cloud_cover_scene_pct": 0.530675,
+      "bbox": [
+        -91.0800649,
+        20.6856572,
+        -90.0067983,
+        21.6921513
+      ],
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -91.067207,
+              21.6921513
+            ],
+            [
+              -90.0067983,
+              21.6763989
+            ],
+            [
+              -90.0266897,
+              20.6856572
+            ],
+            [
+              -91.0800649,
+              20.7006238
+            ],
+            [
+              -91.067207,
+              21.6921513
+            ]
+          ]
+        ]
+      },
+      "tiles": "https://planetarycomputer.microsoft.com/api/data/v1/item/tiles/WebMercatorQuad/{z}/{x}/{y}@1x?collection=sentinel-2-l2a&item=S2B_MSIL2A_20220417T162829_R083_T15QYD_20240602T090230&assets=visual&asset_bidx=visual%7C1,2,3&nodata=0&format=png",
+      "native_zoom": 14,
+      "metadata_url": "https://planetarycomputer.microsoft.com/api/stac/v1/collections/sentinel-2-l2a/items/S2B_MSIL2A_20220417T162829_R083_T15QYD_20240602T090230",
+      "asset_url": "https://sentinel2l2a01.blob.core.windows.net/sentinel2-l2/15/Q/YD/2022/04/17/S2B_MSIL2A_20220417T162829_N0510_R083_T15QYD_20240602T090230.SAFE/GRANULE/L2A_T15QYD_A026707_20220417T164516/IMG_DATA/R10m/T15QYD_20220417T162829_TCI_10m.tif",
+      "tide_m": null,
+      "verification": {
+        "kind": "rendered_png_sample",
+        "point": [
+          -90.39,
+          20.87
+        ],
+        "zoom": 13,
+        "path": "west-2022-z13.png",
+        "bytes": 130362,
+        "sha256": "cca02d2164c170af39cf9a51e74e5120a4ebed764b226a5252d872640130b8cf"
+      }
+    },
+    {
+      "id": "S2B_MSIL2A_20230402T162839_R083_T15QYD_20240829T051614",
+      "sector": "west",
+      "datetime": "2023-04-02T16:28:39.024000Z",
+      "platform": "Sentinel-2B",
+      "resolution_m": 10,
+      "cloud_cover_scene_pct": 0.961487,
+      "bbox": [
+        -91.0800649,
+        20.6856572,
+        -90.0067983,
+        21.6921513
+      ],
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -91.067207,
+              21.6921513
+            ],
+            [
+              -90.0067983,
+              21.6763989
+            ],
+            [
+              -90.0266897,
+              20.6856572
+            ],
+            [
+              -91.0800649,
+              20.7006238
+            ],
+            [
+              -91.067207,
+              21.6921513
+            ]
+          ]
+        ]
+      },
+      "tiles": "https://planetarycomputer.microsoft.com/api/data/v1/item/tiles/WebMercatorQuad/{z}/{x}/{y}@1x?collection=sentinel-2-l2a&item=S2B_MSIL2A_20230402T162839_R083_T15QYD_20240829T051614&assets=visual&asset_bidx=visual%7C1,2,3&nodata=0&format=png",
+      "native_zoom": 14,
+      "metadata_url": "https://planetarycomputer.microsoft.com/api/stac/v1/collections/sentinel-2-l2a/items/S2B_MSIL2A_20230402T162839_R083_T15QYD_20240829T051614",
+      "asset_url": "https://sentinel2l2a01.blob.core.windows.net/sentinel2-l2/15/Q/YD/2023/04/02/S2B_MSIL2A_20230402T162839_N0510_R083_T15QYD_20240829T051614.SAFE/GRANULE/L2A_T15QYD_A031712_20230402T164158/IMG_DATA/R10m/T15QYD_20230402T162839_TCI_10m.tif",
+      "tide_m": null,
+      "verification": {
+        "kind": "rendered_png_sample",
+        "point": [
+          -90.39,
+          20.87
+        ],
+        "zoom": 13,
+        "path": "west-2023-z13.png",
+        "bytes": 140304,
+        "sha256": "9ad4ee80d437b1a7c21336296ac7cbc8d5eef679dbceefd57d654493cbcf4d2c"
+      }
+    },
+    {
+      "id": "S2B_MSIL2A_20240406T162829_R083_T15QYD_20240406T221732",
+      "sector": "west",
+      "datetime": "2024-04-06T16:28:29.024000Z",
+      "platform": "Sentinel-2B",
+      "resolution_m": 10,
+      "cloud_cover_scene_pct": 0.02428,
+      "bbox": [
+        -91.0800649,
+        20.6856572,
+        -90.0067983,
+        21.6921513
+      ],
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -91.067207,
+              21.6921513
+            ],
+            [
+              -90.0067983,
+              21.6763989
+            ],
+            [
+              -90.0266897,
+              20.6856572
+            ],
+            [
+              -91.0800649,
+              20.7006238
+            ],
+            [
+              -91.067207,
+              21.6921513
+            ]
+          ]
+        ]
+      },
+      "tiles": "https://planetarycomputer.microsoft.com/api/data/v1/item/tiles/WebMercatorQuad/{z}/{x}/{y}@1x?collection=sentinel-2-l2a&item=S2B_MSIL2A_20240406T162829_R083_T15QYD_20240406T221732&assets=visual&asset_bidx=visual%7C1,2,3&nodata=0&format=png",
+      "native_zoom": 14,
+      "metadata_url": "https://planetarycomputer.microsoft.com/api/stac/v1/collections/sentinel-2-l2a/items/S2B_MSIL2A_20240406T162829_R083_T15QYD_20240406T221732",
+      "asset_url": "https://sentinel2l2a01.blob.core.windows.net/sentinel2-l2/15/Q/YD/2024/04/06/S2B_MSIL2A_20240406T162829_N0510_R083_T15QYD_20240406T221732.SAFE/GRANULE/L2A_T15QYD_A037003_20240406T164357/IMG_DATA/R10m/T15QYD_20240406T162829_TCI_10m.tif",
+      "tide_m": null,
+      "verification": {
+        "kind": "rendered_png_sample",
+        "point": [
+          -90.39,
+          20.87
+        ],
+        "zoom": 13,
+        "path": "west-2024-z13.png",
+        "bytes": 141976,
+        "sha256": "0ae864392c6673fef4fa0e7ef071a119caa531b1c3a368243050f2a58625a445"
+      }
+    },
+    {
+      "id": "S2C_MSIL2A_20250327T162931_R083_T15QYD_20250327T231859",
+      "sector": "west",
+      "datetime": "2025-03-27T16:29:31.025000Z",
+      "platform": "Sentinel-2C",
+      "resolution_m": 10,
+      "cloud_cover_scene_pct": 0.138865,
+      "bbox": [
+        -91.0800649,
+        20.6856572,
+        -90.0067983,
+        21.6921513
+      ],
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -91.067207,
+              21.6921513
+            ],
+            [
+              -90.0067983,
+              21.6763989
+            ],
+            [
+              -90.0266897,
+              20.6856572
+            ],
+            [
+              -91.0800649,
+              20.7006238
+            ],
+            [
+              -91.067207,
+              21.6921513
+            ]
+          ]
+        ]
+      },
+      "tiles": "https://planetarycomputer.microsoft.com/api/data/v1/item/tiles/WebMercatorQuad/{z}/{x}/{y}@1x?collection=sentinel-2-l2a&item=S2C_MSIL2A_20250327T162931_R083_T15QYD_20250327T231859&assets=visual&asset_bidx=visual%7C1,2,3&nodata=0&format=png",
+      "native_zoom": 14,
+      "metadata_url": "https://planetarycomputer.microsoft.com/api/stac/v1/collections/sentinel-2-l2a/items/S2C_MSIL2A_20250327T162931_R083_T15QYD_20250327T231859",
+      "asset_url": "https://sentinel2l2a01.blob.core.windows.net/sentinel2-l2/15/Q/YD/2025/03/27/S2C_MSIL2A_20250327T162931_N0511_R083_T15QYD_20250327T231859.SAFE/GRANULE/L2A_T15QYD_A002913_20250327T164315/IMG_DATA/R10m/T15QYD_20250327T162931_TCI_10m.tif",
+      "tide_m": null,
+      "verification": {
+        "kind": "rendered_png_sample",
+        "point": [
+          -90.39,
+          20.87
+        ],
+        "zoom": 13,
+        "path": "west-2025-z13.png",
+        "bytes": 135454,
+        "sha256": "26851efd78c71cca5d712386d3243070d563792ff99afed9d02063a4cb72a1bc"
+      }
+    },
+    {
+      "id": "S2C_MSIL2A_20260220T163321_R083_T15QYD_20260220T193813",
+      "sector": "west",
+      "datetime": "2026-02-20T16:33:21.025000Z",
+      "platform": "Sentinel-2C",
+      "resolution_m": 10,
+      "cloud_cover_scene_pct": 0.005846,
+      "bbox": [
+        -91.0800649,
+        20.6856572,
+        -90.0067983,
+        21.6921513
+      ],
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -91.067207,
+              21.6921513
+            ],
+            [
+              -90.0067983,
+              21.6763989
+            ],
+            [
+              -90.0266897,
+              20.6856572
+            ],
+            [
+              -91.0800649,
+              20.7006238
+            ],
+            [
+              -91.067207,
+              21.6921513
+            ]
+          ]
+        ]
+      },
+      "tiles": "https://planetarycomputer.microsoft.com/api/data/v1/item/tiles/WebMercatorQuad/{z}/{x}/{y}@1x?collection=sentinel-2-l2a&item=S2C_MSIL2A_20260220T163321_R083_T15QYD_20260220T193813&assets=visual&asset_bidx=visual%7C1,2,3&nodata=0&format=png",
+      "native_zoom": 14,
+      "metadata_url": "https://planetarycomputer.microsoft.com/api/stac/v1/collections/sentinel-2-l2a/items/S2C_MSIL2A_20260220T163321_R083_T15QYD_20260220T193813",
+      "asset_url": "https://sentinel2l2a01.blob.core.windows.net/sentinel2-l2/15/Q/YD/2026/02/20/S2C_MSIL2A_20260220T163321_N0512_R083_T15QYD_20260220T193813.SAFE/GRANULE/L2A_T15QYD_A007632_20260220T164534/IMG_DATA/R10m/T15QYD_20260220T163321_TCI_10m.tif",
+      "tide_m": null,
+      "verification": {
+        "kind": "rendered_png_sample",
+        "point": [
+          -90.39,
+          20.87
+        ],
+        "zoom": 13,
+        "path": "west-2026-z13.png",
+        "bytes": 128772,
+        "sha256": "bf2de8e82e0b2a1909a95612b5dc54debc5c62a6aebc0c88bc9bbacc2dac1b57"
+      }
+    }
+  ],
+  "missing": []
+}

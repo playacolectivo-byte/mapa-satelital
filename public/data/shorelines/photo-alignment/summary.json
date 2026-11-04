@@ -1,0 +1,98 @@
+{
+  "model_sha256": "21ed574a9c464cab785197f95568e242da2358cae23b08a420afde98aa294513",
+  "profiles": 4356,
+  "images_examined": 36042,
+  "numerically_clear_candidates": 10473,
+  "municipalities": {
+    "Celestún": {
+      "examined_images": 3355,
+      "numerically_clear": 1438,
+      "profiles": 390,
+      "profiles_with_clear_candidate": 342
+    },
+    "Hunucmá": {
+      "examined_images": 3393,
+      "numerically_clear": 1274,
+      "profiles": 396,
+      "profiles_with_clear_candidate": 341
+    },
+    "Río Lagartos": {
+      "examined_images": 2929,
+      "numerically_clear": 1275,
+      "profiles": 377,
+      "profiles_with_clear_candidate": 341
+    },
+    "Tizimín": {
+      "examined_images": 2887,
+      "numerically_clear": 645,
+      "profiles": 373,
+      "profiles_with_clear_candidate": 293
+    },
+    "San Felipe": {
+      "examined_images": 4884,
+      "numerically_clear": 247,
+      "profiles": 551,
+      "profiles_with_clear_candidate": 62
+    },
+    "Dzilam de Bravo": {
+      "examined_images": 4998,
+      "numerically_clear": 227,
+      "profiles": 644,
+      "profiles_with_clear_candidate": 143
+    },
+    "Dzidzantún": {
+      "examined_images": 794,
+      "numerically_clear": 162,
+      "profiles": 103,
+      "profiles_with_clear_candidate": 77
+    },
+    "Yobaín": {
+      "examined_images": 995,
+      "numerically_clear": 234,
+      "profiles": 118,
+      "profiles_with_clear_candidate": 70
+    },
+    "Telchac Puerto": {
+      "examined_images": 1049,
+      "numerically_clear": 459,
+      "profiles": 118,
+      "profiles_with_clear_candidate": 106
+    },
+    "Sinanché": {
+      "examined_images": 436,
+      "numerically_clear": 265,
+      "profiles": 71,
+      "profiles_with_clear_candidate": 70
+    },
+    "Progreso": {
+      "examined_images": 8960,
+      "numerically_clear": 3455,
+      "profiles": 1045,
+      "profiles_with_clear_candidate": 578
+    },
+    "Ixil": {
+      "examined_images": 228,
+      "numerically_clear": 175,
+      "profiles": 36,
+      "profiles_with_clear_candidate": 36
+    },
+    "Dzemul": {
+      "examined_images": 1134,
+      "numerically_clear": 617,
+      "profiles": 134,
+      "profiles_with_clear_candidate": 133
+    }
+  },
+  "rejection_reasons": {
+    "land_classifier_ambiguous": 18572,
+    "search_edge": 13377,
+    "no_sharp_visible_edge": 11191,
+    "parallel_transects_disagree": 8765,
+    "water_classifier_ambiguous": 16067,
+    "capture_footprint_seam": 623,
+    "non_beach_coast_type": 10720
+  },
+  "raw_bytes": 5822215,
+  "gzip_bytes": 212610,
+  "field_validated": false
+}

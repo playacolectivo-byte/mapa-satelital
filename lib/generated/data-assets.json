@@ -1,0 +1,1751 @@
+{
+  "version": 1,
+  "assets": {
+    "config.json": {
+      "url": "/data/runtime/ff6316227bfe225adfeeab5914921628d95188c025d2008f4154011a76d509ac.json",
+      "gzip_url": "/data/runtime/ff6316227bfe225adfeeab5914921628d95188c025d2008f4154011a76d509ac.json.gz",
+      "sha256": "ff6316227bfe225adfeeab5914921628d95188c025d2008f4154011a76d509ac",
+      "bytes": 1514,
+      "gzip_bytes": 547,
+      "sources": [
+        {
+          "path": "config.json",
+          "sha256": "ff6316227bfe225adfeeab5914921628d95188c025d2008f4154011a76d509ac",
+          "bytes": 1514
+        }
+      ]
+    },
+    "sources.json": {
+      "url": "/data/runtime/431cb7761f2842806b913b4bbcdf65fc2d0934e803a5183388b3fcb0f52e1868.json",
+      "gzip_url": "/data/runtime/431cb7761f2842806b913b4bbcdf65fc2d0934e803a5183388b3fcb0f52e1868.json.gz",
+      "sha256": "431cb7761f2842806b913b4bbcdf65fc2d0934e803a5183388b3fcb0f52e1868",
+      "bytes": 5391,
+      "gzip_bytes": 1952,
+      "sources": [
+        {
+          "path": "sources.json",
+          "sha256": "431cb7761f2842806b913b4bbcdf65fc2d0934e803a5183388b3fcb0f52e1868",
+          "bytes": 5391
+        }
+      ]
+    },
+    "context.geojson": {
+      "url": "/data/runtime/bcd07366318a497b7caf01dc53ac9d8351b5b29918a288289308579c708dbfc3.json",
+      "gzip_url": "/data/runtime/bcd07366318a497b7caf01dc53ac9d8351b5b29918a288289308579c708dbfc3.json.gz",
+      "sha256": "bcd07366318a497b7caf01dc53ac9d8351b5b29918a288289308579c708dbfc3",
+      "bytes": 494908,
+      "gzip_bytes": 164764,
+      "sources": [
+        {
+          "path": "context.geojson",
+          "sha256": "bcd07366318a497b7caf01dc53ac9d8351b5b29918a288289308579c708dbfc3",
+          "bytes": 494908
+        }
+      ]
+    },
+    "localities.geojson": {
+      "url": "/data/runtime/8aac3d3c0ab04b5160f648ba6faaa8a74422d2a627642c78e2b24f50003f905e.json",
+      "gzip_url": "/data/runtime/8aac3d3c0ab04b5160f648ba6faaa8a74422d2a627642c78e2b24f50003f905e.json.gz",
+      "sha256": "8aac3d3c0ab04b5160f648ba6faaa8a74422d2a627642c78e2b24f50003f905e",
+      "bytes": 27583,
+      "gzip_bytes": 8890,
+      "sources": [
+        {
+          "path": "localities.geojson",
+          "sha256": "8aac3d3c0ab04b5160f648ba6faaa8a74422d2a627642c78e2b24f50003f905e",
+          "bytes": 27583
+        }
+      ]
+    },
+    "coast.geojson": {
+      "url": "/data/runtime/918d73fd611e1a0109f903b350f6027dfc21ace810c35a50df3142a1cfefab30.json",
+      "gzip_url": "/data/runtime/918d73fd611e1a0109f903b350f6027dfc21ace810c35a50df3142a1cfefab30.json.gz",
+      "sha256": "918d73fd611e1a0109f903b350f6027dfc21ace810c35a50df3142a1cfefab30",
+      "bytes": 304899,
+      "gzip_bytes": 40420,
+      "sources": [
+        {
+          "path": "coast.geojson",
+          "sha256": "918d73fd611e1a0109f903b350f6027dfc21ace810c35a50df3142a1cfefab30",
+          "bytes": 304899
+        }
+      ]
+    },
+    "mangrove.geojson": {
+      "url": "/data/runtime/f2059a288a6fcaa120ffce936a6f54c874ea8ca89ee6c184d503fdb5266f66fd.json",
+      "gzip_url": "/data/runtime/f2059a288a6fcaa120ffce936a6f54c874ea8ca89ee6c184d503fdb5266f66fd.json.gz",
+      "sha256": "f2059a288a6fcaa120ffce936a6f54c874ea8ca89ee6c184d503fdb5266f66fd",
+      "bytes": 1236079,
+      "gzip_bytes": 429535,
+      "sources": [
+        {
+          "path": "mangrove.geojson",
+          "sha256": "f2059a288a6fcaa120ffce936a6f54c874ea8ca89ee6c184d503fdb5266f66fd",
+          "bytes": 1236079
+        }
+      ]
+    },
+    "wetlands.geojson": {
+      "url": "/data/runtime/5ab95c3a66706e5db2491fe3adfedc9199c3b8b3d8d58f335a44141770154394.json",
+      "gzip_url": "/data/runtime/5ab95c3a66706e5db2491fe3adfedc9199c3b8b3d8d58f335a44141770154394.json.gz",
+      "sha256": "5ab95c3a66706e5db2491fe3adfedc9199c3b8b3d8d58f335a44141770154394",
+      "bytes": 1408208,
+      "gzip_bytes": 501420,
+      "sources": [
+        {
+          "path": "wetlands.geojson",
+          "sha256": "5ab95c3a66706e5db2491fe3adfedc9199c3b8b3d8d58f335a44141770154394",
+          "bytes": 1408208
+        }
+      ]
+    },
+    "water.geojson": {
+      "url": "/data/runtime/942c1a6a59d988364d3f7c61a0b9be675ed93ead6c9d0cfb5f0b750dca06990f.json",
+      "gzip_url": "/data/runtime/942c1a6a59d988364d3f7c61a0b9be675ed93ead6c9d0cfb5f0b750dca06990f.json.gz",
+      "sha256": "942c1a6a59d988364d3f7c61a0b9be675ed93ead6c9d0cfb5f0b750dca06990f",
+      "bytes": 565427,
+      "gzip_bytes": 204218,
+      "sources": [
+        {
+          "path": "water.geojson",
+          "sha256": "942c1a6a59d988364d3f7c61a0b9be675ed93ead6c9d0cfb5f0b750dca06990f",
+          "bytes": 565427
+        }
+      ]
+    },
+    "problems/temporal-observations.json": {
+      "url": "/data/runtime/9445eca1e77d291416fbaff13ad90e1aac52100640a0661f707743e99178f79e.json",
+      "gzip_url": "/data/runtime/9445eca1e77d291416fbaff13ad90e1aac52100640a0661f707743e99178f79e.json.gz",
+      "sha256": "9445eca1e77d291416fbaff13ad90e1aac52100640a0661f707743e99178f79e",
+      "bytes": 17071,
+      "gzip_bytes": 986,
+      "sources": [
+        {
+          "path": "problems/temporal-observations.json",
+          "sha256": "9445eca1e77d291416fbaff13ad90e1aac52100640a0661f707743e99178f79e",
+          "bytes": 17071
+        }
+      ]
+    },
+    "problems/structure-outlines.geojson": {
+      "url": "/data/runtime/74ac8b3e62ad3c3f70c0cbc20813eda0aa69f23c560f94d6bb61fe880fdea885.json",
+      "gzip_url": "/data/runtime/74ac8b3e62ad3c3f70c0cbc20813eda0aa69f23c560f94d6bb61fe880fdea885.json.gz",
+      "sha256": "74ac8b3e62ad3c3f70c0cbc20813eda0aa69f23c560f94d6bb61fe880fdea885",
+      "bytes": 311236,
+      "gzip_bytes": 17925,
+      "sources": [
+        {
+          "path": "problems/structure-outlines.geojson",
+          "sha256": "74ac8b3e62ad3c3f70c0cbc20813eda0aa69f23c560f94d6bb61fe880fdea885",
+          "bytes": 311236
+        }
+      ]
+    },
+    "problems/geotube-historical-axes.geojson": {
+      "url": "/data/runtime/405fe7e188c698c90928452aa173a1ce8adce59b313341d1c3112f36eb8dc69f.json",
+      "gzip_url": "/data/runtime/405fe7e188c698c90928452aa173a1ce8adce59b313341d1c3112f36eb8dc69f.json.gz",
+      "sha256": "405fe7e188c698c90928452aa173a1ce8adce59b313341d1c3112f36eb8dc69f",
+      "bytes": 9608,
+      "gzip_bytes": 1229,
+      "sources": [
+        {
+          "path": "problems/geotube-historical-axes.geojson",
+          "sha256": "405fe7e188c698c90928452aa173a1ce8adce59b313341d1c3112f36eb8dc69f",
+          "bytes": 9608
+        }
+      ]
+    },
+    "problems/disturbed-mangrove-2020.geojson": {
+      "url": "/data/runtime/b72aac96b19d0cbbda21c8eff5930542869542f2a3fd3610af2820b13c661765.json",
+      "gzip_url": "/data/runtime/b72aac96b19d0cbbda21c8eff5930542869542f2a3fd3610af2820b13c661765.json.gz",
+      "sha256": "b72aac96b19d0cbbda21c8eff5930542869542f2a3fd3610af2820b13c661765",
+      "bytes": 433582,
+      "gzip_bytes": 154986,
+      "sources": [
+        {
+          "path": "problems/disturbed-mangrove-2020.geojson",
+          "sha256": "b72aac96b19d0cbbda21c8eff5930542869542f2a3fd3610af2820b13c661765",
+          "bytes": 433582
+        }
+      ]
+    },
+    "problems/gmw/manifest.json": {
+      "url": "/data/runtime/0b909ce5044d76b021928e9631badfd1342c634592323ae1a6a94748c02bba4d.json",
+      "gzip_url": "/data/runtime/0b909ce5044d76b021928e9631badfd1342c634592323ae1a6a94748c02bba4d.json.gz",
+      "sha256": "0b909ce5044d76b021928e9631badfd1342c634592323ae1a6a94748c02bba4d",
+      "bytes": 13014,
+      "gzip_bytes": 3440,
+      "sources": [
+        {
+          "path": "problems/gmw/manifest.json",
+          "sha256": "0b909ce5044d76b021928e9631badfd1342c634592323ae1a6a94748c02bba4d",
+          "bytes": 13014
+        }
+      ]
+    },
+    "problems/gmw/annual-changes.geojson": {
+      "url": "/data/runtime/227b82b0f311ad55b6cddada8c9a860e8a14d74a70f588bd424f88d31e6e22dc.json",
+      "gzip_url": "/data/runtime/227b82b0f311ad55b6cddada8c9a860e8a14d74a70f588bd424f88d31e6e22dc.json.gz",
+      "sha256": "227b82b0f311ad55b6cddada8c9a860e8a14d74a70f588bd424f88d31e6e22dc",
+      "bytes": 3832328,
+      "gzip_bytes": 335101,
+      "sources": [
+        {
+          "path": "problems/gmw/annual-changes.geojson",
+          "sha256": "227b82b0f311ad55b6cddada8c9a860e8a14d74a70f588bd424f88d31e6e22dc",
+          "bytes": 3832328
+        }
+      ]
+    },
+    "problems/structures-yucatan.geojson": {
+      "url": "/data/runtime/f2c011e2f8180352994b07ffaf8d3f914f6c8b4f5f91b793c1bbe07748a18cf5.json",
+      "gzip_url": "/data/runtime/f2c011e2f8180352994b07ffaf8d3f914f6c8b4f5f91b793c1bbe07748a18cf5.json.gz",
+      "sha256": "f2c011e2f8180352994b07ffaf8d3f914f6c8b4f5f91b793c1bbe07748a18cf5",
+      "bytes": 218009,
+      "gzip_bytes": 9839,
+      "sources": [
+        {
+          "path": "problems/structures-yucatan.geojson",
+          "sha256": "f2c011e2f8180352994b07ffaf8d3f914f6c8b4f5f91b793c1bbe07748a18cf5",
+          "bytes": 218009
+        }
+      ]
+    },
+    "sentinel/manifest.json": {
+      "url": "/data/runtime/cee179042c9a26c51fd28ad365d2ef1683187aa1d3e489be65f265e716bf8df1.json",
+      "gzip_url": "/data/runtime/cee179042c9a26c51fd28ad365d2ef1683187aa1d3e489be65f265e716bf8df1.json.gz",
+      "sha256": "cee179042c9a26c51fd28ad365d2ef1683187aa1d3e489be65f265e716bf8df1",
+      "bytes": 53918,
+      "gzip_bytes": 5798,
+      "sources": [
+        {
+          "path": "sentinel/manifest.json",
+          "sha256": "cee179042c9a26c51fd28ad365d2ef1683187aa1d3e489be65f265e716bf8df1",
+          "bytes": 53918
+        }
+      ]
+    },
+    "littoral/pilot-series.json": {
+      "url": "/data/runtime/e1669cd3249797b4f1f4dfada0947b8ab32596043f83e93fff46caa8f7a35a09.json",
+      "gzip_url": "/data/runtime/e1669cd3249797b4f1f4dfada0947b8ab32596043f83e93fff46caa8f7a35a09.json.gz",
+      "sha256": "e1669cd3249797b4f1f4dfada0947b8ab32596043f83e93fff46caa8f7a35a09",
+      "bytes": 95408,
+      "gzip_bytes": 8005,
+      "sources": [
+        {
+          "path": "littoral/pilot-series.json",
+          "sha256": "e1669cd3249797b4f1f4dfada0947b8ab32596043f83e93fff46caa8f7a35a09",
+          "bytes": 95408
+        }
+      ]
+    },
+    "littoral/coastal-evolution.json": {
+      "url": "/data/runtime/67cb0b1be1004defbe877b022f6a899e488d8f9315e3ca7c3eab74bbb46fbf52.json",
+      "gzip_url": "/data/runtime/67cb0b1be1004defbe877b022f6a899e488d8f9315e3ca7c3eab74bbb46fbf52.json.gz",
+      "sha256": "67cb0b1be1004defbe877b022f6a899e488d8f9315e3ca7c3eab74bbb46fbf52",
+      "bytes": 6156654,
+      "gzip_bytes": 602242,
+      "sources": [
+        {
+          "path": "littoral/coastal-evolution.json",
+          "sha256": "67cb0b1be1004defbe877b022f6a899e488d8f9315e3ca7c3eab74bbb46fbf52",
+          "bytes": 6156654
+        }
+      ]
+    },
+    "historical-background/manifest.json": {
+      "url": "/data/runtime/6eeb4a25e15c831be33a5908ceb1711927fc41c42485f097b98e2cb14cb85c48.json",
+      "gzip_url": "/data/runtime/6eeb4a25e15c831be33a5908ceb1711927fc41c42485f097b98e2cb14cb85c48.json.gz",
+      "sha256": "6eeb4a25e15c831be33a5908ceb1711927fc41c42485f097b98e2cb14cb85c48",
+      "bytes": 11720,
+      "gzip_bytes": 1836,
+      "sources": [
+        {
+          "path": "historical-background/manifest.json",
+          "sha256": "6eeb4a25e15c831be33a5908ceb1711927fc41c42485f097b98e2cb14cb85c48",
+          "bytes": 11720
+        }
+      ]
+    },
+    "history/manifest.json": {
+      "url": "/data/runtime/96e29d605af11ebda3ca3f3942c97563808de1bf44bc483d04f1d7d13403cf7e.json",
+      "gzip_url": "/data/runtime/96e29d605af11ebda3ca3f3942c97563808de1bf44bc483d04f1d7d13403cf7e.json.gz",
+      "sha256": "96e29d605af11ebda3ca3f3942c97563808de1bf44bc483d04f1d7d13403cf7e",
+      "bytes": 55524,
+      "gzip_bytes": 10240,
+      "sources": [
+        {
+          "path": "history/manifest.json",
+          "sha256": "96e29d605af11ebda3ca3f3942c97563808de1bf44bc483d04f1d7d13403cf7e",
+          "bytes": 55524
+        }
+      ]
+    },
+    "history/landsat-tiles.json": {
+      "url": "/data/runtime/2f75b4c7ad7302e37671fbe97735e917f2b80ed0586cf34fe52b8394c785d498.json",
+      "gzip_url": "/data/runtime/2f75b4c7ad7302e37671fbe97735e917f2b80ed0586cf34fe52b8394c785d498.json.gz",
+      "sha256": "2f75b4c7ad7302e37671fbe97735e917f2b80ed0586cf34fe52b8394c785d498",
+      "bytes": 21383,
+      "gzip_bytes": 2288,
+      "sources": [
+        {
+          "path": "history/landsat-tiles.json",
+          "sha256": "2f75b4c7ad7302e37671fbe97735e917f2b80ed0586cf34fe52b8394c785d498",
+          "bytes": 21383
+        }
+      ]
+    },
+    "history/nasa-gweld.json": {
+      "url": "/data/runtime/63d6f7851e2d3127c79d14130616d5bac1d2de53e0e7bb162e723cb21a8ffdc1.json",
+      "gzip_url": "/data/runtime/63d6f7851e2d3127c79d14130616d5bac1d2de53e0e7bb162e723cb21a8ffdc1.json.gz",
+      "sha256": "63d6f7851e2d3127c79d14130616d5bac1d2de53e0e7bb162e723cb21a8ffdc1",
+      "bytes": 15804,
+      "gzip_bytes": 2037,
+      "sources": [
+        {
+          "path": "history/nasa-gweld.json",
+          "sha256": "63d6f7851e2d3127c79d14130616d5bac1d2de53e0e7bb162e723cb21a8ffdc1",
+          "bytes": 15804
+        }
+      ]
+    },
+    "history/geomedian.json": {
+      "url": "/data/runtime/f2ac2e6200f48e418a91796cc73d4f649c117fc9bf182369dde5ed29a7bed593.json",
+      "gzip_url": "/data/runtime/f2ac2e6200f48e418a91796cc73d4f649c117fc9bf182369dde5ed29a7bed593.json.gz",
+      "sha256": "f2ac2e6200f48e418a91796cc73d4f649c117fc9bf182369dde5ed29a7bed593",
+      "bytes": 71483,
+      "gzip_bytes": 2932,
+      "sources": [
+        {
+          "path": "history/geomedian.json",
+          "sha256": "f2ac2e6200f48e418a91796cc73d4f649c117fc9bf182369dde5ed29a7bed593",
+          "bytes": 71483
+        }
+      ]
+    },
+    "history/coverage-reviews.json": {
+      "url": "/data/runtime/9cd3a5eef06b5eff026041bb2ba318b8f1ada66c4b9c229c363419c0c3e61d13.json",
+      "gzip_url": "/data/runtime/9cd3a5eef06b5eff026041bb2ba318b8f1ada66c4b9c229c363419c0c3e61d13.json.gz",
+      "sha256": "9cd3a5eef06b5eff026041bb2ba318b8f1ada66c4b9c229c363419c0c3e61d13",
+      "bytes": 50829,
+      "gzip_bytes": 5382,
+      "sources": [
+        {
+          "path": "history/coverage-reviews.json",
+          "sha256": "9cd3a5eef06b5eff026041bb2ba318b8f1ada66c4b9c229c363419c0c3e61d13",
+          "bytes": 50829
+        }
+      ]
+    },
+    "littoral/alec-trend-models.json": {
+      "url": "/data/runtime/ccc8285a1ed446ad7937d474b288a8424dc8eeba02c2054c659055a87d01ec3b.json",
+      "gzip_url": "/data/runtime/ccc8285a1ed446ad7937d474b288a8424dc8eeba02c2054c659055a87d01ec3b.json.gz",
+      "sha256": "ccc8285a1ed446ad7937d474b288a8424dc8eeba02c2054c659055a87d01ec3b",
+      "bytes": 1494599,
+      "gzip_bytes": 172675,
+      "sources": [
+        {
+          "path": "littoral/alec-trend-models.json",
+          "sha256": "ccc8285a1ed446ad7937d474b288a8424dc8eeba02c2054c659055a87d01ec3b",
+          "bytes": 1494599
+        }
+      ]
+    },
+    "coastal-places.json": {
+      "url": "/data/runtime/cd23a14b2a8d1fa594efc8fbf17074b20cc1d886ee3bfed619eef01919f62c57.json",
+      "gzip_url": "/data/runtime/cd23a14b2a8d1fa594efc8fbf17074b20cc1d886ee3bfed619eef01919f62c57.json.gz",
+      "sha256": "cd23a14b2a8d1fa594efc8fbf17074b20cc1d886ee3bfed619eef01919f62c57",
+      "bytes": 8766,
+      "gzip_bytes": 1674,
+      "sources": [
+        {
+          "path": "coastal-places.json",
+          "sha256": "cd23a14b2a8d1fa594efc8fbf17074b20cc1d886ee3bfed619eef01919f62c57",
+          "bytes": 8766
+        }
+      ]
+    },
+    "shorelines/annual/manifest.json": {
+      "url": "/data/runtime/390857d36a967c1b2d1f749e2beb9729fb79c9e2551aaa83cefffc20b20fb403.json",
+      "gzip_url": "/data/runtime/390857d36a967c1b2d1f749e2beb9729fb79c9e2551aaa83cefffc20b20fb403.json.gz",
+      "sha256": "390857d36a967c1b2d1f749e2beb9729fb79c9e2551aaa83cefffc20b20fb403",
+      "bytes": 5326,
+      "gzip_bytes": 1917,
+      "sources": [
+        {
+          "path": "shorelines/annual/manifest.json",
+          "sha256": "390857d36a967c1b2d1f749e2beb9729fb79c9e2551aaa83cefffc20b20fb403",
+          "bytes": 5326
+        }
+      ]
+    },
+    "shorelines/reference-2010/manifest.json": {
+      "url": "/data/runtime/7ad93d45b452708bb659d9f1e042e89e467cd25263246abea7dcb7621aae0adc.json",
+      "gzip_url": "/data/runtime/7ad93d45b452708bb659d9f1e042e89e467cd25263246abea7dcb7621aae0adc.json.gz",
+      "sha256": "7ad93d45b452708bb659d9f1e042e89e467cd25263246abea7dcb7621aae0adc",
+      "bytes": 5295,
+      "gzip_bytes": 1484,
+      "sources": [
+        {
+          "path": "shorelines/reference-2010/manifest.json",
+          "sha256": "7ad93d45b452708bb659d9f1e042e89e467cd25263246abea7dcb7621aae0adc",
+          "bytes": 5295
+        }
+      ]
+    },
+    "shorelines/series-2015/manifest.json": {
+      "url": "/data/runtime/11c4d886e533f34765901668adfba51c81355c870d6954317f3e4249c4e3f93c.json",
+      "gzip_url": "/data/runtime/11c4d886e533f34765901668adfba51c81355c870d6954317f3e4249c4e3f93c.json.gz",
+      "sha256": "11c4d886e533f34765901668adfba51c81355c870d6954317f3e4249c4e3f93c",
+      "bytes": 14775,
+      "gzip_bytes": 3142,
+      "sources": [
+        {
+          "path": "shorelines/series-2015/manifest.json",
+          "sha256": "11c4d886e533f34765901668adfba51c81355c870d6954317f3e4249c4e3f93c",
+          "bytes": 14775
+        }
+      ]
+    },
+    "shorelines/series-2015/coverage-index.geojson": {
+      "url": "/data/runtime/e4ae5458d521970a44371a34da32bc481b6d0f6e9fc1bf393384932824991b38.json",
+      "gzip_url": "/data/runtime/e4ae5458d521970a44371a34da32bc481b6d0f6e9fc1bf393384932824991b38.json.gz",
+      "sha256": "e4ae5458d521970a44371a34da32bc481b6d0f6e9fc1bf393384932824991b38",
+      "bytes": 1156579,
+      "gzip_bytes": 117982,
+      "sources": [
+        {
+          "path": "shorelines/series-2015/coverage-index.geojson",
+          "sha256": "e4ae5458d521970a44371a34da32bc481b6d0f6e9fc1bf393384932824991b38",
+          "bytes": 1156579
+        }
+      ]
+    },
+    "shorelines/series-2015/coverage-years.json": {
+      "url": "/data/runtime/eea5af2f4ebfa136ce49cbe3710c9e01f52d3636e657927e2640864a91e804cc.json",
+      "gzip_url": "/data/runtime/eea5af2f4ebfa136ce49cbe3710c9e01f52d3636e657927e2640864a91e804cc.json.gz",
+      "sha256": "eea5af2f4ebfa136ce49cbe3710c9e01f52d3636e657927e2640864a91e804cc",
+      "bytes": 1579068,
+      "gzip_bytes": 200188,
+      "sources": [
+        {
+          "path": "shorelines/series-2015/coverage-years.json",
+          "sha256": "eea5af2f4ebfa136ce49cbe3710c9e01f52d3636e657927e2640864a91e804cc",
+          "bytes": 1579068
+        }
+      ]
+    },
+    "shorelines/series-2015/reference-coast-2025.geojson": {
+      "url": "/data/runtime/2d2aeae0fb7be01945a66ce8d4179ff92a2e58d5d0fcd299430b03a919e4bedc.json",
+      "gzip_url": "/data/runtime/2d2aeae0fb7be01945a66ce8d4179ff92a2e58d5d0fcd299430b03a919e4bedc.json.gz",
+      "sha256": "2d2aeae0fb7be01945a66ce8d4179ff92a2e58d5d0fcd299430b03a919e4bedc",
+      "bytes": 1072471,
+      "gzip_bytes": 335225,
+      "sources": [
+        {
+          "path": "shorelines/series-2015/reference-coast-2025.geojson",
+          "sha256": "2d2aeae0fb7be01945a66ce8d4179ff92a2e58d5d0fcd299430b03a919e4bedc",
+          "bytes": 1072471
+        }
+      ]
+    },
+    "road-kilometres.geojson": {
+      "url": "/data/runtime/439e7f9b428f858e621cc933c9a6d1219306b7ef324b424485875fc59ba32df7.json",
+      "gzip_url": "/data/runtime/439e7f9b428f858e621cc933c9a6d1219306b7ef324b424485875fc59ba32df7.json.gz",
+      "sha256": "439e7f9b428f858e621cc933c9a6d1219306b7ef324b424485875fc59ba32df7",
+      "bytes": 107708,
+      "gzip_bytes": 5359,
+      "sources": [
+        {
+          "path": "road-kilometres.geojson",
+          "sha256": "439e7f9b428f858e621cc933c9a6d1219306b7ef324b424485875fc59ba32df7",
+          "bytes": 107708
+        }
+      ]
+    },
+    "shorelines/map/regional-2025-2026.json": {
+      "url": "/data/runtime/5dd88d4845c6b851e844aee0db6e455ac3f5553e25f561c1ed34ee50bb080549.json",
+      "gzip_url": "/data/runtime/5dd88d4845c6b851e844aee0db6e455ac3f5553e25f561c1ed34ee50bb080549.json.gz",
+      "sha256": "5dd88d4845c6b851e844aee0db6e455ac3f5553e25f561c1ed34ee50bb080549",
+      "bytes": 1602991,
+      "gzip_bytes": 149767,
+      "sources": [
+        {
+          "path": "shorelines/map/regional-2025-2026.json",
+          "sha256": "5dd88d4845c6b851e844aee0db6e455ac3f5553e25f561c1ed34ee50bb080549",
+          "bytes": 1602991
+        }
+      ]
+    },
+    "shorelines/map/years/2013.json": {
+      "url": "/data/runtime/5c44419411ab7d3d35133708547bcc342df028fa6c193302f95919399808b981.json",
+      "gzip_url": "/data/runtime/5c44419411ab7d3d35133708547bcc342df028fa6c193302f95919399808b981.json.gz",
+      "sha256": "5c44419411ab7d3d35133708547bcc342df028fa6c193302f95919399808b981",
+      "bytes": 21583,
+      "gzip_bytes": 3930,
+      "sources": [
+        {
+          "path": "shorelines/map/years/2013.json",
+          "sha256": "5c44419411ab7d3d35133708547bcc342df028fa6c193302f95919399808b981",
+          "bytes": 21583
+        }
+      ]
+    },
+    "shorelines/map/years/2015.json": {
+      "url": "/data/runtime/a22585f980530276ca89ed7c0cff1f9af0341a7412e334c992c3632eac51e5e9.json",
+      "gzip_url": "/data/runtime/a22585f980530276ca89ed7c0cff1f9af0341a7412e334c992c3632eac51e5e9.json.gz",
+      "sha256": "a22585f980530276ca89ed7c0cff1f9af0341a7412e334c992c3632eac51e5e9",
+      "bytes": 11632,
+      "gzip_bytes": 1953,
+      "sources": [
+        {
+          "path": "shorelines/map/years/2015.json",
+          "sha256": "a22585f980530276ca89ed7c0cff1f9af0341a7412e334c992c3632eac51e5e9",
+          "bytes": 11632
+        }
+      ]
+    },
+    "shorelines/map/years/2018.json": {
+      "url": "/data/runtime/3f4037eca1ebe5b0f1a103c1bce5224af69cec9419aa85642682d6ec77b9ada6.json",
+      "gzip_url": "/data/runtime/3f4037eca1ebe5b0f1a103c1bce5224af69cec9419aa85642682d6ec77b9ada6.json.gz",
+      "sha256": "3f4037eca1ebe5b0f1a103c1bce5224af69cec9419aa85642682d6ec77b9ada6",
+      "bytes": 187775,
+      "gzip_bytes": 24794,
+      "sources": [
+        {
+          "path": "shorelines/map/years/2018.json",
+          "sha256": "3f4037eca1ebe5b0f1a103c1bce5224af69cec9419aa85642682d6ec77b9ada6",
+          "bytes": 187775
+        }
+      ]
+    },
+    "shorelines/map/years/2019.json": {
+      "url": "/data/runtime/55dcc526add020ce9d5f209c354520d452030e9d89cf9e52c879e3cf7508ab07.json",
+      "gzip_url": "/data/runtime/55dcc526add020ce9d5f209c354520d452030e9d89cf9e52c879e3cf7508ab07.json.gz",
+      "sha256": "55dcc526add020ce9d5f209c354520d452030e9d89cf9e52c879e3cf7508ab07",
+      "bytes": 63748,
+      "gzip_bytes": 8984,
+      "sources": [
+        {
+          "path": "shorelines/map/years/2019.json",
+          "sha256": "55dcc526add020ce9d5f209c354520d452030e9d89cf9e52c879e3cf7508ab07",
+          "bytes": 63748
+        }
+      ]
+    },
+    "shorelines/map/years/2020.json": {
+      "url": "/data/runtime/d3e8f2f0e8369787a3108d7a2868a1a1baf814f56c27416d1f83b915e900c5e6.json",
+      "gzip_url": "/data/runtime/d3e8f2f0e8369787a3108d7a2868a1a1baf814f56c27416d1f83b915e900c5e6.json.gz",
+      "sha256": "d3e8f2f0e8369787a3108d7a2868a1a1baf814f56c27416d1f83b915e900c5e6",
+      "bytes": 571687,
+      "gzip_bytes": 39990,
+      "sources": [
+        {
+          "path": "shorelines/map/years/2020.json",
+          "sha256": "d3e8f2f0e8369787a3108d7a2868a1a1baf814f56c27416d1f83b915e900c5e6",
+          "bytes": 571687
+        }
+      ]
+    },
+    "shorelines/map/years/2021.json": {
+      "url": "/data/runtime/6edbfe5d7c47794852d9b04a325f73cd17547bb9ef7ece7d863b1a097f0be9bf.json",
+      "gzip_url": "/data/runtime/6edbfe5d7c47794852d9b04a325f73cd17547bb9ef7ece7d863b1a097f0be9bf.json.gz",
+      "sha256": "6edbfe5d7c47794852d9b04a325f73cd17547bb9ef7ece7d863b1a097f0be9bf",
+      "bytes": 580686,
+      "gzip_bytes": 42212,
+      "sources": [
+        {
+          "path": "shorelines/map/years/2021.json",
+          "sha256": "6edbfe5d7c47794852d9b04a325f73cd17547bb9ef7ece7d863b1a097f0be9bf",
+          "bytes": 580686
+        }
+      ]
+    },
+    "shorelines/map/years/2022.json": {
+      "url": "/data/runtime/802b59b9ff40de7f015ae04c4ecf2e1725ff8d2e404466f0e54566434d37a7a9.json",
+      "gzip_url": "/data/runtime/802b59b9ff40de7f015ae04c4ecf2e1725ff8d2e404466f0e54566434d37a7a9.json.gz",
+      "sha256": "802b59b9ff40de7f015ae04c4ecf2e1725ff8d2e404466f0e54566434d37a7a9",
+      "bytes": 195672,
+      "gzip_bytes": 31921,
+      "sources": [
+        {
+          "path": "shorelines/map/years/2022.json",
+          "sha256": "802b59b9ff40de7f015ae04c4ecf2e1725ff8d2e404466f0e54566434d37a7a9",
+          "bytes": 195672
+        }
+      ]
+    },
+    "shorelines/map/years/2023.json": {
+      "url": "/data/runtime/b2e24e341ec60460d625e2db708b391cdebf2a3d7bedf8142d08bfac26a9fb31.json",
+      "gzip_url": "/data/runtime/b2e24e341ec60460d625e2db708b391cdebf2a3d7bedf8142d08bfac26a9fb31.json.gz",
+      "sha256": "b2e24e341ec60460d625e2db708b391cdebf2a3d7bedf8142d08bfac26a9fb31",
+      "bytes": 247611,
+      "gzip_bytes": 40355,
+      "sources": [
+        {
+          "path": "shorelines/map/years/2023.json",
+          "sha256": "b2e24e341ec60460d625e2db708b391cdebf2a3d7bedf8142d08bfac26a9fb31",
+          "bytes": 247611
+        }
+      ]
+    },
+    "shorelines/map/years/2024.json": {
+      "url": "/data/runtime/0a845515faf4e812ec1846aa3332d53e0967f554e1f7bebff9b8f0b908a8d623.json",
+      "gzip_url": "/data/runtime/0a845515faf4e812ec1846aa3332d53e0967f554e1f7bebff9b8f0b908a8d623.json.gz",
+      "sha256": "0a845515faf4e812ec1846aa3332d53e0967f554e1f7bebff9b8f0b908a8d623",
+      "bytes": 59338,
+      "gzip_bytes": 8897,
+      "sources": [
+        {
+          "path": "shorelines/map/years/2024.json",
+          "sha256": "0a845515faf4e812ec1846aa3332d53e0967f554e1f7bebff9b8f0b908a8d623",
+          "bytes": 59338
+        }
+      ]
+    },
+    "shorelines/map/years/2025.json": {
+      "url": "/data/runtime/ee767b177665859ca66ca2647d755c89532138e1e036bec600ebd2ecf3bbf40e.json",
+      "gzip_url": "/data/runtime/ee767b177665859ca66ca2647d755c89532138e1e036bec600ebd2ecf3bbf40e.json.gz",
+      "sha256": "ee767b177665859ca66ca2647d755c89532138e1e036bec600ebd2ecf3bbf40e",
+      "bytes": 1435493,
+      "gzip_bytes": 96494,
+      "sources": [
+        {
+          "path": "shorelines/map/years/2025.json",
+          "sha256": "ee767b177665859ca66ca2647d755c89532138e1e036bec600ebd2ecf3bbf40e",
+          "bytes": 1435493
+        }
+      ]
+    },
+    "shorelines/map/years/2026.json": {
+      "url": "/data/runtime/61c4851fbe0cde309680bf5cd5f8147a4923085a413d3040f0757a5f16573eba.json",
+      "gzip_url": "/data/runtime/61c4851fbe0cde309680bf5cd5f8147a4923085a413d3040f0757a5f16573eba.json.gz",
+      "sha256": "61c4851fbe0cde309680bf5cd5f8147a4923085a413d3040f0757a5f16573eba",
+      "bytes": 1552680,
+      "gzip_bytes": 122265,
+      "sources": [
+        {
+          "path": "shorelines/map/years/2026.json",
+          "sha256": "61c4851fbe0cde309680bf5cd5f8147a4923085a413d3040f0757a5f16573eba",
+          "bytes": 1552680
+        }
+      ]
+    },
+    "shorelines/map/annual/2011.json": {
+      "url": "/data/runtime/f197a2a9f62e072b16050196e95fb8ea7112d1c1b8e93ed4c39e60e45c576248.json",
+      "gzip_url": "/data/runtime/f197a2a9f62e072b16050196e95fb8ea7112d1c1b8e93ed4c39e60e45c576248.json.gz",
+      "sha256": "f197a2a9f62e072b16050196e95fb8ea7112d1c1b8e93ed4c39e60e45c576248",
+      "bytes": 162143,
+      "gzip_bytes": 13046,
+      "sources": [
+        {
+          "path": "shorelines/map/annual/2011.json",
+          "sha256": "f197a2a9f62e072b16050196e95fb8ea7112d1c1b8e93ed4c39e60e45c576248",
+          "bytes": 162143
+        }
+      ]
+    },
+    "shorelines/map/annual/2012.json": {
+      "url": "/data/runtime/e8e3f3ae706993dac43d89047d77f7eed1557f11305340da1bf5c0887d618bdf.json",
+      "gzip_url": "/data/runtime/e8e3f3ae706993dac43d89047d77f7eed1557f11305340da1bf5c0887d618bdf.json.gz",
+      "sha256": "e8e3f3ae706993dac43d89047d77f7eed1557f11305340da1bf5c0887d618bdf",
+      "bytes": 2681,
+      "gzip_bytes": 802,
+      "sources": [
+        {
+          "path": "shorelines/map/annual/2012.json",
+          "sha256": "e8e3f3ae706993dac43d89047d77f7eed1557f11305340da1bf5c0887d618bdf",
+          "bytes": 2681
+        }
+      ]
+    },
+    "shorelines/map/annual/2019.json": {
+      "url": "/data/runtime/0ba41a3e0d72ba7ca2b8588bf9ded13d863598bacb1fa5e966ef21390027da38.json",
+      "gzip_url": "/data/runtime/0ba41a3e0d72ba7ca2b8588bf9ded13d863598bacb1fa5e966ef21390027da38.json.gz",
+      "sha256": "0ba41a3e0d72ba7ca2b8588bf9ded13d863598bacb1fa5e966ef21390027da38",
+      "bytes": 719283,
+      "gzip_bytes": 41746,
+      "sources": [
+        {
+          "path": "shorelines/map/annual/2019.json",
+          "sha256": "0ba41a3e0d72ba7ca2b8588bf9ded13d863598bacb1fa5e966ef21390027da38",
+          "bytes": 719283
+        }
+      ]
+    },
+    "shorelines/map/annual/2020.json": {
+      "url": "/data/runtime/6a8e5f3169db28b6ae8197acf6da1e9f99a67e0e81ae00c574dfc5aaf654b7fa.json",
+      "gzip_url": "/data/runtime/6a8e5f3169db28b6ae8197acf6da1e9f99a67e0e81ae00c574dfc5aaf654b7fa.json.gz",
+      "sha256": "6a8e5f3169db28b6ae8197acf6da1e9f99a67e0e81ae00c574dfc5aaf654b7fa",
+      "bytes": 745719,
+      "gzip_bytes": 43476,
+      "sources": [
+        {
+          "path": "shorelines/map/annual/2020.json",
+          "sha256": "6a8e5f3169db28b6ae8197acf6da1e9f99a67e0e81ae00c574dfc5aaf654b7fa",
+          "bytes": 745719
+        }
+      ]
+    },
+    "shorelines/map/annual/2021.json": {
+      "url": "/data/runtime/dfb637baf57619dba9d0b70f0e061d434e7de05b84b5e92f509f79b751cfc2b7.json",
+      "gzip_url": "/data/runtime/dfb637baf57619dba9d0b70f0e061d434e7de05b84b5e92f509f79b751cfc2b7.json.gz",
+      "sha256": "dfb637baf57619dba9d0b70f0e061d434e7de05b84b5e92f509f79b751cfc2b7",
+      "bytes": 686511,
+      "gzip_bytes": 54394,
+      "sources": [
+        {
+          "path": "shorelines/map/annual/2021.json",
+          "sha256": "dfb637baf57619dba9d0b70f0e061d434e7de05b84b5e92f509f79b751cfc2b7",
+          "bytes": 686511
+        }
+      ]
+    },
+    "shorelines/map/annual/2022.json": {
+      "url": "/data/runtime/d15daeca84a0bce201cdc931a945f4890d91a570fa3602ab24f48b75d00ce73f.json",
+      "gzip_url": "/data/runtime/d15daeca84a0bce201cdc931a945f4890d91a570fa3602ab24f48b75d00ce73f.json.gz",
+      "sha256": "d15daeca84a0bce201cdc931a945f4890d91a570fa3602ab24f48b75d00ce73f",
+      "bytes": 664989,
+      "gzip_bytes": 39014,
+      "sources": [
+        {
+          "path": "shorelines/map/annual/2022.json",
+          "sha256": "d15daeca84a0bce201cdc931a945f4890d91a570fa3602ab24f48b75d00ce73f",
+          "bytes": 664989
+        }
+      ]
+    },
+    "shorelines/map/annual/2023.json": {
+      "url": "/data/runtime/7d4de42575116fa640225d21ff8e74768f3f506b6042b5de29b8114a95eaf87c.json",
+      "gzip_url": "/data/runtime/7d4de42575116fa640225d21ff8e74768f3f506b6042b5de29b8114a95eaf87c.json.gz",
+      "sha256": "7d4de42575116fa640225d21ff8e74768f3f506b6042b5de29b8114a95eaf87c",
+      "bytes": 1015329,
+      "gzip_bytes": 58949,
+      "sources": [
+        {
+          "path": "shorelines/map/annual/2023.json",
+          "sha256": "7d4de42575116fa640225d21ff8e74768f3f506b6042b5de29b8114a95eaf87c",
+          "bytes": 1015329
+        }
+      ]
+    },
+    "shorelines/map/annual/2024.json": {
+      "url": "/data/runtime/f503adb0fff50f0f4d28a31d03a48a41b751ba17fa7c819fd27589f3269416fd.json",
+      "gzip_url": "/data/runtime/f503adb0fff50f0f4d28a31d03a48a41b751ba17fa7c819fd27589f3269416fd.json.gz",
+      "sha256": "f503adb0fff50f0f4d28a31d03a48a41b751ba17fa7c819fd27589f3269416fd",
+      "bytes": 644576,
+      "gzip_bytes": 37717,
+      "sources": [
+        {
+          "path": "shorelines/map/annual/2024.json",
+          "sha256": "f503adb0fff50f0f4d28a31d03a48a41b751ba17fa7c819fd27589f3269416fd",
+          "bytes": 644576
+        }
+      ]
+    },
+    "shorelines/map/annual/2025.json": {
+      "url": "/data/runtime/6e430b24a5360ffa19aa00b80bafa75f31067c35c3229411c34217aa276b5af1.json",
+      "gzip_url": "/data/runtime/6e430b24a5360ffa19aa00b80bafa75f31067c35c3229411c34217aa276b5af1.json.gz",
+      "sha256": "6e430b24a5360ffa19aa00b80bafa75f31067c35c3229411c34217aa276b5af1",
+      "bytes": 66999,
+      "gzip_bytes": 4544,
+      "sources": [
+        {
+          "path": "shorelines/map/annual/2025.json",
+          "sha256": "6e430b24a5360ffa19aa00b80bafa75f31067c35c3229411c34217aa276b5af1",
+          "bytes": 66999
+        }
+      ]
+    },
+    "shorelines/map/reference-2010/2010.json": {
+      "url": "/data/runtime/25a74d74c66bd955590f67273fa66107b38595104e7dbefe2736e3a4393e6ca4.json",
+      "gzip_url": "/data/runtime/25a74d74c66bd955590f67273fa66107b38595104e7dbefe2736e3a4393e6ca4.json.gz",
+      "sha256": "25a74d74c66bd955590f67273fa66107b38595104e7dbefe2736e3a4393e6ca4",
+      "bytes": 260200,
+      "gzip_bytes": 12935,
+      "sources": [
+        {
+          "path": "shorelines/map/reference-2010/2010.json",
+          "sha256": "25a74d74c66bd955590f67273fa66107b38595104e7dbefe2736e3a4393e6ca4",
+          "bytes": 260200
+        }
+      ]
+    },
+    "shorelines/map/reference-2010/2011.json": {
+      "url": "/data/runtime/cce1228d344de85b8618fb8260c4bab64a7e25e09e5d68843bb61d07562e660f.json",
+      "gzip_url": "/data/runtime/cce1228d344de85b8618fb8260c4bab64a7e25e09e5d68843bb61d07562e660f.json.gz",
+      "sha256": "cce1228d344de85b8618fb8260c4bab64a7e25e09e5d68843bb61d07562e660f",
+      "bytes": 248617,
+      "gzip_bytes": 19722,
+      "sources": [
+        {
+          "path": "shorelines/map/reference-2010/2011.json",
+          "sha256": "cce1228d344de85b8618fb8260c4bab64a7e25e09e5d68843bb61d07562e660f",
+          "bytes": 248617
+        }
+      ]
+    },
+    "shorelines/map/reference-2010/2012.json": {
+      "url": "/data/runtime/55daaf2e290741fb9bfc0a3311e74c68ef72a1f2098e69968604cb28f47d486a.json",
+      "gzip_url": "/data/runtime/55daaf2e290741fb9bfc0a3311e74c68ef72a1f2098e69968604cb28f47d486a.json.gz",
+      "sha256": "55daaf2e290741fb9bfc0a3311e74c68ef72a1f2098e69968604cb28f47d486a",
+      "bytes": 217770,
+      "gzip_bytes": 17563,
+      "sources": [
+        {
+          "path": "shorelines/map/reference-2010/2012.json",
+          "sha256": "55daaf2e290741fb9bfc0a3311e74c68ef72a1f2098e69968604cb28f47d486a",
+          "bytes": 217770
+        }
+      ]
+    },
+    "shorelines/map/reference-2010/2013.json": {
+      "url": "/data/runtime/5ee0aca61af4528c9d61c6266d6f0935b75db4cd57809594eca41523c2900af6.json",
+      "gzip_url": "/data/runtime/5ee0aca61af4528c9d61c6266d6f0935b75db4cd57809594eca41523c2900af6.json.gz",
+      "sha256": "5ee0aca61af4528c9d61c6266d6f0935b75db4cd57809594eca41523c2900af6",
+      "bytes": 217118,
+      "gzip_bytes": 17311,
+      "sources": [
+        {
+          "path": "shorelines/map/reference-2010/2013.json",
+          "sha256": "5ee0aca61af4528c9d61c6266d6f0935b75db4cd57809594eca41523c2900af6",
+          "bytes": 217118
+        }
+      ]
+    },
+    "shorelines/map/reference-2010/2014.json": {
+      "url": "/data/runtime/cae88f30d40d5da2dfd99720e7ff95c400f6209df4a31189a7a7524060ad7514.json",
+      "gzip_url": "/data/runtime/cae88f30d40d5da2dfd99720e7ff95c400f6209df4a31189a7a7524060ad7514.json.gz",
+      "sha256": "cae88f30d40d5da2dfd99720e7ff95c400f6209df4a31189a7a7524060ad7514",
+      "bytes": 217158,
+      "gzip_bytes": 17383,
+      "sources": [
+        {
+          "path": "shorelines/map/reference-2010/2014.json",
+          "sha256": "cae88f30d40d5da2dfd99720e7ff95c400f6209df4a31189a7a7524060ad7514",
+          "bytes": 217158
+        }
+      ]
+    },
+    "shorelines/map/reference-2010/2015.json": {
+      "url": "/data/runtime/e025ab1a4c6eaf2458c570091a326ac3a3b9b365c7a339ce36cfa4c80376a75e.json",
+      "gzip_url": "/data/runtime/e025ab1a4c6eaf2458c570091a326ac3a3b9b365c7a339ce36cfa4c80376a75e.json.gz",
+      "sha256": "e025ab1a4c6eaf2458c570091a326ac3a3b9b365c7a339ce36cfa4c80376a75e",
+      "bytes": 217179,
+      "gzip_bytes": 17393,
+      "sources": [
+        {
+          "path": "shorelines/map/reference-2010/2015.json",
+          "sha256": "e025ab1a4c6eaf2458c570091a326ac3a3b9b365c7a339ce36cfa4c80376a75e",
+          "bytes": 217179
+        }
+      ]
+    },
+    "shorelines/map/reference-2010/2016.json": {
+      "url": "/data/runtime/173e120c8c23f27c49d4db3772fa17910a3496d51f51fa82f20481af22e269bd.json",
+      "gzip_url": "/data/runtime/173e120c8c23f27c49d4db3772fa17910a3496d51f51fa82f20481af22e269bd.json.gz",
+      "sha256": "173e120c8c23f27c49d4db3772fa17910a3496d51f51fa82f20481af22e269bd",
+      "bytes": 217198,
+      "gzip_bytes": 17407,
+      "sources": [
+        {
+          "path": "shorelines/map/reference-2010/2016.json",
+          "sha256": "173e120c8c23f27c49d4db3772fa17910a3496d51f51fa82f20481af22e269bd",
+          "bytes": 217198
+        }
+      ]
+    },
+    "shorelines/map/reference-2010/2017.json": {
+      "url": "/data/runtime/7bf36575b1a77c2b9f35fa50a6740180e498761fba9c3dce956084ccf028e8bf.json",
+      "gzip_url": "/data/runtime/7bf36575b1a77c2b9f35fa50a6740180e498761fba9c3dce956084ccf028e8bf.json.gz",
+      "sha256": "7bf36575b1a77c2b9f35fa50a6740180e498761fba9c3dce956084ccf028e8bf",
+      "bytes": 217233,
+      "gzip_bytes": 17459,
+      "sources": [
+        {
+          "path": "shorelines/map/reference-2010/2017.json",
+          "sha256": "7bf36575b1a77c2b9f35fa50a6740180e498761fba9c3dce956084ccf028e8bf",
+          "bytes": 217233
+        }
+      ]
+    },
+    "shorelines/map/reference-2010/2018.json": {
+      "url": "/data/runtime/0e113449b383b046510be0dd9c11a369a11a22cba53a49b70f6c2e3ff527c296.json",
+      "gzip_url": "/data/runtime/0e113449b383b046510be0dd9c11a369a11a22cba53a49b70f6c2e3ff527c296.json.gz",
+      "sha256": "0e113449b383b046510be0dd9c11a369a11a22cba53a49b70f6c2e3ff527c296",
+      "bytes": 217273,
+      "gzip_bytes": 17408,
+      "sources": [
+        {
+          "path": "shorelines/map/reference-2010/2018.json",
+          "sha256": "0e113449b383b046510be0dd9c11a369a11a22cba53a49b70f6c2e3ff527c296",
+          "bytes": 217273
+        }
+      ]
+    },
+    "shorelines/map/reference-2010/2019.json": {
+      "url": "/data/runtime/c5d9d9b94bc90d89c04344aa75f8be10db24b03dd5fb38fbb15329f6468a90c4.json",
+      "gzip_url": "/data/runtime/c5d9d9b94bc90d89c04344aa75f8be10db24b03dd5fb38fbb15329f6468a90c4.json.gz",
+      "sha256": "c5d9d9b94bc90d89c04344aa75f8be10db24b03dd5fb38fbb15329f6468a90c4",
+      "bytes": 217291,
+      "gzip_bytes": 17418,
+      "sources": [
+        {
+          "path": "shorelines/map/reference-2010/2019.json",
+          "sha256": "c5d9d9b94bc90d89c04344aa75f8be10db24b03dd5fb38fbb15329f6468a90c4",
+          "bytes": 217291
+        }
+      ]
+    },
+    "shorelines/map/reference-2010/2020.json": {
+      "url": "/data/runtime/0232205531ac2bff418c9b336f0202ef3329287ed0116fa3d512ddc4e314ee03.json",
+      "gzip_url": "/data/runtime/0232205531ac2bff418c9b336f0202ef3329287ed0116fa3d512ddc4e314ee03.json.gz",
+      "sha256": "0232205531ac2bff418c9b336f0202ef3329287ed0116fa3d512ddc4e314ee03",
+      "bytes": 217342,
+      "gzip_bytes": 17474,
+      "sources": [
+        {
+          "path": "shorelines/map/reference-2010/2020.json",
+          "sha256": "0232205531ac2bff418c9b336f0202ef3329287ed0116fa3d512ddc4e314ee03",
+          "bytes": 217342
+        }
+      ]
+    },
+    "shorelines/map/reference-2010/2021.json": {
+      "url": "/data/runtime/9ad5acb3aa59ffae255549f4cfb6e081b7948ae26d8daeb69d1ae00e7063319b.json",
+      "gzip_url": "/data/runtime/9ad5acb3aa59ffae255549f4cfb6e081b7948ae26d8daeb69d1ae00e7063319b.json.gz",
+      "sha256": "9ad5acb3aa59ffae255549f4cfb6e081b7948ae26d8daeb69d1ae00e7063319b",
+      "bytes": 217304,
+      "gzip_bytes": 17410,
+      "sources": [
+        {
+          "path": "shorelines/map/reference-2010/2021.json",
+          "sha256": "9ad5acb3aa59ffae255549f4cfb6e081b7948ae26d8daeb69d1ae00e7063319b",
+          "bytes": 217304
+        }
+      ]
+    },
+    "shorelines/map/reference-2010/2022.json": {
+      "url": "/data/runtime/0c9dda9f5ceb842050bec6f44687dbbdd4923e44fcde3ff4b63577ba55a4699a.json",
+      "gzip_url": "/data/runtime/0c9dda9f5ceb842050bec6f44687dbbdd4923e44fcde3ff4b63577ba55a4699a.json.gz",
+      "sha256": "0c9dda9f5ceb842050bec6f44687dbbdd4923e44fcde3ff4b63577ba55a4699a",
+      "bytes": 217341,
+      "gzip_bytes": 17435,
+      "sources": [
+        {
+          "path": "shorelines/map/reference-2010/2022.json",
+          "sha256": "0c9dda9f5ceb842050bec6f44687dbbdd4923e44fcde3ff4b63577ba55a4699a",
+          "bytes": 217341
+        }
+      ]
+    },
+    "shorelines/map/reference-2010/2023.json": {
+      "url": "/data/runtime/5fc8199d820b80e82192343d5f74cb78ce0b4bfe65005ab835df7eeda4387b95.json",
+      "gzip_url": "/data/runtime/5fc8199d820b80e82192343d5f74cb78ce0b4bfe65005ab835df7eeda4387b95.json.gz",
+      "sha256": "5fc8199d820b80e82192343d5f74cb78ce0b4bfe65005ab835df7eeda4387b95",
+      "bytes": 217333,
+      "gzip_bytes": 17431,
+      "sources": [
+        {
+          "path": "shorelines/map/reference-2010/2023.json",
+          "sha256": "5fc8199d820b80e82192343d5f74cb78ce0b4bfe65005ab835df7eeda4387b95",
+          "bytes": 217333
+        }
+      ]
+    },
+    "shorelines/map/reference-2010/2024.json": {
+      "url": "/data/runtime/ee9b9de9393de72633a0962144b02784af936324d0723f00f7e62bac96d04d86.json",
+      "gzip_url": "/data/runtime/ee9b9de9393de72633a0962144b02784af936324d0723f00f7e62bac96d04d86.json.gz",
+      "sha256": "ee9b9de9393de72633a0962144b02784af936324d0723f00f7e62bac96d04d86",
+      "bytes": 217337,
+      "gzip_bytes": 17438,
+      "sources": [
+        {
+          "path": "shorelines/map/reference-2010/2024.json",
+          "sha256": "ee9b9de9393de72633a0962144b02784af936324d0723f00f7e62bac96d04d86",
+          "bytes": 217337
+        }
+      ]
+    },
+    "shorelines/map/reference-2010/2025.json": {
+      "url": "/data/runtime/6896c7f2e54530221812523bf77b44594924c43e2a43dcb6da83080e12bdaa41.json",
+      "gzip_url": "/data/runtime/6896c7f2e54530221812523bf77b44594924c43e2a43dcb6da83080e12bdaa41.json.gz",
+      "sha256": "6896c7f2e54530221812523bf77b44594924c43e2a43dcb6da83080e12bdaa41",
+      "bytes": 217297,
+      "gzip_bytes": 17346,
+      "sources": [
+        {
+          "path": "shorelines/map/reference-2010/2025.json",
+          "sha256": "6896c7f2e54530221812523bf77b44594924c43e2a43dcb6da83080e12bdaa41",
+          "bytes": 217297
+        }
+      ]
+    },
+    "shorelines/map/reference-2010/2026.json": {
+      "url": "/data/runtime/bf4076b8656bb537eec350cb1af6a6c915232c9508e0e44cd98056f8e3eac590.json",
+      "gzip_url": "/data/runtime/bf4076b8656bb537eec350cb1af6a6c915232c9508e0e44cd98056f8e3eac590.json.gz",
+      "sha256": "bf4076b8656bb537eec350cb1af6a6c915232c9508e0e44cd98056f8e3eac590",
+      "bytes": 177713,
+      "gzip_bytes": 14408,
+      "sources": [
+        {
+          "path": "shorelines/map/reference-2010/2026.json",
+          "sha256": "bf4076b8656bb537eec350cb1af6a6c915232c9508e0e44cd98056f8e3eac590",
+          "bytes": 177713
+        }
+      ]
+    },
+    "shorelines/map/series-2015/annual/2015.json": {
+      "url": "/data/runtime/814a6d1cf93a1ad9966e972636c1e95b18f0330a19215be3eafb207d80a805b4.json",
+      "gzip_url": "/data/runtime/814a6d1cf93a1ad9966e972636c1e95b18f0330a19215be3eafb207d80a805b4.json.gz",
+      "sha256": "814a6d1cf93a1ad9966e972636c1e95b18f0330a19215be3eafb207d80a805b4",
+      "bytes": 239,
+      "gzip_bytes": 198,
+      "sources": [
+        {
+          "path": "shorelines/map/series-2015/annual/2015.json",
+          "sha256": "814a6d1cf93a1ad9966e972636c1e95b18f0330a19215be3eafb207d80a805b4",
+          "bytes": 239
+        }
+      ]
+    },
+    "shorelines/map/series-2015/reference2015/2015.json": {
+      "url": "/data/runtime/8971f3d91e7acd99920960b6907c6b38ab7842323e75f27e32342b7f80fe98ac.json",
+      "gzip_url": "/data/runtime/8971f3d91e7acd99920960b6907c6b38ab7842323e75f27e32342b7f80fe98ac.json.gz",
+      "sha256": "8971f3d91e7acd99920960b6907c6b38ab7842323e75f27e32342b7f80fe98ac",
+      "bytes": 1117871,
+      "gzip_bytes": 47694,
+      "sources": [
+        {
+          "path": "shorelines/map/series-2015/reference2015/2015.json",
+          "sha256": "8971f3d91e7acd99920960b6907c6b38ab7842323e75f27e32342b7f80fe98ac",
+          "bytes": 1117871
+        }
+      ]
+    },
+    "shorelines/map/series-2015/reference2020/2015.json": {
+      "url": "/data/runtime/fdc267fbc203aac4c5567f8dbb2b6ad47fa54bcca33964fea78c9eee188c1ab1.json",
+      "gzip_url": "/data/runtime/fdc267fbc203aac4c5567f8dbb2b6ad47fa54bcca33964fea78c9eee188c1ab1.json.gz",
+      "sha256": "fdc267fbc203aac4c5567f8dbb2b6ad47fa54bcca33964fea78c9eee188c1ab1",
+      "bytes": 239,
+      "gzip_bytes": 197,
+      "sources": [
+        {
+          "path": "shorelines/map/series-2015/reference2020/2015.json",
+          "sha256": "fdc267fbc203aac4c5567f8dbb2b6ad47fa54bcca33964fea78c9eee188c1ab1",
+          "bytes": 239
+        }
+      ]
+    },
+    "shorelines/map/series-2015/annual/2016.json": {
+      "url": "/data/runtime/2f47f34ee3a21c2eaef0930dffbe1d9584e9b4299677aeedea79ad4fecc004a9.json",
+      "gzip_url": "/data/runtime/2f47f34ee3a21c2eaef0930dffbe1d9584e9b4299677aeedea79ad4fecc004a9.json.gz",
+      "sha256": "2f47f34ee3a21c2eaef0930dffbe1d9584e9b4299677aeedea79ad4fecc004a9",
+      "bytes": 222370,
+      "gzip_bytes": 15931,
+      "sources": [
+        {
+          "path": "shorelines/map/series-2015/annual/2016.json",
+          "sha256": "2f47f34ee3a21c2eaef0930dffbe1d9584e9b4299677aeedea79ad4fecc004a9",
+          "bytes": 222370
+        }
+      ]
+    },
+    "shorelines/map/series-2015/reference2015/2016.json": {
+      "url": "/data/runtime/51eabcbfa17b75d2f1b64d62b63a05594ee0beb62ca4aaafca34366676ce5009.json",
+      "gzip_url": "/data/runtime/51eabcbfa17b75d2f1b64d62b63a05594ee0beb62ca4aaafca34366676ce5009.json.gz",
+      "sha256": "51eabcbfa17b75d2f1b64d62b63a05594ee0beb62ca4aaafca34366676ce5009",
+      "bytes": 469674,
+      "gzip_bytes": 29952,
+      "sources": [
+        {
+          "path": "shorelines/map/series-2015/reference2015/2016.json",
+          "sha256": "51eabcbfa17b75d2f1b64d62b63a05594ee0beb62ca4aaafca34366676ce5009",
+          "bytes": 469674
+        }
+      ]
+    },
+    "shorelines/map/series-2015/reference2020/2016.json": {
+      "url": "/data/runtime/03c6d5bc764d57e571f61589893d805c4f89d9e93aadd5d75b55d2c82a7e4cb5.json",
+      "gzip_url": "/data/runtime/03c6d5bc764d57e571f61589893d805c4f89d9e93aadd5d75b55d2c82a7e4cb5.json.gz",
+      "sha256": "03c6d5bc764d57e571f61589893d805c4f89d9e93aadd5d75b55d2c82a7e4cb5",
+      "bytes": 239,
+      "gzip_bytes": 197,
+      "sources": [
+        {
+          "path": "shorelines/map/series-2015/reference2020/2016.json",
+          "sha256": "03c6d5bc764d57e571f61589893d805c4f89d9e93aadd5d75b55d2c82a7e4cb5",
+          "bytes": 239
+        }
+      ]
+    },
+    "shorelines/map/series-2015/annual/2017.json": {
+      "url": "/data/runtime/7a05db56267914eb0af43023d1effef8531a316019c321c853c1e4922fe654f9.json",
+      "gzip_url": "/data/runtime/7a05db56267914eb0af43023d1effef8531a316019c321c853c1e4922fe654f9.json.gz",
+      "sha256": "7a05db56267914eb0af43023d1effef8531a316019c321c853c1e4922fe654f9",
+      "bytes": 826749,
+      "gzip_bytes": 56438,
+      "sources": [
+        {
+          "path": "shorelines/map/series-2015/annual/2017.json",
+          "sha256": "7a05db56267914eb0af43023d1effef8531a316019c321c853c1e4922fe654f9",
+          "bytes": 826749
+        }
+      ]
+    },
+    "shorelines/map/series-2015/reference2015/2017.json": {
+      "url": "/data/runtime/37539038fff36fefc728b562798b3149c4e39cc9e1a03b6d827b8751b8b65fa9.json",
+      "gzip_url": "/data/runtime/37539038fff36fefc728b562798b3149c4e39cc9e1a03b6d827b8751b8b65fa9.json.gz",
+      "sha256": "37539038fff36fefc728b562798b3149c4e39cc9e1a03b6d827b8751b8b65fa9",
+      "bytes": 608848,
+      "gzip_bytes": 39193,
+      "sources": [
+        {
+          "path": "shorelines/map/series-2015/reference2015/2017.json",
+          "sha256": "37539038fff36fefc728b562798b3149c4e39cc9e1a03b6d827b8751b8b65fa9",
+          "bytes": 608848
+        }
+      ]
+    },
+    "shorelines/map/series-2015/reference2020/2017.json": {
+      "url": "/data/runtime/4d330fd9ca1c3806a9f6e4b659cfed2cb216d59da61858629f6304ebe4d2badc.json",
+      "gzip_url": "/data/runtime/4d330fd9ca1c3806a9f6e4b659cfed2cb216d59da61858629f6304ebe4d2badc.json.gz",
+      "sha256": "4d330fd9ca1c3806a9f6e4b659cfed2cb216d59da61858629f6304ebe4d2badc",
+      "bytes": 239,
+      "gzip_bytes": 195,
+      "sources": [
+        {
+          "path": "shorelines/map/series-2015/reference2020/2017.json",
+          "sha256": "4d330fd9ca1c3806a9f6e4b659cfed2cb216d59da61858629f6304ebe4d2badc",
+          "bytes": 239
+        }
+      ]
+    },
+    "shorelines/map/series-2015/annual/2018.json": {
+      "url": "/data/runtime/581783419336ee15a4073e8d2abe9a8d07e34f0b35092618e5674f60aa0526c1.json",
+      "gzip_url": "/data/runtime/581783419336ee15a4073e8d2abe9a8d07e34f0b35092618e5674f60aa0526c1.json.gz",
+      "sha256": "581783419336ee15a4073e8d2abe9a8d07e34f0b35092618e5674f60aa0526c1",
+      "bytes": 1364772,
+      "gzip_bytes": 92452,
+      "sources": [
+        {
+          "path": "shorelines/map/series-2015/annual/2018.json",
+          "sha256": "581783419336ee15a4073e8d2abe9a8d07e34f0b35092618e5674f60aa0526c1",
+          "bytes": 1364772
+        }
+      ]
+    },
+    "shorelines/map/series-2015/reference2015/2018.json": {
+      "url": "/data/runtime/99dab8c0b9d519bcdb57bae252868839177a576ecae71565e65a953e0c274b94.json",
+      "gzip_url": "/data/runtime/99dab8c0b9d519bcdb57bae252868839177a576ecae71565e65a953e0c274b94.json.gz",
+      "sha256": "99dab8c0b9d519bcdb57bae252868839177a576ecae71565e65a953e0c274b94",
+      "bytes": 605683,
+      "gzip_bytes": 39323,
+      "sources": [
+        {
+          "path": "shorelines/map/series-2015/reference2015/2018.json",
+          "sha256": "99dab8c0b9d519bcdb57bae252868839177a576ecae71565e65a953e0c274b94",
+          "bytes": 605683
+        }
+      ]
+    },
+    "shorelines/map/series-2015/reference2020/2018.json": {
+      "url": "/data/runtime/b5c4f87317549568c4cf349326f480408ccf5bfb36646008268b897042423478.json",
+      "gzip_url": "/data/runtime/b5c4f87317549568c4cf349326f480408ccf5bfb36646008268b897042423478.json.gz",
+      "sha256": "b5c4f87317549568c4cf349326f480408ccf5bfb36646008268b897042423478",
+      "bytes": 239,
+      "gzip_bytes": 197,
+      "sources": [
+        {
+          "path": "shorelines/map/series-2015/reference2020/2018.json",
+          "sha256": "b5c4f87317549568c4cf349326f480408ccf5bfb36646008268b897042423478",
+          "bytes": 239
+        }
+      ]
+    },
+    "shorelines/map/series-2015/annual/2019.json": {
+      "url": "/data/runtime/cbeb8f129bbab1b6737d6d3f5dd42ba1373b840a6472f292a97f50a82d764ea2.json",
+      "gzip_url": "/data/runtime/cbeb8f129bbab1b6737d6d3f5dd42ba1373b840a6472f292a97f50a82d764ea2.json.gz",
+      "sha256": "cbeb8f129bbab1b6737d6d3f5dd42ba1373b840a6472f292a97f50a82d764ea2",
+      "bytes": 2462935,
+      "gzip_bytes": 159012,
+      "sources": [
+        {
+          "path": "shorelines/map/series-2015/annual/2019.json",
+          "sha256": "cbeb8f129bbab1b6737d6d3f5dd42ba1373b840a6472f292a97f50a82d764ea2",
+          "bytes": 2462935
+        }
+      ]
+    },
+    "shorelines/map/series-2015/reference2015/2019.json": {
+      "url": "/data/runtime/62dbb6ad7767ba6beb7def782d4aa9ebadec8a1c7c82f4b8248d57a4640cd8f3.json",
+      "gzip_url": "/data/runtime/62dbb6ad7767ba6beb7def782d4aa9ebadec8a1c7c82f4b8248d57a4640cd8f3.json.gz",
+      "sha256": "62dbb6ad7767ba6beb7def782d4aa9ebadec8a1c7c82f4b8248d57a4640cd8f3",
+      "bytes": 605748,
+      "gzip_bytes": 39364,
+      "sources": [
+        {
+          "path": "shorelines/map/series-2015/reference2015/2019.json",
+          "sha256": "62dbb6ad7767ba6beb7def782d4aa9ebadec8a1c7c82f4b8248d57a4640cd8f3",
+          "bytes": 605748
+        }
+      ]
+    },
+    "shorelines/map/series-2015/reference2020/2019.json": {
+      "url": "/data/runtime/d27fcadff73cf83c143bdeb670a40f47fc03d546c639e288df3ecd5e915248a6.json",
+      "gzip_url": "/data/runtime/d27fcadff73cf83c143bdeb670a40f47fc03d546c639e288df3ecd5e915248a6.json.gz",
+      "sha256": "d27fcadff73cf83c143bdeb670a40f47fc03d546c639e288df3ecd5e915248a6",
+      "bytes": 239,
+      "gzip_bytes": 198,
+      "sources": [
+        {
+          "path": "shorelines/map/series-2015/reference2020/2019.json",
+          "sha256": "d27fcadff73cf83c143bdeb670a40f47fc03d546c639e288df3ecd5e915248a6",
+          "bytes": 239
+        }
+      ]
+    },
+    "shorelines/map/series-2015/annual/2020.json": {
+      "url": "/data/runtime/a32e6b1a66b5cdec5a9071129f5d2588ce930c92920d92b3dad89812d354a49f.json",
+      "gzip_url": "/data/runtime/a32e6b1a66b5cdec5a9071129f5d2588ce930c92920d92b3dad89812d354a49f.json.gz",
+      "sha256": "a32e6b1a66b5cdec5a9071129f5d2588ce930c92920d92b3dad89812d354a49f",
+      "bytes": 2592117,
+      "gzip_bytes": 166802,
+      "sources": [
+        {
+          "path": "shorelines/map/series-2015/annual/2020.json",
+          "sha256": "a32e6b1a66b5cdec5a9071129f5d2588ce930c92920d92b3dad89812d354a49f",
+          "bytes": 2592117
+        }
+      ]
+    },
+    "shorelines/map/series-2015/reference2015/2020.json": {
+      "url": "/data/runtime/f867199941ad2bcadade76ff06c9787531bbd901e3ab258904dd0d1129f9ff82.json",
+      "gzip_url": "/data/runtime/f867199941ad2bcadade76ff06c9787531bbd901e3ab258904dd0d1129f9ff82.json.gz",
+      "sha256": "f867199941ad2bcadade76ff06c9787531bbd901e3ab258904dd0d1129f9ff82",
+      "bytes": 551641,
+      "gzip_bytes": 35032,
+      "sources": [
+        {
+          "path": "shorelines/map/series-2015/reference2015/2020.json",
+          "sha256": "f867199941ad2bcadade76ff06c9787531bbd901e3ab258904dd0d1129f9ff82",
+          "bytes": 551641
+        }
+      ]
+    },
+    "shorelines/map/series-2015/reference2020/2020.json": {
+      "url": "/data/runtime/813c8296528f55e4f743c9951bddbb7e571b1fabb7f50ac4ba46c05fe0281a4d.json",
+      "gzip_url": "/data/runtime/813c8296528f55e4f743c9951bddbb7e571b1fabb7f50ac4ba46c05fe0281a4d.json.gz",
+      "sha256": "813c8296528f55e4f743c9951bddbb7e571b1fabb7f50ac4ba46c05fe0281a4d",
+      "bytes": 3096131,
+      "gzip_bytes": 127758,
+      "sources": [
+        {
+          "path": "shorelines/map/series-2015/reference2020/2020.json",
+          "sha256": "813c8296528f55e4f743c9951bddbb7e571b1fabb7f50ac4ba46c05fe0281a4d",
+          "bytes": 3096131
+        }
+      ]
+    },
+    "shorelines/map/series-2015/annual/2021.json": {
+      "url": "/data/runtime/9c678a5376243a109e332e716f46fc73c06b7283067550d4270c97a03fd1d430.json",
+      "gzip_url": "/data/runtime/9c678a5376243a109e332e716f46fc73c06b7283067550d4270c97a03fd1d430.json.gz",
+      "sha256": "9c678a5376243a109e332e716f46fc73c06b7283067550d4270c97a03fd1d430",
+      "bytes": 2012964,
+      "gzip_bytes": 135069,
+      "sources": [
+        {
+          "path": "shorelines/map/series-2015/annual/2021.json",
+          "sha256": "9c678a5376243a109e332e716f46fc73c06b7283067550d4270c97a03fd1d430",
+          "bytes": 2012964
+        }
+      ]
+    },
+    "shorelines/map/series-2015/reference2015/2021.json": {
+      "url": "/data/runtime/8742565208310d878babef0b10dc2a8579526fac087683589d93b4d1aa123dc4.json",
+      "gzip_url": "/data/runtime/8742565208310d878babef0b10dc2a8579526fac087683589d93b4d1aa123dc4.json.gz",
+      "sha256": "8742565208310d878babef0b10dc2a8579526fac087683589d93b4d1aa123dc4",
+      "bytes": 249510,
+      "gzip_bytes": 14522,
+      "sources": [
+        {
+          "path": "shorelines/map/series-2015/reference2015/2021.json",
+          "sha256": "8742565208310d878babef0b10dc2a8579526fac087683589d93b4d1aa123dc4",
+          "bytes": 249510
+        }
+      ]
+    },
+    "shorelines/map/series-2015/reference2020/2021.json": {
+      "url": "/data/runtime/f5b4192004991c19442d1b3461cf649ab3692d2c311f3545540514b54c6fae1f.json",
+      "gzip_url": "/data/runtime/f5b4192004991c19442d1b3461cf649ab3692d2c311f3545540514b54c6fae1f.json.gz",
+      "sha256": "f5b4192004991c19442d1b3461cf649ab3692d2c311f3545540514b54c6fae1f",
+      "bytes": 2049377,
+      "gzip_bytes": 125109,
+      "sources": [
+        {
+          "path": "shorelines/map/series-2015/reference2020/2021.json",
+          "sha256": "f5b4192004991c19442d1b3461cf649ab3692d2c311f3545540514b54c6fae1f",
+          "bytes": 2049377
+        }
+      ]
+    },
+    "shorelines/map/series-2015/annual/2022.json": {
+      "url": "/data/runtime/99b9161bb85916d8402ba2f55a8f1c75bef9111a86eddd7be887c19d12396fee.json",
+      "gzip_url": "/data/runtime/99b9161bb85916d8402ba2f55a8f1c75bef9111a86eddd7be887c19d12396fee.json.gz",
+      "sha256": "99b9161bb85916d8402ba2f55a8f1c75bef9111a86eddd7be887c19d12396fee",
+      "bytes": 2163969,
+      "gzip_bytes": 140357,
+      "sources": [
+        {
+          "path": "shorelines/map/series-2015/annual/2022.json",
+          "sha256": "99b9161bb85916d8402ba2f55a8f1c75bef9111a86eddd7be887c19d12396fee",
+          "bytes": 2163969
+        }
+      ]
+    },
+    "shorelines/map/series-2015/reference2015/2022.json": {
+      "url": "/data/runtime/c9ce18bd63f9823cd320c199afe20fdfcd728ca1b9a059b21bbe0e2094147614.json",
+      "gzip_url": "/data/runtime/c9ce18bd63f9823cd320c199afe20fdfcd728ca1b9a059b21bbe0e2094147614.json.gz",
+      "sha256": "c9ce18bd63f9823cd320c199afe20fdfcd728ca1b9a059b21bbe0e2094147614",
+      "bytes": 185222,
+      "gzip_bytes": 9622,
+      "sources": [
+        {
+          "path": "shorelines/map/series-2015/reference2015/2022.json",
+          "sha256": "c9ce18bd63f9823cd320c199afe20fdfcd728ca1b9a059b21bbe0e2094147614",
+          "bytes": 185222
+        }
+      ]
+    },
+    "shorelines/map/series-2015/reference2020/2022.json": {
+      "url": "/data/runtime/614660425ac33561abdb52f6b324211a8d2950a365faa2510051f75400852ce8.json",
+      "gzip_url": "/data/runtime/614660425ac33561abdb52f6b324211a8d2950a365faa2510051f75400852ce8.json.gz",
+      "sha256": "614660425ac33561abdb52f6b324211a8d2950a365faa2510051f75400852ce8",
+      "bytes": 1801243,
+      "gzip_bytes": 108912,
+      "sources": [
+        {
+          "path": "shorelines/map/series-2015/reference2020/2022.json",
+          "sha256": "614660425ac33561abdb52f6b324211a8d2950a365faa2510051f75400852ce8",
+          "bytes": 1801243
+        }
+      ]
+    },
+    "shorelines/map/series-2015/annual/2023.json": {
+      "url": "/data/runtime/c39cc22090eb229404f7a4e8573c1eac33f7acbe7c8490be89ffc6c5c01d93a6.json",
+      "gzip_url": "/data/runtime/c39cc22090eb229404f7a4e8573c1eac33f7acbe7c8490be89ffc6c5c01d93a6.json.gz",
+      "sha256": "c39cc22090eb229404f7a4e8573c1eac33f7acbe7c8490be89ffc6c5c01d93a6",
+      "bytes": 3613655,
+      "gzip_bytes": 219301,
+      "sources": [
+        {
+          "path": "shorelines/map/series-2015/annual/2023.json",
+          "sha256": "c39cc22090eb229404f7a4e8573c1eac33f7acbe7c8490be89ffc6c5c01d93a6",
+          "bytes": 3613655
+        }
+      ]
+    },
+    "shorelines/map/series-2015/reference2015/2023.json": {
+      "url": "/data/runtime/c51d2513a266d48cd0a3be0666628c0ca0f27fcdfd974ca1ea8f3f89a68835e7.json",
+      "gzip_url": "/data/runtime/c51d2513a266d48cd0a3be0666628c0ca0f27fcdfd974ca1ea8f3f89a68835e7.json.gz",
+      "sha256": "c51d2513a266d48cd0a3be0666628c0ca0f27fcdfd974ca1ea8f3f89a68835e7",
+      "bytes": 242349,
+      "gzip_bytes": 12495,
+      "sources": [
+        {
+          "path": "shorelines/map/series-2015/reference2015/2023.json",
+          "sha256": "c51d2513a266d48cd0a3be0666628c0ca0f27fcdfd974ca1ea8f3f89a68835e7",
+          "bytes": 242349
+        }
+      ]
+    },
+    "shorelines/map/series-2015/reference2020/2023.json": {
+      "url": "/data/runtime/b8f3fa2ee22609f07f61808c7a3314035e7bd77654d330967dbc858ae17a50ae.json",
+      "gzip_url": "/data/runtime/b8f3fa2ee22609f07f61808c7a3314035e7bd77654d330967dbc858ae17a50ae.json.gz",
+      "sha256": "b8f3fa2ee22609f07f61808c7a3314035e7bd77654d330967dbc858ae17a50ae",
+      "bytes": 1788986,
+      "gzip_bytes": 104257,
+      "sources": [
+        {
+          "path": "shorelines/map/series-2015/reference2020/2023.json",
+          "sha256": "b8f3fa2ee22609f07f61808c7a3314035e7bd77654d330967dbc858ae17a50ae",
+          "bytes": 1788986
+        }
+      ]
+    },
+    "shorelines/map/series-2015/annual/2024.json": {
+      "url": "/data/runtime/cb0d83230e0b5fb38ffce80b051f47ef77210084b4d2041f528a896aa40515d3.json",
+      "gzip_url": "/data/runtime/cb0d83230e0b5fb38ffce80b051f47ef77210084b4d2041f528a896aa40515d3.json.gz",
+      "sha256": "cb0d83230e0b5fb38ffce80b051f47ef77210084b4d2041f528a896aa40515d3",
+      "bytes": 4509340,
+      "gzip_bytes": 267828,
+      "sources": [
+        {
+          "path": "shorelines/map/series-2015/annual/2024.json",
+          "sha256": "cb0d83230e0b5fb38ffce80b051f47ef77210084b4d2041f528a896aa40515d3",
+          "bytes": 4509340
+        }
+      ]
+    },
+    "shorelines/map/series-2015/reference2015/2024.json": {
+      "url": "/data/runtime/ab32d7527aba9ea538cbce812d84ac90824c7470838bcdb22e445578cf377b4f.json",
+      "gzip_url": "/data/runtime/ab32d7527aba9ea538cbce812d84ac90824c7470838bcdb22e445578cf377b4f.json.gz",
+      "sha256": "ab32d7527aba9ea538cbce812d84ac90824c7470838bcdb22e445578cf377b4f",
+      "bytes": 190476,
+      "gzip_bytes": 10251,
+      "sources": [
+        {
+          "path": "shorelines/map/series-2015/reference2015/2024.json",
+          "sha256": "ab32d7527aba9ea538cbce812d84ac90824c7470838bcdb22e445578cf377b4f",
+          "bytes": 190476
+        }
+      ]
+    },
+    "shorelines/map/series-2015/reference2020/2024.json": {
+      "url": "/data/runtime/162b788e813612e131b5a9f87d0a652c696edd38c21e405668705c0beb8699f5.json",
+      "gzip_url": "/data/runtime/162b788e813612e131b5a9f87d0a652c696edd38c21e405668705c0beb8699f5.json.gz",
+      "sha256": "162b788e813612e131b5a9f87d0a652c696edd38c21e405668705c0beb8699f5",
+      "bytes": 1848482,
+      "gzip_bytes": 108224,
+      "sources": [
+        {
+          "path": "shorelines/map/series-2015/reference2020/2024.json",
+          "sha256": "162b788e813612e131b5a9f87d0a652c696edd38c21e405668705c0beb8699f5",
+          "bytes": 1848482
+        }
+      ]
+    },
+    "shorelines/map/series-2015/annual/2025.json": {
+      "url": "/data/runtime/c0f85a05180efe0cc66ead844c8da025e42f81fdbee3945581c6349550686dbc.json",
+      "gzip_url": "/data/runtime/c0f85a05180efe0cc66ead844c8da025e42f81fdbee3945581c6349550686dbc.json.gz",
+      "sha256": "c0f85a05180efe0cc66ead844c8da025e42f81fdbee3945581c6349550686dbc",
+      "bytes": 4611618,
+      "gzip_bytes": 279902,
+      "sources": [
+        {
+          "path": "shorelines/map/series-2015/annual/2025.json",
+          "sha256": "c0f85a05180efe0cc66ead844c8da025e42f81fdbee3945581c6349550686dbc",
+          "bytes": 4611618
+        }
+      ]
+    },
+    "shorelines/map/series-2015/reference2015/2025.json": {
+      "url": "/data/runtime/51cf66e2a9fc8190c6e9ceed4a07cd3bd92ec212e9b04fdb11e80d350a6532f6.json",
+      "gzip_url": "/data/runtime/51cf66e2a9fc8190c6e9ceed4a07cd3bd92ec212e9b04fdb11e80d350a6532f6.json.gz",
+      "sha256": "51cf66e2a9fc8190c6e9ceed4a07cd3bd92ec212e9b04fdb11e80d350a6532f6",
+      "bytes": 221209,
+      "gzip_bytes": 11443,
+      "sources": [
+        {
+          "path": "shorelines/map/series-2015/reference2015/2025.json",
+          "sha256": "51cf66e2a9fc8190c6e9ceed4a07cd3bd92ec212e9b04fdb11e80d350a6532f6",
+          "bytes": 221209
+        }
+      ]
+    },
+    "shorelines/map/series-2015/reference2020/2025.json": {
+      "url": "/data/runtime/175e7a2e0743c0f47c3330f2050269d790647de25db0f32259cab4bdff07341b.json",
+      "gzip_url": "/data/runtime/175e7a2e0743c0f47c3330f2050269d790647de25db0f32259cab4bdff07341b.json.gz",
+      "sha256": "175e7a2e0743c0f47c3330f2050269d790647de25db0f32259cab4bdff07341b",
+      "bytes": 958726,
+      "gzip_bytes": 65218,
+      "sources": [
+        {
+          "path": "shorelines/map/series-2015/reference2020/2025.json",
+          "sha256": "175e7a2e0743c0f47c3330f2050269d790647de25db0f32259cab4bdff07341b",
+          "bytes": 958726
+        }
+      ]
+    },
+    "shorelines/map/series-2015/annual/2026.json": {
+      "url": "/data/runtime/8b681818ee0fec56b287cbe0df8f17e6e6cf0ed3bf3775b19277969b742bda09.json",
+      "gzip_url": "/data/runtime/8b681818ee0fec56b287cbe0df8f17e6e6cf0ed3bf3775b19277969b742bda09.json.gz",
+      "sha256": "8b681818ee0fec56b287cbe0df8f17e6e6cf0ed3bf3775b19277969b742bda09",
+      "bytes": 4997835,
+      "gzip_bytes": 316524,
+      "sources": [
+        {
+          "path": "shorelines/map/series-2015/annual/2026.json",
+          "sha256": "8b681818ee0fec56b287cbe0df8f17e6e6cf0ed3bf3775b19277969b742bda09",
+          "bytes": 4997835
+        }
+      ]
+    },
+    "shorelines/map/series-2015/reference2015/2026.json": {
+      "url": "/data/runtime/006dc50bdcbea27cc05bffd177b5d7de3e6183dac6161a4ea7a1257c23499222.json",
+      "gzip_url": "/data/runtime/006dc50bdcbea27cc05bffd177b5d7de3e6183dac6161a4ea7a1257c23499222.json.gz",
+      "sha256": "006dc50bdcbea27cc05bffd177b5d7de3e6183dac6161a4ea7a1257c23499222",
+      "bytes": 230284,
+      "gzip_bytes": 11833,
+      "sources": [
+        {
+          "path": "shorelines/map/series-2015/reference2015/2026.json",
+          "sha256": "006dc50bdcbea27cc05bffd177b5d7de3e6183dac6161a4ea7a1257c23499222",
+          "bytes": 230284
+        }
+      ]
+    },
+    "shorelines/map/series-2015/reference2020/2026.json": {
+      "url": "/data/runtime/2a753975d03e56e61c17303597a69ccc94fc28d30b76b1d56c8fcc4e5b9f4f66.json",
+      "gzip_url": "/data/runtime/2a753975d03e56e61c17303597a69ccc94fc28d30b76b1d56c8fcc4e5b9f4f66.json.gz",
+      "sha256": "2a753975d03e56e61c17303597a69ccc94fc28d30b76b1d56c8fcc4e5b9f4f66",
+      "bytes": 948508,
+      "gzip_bytes": 64496,
+      "sources": [
+        {
+          "path": "shorelines/map/series-2015/reference2020/2026.json",
+          "sha256": "2a753975d03e56e61c17303597a69ccc94fc28d30b76b1d56c8fcc4e5b9f4f66",
+          "bytes": 948508
+        }
+      ]
+    },
+    "problems/gmw/map/manifest.json": {
+      "url": "/data/runtime/197327d82e0ef36dc7e3ee9469a28550e5050c7ed42ae5a51ff9f3e06e336f33.json",
+      "gzip_url": "/data/runtime/197327d82e0ef36dc7e3ee9469a28550e5050c7ed42ae5a51ff9f3e06e336f33.json.gz",
+      "sha256": "197327d82e0ef36dc7e3ee9469a28550e5050c7ed42ae5a51ff9f3e06e336f33",
+      "bytes": 4088,
+      "gzip_bytes": 1377,
+      "sources": [
+        {
+          "path": "problems/gmw/map/manifest.json",
+          "sha256": "197327d82e0ef36dc7e3ee9469a28550e5050c7ed42ae5a51ff9f3e06e336f33",
+          "bytes": 4088
+        }
+      ]
+    },
+    "problems/gmw/map/years/2011.geojson": {
+      "url": "/data/runtime/acfcd97c8eaa38dae69c9e7c7012e99dc1672c12babfa135636fadb963819297.json",
+      "gzip_url": "/data/runtime/acfcd97c8eaa38dae69c9e7c7012e99dc1672c12babfa135636fadb963819297.json.gz",
+      "sha256": "acfcd97c8eaa38dae69c9e7c7012e99dc1672c12babfa135636fadb963819297",
+      "bytes": 227743,
+      "gzip_bytes": 20034,
+      "sources": [
+        {
+          "path": "problems/gmw/map/years/2011.geojson",
+          "sha256": "acfcd97c8eaa38dae69c9e7c7012e99dc1672c12babfa135636fadb963819297",
+          "bytes": 227743
+        }
+      ]
+    },
+    "problems/gmw/map/years/2012.geojson": {
+      "url": "/data/runtime/b17c8d1cf0b588e87ae9384c9691a6274562d6433e0ef4590a03eaf8cb440992.json",
+      "gzip_url": "/data/runtime/b17c8d1cf0b588e87ae9384c9691a6274562d6433e0ef4590a03eaf8cb440992.json.gz",
+      "sha256": "b17c8d1cf0b588e87ae9384c9691a6274562d6433e0ef4590a03eaf8cb440992",
+      "bytes": 246459,
+      "gzip_bytes": 21610,
+      "sources": [
+        {
+          "path": "problems/gmw/map/years/2012.geojson",
+          "sha256": "b17c8d1cf0b588e87ae9384c9691a6274562d6433e0ef4590a03eaf8cb440992",
+          "bytes": 246459
+        }
+      ]
+    },
+    "problems/gmw/map/years/2013.geojson": {
+      "url": "/data/runtime/21f6529a4db0c7143fbfa2cdc3d84de4f5f393918354f9d6d57e3bf4e925fff6.json",
+      "gzip_url": "/data/runtime/21f6529a4db0c7143fbfa2cdc3d84de4f5f393918354f9d6d57e3bf4e925fff6.json.gz",
+      "sha256": "21f6529a4db0c7143fbfa2cdc3d84de4f5f393918354f9d6d57e3bf4e925fff6",
+      "bytes": 187947,
+      "gzip_bytes": 17046,
+      "sources": [
+        {
+          "path": "problems/gmw/map/years/2013.geojson",
+          "sha256": "21f6529a4db0c7143fbfa2cdc3d84de4f5f393918354f9d6d57e3bf4e925fff6",
+          "bytes": 187947
+        }
+      ]
+    },
+    "problems/gmw/map/years/2014.geojson": {
+      "url": "/data/runtime/839b14e16d5df916ac3286982244116decdea7334fcaa591c750c40c25f1d23d.json",
+      "gzip_url": "/data/runtime/839b14e16d5df916ac3286982244116decdea7334fcaa591c750c40c25f1d23d.json.gz",
+      "sha256": "839b14e16d5df916ac3286982244116decdea7334fcaa591c750c40c25f1d23d",
+      "bytes": 220103,
+      "gzip_bytes": 19849,
+      "sources": [
+        {
+          "path": "problems/gmw/map/years/2014.geojson",
+          "sha256": "839b14e16d5df916ac3286982244116decdea7334fcaa591c750c40c25f1d23d",
+          "bytes": 220103
+        }
+      ]
+    },
+    "problems/gmw/map/years/2015.geojson": {
+      "url": "/data/runtime/70d90eb9743119075664a896d491fc60359c7270a95771da3b974e25bc695fb0.json",
+      "gzip_url": "/data/runtime/70d90eb9743119075664a896d491fc60359c7270a95771da3b974e25bc695fb0.json.gz",
+      "sha256": "70d90eb9743119075664a896d491fc60359c7270a95771da3b974e25bc695fb0",
+      "bytes": 173276,
+      "gzip_bytes": 15667,
+      "sources": [
+        {
+          "path": "problems/gmw/map/years/2015.geojson",
+          "sha256": "70d90eb9743119075664a896d491fc60359c7270a95771da3b974e25bc695fb0",
+          "bytes": 173276
+        }
+      ]
+    },
+    "problems/gmw/map/years/2016.geojson": {
+      "url": "/data/runtime/4b729497ff2b1e25ec5ad2c9d0d638d7e5bbc5b824c53531b727bc4b27e5ac2e.json",
+      "gzip_url": "/data/runtime/4b729497ff2b1e25ec5ad2c9d0d638d7e5bbc5b824c53531b727bc4b27e5ac2e.json.gz",
+      "sha256": "4b729497ff2b1e25ec5ad2c9d0d638d7e5bbc5b824c53531b727bc4b27e5ac2e",
+      "bytes": 140810,
+      "gzip_bytes": 13151,
+      "sources": [
+        {
+          "path": "problems/gmw/map/years/2016.geojson",
+          "sha256": "4b729497ff2b1e25ec5ad2c9d0d638d7e5bbc5b824c53531b727bc4b27e5ac2e",
+          "bytes": 140810
+        }
+      ]
+    },
+    "problems/gmw/map/years/2017.geojson": {
+      "url": "/data/runtime/e31f8ca7e7380b4bfa24b2fb953d348a5f177307c4fde862705c4b739bb50e80.json",
+      "gzip_url": "/data/runtime/e31f8ca7e7380b4bfa24b2fb953d348a5f177307c4fde862705c4b739bb50e80.json.gz",
+      "sha256": "e31f8ca7e7380b4bfa24b2fb953d348a5f177307c4fde862705c4b739bb50e80",
+      "bytes": 289330,
+      "gzip_bytes": 25471,
+      "sources": [
+        {
+          "path": "problems/gmw/map/years/2017.geojson",
+          "sha256": "e31f8ca7e7380b4bfa24b2fb953d348a5f177307c4fde862705c4b739bb50e80",
+          "bytes": 289330
+        }
+      ]
+    },
+    "problems/gmw/map/years/2018.geojson": {
+      "url": "/data/runtime/31dc3cb532df7af3a640a4e9e4f962bec1c0e79661e18e93c84e0fdcbe233001.json",
+      "gzip_url": "/data/runtime/31dc3cb532df7af3a640a4e9e4f962bec1c0e79661e18e93c84e0fdcbe233001.json.gz",
+      "sha256": "31dc3cb532df7af3a640a4e9e4f962bec1c0e79661e18e93c84e0fdcbe233001",
+      "bytes": 307030,
+      "gzip_bytes": 26662,
+      "sources": [
+        {
+          "path": "problems/gmw/map/years/2018.geojson",
+          "sha256": "31dc3cb532df7af3a640a4e9e4f962bec1c0e79661e18e93c84e0fdcbe233001",
+          "bytes": 307030
+        }
+      ]
+    },
+    "problems/gmw/map/years/2019.geojson": {
+      "url": "/data/runtime/8b3c7bed31515796ac70fe50e85327f089fd6abd7a2bcb72ab4bc026c6f66bd8.json",
+      "gzip_url": "/data/runtime/8b3c7bed31515796ac70fe50e85327f089fd6abd7a2bcb72ab4bc026c6f66bd8.json.gz",
+      "sha256": "8b3c7bed31515796ac70fe50e85327f089fd6abd7a2bcb72ab4bc026c6f66bd8",
+      "bytes": 393433,
+      "gzip_bytes": 34003,
+      "sources": [
+        {
+          "path": "problems/gmw/map/years/2019.geojson",
+          "sha256": "8b3c7bed31515796ac70fe50e85327f089fd6abd7a2bcb72ab4bc026c6f66bd8",
+          "bytes": 393433
+        }
+      ]
+    },
+    "problems/gmw/map/years/2020.geojson": {
+      "url": "/data/runtime/1b44b653f6426c7080e6adc021e39a58287ed92f011ff8a74dca8f0adde270c5.json",
+      "gzip_url": "/data/runtime/1b44b653f6426c7080e6adc021e39a58287ed92f011ff8a74dca8f0adde270c5.json.gz",
+      "sha256": "1b44b653f6426c7080e6adc021e39a58287ed92f011ff8a74dca8f0adde270c5",
+      "bytes": 427521,
+      "gzip_bytes": 36702,
+      "sources": [
+        {
+          "path": "problems/gmw/map/years/2020.geojson",
+          "sha256": "1b44b653f6426c7080e6adc021e39a58287ed92f011ff8a74dca8f0adde270c5",
+          "bytes": 427521
+        }
+      ]
+    },
+    "problems/gmw/map/years/2021.geojson": {
+      "url": "/data/runtime/078bbb3370166925396fa0484a3800f9b1cba6cb50af49f07cba2edb2f187a0e.json",
+      "gzip_url": "/data/runtime/078bbb3370166925396fa0484a3800f9b1cba6cb50af49f07cba2edb2f187a0e.json.gz",
+      "sha256": "078bbb3370166925396fa0484a3800f9b1cba6cb50af49f07cba2edb2f187a0e",
+      "bytes": 289659,
+      "gzip_bytes": 25733,
+      "sources": [
+        {
+          "path": "problems/gmw/map/years/2021.geojson",
+          "sha256": "078bbb3370166925396fa0484a3800f9b1cba6cb50af49f07cba2edb2f187a0e",
+          "bytes": 289659
+        }
+      ]
+    },
+    "problems/gmw/map/years/2022.geojson": {
+      "url": "/data/runtime/f9ce7cb6f4d59d6b3c15be6b7ccd5d65539676b9787a5ea166c15e810673d356.json",
+      "gzip_url": "/data/runtime/f9ce7cb6f4d59d6b3c15be6b7ccd5d65539676b9787a5ea166c15e810673d356.json.gz",
+      "sha256": "f9ce7cb6f4d59d6b3c15be6b7ccd5d65539676b9787a5ea166c15e810673d356",
+      "bytes": 215902,
+      "gzip_bytes": 19540,
+      "sources": [
+        {
+          "path": "problems/gmw/map/years/2022.geojson",
+          "sha256": "f9ce7cb6f4d59d6b3c15be6b7ccd5d65539676b9787a5ea166c15e810673d356",
+          "bytes": 215902
+        }
+      ]
+    },
+    "problems/gmw/map/years/2023.geojson": {
+      "url": "/data/runtime/8fed95e1512b7c26be52db8ab1ee71b91563e9ebbeb4203091f4a89f6be3de26.json",
+      "gzip_url": "/data/runtime/8fed95e1512b7c26be52db8ab1ee71b91563e9ebbeb4203091f4a89f6be3de26.json.gz",
+      "sha256": "8fed95e1512b7c26be52db8ab1ee71b91563e9ebbeb4203091f4a89f6be3de26",
+      "bytes": 176484,
+      "gzip_bytes": 16215,
+      "sources": [
+        {
+          "path": "problems/gmw/map/years/2023.geojson",
+          "sha256": "8fed95e1512b7c26be52db8ab1ee71b91563e9ebbeb4203091f4a89f6be3de26",
+          "bytes": 176484
+        }
+      ]
+    },
+    "problems/gmw/map/years/2024.geojson": {
+      "url": "/data/runtime/c9c32a8fcfc82fac0e43711afb0c03af533e542c3593e920d3b0079fff71ebbb.json",
+      "gzip_url": "/data/runtime/c9c32a8fcfc82fac0e43711afb0c03af533e542c3593e920d3b0079fff71ebbb.json.gz",
+      "sha256": "c9c32a8fcfc82fac0e43711afb0c03af533e542c3593e920d3b0079fff71ebbb",
+      "bytes": 174994,
+      "gzip_bytes": 16119,
+      "sources": [
+        {
+          "path": "problems/gmw/map/years/2024.geojson",
+          "sha256": "c9c32a8fcfc82fac0e43711afb0c03af533e542c3593e920d3b0079fff71ebbb",
+          "bytes": 174994
+        }
+      ]
+    },
+    "problems/gmw/map/years/2025.geojson": {
+      "url": "/data/runtime/86f6bb4a1355a5d515b0cc015854e387ba4f769f3ac8e94c23785cc1d8c59b6c.json",
+      "gzip_url": "/data/runtime/86f6bb4a1355a5d515b0cc015854e387ba4f769f3ac8e94c23785cc1d8c59b6c.json.gz",
+      "sha256": "86f6bb4a1355a5d515b0cc015854e387ba4f769f3ac8e94c23785cc1d8c59b6c",
+      "bytes": 362210,
+      "gzip_bytes": 31744,
+      "sources": [
+        {
+          "path": "problems/gmw/map/years/2025.geojson",
+          "sha256": "86f6bb4a1355a5d515b0cc015854e387ba4f769f3ac8e94c23785cc1d8c59b6c",
+          "bytes": 362210
+        }
+      ]
+    },
+    "problems/s34-inventory.geojson": {
+      "url": "/data/runtime/acf2117548ffff52b3434a2c3c165d79b404c67ae6d707487acad86a49d64c55.json",
+      "gzip_url": "/data/runtime/acf2117548ffff52b3434a2c3c165d79b404c67ae6d707487acad86a49d64c55.json.gz",
+      "sha256": "acf2117548ffff52b3434a2c3c165d79b404c67ae6d707487acad86a49d64c55",
+      "bytes": 3554697,
+      "gzip_bytes": 538573,
+      "sources": [
+        {
+          "path": "problems/s34-s2.geojson",
+          "sha256": "7f3ed501d1e18cef6f5bd6abd20cfe0e3d97356e4ace0b053d54fa7fc819227b",
+          "bytes": 3120387
+        },
+        {
+          "path": "problems/s34-l8.geojson",
+          "sha256": "1589366bfab195196b3e1740a16970cdff7282069b94e4f147c122f0cac20f8a",
+          "bytes": 2384745
+        },
+        {
+          "path": "problems/s34-l5.geojson",
+          "sha256": "22cf69832b246c523674dfb46df36ca2e19903d09f152d67298648cdf76882df",
+          "bytes": 1522091
+        }
+      ]
+    }
+  }
+}

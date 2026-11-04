@@ -1,0 +1,537 @@
+{
+  "checked_at": "2026-10-28T17:14:56.397Z",
+  "method": "Esri official config + tilemap local changes at z17; metadata queried at exact point/z17. No imagery tile pixels downloaded. Different editions may repeat capture dates or imagery. Results not extrapolated beyond each point.",
+  "receipt_manifest": "work/2026-10-28-fondo/receipt-manifest.json",
+  "points": [
+    {
+      "name": "Chelem costa",
+      "coordinates": [
+        -89.7429508,
+        21.275
+      ],
+      "zoom": 17,
+      "entries": [
+        {
+          "key": "esri:10",
+          "release": 10,
+          "date": "2011-08-01",
+          "capture": "2011-08-01",
+          "edition": "2014-02-20"
+        },
+        {
+          "key": "esri:11019",
+          "release": 11019,
+          "date": "2011-08-01",
+          "capture": "2011-08-01",
+          "edition": "2014-10-29"
+        },
+        {
+          "key": "esri:6984",
+          "release": 6984,
+          "date": "2012-12-15",
+          "capture": "2012-12-15",
+          "edition": "2016-09-14"
+        },
+        {
+          "key": "esri:27946",
+          "release": 27946,
+          "date": "2017-02-08",
+          "capture": "2012-12-15",
+          "edition": "2017-02-08"
+        },
+        {
+          "key": "esri:10768",
+          "release": 10768,
+          "date": "2014-09-18",
+          "capture": "2014-09-18",
+          "edition": "2018-01-31"
+        },
+        {
+          "key": "esri:18820",
+          "release": 18820,
+          "date": "2018-10-17",
+          "capture": "2014-09-18",
+          "edition": "2018-10-17"
+        },
+        {
+          "key": "esri:18691",
+          "release": 18691,
+          "date": "2014-09-18",
+          "capture": "2014-09-18",
+          "edition": "2019-04-03"
+        },
+        {
+          "key": "esri:4756",
+          "release": 4756,
+          "date": "2019-12-12",
+          "capture": "2014-09-18",
+          "edition": "2019-12-12"
+        },
+        {
+          "key": "esri:15045",
+          "release": 15045,
+          "date": "2019-11-22",
+          "capture": "2019-11-22",
+          "edition": "2020-04-29"
+        },
+        {
+          "key": "esri:119",
+          "release": 119,
+          "date": "2020-10-14",
+          "capture": "2019-11-22",
+          "edition": "2020-10-14"
+        },
+        {
+          "key": "esri:20753",
+          "release": 20753,
+          "date": "2019-12-28",
+          "capture": "2019-12-28",
+          "edition": "2020-11-18"
+        },
+        {
+          "key": "esri:16749",
+          "release": 16749,
+          "date": "2020-12-20",
+          "capture": "2020-12-20",
+          "edition": "2021-10-13"
+        },
+        {
+          "key": "esri:10321",
+          "release": 10321,
+          "date": "2022-03-16",
+          "capture": "2020-12-20",
+          "edition": "2022-03-16"
+        },
+        {
+          "key": "esri:17825",
+          "release": 17825,
+          "date": "2022-08-10",
+          "capture": "2020-12-20",
+          "edition": "2022-08-10"
+        },
+        {
+          "key": "esri:45441",
+          "release": 45441,
+          "date": "2020-12-20",
+          "capture": "2020-12-20",
+          "edition": "2022-08-31"
+        },
+        {
+          "key": "esri:25982",
+          "release": 25982,
+          "date": "2023-06-13",
+          "capture": "2020-12-20",
+          "edition": "2023-06-13"
+        },
+        {
+          "key": "esri:64776",
+          "release": 64776,
+          "date": "2022-09-25",
+          "capture": "2022-09-25",
+          "edition": "2023-08-31"
+        },
+        {
+          "key": "esri:32553",
+          "release": 32553,
+          "date": "2023-09-21",
+          "capture": "2023-09-21",
+          "edition": "2024-08-15"
+        },
+        {
+          "key": "esri:25285",
+          "release": 25285,
+          "date": "2025-05-29",
+          "capture": "2023-09-21",
+          "edition": "2025-05-29"
+        },
+        {
+          "key": "esri:52304",
+          "release": 52304,
+          "date": "2025-02-13",
+          "capture": "2025-02-13",
+          "edition": "2025-09-04"
+        },
+        {
+          "key": "esri:22252",
+          "release": 22252,
+          "date": "2026-01-29",
+          "capture": "2025-02-13",
+          "edition": "2026-01-29"
+        },
+        {
+          "key": "esri:26334",
+          "release": 26334,
+          "date": "2025-02-13",
+          "capture": "2025-02-13",
+          "edition": "2026-08-05"
+        }
+      ]
+    },
+    {
+      "name": "Progreso centro",
+      "coordinates": [
+        -89.6635736,
+        21.2825778
+      ],
+      "zoom": 17,
+      "entries": [
+        {
+          "key": "esri:10",
+          "release": 10,
+          "date": "2011-08-01",
+          "capture": "2011-08-01",
+          "edition": "2014-02-20"
+        },
+        {
+          "key": "esri:11019",
+          "release": 11019,
+          "date": "2011-08-01",
+          "capture": "2011-08-01",
+          "edition": "2014-10-29"
+        },
+        {
+          "key": "esri:6984",
+          "release": 6984,
+          "date": "2012-12-15",
+          "capture": "2012-12-15",
+          "edition": "2016-09-14"
+        },
+        {
+          "key": "esri:27946",
+          "release": 27946,
+          "date": "2017-02-08",
+          "capture": "2012-12-15",
+          "edition": "2017-02-08"
+        },
+        {
+          "key": "esri:10768",
+          "release": 10768,
+          "date": "2014-09-18",
+          "capture": "2015-03-26",
+          "edition": "2018-01-31"
+        },
+        {
+          "key": "esri:18820",
+          "release": 18820,
+          "date": "2018-10-17",
+          "capture": "2015-03-26",
+          "edition": "2018-10-17"
+        },
+        {
+          "key": "esri:18691",
+          "release": 18691,
+          "date": "2014-09-18",
+          "capture": "2015-03-26",
+          "edition": "2019-04-03"
+        },
+        {
+          "key": "esri:4756",
+          "release": 4756,
+          "date": "2019-12-12",
+          "capture": "2015-03-26",
+          "edition": "2019-12-12"
+        },
+        {
+          "key": "esri:15045",
+          "release": 15045,
+          "date": "2019-11-22",
+          "capture": "2019-11-27",
+          "edition": "2020-04-29"
+        },
+        {
+          "key": "esri:119",
+          "release": 119,
+          "date": "2020-10-14",
+          "capture": "2019-11-27",
+          "edition": "2020-10-14"
+        },
+        {
+          "key": "esri:20753",
+          "release": 20753,
+          "date": "2019-12-28",
+          "capture": "2019-11-27",
+          "edition": "2020-11-18"
+        },
+        {
+          "key": "esri:16749",
+          "release": 16749,
+          "date": "2020-12-20",
+          "capture": "2020-06-07",
+          "edition": "2021-10-13"
+        },
+        {
+          "key": "esri:10321",
+          "release": 10321,
+          "date": "2022-03-16",
+          "capture": "2020-06-07",
+          "edition": "2022-03-16"
+        },
+        {
+          "key": "esri:17825",
+          "release": 17825,
+          "date": "2022-08-10",
+          "capture": "2020-06-07",
+          "edition": "2022-08-10"
+        },
+        {
+          "key": "esri:45441",
+          "release": 45441,
+          "date": "2020-12-20",
+          "capture": "2020-06-07",
+          "edition": "2022-08-31"
+        },
+        {
+          "key": "esri:25982",
+          "release": 25982,
+          "date": "2023-06-13",
+          "capture": "2020-06-07",
+          "edition": "2023-06-13"
+        },
+        {
+          "key": "esri:64776",
+          "release": 64776,
+          "date": "2022-09-25",
+          "capture": "2022-09-25",
+          "edition": "2023-08-31"
+        },
+        {
+          "key": "esri:32553",
+          "release": 32553,
+          "date": "2023-09-21",
+          "capture": "2023-08-30",
+          "edition": "2024-08-15"
+        },
+        {
+          "key": "esri:25285",
+          "release": 25285,
+          "date": "2025-05-29",
+          "capture": "2023-08-30",
+          "edition": "2025-05-29"
+        },
+        {
+          "key": "esri:52304",
+          "release": 52304,
+          "date": "2025-02-13",
+          "capture": "2025-04-14",
+          "edition": "2025-09-04"
+        },
+        {
+          "key": "esri:22252",
+          "release": 22252,
+          "date": "2026-01-29",
+          "capture": "2025-04-14",
+          "edition": "2026-01-29"
+        },
+        {
+          "key": "esri:26334",
+          "release": 26334,
+          "date": "2025-02-13",
+          "capture": "2025-04-14",
+          "edition": "2026-08-05"
+        }
+      ]
+    },
+    {
+      "name": "Chabihau centro",
+      "coordinates": [
+        -89.1179189,
+        21.3562825
+      ],
+      "zoom": 17,
+      "entries": [
+        {
+          "key": "esri:10",
+          "release": 10,
+          "date": "2011-08-01",
+          "capture": "2011-08-01",
+          "edition": "2014-02-20"
+        },
+        {
+          "key": "esri:11019",
+          "release": 11019,
+          "date": "2011-08-01",
+          "capture": "2011-08-01",
+          "edition": "2014-10-29"
+        },
+        {
+          "key": "esri:6984",
+          "release": 6984,
+          "date": "2012-12-15",
+          "capture": "2013-02-13",
+          "edition": "2016-09-14"
+        },
+        {
+          "key": "esri:10768",
+          "release": 10768,
+          "date": "2014-09-18",
+          "capture": "2017-01-26",
+          "edition": "2018-01-31"
+        },
+        {
+          "key": "esri:18691",
+          "release": 18691,
+          "date": "2014-09-18",
+          "capture": "2017-01-26",
+          "edition": "2019-04-03"
+        },
+        {
+          "key": "esri:15045",
+          "release": 15045,
+          "date": "2019-11-22",
+          "capture": "2019-11-27",
+          "edition": "2020-04-29"
+        },
+        {
+          "key": "esri:20753",
+          "release": 20753,
+          "date": "2019-12-28",
+          "capture": "2020-04-12",
+          "edition": "2020-11-18"
+        },
+        {
+          "key": "esri:16749",
+          "release": 16749,
+          "date": "2020-12-20",
+          "capture": "2020-04-12",
+          "edition": "2021-10-13"
+        },
+        {
+          "key": "esri:45441",
+          "release": 45441,
+          "date": "2020-12-20",
+          "capture": "2020-04-12",
+          "edition": "2022-08-31"
+        },
+        {
+          "key": "esri:64776",
+          "release": 64776,
+          "date": "2022-09-25",
+          "capture": "2020-04-12",
+          "edition": "2023-08-31"
+        },
+        {
+          "key": "esri:32553",
+          "release": 32553,
+          "date": "2023-09-21",
+          "capture": "2023-09-27",
+          "edition": "2024-08-15"
+        },
+        {
+          "key": "esri:52304",
+          "release": 52304,
+          "date": "2025-02-13",
+          "capture": "2023-09-27",
+          "edition": "2025-09-04"
+        },
+        {
+          "key": "esri:26334",
+          "release": 26334,
+          "date": "2025-02-13",
+          "capture": "2025-09-15",
+          "edition": "2026-08-05"
+        }
+      ]
+    },
+    {
+      "name": "Celestún centro",
+      "coordinates": [
+        -90.3994636,
+        20.8600917
+      ],
+      "zoom": 17,
+      "entries": [
+        {
+          "key": "esri:10",
+          "release": 10,
+          "date": "2011-08-01",
+          "capture": "2012-05-04",
+          "edition": "2014-02-20"
+        },
+        {
+          "key": "esri:11019",
+          "release": 11019,
+          "date": "2011-08-01",
+          "capture": "2012-05-04",
+          "edition": "2014-10-29"
+        },
+        {
+          "key": "esri:6984",
+          "release": 6984,
+          "date": "2012-12-15",
+          "capture": "2011-11-23",
+          "edition": "2016-09-14"
+        },
+        {
+          "key": "esri:10768",
+          "release": 10768,
+          "date": "2014-09-18",
+          "capture": "2016-03-07",
+          "edition": "2018-01-31"
+        },
+        {
+          "key": "esri:18691",
+          "release": 18691,
+          "date": "2014-09-18",
+          "capture": "2016-03-07",
+          "edition": "2019-04-03"
+        },
+        {
+          "key": "esri:15045",
+          "release": 15045,
+          "date": "2019-11-22",
+          "capture": "2016-03-07",
+          "edition": "2020-04-29"
+        },
+        {
+          "key": "esri:20753",
+          "release": 20753,
+          "date": "2019-12-28",
+          "capture": "2016-03-07",
+          "edition": "2020-11-18"
+        },
+        {
+          "key": "esri:16749",
+          "release": 16749,
+          "date": "2020-12-20",
+          "capture": "2021-04-12",
+          "edition": "2021-10-13"
+        },
+        {
+          "key": "esri:45441",
+          "release": 45441,
+          "date": "2020-12-20",
+          "capture": "2022-03-18",
+          "edition": "2022-08-31"
+        },
+        {
+          "key": "esri:64776",
+          "release": 64776,
+          "date": "2022-09-25",
+          "capture": "2022-10-23",
+          "edition": "2023-08-31"
+        },
+        {
+          "key": "esri:32553",
+          "release": 32553,
+          "date": "2023-09-21",
+          "capture": "2024-01-05",
+          "edition": "2024-08-15"
+        },
+        {
+          "key": "esri:52304",
+          "release": 52304,
+          "date": "2025-02-13",
+          "capture": "2025-04-17",
+          "edition": "2025-09-04"
+        },
+        {
+          "key": "esri:26334",
+          "release": 26334,
+          "date": "2025-02-13",
+          "capture": "2026-01-18",
+          "edition": "2026-08-05"
+        }
+      ]
+    }
+  ]
+}

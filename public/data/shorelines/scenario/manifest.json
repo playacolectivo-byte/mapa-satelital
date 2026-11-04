@@ -1,0 +1,63 @@
+{
+  "scenario_unvalidated": true,
+  "targets": 4356,
+  "years": [
+    2010,
+    2011,
+    2012,
+    2013,
+    2014,
+    2015,
+    2016,
+    2017,
+    2018,
+    2019,
+    2020,
+    2021,
+    2022,
+    2023,
+    2024,
+    2025,
+    2026
+  ],
+  "anchorYears": [
+    2016,
+    2017,
+    2019,
+    2020,
+    2021,
+    2025,
+    2026
+  ],
+  "municipalities": [
+    "Celestún",
+    "Dzemul",
+    "Dzidzantún",
+    "Dzilam de Bravo",
+    "Hunucmá",
+    "Ixil",
+    "Progreso",
+    "Río Lagartos",
+    "San Felipe",
+    "Sinanché",
+    "Telchac Puerto",
+    "Tizimín",
+    "Yobaín"
+  ],
+  "physical_cartographic_features": 577,
+  "cartographic_added": 1472,
+  "bytes": 2269839,
+  "gzip_bytes": 298095,
+  "source_hashes": {
+    "public/data/shorelines/series-2015/coverage-index.geojson": "e4ae5458d521970a44371a34da32bc481b6d0f6e9fc1bf393384932824991b38",
+    "public/data/shorelines/series-2015/coverage-years.json": "eea5af2f4ebfa136ce49cbe3710c9e01f52d3636e657927e2640864a91e804cc",
+    "public/data/shorelines/series-2015/reference-coast-2025.geojson": "2d2aeae0fb7be01945a66ce8d4179ff92a2e58d5d0fcd299430b03a919e4bedc",
+    "public/data/shorelines/map/series-2015/annual/2026.json": "8b681818ee0fec56b287cbe0df8f17e6e6cf0ed3bf3775b19277969b742bda09",
+    "public/data/shorelines/map/series-2015/annual/2025.json": "c0f85a05180efe0cc66ead844c8da025e42f81fdbee3945581c6349550686dbc",
+    "public/data/shorelines/map/series-2015/annual/2021.json": "9c678a5376243a109e332e716f46fc73c06b7283067550d4270c97a03fd1d430",
+    "public/data/shorelines/map/series-2015/annual/2020.json": "a32e6b1a66b5cdec5a9071129f5d2588ce930c92920d92b3dad89812d354a49f",
+    "public/data/shorelines/map/series-2015/annual/2019.json": "cbeb8f129bbab1b6737d6d3f5dd42ba1373b840a6472f292a97f50a82d764ea2",
+    "public/data/shorelines/map/series-2015/annual/2017.json": "7a05db56267914eb0af43023d1effef8531a316019c321c853c1e4922fe654f9",
+    "public/data/shorelines/map/series-2015/annual/2016.json": "2f47f34ee3a21c2eaef0930dffbe1d9584e9b4299677aeedea79ad4fecc004a9"
+  }
+}

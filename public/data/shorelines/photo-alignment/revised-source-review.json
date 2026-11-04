@@ -1,0 +1,632 @@
+{
+  "version": 1,
+  "date": "2026-11-02",
+  "algorithm": "source-aware-photo-anchors-v1",
+  "model_sha256": "21ed574a9c464cab785197f95568e242da2358cae23b08a420afde98aa294513",
+  "data_sha256": "250fa694f9c3829ac0d41598454e28988a6c681fc36c6330c0f950eb08aa76e5",
+  "scope": "Automatic point-by-point source-footprint verification at tile levels 17 and, where supplied, 18. This checks capture identity, not shoreline-detector or field accuracy. Missing finer-scale metadata does not prove imagery absence. Original observations are preserved.",
+  "blocked": [
+    {
+      "release": 26334,
+      "profile_id": "SC-28-0-34",
+      "kind": "spatial_estimate",
+      "expected": [
+        "2022-06-15",
+        "WV02",
+        0.6
+      ],
+      "actual": [
+        "2025-09-15",
+        "LG01",
+        0.6
+      ],
+      "position": [
+        -89.23085101912928,
+        21.34746102548534
+      ],
+      "reason": "capture_footprint_seam",
+      "levels": [
+        17,
+        18
+      ]
+    },
+    {
+      "release": 22252,
+      "profile_id": "SC-4-0-233",
+      "kind": "spatial_estimate",
+      "expected": [
+        "2024-03-30",
+        "WV02",
+        0.6
+      ],
+      "actual": [
+        "2024-01-05",
+        "WV02",
+        0.6
+      ],
+      "position": [
+        -90.24582038048044,
+        21.06582410556904
+      ],
+      "reason": "capture_footprint_seam",
+      "levels": [
+        17,
+        18
+      ]
+    },
+    {
+      "release": 52304,
+      "profile_id": "SC-4-0-233",
+      "kind": "spatial_estimate",
+      "expected": [
+        "2024-03-30",
+        "WV02",
+        0.6
+      ],
+      "actual": [
+        "2024-01-05",
+        "WV02",
+        0.6
+      ],
+      "position": [
+        -90.24582038048044,
+        21.06582410556904
+      ],
+      "reason": "capture_footprint_seam",
+      "levels": [
+        17,
+        18
+      ]
+    },
+    {
+      "release": 25285,
+      "profile_id": "SC-4-0-233",
+      "kind": "spatial_estimate",
+      "expected": [
+        "2024-03-30",
+        "WV02",
+        0.6
+      ],
+      "actual": [
+        "2024-01-05",
+        "WV02",
+        0.6
+      ],
+      "position": [
+        -90.24582038048044,
+        21.06582410556904
+      ],
+      "reason": "capture_footprint_seam",
+      "levels": [
+        17,
+        18
+      ]
+    },
+    {
+      "release": 32553,
+      "profile_id": "SC-4-0-233",
+      "kind": "spatial_estimate",
+      "expected": [
+        "2024-03-30",
+        "WV02",
+        0.6
+      ],
+      "actual": [
+        "2024-01-05",
+        "WV02",
+        0.6
+      ],
+      "position": [
+        -90.24582038048044,
+        21.06582410556904
+      ],
+      "reason": "capture_footprint_seam",
+      "levels": [
+        17,
+        18
+      ]
+    },
+    {
+      "release": 20753,
+      "profile_id": "SC-4-0-236",
+      "kind": "photo",
+      "expected": [
+        "2020-03-01",
+        "WV02",
+        0.5
+      ],
+      "actual": [
+        "2019-12-28",
+        "GE01",
+        0.5
+      ],
+      "position": [
+        -90.24843135339573,
+        21.06462495355177
+      ],
+      "reason": "capture_footprint_seam",
+      "levels": [
+        17
+      ]
+    },
+    {
+      "release": 15045,
+      "profile_id": "SC-5-0-156",
+      "kind": "photo",
+      "expected": [
+        "2019-11-22",
+        "WV02",
+        0.5
+      ],
+      "actual": [
+        "2019-10-04",
+        "GE01",
+        0.46
+      ],
+      "position": [
+        -89.89903713065297,
+        21.23116099596006
+      ],
+      "reason": "capture_footprint_seam",
+      "levels": [
+        17
+      ]
+    },
+    {
+      "release": 4756,
+      "profile_id": "SC-29-0-13",
+      "kind": "photo",
+      "expected": [
+        "2015-03-26",
+        "WV03_VNIR",
+        0.31
+      ],
+      "actual": null,
+      "position": [
+        -89.29666111823754,
+        21.342278263999674
+      ],
+      "reason": "unverified_source_footprint",
+      "levels": [
+        17
+      ]
+    },
+    {
+      "release": 4756,
+      "profile_id": "SC-29-0-17",
+      "kind": "photo",
+      "expected": [
+        "2015-03-26",
+        "WV03_VNIR",
+        0.31
+      ],
+      "actual": null,
+      "position": [
+        -89.29282813653852,
+        21.34215724001199
+      ],
+      "reason": "unverified_source_footprint",
+      "levels": [
+        17
+      ]
+    },
+    {
+      "release": 4756,
+      "profile_id": "SC-29-0-18",
+      "kind": "photo",
+      "expected": [
+        "2015-03-26",
+        "WV03_VNIR",
+        0.31
+      ],
+      "actual": null,
+      "position": [
+        -89.29187655443336,
+        21.342120196017436
+      ],
+      "reason": "unverified_source_footprint",
+      "levels": [
+        17
+      ]
+    },
+    {
+      "release": 4756,
+      "profile_id": "SC-29-0-19",
+      "kind": "photo",
+      "expected": [
+        "2015-03-26",
+        "WV03_VNIR",
+        0.31
+      ],
+      "actual": null,
+      "position": [
+        -89.29092662457461,
+        21.342097650172807
+      ],
+      "reason": "unverified_source_footprint",
+      "levels": [
+        17
+      ]
+    },
+    {
+      "release": 4756,
+      "profile_id": "SC-29-0-20",
+      "kind": "photo",
+      "expected": [
+        "2015-03-26",
+        "WV03_VNIR",
+        0.31
+      ],
+      "actual": null,
+      "position": [
+        -89.28996672338067,
+        21.34207037418963
+      ],
+      "reason": "unverified_source_footprint",
+      "levels": [
+        17
+      ]
+    },
+    {
+      "release": 4756,
+      "profile_id": "SC-29-0-21",
+      "kind": "photo",
+      "expected": [
+        "2015-03-26",
+        "WV03_VNIR",
+        0.31
+      ],
+      "actual": null,
+      "position": [
+        -89.28900739798114,
+        21.3421256341179
+      ],
+      "reason": "unverified_source_footprint",
+      "levels": [
+        17
+      ]
+    },
+    {
+      "release": 4756,
+      "profile_id": "SC-29-0-22",
+      "kind": "photo",
+      "expected": [
+        "2015-03-26",
+        "WV03_VNIR",
+        0.31
+      ],
+      "actual": null,
+      "position": [
+        -89.28805678886724,
+        21.342126084522384
+      ],
+      "reason": "unverified_source_footprint",
+      "levels": [
+        17
+      ]
+    },
+    {
+      "release": 4756,
+      "profile_id": "SC-264-0-0",
+      "kind": "photo",
+      "expected": [
+        "2015-04-26",
+        "WV03_VNIR",
+        0.31
+      ],
+      "actual": null,
+      "position": [
+        -88.23157909096894,
+        21.581556655311193
+      ],
+      "reason": "unverified_source_footprint",
+      "levels": [
+        17
+      ]
+    },
+    {
+      "release": 4756,
+      "profile_id": "SC-266-0-0",
+      "kind": "photo",
+      "expected": [
+        "2015-04-26",
+        "WV03_VNIR",
+        0.31
+      ],
+      "actual": null,
+      "position": [
+        -88.23206278195421,
+        21.57770759369066
+      ],
+      "reason": "unverified_source_footprint",
+      "levels": [
+        17
+      ]
+    },
+    {
+      "release": 4756,
+      "profile_id": "SC-267-0-1",
+      "kind": "photo",
+      "expected": [
+        "2015-04-26",
+        "WV03_VNIR",
+        0.31
+      ],
+      "actual": null,
+      "position": [
+        -88.2398886202934,
+        21.575026816144593
+      ],
+      "reason": "unverified_source_footprint",
+      "levels": [
+        17
+      ]
+    },
+    {
+      "release": 4756,
+      "profile_id": "SC-267-0-2",
+      "kind": "spatial_estimate",
+      "expected": [
+        "2015-04-26",
+        "WV03_VNIR",
+        0.31
+      ],
+      "actual": null,
+      "position": [
+        -88.23913803412724,
+        21.575419521591776
+      ],
+      "reason": "unverified_source_footprint",
+      "levels": [
+        17
+      ]
+    },
+    {
+      "release": 4756,
+      "profile_id": "SC-267-0-3",
+      "kind": "photo",
+      "expected": [
+        "2015-04-26",
+        "WV03_VNIR",
+        0.31
+      ],
+      "actual": null,
+      "position": [
+        -88.23851916141999,
+        21.575760413007465
+      ],
+      "reason": "unverified_source_footprint",
+      "levels": [
+        17
+      ]
+    },
+    {
+      "release": 18691,
+      "profile_id": "SC-29-0-13",
+      "kind": "photo",
+      "expected": [
+        "2015-03-26",
+        "WV03_VNIR",
+        0.31
+      ],
+      "actual": null,
+      "position": [
+        -89.29666111823754,
+        21.342278263999674
+      ],
+      "reason": "unverified_source_footprint",
+      "levels": [
+        17
+      ]
+    },
+    {
+      "release": 18691,
+      "profile_id": "SC-29-0-17",
+      "kind": "photo",
+      "expected": [
+        "2015-03-26",
+        "WV03_VNIR",
+        0.31
+      ],
+      "actual": null,
+      "position": [
+        -89.29282813653852,
+        21.34215724001199
+      ],
+      "reason": "unverified_source_footprint",
+      "levels": [
+        17
+      ]
+    },
+    {
+      "release": 18691,
+      "profile_id": "SC-29-0-18",
+      "kind": "photo",
+      "expected": [
+        "2015-03-26",
+        "WV03_VNIR",
+        0.31
+      ],
+      "actual": null,
+      "position": [
+        -89.29187655443336,
+        21.342120196017436
+      ],
+      "reason": "unverified_source_footprint",
+      "levels": [
+        17
+      ]
+    },
+    {
+      "release": 18691,
+      "profile_id": "SC-29-0-19",
+      "kind": "photo",
+      "expected": [
+        "2015-03-26",
+        "WV03_VNIR",
+        0.31
+      ],
+      "actual": null,
+      "position": [
+        -89.29092662457461,
+        21.342097650172807
+      ],
+      "reason": "unverified_source_footprint",
+      "levels": [
+        17
+      ]
+    },
+    {
+      "release": 18691,
+      "profile_id": "SC-29-0-20",
+      "kind": "photo",
+      "expected": [
+        "2015-03-26",
+        "WV03_VNIR",
+        0.31
+      ],
+      "actual": null,
+      "position": [
+        -89.28996672338067,
+        21.34207037418963
+      ],
+      "reason": "unverified_source_footprint",
+      "levels": [
+        17
+      ]
+    },
+    {
+      "release": 18691,
+      "profile_id": "SC-29-0-21",
+      "kind": "photo",
+      "expected": [
+        "2015-03-26",
+        "WV03_VNIR",
+        0.31
+      ],
+      "actual": null,
+      "position": [
+        -89.28900739798114,
+        21.3421256341179
+      ],
+      "reason": "unverified_source_footprint",
+      "levels": [
+        17
+      ]
+    },
+    {
+      "release": 18691,
+      "profile_id": "SC-29-0-22",
+      "kind": "photo",
+      "expected": [
+        "2015-03-26",
+        "WV03_VNIR",
+        0.31
+      ],
+      "actual": null,
+      "position": [
+        -89.28805678886724,
+        21.342126084522384
+      ],
+      "reason": "unverified_source_footprint",
+      "levels": [
+        17
+      ]
+    },
+    {
+      "release": 18691,
+      "profile_id": "SC-264-0-0",
+      "kind": "photo",
+      "expected": [
+        "2015-04-26",
+        "WV03_VNIR",
+        0.31
+      ],
+      "actual": null,
+      "position": [
+        -88.23157909096894,
+        21.581556655311193
+      ],
+      "reason": "unverified_source_footprint",
+      "levels": [
+        17
+      ]
+    },
+    {
+      "release": 18691,
+      "profile_id": "SC-266-0-0",
+      "kind": "photo",
+      "expected": [
+        "2015-04-26",
+        "WV03_VNIR",
+        0.31
+      ],
+      "actual": null,
+      "position": [
+        -88.23206278195421,
+        21.57770759369066
+      ],
+      "reason": "unverified_source_footprint",
+      "levels": [
+        17
+      ]
+    },
+    {
+      "release": 18691,
+      "profile_id": "SC-267-0-1",
+      "kind": "photo",
+      "expected": [
+        "2015-04-26",
+        "WV03_VNIR",
+        0.31
+      ],
+      "actual": null,
+      "position": [
+        -88.2398886202934,
+        21.575026816144593
+      ],
+      "reason": "unverified_source_footprint",
+      "levels": [
+        17
+      ]
+    },
+    {
+      "release": 18691,
+      "profile_id": "SC-267-0-2",
+      "kind": "spatial_estimate",
+      "expected": [
+        "2015-04-26",
+        "WV03_VNIR",
+        0.31
+      ],
+      "actual": null,
+      "position": [
+        -88.23913803412724,
+        21.575419521591776
+      ],
+      "reason": "unverified_source_footprint",
+      "levels": [
+        17
+      ]
+    },
+    {
+      "release": 18691,
+      "profile_id": "SC-267-0-3",
+      "kind": "photo",
+      "expected": [
+        "2015-04-26",
+        "WV03_VNIR",
+        0.31
+      ],
+      "actual": null,
+      "position": [
+        -88.23851916141999,
+        21.575760413007465
+      ],
+      "reason": "unverified_source_footprint",
+      "levels": [
+        17
+      ]
+    }
+  ]
+}

@@ -1,0 +1,304 @@
+{
+  "version": 1,
+  "date": "2026-11-02",
+  "data_sha256": "c4c78d75907157d82e6932695cd82236fdfdcc7d343edea440b08ddc74501c4f",
+  "reviewer": "ChatGPT · inspección visual de 41 capturas recibidas, más auditoría computacional de los 4,356 perfiles; no validación de campo",
+  "scope": "21 lecturas excluidas tras comparar sus posiciones con las imágenes fechadas. Los siete avisos espaciales por sí solos no deciden exclusiones: se conserva el caso correcto SC-88-0-249 aunque sus vecinos fallen. No certifica todos los cruces restantes.",
+  "action": "Conservar originales y excluir sólo estas lecturas de las comparaciones. No sustituir sus valores por los de vecinos.",
+  "exclusions": [
+    {
+      "profile_id": "SC-88-0-248",
+      "capture": 196,
+      "date": "2026-01-25",
+      "original_offset_m": -176.0,
+      "reason": "inland_road",
+      "figure": "auditoria-01.jpg",
+      "source_release": 26334,
+      "source_tile_zoom": 16,
+      "source_coordinate": [
+        -89.37285966269984,
+        21.331407566371542
+      ]
+    },
+    {
+      "profile_id": "SC-88-0-248",
+      "capture": 174,
+      "date": "2020-04-17",
+      "original_offset_m": -179.0,
+      "reason": "inland_road",
+      "figure": "auditoria-01.jpg",
+      "source_release": 10321,
+      "source_tile_zoom": 16,
+      "source_coordinate": [
+        -89.3728566966663,
+        21.331380759093783
+      ]
+    },
+    {
+      "profile_id": "SC-88-0-252",
+      "capture": 196,
+      "date": "2026-01-25",
+      "original_offset_m": -150.0,
+      "reason": "inland_road",
+      "figure": "auditoria-01.jpg",
+      "source_release": 26334,
+      "source_tile_zoom": 16,
+      "source_coordinate": [
+        -89.36903255448374,
+        21.332004018700143
+      ]
+    },
+    {
+      "profile_id": "SC-280-0-2",
+      "capture": 164,
+      "date": "2023-09-27",
+      "original_offset_m": 48.0,
+      "reason": "water_patch",
+      "figure": "auditoria-01.jpg",
+      "source_release": 25285,
+      "source_tile_zoom": 16,
+      "source_coordinate": [
+        -89.10515886052166,
+        21.358992334780453
+      ]
+    },
+    {
+      "profile_id": "SC-4-0-215",
+      "capture": 22,
+      "date": "2020-03-01",
+      "original_offset_m": -173.0,
+      "reason": "inland_vegetation",
+      "figure": "auditoria-01.jpg",
+      "source_release": 10321,
+      "source_tile_zoom": 16,
+      "source_coordinate": [
+        -90.23023071924811,
+        21.073060552511137
+      ]
+    },
+    {
+      "profile_id": "SC-5-0-105",
+      "capture": 43,
+      "date": "2022-01-24",
+      "original_offset_m": -143.0,
+      "reason": "inland_road",
+      "figure": "auditoria-02.jpg",
+      "source_release": 25285,
+      "source_tile_zoom": 16,
+      "source_coordinate": [
+        -89.9401843149207,
+        21.206720312448613
+      ]
+    },
+    {
+      "profile_id": "SC-7-0-175",
+      "capture": 69,
+      "date": "2023-12-31",
+      "original_offset_m": -170.0,
+      "reason": "inland_road",
+      "figure": "auditoria-02.jpg",
+      "source_release": 26334,
+      "source_tile_zoom": 16,
+      "source_coordinate": [
+        -88.01175703616342,
+        21.60792633155228
+      ]
+    },
+    {
+      "profile_id": "SC-611-0-4",
+      "capture": 98,
+      "date": "2025-09-09",
+      "original_offset_m": 70.0,
+      "reason": "cloud_obscured",
+      "figure": "auditoria-02.jpg",
+      "source_release": 26334,
+      "source_tile_zoom": 16,
+      "source_coordinate": [
+        -87.55280279303963,
+        21.492163062419152
+      ]
+    },
+    {
+      "profile_id": "SC-14-0-3",
+      "capture": 112,
+      "date": "2024-02-26",
+      "original_offset_m": 105.0,
+      "reason": "water_patch",
+      "figure": "auditoria-02.jpg",
+      "source_release": 22252,
+      "source_tile_zoom": 16,
+      "source_coordinate": [
+        -88.43582358155122,
+        21.556523320699338
+      ]
+    },
+    {
+      "profile_id": "SC-22-0-16",
+      "capture": 150,
+      "date": "2016-10-31",
+      "original_offset_m": -182.0,
+      "reason": "inland_wetland",
+      "figure": "auditoria-02.jpg",
+      "source_release": 18820,
+      "source_tile_zoom": 16,
+      "source_coordinate": [
+        -88.86095586599205,
+        21.3941231557447
+      ]
+    },
+    {
+      "profile_id": "SC-20-0-8",
+      "capture": 126,
+      "date": "2015-03-09",
+      "original_offset_m": 2.0,
+      "reason": "cloud_obscured",
+      "figure": "auditoria-03.jpg",
+      "source_release": 18820,
+      "source_tile_zoom": 16,
+      "source_coordinate": [
+        -88.79724397788398,
+        21.419550375007724
+      ]
+    },
+    {
+      "profile_id": "SC-28-0-122",
+      "capture": 163,
+      "date": "2024-11-30",
+      "original_offset_m": -118.0,
+      "reason": "inland_road",
+      "figure": "auditoria-03.jpg",
+      "source_release": 26334,
+      "source_tile_zoom": 16,
+      "source_coordinate": [
+        -89.14699117874883,
+        21.353925057173193
+      ]
+    },
+    {
+      "profile_id": "SC-88-0-250",
+      "capture": 172,
+      "date": "2020-04-17",
+      "original_offset_m": -168.0,
+      "reason": "inland_road",
+      "figure": "auditoria-04.jpg",
+      "source_release": 64776,
+      "source_tile_zoom": 16,
+      "source_coordinate": [
+        -89.37093179824966,
+        21.331669529797338
+      ]
+    },
+    {
+      "profile_id": "SC-7-0-175",
+      "capture": 56,
+      "date": "2020-02-06",
+      "original_offset_m": -179.0,
+      "reason": "inland_road",
+      "figure": "variantes-01.jpg",
+      "source_release": 20753,
+      "source_tile_zoom": 16,
+      "source_coordinate": [
+        -88.01175711007795,
+        21.607845483575638
+      ]
+    },
+    {
+      "profile_id": "SC-7-0-175",
+      "capture": 70,
+      "date": "2017-02-09",
+      "original_offset_m": -171.0,
+      "reason": "inland_road",
+      "figure": "variantes-01.jpg",
+      "source_release": 18820,
+      "source_tile_zoom": 16,
+      "source_coordinate": [
+        -88.01175704437615,
+        21.607917348443767
+      ]
+    },
+    {
+      "profile_id": "SC-14-0-3",
+      "capture": 113,
+      "date": "2020-02-03",
+      "original_offset_m": 56.0,
+      "reason": "water_patch",
+      "figure": "variantes-01.jpg",
+      "source_release": 20753,
+      "source_tile_zoom": 16,
+      "source_coordinate": [
+        -88.43570497749398,
+        21.55609724437298
+      ]
+    },
+    {
+      "profile_id": "SC-28-0-122",
+      "capture": 40,
+      "date": "2011-08-01",
+      "original_offset_m": 49.0,
+      "reason": "water_patch",
+      "figure": "variantes-01.jpg",
+      "source_release": 11019,
+      "source_tile_zoom": 16,
+      "source_coordinate": [
+        -89.14716763441785,
+        21.355416201343335
+      ]
+    },
+    {
+      "profile_id": "SC-88-0-250",
+      "capture": 174,
+      "date": "2020-04-17",
+      "original_offset_m": -172.0,
+      "reason": "inland_road",
+      "figure": "variantes-01.jpg",
+      "source_release": 10321,
+      "source_tile_zoom": 16,
+      "source_coordinate": [
+        -89.37092753416037,
+        21.331633817649656
+      ]
+    },
+    {
+      "profile_id": "SC-88-0-252",
+      "capture": 187,
+      "date": "2023-07-01",
+      "original_offset_m": -152.0,
+      "reason": "inland_road",
+      "figure": "variantes-01.jpg",
+      "source_release": 25285,
+      "source_tile_zoom": 16,
+      "source_coordinate": [
+        -89.36903050587685,
+        21.33198615414948
+      ]
+    },
+    {
+      "profile_id": "SC-88-0-252",
+      "capture": 172,
+      "date": "2020-04-17",
+      "original_offset_m": -154.0,
+      "reason": "inland_road",
+      "figure": "variantes-01.jpg",
+      "source_release": 64776,
+      "source_tile_zoom": 16,
+      "source_coordinate": [
+        -89.36902845726996,
+        21.331968289598812
+      ]
+    },
+    {
+      "profile_id": "SC-88-0-252",
+      "capture": 174,
+      "date": "2020-04-17",
+      "original_offset_m": -153.0,
+      "reason": "inland_road",
+      "figure": "variantes-01.jpg",
+      "source_release": 10321,
+      "source_tile_zoom": 16,
+      "source_coordinate": [
+        -89.3690294815734,
+        21.331977221874148
+      ]
+    }
+  ]
+}

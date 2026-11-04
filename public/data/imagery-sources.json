@@ -1,0 +1,14 @@
+{
+  "service": "Esri World Imagery",
+  "service_url": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer",
+  "accessed": "2026-09-03",
+  "runtime": "Tiles are requested from the provider at display time and are not stored in this deployment.",
+  "copyright": "Source: Esri, Vantor, Earthstar Geographics, and the GIS User Community",
+  "verified_points": [
+    {"place":"Chelem","coordinates":[-89.7429508,21.275],"source":"Vantor","sensor":"WV03","capture":"2025-02-13","resolution_m":0.31,"accuracy_m":5,"release":"Raster Basemaps 2026.R07"},
+    {"place":"Chuburná","coordinates":[-89.8162,21.257],"source":"Vantor","sensor":"WV03","capture":"2025-03-23","resolution_m":0.31,"accuracy_m":5,"release":"Raster Basemaps 2026.R07"},
+    {"place":"Progreso","coordinates":[-89.6636,21.288],"source":"Vantor","sensor":"LG02","capture":"2025-04-14","resolution_m":0.34,"accuracy_m":5,"release":"Raster Basemaps 2026.R07"},
+    {"place":"Yucalpetén","coordinates":[-89.721,21.285],"source":"Vantor","sensor":"WV02","capture":"2023-09-21","resolution_m":0.5,"accuracy_m":5,"release":"Raster Basemaps 2026.R07"}
+  ],
+  "limits": "A multi-date visual basemap, not live imagery or a homogeneous scientific time series. Capture metadata applies to the queried point. Resolution and stated horizontal accuracy are provider metadata, not proof of shoreline positional accuracy."
+}

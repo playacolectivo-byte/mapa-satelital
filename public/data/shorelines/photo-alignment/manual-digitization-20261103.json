@@ -1,0 +1,848 @@
+{
+  "version": 1,
+  "data_sha256": "250fa694f9c3829ac0d41598454e28988a6c681fc36c6330c0f950eb08aa76e5",
+  "model_sha256": "21ed574a9c464cab785197f95568e242da2358cae23b08a420afde98aa294513",
+  "method": "manual-visible-waterline-chelem-20261103",
+  "field_validated": false,
+  "sources": [
+    {
+      "id": "chelem-oeste-2011",
+      "screenshot_sha256": "0cf31721dfa7bbde50613e0d6fdfecc01d8c0833386e6e05356c6ca4ed8234fb",
+      "release": 11019,
+      "capture_date": "2011-08-01",
+      "provider_tile": {
+        "complete": true,
+        "src": "https://wayback.maptiles.arcgis.com/arcgis/rest/services/World_Imagery/WMTS/1.0.0/default028mm/MapServer/tile/11019/17/57602/32881",
+        "width": 256,
+        "x": 1063,
+        "y": 116
+      },
+      "polyline_pixels": [
+        [
+          158,
+          306
+        ],
+        [
+          190,
+          319
+        ],
+        [
+          240,
+          330
+        ],
+        [
+          290,
+          333
+        ],
+        [
+          340,
+          330
+        ],
+        [
+          390,
+          326
+        ],
+        [
+          420,
+          323
+        ],
+        [
+          435,
+          340
+        ],
+        [
+          465,
+          348
+        ],
+        [
+          510,
+          351
+        ],
+        [
+          560,
+          349
+        ],
+        [
+          620,
+          346
+        ],
+        [
+          690,
+          343
+        ],
+        [
+          760,
+          339
+        ],
+        [
+          830,
+          336
+        ],
+        [
+          900,
+          332
+        ],
+        [
+          970,
+          326
+        ],
+        [
+          1040,
+          319
+        ],
+        [
+          1110,
+          311
+        ],
+        [
+          1180,
+          305
+        ],
+        [
+          1250,
+          297
+        ],
+        [
+          1320,
+          285
+        ],
+        [
+          1390,
+          278
+        ],
+        [
+          1450,
+          267
+        ]
+      ],
+      "interpretation": "Manual apparent water/sand boundary, no tide or wave correction",
+      "tracing_allowance_m": 6
+    },
+    {
+      "id": "chelem-2011",
+      "screenshot_sha256": "b426e985394f7ebfed78f41ae55faf4c452a3fb68d28eed3f816b5ade0a91132",
+      "release": 11019,
+      "capture_date": "2011-08-01",
+      "provider_tile": {
+        "complete": true,
+        "src": "https://wayback.maptiles.arcgis.com/arcgis/rest/services/World_Imagery/WMTS/1.0.0/default028mm/MapServer/tile/11019/17/57601/32883",
+        "width": 256,
+        "x": 428,
+        "y": 41
+      },
+      "polyline_pixels": [
+        [
+          0,
+          482
+        ],
+        [
+          80,
+          473
+        ],
+        [
+          160,
+          466
+        ],
+        [
+          240,
+          456
+        ],
+        [
+          320,
+          442
+        ],
+        [
+          400,
+          433
+        ],
+        [
+          480,
+          425
+        ],
+        [
+          560,
+          415
+        ],
+        [
+          620,
+          415
+        ],
+        [
+          665,
+          405
+        ],
+        [
+          720,
+          395
+        ],
+        [
+          780,
+          393
+        ],
+        [
+          840,
+          381
+        ],
+        [
+          900,
+          366
+        ],
+        [
+          960,
+          347
+        ],
+        [
+          1020,
+          330
+        ],
+        [
+          1080,
+          309
+        ],
+        [
+          1140,
+          290
+        ],
+        [
+          1200,
+          273
+        ],
+        [
+          1260,
+          252
+        ],
+        [
+          1320,
+          228
+        ],
+        [
+          1380,
+          208
+        ],
+        [
+          1450,
+          187
+        ]
+      ],
+      "interpretation": "Manual apparent water/sand boundary, no tide or wave correction",
+      "tracing_allowance_m": 6
+    },
+    {
+      "id": "chelem-este-2011",
+      "screenshot_sha256": "6ce2d20a15092121f4ca36e2e3ae66f938e70e9c417384c93aa7e1a7a54dcc53",
+      "release": 11019,
+      "capture_date": "2011-08-01",
+      "provider_tile": {
+        "complete": true,
+        "src": "https://wayback.maptiles.arcgis.com/arcgis/rest/services/World_Imagery/WMTS/1.0.0/default028mm/MapServer/tile/11019/17/57600/32888",
+        "width": 256,
+        "x": 596,
+        "y": 119
+      },
+      "polyline_pixels": [
+        [
+          340,
+          520
+        ],
+        [
+          400,
+          490
+        ],
+        [
+          460,
+          467
+        ],
+        [
+          520,
+          451
+        ],
+        [
+          580,
+          429
+        ],
+        [
+          640,
+          415
+        ],
+        [
+          680,
+          396
+        ],
+        [
+          720,
+          391
+        ],
+        [
+          755,
+          369
+        ],
+        [
+          800,
+          356
+        ],
+        [
+          850,
+          345
+        ],
+        [
+          900,
+          330
+        ],
+        [
+          940,
+          316
+        ],
+        [
+          970,
+          304
+        ],
+        [
+          985,
+          282
+        ],
+        [
+          995,
+          265
+        ],
+        [
+          1010,
+          254
+        ],
+        [
+          1050,
+          248
+        ],
+        [
+          1090,
+          239
+        ]
+      ],
+      "interpretation": "Manual apparent water/sand boundary, no tide or wave correction",
+      "tracing_allowance_m": 6
+    }
+  ],
+  "corrections": [
+    {
+      "profile_id": "SC-90-0-0",
+      "capture": 40,
+      "date": "2011-08-01",
+      "releases": [
+        11019,
+        10
+      ],
+      "original_offset_m": null,
+      "original_accepted": false,
+      "offset_m": 8.4,
+      "manual_uncertainty_m": 6,
+      "source": "chelem-oeste-2011",
+      "pixel": [
+        186.59322182490146,
+        317.5849218236613
+      ]
+    },
+    {
+      "profile_id": "SC-90-0-2",
+      "capture": 40,
+      "date": "2011-08-01",
+      "releases": [
+        11019,
+        10
+      ],
+      "original_offset_m": null,
+      "original_accepted": false,
+      "offset_m": 22.2,
+      "manual_uncertainty_m": 6,
+      "source": "chelem-oeste-2011",
+      "pixel": [
+        360.1197793622167,
+        328.41771803021567
+      ]
+    },
+    {
+      "profile_id": "SC-90-0-3",
+      "capture": 40,
+      "date": "2011-08-01",
+      "releases": [
+        11019,
+        10
+      ],
+      "original_offset_m": null,
+      "original_accepted": false,
+      "offset_m": -32.9,
+      "manual_uncertainty_m": 6,
+      "source": "chelem-oeste-2011",
+      "pixel": [
+        436.4198845993429,
+        340.3579367852197
+      ]
+    },
+    {
+      "profile_id": "SC-90-0-4",
+      "capture": 40,
+      "date": "2011-08-01",
+      "releases": [
+        11019,
+        10
+      ],
+      "original_offset_m": null,
+      "original_accepted": false,
+      "offset_m": 7.0,
+      "manual_uncertainty_m": 6,
+      "source": "chelem-oeste-2011",
+      "pixel": [
+        459.8699493124026,
+        346.62974530412987
+      ]
+    },
+    {
+      "profile_id": "SC-90-0-5",
+      "capture": 40,
+      "date": "2011-08-01",
+      "releases": [
+        11019,
+        10
+      ],
+      "original_offset_m": -42.0,
+      "original_accepted": false,
+      "offset_m": 3.3,
+      "manual_uncertainty_m": 6,
+      "source": "chelem-oeste-2011",
+      "pixel": [
+        547.0725614838739,
+        349.51603329114636
+      ]
+    },
+    {
+      "profile_id": "SC-90-0-6",
+      "capture": 40,
+      "date": "2011-08-01",
+      "releases": [
+        11019,
+        10
+      ],
+      "original_offset_m": null,
+      "original_accepted": false,
+      "offset_m": 1.9,
+      "manual_uncertainty_m": 6,
+      "source": "chelem-oeste-2011",
+      "pixel": [
+        636.2467393834908,
+        345.2737560053141
+      ]
+    },
+    {
+      "profile_id": "SC-90-0-7",
+      "capture": 40,
+      "date": "2011-08-01",
+      "releases": [
+        11019,
+        10
+      ],
+      "original_offset_m": null,
+      "original_accepted": false,
+      "offset_m": -1.3,
+      "manual_uncertainty_m": 6,
+      "source": "chelem-oeste-2011",
+      "pixel": [
+        725.5122002239461,
+        340.9722648810115
+      ]
+    },
+    {
+      "profile_id": "SC-90-0-8",
+      "capture": 40,
+      "date": "2011-08-01",
+      "releases": [
+        11019,
+        10
+      ],
+      "original_offset_m": null,
+      "original_accepted": false,
+      "offset_m": -9.3,
+      "manual_uncertainty_m": 6,
+      "source": "chelem-oeste-2011",
+      "pixel": [
+        815.0582425978236,
+        336.60828520860275
+      ]
+    },
+    {
+      "profile_id": "SC-90-0-9",
+      "capture": 40,
+      "date": "2011-08-01",
+      "releases": [
+        11019,
+        10
+      ],
+      "original_offset_m": 92.0,
+      "original_accepted": false,
+      "offset_m": -17.8,
+      "manual_uncertainty_m": 6,
+      "source": "chelem-oeste-2011",
+      "pixel": [
+        904.5412070667539,
+        331.60426661156185
+      ]
+    },
+    {
+      "profile_id": "SC-90-0-10",
+      "capture": 40,
+      "date": "2011-08-01",
+      "releases": [
+        11019,
+        10
+      ],
+      "original_offset_m": 89.0,
+      "original_accepted": false,
+      "offset_m": -19.4,
+      "manual_uncertainty_m": 6,
+      "source": "chelem-oeste-2011",
+      "pixel": [
+        993.2509515082647,
+        323.6453555657121
+      ]
+    },
+    {
+      "profile_id": "SC-90-0-11",
+      "capture": 40,
+      "date": "2011-08-01",
+      "releases": [
+        11019,
+        10
+      ],
+      "original_offset_m": null,
+      "original_accepted": false,
+      "offset_m": -23.0,
+      "manual_uncertainty_m": 6,
+      "source": "chelem-oeste-2011",
+      "pixel": [
+        1082.942831825023,
+        314.0960457402567
+      ]
+    },
+    {
+      "profile_id": "SC-90-0-12",
+      "capture": 40,
+      "date": "2011-08-01",
+      "releases": [
+        11019,
+        10
+      ],
+      "original_offset_m": null,
+      "original_accepted": false,
+      "offset_m": -29.7,
+      "manual_uncertainty_m": 6,
+      "source": "chelem-oeste-2011",
+      "pixel": [
+        1172.5685844230773,
+        305.6574542665492
+      ]
+    },
+    {
+      "profile_id": "SC-90-0-13",
+      "capture": 40,
+      "date": "2011-08-01",
+      "releases": [
+        11019,
+        10
+      ],
+      "original_offset_m": null,
+      "original_accepted": false,
+      "offset_m": -31.2,
+      "manual_uncertainty_m": 6,
+      "source": "chelem-oeste-2011",
+      "pixel": [
+        1259.67525158216,
+        295.3587253050713
+      ]
+    },
+    {
+      "profile_id": "SC-90-0-14",
+      "capture": 40,
+      "date": "2011-08-01",
+      "releases": [
+        11019,
+        10
+      ],
+      "original_offset_m": null,
+      "original_accepted": false,
+      "offset_m": -25.6,
+      "manual_uncertainty_m": 6,
+      "source": "chelem-2011",
+      "pixel": [
+        200.69838725167796,
+        460.94093702889836
+      ]
+    },
+    {
+      "profile_id": "SC-90-0-15",
+      "capture": 40,
+      "date": "2011-08-01",
+      "releases": [
+        11019,
+        10
+      ],
+      "original_offset_m": null,
+      "original_accepted": false,
+      "offset_m": -23.2,
+      "manual_uncertainty_m": 6,
+      "source": "chelem-2011",
+      "pixel": [
+        290.327714531795,
+        447.16696258283514
+      ]
+    },
+    {
+      "profile_id": "SC-90-0-16",
+      "capture": 40,
+      "date": "2011-08-01",
+      "releases": [
+        11019,
+        10
+      ],
+      "original_offset_m": null,
+      "original_accepted": false,
+      "offset_m": -28.4,
+      "manual_uncertainty_m": 6,
+      "source": "chelem-2011",
+      "pixel": [
+        379.0108325261225,
+        435.3576623862326
+      ]
+    },
+    {
+      "profile_id": "SC-90-0-17",
+      "capture": 40,
+      "date": "2011-08-01",
+      "releases": [
+        11019,
+        10
+      ],
+      "original_offset_m": null,
+      "original_accepted": false,
+      "offset_m": -34.5,
+      "manual_uncertainty_m": 6,
+      "source": "chelem-2011",
+      "pixel": [
+        467.8977787656591,
+        426.2175712651034
+      ]
+    },
+    {
+      "profile_id": "SC-90-0-18",
+      "capture": 40,
+      "date": "2011-08-01",
+      "releases": [
+        11019,
+        10
+      ],
+      "original_offset_m": null,
+      "original_accepted": false,
+      "offset_m": -40.3,
+      "manual_uncertainty_m": 6,
+      "source": "chelem-2011",
+      "pixel": [
+        558.4469965051175,
+        415.22083901447826
+      ]
+    },
+    {
+      "profile_id": "SC-90-0-19",
+      "capture": 40,
+      "date": "2011-08-01",
+      "releases": [
+        11019,
+        10
+      ],
+      "original_offset_m": null,
+      "original_accepted": false,
+      "offset_m": -54.1,
+      "manual_uncertainty_m": 6,
+      "source": "chelem-2011",
+      "pixel": [
+        648.0448691649638,
+        408.73357029557656
+      ]
+    },
+    {
+      "profile_id": "SC-90-0-20",
+      "capture": 40,
+      "date": "2011-08-01",
+      "releases": [
+        11019,
+        10
+      ],
+      "original_offset_m": 32.0,
+      "original_accepted": false,
+      "offset_m": -63.1,
+      "manual_uncertainty_m": 6,
+      "source": "chelem-2011",
+      "pixel": [
+        741.0323558357463,
+        394.2790234135164
+      ]
+    },
+    {
+      "profile_id": "SC-90-0-21",
+      "capture": 40,
+      "date": "2011-08-01",
+      "releases": [
+        11019,
+        10
+      ],
+      "original_offset_m": 16.0,
+      "original_accepted": false,
+      "offset_m": -82.7,
+      "manual_uncertainty_m": 6,
+      "source": "chelem-2011",
+      "pixel": [
+        830.9645552976056,
+        382.7983631406828
+      ]
+    },
+    {
+      "profile_id": "SC-90-0-22",
+      "capture": 40,
+      "date": "2011-08-01",
+      "releases": [
+        11019,
+        10
+      ],
+      "original_offset_m": null,
+      "original_accepted": false,
+      "offset_m": -83.0,
+      "manual_uncertainty_m": 6,
+      "source": "chelem-2011",
+      "pixel": [
+        916.7676097798836,
+        360.69390723605954
+      ]
+    },
+    {
+      "profile_id": "SC-90-0-23",
+      "capture": 40,
+      "date": "2011-08-01",
+      "releases": [
+        11019,
+        10
+      ],
+      "original_offset_m": null,
+      "original_accepted": false,
+      "offset_m": -82.7,
+      "manual_uncertainty_m": 6,
+      "source": "chelem-2011",
+      "pixel": [
+        1002.618596103374,
+        334.91269157957566
+      ]
+    },
+    {
+      "profile_id": "SC-90-0-24",
+      "capture": 40,
+      "date": "2011-08-01",
+      "releases": [
+        11019,
+        10
+      ],
+      "original_offset_m": null,
+      "original_accepted": false,
+      "offset_m": -81.0,
+      "manual_uncertainty_m": 6,
+      "source": "chelem-2011",
+      "pixel": [
+        1086.782655073645,
+        306.85961944260424
+      ]
+    },
+    {
+      "profile_id": "SC-90-0-25",
+      "capture": 40,
+      "date": "2011-08-01",
+      "releases": [
+        11019,
+        10
+      ],
+      "original_offset_m": null,
+      "original_accepted": false,
+      "offset_m": -76.0,
+      "manual_uncertainty_m": 6,
+      "source": "chelem-2011",
+      "pixel": [
+        1173.7672282349663,
+        280.46950018114234
+      ]
+    },
+    {
+      "profile_id": "SC-90-0-26",
+      "capture": 40,
+      "date": "2011-08-01",
+      "releases": [
+        11019,
+        10
+      ],
+      "original_offset_m": null,
+      "original_accepted": false,
+      "offset_m": -78.6,
+      "manual_uncertainty_m": 6,
+      "source": "chelem-2011",
+      "pixel": [
+        1261.5317962961876,
+        251.3449537912153
+      ]
+    },
+    {
+      "profile_id": "SC-90-0-27",
+      "capture": 40,
+      "date": "2011-08-01",
+      "releases": [
+        11019,
+        10
+      ],
+      "original_offset_m": -29.0,
+      "original_accepted": false,
+      "offset_m": -76.1,
+      "manual_uncertainty_m": 6,
+      "source": "chelem-2011",
+      "pixel": [
+        1345.253928452713,
+        219.61177656731783
+      ]
+    },
+    {
+      "profile_id": "SC-90-0-28",
+      "capture": 40,
+      "date": "2011-08-01",
+      "releases": [
+        11019,
+        10
+      ],
+      "original_offset_m": -145.0,
+      "original_accepted": false,
+      "offset_m": -76.4,
+      "manual_uncertainty_m": 6,
+      "source": "chelem-2011",
+      "pixel": [
+        1426.5045591706141,
+        194.06441491840903
+      ]
+    },
+    {
+      "profile_id": "SC-90-0-36",
+      "capture": 40,
+      "date": "2011-08-01",
+      "releases": [
+        11019,
+        10
+      ],
+      "original_offset_m": -26.0,
+      "original_accepted": false,
+      "offset_m": -19.9,
+      "manual_uncertainty_m": 6,
+      "source": "chelem-este-2011",
+      "pixel": [
+        987.825983378223,
+        277.1252162106617
+      ]
+    }
+  ]
+}

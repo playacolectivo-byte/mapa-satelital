@@ -1,0 +1,401 @@
+{
+  "version": 1,
+  "sites": {
+    "san-miguel": {
+      "center": [
+        -89.55525,
+        21.30735
+      ],
+      "captureDates": {
+        "esri:10": "2011-08-01",
+        "esri:11019": "2011-08-01",
+        "esri:6984": "2012-12-15",
+        "esri:10768": "2015-03-26",
+        "esri:18691": "2015-03-26",
+        "esri:15045": "2019-11-22",
+        "esri:16749": "2019-11-22",
+        "esri:45441": "2022-03-31",
+        "esri:64776": "2022-03-31",
+        "esri:32553": "2023-08-14",
+        "esri:52304": "2025-03-13",
+        "esri:26334": "2025-03-13",
+        "esri:20753": "2019-11-22",
+        "study:san-miguel-flight-2018-04-11": "2018-04-11"
+      }
+    }
+  },
+  "records": [
+    {
+      "id": "SANMIGUEL-TF2019-AXIS-01",
+      "kind": "geotubes",
+      "site": "san-miguel",
+      "notBefore": "2017-07-14",
+      "observations": [
+        {
+          "date": "2017-02-15",
+          "state": "absent",
+          "source": "https://doi.org/10.3390/w11040635",
+          "note": "Fig8a, PDFp9; undisturbed pre-deployment campaign; correspondencia geográfica de tramos interpretada."
+        },
+        {
+          "date": "2017-04-27",
+          "state": "absent",
+          "source": "https://doi.org/10.3390/w11040635",
+          "note": "Fig8b, PDFp9; undisturbed pre-deployment campaign; correspondencia geográfica de tramos interpretada."
+        },
+        {
+          "date": "2017-06-28",
+          "state": "absent",
+          "source": "https://doi.org/10.3390/w11040635",
+          "note": "Fig8c PDFp9 and section2.2.1 PDFp4; first three eastern sections completed by25June; correspondencia geográfica de tramos interpretada."
+        },
+        {
+          "date": "2017-08-30",
+          "state": "present",
+          "source": "https://doi.org/10.3390/w11040635",
+          "note": "Fig7a black dashed line, PDFp8; Fig8d, PDFp9; correspondencia geográfica de tramos interpretada."
+        },
+        {
+          "date": "2017-10-27",
+          "state": "present",
+          "source": "https://doi.org/10.3390/w11040635",
+          "note": "Fig8h, PDFp9; all six historical segments drawn filled before western removal; correspondencia geográfica de tramos interpretada."
+        },
+        {
+          "date": "2017-11-15",
+          "state": "deflated",
+          "source": "https://doi.org/10.3390/w11040635",
+          "note": "Fig8i, PDFp9; lighter western segment; removal month corroborated Table2 PDFp10; correspondencia geográfica de tramos interpretada."
+        },
+        {
+          "date": "2018-03-07",
+          "state": "deflated",
+          "source": "https://doi.org/10.3390/w11040635",
+          "note": "Fig8n, PDFp9; lighter western segment before eastern sections deflated in last campaign; correspondencia geográfica de tramos interpretada."
+        },
+        {
+          "date": "2018-04-11",
+          "state": "deflated",
+          "source": "https://doi.org/10.3390/w11040635",
+          "note": "Fig7a red dashed profile, PDFp8, plus Fig8o PDFp9; only20–60m retains elevated crest; correspondencia geográfica de tramos interpretada."
+        },
+        {
+          "date": "2018-06-13",
+          "state": "deflated",
+          "source": "https://doi.org/10.3390/w11040635",
+          "note": "Fig7a red solid profile, PDFp8; all sections deflated; prose PDFp8 says byJune; correspondencia geográfica de tramos interpretada."
+        }
+      ]
+    },
+    {
+      "id": "SANMIGUEL-TF2019-AXIS-02",
+      "kind": "geotubes",
+      "site": "san-miguel",
+      "notBefore": "2017-07-14",
+      "observations": [
+        {
+          "date": "2017-02-15",
+          "state": "absent",
+          "source": "https://doi.org/10.3390/w11040635",
+          "note": "Fig8a, PDFp9; undisturbed pre-deployment campaign; correspondencia geográfica de tramos interpretada."
+        },
+        {
+          "date": "2017-04-27",
+          "state": "absent",
+          "source": "https://doi.org/10.3390/w11040635",
+          "note": "Fig8b, PDFp9; undisturbed pre-deployment campaign; correspondencia geográfica de tramos interpretada."
+        },
+        {
+          "date": "2017-06-28",
+          "state": "absent",
+          "source": "https://doi.org/10.3390/w11040635",
+          "note": "Fig8c PDFp9 and section2.2.1 PDFp4; first three eastern sections completed by25June; correspondencia geográfica de tramos interpretada."
+        },
+        {
+          "date": "2017-08-30",
+          "state": "present",
+          "source": "https://doi.org/10.3390/w11040635",
+          "note": "Fig7a black dashed line, PDFp8; Fig8d, PDFp9; correspondencia geográfica de tramos interpretada."
+        },
+        {
+          "date": "2017-10-27",
+          "state": "present",
+          "source": "https://doi.org/10.3390/w11040635",
+          "note": "Fig8h, PDFp9; all six historical segments drawn filled before western removal; correspondencia geográfica de tramos interpretada."
+        },
+        {
+          "date": "2017-11-15",
+          "state": "present",
+          "source": "https://doi.org/10.3390/w11040635",
+          "note": "Fig8i, PDFp9; lighter western segment; removal month corroborated Table2 PDFp10; correspondencia geográfica de tramos interpretada."
+        },
+        {
+          "date": "2018-03-07",
+          "state": "present",
+          "source": "https://doi.org/10.3390/w11040635",
+          "note": "Fig8n, PDFp9; lighter western segment before eastern sections deflated in last campaign; correspondencia geográfica de tramos interpretada."
+        },
+        {
+          "date": "2018-04-11",
+          "state": "present",
+          "source": "https://doi.org/10.3390/w11040635",
+          "note": "Fig7a red dashed profile, PDFp8, plus Fig8o PDFp9; only20–60m retains elevated crest; correspondencia geográfica de tramos interpretada."
+        },
+        {
+          "date": "2018-06-13",
+          "state": "deflated",
+          "source": "https://doi.org/10.3390/w11040635",
+          "note": "Fig7a red solid profile, PDFp8; all sections deflated; prose PDFp8 says byJune; correspondencia geográfica de tramos interpretada."
+        }
+      ]
+    },
+    {
+      "id": "SANMIGUEL-TF2019-AXIS-03",
+      "kind": "geotubes",
+      "site": "san-miguel",
+      "notBefore": "2017-07-14",
+      "observations": [
+        {
+          "date": "2017-02-15",
+          "state": "absent",
+          "source": "https://doi.org/10.3390/w11040635",
+          "note": "Fig8a, PDFp9; undisturbed pre-deployment campaign; correspondencia geográfica de tramos interpretada."
+        },
+        {
+          "date": "2017-04-27",
+          "state": "absent",
+          "source": "https://doi.org/10.3390/w11040635",
+          "note": "Fig8b, PDFp9; undisturbed pre-deployment campaign; correspondencia geográfica de tramos interpretada."
+        },
+        {
+          "date": "2017-06-28",
+          "state": "absent",
+          "source": "https://doi.org/10.3390/w11040635",
+          "note": "Fig8c PDFp9 and section2.2.1 PDFp4; first three eastern sections completed by25June; correspondencia geográfica de tramos interpretada."
+        },
+        {
+          "date": "2017-08-30",
+          "state": "present",
+          "source": "https://doi.org/10.3390/w11040635",
+          "note": "Fig7a black dashed line, PDFp8; Fig8d, PDFp9; correspondencia geográfica de tramos interpretada."
+        },
+        {
+          "date": "2017-10-27",
+          "state": "present",
+          "source": "https://doi.org/10.3390/w11040635",
+          "note": "Fig8h, PDFp9; all six historical segments drawn filled before western removal; correspondencia geográfica de tramos interpretada."
+        },
+        {
+          "date": "2017-11-15",
+          "state": "present",
+          "source": "https://doi.org/10.3390/w11040635",
+          "note": "Fig8i, PDFp9; lighter western segment; removal month corroborated Table2 PDFp10; correspondencia geográfica de tramos interpretada."
+        },
+        {
+          "date": "2018-03-07",
+          "state": "present",
+          "source": "https://doi.org/10.3390/w11040635",
+          "note": "Fig8n, PDFp9; lighter western segment before eastern sections deflated in last campaign; correspondencia geográfica de tramos interpretada."
+        },
+        {
+          "date": "2018-04-11",
+          "state": "present",
+          "source": "https://doi.org/10.3390/w11040635",
+          "note": "Fig7a red dashed profile, PDFp8, plus Fig8o PDFp9; only20–60m retains elevated crest; correspondencia geográfica de tramos interpretada."
+        },
+        {
+          "date": "2018-06-13",
+          "state": "deflated",
+          "source": "https://doi.org/10.3390/w11040635",
+          "note": "Fig7a red solid profile, PDFp8; all sections deflated; prose PDFp8 says byJune; correspondencia geográfica de tramos interpretada."
+        }
+      ]
+    },
+    {
+      "id": "SANMIGUEL-TF2019-AXIS-04",
+      "kind": "geotubes",
+      "site": "san-miguel",
+      "notBefore": "2017-06-18",
+      "observations": [
+        {
+          "date": "2017-02-15",
+          "state": "absent",
+          "source": "https://doi.org/10.3390/w11040635",
+          "note": "Fig8a, PDFp9; undisturbed pre-deployment campaign; correspondencia geográfica de tramos interpretada."
+        },
+        {
+          "date": "2017-04-27",
+          "state": "absent",
+          "source": "https://doi.org/10.3390/w11040635",
+          "note": "Fig8b, PDFp9; undisturbed pre-deployment campaign; correspondencia geográfica de tramos interpretada."
+        },
+        {
+          "date": "2017-06-28",
+          "state": "present",
+          "source": "https://doi.org/10.3390/w11040635",
+          "note": "Fig8c PDFp9 and section2.2.1 PDFp4; first three eastern sections completed by25June; correspondencia geográfica de tramos interpretada."
+        },
+        {
+          "date": "2017-08-30",
+          "state": "present",
+          "source": "https://doi.org/10.3390/w11040635",
+          "note": "Fig7a black dashed line, PDFp8; Fig8d, PDFp9; correspondencia geográfica de tramos interpretada."
+        },
+        {
+          "date": "2017-10-27",
+          "state": "present",
+          "source": "https://doi.org/10.3390/w11040635",
+          "note": "Fig8h, PDFp9; all six historical segments drawn filled before western removal; correspondencia geográfica de tramos interpretada."
+        },
+        {
+          "date": "2017-11-15",
+          "state": "present",
+          "source": "https://doi.org/10.3390/w11040635",
+          "note": "Fig8i, PDFp9; lighter western segment; removal month corroborated Table2 PDFp10; correspondencia geográfica de tramos interpretada."
+        },
+        {
+          "date": "2018-03-07",
+          "state": "present",
+          "source": "https://doi.org/10.3390/w11040635",
+          "note": "Fig8n, PDFp9; lighter western segment before eastern sections deflated in last campaign; correspondencia geográfica de tramos interpretada."
+        },
+        {
+          "date": "2018-04-11",
+          "state": "deflated",
+          "source": "https://doi.org/10.3390/w11040635",
+          "note": "Fig7a red dashed profile, PDFp8, plus Fig8o PDFp9; only20–60m retains elevated crest; correspondencia geográfica de tramos interpretada."
+        },
+        {
+          "date": "2018-06-13",
+          "state": "deflated",
+          "source": "https://doi.org/10.3390/w11040635",
+          "note": "Fig7a red solid profile, PDFp8; all sections deflated; prose PDFp8 says byJune; correspondencia geográfica de tramos interpretada."
+        }
+      ]
+    },
+    {
+      "id": "SANMIGUEL-TF2019-AXIS-05",
+      "kind": "geotubes",
+      "site": "san-miguel",
+      "notBefore": "2017-06-18",
+      "observations": [
+        {
+          "date": "2017-02-15",
+          "state": "absent",
+          "source": "https://doi.org/10.3390/w11040635",
+          "note": "Fig8a, PDFp9; undisturbed pre-deployment campaign; correspondencia geográfica de tramos interpretada."
+        },
+        {
+          "date": "2017-04-27",
+          "state": "absent",
+          "source": "https://doi.org/10.3390/w11040635",
+          "note": "Fig8b, PDFp9; undisturbed pre-deployment campaign; correspondencia geográfica de tramos interpretada."
+        },
+        {
+          "date": "2017-06-28",
+          "state": "present",
+          "source": "https://doi.org/10.3390/w11040635",
+          "note": "Fig8c PDFp9 and section2.2.1 PDFp4; first three eastern sections completed by25June; correspondencia geográfica de tramos interpretada."
+        },
+        {
+          "date": "2017-08-30",
+          "state": "present",
+          "source": "https://doi.org/10.3390/w11040635",
+          "note": "Fig7a black dashed line, PDFp8; Fig8d, PDFp9; correspondencia geográfica de tramos interpretada."
+        },
+        {
+          "date": "2017-10-27",
+          "state": "present",
+          "source": "https://doi.org/10.3390/w11040635",
+          "note": "Fig8h, PDFp9; all six historical segments drawn filled before western removal; correspondencia geográfica de tramos interpretada."
+        },
+        {
+          "date": "2017-11-15",
+          "state": "present",
+          "source": "https://doi.org/10.3390/w11040635",
+          "note": "Fig8i, PDFp9; lighter western segment; removal month corroborated Table2 PDFp10; correspondencia geográfica de tramos interpretada."
+        },
+        {
+          "date": "2018-03-07",
+          "state": "present",
+          "source": "https://doi.org/10.3390/w11040635",
+          "note": "Fig8n, PDFp9; lighter western segment before eastern sections deflated in last campaign; correspondencia geográfica de tramos interpretada."
+        },
+        {
+          "date": "2018-04-11",
+          "state": "deflated",
+          "source": "https://doi.org/10.3390/w11040635",
+          "note": "Fig7a red dashed profile, PDFp8, plus Fig8o PDFp9; only20–60m retains elevated crest; correspondencia geográfica de tramos interpretada."
+        },
+        {
+          "date": "2018-06-13",
+          "state": "deflated",
+          "source": "https://doi.org/10.3390/w11040635",
+          "note": "Fig7a red solid profile, PDFp8; all sections deflated; prose PDFp8 says byJune; correspondencia geográfica de tramos interpretada."
+        }
+      ]
+    },
+    {
+      "id": "SANMIGUEL-TF2019-AXIS-06",
+      "kind": "geotubes",
+      "site": "san-miguel",
+      "notBefore": "2017-06-18",
+      "observations": [
+        {
+          "date": "2017-02-15",
+          "state": "absent",
+          "source": "https://doi.org/10.3390/w11040635",
+          "note": "Fig8a, PDFp9; undisturbed pre-deployment campaign; correspondencia geográfica de tramos interpretada."
+        },
+        {
+          "date": "2017-04-27",
+          "state": "absent",
+          "source": "https://doi.org/10.3390/w11040635",
+          "note": "Fig8b, PDFp9; undisturbed pre-deployment campaign; correspondencia geográfica de tramos interpretada."
+        },
+        {
+          "date": "2017-06-28",
+          "state": "present",
+          "source": "https://doi.org/10.3390/w11040635",
+          "note": "Fig8c PDFp9 and section2.2.1 PDFp4; first three eastern sections completed by25June; correspondencia geográfica de tramos interpretada."
+        },
+        {
+          "date": "2017-08-30",
+          "state": "present",
+          "source": "https://doi.org/10.3390/w11040635",
+          "note": "Fig7a black dashed line, PDFp8; Fig8d, PDFp9; correspondencia geográfica de tramos interpretada."
+        },
+        {
+          "date": "2017-10-27",
+          "state": "present",
+          "source": "https://doi.org/10.3390/w11040635",
+          "note": "Fig8h, PDFp9; all six historical segments drawn filled before western removal; correspondencia geográfica de tramos interpretada."
+        },
+        {
+          "date": "2017-11-15",
+          "state": "present",
+          "source": "https://doi.org/10.3390/w11040635",
+          "note": "Fig8i, PDFp9; lighter western segment; removal month corroborated Table2 PDFp10; correspondencia geográfica de tramos interpretada."
+        },
+        {
+          "date": "2018-03-07",
+          "state": "present",
+          "source": "https://doi.org/10.3390/w11040635",
+          "note": "Fig8n, PDFp9; lighter western segment before eastern sections deflated in last campaign; correspondencia geográfica de tramos interpretada."
+        },
+        {
+          "date": "2018-04-11",
+          "state": "deflated",
+          "source": "https://doi.org/10.3390/w11040635",
+          "note": "Fig7a red dashed profile, PDFp8, plus Fig8o PDFp9; only20–60m retains elevated crest; correspondencia geográfica de tramos interpretada."
+        },
+        {
+          "date": "2018-06-13",
+          "state": "deflated",
+          "source": "https://doi.org/10.3390/w11040635",
+          "note": "Fig7a red solid profile, PDFp8; all sections deflated; prose PDFp8 says byJune; correspondencia geográfica de tramos interpretada."
+        }
+      ]
+    }
+  ]
+}

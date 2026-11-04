@@ -1,0 +1,608 @@
+{
+  "status": "interpreted_historical_axes_not_physical_footprints",
+  "date": "2026-10-22",
+  "sources": [
+    {
+      "url": "https://doi.org/10.3390/w11040635",
+      "figure": 5,
+      "pdf_page_1based": 6,
+      "aerial_date": "2018-04-11",
+      "license": "CC BY4.0",
+      "role": "Authors black annotation locating geotextile layout.",
+      "received_pdf_sha256": "1c78734f19f0defb9063af610c58f76e0977d02e7500265b4320d3b54d4eefff",
+      "received_pdf_bytes": 5646127
+    },
+    {
+      "url": "https://tesiunamdocumentos.dgb.unam.mx/ptd2024/ene_mar/0850643/0850643.pdf",
+      "figure": "5-4",
+      "pdf_page_1based": 41,
+      "caption_date": "2019-10",
+      "role": "UTM E/N reticle and common stable building features; original orthomosaic/GCP not received.",
+      "rights": "Reserved rights. Reference used for analysis, not assumed open basemap license.",
+      "received_pdf_sha256": "1d09a2e8597f5bfa2b83f0cd3768f2732d6f8b886049612010c3a56c260cd177",
+      "received_pdf_bytes": 5162292
+    }
+  ],
+  "method": {
+    "candidate_discovery": "SIFT + nearest-neighbor ratio matching and preliminary RANSAC similarity; candidate image patches then visually checked for same stable structures. Vegetation candidates removed.",
+    "final_model": "Five visually checked stable roof/terrace controls; least-squares 4-parameter 2D similarity (rotation, isotropic scale, translation), subset of affine.",
+    "checks": "Five point ties not used in final least-squares fit, on same stable buildings; checks are internal image-registration checks, not independent surveyed ground truth.",
+    "control_distribution": "Western and eastern buildings over roughly400m alongshore; narrow cross-shore band. Tubes lie seaward outside control convex hull, so extrapolation is a limitation.",
+    "old_pixel_to_new_pixel_matrix": [
+      [
+        0.7870436713078227,
+        0.31156597979151,
+        143.0795567432098
+      ],
+      [
+        -0.31156597979151,
+        0.7870436713078227,
+        223.51734940528667
+      ]
+    ],
+    "new_pixel_to_easting_coefficients": [
+      0.6327137176110337,
+      0.11007124019579351,
+      234395.48712295576
+    ],
+    "new_pixel_to_northing_coefficients": [
+      0.11256419104557767,
+      -0.6346803269316297,
+      2358266.502756236
+    ],
+    "utm_to_wgs84": "EPSG32616→EPSG4326 always_xy=True; zone/datum assumption based on site and WGS84 GPS methods, not a georeferenced original file.",
+    "reticle_control_and_check_lines": [
+      {
+        "axis": "N",
+        "value": 2358100,
+        "role": "control",
+        "pixels": [
+          630,
+          376,
+          1073,
+          454
+        ]
+      },
+      {
+        "axis": "N",
+        "value": 2358200,
+        "role": "control",
+        "pixels": [
+          323,
+          162,
+          714,
+          230
+        ]
+      },
+      {
+        "axis": "N",
+        "value": 2358300,
+        "role": "check",
+        "pixels": [
+          519,
+          38,
+          893,
+          104
+        ]
+      },
+      {
+        "axis": "N",
+        "value": 2358200,
+        "role": "control",
+        "pixels": [
+          853,
+          257,
+          1226,
+          322
+        ]
+      },
+      {
+        "axis": "E",
+        "value": 234700,
+        "role": "control",
+        "pixels": [
+          409,
+          412,
+          474,
+          41
+        ]
+      },
+      {
+        "axis": "N",
+        "value": 2358100,
+        "role": "control",
+        "pixels": [
+          736,
+          393,
+          1087,
+          454
+        ]
+      },
+      {
+        "axis": "N",
+        "value": 2358200,
+        "role": "control",
+        "pixels": [
+          738,
+          235,
+          1054,
+          291
+        ]
+      },
+      {
+        "axis": "N",
+        "value": 2358200,
+        "role": "control",
+        "pixels": [
+          335,
+          166,
+          620,
+          216
+        ]
+      },
+      {
+        "axis": "N",
+        "value": 2358300,
+        "role": "check",
+        "pixels": [
+          516,
+          38,
+          778,
+          84
+        ]
+      },
+      {
+        "axis": "E",
+        "value": 234600,
+        "role": "control",
+        "pixels": [
+          271,
+          301,
+          301,
+          127
+        ]
+      },
+      {
+        "axis": "N",
+        "value": 2358200,
+        "role": "control",
+        "pixels": [
+          57,
+          114,
+          213,
+          142
+        ]
+      },
+      {
+        "axis": "N",
+        "value": 2358300,
+        "role": "check",
+        "pixels": [
+          925,
+          112,
+          1079,
+          139
+        ]
+      },
+      {
+        "axis": "E",
+        "value": 234900,
+        "role": "control",
+        "pixels": [
+          764,
+          187,
+          791,
+          37
+        ]
+      },
+      {
+        "axis": "N",
+        "value": 2358100,
+        "role": "control",
+        "pixels": [
+          597,
+          368,
+          741,
+          393
+        ]
+      },
+      {
+        "axis": "N",
+        "value": 2358100,
+        "role": "control",
+        "pixels": [
+          42,
+          270,
+          186,
+          295
+        ]
+      },
+      {
+        "axis": "N",
+        "value": 2358100,
+        "role": "control",
+        "pixels": [
+          756,
+          396,
+          877,
+          417
+        ]
+      },
+      {
+        "axis": "E",
+        "value": 234800,
+        "role": "control",
+        "pixels": [
+          591,
+          284,
+          611,
+          170
+        ]
+      },
+      {
+        "axis": "N",
+        "value": 2358200,
+        "role": "control",
+        "pixels": [
+          504,
+          195,
+          617,
+          215
+        ]
+      },
+      {
+        "axis": "E",
+        "value": 234800,
+        "role": "control",
+        "pixels": [
+          599,
+          230,
+          618,
+          120
+        ]
+      },
+      {
+        "axis": "N",
+        "value": 2358200,
+        "role": "control",
+        "pixels": [
+          39,
+          111,
+          138,
+          129
+        ]
+      },
+      {
+        "axis": "E",
+        "value": 235000,
+        "role": "check",
+        "pixels": [
+          932,
+          132,
+          948,
+          38
+        ]
+      },
+      {
+        "axis": "E",
+        "value": 235000,
+        "role": "check",
+        "pixels": [
+          933,
+          133,
+          950,
+          42
+        ]
+      }
+    ],
+    "reticle_fit_results": [
+      {
+        "axis": "E",
+        "role": "control",
+        "n": 10,
+        "rmse_m": 0.40819293737339507,
+        "max_abs_m": 0.7873152493848465
+      },
+      {
+        "axis": "E",
+        "role": "check",
+        "n": 4,
+        "rmse_m": 0.701306230623545,
+        "max_abs_m": 1.1881467744533438
+      },
+      {
+        "axis": "N",
+        "role": "control",
+        "n": 24,
+        "rmse_m": 0.5831650350426457,
+        "max_abs_m": 1.2216063314117491
+      },
+      {
+        "axis": "N",
+        "role": "check",
+        "n": 6,
+        "rmse_m": 0.6787257653437611,
+        "max_abs_m": 1.0158248390071094
+      }
+    ],
+    "roof_ties": [
+      {
+        "id": "G01",
+        "role": "control",
+        "feature": "Western white-roof house beside blue pool",
+        "old": [
+          311.9310607910156,
+          243.81939697265625
+        ],
+        "new": [
+          463.7994384765625,
+          316.7112731933594
+        ],
+        "residual_target_pixels": 1.690609757443135,
+        "residual_utm_m": 1.0866359420465572,
+        "target_utm_inferred": [
+          234723.80019252456,
+          2358117.6995504224
+        ]
+      },
+      {
+        "id": "G02",
+        "role": "control",
+        "feature": "Western house solar-panel rooftop",
+        "old": [
+          356.926513671875,
+          260.89898681640625
+        ],
+        "new": [
+          506.0721740722656,
+          319.3440856933594
+        ],
+        "residual_target_pixels": 1.8685678603102844,
+        "residual_utm_m": 1.2011465927223572,
+        "target_utm_inferred": [
+          234750.83652915398,
+          2358120.78695241
+        ]
+      },
+      {
+        "id": "G03",
+        "role": "control",
+        "feature": "Eastern long white rooftop north portion",
+        "old": [
+          1036.1295166015625,
+          361.5168762207031
+        ],
+        "new": [
+          1072.0174560546875,
+          185.25326538085938
+        ],
+        "residual_target_pixels": 0.8228739606675072,
+        "residual_utm_m": 0.5287391483189607,
+        "target_utm_inferred": [
+          235094.15832959083,
+          2358269.5969309267
+        ]
+      },
+      {
+        "id": "G04",
+        "role": "control",
+        "feature": "Eastern adjacent terracotta rooftop",
+        "old": [
+          1059.9696044921875,
+          355.7341613769531
+        ],
+        "new": [
+          1087.7744140625,
+          171.2192840576172
+        ],
+        "residual_target_pixels": 2.0616494013466915,
+        "residual_utm_m": 1.3268646733453966,
+        "target_utm_inferred": [
+          235102.58323534107,
+          2358280.2776920125
+        ]
+      },
+      {
+        "id": "G05",
+        "role": "control",
+        "feature": "Farther-eastern square white rooftop",
+        "old": [
+          1096.3099365234375,
+          367.7349853515625
+        ],
+        "new": [
+          1120.017578125,
+          173.18630981445312
+        ],
+        "residual_target_pixels": 1.8805035375305796,
+        "residual_utm_m": 1.2124447519258745,
+        "target_utm_inferred": [
+          235123.20044050715,
+          2358282.6586851412
+        ]
+      },
+      {
+        "id": "V01",
+        "role": "check_not_used_in_final_fit",
+        "feature": "Western house fixed terrace/canopy feature",
+        "old": [
+          323.38897705078125,
+          224.43104553222656
+        ],
+        "new": [
+          464.6907043457031,
+          301.1354064941406
+        ],
+        "residual_target_pixels": 3.3255036966889793,
+        "residual_utm_m": 2.142640035759306,
+        "target_utm_inferred": [
+          234722.6496537013,
+          2358127.685571213
+        ]
+      },
+      {
+        "id": "V02",
+        "role": "check_not_used_in_final_fit",
+        "feature": "Western solar-roof alternate feature",
+        "old": [
+          356.0583190917969,
+          253.7342529296875
+        ],
+        "new": [
+          503.0948791503906,
+          313.4518737792969
+        ],
+        "residual_target_pixels": 1.377635408908475,
+        "residual_utm_m": 0.8851057701142997,
+        "target_utm_inferred": [
+          234748.30419074267,
+          2358124.1914865994
+        ]
+      },
+      {
+        "id": "V03",
+        "role": "check_not_used_in_final_fit",
+        "feature": "Western solar-roof second alternate feature",
+        "old": [
+          374.5065612792969,
+          258.8336486816406
+        ],
+        "new": [
+          518.4468994140625,
+          311.3392028808594
+        ],
+        "residual_target_pixels": 0.792518897216966,
+        "residual_utm_m": 0.5105849625715605,
+        "target_utm_inferred": [
+          234757.78508025061,
+          2358127.260444998
+        ]
+      },
+      {
+        "id": "V04",
+        "role": "check_not_used_in_final_fit",
+        "feature": "Western solar-roof southern corner feature",
+        "old": [
+          378.3821105957031,
+          274.5910949707031
+        ],
+        "new": [
+          524.51220703125,
+          325.78045654296875
+        ],
+        "residual_target_pixels": 4.4737013015194576,
+        "residual_utm_m": 2.8853575316791336,
+        "target_utm_inferred": [
+          234763.21225028211,
+          2358118.7776018474
+        ]
+      },
+      {
+        "id": "V05",
+        "role": "check_not_used_in_final_fit",
+        "feature": "Eastern long white rooftop alternate feature",
+        "old": [
+          1036.775634765625,
+          368.2016296386719
+        ],
+        "new": [
+          1074.141357421875,
+          193.65916442871094
+        ],
+        "residual_target_pixels": 3.393687468314697,
+        "residual_utm_m": 2.185016536444598,
+        "target_utm_inferred": [
+          235096.42739885388,
+          2358264.50094741
+        ]
+      }
+    ],
+    "control_rmse_m": 1.107581873503316,
+    "check_rmse_m": 1.9356963037256811,
+    "check_max_m": 2.8853575316791336,
+    "scale_new_px_per_old_px": 0.8464697870031391,
+    "rotation_degrees": -21.59706385839284,
+    "segment_digitization": "Manual center of six explicit black cartographic strokes; marker thickness was deliberately not used as physical width.",
+    "publication_lengths": "Text reports120m total and20m nominal sections; raster annotation-derived line lengths are preserved without scaling to force120m.",
+    "digitized_axes_total_m": 103.12322773207036
+  },
+  "uncertainty": {
+    "absolute_positional_accuracy_m": null,
+    "certified": false,
+    "interpretation": "Internal registration RMS is not absolute geographic accuracy. Reticle raster resolution, manual picking, source orthomosaic unknown absolute error, datum assumption and seaward extrapolation add unquantified error. No exact physical outline is claimed.",
+    "physical_footprint_available": false
+  },
+  "temporal_scope": {
+    "reported_layout_period": "2017-07",
+    "source_aerial_date": "2018-04-11",
+    "all_six_intact_on_capture_date": false,
+    "reason": "Article section4.1 reports only two middle sections remained by April2018; figure annotation depicts historical full layout.",
+    "current_presence": null,
+    "per_section_construction_or_removal_dates": null
+  },
+  "bbox_wgs84": [
+    -89.55577679188139,
+    21.307142940462175,
+    -89.55472918773867,
+    21.307462192672283
+  ],
+  "qa_camera_bbox_wgs84": [
+    -89.55877679188139,
+    21.305142940462176,
+    -89.55172918773867,
+    21.30946219267228
+  ],
+  "software": {
+    "numpy": "2.2.6",
+    "opencv": "4.12.0",
+    "pyproj": "3.7.2",
+    "proj": "9.5.1"
+  },
+  "files": [
+    {
+      "path": "tf5-image-0.jpeg",
+      "bytes": 176312,
+      "sha256": "78af12551c42c79d60191b46a228c5ff904e6ea7d31ba52282533c3f808ac2f1"
+    },
+    {
+      "path": "thesis-2019-reticle.png",
+      "bytes": 704390,
+      "sha256": "117435c4553731395b62c66851bdaf69cf0045ecd455a3c1c6cd42d0d31ee4d7"
+    },
+    {
+      "path": "registration-guided.json",
+      "bytes": 5007,
+      "sha256": "a912270edd013a77f3331f59e5a0e4d56a6309c024fceebcf1ed75772e2ac95f"
+    },
+    {
+      "path": "reticle-hough.json",
+      "bytes": 3484,
+      "sha256": "e18ec60644d109b75fde58d9d6f02c7089dc9e6968e7380d000b67da6a97693f"
+    },
+    {
+      "path": "san-miguel-historical-interpreted-axes.geojson",
+      "bytes": 9608,
+      "sha256": "405fe7e188c698c90928452aa173a1ce8adce59b313341d1c3112f36eb8dc69f"
+    },
+    {
+      "path": "san-miguel-control-validation.png",
+      "bytes": 1190485,
+      "sha256": "23bfec94ea2d90580403f169f3fb5a019cf378ba41447447031fb4484ea4eb8a"
+    }
+  ],
+  "raster_extraction": {
+    "PyMuPDF_version": "1.26.6",
+    "TF2019": "PDF page6 embedded JPEG xref393,1251x459; original compressed image bytes extracted, no redraw",
+    "thesis2019": {
+      "PDF_page": 41,
+      "clip_rect_pdf_points": [
+        92.9000015258789,
+        130.0399932861328,
+        520.5800170898438,
+        290.989990234375
+      ],
+      "scale": 3.0630376737911273,
+      "operation": "PDF rendering of figure with white page, reticle and source aerial; no geographic original GeoTIFF received"
+    }
+  }
+}

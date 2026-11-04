@@ -1,0 +1,31 @@
+[
+  {
+    "id": "progreso_1948_1978_regional",
+    "label": "Progreso y alrededores",
+    "first": 1948,
+    "last": 1978,
+    "minimumRate": 0.3,
+    "maximumRate": 0.6,
+    "sourceUrl": "https://www.academia.edu/20943609/Shoreline_Changes_along_the_North_Yucatdn_Coast",
+    "sourcePages": "105–106",
+    "geometry": null,
+    "statisticalUncertaintyKnown": false,
+    "eligibleAsObservedBar": false,
+    "allowLinearScenario": true
+  },
+  {
+    "id": "yucalpeten_1948_1978_downdrift",
+    "label": "Sotavento de Yucalpetén",
+    "first": 1948,
+    "last": 1978,
+    "minimumRate": 0.9,
+    "maximumRate": 0.9,
+    "sourceUrl": "https://www.academia.edu/20943609/Shoreline_Changes_along_the_North_Yucatdn_Coast",
+    "sourcePages": "105–106",
+    "geometry": null,
+    "statisticalUncertaintyKnown": false,
+    "eligibleAsObservedBar": false,
+    "allowLinearScenario": false,
+    "structuralBreakYear": 1968
+  }
+]

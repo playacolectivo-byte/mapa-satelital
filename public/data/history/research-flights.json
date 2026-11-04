@@ -1,0 +1,18 @@
+[
+  {
+    "id": "san-miguel-flight-2018-04-11",
+    "date": "2018-04-11",
+    "image": "/data/history/flights/san-miguel-flight-2018-04-11-northup-3857.png",
+    "bounds": [
+      -89.55915742117652,
+      21.303835338003438,
+      -89.55233381827836,
+      21.309062713686043
+    ],
+    "title": "Vuelo San Miguel · 2018",
+    "attribution": "Torres-Freyermuth et al. (2019), Fig. 5 · vuelo 11 abr 2018 · CC BY 4.0 · figura reproyectada",
+    "sourceUrl": "https://doi.org/10.3390/w11040635",
+    "resolution": "Figura aérea publicada; resolución del vuelo no informada",
+    "note": "Figura publicada del 11 de abril de 2018, con sus anotaciones originales. Registro interpretado; precisión absoluta desconocida y datum asumido. La cuadrícula reproyectada no añade detalle. G2 y G3 llenos; los otros cuatro desinflados. Desinflado no equivale a retirado."
+  }
+]

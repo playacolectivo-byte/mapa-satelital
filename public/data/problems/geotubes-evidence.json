@@ -1,0 +1,60 @@
+{
+  "source_id": "TF2019",
+  "doi": "10.3390/w11040635",
+  "article_url": "https://www.mdpi.com/2073-4441/11/4/635",
+  "download_url": "https://artefacts-discovery.researcher.life/full_text_files/DA-2/c8/c8ecb324628f3ac0be952f66201f9815/full_text/2hr4ltQR2G%2BEufAmMXtG0vV9lFV6S4pQ0BACE5v0g2U%3D.pdf",
+  "retrieved_utc": "2026-10-22",
+  "license": "CC BY 4.0",
+  "attribution": "Torres-Freyermuth, Medellín, Mendoza, Ojeda & Salles (2019), Water 11, 635, Fig. 3",
+  "received_pdf": {
+    "path": "scientific/catalogue/geotubes-2019-2026-10-22/water-11-00635-original.pdf",
+    "size": 5646127,
+    "sha256": "1c78734f19f0defb9063af610c58f76e0977d02e7500265b4320d3b54d4eefff"
+  },
+  "figure": {
+    "path": "public/data/problems/geotubes-2019-figure3.png",
+    "page_1based": 5,
+    "crop_fraction": [
+      0.16,
+      0.1,
+      0.85,
+      0.315
+    ],
+    "operation": "PDF page rendering, no redrawing or geographic registration",
+    "sha256": "0f82dd43748c79501822476a7a7c86eafd913ec013822a6a024db935ac55367b"
+  },
+  "cases": [
+    {
+      "name": "San Miguel",
+      "sections": 6,
+      "total_length_m_published": 120,
+      "installation": "2017-06-18 to 2017-06-25 eastern 3 sections; fourth 2017-07-14, remainder following days",
+      "partial_removal": "2017-11 western section",
+      "later_condition": "By June 2018 completely deflated, according to source section 4.1"
+    },
+    {
+      "name": "El Teresiano",
+      "sections": 8,
+      "total_length_m_published": 140,
+      "installation": "2017-05-08 to 2017-05-16"
+    }
+  ],
+  "accepted_map_footprints": 0,
+  "reason": "Figure 3 is a relative layout with scale and north arrow but no absolute coordinates. Figures 11/12 have only one coordinate axis. No two-dimensional registration or original survey geometry was received. Do not infer footprint polygons from source lengths or historical point inventory.",
+  "current_state_verified": false,
+  "map_time_filter": "No geometry added; published study chronology remains independent from imagery year.",
+  "figure5": {
+    "path": "public/data/problems/geotubes-2019-figure5.png",
+    "page_1based": 6,
+    "crop_fraction": [
+      0.16,
+      0.23,
+      0.84,
+      0.46
+    ],
+    "source_aerial_date": "2018-04-11",
+    "source_annotation": "Black line is the layout highlighted by the authors, not confirmation that every section remained intact on the flight date",
+    "operation": "PDF page rendering, no redrawing or geographic registration",
+    "sha256": "9b08385686acc4aa90f90cb5cf11725c320d7bc3864c103e5a9bce7811cd3ea8"
+  }
+}

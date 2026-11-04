@@ -1,0 +1,666 @@
+{
+  "schema_version": 1,
+  "prepared_on": "2026-10-28",
+  "attribution": "USGS / NASA · Landsat. Teselas de visualización preparadas a partir de los datos recibidos.",
+  "frames": [
+    {
+      "id": "landsat-background-LT05_L2SP_020045_19860414_02_T1",
+      "sheet": "LT05_L2SP_020045_19860414_02_T1",
+      "epoch": "1986-04-14",
+      "capture_month": "1986-04",
+      "capture_date": "1986-04-14",
+      "date_precision": "day",
+      "resolution_m": 30,
+      "bounds": [
+        -89.79164690238835,
+        21.24588650863516,
+        -89.53344494553471,
+        21.3390998966473
+      ],
+      "footprint": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -89.79164690238835,
+              21.24588650863516
+            ],
+            [
+              -89.53344494553471,
+              21.24588650863516
+            ],
+            [
+              -89.53344494553471,
+              21.3390998966473
+            ],
+            [
+              -89.79164690238835,
+              21.3390998966473
+            ],
+            [
+              -89.79164690238835,
+              21.24588650863516
+            ]
+          ]
+        ]
+      },
+      "tiles": "/data/history/landsat/1986/{z}/{x}/{y}.webp",
+      "minzoom": 8,
+      "maxzoom": 12,
+      "tile_size": 512,
+      "catalogue_url": "https://www.usgs.gov/landsat-missions/landsat-collection-2",
+      "original_url": "https://planetarycomputer.microsoft.com/api/stac/v1/collections/landsat-c2-l2/items/LT05_L2SP_020045_19860414_02_T1",
+      "metadata_url": "/data/history/landsat/1986/source.json",
+      "note": "Color natural. Resolución original 30 m; ampliar no añade detalle. Nubes y huecos permanecen visibles. La fotografía no implica una medición de costa aceptada.",
+      "image_kind": "rgb",
+      "source_png_sha256": "8e82909e6001380150bdf85f9fe0f389d82c6e52f2f1e87b6eac4593b313e71c"
+    },
+    {
+      "id": "landsat-background-LT05_L2SP_020045_19870417_02_T1",
+      "sheet": "LT05_L2SP_020045_19870417_02_T1",
+      "epoch": "1987-04-17",
+      "capture_month": "1987-04",
+      "capture_date": "1987-04-17",
+      "date_precision": "day",
+      "resolution_m": 30,
+      "bounds": [
+        -89.79164690238835,
+        21.24588650863516,
+        -89.53344494553471,
+        21.3390998966473
+      ],
+      "footprint": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -89.79164690238835,
+              21.24588650863516
+            ],
+            [
+              -89.53344494553471,
+              21.24588650863516
+            ],
+            [
+              -89.53344494553471,
+              21.3390998966473
+            ],
+            [
+              -89.79164690238835,
+              21.3390998966473
+            ],
+            [
+              -89.79164690238835,
+              21.24588650863516
+            ]
+          ]
+        ]
+      },
+      "tiles": "/data/history/landsat/1987/{z}/{x}/{y}.webp",
+      "minzoom": 8,
+      "maxzoom": 12,
+      "tile_size": 512,
+      "catalogue_url": "https://www.usgs.gov/landsat-missions/landsat-collection-2",
+      "original_url": "https://planetarycomputer.microsoft.com/api/stac/v1/collections/landsat-c2-l2/items/LT05_L2SP_020045_19870417_02_T1",
+      "metadata_url": "/data/history/landsat/1987/source.json",
+      "note": "Color natural. Resolución original 30 m; ampliar no añade detalle. Nubes y huecos permanecen visibles. La fotografía no implica una medición de costa aceptada.",
+      "image_kind": "rgb",
+      "source_png_sha256": "e02470014ea385d8ae096fdcde1f55aadda4c69ed97bd7785bba68a3a0500dc2"
+    },
+    {
+      "id": "landsat-background-LT04_L2SP_020045_19881105_02_T1",
+      "sheet": "LT04_L2SP_020045_19881105_02_T1",
+      "epoch": "1988-11-05",
+      "capture_month": "1988-11",
+      "capture_date": "1988-11-05",
+      "date_precision": "day",
+      "resolution_m": 30,
+      "bounds": [
+        -89.79164690238835,
+        21.24588650863516,
+        -89.53344494553471,
+        21.3390998966473
+      ],
+      "footprint": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -89.79164690238835,
+              21.24588650863516
+            ],
+            [
+              -89.53344494553471,
+              21.24588650863516
+            ],
+            [
+              -89.53344494553471,
+              21.3390998966473
+            ],
+            [
+              -89.79164690238835,
+              21.3390998966473
+            ],
+            [
+              -89.79164690238835,
+              21.24588650863516
+            ]
+          ]
+        ]
+      },
+      "tiles": "/data/history/landsat/1988/{z}/{x}/{y}.webp",
+      "minzoom": 8,
+      "maxzoom": 12,
+      "tile_size": 512,
+      "catalogue_url": "https://www.usgs.gov/landsat-missions/landsat-collection-2",
+      "original_url": "https://planetarycomputer.microsoft.com/api/stac/v1/collections/landsat-c2-l2/items/LT04_L2SP_020045_19881105_02_T1",
+      "metadata_url": "/data/history/landsat/1988/source.json",
+      "note": "Color natural. Resolución original 30 m; ampliar no añade detalle. Nubes y huecos permanecen visibles. La fotografía no implica una medición de costa aceptada.",
+      "image_kind": "rgb",
+      "source_png_sha256": "7b525613a283782ceedd4c120e97dc3a157136e7bf65d4991a72d551000661c4"
+    },
+    {
+      "id": "landsat-background-LT04_L2SP_020045_19891023_02_T1",
+      "sheet": "LT04_L2SP_020045_19891023_02_T1",
+      "epoch": "1989-10-23",
+      "capture_month": "1989-10",
+      "capture_date": "1989-10-23",
+      "date_precision": "day",
+      "resolution_m": 30,
+      "bounds": [
+        -89.79164690238835,
+        21.24588650863516,
+        -89.53344494553471,
+        21.3390998966473
+      ],
+      "footprint": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -89.79164690238835,
+              21.24588650863516
+            ],
+            [
+              -89.53344494553471,
+              21.24588650863516
+            ],
+            [
+              -89.53344494553471,
+              21.3390998966473
+            ],
+            [
+              -89.79164690238835,
+              21.3390998966473
+            ],
+            [
+              -89.79164690238835,
+              21.24588650863516
+            ]
+          ]
+        ]
+      },
+      "tiles": "/data/history/landsat/1989/{z}/{x}/{y}.webp",
+      "minzoom": 8,
+      "maxzoom": 12,
+      "tile_size": 512,
+      "catalogue_url": "https://www.usgs.gov/landsat-missions/landsat-collection-2",
+      "original_url": "https://planetarycomputer.microsoft.com/api/stac/v1/collections/landsat-c2-l2/items/LT04_L2SP_020045_19891023_02_T1",
+      "metadata_url": "/data/history/landsat/1989/source.json",
+      "note": "Banda verde en escala de grises; no hay RGB completo recibido. Resolución original 30 m; ampliar no añade detalle. Nubes y huecos permanecen visibles. La fotografía no implica una medición de costa aceptada.",
+      "image_kind": "green_band",
+      "source_png_sha256": "16d1b6e75d1861479e7ba9b4548054f88f625d0655b7d817271b25e25fbfb1cc"
+    },
+    {
+      "id": "landsat-background-LT05_L2SP_020045_19950525_02_T1",
+      "sheet": "LT05_L2SP_020045_19950525_02_T1",
+      "epoch": "1995-05-25",
+      "capture_month": "1995-05",
+      "capture_date": "1995-05-25",
+      "date_precision": "day",
+      "resolution_m": 30,
+      "bounds": [
+        -89.79164690238835,
+        21.24588650863516,
+        -89.53344494553471,
+        21.3390998966473
+      ],
+      "footprint": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -89.79164690238835,
+              21.24588650863516
+            ],
+            [
+              -89.53344494553471,
+              21.24588650863516
+            ],
+            [
+              -89.53344494553471,
+              21.3390998966473
+            ],
+            [
+              -89.79164690238835,
+              21.3390998966473
+            ],
+            [
+              -89.79164690238835,
+              21.24588650863516
+            ]
+          ]
+        ]
+      },
+      "tiles": "/data/history/landsat/1995/{z}/{x}/{y}.webp",
+      "minzoom": 8,
+      "maxzoom": 12,
+      "tile_size": 512,
+      "catalogue_url": "https://www.usgs.gov/landsat-missions/landsat-collection-2",
+      "original_url": "https://planetarycomputer.microsoft.com/api/stac/v1/collections/landsat-c2-l2/items/LT05_L2SP_020045_19950525_02_T1",
+      "metadata_url": "/data/history/landsat/1995/source.json",
+      "note": "Color natural. Resolución original 30 m; ampliar no añade detalle. Nubes y huecos permanecen visibles. La fotografía no implica una medición de costa aceptada.",
+      "image_kind": "rgb",
+      "source_png_sha256": "8f9e826cc2dfc5e27fa42ea64530152563856da4591a6c69c3c301ef3004f976"
+    },
+    {
+      "id": "landsat-background-LT05_L2SP_020045_19960511_02_T1",
+      "sheet": "LT05_L2SP_020045_19960511_02_T1",
+      "epoch": "1996-05-11",
+      "capture_month": "1996-05",
+      "capture_date": "1996-05-11",
+      "date_precision": "day",
+      "resolution_m": 30,
+      "bounds": [
+        -89.79164690238835,
+        21.24588650863516,
+        -89.53344494553471,
+        21.3390998966473
+      ],
+      "footprint": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -89.79164690238835,
+              21.24588650863516
+            ],
+            [
+              -89.53344494553471,
+              21.24588650863516
+            ],
+            [
+              -89.53344494553471,
+              21.3390998966473
+            ],
+            [
+              -89.79164690238835,
+              21.3390998966473
+            ],
+            [
+              -89.79164690238835,
+              21.24588650863516
+            ]
+          ]
+        ]
+      },
+      "tiles": "/data/history/landsat/1996/{z}/{x}/{y}.webp",
+      "minzoom": 8,
+      "maxzoom": 12,
+      "tile_size": 512,
+      "catalogue_url": "https://www.usgs.gov/landsat-missions/landsat-collection-2",
+      "original_url": "https://planetarycomputer.microsoft.com/api/stac/v1/collections/landsat-c2-l2/items/LT05_L2SP_020045_19960511_02_T1",
+      "metadata_url": "/data/history/landsat/1996/source.json",
+      "note": "Color natural. Resolución original 30 m; ampliar no añade detalle. Nubes y huecos permanecen visibles. La fotografía no implica una medición de costa aceptada.",
+      "image_kind": "rgb",
+      "source_png_sha256": "f27d06f4dec397593fc6b660367cf5ba4f3666e6d2f89f036e42476d8fea1d3f"
+    },
+    {
+      "id": "landsat-background-LT05_L2SP_020045_19970903_02_T1",
+      "sheet": "LT05_L2SP_020045_19970903_02_T1",
+      "epoch": "1997-09-03",
+      "capture_month": "1997-09",
+      "capture_date": "1997-09-03",
+      "date_precision": "day",
+      "resolution_m": 30,
+      "bounds": [
+        -89.79164690238835,
+        21.24588650863516,
+        -89.53344494553471,
+        21.3390998966473
+      ],
+      "footprint": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -89.79164690238835,
+              21.24588650863516
+            ],
+            [
+              -89.53344494553471,
+              21.24588650863516
+            ],
+            [
+              -89.53344494553471,
+              21.3390998966473
+            ],
+            [
+              -89.79164690238835,
+              21.3390998966473
+            ],
+            [
+              -89.79164690238835,
+              21.24588650863516
+            ]
+          ]
+        ]
+      },
+      "tiles": "/data/history/landsat/1997/{z}/{x}/{y}.webp",
+      "minzoom": 8,
+      "maxzoom": 12,
+      "tile_size": 512,
+      "catalogue_url": "https://www.usgs.gov/landsat-missions/landsat-collection-2",
+      "original_url": "https://planetarycomputer.microsoft.com/api/stac/v1/collections/landsat-c2-l2/items/LT05_L2SP_020045_19970903_02_T1",
+      "metadata_url": "/data/history/landsat/1997/source.json",
+      "note": "Color natural. Resolución original 30 m; ampliar no añade detalle. Nubes y huecos permanecen visibles. La fotografía no implica una medición de costa aceptada.",
+      "image_kind": "rgb",
+      "source_png_sha256": "ffb8a211f63483995ada92cf5c5a05df61ebc7feadd0ecc046940b55a4b4fe66"
+    },
+    {
+      "id": "landsat-background-LT05_L2SP_020045_19980415_02_T1",
+      "sheet": "LT05_L2SP_020045_19980415_02_T1",
+      "epoch": "1998-04-15",
+      "capture_month": "1998-04",
+      "capture_date": "1998-04-15",
+      "date_precision": "day",
+      "resolution_m": 30,
+      "bounds": [
+        -89.79164690238835,
+        21.24588650863516,
+        -89.53344494553471,
+        21.3390998966473
+      ],
+      "footprint": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -89.79164690238835,
+              21.24588650863516
+            ],
+            [
+              -89.53344494553471,
+              21.24588650863516
+            ],
+            [
+              -89.53344494553471,
+              21.3390998966473
+            ],
+            [
+              -89.79164690238835,
+              21.3390998966473
+            ],
+            [
+              -89.79164690238835,
+              21.24588650863516
+            ]
+          ]
+        ]
+      },
+      "tiles": "/data/history/landsat/1998/{z}/{x}/{y}.webp",
+      "minzoom": 8,
+      "maxzoom": 12,
+      "tile_size": 512,
+      "catalogue_url": "https://www.usgs.gov/landsat-missions/landsat-collection-2",
+      "original_url": "https://planetarycomputer.microsoft.com/api/stac/v1/collections/landsat-c2-l2/items/LT05_L2SP_020045_19980415_02_T1",
+      "metadata_url": "/data/history/landsat/1998/source.json",
+      "note": "Banda verde en escala de grises; no hay RGB completo recibido. Resolución original 30 m; ampliar no añade detalle. Nubes y huecos permanecen visibles. La fotografía no implica una medición de costa aceptada.",
+      "image_kind": "green_band",
+      "source_png_sha256": "8012121ecf7260a43a6dbcb27c89769a9c95c22647bfec18deef74fc32897212"
+    },
+    {
+      "id": "landsat-background-LE07_L2SP_020045_20040306_02_T1",
+      "sheet": "LE07_L2SP_020045_20040306_02_T1",
+      "epoch": "2004-03-06",
+      "capture_month": "2004-03",
+      "capture_date": "2004-03-06",
+      "date_precision": "day",
+      "resolution_m": 30,
+      "bounds": [
+        -89.79164690238835,
+        21.24588650863516,
+        -89.53344494553471,
+        21.3390998966473
+      ],
+      "footprint": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -89.79164690238835,
+              21.24588650863516
+            ],
+            [
+              -89.53344494553471,
+              21.24588650863516
+            ],
+            [
+              -89.53344494553471,
+              21.3390998966473
+            ],
+            [
+              -89.79164690238835,
+              21.3390998966473
+            ],
+            [
+              -89.79164690238835,
+              21.24588650863516
+            ]
+          ]
+        ]
+      },
+      "tiles": "/data/history/landsat/2004/{z}/{x}/{y}.webp",
+      "minzoom": 8,
+      "maxzoom": 12,
+      "tile_size": 512,
+      "catalogue_url": "https://www.usgs.gov/landsat-missions/landsat-collection-2",
+      "original_url": "https://planetarycomputer.microsoft.com/api/stac/v1/collections/landsat-c2-l2/items/LE07_L2SP_020045_20040306_02_T1",
+      "metadata_url": "/data/history/landsat/2004/source.json",
+      "note": "Color natural. Resolución original 30 m; ampliar no añade detalle. Nubes y huecos permanecen visibles. La fotografía no implica una medición de costa aceptada.",
+      "image_kind": "rgb",
+      "source_png_sha256": "5d1aa22cbae240f8b685f0340f91569a68f44b92f8d43c7efc6e6ece699047bc"
+    },
+    {
+      "id": "landsat-background-LE07_L2SP_020045_20050325_02_T1",
+      "sheet": "LE07_L2SP_020045_20050325_02_T1",
+      "epoch": "2005-03-25",
+      "capture_month": "2005-03",
+      "capture_date": "2005-03-25",
+      "date_precision": "day",
+      "resolution_m": 30,
+      "bounds": [
+        -89.79164690238835,
+        21.24588650863516,
+        -89.53344494553471,
+        21.3390998966473
+      ],
+      "footprint": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -89.79164690238835,
+              21.24588650863516
+            ],
+            [
+              -89.53344494553471,
+              21.24588650863516
+            ],
+            [
+              -89.53344494553471,
+              21.3390998966473
+            ],
+            [
+              -89.79164690238835,
+              21.3390998966473
+            ],
+            [
+              -89.79164690238835,
+              21.24588650863516
+            ]
+          ]
+        ]
+      },
+      "tiles": "/data/history/landsat/2005/{z}/{x}/{y}.webp",
+      "minzoom": 8,
+      "maxzoom": 12,
+      "tile_size": 512,
+      "catalogue_url": "https://www.usgs.gov/landsat-missions/landsat-collection-2",
+      "original_url": "https://planetarycomputer.microsoft.com/api/stac/v1/collections/landsat-c2-l2/items/LE07_L2SP_020045_20050325_02_T1",
+      "metadata_url": "/data/history/landsat/2005/source.json",
+      "note": "Color natural. Resolución original 30 m; ampliar no añade detalle. Nubes y huecos permanecen visibles. La fotografía no implica una medición de costa aceptada.",
+      "image_kind": "rgb",
+      "source_png_sha256": "5b6b17934bb3b3905a941ab9b9e2058fbf966790d46c9ee76a962f8aefde2e21"
+    },
+    {
+      "id": "landsat-background-LE07_L2SP_020045_20060429_02_T1",
+      "sheet": "LE07_L2SP_020045_20060429_02_T1",
+      "epoch": "2006-04-29",
+      "capture_month": "2006-04",
+      "capture_date": "2006-04-29",
+      "date_precision": "day",
+      "resolution_m": 30,
+      "bounds": [
+        -89.79164690238835,
+        21.24588650863516,
+        -89.53344494553471,
+        21.3390998966473
+      ],
+      "footprint": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -89.79164690238835,
+              21.24588650863516
+            ],
+            [
+              -89.53344494553471,
+              21.24588650863516
+            ],
+            [
+              -89.53344494553471,
+              21.3390998966473
+            ],
+            [
+              -89.79164690238835,
+              21.3390998966473
+            ],
+            [
+              -89.79164690238835,
+              21.24588650863516
+            ]
+          ]
+        ]
+      },
+      "tiles": "/data/history/landsat/2006/{z}/{x}/{y}.webp",
+      "minzoom": 8,
+      "maxzoom": 12,
+      "tile_size": 512,
+      "catalogue_url": "https://www.usgs.gov/landsat-missions/landsat-collection-2",
+      "original_url": "https://planetarycomputer.microsoft.com/api/stac/v1/collections/landsat-c2-l2/items/LE07_L2SP_020045_20060429_02_T1",
+      "metadata_url": "/data/history/landsat/2006/source.json",
+      "note": "Color natural. Resolución original 30 m; ampliar no añade detalle. Nubes y huecos permanecen visibles. La fotografía no implica una medición de costa aceptada.",
+      "image_kind": "rgb",
+      "source_png_sha256": "1a72b9a41acd8d30e3aeb5b813faa5c7b665a6db48bcfa08226c8262d27c9baa"
+    }
+  ],
+  "epochs": [
+    {
+      "id": "1986-04-14",
+      "year": 1986,
+      "label": "1986-04-14",
+      "short_label": "1986",
+      "resolution_m": 30
+    },
+    {
+      "id": "1987-04-17",
+      "year": 1987,
+      "label": "1987-04-17",
+      "short_label": "1987",
+      "resolution_m": 30
+    },
+    {
+      "id": "1988-11-05",
+      "year": 1988,
+      "label": "1988-11-05",
+      "short_label": "1988",
+      "resolution_m": 30
+    },
+    {
+      "id": "1989-10-23",
+      "year": 1989,
+      "label": "1989-10-23",
+      "short_label": "1989",
+      "resolution_m": 30
+    },
+    {
+      "id": "1995-05-25",
+      "year": 1995,
+      "label": "1995-05-25",
+      "short_label": "1995",
+      "resolution_m": 30
+    },
+    {
+      "id": "1996-05-11",
+      "year": 1996,
+      "label": "1996-05-11",
+      "short_label": "1996",
+      "resolution_m": 30
+    },
+    {
+      "id": "1997-09-03",
+      "year": 1997,
+      "label": "1997-09-03",
+      "short_label": "1997",
+      "resolution_m": 30
+    },
+    {
+      "id": "1998-04-15",
+      "year": 1998,
+      "label": "1998-04-15",
+      "short_label": "1998",
+      "resolution_m": 30
+    },
+    {
+      "id": "2004-03-06",
+      "year": 2004,
+      "label": "2004-03-06",
+      "short_label": "2004",
+      "resolution_m": 30
+    },
+    {
+      "id": "2005-03-25",
+      "year": 2005,
+      "label": "2005-03-25",
+      "short_label": "2005",
+      "resolution_m": 30
+    },
+    {
+      "id": "2006-04-29",
+      "year": 2006,
+      "label": "2006-04-29",
+      "short_label": "2006",
+      "resolution_m": 30
+    }
+  ],
+  "comparison_bounds": [
+    -89.79164690238835,
+    21.24588650863516,
+    -89.53344494553471,
+    21.3390998966473
+  ],
+  "method": "Archivo georreferenciado EPSG:3857 recibido → XYZ WebP sin pérdida; vecino más cercano; sin nuevos ajustes de color ni mediciones.",
+  "limits": "Cobertura parcial Chelem–Progreso, 30 m nativos. Fechas reales, no una captura por año. Años sin imagen usan una referencia anterior fechada. Fuera de cobertura no se reemplaza silenciosamente con una fecha moderna."
+}

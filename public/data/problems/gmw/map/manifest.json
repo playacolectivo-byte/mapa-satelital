@@ -1,0 +1,125 @@
+{
+  "version": 1,
+  "source_version": "4.1.12",
+  "source": {
+    "file": "GMW_N22W090_v4112_mng_ext.tif",
+    "sha256": "5797d689f6955894e0302e3109d75a2a703783a07bab28dc40a0c8351eab3849",
+    "version": "4.1.12",
+    "doi": "https://doi.org/10.5281/zenodo.21346457",
+    "api": "https://zenodo.org/api/records/21346457",
+    "license": "CC-BY-4.0",
+    "credit": "©Global Mangrove Watch; Bunting et al.2026; JAXA mirror"
+  },
+  "source_manifest_path": "problems/gmw/manifest.json",
+  "source_manifest_sha256": "0b909ce5044d76b021928e9631badfd1342c634592323ae1a6a94748c02bba4d",
+  "source_geojson_path": "problems/gmw/annual-changes.geojson",
+  "source_geojson_sha256": "227b82b0f311ad55b6cddada8c9a860e8a14d74a70f588bd424f88d31e6e22dc",
+  "partition": "Original year, original feature order within each year; no coordinate/attribute changes",
+  "years": [
+    {
+      "year": 2011,
+      "path": "problems/gmw/map/years/2011.geojson",
+      "features": 527,
+      "bytes": 227743,
+      "sha256": "acfcd97c8eaa38dae69c9e7c7012e99dc1672c12babfa135636fadb963819297"
+    },
+    {
+      "year": 2012,
+      "path": "problems/gmw/map/years/2012.geojson",
+      "features": 569,
+      "bytes": 246459,
+      "sha256": "b17c8d1cf0b588e87ae9384c9691a6274562d6433e0ef4590a03eaf8cb440992"
+    },
+    {
+      "year": 2013,
+      "path": "problems/gmw/map/years/2013.geojson",
+      "features": 434,
+      "bytes": 187947,
+      "sha256": "21f6529a4db0c7143fbfa2cdc3d84de4f5f393918354f9d6d57e3bf4e925fff6"
+    },
+    {
+      "year": 2014,
+      "path": "problems/gmw/map/years/2014.geojson",
+      "features": 497,
+      "bytes": 220103,
+      "sha256": "839b14e16d5df916ac3286982244116decdea7334fcaa591c750c40c25f1d23d"
+    },
+    {
+      "year": 2015,
+      "path": "problems/gmw/map/years/2015.geojson",
+      "features": 400,
+      "bytes": 173276,
+      "sha256": "70d90eb9743119075664a896d491fc60359c7270a95771da3b974e25bc695fb0"
+    },
+    {
+      "year": 2016,
+      "path": "problems/gmw/map/years/2016.geojson",
+      "features": 327,
+      "bytes": 140810,
+      "sha256": "4b729497ff2b1e25ec5ad2c9d0d638d7e5bbc5b824c53531b727bc4b27e5ac2e"
+    },
+    {
+      "year": 2017,
+      "path": "problems/gmw/map/years/2017.geojson",
+      "features": 637,
+      "bytes": 289330,
+      "sha256": "e31f8ca7e7380b4bfa24b2fb953d348a5f177307c4fde862705c4b739bb50e80"
+    },
+    {
+      "year": 2018,
+      "path": "problems/gmw/map/years/2018.geojson",
+      "features": 695,
+      "bytes": 307030,
+      "sha256": "31dc3cb532df7af3a640a4e9e4f962bec1c0e79661e18e93c84e0fdcbe233001"
+    },
+    {
+      "year": 2019,
+      "path": "problems/gmw/map/years/2019.geojson",
+      "features": 881,
+      "bytes": 393433,
+      "sha256": "8b3c7bed31515796ac70fe50e85327f089fd6abd7a2bcb72ab4bc026c6f66bd8"
+    },
+    {
+      "year": 2020,
+      "path": "problems/gmw/map/years/2020.geojson",
+      "features": 966,
+      "bytes": 427521,
+      "sha256": "1b44b653f6426c7080e6adc021e39a58287ed92f011ff8a74dca8f0adde270c5"
+    },
+    {
+      "year": 2021,
+      "path": "problems/gmw/map/years/2021.geojson",
+      "features": 659,
+      "bytes": 289659,
+      "sha256": "078bbb3370166925396fa0484a3800f9b1cba6cb50af49f07cba2edb2f187a0e"
+    },
+    {
+      "year": 2022,
+      "path": "problems/gmw/map/years/2022.geojson",
+      "features": 493,
+      "bytes": 215902,
+      "sha256": "f9ce7cb6f4d59d6b3c15be6b7ccd5d65539676b9787a5ea166c15e810673d356"
+    },
+    {
+      "year": 2023,
+      "path": "problems/gmw/map/years/2023.geojson",
+      "features": 409,
+      "bytes": 176484,
+      "sha256": "8fed95e1512b7c26be52db8ab1ee71b91563e9ebbeb4203091f4a89f6be3de26"
+    },
+    {
+      "year": 2024,
+      "path": "problems/gmw/map/years/2024.geojson",
+      "features": 406,
+      "bytes": 174994,
+      "sha256": "c9c32a8fcfc82fac0e43711afb0c03af533e542c3593e920d3b0079fff71ebbb"
+    },
+    {
+      "year": 2025,
+      "path": "problems/gmw/map/years/2025.geojson",
+      "features": 804,
+      "bytes": 362210,
+      "sha256": "86f6bb4a1355a5d515b0cc015854e387ba4f769f3ac8e94c23785cc1d8c59b6c"
+    }
+  ]
+}

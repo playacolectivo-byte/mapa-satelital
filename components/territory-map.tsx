@@ -1,0 +1,61 @@
+'use client';
+import { forwardRef } from 'react';
+import type { MapConfig, TerritoryData, TerritoryFeature, Visibility } from '@/lib/territory';
+import type { Bounds } from '@/lib/view';
+import type { HistoricalManifest } from '@/lib/history';
+import type { CoastalAnalysisData, ShorelinePair } from '@/lib/coastal-analysis';
+import type { ErosionData, ErosionFeature } from '@/lib/problems';
+import type {RasterFrame} from '@/lib/raster-frame-cache';
+import type { WaybackItem } from '@esri/wayback-core';
+import type { IssueVisibility } from '@/lib/coastal-issues';
+import type { SatelliteDetail } from '@/lib/satellite-detail';
+import type { SentinelScene } from '@/lib/sentinel';
+import type { StructureData, StructureFeature } from '@/lib/coastal-structures';
+import type { EvidenceLayers, EvidenceSelection } from '@/lib/map-evidence';
+import type { StudyFlight } from '@/lib/study-flight';
+import type { BarMapLabel, LittoralCut, LittoralMapState, LittoralRuler } from '@/lib/littoral-series';
+import type { BarFootprint } from '@/lib/transect-pairs';
+import type { RoadKilometres } from '@/lib/road-kilometres';
+import { RasterTerritoryMap } from './raster-territory-map';
+
+export type Camera = { center: [number, number]; zoom: number; bearing: number };
+export type MapHandle = { home: () => void; coverage: (bounds: Bounds) => void; zoom: (delta: number) => void; detail: (nativeZoom: number) => void; north: () => void; place: (id: string) => void; capture: () => Camera | undefined; restore: (camera: Camera) => void };
+export type TerritoryMapProps = {
+  roadSearchSelection?:import('@/lib/road-search').RoadSearchRecord|null;
+  onRasterFrameDisplayed?: (key:string)=>void;
+  referenceUnderlay?:boolean;
+  keepRasterReference?:boolean;
+  fallbackFrame?:RasterFrame|null;
+  fallbackRetryToken?:number;
+  shorelinePair?: ShorelinePair | null;
+  coastalAnalysis?: CoastalAnalysisData | null;
+  coastalCoverage?:CoastalAnalysisData|null;
+  roadKilometres?: RoadKilometres | null;
+  transectLabels?: BarMapLabel[];
+  researchEvolutionYear?: number | null;
+  transectFootprint: BarFootprint | null;
+  transectRuler: LittoralRuler | null;
+  transectCut: LittoralCut | null;
+  onBarHelpOpen: () => void;
+  pilot: LittoralMapState | null;
+  onPlaceSelect: (id: string) => void;
+  studyFlight: StudyFlight | null;
+  evidence: EvidenceLayers; evidenceSelected: EvidenceSelection | null; onEvidenceSelect: (selection: EvidenceSelection) => void;
+  structures: StructureData | null; structuresVisible: boolean; structureSelected: StructureFeature | null; onStructureSelect: (feature: StructureFeature) => void;
+  sentinel: SentinelScene | null; sentinelMode: boolean;
+  satellite: WaybackItem | null; satelliteWarm: WaybackItem[]; sentinelWarm: SentinelScene[]; satelliteDetail: SatelliteDetail; onSatelliteStatus: (status: 'loading' | 'ready' | 'error') => void;
+  issueVisibility: IssueVisibility; onCaseSelect: () => void;
+  config: MapConfig; data: TerritoryData; visibility: Visibility; imageryVisible: boolean; entered: boolean; selected: TerritoryFeature | null; panelOpen: boolean;
+  onSelect: (feature: TerritoryFeature | null) => void; onReady: () => void; onError: (message: string) => void;
+  onZoom: (min: boolean, max: boolean) => void; onImageryError: () => void;
+  history: HistoricalManifest | null; epoch: string | null; timelineOpen: boolean; timelineExpanded: boolean;
+  research: ErosionData | null; researchVisible: boolean; researchSelected: ErosionFeature | null;
+  historicalContext?: ErosionData | null;
+  onResearchSelect: (feature: ErosionFeature) => void;
+  onView: (center: [number, number], zoom: number, bounds: Bounds) => void; onHistoryStatus: (status: 'loading' | 'ready' | 'error') => void;
+};
+// This is the same Leaflet renderer already used by every visitor. Forward the
+// camera handle directly, without constructing a permanently disabled engine.
+export const TerritoryMap = forwardRef<MapHandle, TerritoryMapProps>(function TerritoryMap(props, ref) {
+  return <RasterTerritoryMap {...props} ref={ref} />;
+});

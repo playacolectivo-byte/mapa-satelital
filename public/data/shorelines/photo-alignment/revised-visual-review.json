@@ -1,0 +1,768 @@
+{
+  "version": 1,
+  "date": "2026-11-02",
+  "data_sha256": "250fa694f9c3829ac0d41598454e28988a6c681fc36c6330c0f950eb08aa76e5",
+  "scope": "Visual interpretation of all 184 consensus candidates over 40m, plus documented dated pairs and separated samples. This is not field validation. All candidates, including exclusions, remain in revised-data.json.",
+  "exclusions": [
+    {
+      "profile_id": "SC-4-0-195",
+      "capture": 17,
+      "date": "2013-04-11",
+      "original_offset_m": -61.0,
+      "reason": "inland_vegetation_or_saltflat",
+      "figure": "grandes-02.jpg"
+    },
+    {
+      "profile_id": "SC-4-0-208",
+      "capture": 17,
+      "date": "2013-04-11",
+      "original_offset_m": -101.0,
+      "reason": "inland_vegetation_or_saltflat",
+      "figure": "grandes-02.jpg"
+    },
+    {
+      "profile_id": "SC-4-0-247",
+      "capture": 17,
+      "date": "2013-04-11",
+      "original_offset_m": -63.0,
+      "reason": "inland_vegetation_or_saltflat",
+      "figure": "grandes-02.jpg"
+    },
+    {
+      "profile_id": "SC-4-0-248",
+      "capture": 17,
+      "date": "2013-04-11",
+      "original_offset_m": -74.0,
+      "reason": "inland_vegetation_or_saltflat",
+      "figure": "grandes-03.jpg"
+    },
+    {
+      "profile_id": "SC-4-0-363",
+      "capture": 37,
+      "date": "2012-12-07",
+      "original_offset_m": -41.0,
+      "reason": "back_of_beach_not_waterline",
+      "figure": "grandes-03.jpg"
+    },
+    {
+      "profile_id": "SC-5-0-3",
+      "capture": 13,
+      "date": "2020-12-30",
+      "original_offset_m": -80.0,
+      "reason": "inland_street",
+      "figure": "grandes-03.jpg"
+    },
+    {
+      "profile_id": "SC-5-0-32",
+      "capture": 17,
+      "date": "2013-04-11",
+      "original_offset_m": -101.0,
+      "reason": "inland_road",
+      "figure": "grandes-03.jpg"
+    },
+    {
+      "profile_id": "SC-5-0-33",
+      "capture": 17,
+      "date": "2013-04-11",
+      "original_offset_m": -99.0,
+      "reason": "inland_road",
+      "figure": "grandes-03.jpg"
+    },
+    {
+      "profile_id": "SC-5-0-141",
+      "capture": 13,
+      "date": "2020-12-30",
+      "original_offset_m": -63.0,
+      "reason": "ambiguous_sand_vegetation_contact",
+      "figure": "grandes-04.jpg"
+    },
+    {
+      "profile_id": "SC-5-0-141",
+      "capture": 47,
+      "date": "2019-10-04",
+      "original_offset_m": -63.0,
+      "reason": "ambiguous_sand_vegetation_contact",
+      "figure": "grandes-04.jpg"
+    },
+    {
+      "profile_id": "SC-5-0-141",
+      "capture": 45,
+      "date": "2019-10-04",
+      "original_offset_m": -61.0,
+      "reason": "ambiguous_sand_vegetation_contact",
+      "figure": "grandes-04.jpg"
+    },
+    {
+      "profile_id": "SC-5-0-142",
+      "capture": 13,
+      "date": "2020-12-30",
+      "original_offset_m": -50.0,
+      "reason": "ambiguous_sand_vegetation_contact",
+      "figure": "grandes-05.jpg"
+    },
+    {
+      "profile_id": "SC-5-0-153",
+      "capture": 50,
+      "date": "2026-02-07",
+      "original_offset_m": -54.0,
+      "reason": "ambiguous_sand_vegetation_contact",
+      "figure": "grandes-05.jpg"
+    },
+    {
+      "profile_id": "SC-5-0-158",
+      "capture": 50,
+      "date": "2026-02-07",
+      "original_offset_m": -75.0,
+      "reason": "ambiguous_sand_vegetation_contact",
+      "figure": "grandes-05.jpg"
+    },
+    {
+      "profile_id": "SC-7-0-179",
+      "capture": 70,
+      "date": "2017-02-09",
+      "original_offset_m": -122.0,
+      "reason": "inland_road",
+      "figure": "grandes-06.jpg"
+    },
+    {
+      "profile_id": "SC-7-0-180",
+      "capture": 70,
+      "date": "2017-02-09",
+      "original_offset_m": -101.0,
+      "reason": "inland_road",
+      "figure": "grandes-06.jpg"
+    },
+    {
+      "profile_id": "SC-9-0-163",
+      "capture": 78,
+      "date": "2013-04-06",
+      "original_offset_m": -97.0,
+      "reason": "inland_road",
+      "figure": "grandes-06.jpg"
+    },
+    {
+      "profile_id": "SC-14-0-0",
+      "capture": 113,
+      "date": "2020-02-03",
+      "original_offset_m": 47.0,
+      "reason": "ambiguous_water_sediment_contact",
+      "figure": "grandes-06.jpg"
+    },
+    {
+      "profile_id": "SC-16-0-1",
+      "capture": 114,
+      "date": "2026-01-02",
+      "original_offset_m": 41.0,
+      "reason": "ambiguous_water_sediment_contact",
+      "figure": "grandes-06.jpg"
+    },
+    {
+      "profile_id": "SC-16-0-4",
+      "capture": 112,
+      "date": "2024-02-26",
+      "original_offset_m": 43.0,
+      "reason": "ambiguous_water_sediment_contact",
+      "figure": "grandes-06.jpg"
+    },
+    {
+      "profile_id": "SC-16-0-7",
+      "capture": 112,
+      "date": "2024-02-26",
+      "original_offset_m": 49.0,
+      "reason": "ambiguous_water_sediment_contact",
+      "figure": "grandes-06.jpg"
+    },
+    {
+      "profile_id": "SC-16-0-9",
+      "capture": 114,
+      "date": "2026-01-02",
+      "original_offset_m": 64.0,
+      "reason": "ambiguous_water_sediment_contact",
+      "figure": "grandes-06.jpg"
+    },
+    {
+      "profile_id": "SC-16-0-10",
+      "capture": 112,
+      "date": "2024-02-26",
+      "original_offset_m": 53.0,
+      "reason": "ambiguous_water_sediment_contact",
+      "figure": "grandes-07.jpg"
+    },
+    {
+      "profile_id": "SC-16-0-12",
+      "capture": 114,
+      "date": "2026-01-02",
+      "original_offset_m": 67.0,
+      "reason": "ambiguous_water_sediment_contact",
+      "figure": "grandes-07.jpg"
+    },
+    {
+      "profile_id": "SC-16-0-17",
+      "capture": 119,
+      "date": "2012-02-18",
+      "original_offset_m": 58.0,
+      "reason": "ambiguous_water_sediment_contact",
+      "figure": "grandes-07.jpg"
+    },
+    {
+      "profile_id": "SC-16-0-26",
+      "capture": 114,
+      "date": "2026-01-02",
+      "original_offset_m": 41.0,
+      "reason": "ambiguous_water_sediment_contact",
+      "figure": "grandes-07.jpg"
+    },
+    {
+      "profile_id": "SC-17-0-3",
+      "capture": 112,
+      "date": "2024-02-26",
+      "original_offset_m": 58.0,
+      "reason": "ambiguous_water_sediment_contact",
+      "figure": "grandes-07.jpg"
+    },
+    {
+      "profile_id": "SC-18-0-24",
+      "capture": 128,
+      "date": "2019-03-14",
+      "original_offset_m": -60.0,
+      "reason": "back_of_beach_not_waterline",
+      "figure": "grandes-07.jpg"
+    },
+    {
+      "profile_id": "SC-18-0-25",
+      "capture": 114,
+      "date": "2026-01-02",
+      "original_offset_m": -48.0,
+      "reason": "back_of_beach_not_waterline",
+      "figure": "grandes-07.jpg"
+    },
+    {
+      "profile_id": "SC-19-0-50",
+      "capture": 125,
+      "date": "2018-03-04",
+      "original_offset_m": 52.0,
+      "reason": "ambiguous_water_sediment_contact",
+      "figure": "grandes-08.jpg"
+    },
+    {
+      "profile_id": "SC-20-0-92",
+      "capture": 132,
+      "date": "2021-03-27",
+      "original_offset_m": -54.0,
+      "reason": "inland_vegetation_or_saltflat",
+      "figure": "grandes-08.jpg"
+    },
+    {
+      "profile_id": "SC-20-0-100",
+      "capture": 122,
+      "date": "2022-12-14",
+      "original_offset_m": -101.0,
+      "reason": "inland_vegetation_or_saltflat",
+      "figure": "grandes-08.jpg"
+    },
+    {
+      "profile_id": "SC-20-0-100",
+      "capture": 132,
+      "date": "2021-03-27",
+      "original_offset_m": -101.0,
+      "reason": "inland_vegetation_or_saltflat",
+      "figure": "grandes-08.jpg"
+    },
+    {
+      "profile_id": "SC-20-0-100",
+      "capture": 126,
+      "date": "2015-03-09",
+      "original_offset_m": -102.0,
+      "reason": "inland_vegetation_or_saltflat",
+      "figure": "grandes-08.jpg"
+    },
+    {
+      "profile_id": "SC-20-0-104",
+      "capture": 132,
+      "date": "2021-03-27",
+      "original_offset_m": -71.0,
+      "reason": "inland_vegetation_or_saltflat",
+      "figure": "grandes-08.jpg"
+    },
+    {
+      "profile_id": "SC-20-0-108",
+      "capture": 132,
+      "date": "2021-03-27",
+      "original_offset_m": -66.0,
+      "reason": "inland_vegetation_or_saltflat",
+      "figure": "grandes-08.jpg"
+    },
+    {
+      "profile_id": "SC-20-0-113",
+      "capture": 132,
+      "date": "2021-03-27",
+      "original_offset_m": -148.0,
+      "reason": "inland_vegetation_or_saltflat",
+      "figure": "grandes-08.jpg"
+    },
+    {
+      "profile_id": "SC-20-0-115",
+      "capture": 132,
+      "date": "2021-03-27",
+      "original_offset_m": -72.0,
+      "reason": "back_lagoon_not_open_coast",
+      "figure": "grandes-09.jpg"
+    },
+    {
+      "profile_id": "SC-20-0-116",
+      "capture": 132,
+      "date": "2021-03-27",
+      "original_offset_m": -66.0,
+      "reason": "back_lagoon_not_open_coast",
+      "figure": "grandes-09.jpg"
+    },
+    {
+      "profile_id": "SC-20-0-118",
+      "capture": 132,
+      "date": "2021-03-27",
+      "original_offset_m": -96.0,
+      "reason": "back_lagoon_not_open_coast",
+      "figure": "grandes-09.jpg"
+    },
+    {
+      "profile_id": "SC-20-0-119",
+      "capture": 132,
+      "date": "2021-03-27",
+      "original_offset_m": -78.0,
+      "reason": "back_lagoon_not_open_coast",
+      "figure": "grandes-09.jpg"
+    },
+    {
+      "profile_id": "SC-22-0-2",
+      "capture": 151,
+      "date": "2010-12-19",
+      "original_offset_m": 53.0,
+      "reason": "submerged_color_change_not_shoreline",
+      "figure": "grandes-09.jpg"
+    },
+    {
+      "profile_id": "SC-25-0-7",
+      "capture": 151,
+      "date": "2010-12-19",
+      "original_offset_m": 77.0,
+      "reason": "submerged_color_change_not_shoreline",
+      "figure": "grandes-09.jpg"
+    },
+    {
+      "profile_id": "SC-25-0-8",
+      "capture": 149,
+      "date": "2019-11-25",
+      "original_offset_m": 77.0,
+      "reason": "submerged_color_change_not_shoreline",
+      "figure": "grandes-09.jpg"
+    },
+    {
+      "profile_id": "SC-26-0-9",
+      "capture": 160,
+      "date": "2019-09-18",
+      "original_offset_m": -85.0,
+      "reason": "back_lagoon_not_open_coast",
+      "figure": "grandes-09.jpg"
+    },
+    {
+      "profile_id": "SC-26-0-20",
+      "capture": 160,
+      "date": "2019-09-18",
+      "original_offset_m": -116.0,
+      "reason": "back_lagoon_not_open_coast",
+      "figure": "grandes-09.jpg"
+    },
+    {
+      "profile_id": "SC-26-0-24",
+      "capture": 160,
+      "date": "2019-09-18",
+      "original_offset_m": -58.0,
+      "reason": "inland_vegetation_or_saltflat",
+      "figure": "grandes-10.jpg"
+    },
+    {
+      "profile_id": "SC-26-0-25",
+      "capture": 151,
+      "date": "2010-12-19",
+      "original_offset_m": 44.0,
+      "reason": "submerged_color_change_not_shoreline",
+      "figure": "grandes-10.jpg"
+    },
+    {
+      "profile_id": "SC-26-0-27",
+      "capture": 151,
+      "date": "2010-12-19",
+      "original_offset_m": 49.0,
+      "reason": "submerged_color_change_not_shoreline",
+      "figure": "grandes-10.jpg"
+    },
+    {
+      "profile_id": "SC-26-0-46",
+      "capture": 151,
+      "date": "2010-12-19",
+      "original_offset_m": 80.0,
+      "reason": "submerged_color_change_not_shoreline",
+      "figure": "grandes-10.jpg"
+    },
+    {
+      "profile_id": "SC-26-0-48",
+      "capture": 151,
+      "date": "2010-12-19",
+      "original_offset_m": 44.0,
+      "reason": "submerged_color_change_not_shoreline",
+      "figure": "grandes-10.jpg"
+    },
+    {
+      "profile_id": "SC-27-0-6",
+      "capture": 163,
+      "date": "2024-11-30",
+      "original_offset_m": 44.0,
+      "reason": "submerged_color_change_not_shoreline",
+      "figure": "grandes-10.jpg"
+    },
+    {
+      "profile_id": "SC-28-0-4",
+      "capture": 175,
+      "date": "2019-11-27",
+      "original_offset_m": 70.0,
+      "reason": "submerged_color_change_not_shoreline",
+      "figure": "grandes-11.jpg"
+    },
+    {
+      "profile_id": "SC-28-0-14",
+      "capture": 175,
+      "date": "2019-11-27",
+      "original_offset_m": 45.0,
+      "reason": "submerged_color_change_not_shoreline",
+      "figure": "grandes-11.jpg"
+    },
+    {
+      "profile_id": "SC-28-0-15",
+      "capture": 175,
+      "date": "2019-11-27",
+      "original_offset_m": 48.0,
+      "reason": "submerged_color_change_not_shoreline",
+      "figure": "grandes-11.jpg"
+    },
+    {
+      "profile_id": "SC-28-0-18",
+      "capture": 175,
+      "date": "2019-11-27",
+      "original_offset_m": 42.0,
+      "reason": "submerged_color_change_not_shoreline",
+      "figure": "grandes-11.jpg"
+    },
+    {
+      "profile_id": "SC-28-0-24",
+      "capture": 175,
+      "date": "2019-11-27",
+      "original_offset_m": 48.0,
+      "reason": "submerged_color_change_not_shoreline",
+      "figure": "grandes-11.jpg"
+    },
+    {
+      "profile_id": "SC-28-0-25",
+      "capture": 175,
+      "date": "2019-11-27",
+      "original_offset_m": 57.0,
+      "reason": "submerged_color_change_not_shoreline",
+      "figure": "grandes-11.jpg"
+    },
+    {
+      "profile_id": "SC-28-0-30",
+      "capture": 175,
+      "date": "2019-11-27",
+      "original_offset_m": 57.0,
+      "reason": "submerged_color_change_not_shoreline",
+      "figure": "grandes-11.jpg"
+    },
+    {
+      "profile_id": "SC-28-0-36",
+      "capture": 175,
+      "date": "2019-11-27",
+      "original_offset_m": 84.0,
+      "reason": "submerged_color_change_not_shoreline",
+      "figure": "grandes-12.jpg"
+    },
+    {
+      "profile_id": "SC-28-0-38",
+      "capture": 175,
+      "date": "2019-11-27",
+      "original_offset_m": 91.0,
+      "reason": "submerged_color_change_not_shoreline",
+      "figure": "grandes-12.jpg"
+    },
+    {
+      "profile_id": "SC-29-0-26",
+      "capture": 177,
+      "date": "2012-12-15",
+      "original_offset_m": 66.0,
+      "reason": "submerged_color_change_not_shoreline",
+      "figure": "grandes-13.jpg"
+    },
+    {
+      "profile_id": "SC-29-0-28",
+      "capture": 177,
+      "date": "2012-12-15",
+      "original_offset_m": 86.0,
+      "reason": "submerged_color_change_not_shoreline",
+      "figure": "grandes-13.jpg"
+    },
+    {
+      "profile_id": "SC-29-0-40",
+      "capture": 175,
+      "date": "2019-11-27",
+      "original_offset_m": 66.0,
+      "reason": "submerged_color_change_not_shoreline",
+      "figure": "grandes-13.jpg"
+    },
+    {
+      "profile_id": "SC-29-0-41",
+      "capture": 175,
+      "date": "2019-11-27",
+      "original_offset_m": 46.0,
+      "reason": "submerged_color_change_not_shoreline",
+      "figure": "grandes-13.jpg"
+    },
+    {
+      "profile_id": "SC-30-0-0",
+      "capture": 8,
+      "date": "2012-05-04",
+      "original_offset_m": -56.0,
+      "reason": "ambiguous_swash_or_back_beach_contact",
+      "figure": "grandes-13.jpg"
+    },
+    {
+      "profile_id": "SC-30-0-1",
+      "capture": 8,
+      "date": "2012-05-04",
+      "original_offset_m": -63.0,
+      "reason": "ambiguous_swash_or_back_beach_contact",
+      "figure": "grandes-13.jpg"
+    },
+    {
+      "profile_id": "SC-30-0-2",
+      "capture": 8,
+      "date": "2012-05-04",
+      "original_offset_m": -49.0,
+      "reason": "ambiguous_swash_or_back_beach_contact",
+      "figure": "grandes-13.jpg"
+    },
+    {
+      "profile_id": "SC-30-0-3",
+      "capture": 8,
+      "date": "2012-05-04",
+      "original_offset_m": -44.0,
+      "reason": "ambiguous_swash_or_back_beach_contact",
+      "figure": "grandes-14.jpg"
+    },
+    {
+      "profile_id": "SC-31-0-1",
+      "capture": 18,
+      "date": "2012-09-30",
+      "original_offset_m": -41.0,
+      "reason": "ambiguous_swash_or_back_beach_contact",
+      "figure": "grandes-14.jpg"
+    },
+    {
+      "profile_id": "SC-31-0-6",
+      "capture": 18,
+      "date": "2012-09-30",
+      "original_offset_m": -43.0,
+      "reason": "ambiguous_swash_or_back_beach_contact",
+      "figure": "grandes-14.jpg"
+    },
+    {
+      "profile_id": "SC-32-0-0",
+      "capture": 112,
+      "date": "2024-02-26",
+      "original_offset_m": 49.0,
+      "reason": "submerged_color_change_not_shoreline",
+      "figure": "grandes-14.jpg"
+    },
+    {
+      "profile_id": "SC-32-0-1",
+      "capture": 112,
+      "date": "2024-02-26",
+      "original_offset_m": 45.0,
+      "reason": "submerged_color_change_not_shoreline",
+      "figure": "grandes-14.jpg"
+    },
+    {
+      "profile_id": "SC-84-0-24",
+      "capture": 175,
+      "date": "2019-11-27",
+      "original_offset_m": 48.0,
+      "reason": "submerged_color_change_not_shoreline",
+      "figure": "grandes-15.jpg"
+    },
+    {
+      "profile_id": "SC-88-0-195",
+      "capture": 215,
+      "date": "2025-12-21",
+      "original_offset_m": -119.0,
+      "reason": "inland_street",
+      "figure": "grandes-15.jpg"
+    },
+    {
+      "profile_id": "SC-90-0-2",
+      "capture": 175,
+      "date": "2019-11-27",
+      "original_offset_m": -51.0,
+      "reason": "inland_construction_not_waterline",
+      "figure": "grandes-15.jpg"
+    },
+    {
+      "profile_id": "SC-90-0-32",
+      "capture": 218,
+      "date": "2020-06-07",
+      "original_offset_m": -47.0,
+      "reason": "ambiguous_swash_or_back_beach_contact",
+      "figure": "grandes-17.jpg"
+    },
+    {
+      "profile_id": "SC-90-0-33",
+      "capture": 218,
+      "date": "2020-06-07",
+      "original_offset_m": -44.0,
+      "reason": "ambiguous_swash_or_back_beach_contact",
+      "figure": "grandes-17.jpg"
+    },
+    {
+      "profile_id": "SC-90-0-33",
+      "capture": 202,
+      "date": "2020-06-07",
+      "original_offset_m": -44.0,
+      "reason": "ambiguous_swash_or_back_beach_contact",
+      "figure": "grandes-17.jpg"
+    },
+    {
+      "profile_id": "SC-256-0-15",
+      "capture": 52,
+      "date": "2019-11-22",
+      "original_offset_m": 42.0,
+      "reason": "ambiguous_swash_or_water_color_contact",
+      "figure": "grandes-18.jpg"
+    },
+    {
+      "profile_id": "SC-256-0-16",
+      "capture": 52,
+      "date": "2019-11-22",
+      "original_offset_m": 41.0,
+      "reason": "ambiguous_swash_or_water_color_contact",
+      "figure": "grandes-18.jpg"
+    },
+    {
+      "profile_id": "SC-258-0-30",
+      "capture": 52,
+      "date": "2019-11-22",
+      "original_offset_m": 48.0,
+      "reason": "ambiguous_swash_or_water_color_contact",
+      "figure": "grandes-19.jpg"
+    },
+    {
+      "profile_id": "SC-264-0-55",
+      "capture": 54,
+      "date": "2024-02-24",
+      "original_offset_m": 48.0,
+      "reason": "ambiguous_swash_or_water_color_contact",
+      "figure": "grandes-20.jpg"
+    },
+    {
+      "profile_id": "SC-264-0-55",
+      "capture": 56,
+      "date": "2020-02-06",
+      "original_offset_m": 51.0,
+      "reason": "ambiguous_swash_or_water_color_contact",
+      "figure": "grandes-20.jpg"
+    },
+    {
+      "profile_id": "SC-579-0-1",
+      "capture": 122,
+      "date": "2022-12-14",
+      "original_offset_m": 43.0,
+      "reason": "ambiguous_swash_or_water_color_contact",
+      "figure": "grandes-21.jpg"
+    },
+    {
+      "profile_id": "SC-579-0-9",
+      "capture": 122,
+      "date": "2022-12-14",
+      "original_offset_m": -98.0,
+      "reason": "back_lagoon_not_open_coast",
+      "figure": "grandes-21.jpg"
+    },
+    {
+      "profile_id": "SC-579-0-12",
+      "capture": 122,
+      "date": "2022-12-14",
+      "original_offset_m": -110.0,
+      "reason": "back_lagoon_not_open_coast",
+      "figure": "grandes-21.jpg"
+    },
+    {
+      "profile_id": "SC-4-0-490",
+      "capture": 7,
+      "date": "2011-11-23",
+      "original_offset_m": -35.0,
+      "reason": "ambiguous_swash_or_back_beach_contact",
+      "figure": "pares-01.jpg"
+    },
+    {
+      "profile_id": "SC-9-0-104",
+      "capture": 85,
+      "date": "2022-01-01",
+      "original_offset_m": 32.0,
+      "reason": "ambiguous_swash_or_water_color_contact",
+      "figure": "pares-02.jpg"
+    },
+    {
+      "profile_id": "SC-264-0-14",
+      "capture": 59,
+      "date": "2010-11-16",
+      "original_offset_m": -35.0,
+      "reason": "ambiguous_swash_or_back_beach_contact",
+      "figure": "pares-03.jpg"
+    },
+    {
+      "profile_id": "SC-25-0-5",
+      "capture": 151,
+      "date": "2010-12-19",
+      "original_offset_m": 38.0,
+      "reason": "submerged_color_change_not_shoreline",
+      "figure": "pares-03.jpg"
+    },
+    {
+      "profile_id": "SC-20-0-53",
+      "capture": 59,
+      "date": "2010-11-16",
+      "original_offset_m": 0.0,
+      "reason": "overexposed_unresolved_beach_edge",
+      "figure": "pares-03.jpg"
+    },
+    {
+      "profile_id": "SC-20-0-53",
+      "capture": 143,
+      "date": "2021-12-24",
+      "original_offset_m": 28.0,
+      "reason": "ambiguous_swash_or_water_color_contact",
+      "figure": "pares-03.jpg"
+    },
+    {
+      "profile_id": "SC-26-0-10",
+      "capture": 151,
+      "date": "2010-12-19",
+      "original_offset_m": 40.0,
+      "reason": "submerged_color_change_not_shoreline",
+      "figure": "pares-04.jpg"
+    },
+    {
+      "profile_id": "SC-28-0-66",
+      "capture": 40,
+      "date": "2011-08-01",
+      "original_offset_m": -26.0,
+      "reason": "back_of_beach_not_waterline",
+      "figure": "pares-05.jpg"
+    }
+  ]
+}

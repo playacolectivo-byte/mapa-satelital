@@ -1,0 +1,1159 @@
+{
+  "schema_version": 1,
+  "scope": {
+    "id": "yucatan-coastal-navigation-17-v1",
+    "label": "Costa de Yucatán · Celestún a El Cuyo",
+    "required_bounds": [
+      -90.55,
+      20.65,
+      -87.15,
+      22
+    ],
+    "locality_count": 18,
+    "municipalities": [
+      "Celestún",
+      "Dzemul",
+      "Dzidzantún",
+      "Dzilam de Bravo",
+      "Hunucmá",
+      "Ixil",
+      "Progreso",
+      "Río Lagartos",
+      "San Felipe",
+      "Sinanché",
+      "Telchac Puerto",
+      "Tizimín",
+      "Yobaín"
+    ],
+    "localities": [
+      {
+        "id": "S02-310110001",
+        "name": "Celestún",
+        "municipality": "Celestún",
+        "coordinates": [
+          -90.3994636,
+          20.8600917
+        ]
+      },
+      {
+        "id": "S02-310380004",
+        "name": "Sisal",
+        "municipality": "Hunucmá",
+        "coordinates": [
+          -90.0325403,
+          21.1648975
+        ]
+      },
+      {
+        "id": "S02-310590005",
+        "name": "Chuburná",
+        "municipality": "Progreso",
+        "coordinates": [
+          -89.8162133,
+          21.2518533
+        ]
+      },
+      {
+        "id": "S02-310590003",
+        "name": "Chelem",
+        "municipality": "Progreso",
+        "coordinates": [
+          -89.7429508,
+          21.2687364
+        ]
+      },
+      {
+        "id": "S02-310590001",
+        "name": "Progreso",
+        "municipality": "Progreso",
+        "coordinates": [
+          -89.6635736,
+          21.2825778
+        ]
+      },
+      {
+        "id": "S02-310590004",
+        "name": "Chicxulub Puerto",
+        "municipality": "Progreso",
+        "coordinates": [
+          -89.6071692,
+          21.2944286
+        ]
+      },
+      {
+        "id": "S02-310260035",
+        "name": "San Benito",
+        "municipality": "Dzemul",
+        "coordinates": [
+          -89.4399006,
+          21.3237381
+        ]
+      },
+      {
+        "id": "S02-310260004",
+        "name": "San Bruno",
+        "municipality": "Dzemul",
+        "coordinates": [
+          -89.3910897,
+          21.3304378
+        ]
+      },
+      {
+        "id": "S02-310830001",
+        "name": "Telchac Puerto",
+        "municipality": "Telchac Puerto",
+        "coordinates": [
+          -89.264225,
+          21.3430039
+        ]
+      },
+      {
+        "id": "S02-310680003",
+        "name": "San Crisanto",
+        "municipality": "Sinanché",
+        "coordinates": [
+          -89.1718089,
+          21.3532814
+        ]
+      },
+      {
+        "id": "S02-311060002",
+        "name": "Chabihau",
+        "municipality": "Yobaín",
+        "coordinates": [
+          -89.1179189,
+          21.3562825
+        ]
+      },
+      {
+        "id": "S02-310270004",
+        "name": "Santa Clara",
+        "municipality": "Dzidzantún",
+        "coordinates": [
+          -89.0137542,
+          21.3738203
+        ]
+      },
+      {
+        "id": "S02-310280001",
+        "name": "Dzilam de Bravo",
+        "municipality": "Dzilam de Bravo",
+        "coordinates": [
+          -88.8918797,
+          21.3932292
+        ]
+      },
+      {
+        "id": "S02-310650001",
+        "name": "San Felipe",
+        "municipality": "San Felipe",
+        "coordinates": [
+          -88.2320633,
+          21.5675989
+        ]
+      },
+      {
+        "id": "S02-310610001",
+        "name": "Río Lagartos",
+        "municipality": "Río Lagartos",
+        "coordinates": [
+          -88.1579775,
+          21.5977506
+        ]
+      },
+      {
+        "id": "S02-310610002",
+        "name": "Las Coloradas",
+        "municipality": "Río Lagartos",
+        "coordinates": [
+          -87.9906072,
+          21.6087247
+        ]
+      },
+      {
+        "id": "S02-310960009",
+        "name": "El Cuyo",
+        "municipality": "Tizimín",
+        "coordinates": [
+          -87.6781403,
+          21.5168589
+        ]
+      },
+      {
+        "id": "GAIA-310390023",
+        "name": "El Faro (costa de Ixil)",
+        "municipality": "Ixil",
+        "coordinates": [
+          -89.4710383,
+          21.3192508
+        ],
+        "cvegeo": "310390023",
+        "source": "https://gaia.inegi.org.mx/wscatgeo/v2/localidades/31039"
+      }
+    ],
+    "note": "Encuadre continuo para navegación de la costa de Yucatán: 18 puntos testigo de 13 municipios, incluyendo la costa de Ixil. Los puntos son muestreo de visualización; no representan límites legales municipales ni prueban cada píxel nativo."
+  },
+  "reviews": [
+    {
+      "source": "landsat",
+      "epoch_id": "1986-04-14",
+      "year": 1986,
+      "status": "partial",
+      "reviewed_bounds": [
+        -89.79164690238835,
+        21.24588650863516,
+        -89.53344494553471,
+        21.3390998966473
+      ],
+      "reviewed_on": "2026-10-28",
+      "receipt": "public/data/history/landsat-tiles.json",
+      "method": "Received/reviewed coverage does not cover the entire required navigation window; excluded from annual background choices."
+    },
+    {
+      "source": "landsat",
+      "epoch_id": "1987-04-17",
+      "year": 1987,
+      "status": "partial",
+      "reviewed_bounds": [
+        -89.79164690238835,
+        21.24588650863516,
+        -89.53344494553471,
+        21.3390998966473
+      ],
+      "reviewed_on": "2026-10-28",
+      "receipt": "public/data/history/landsat-tiles.json",
+      "method": "Received/reviewed coverage does not cover the entire required navigation window; excluded from annual background choices."
+    },
+    {
+      "source": "landsat",
+      "epoch_id": "1988-11-05",
+      "year": 1988,
+      "status": "partial",
+      "reviewed_bounds": [
+        -89.79164690238835,
+        21.24588650863516,
+        -89.53344494553471,
+        21.3390998966473
+      ],
+      "reviewed_on": "2026-10-28",
+      "receipt": "public/data/history/landsat-tiles.json",
+      "method": "Received/reviewed coverage does not cover the entire required navigation window; excluded from annual background choices."
+    },
+    {
+      "source": "landsat",
+      "epoch_id": "1989-10-23",
+      "year": 1989,
+      "status": "partial",
+      "reviewed_bounds": [
+        -89.79164690238835,
+        21.24588650863516,
+        -89.53344494553471,
+        21.3390998966473
+      ],
+      "reviewed_on": "2026-10-28",
+      "receipt": "public/data/history/landsat-tiles.json",
+      "method": "Received/reviewed coverage does not cover the entire required navigation window; excluded from annual background choices."
+    },
+    {
+      "source": "landsat",
+      "epoch_id": "1995-05-25",
+      "year": 1995,
+      "status": "partial",
+      "reviewed_bounds": [
+        -89.79164690238835,
+        21.24588650863516,
+        -89.53344494553471,
+        21.3390998966473
+      ],
+      "reviewed_on": "2026-10-28",
+      "receipt": "public/data/history/landsat-tiles.json",
+      "method": "Received/reviewed coverage does not cover the entire required navigation window; excluded from annual background choices."
+    },
+    {
+      "source": "landsat",
+      "epoch_id": "1996-05-11",
+      "year": 1996,
+      "status": "partial",
+      "reviewed_bounds": [
+        -89.79164690238835,
+        21.24588650863516,
+        -89.53344494553471,
+        21.3390998966473
+      ],
+      "reviewed_on": "2026-10-28",
+      "receipt": "public/data/history/landsat-tiles.json",
+      "method": "Received/reviewed coverage does not cover the entire required navigation window; excluded from annual background choices."
+    },
+    {
+      "source": "landsat",
+      "epoch_id": "1997-09-03",
+      "year": 1997,
+      "status": "partial",
+      "reviewed_bounds": [
+        -89.79164690238835,
+        21.24588650863516,
+        -89.53344494553471,
+        21.3390998966473
+      ],
+      "reviewed_on": "2026-10-28",
+      "receipt": "public/data/history/landsat-tiles.json",
+      "method": "Received/reviewed coverage does not cover the entire required navigation window; excluded from annual background choices."
+    },
+    {
+      "source": "landsat",
+      "epoch_id": "1998-04-15",
+      "year": 1998,
+      "status": "partial",
+      "reviewed_bounds": [
+        -89.79164690238835,
+        21.24588650863516,
+        -89.53344494553471,
+        21.3390998966473
+      ],
+      "reviewed_on": "2026-10-28",
+      "receipt": "public/data/history/landsat-tiles.json",
+      "method": "Received/reviewed coverage does not cover the entire required navigation window; excluded from annual background choices."
+    },
+    {
+      "source": "landsat",
+      "epoch_id": "2004-03-06",
+      "year": 2004,
+      "status": "partial",
+      "reviewed_bounds": [
+        -89.79164690238835,
+        21.24588650863516,
+        -89.53344494553471,
+        21.3390998966473
+      ],
+      "reviewed_on": "2026-10-28",
+      "receipt": "public/data/history/landsat-tiles.json",
+      "method": "Received/reviewed coverage does not cover the entire required navigation window; excluded from annual background choices."
+    },
+    {
+      "source": "landsat",
+      "epoch_id": "2005-03-25",
+      "year": 2005,
+      "status": "partial",
+      "reviewed_bounds": [
+        -89.79164690238835,
+        21.24588650863516,
+        -89.53344494553471,
+        21.3390998966473
+      ],
+      "reviewed_on": "2026-10-28",
+      "receipt": "public/data/history/landsat-tiles.json",
+      "method": "Received/reviewed coverage does not cover the entire required navigation window; excluded from annual background choices."
+    },
+    {
+      "source": "landsat",
+      "epoch_id": "2006-04-29",
+      "year": 2006,
+      "status": "partial",
+      "reviewed_bounds": [
+        -89.79164690238835,
+        21.24588650863516,
+        -89.53344494553471,
+        21.3390998966473
+      ],
+      "reviewed_on": "2026-10-28",
+      "receipt": "public/data/history/landsat-tiles.json",
+      "method": "Received/reviewed coverage does not cover the entire required navigation window; excluded from annual background choices."
+    },
+    {
+      "source": "inegi",
+      "epoch_id": "1995-11",
+      "year": 1995,
+      "status": "partial",
+      "reviewed_bounds": [
+        -89.8910025461266,
+        21.24767422661101,
+        -89.6638417584125,
+        21.377298335350684
+      ],
+      "reviewed_on": "2026-10-28",
+      "receipt": "work/2026-10-28-alternativas-inegi/existing-tiles-verification.json",
+      "method": "Received/reviewed coverage does not cover the entire required navigation window; excluded from annual background choices."
+    },
+    {
+      "source": "inegi",
+      "epoch_id": "2005-01",
+      "year": 2005,
+      "status": "partial",
+      "reviewed_bounds": [
+        -89.89006700393458,
+        21.24724303652316,
+        -89.66530464591438,
+        21.315418281088334
+      ],
+      "reviewed_on": "2026-10-28",
+      "receipt": "work/2026-10-28-alternativas-inegi/existing-tiles-verification.json",
+      "method": "Received/reviewed coverage does not cover the entire required navigation window; excluded from annual background choices."
+    },
+    {
+      "source": "nasa",
+      "epoch_id": "1986-gweld",
+      "year": 1986,
+      "status": "partial",
+      "reviewed_bounds": [
+        -90.5,
+        20.8,
+        -89.05,
+        21.5
+      ],
+      "reviewed_on": "2026-10-28",
+      "receipt": "public/data/history/nasa-gweld.json",
+      "method": "Received/reviewed coverage does not cover the entire required navigation window; excluded from annual background choices."
+    },
+    {
+      "source": "nasa",
+      "epoch_id": "1989-gweld",
+      "year": 1989,
+      "status": "partial",
+      "reviewed_bounds": [
+        -89.88,
+        21.22,
+        -89.59,
+        21.38
+      ],
+      "reviewed_on": "2026-10-28",
+      "receipt": "public/data/history/nasa-gweld.json",
+      "method": "Received/reviewed coverage does not cover the entire required navigation window; excluded from annual background choices."
+    },
+    {
+      "source": "nasa",
+      "epoch_id": "1990-gweld",
+      "year": 1990,
+      "status": "partial",
+      "reviewed_bounds": [
+        -89.88,
+        21.22,
+        -89.59,
+        21.38
+      ],
+      "reviewed_on": "2026-10-28",
+      "receipt": "public/data/history/nasa-gweld.json",
+      "method": "Received/reviewed coverage does not cover the entire required navigation window; excluded from annual background choices."
+    },
+    {
+      "source": "nasa",
+      "epoch_id": "1991-gweld",
+      "year": 1991,
+      "status": "partial",
+      "reviewed_bounds": [
+        -89.88,
+        21.22,
+        -89.59,
+        21.38
+      ],
+      "reviewed_on": "2026-10-28",
+      "receipt": "public/data/history/nasa-gweld.json",
+      "method": "Received/reviewed coverage does not cover the entire required navigation window; excluded from annual background choices."
+    },
+    {
+      "source": "nasa",
+      "epoch_id": "1999-gweld",
+      "year": 1999,
+      "status": "partial",
+      "reviewed_bounds": [
+        -89.88,
+        21.22,
+        -89.59,
+        21.38
+      ],
+      "reviewed_on": "2026-10-28",
+      "receipt": "public/data/history/nasa-gweld.json",
+      "method": "Received/reviewed coverage does not cover the entire required navigation window; excluded from annual background choices."
+    },
+    {
+      "source": "nasa",
+      "epoch_id": "2000-gweld",
+      "year": 2000,
+      "status": "partial",
+      "reviewed_bounds": [
+        -89.88,
+        21.22,
+        -89.59,
+        21.38
+      ],
+      "reviewed_on": "2026-10-28",
+      "receipt": "public/data/history/nasa-gweld.json",
+      "method": "Received/reviewed coverage does not cover the entire required navigation window; excluded from annual background choices."
+    },
+    {
+      "source": "nasa",
+      "epoch_id": "2001-gweld",
+      "year": 2001,
+      "status": "partial",
+      "reviewed_bounds": [
+        -89.88,
+        21.22,
+        -89.59,
+        21.38
+      ],
+      "reviewed_on": "2026-10-28",
+      "receipt": "public/data/history/nasa-gweld.json",
+      "method": "Received/reviewed coverage does not cover the entire required navigation window; excluded from annual background choices."
+    },
+    {
+      "source": "geomedian",
+      "epoch_id": "1993-inegi-geomedian",
+      "year": 1993,
+      "status": "complete",
+      "reviewed_bounds": [
+        -90.55,
+        20.65,
+        -87.15,
+        22
+      ],
+      "reviewed_on": "2026-10-28",
+      "receipt": "work/2026-10-28-historico-integrado/review/inegi-annual-independent.json",
+      "method": "Disponibilidad y continuidad panorámica revisadas en 33 respuestas WMS anuales distintas de 1000×430 píxeles; año de capa exacto, sin sustitución por otro año. En este año, los 18 centros testigo de 13 municipios y sus entornos de 5×5 píxeles fueron opacos. Revisión de visualización y muestreo a unos 350 m por píxel de salida; no auditoría exhaustiva de los píxeles nativos de 30 m ni validación de línea de costa.",
+      "overview_sha256": "0e883ded1dd7bea3510146321769efd40740d71662965a9ce259f367dcc9d2c1",
+      "decoded_rgba_sha256": "d5060e515b32c36ecbd48f68201b130c80529e4f9dc983a274276e4fc0bf748e",
+      "locality_count": 18,
+      "municipality_count": 13,
+      "native_pixels_exhaustively_reviewed": false
+    },
+    {
+      "source": "geomedian",
+      "epoch_id": "1994-inegi-geomedian",
+      "year": 1994,
+      "status": "complete",
+      "reviewed_bounds": [
+        -90.55,
+        20.65,
+        -87.15,
+        22
+      ],
+      "reviewed_on": "2026-10-28",
+      "receipt": "work/2026-10-28-historico-integrado/review/inegi-annual-independent.json",
+      "method": "Disponibilidad y continuidad panorámica revisadas en 33 respuestas WMS anuales distintas de 1000×430 píxeles; año de capa exacto, sin sustitución por otro año. En este año, los 18 centros testigo de 13 municipios y sus entornos de 5×5 píxeles fueron opacos. Revisión de visualización y muestreo a unos 350 m por píxel de salida; no auditoría exhaustiva de los píxeles nativos de 30 m ni validación de línea de costa.",
+      "overview_sha256": "6e788cf04a73490a5b48f747af629a5cca36cd71af9c9b9fd433f5b5121197c8",
+      "decoded_rgba_sha256": "1a6a5329f50e602f5de1d76bcfb671bfbcf98f3b453f50632c1abb414a0c0198",
+      "locality_count": 18,
+      "municipality_count": 13,
+      "native_pixels_exhaustively_reviewed": false
+    },
+    {
+      "source": "geomedian",
+      "epoch_id": "1995-inegi-geomedian",
+      "year": 1995,
+      "status": "complete",
+      "reviewed_bounds": [
+        -90.55,
+        20.65,
+        -87.15,
+        22
+      ],
+      "reviewed_on": "2026-10-28",
+      "receipt": "work/2026-10-28-historico-integrado/review/inegi-annual-independent.json",
+      "method": "Disponibilidad y continuidad panorámica revisadas en 33 respuestas WMS anuales distintas de 1000×430 píxeles; año de capa exacto, sin sustitución por otro año. En este año, los 18 centros testigo de 13 municipios y sus entornos de 5×5 píxeles fueron opacos. Revisión de visualización y muestreo a unos 350 m por píxel de salida; no auditoría exhaustiva de los píxeles nativos de 30 m ni validación de línea de costa.",
+      "overview_sha256": "245287e11daa2285d9fbb99e18bb7144be3cb3ae9b2bd899c512fafaed5aff4e",
+      "decoded_rgba_sha256": "23c8638ed215b160af5075cb06e0b25cc9262980badebb4af2776eca31ce584b",
+      "locality_count": 18,
+      "municipality_count": 13,
+      "native_pixels_exhaustively_reviewed": false
+    },
+    {
+      "source": "geomedian",
+      "epoch_id": "1996-inegi-geomedian",
+      "year": 1996,
+      "status": "complete",
+      "reviewed_bounds": [
+        -90.55,
+        20.65,
+        -87.15,
+        22
+      ],
+      "reviewed_on": "2026-10-28",
+      "receipt": "work/2026-10-28-historico-integrado/review/inegi-annual-independent.json",
+      "method": "Disponibilidad y continuidad panorámica revisadas en 33 respuestas WMS anuales distintas de 1000×430 píxeles; año de capa exacto, sin sustitución por otro año. En este año, los 18 centros testigo de 13 municipios y sus entornos de 5×5 píxeles fueron opacos. Revisión de visualización y muestreo a unos 350 m por píxel de salida; no auditoría exhaustiva de los píxeles nativos de 30 m ni validación de línea de costa.",
+      "overview_sha256": "fc7a5ce45b23ade97deb67cf353a1a990edf4e918703700b42f924e797e7c30e",
+      "decoded_rgba_sha256": "357d5fbd123bfa669f606335da69bf4fa897ae97333c49d2baec24b9c2e8d547",
+      "locality_count": 18,
+      "municipality_count": 13,
+      "native_pixels_exhaustively_reviewed": false
+    },
+    {
+      "source": "geomedian",
+      "epoch_id": "1997-inegi-geomedian",
+      "year": 1997,
+      "status": "complete",
+      "reviewed_bounds": [
+        -90.55,
+        20.65,
+        -87.15,
+        22
+      ],
+      "reviewed_on": "2026-10-28",
+      "receipt": "work/2026-10-28-historico-integrado/review/inegi-annual-independent.json",
+      "method": "Disponibilidad y continuidad panorámica revisadas en 33 respuestas WMS anuales distintas de 1000×430 píxeles; año de capa exacto, sin sustitución por otro año. En este año, los 18 centros testigo de 13 municipios y sus entornos de 5×5 píxeles fueron opacos. Revisión de visualización y muestreo a unos 350 m por píxel de salida; no auditoría exhaustiva de los píxeles nativos de 30 m ni validación de línea de costa.",
+      "overview_sha256": "1bbf2d390da5b70300acd07405b89abb26970c8034c4fa1ae4ece7eea3d9fc57",
+      "decoded_rgba_sha256": "2e9f7ca1758c00527e58b551deaffbe267b7195f49a478eebb1d2d7ce5ec00d4",
+      "locality_count": 18,
+      "municipality_count": 13,
+      "native_pixels_exhaustively_reviewed": false
+    },
+    {
+      "source": "geomedian",
+      "epoch_id": "1998-inegi-geomedian",
+      "year": 1998,
+      "status": "complete",
+      "reviewed_bounds": [
+        -90.55,
+        20.65,
+        -87.15,
+        22
+      ],
+      "reviewed_on": "2026-10-28",
+      "receipt": "work/2026-10-28-historico-integrado/review/inegi-annual-independent.json",
+      "method": "Disponibilidad y continuidad panorámica revisadas en 33 respuestas WMS anuales distintas de 1000×430 píxeles; año de capa exacto, sin sustitución por otro año. En este año, los 18 centros testigo de 13 municipios y sus entornos de 5×5 píxeles fueron opacos. Revisión de visualización y muestreo a unos 350 m por píxel de salida; no auditoría exhaustiva de los píxeles nativos de 30 m ni validación de línea de costa.",
+      "overview_sha256": "b5c775cdaa1c9ed2335aca63cee7f45956100e6dcc80f174cd1a9ff23cce2d17",
+      "decoded_rgba_sha256": "efefb16f232cca2499e630382137b5132cf5f8c7dd499d0e65657262b4e20bfd",
+      "locality_count": 18,
+      "municipality_count": 13,
+      "native_pixels_exhaustively_reviewed": false
+    },
+    {
+      "source": "geomedian",
+      "epoch_id": "1999-inegi-geomedian",
+      "year": 1999,
+      "status": "complete",
+      "reviewed_bounds": [
+        -90.55,
+        20.65,
+        -87.15,
+        22
+      ],
+      "reviewed_on": "2026-10-28",
+      "receipt": "work/2026-10-28-historico-integrado/review/inegi-annual-independent.json",
+      "method": "Disponibilidad y continuidad panorámica revisadas en 33 respuestas WMS anuales distintas de 1000×430 píxeles; año de capa exacto, sin sustitución por otro año. En este año, los 18 centros testigo de 13 municipios y sus entornos de 5×5 píxeles fueron opacos. Revisión de visualización y muestreo a unos 350 m por píxel de salida; no auditoría exhaustiva de los píxeles nativos de 30 m ni validación de línea de costa.",
+      "overview_sha256": "6731457d287e2de165afb8a5f564d7a4c062d6ccbee699161a4f4f9dbf88e959",
+      "decoded_rgba_sha256": "c6786b3088818093a8be565a562dfefc53f0788786f9d62668cce6a5efeb7151",
+      "locality_count": 18,
+      "municipality_count": 13,
+      "native_pixels_exhaustively_reviewed": false
+    },
+    {
+      "source": "geomedian",
+      "epoch_id": "2000-inegi-geomedian",
+      "year": 2000,
+      "status": "complete",
+      "reviewed_bounds": [
+        -90.55,
+        20.65,
+        -87.15,
+        22
+      ],
+      "reviewed_on": "2026-10-28",
+      "receipt": "work/2026-10-28-historico-integrado/review/inegi-annual-independent.json",
+      "method": "Disponibilidad y continuidad panorámica revisadas en 33 respuestas WMS anuales distintas de 1000×430 píxeles; año de capa exacto, sin sustitución por otro año. En este año, los 18 centros testigo de 13 municipios y sus entornos de 5×5 píxeles fueron opacos. Revisión de visualización y muestreo a unos 350 m por píxel de salida; no auditoría exhaustiva de los píxeles nativos de 30 m ni validación de línea de costa.",
+      "overview_sha256": "65cb8d2c78235e7c99ad3c493e70c68354d71f697fd87918c63022ef4c6bb6d8",
+      "decoded_rgba_sha256": "1b1aae611b1828c97160f928db5851a08167b708ce52ab928aed0c54351743db",
+      "locality_count": 18,
+      "municipality_count": 13,
+      "native_pixels_exhaustively_reviewed": false
+    },
+    {
+      "source": "geomedian",
+      "epoch_id": "2001-inegi-geomedian",
+      "year": 2001,
+      "status": "complete",
+      "reviewed_bounds": [
+        -90.55,
+        20.65,
+        -87.15,
+        22
+      ],
+      "reviewed_on": "2026-10-28",
+      "receipt": "work/2026-10-28-historico-integrado/review/inegi-annual-independent.json",
+      "method": "Disponibilidad y continuidad panorámica revisadas en 33 respuestas WMS anuales distintas de 1000×430 píxeles; año de capa exacto, sin sustitución por otro año. En este año, los 18 centros testigo de 13 municipios y sus entornos de 5×5 píxeles fueron opacos. Revisión de visualización y muestreo a unos 350 m por píxel de salida; no auditoría exhaustiva de los píxeles nativos de 30 m ni validación de línea de costa.",
+      "overview_sha256": "8ec6784f02844e99293aa4c2402797144a9beb26551559a5320641acb70b6ac8",
+      "decoded_rgba_sha256": "2dd268d6ac296ad374cb5176de15ea7aa53fb1cd3ed157e4d0b839dcff547801",
+      "locality_count": 18,
+      "municipality_count": 13,
+      "native_pixels_exhaustively_reviewed": false
+    },
+    {
+      "source": "geomedian",
+      "epoch_id": "2002-inegi-geomedian",
+      "year": 2002,
+      "status": "complete",
+      "reviewed_bounds": [
+        -90.55,
+        20.65,
+        -87.15,
+        22
+      ],
+      "reviewed_on": "2026-10-28",
+      "receipt": "work/2026-10-28-historico-integrado/review/inegi-annual-independent.json",
+      "method": "Disponibilidad y continuidad panorámica revisadas en 33 respuestas WMS anuales distintas de 1000×430 píxeles; año de capa exacto, sin sustitución por otro año. En este año, los 18 centros testigo de 13 municipios y sus entornos de 5×5 píxeles fueron opacos. Revisión de visualización y muestreo a unos 350 m por píxel de salida; no auditoría exhaustiva de los píxeles nativos de 30 m ni validación de línea de costa.",
+      "overview_sha256": "f2ff4fe3df3979a864d49f5c6a741738c8536e1098fe3aba244b0068189db794",
+      "decoded_rgba_sha256": "9497c81dee358ba64403ce9285aefd02cdaa27c1edad8845fbf313baf89efd81",
+      "locality_count": 18,
+      "municipality_count": 13,
+      "native_pixels_exhaustively_reviewed": false
+    },
+    {
+      "source": "geomedian",
+      "epoch_id": "2003-inegi-geomedian",
+      "year": 2003,
+      "status": "complete",
+      "reviewed_bounds": [
+        -90.55,
+        20.65,
+        -87.15,
+        22
+      ],
+      "reviewed_on": "2026-10-28",
+      "receipt": "work/2026-10-28-historico-integrado/review/inegi-annual-independent.json",
+      "method": "Disponibilidad y continuidad panorámica revisadas en 33 respuestas WMS anuales distintas de 1000×430 píxeles; año de capa exacto, sin sustitución por otro año. En este año, los 18 centros testigo de 13 municipios y sus entornos de 5×5 píxeles fueron opacos. Revisión de visualización y muestreo a unos 350 m por píxel de salida; no auditoría exhaustiva de los píxeles nativos de 30 m ni validación de línea de costa.",
+      "overview_sha256": "379d362b7dae34da07df893ee50baf7e525e8ef15890e283f8066af060cfcda4",
+      "decoded_rgba_sha256": "89cf6c09498635eca993cb80fdc28f3ed5659bcd53eb6f3d07e9f1dbb565384c",
+      "locality_count": 18,
+      "municipality_count": 13,
+      "native_pixels_exhaustively_reviewed": false
+    },
+    {
+      "source": "geomedian",
+      "epoch_id": "2004-inegi-geomedian",
+      "year": 2004,
+      "status": "complete",
+      "reviewed_bounds": [
+        -90.55,
+        20.65,
+        -87.15,
+        22
+      ],
+      "reviewed_on": "2026-10-28",
+      "receipt": "work/2026-10-28-historico-integrado/review/inegi-annual-independent.json",
+      "method": "Disponibilidad y continuidad panorámica revisadas en 33 respuestas WMS anuales distintas de 1000×430 píxeles; año de capa exacto, sin sustitución por otro año. En este año, los 18 centros testigo de 13 municipios y sus entornos de 5×5 píxeles fueron opacos. Revisión de visualización y muestreo a unos 350 m por píxel de salida; no auditoría exhaustiva de los píxeles nativos de 30 m ni validación de línea de costa.",
+      "overview_sha256": "84b6e783f03f3c668c6825df6b8efb9ca74275196142e015642b1209dae129d7",
+      "decoded_rgba_sha256": "a5b57e0020cfaa5cb263070b08e9ac6a7e012ecd2003567d5a218f32da55653e",
+      "locality_count": 18,
+      "municipality_count": 13,
+      "native_pixels_exhaustively_reviewed": false
+    },
+    {
+      "source": "geomedian",
+      "epoch_id": "2005-inegi-geomedian",
+      "year": 2005,
+      "status": "complete",
+      "reviewed_bounds": [
+        -90.55,
+        20.65,
+        -87.15,
+        22
+      ],
+      "reviewed_on": "2026-10-28",
+      "receipt": "work/2026-10-28-historico-integrado/review/inegi-annual-independent.json",
+      "method": "Disponibilidad y continuidad panorámica revisadas en 33 respuestas WMS anuales distintas de 1000×430 píxeles; año de capa exacto, sin sustitución por otro año. En este año, los 18 centros testigo de 13 municipios y sus entornos de 5×5 píxeles fueron opacos. Revisión de visualización y muestreo a unos 350 m por píxel de salida; no auditoría exhaustiva de los píxeles nativos de 30 m ni validación de línea de costa.",
+      "overview_sha256": "2ca444546613352bd76a42ab920e179c9e2013320abdc8bd8cded423db56b77e",
+      "decoded_rgba_sha256": "7fc1f4730067d233519226e73cca37f132a85d3d653922189ad0e7b676658242",
+      "locality_count": 18,
+      "municipality_count": 13,
+      "native_pixels_exhaustively_reviewed": false
+    },
+    {
+      "source": "geomedian",
+      "epoch_id": "2006-inegi-geomedian",
+      "year": 2006,
+      "status": "complete",
+      "reviewed_bounds": [
+        -90.55,
+        20.65,
+        -87.15,
+        22
+      ],
+      "reviewed_on": "2026-10-28",
+      "receipt": "work/2026-10-28-historico-integrado/review/inegi-annual-independent.json",
+      "method": "Disponibilidad y continuidad panorámica revisadas en 33 respuestas WMS anuales distintas de 1000×430 píxeles; año de capa exacto, sin sustitución por otro año. En este año, los 18 centros testigo de 13 municipios y sus entornos de 5×5 píxeles fueron opacos. Revisión de visualización y muestreo a unos 350 m por píxel de salida; no auditoría exhaustiva de los píxeles nativos de 30 m ni validación de línea de costa.",
+      "overview_sha256": "d63d74f436abe76634052db108544a9e2a44f2bd9f3dd0dfff2ae05fcbd19f14",
+      "decoded_rgba_sha256": "91160865577fb0409cf50925d47c4110dc24d388653a327ae1ae62f363213922",
+      "locality_count": 18,
+      "municipality_count": 13,
+      "native_pixels_exhaustively_reviewed": false
+    },
+    {
+      "source": "geomedian",
+      "epoch_id": "2007-inegi-geomedian",
+      "year": 2007,
+      "status": "complete",
+      "reviewed_bounds": [
+        -90.55,
+        20.65,
+        -87.15,
+        22
+      ],
+      "reviewed_on": "2026-10-28",
+      "receipt": "work/2026-10-28-historico-integrado/review/inegi-annual-independent.json",
+      "method": "Disponibilidad y continuidad panorámica revisadas en 33 respuestas WMS anuales distintas de 1000×430 píxeles; año de capa exacto, sin sustitución por otro año. En este año, los 18 centros testigo de 13 municipios y sus entornos de 5×5 píxeles fueron opacos. Revisión de visualización y muestreo a unos 350 m por píxel de salida; no auditoría exhaustiva de los píxeles nativos de 30 m ni validación de línea de costa.",
+      "overview_sha256": "ebcad4ad703a6f6956543c7bbe1dda321277fb7d4fc7b62d44daadfc4e5de47b",
+      "decoded_rgba_sha256": "2c90594fe5c680a335a2411f8f8e43b83c3bc6c97498f48f766fe66bdf0afb3d",
+      "locality_count": 18,
+      "municipality_count": 13,
+      "native_pixels_exhaustively_reviewed": false
+    },
+    {
+      "source": "geomedian",
+      "epoch_id": "2008-inegi-geomedian",
+      "year": 2008,
+      "status": "complete",
+      "reviewed_bounds": [
+        -90.55,
+        20.65,
+        -87.15,
+        22
+      ],
+      "reviewed_on": "2026-10-28",
+      "receipt": "work/2026-10-28-historico-integrado/review/inegi-annual-independent.json",
+      "method": "Disponibilidad y continuidad panorámica revisadas en 33 respuestas WMS anuales distintas de 1000×430 píxeles; año de capa exacto, sin sustitución por otro año. En este año, los 18 centros testigo de 13 municipios y sus entornos de 5×5 píxeles fueron opacos. Revisión de visualización y muestreo a unos 350 m por píxel de salida; no auditoría exhaustiva de los píxeles nativos de 30 m ni validación de línea de costa.",
+      "overview_sha256": "f21a9bfe74966331358d77c347d6f35955d8c51edec8e7166c7a460904543aec",
+      "decoded_rgba_sha256": "1da6a5190e35ebec233237a5c1324570b40b364a0ea18c87a830035b7a20bca3",
+      "locality_count": 18,
+      "municipality_count": 13,
+      "native_pixels_exhaustively_reviewed": false
+    },
+    {
+      "source": "geomedian",
+      "epoch_id": "2009-inegi-geomedian",
+      "year": 2009,
+      "status": "complete",
+      "reviewed_bounds": [
+        -90.55,
+        20.65,
+        -87.15,
+        22
+      ],
+      "reviewed_on": "2026-10-28",
+      "receipt": "work/2026-10-28-historico-integrado/review/inegi-annual-independent.json",
+      "method": "Disponibilidad y continuidad panorámica revisadas en 33 respuestas WMS anuales distintas de 1000×430 píxeles; año de capa exacto, sin sustitución por otro año. En este año, los 18 centros testigo de 13 municipios y sus entornos de 5×5 píxeles fueron opacos. Revisión de visualización y muestreo a unos 350 m por píxel de salida; no auditoría exhaustiva de los píxeles nativos de 30 m ni validación de línea de costa.",
+      "overview_sha256": "a865f59ac32acf6e428c865bd678506add467027fcb66184bf1ed1ab196a0487",
+      "decoded_rgba_sha256": "47c9209faadeb669e9ddbf278d8ee1e5f9b94bc94faddd7e1a83f6c41eb6c48f",
+      "locality_count": 18,
+      "municipality_count": 13,
+      "native_pixels_exhaustively_reviewed": false
+    },
+    {
+      "source": "geomedian",
+      "epoch_id": "2010-inegi-geomedian",
+      "year": 2010,
+      "status": "complete",
+      "reviewed_bounds": [
+        -90.55,
+        20.65,
+        -87.15,
+        22
+      ],
+      "reviewed_on": "2026-10-28",
+      "receipt": "work/2026-10-28-historico-integrado/review/inegi-annual-independent.json",
+      "method": "Disponibilidad y continuidad panorámica revisadas en 33 respuestas WMS anuales distintas de 1000×430 píxeles; año de capa exacto, sin sustitución por otro año. En este año, los 18 centros testigo de 13 municipios y sus entornos de 5×5 píxeles fueron opacos. Revisión de visualización y muestreo a unos 350 m por píxel de salida; no auditoría exhaustiva de los píxeles nativos de 30 m ni validación de línea de costa.",
+      "overview_sha256": "c0b34b6c44efb4d041932bf5fad3a47a8ba59eed260ffd90482134862abde1d5",
+      "decoded_rgba_sha256": "5ab422805757afcaa3721659fbe1935f3633411159023510e7fea50a02021b17",
+      "locality_count": 18,
+      "municipality_count": 13,
+      "native_pixels_exhaustively_reviewed": false
+    },
+    {
+      "source": "geomedian",
+      "epoch_id": "2011-inegi-geomedian",
+      "year": 2011,
+      "status": "complete",
+      "reviewed_bounds": [
+        -90.55,
+        20.65,
+        -87.15,
+        22
+      ],
+      "reviewed_on": "2026-10-28",
+      "receipt": "work/2026-10-28-historico-integrado/review/inegi-annual-independent.json",
+      "method": "Disponibilidad y continuidad panorámica revisadas en 33 respuestas WMS anuales distintas de 1000×430 píxeles; año de capa exacto, sin sustitución por otro año. En este año, los 18 centros testigo de 13 municipios y sus entornos de 5×5 píxeles fueron opacos. Revisión de visualización y muestreo a unos 350 m por píxel de salida; no auditoría exhaustiva de los píxeles nativos de 30 m ni validación de línea de costa.",
+      "overview_sha256": "37d46ed60b6c2f1b3e7e5b6779c6ddb9613a1be72cac675f0bbbbeda5bc2a39e",
+      "decoded_rgba_sha256": "3e390488a28f2d83381acc8abae5c291bda854069b6821c4baf9df1f4bf26a01",
+      "locality_count": 18,
+      "municipality_count": 13,
+      "native_pixels_exhaustively_reviewed": false
+    },
+    {
+      "source": "geomedian",
+      "epoch_id": "2012-inegi-geomedian",
+      "year": 2012,
+      "status": "complete",
+      "reviewed_bounds": [
+        -90.55,
+        20.65,
+        -87.15,
+        22
+      ],
+      "reviewed_on": "2026-10-28",
+      "receipt": "work/2026-10-28-historico-integrado/review/inegi-annual-independent.json",
+      "method": "Disponibilidad y continuidad panorámica revisadas en 33 respuestas WMS anuales distintas de 1000×430 píxeles; año de capa exacto, sin sustitución por otro año. En este año, los 18 centros testigo de 13 municipios y sus entornos de 5×5 píxeles fueron opacos. Revisión de visualización y muestreo a unos 350 m por píxel de salida; no auditoría exhaustiva de los píxeles nativos de 30 m ni validación de línea de costa.",
+      "overview_sha256": "fcc87f927d126e38b009bef17b23b5988242b76d91d8c026f50940d36460a36a",
+      "decoded_rgba_sha256": "aa1ee4d18e0701f726d4a201e0829ada638ab37192a2928ae32598198203a823",
+      "locality_count": 18,
+      "municipality_count": 13,
+      "native_pixels_exhaustively_reviewed": false
+    },
+    {
+      "source": "geomedian",
+      "epoch_id": "2013-inegi-geomedian",
+      "year": 2013,
+      "status": "complete",
+      "reviewed_bounds": [
+        -90.55,
+        20.65,
+        -87.15,
+        22
+      ],
+      "reviewed_on": "2026-10-28",
+      "receipt": "work/2026-10-28-historico-integrado/review/inegi-annual-independent.json",
+      "method": "Disponibilidad y continuidad panorámica revisadas en 33 respuestas WMS anuales distintas de 1000×430 píxeles; año de capa exacto, sin sustitución por otro año. En este año, los 18 centros testigo de 13 municipios y sus entornos de 5×5 píxeles fueron opacos. Revisión de visualización y muestreo a unos 350 m por píxel de salida; no auditoría exhaustiva de los píxeles nativos de 30 m ni validación de línea de costa.",
+      "overview_sha256": "8a97200477406d89bfc481f5a2e14e5e8942129a383b1b2d49bb304e00829cfe",
+      "decoded_rgba_sha256": "9915c52dcb225a8c992287be24c21adad2c86e9c861c4d31a81eace6b86bbab3",
+      "locality_count": 18,
+      "municipality_count": 13,
+      "native_pixels_exhaustively_reviewed": false
+    },
+    {
+      "source": "geomedian",
+      "epoch_id": "2014-inegi-geomedian",
+      "year": 2014,
+      "status": "complete",
+      "reviewed_bounds": [
+        -90.55,
+        20.65,
+        -87.15,
+        22
+      ],
+      "reviewed_on": "2026-10-28",
+      "receipt": "work/2026-10-28-historico-integrado/review/inegi-annual-independent.json",
+      "method": "Disponibilidad y continuidad panorámica revisadas en 33 respuestas WMS anuales distintas de 1000×430 píxeles; año de capa exacto, sin sustitución por otro año. En este año, los 18 centros testigo de 13 municipios y sus entornos de 5×5 píxeles fueron opacos. Revisión de visualización y muestreo a unos 350 m por píxel de salida; no auditoría exhaustiva de los píxeles nativos de 30 m ni validación de línea de costa.",
+      "overview_sha256": "ff28fc516ce47bc192f335f64cb29680715455d887546098ca702a7a1b1f8f8f",
+      "decoded_rgba_sha256": "a6daa35fd5ab91be495dc476701c133c7b3e0b3304efa129387375463d310a4c",
+      "locality_count": 18,
+      "municipality_count": 13,
+      "native_pixels_exhaustively_reviewed": false
+    },
+    {
+      "source": "geomedian",
+      "epoch_id": "2015-inegi-geomedian",
+      "year": 2015,
+      "status": "complete",
+      "reviewed_bounds": [
+        -90.55,
+        20.65,
+        -87.15,
+        22
+      ],
+      "reviewed_on": "2026-10-28",
+      "receipt": "work/2026-10-28-historico-integrado/review/inegi-annual-independent.json",
+      "method": "Disponibilidad y continuidad panorámica revisadas en 33 respuestas WMS anuales distintas de 1000×430 píxeles; año de capa exacto, sin sustitución por otro año. En este año, los 18 centros testigo de 13 municipios y sus entornos de 5×5 píxeles fueron opacos. Revisión de visualización y muestreo a unos 350 m por píxel de salida; no auditoría exhaustiva de los píxeles nativos de 30 m ni validación de línea de costa.",
+      "overview_sha256": "1e3bb053dd1367328897302f5b5671857d184755e79dfa814d4ecccbca437e54",
+      "decoded_rgba_sha256": "ccb070689e9a2d9e98106cc4a86678fdca099e6f0e7af55ab8d9fcdb7538028b",
+      "locality_count": 18,
+      "municipality_count": 13,
+      "native_pixels_exhaustively_reviewed": false
+    },
+    {
+      "source": "geomedian",
+      "epoch_id": "2016-inegi-geomedian",
+      "year": 2016,
+      "status": "complete",
+      "reviewed_bounds": [
+        -90.55,
+        20.65,
+        -87.15,
+        22
+      ],
+      "reviewed_on": "2026-10-28",
+      "receipt": "work/2026-10-28-historico-integrado/review/inegi-annual-independent.json",
+      "method": "Disponibilidad y continuidad panorámica revisadas en 33 respuestas WMS anuales distintas de 1000×430 píxeles; año de capa exacto, sin sustitución por otro año. En este año, los 18 centros testigo de 13 municipios y sus entornos de 5×5 píxeles fueron opacos. Revisión de visualización y muestreo a unos 350 m por píxel de salida; no auditoría exhaustiva de los píxeles nativos de 30 m ni validación de línea de costa.",
+      "overview_sha256": "f6600316702c56f49e3d8d14faeae26776f162cb90f6c3289da5670bdcf480f1",
+      "decoded_rgba_sha256": "66b44b1bc756aaf2ba9791816873234a3f4f9a9b8537a4860b45f222ca3fe676",
+      "locality_count": 18,
+      "municipality_count": 13,
+      "native_pixels_exhaustively_reviewed": false
+    },
+    {
+      "source": "geomedian",
+      "epoch_id": "2017-inegi-geomedian",
+      "year": 2017,
+      "status": "complete",
+      "reviewed_bounds": [
+        -90.55,
+        20.65,
+        -87.15,
+        22
+      ],
+      "reviewed_on": "2026-10-28",
+      "receipt": "work/2026-10-28-historico-integrado/review/inegi-annual-independent.json",
+      "method": "Disponibilidad y continuidad panorámica revisadas en 33 respuestas WMS anuales distintas de 1000×430 píxeles; año de capa exacto, sin sustitución por otro año. En este año, los 18 centros testigo de 13 municipios y sus entornos de 5×5 píxeles fueron opacos. Revisión de visualización y muestreo a unos 350 m por píxel de salida; no auditoría exhaustiva de los píxeles nativos de 30 m ni validación de línea de costa.",
+      "overview_sha256": "e95365d2a94c4617f3d71ac6f93598d0e3931272efe4f736a8a6eb7875ec6a7a",
+      "decoded_rgba_sha256": "eb535fbe25cd3a7db0a68fb369af52b52cac4afefa6b15d831d7b67593c31bcc",
+      "locality_count": 18,
+      "municipality_count": 13,
+      "native_pixels_exhaustively_reviewed": false
+    },
+    {
+      "source": "geomedian",
+      "epoch_id": "2018-inegi-geomedian",
+      "year": 2018,
+      "status": "complete",
+      "reviewed_bounds": [
+        -90.55,
+        20.65,
+        -87.15,
+        22
+      ],
+      "reviewed_on": "2026-10-28",
+      "receipt": "work/2026-10-28-historico-integrado/review/inegi-annual-independent.json",
+      "method": "Disponibilidad y continuidad panorámica revisadas en 33 respuestas WMS anuales distintas de 1000×430 píxeles; año de capa exacto, sin sustitución por otro año. En este año, los 18 centros testigo de 13 municipios y sus entornos de 5×5 píxeles fueron opacos. Revisión de visualización y muestreo a unos 350 m por píxel de salida; no auditoría exhaustiva de los píxeles nativos de 30 m ni validación de línea de costa.",
+      "overview_sha256": "0f07af78024156f57ce5512dd00c7e672875fe5be21ccee3c0ae4ecabd07a7c3",
+      "decoded_rgba_sha256": "a181d340b2ad61b43d6660ae4545f543d1de26e657f246923aff881085fbbc86",
+      "locality_count": 18,
+      "municipality_count": 13,
+      "native_pixels_exhaustively_reviewed": false
+    },
+    {
+      "source": "geomedian",
+      "epoch_id": "2019-inegi-geomedian",
+      "year": 2019,
+      "status": "complete",
+      "reviewed_bounds": [
+        -90.55,
+        20.65,
+        -87.15,
+        22
+      ],
+      "reviewed_on": "2026-10-28",
+      "receipt": "work/2026-10-28-historico-integrado/review/inegi-annual-independent.json",
+      "method": "Disponibilidad y continuidad panorámica revisadas en 33 respuestas WMS anuales distintas de 1000×430 píxeles; año de capa exacto, sin sustitución por otro año. En este año, los 18 centros testigo de 13 municipios y sus entornos de 5×5 píxeles fueron opacos. Revisión de visualización y muestreo a unos 350 m por píxel de salida; no auditoría exhaustiva de los píxeles nativos de 30 m ni validación de línea de costa.",
+      "overview_sha256": "c24537753d2a6057cd62a8ffc600d41963db6a8514bd63e86918b703b01ca02f",
+      "decoded_rgba_sha256": "e797d868ed9b44afce9f91e9c69e7967095a656cda8e05b83062adbf2e14acad",
+      "locality_count": 18,
+      "municipality_count": 13,
+      "native_pixels_exhaustively_reviewed": false
+    },
+    {
+      "source": "geomedian",
+      "epoch_id": "2020-inegi-geomedian",
+      "year": 2020,
+      "status": "complete",
+      "reviewed_bounds": [
+        -90.55,
+        20.65,
+        -87.15,
+        22
+      ],
+      "reviewed_on": "2026-10-28",
+      "receipt": "work/2026-10-28-historico-integrado/review/inegi-annual-independent.json",
+      "method": "Disponibilidad y continuidad panorámica revisadas en 33 respuestas WMS anuales distintas de 1000×430 píxeles; año de capa exacto, sin sustitución por otro año. En este año, los 18 centros testigo de 13 municipios y sus entornos de 5×5 píxeles fueron opacos. Revisión de visualización y muestreo a unos 350 m por píxel de salida; no auditoría exhaustiva de los píxeles nativos de 30 m ni validación de línea de costa.",
+      "overview_sha256": "bbe574e54275b93134c0aa2fa5cf740b50379d69d647d29f519fb1e53f4ba54c",
+      "decoded_rgba_sha256": "2558ad7e54423b12aab3b6a53ce975a5ae65f4e1a22fac57ccc213b5e67d8568",
+      "locality_count": 18,
+      "municipality_count": 13,
+      "native_pixels_exhaustively_reviewed": false
+    },
+    {
+      "source": "geomedian",
+      "epoch_id": "2021-inegi-geomedian",
+      "year": 2021,
+      "status": "complete",
+      "reviewed_bounds": [
+        -90.55,
+        20.65,
+        -87.15,
+        22
+      ],
+      "reviewed_on": "2026-10-28",
+      "receipt": "work/2026-10-28-historico-integrado/review/inegi-annual-independent.json",
+      "method": "Disponibilidad y continuidad panorámica revisadas en 33 respuestas WMS anuales distintas de 1000×430 píxeles; año de capa exacto, sin sustitución por otro año. En este año, los 18 centros testigo de 13 municipios y sus entornos de 5×5 píxeles fueron opacos. Revisión de visualización y muestreo a unos 350 m por píxel de salida; no auditoría exhaustiva de los píxeles nativos de 30 m ni validación de línea de costa.",
+      "overview_sha256": "acb97735f706c3826cb8d2fa889e1352404ea29a93a5e0de5587159c9c80adcc",
+      "decoded_rgba_sha256": "fef4f382ff80203cde2f901a237b72bb3841ea37e08aa5cdb19d1528beed6178",
+      "locality_count": 18,
+      "municipality_count": 13,
+      "native_pixels_exhaustively_reviewed": false
+    },
+    {
+      "source": "geomedian",
+      "epoch_id": "2022-inegi-geomedian",
+      "year": 2022,
+      "status": "complete",
+      "reviewed_bounds": [
+        -90.55,
+        20.65,
+        -87.15,
+        22
+      ],
+      "reviewed_on": "2026-10-28",
+      "receipt": "work/2026-10-28-historico-integrado/review/inegi-annual-independent.json",
+      "method": "Disponibilidad y continuidad panorámica revisadas en 33 respuestas WMS anuales distintas de 1000×430 píxeles; año de capa exacto, sin sustitución por otro año. En este año, los 18 centros testigo de 13 municipios y sus entornos de 5×5 píxeles fueron opacos. Revisión de visualización y muestreo a unos 350 m por píxel de salida; no auditoría exhaustiva de los píxeles nativos de 30 m ni validación de línea de costa.",
+      "overview_sha256": "88174879a2ede3c4d1f45d4ee27f7352418d274e537d48537d4ae0c83188100a",
+      "decoded_rgba_sha256": "a458a549390e1551a79df754af898545c39cea5e47ea9240ffa46c6243d8946f",
+      "locality_count": 18,
+      "municipality_count": 13,
+      "native_pixels_exhaustively_reviewed": false
+    },
+    {
+      "source": "geomedian",
+      "epoch_id": "2023-inegi-geomedian",
+      "year": 2023,
+      "status": "complete",
+      "reviewed_bounds": [
+        -90.55,
+        20.65,
+        -87.15,
+        22
+      ],
+      "reviewed_on": "2026-10-28",
+      "receipt": "work/2026-10-28-historico-integrado/review/inegi-annual-independent.json",
+      "method": "Disponibilidad y continuidad panorámica revisadas en 33 respuestas WMS anuales distintas de 1000×430 píxeles; año de capa exacto, sin sustitución por otro año. En este año, los 18 centros testigo de 13 municipios y sus entornos de 5×5 píxeles fueron opacos. Revisión de visualización y muestreo a unos 350 m por píxel de salida; no auditoría exhaustiva de los píxeles nativos de 30 m ni validación de línea de costa.",
+      "overview_sha256": "d02e473996f10c3ec4b280e88cd7ba56b3ee37ba091a793a76a1dc33310c2a24",
+      "decoded_rgba_sha256": "b107622f5fd3c57e87c19f334299b4db8b4099055d993b7dcb77d9dd4ec42bbc",
+      "locality_count": 18,
+      "municipality_count": 13,
+      "native_pixels_exhaustively_reviewed": false
+    },
+    {
+      "source": "geomedian",
+      "epoch_id": "2024-inegi-geomedian",
+      "year": 2024,
+      "status": "complete",
+      "reviewed_bounds": [
+        -90.55,
+        20.65,
+        -87.15,
+        22
+      ],
+      "reviewed_on": "2026-10-28",
+      "receipt": "work/2026-10-28-historico-integrado/review/inegi-annual-independent.json",
+      "method": "Disponibilidad y continuidad panorámica revisadas en 33 respuestas WMS anuales distintas de 1000×430 píxeles; año de capa exacto, sin sustitución por otro año. En este año, los 18 centros testigo de 13 municipios y sus entornos de 5×5 píxeles fueron opacos. Revisión de visualización y muestreo a unos 350 m por píxel de salida; no auditoría exhaustiva de los píxeles nativos de 30 m ni validación de línea de costa.",
+      "overview_sha256": "b77f8e517769c0b61b7cc0d48a75c9aa199ae51752dca8866551be2fea5784c1",
+      "decoded_rgba_sha256": "82832ba4d0afc9252a7734824dbcb1d4b604300e3788fb3b60714d532bc73963",
+      "locality_count": 18,
+      "municipality_count": 13,
+      "native_pixels_exhaustively_reviewed": false
+    },
+    {
+      "source": "geomedian",
+      "epoch_id": "2025-inegi-geomedian",
+      "year": 2025,
+      "status": "complete",
+      "reviewed_bounds": [
+        -90.55,
+        20.65,
+        -87.15,
+        22
+      ],
+      "reviewed_on": "2026-10-28",
+      "receipt": "work/2026-10-28-historico-integrado/review/inegi-annual-independent.json",
+      "method": "Disponibilidad y continuidad panorámica revisadas en 33 respuestas WMS anuales distintas de 1000×430 píxeles; año de capa exacto, sin sustitución por otro año. En este año, los 18 centros testigo de 13 municipios y sus entornos de 5×5 píxeles fueron opacos. Revisión de visualización y muestreo a unos 350 m por píxel de salida; no auditoría exhaustiva de los píxeles nativos de 30 m ni validación de línea de costa.",
+      "overview_sha256": "e3f3df0424e08cd49935c2db7eb2685ac34c8b689346402b509ce75c71a12fec",
+      "decoded_rgba_sha256": "cd77c4c25fa18255dce1012ffc0b71a13f0aaa325f4a1e5c279677e6d67eda5a",
+      "locality_count": 18,
+      "municipality_count": 13,
+      "native_pixels_exhaustively_reviewed": false
+    }
+  ],
+  "selection_policy": "Only exact calendar year and explicitly reviewed complete required-scope coverage. No prior, later or nearest-year replacement. Partial originals preserved outside the selectable annual catalogue."
+}

@@ -1,0 +1,13 @@
+{
+  "capture_date": "1996-05-11",
+  "date_precision": "day",
+  "product_id": "LT05_L2SP_020045_19960511_02_T1",
+  "source_png": "/data/historical-background/frames/1996-f27d06f4dec39759.png",
+  "source_png_sha256": "f27d06f4dec397593fc6b660367cf5ba4f3666e6d2f89f036e42476d8fea1d3f",
+  "source_metadata_url": "https://planetarycomputer.microsoft.com/api/stac/v1/collections/landsat-c2-l2/items/LT05_L2SP_020045_19960511_02_T1",
+  "native_resolution_m": 30,
+  "tile_preparation": "Received EPSG:3857 visual raster to lossless XYZ; nearest neighbour; no new measurement",
+  "original_preparation_receipt": "scientific/coverage-extension/historical-background-proof.json",
+  "has_accepted_annual_measurements": false,
+  "note": "Color natural. Resolución original 30 m; ampliar no añade detalle. Nubes y huecos permanecen visibles. La fotografía no implica una medición de costa aceptada."
+}

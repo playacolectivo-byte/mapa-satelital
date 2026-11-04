@@ -1,0 +1,191 @@
+{
+  "status": "exploratory_hand_interpreted_seeds_not_field_ground_truth",
+  "annotations": [
+    {
+      "profile": "SC-4-0-524",
+      "municipality": "Celestún",
+      "release": 27946,
+      "date_ms": 1322006400000,
+      "land_interval_m": [
+        -100,
+        -35
+      ],
+      "water_interval_m": [
+        25,
+        140
+      ]
+    },
+    {
+      "profile": "SC-4-0-524",
+      "municipality": "Celestún",
+      "release": 26334,
+      "date_ms": 1768694400000,
+      "land_interval_m": [
+        -100,
+        -35
+      ],
+      "water_interval_m": [
+        25,
+        140
+      ]
+    },
+    {
+      "profile": "SC-31-0-1",
+      "municipality": "Hunucmá",
+      "release": 26334,
+      "date_ms": 1739404800000,
+      "land_interval_m": [
+        -100,
+        -40
+      ],
+      "water_interval_m": [
+        30,
+        120
+      ]
+    },
+    {
+      "profile": "SC-90-0-36",
+      "municipality": "Progreso",
+      "release": 11019,
+      "date_ms": 1312156800000,
+      "land_interval_m": [
+        -100,
+        -60
+      ],
+      "water_interval_m": [
+        15,
+        130
+      ]
+    },
+    {
+      "profile": "SC-90-0-36",
+      "municipality": "Progreso",
+      "release": 26334,
+      "date_ms": 1744588800000,
+      "land_interval_m": [
+        -100,
+        -60
+      ],
+      "water_interval_m": [
+        15,
+        130
+      ]
+    },
+    {
+      "profile": "SC-88-0-128",
+      "municipality": "Ixil",
+      "release": 11019,
+      "date_ms": 1312156800000,
+      "land_interval_m": [
+        -100,
+        -40
+      ],
+      "water_interval_m": [
+        25,
+        140
+      ]
+    },
+    {
+      "profile": "SC-88-0-128",
+      "municipality": "Ixil",
+      "release": 26334,
+      "date_ms": 1764028800000,
+      "land_interval_m": [
+        -100,
+        -40
+      ],
+      "water_interval_m": [
+        25,
+        140
+      ]
+    },
+    {
+      "profile": "SC-88-0-178",
+      "municipality": "Dzemul",
+      "release": 11019,
+      "date_ms": 1312156800000,
+      "land_interval_m": [
+        -100,
+        -35
+      ],
+      "water_interval_m": [
+        25,
+        140
+      ]
+    },
+    {
+      "profile": "SC-88-0-178",
+      "municipality": "Dzemul",
+      "release": 26334,
+      "date_ms": 1760140800000,
+      "land_interval_m": [
+        -100,
+        -35
+      ],
+      "water_interval_m": [
+        25,
+        140
+      ]
+    },
+    {
+      "profile": "SC-28-0-96",
+      "municipality": "Sinanché",
+      "release": 11019,
+      "date_ms": 1312156800000,
+      "land_interval_m": [
+        -90,
+        -35
+      ],
+      "water_interval_m": [
+        25,
+        140
+      ]
+    },
+    {
+      "profile": "SC-28-0-96",
+      "municipality": "Sinanché",
+      "release": 26334,
+      "date_ms": 1695772800000,
+      "land_interval_m": [
+        -90,
+        -35
+      ],
+      "water_interval_m": [
+        25,
+        140
+      ]
+    },
+    {
+      "profile": "SC-269-0-0",
+      "municipality": "Yobaín",
+      "release": 11019,
+      "date_ms": 1312156800000,
+      "land_interval_m": [
+        -50,
+        -20
+      ],
+      "water_interval_m": [
+        45,
+        130
+      ]
+    },
+    {
+      "profile": "SC-269-0-0",
+      "municipality": "Yobaín",
+      "release": 26334,
+      "date_ms": 1757808000000,
+      "land_interval_m": [
+        -50,
+        -20
+      ],
+      "water_interval_m": [
+        45,
+        130
+      ]
+    }
+  ],
+  "samples": 10630,
+  "trees": 32,
+  "max_depth": 10,
+  "seed": 20261030
+}

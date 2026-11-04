@@ -1,0 +1,759 @@
+{
+  "generated_at": "2026-10-29T01:46:47.466212+00:00",
+  "status": "METADATA_PATCH_FOR_ROOT_DERIVED_APP_COPY_ONLY;preserveFrozenSources",
+  "frozen_cut_counts": {
+    "observations": 10441,
+    "bars": 2105,
+    "seasonal_positions": 4613,
+    "missing_comparison_profiles": 779
+  },
+  "applies_to_sha256": {
+    "posiciones-anuales.geojson": "9f3b8aab9163b20a077b5da9a68f78a4c49a1d819207974b9763f2a45a37cc29",
+    "estado-todos-perfiles.geojson": "cff83320ac4854a38ff02f982c37f572967b0961854ea9ac28d3250142bfbea9",
+    "observaciones-individuales.json": "e370e77071afe5af67145a514583999cae4542416cfd3a7d090dc7a6d859a2ab",
+    "resumen.json": "19aa267eef00e5714cf33c35cb340b5310f4c7f4422d63d76300b36301694b96",
+    "cambios-2025-2026.geojson": "95e8dc8fdeaec1d21fa4eb3c1877fb0949331f72ea24dd308876552fb74ffafb",
+    "resultados-por-perfil.csv": "477e5d4f33393fbf7a9d29d27d906e6091eb737623c6e257bc8b8a635fe91e55"
+  },
+  "independent_QA_reports": [
+    "work/qa_buffer60/native-mask-independent.json",
+    "work/qa_buffer60/new-observations-independent.json",
+    "work/qa_buffer60/visual-review.json",
+    "work/qa_buffer60/lote2-new-observations-independent.json"
+  ],
+  "observation_metadata_rules": [
+    {
+      "where": "source_cut in supplemental100_18scenes,rescue60_original60scenes,supplemental100_lote2_18scenes",
+      "qc_status": "independent_numerical_native_SCL_reproduction_PASS;stratified_RGB_review_only;PRELIMINARY_waterline_proxy_NOTfieldaccuracy",
+      "note": "1634firstexpansion+97lote2numericallychecked;only36exactprofile/captureRGBcasesreviewed,onehazecontextalert. No universal per-image visual certification."
+    }
+  ],
+  "bar_and_annual_metadata_rule": {
+    "qc_status": "PRELIMINARY_processed_waterline;independent_algorithm_QA_and_stratified_RGB_review;NOTconfirmed_erosion",
+    "observations_pending_QA": 0,
+    "erosion_confirmed": false,
+    "total_uncertainty_m": null
+  },
+  "context_flags_by_profile": {
+    "4-0-0": {
+      "context_review": true,
+      "add_flags": [
+        "canales_o_estructuras_cercanas;revision_contextual_RGB_v2"
+      ],
+      "persistence_screen": "revision_contextual_pendiente;no_conclusion_de_persistencia",
+      "model_anchor_excluded": true
+    },
+    "4-0-262": {
+      "context_review": true,
+      "add_flags": [
+        "desplazamiento_aparente_mayor_30m;requiere_revision_individual",
+        "desplazamiento_aparente_mayor_30m;requiere_revision_individual"
+      ],
+      "persistence_screen": "revision_contextual_pendiente;no_conclusion_de_persistencia",
+      "model_anchor_excluded": true
+    },
+    "4-0-412": {
+      "context_review": true,
+      "add_flags": [
+        "posible_borde_interior_arena_2025_frente_borde_agua_2026;revisar_indicador_en_RGB",
+        "desplazamiento_aparente_mayor_30m;requiere_revision_individual",
+        "desplazamiento_aparente_mayor_30m;requiere_revision_individual"
+      ],
+      "persistence_screen": "revision_contextual_pendiente;no_conclusion_de_persistencia",
+      "model_anchor_excluded": true
+    },
+    "5-0-93": {
+      "context_review": true,
+      "add_flags": [
+        "conflicto_de_orientacion_detectado_al_ampliar_mascara60;se_conserva_corte100_sin_conclusion_de_persistencia"
+      ],
+      "persistence_screen": "revision_contextual_pendiente;no_conclusion_de_persistencia",
+      "model_anchor_excluded": true
+    },
+    "5-0-110": {
+      "context_review": true,
+      "add_flags": [
+        "desplazamiento_aparente_mayor_30m;requiere_revision_individual",
+        "desplazamiento_aparente_mayor_30m;requiere_revision_individual"
+      ],
+      "persistence_screen": "revision_contextual_pendiente;no_conclusion_de_persistencia",
+      "model_anchor_excluded": true
+    },
+    "5-0-146": {
+      "context_review": true,
+      "add_flags": [
+        "desplazamiento_aparente_mayor_30m;requiere_revision_individual",
+        "desplazamiento_aparente_mayor_30m;requiere_revision_individual"
+      ],
+      "persistence_screen": "revision_contextual_pendiente;no_conclusion_de_persistencia",
+      "model_anchor_excluded": true
+    },
+    "6-0-2": {
+      "context_review": true,
+      "add_flags": [
+        "conflicto_de_orientacion_detectado_al_ampliar_mascara60;se_conserva_corte100_sin_conclusion_de_persistencia"
+      ],
+      "persistence_screen": "revision_contextual_pendiente;no_conclusion_de_persistencia",
+      "model_anchor_excluded": true
+    },
+    "7-0-180": {
+      "context_review": true,
+      "add_flags": [
+        "canales_o_estructuras_cercanas;revision_contextual_RGB_v2"
+      ],
+      "persistence_screen": "revision_contextual_pendiente;no_conclusion_de_persistencia",
+      "model_anchor_excluded": true
+    },
+    "9-0-82": {
+      "context_review": true,
+      "add_flags": [
+        "conflicto_de_orientacion_detectado_al_ampliar_mascara60;se_conserva_corte100_sin_conclusion_de_persistencia"
+      ],
+      "persistence_screen": "revision_contextual_pendiente;no_conclusion_de_persistencia",
+      "model_anchor_excluded": true
+    },
+    "14-0-2": {
+      "context_review": true,
+      "add_flags": [
+        "conflicto_de_orientacion_detectado_al_ampliar_mascara60;se_conserva_corte100_sin_conclusion_de_persistencia"
+      ],
+      "persistence_screen": "revision_contextual_pendiente;no_conclusion_de_persistencia",
+      "model_anchor_excluded": true
+    },
+    "18-0-19": {
+      "context_review": true,
+      "add_flags": [
+        "conflicto_de_orientacion_detectado_al_ampliar_mascara60;se_conserva_corte100_sin_conclusion_de_persistencia"
+      ],
+      "persistence_screen": "revision_contextual_pendiente;no_conclusion_de_persistencia",
+      "model_anchor_excluded": true
+    },
+    "19-0-46": {
+      "context_review": true,
+      "add_flags": [
+        "conflicto_de_orientacion_detectado_al_ampliar_mascara60;se_conserva_corte100_sin_conclusion_de_persistencia"
+      ],
+      "persistence_screen": "revision_contextual_pendiente;no_conclusion_de_persistencia",
+      "model_anchor_excluded": true
+    },
+    "20-0-4": {
+      "context_review": true,
+      "add_flags": [
+        "conflicto_de_orientacion_detectado_al_ampliar_mascara60;se_conserva_corte100_sin_conclusion_de_persistencia"
+      ],
+      "persistence_screen": "revision_contextual_pendiente;no_conclusion_de_persistencia",
+      "model_anchor_excluded": true
+    },
+    "20-0-99": {
+      "context_review": true,
+      "add_flags": [
+        "conflicto_de_orientacion_detectado_al_ampliar_mascara60;se_conserva_corte100_sin_conclusion_de_persistencia"
+      ],
+      "persistence_screen": "revision_contextual_pendiente;no_conclusion_de_persistencia",
+      "model_anchor_excluded": true
+    },
+    "23-0-1": {
+      "context_review": true,
+      "add_flags": [
+        "conflicto_de_orientacion_detectado_al_ampliar_mascara60;se_conserva_corte100_sin_conclusion_de_persistencia"
+      ],
+      "persistence_screen": "revision_contextual_pendiente;no_conclusion_de_persistencia",
+      "model_anchor_excluded": true
+    },
+    "26-0-3": {
+      "context_review": true,
+      "add_flags": [
+        "conflicto_de_orientacion_detectado_al_ampliar_mascara60;se_conserva_corte100_sin_conclusion_de_persistencia"
+      ],
+      "persistence_screen": "revision_contextual_pendiente;no_conclusion_de_persistencia",
+      "model_anchor_excluded": true
+    },
+    "26-0-21": {
+      "context_review": true,
+      "add_flags": [
+        "conflicto_de_orientacion_detectado_al_ampliar_mascara60;se_conserva_corte100_sin_conclusion_de_persistencia"
+      ],
+      "persistence_screen": "revision_contextual_pendiente;no_conclusion_de_persistencia",
+      "model_anchor_excluded": true
+    },
+    "26-0-22": {
+      "context_review": true,
+      "add_flags": [
+        "conflicto_de_orientacion_detectado_al_ampliar_mascara60;se_conserva_corte100_sin_conclusion_de_persistencia"
+      ],
+      "persistence_screen": "revision_contextual_pendiente;no_conclusion_de_persistencia",
+      "model_anchor_excluded": true
+    },
+    "26-0-23": {
+      "context_review": true,
+      "add_flags": [
+        "conflicto_de_orientacion_detectado_al_ampliar_mascara60;se_conserva_corte100_sin_conclusion_de_persistencia"
+      ],
+      "persistence_screen": "revision_contextual_pendiente;no_conclusion_de_persistencia",
+      "model_anchor_excluded": true
+    },
+    "26-0-24": {
+      "context_review": true,
+      "add_flags": [
+        "conflicto_de_orientacion_detectado_al_ampliar_mascara60;se_conserva_corte100_sin_conclusion_de_persistencia"
+      ],
+      "persistence_screen": "revision_contextual_pendiente;no_conclusion_de_persistencia",
+      "model_anchor_excluded": true
+    },
+    "28-0-121": {
+      "context_review": true,
+      "add_flags": [
+        "conflicto_de_orientacion_detectado_al_ampliar_mascara60;se_conserva_corte100_sin_conclusion_de_persistencia"
+      ],
+      "persistence_screen": "revision_contextual_pendiente;no_conclusion_de_persistencia",
+      "model_anchor_excluded": true
+    },
+    "30-0-0": {
+      "context_review": true,
+      "add_flags": [
+        "posible_borde_interior_arena_2025_frente_borde_agua_2026;revisar_indicador_en_RGB",
+        "desplazamiento_aparente_mayor_30m;requiere_revision_individual",
+        "desplazamiento_aparente_mayor_30m;requiere_revision_individual"
+      ],
+      "persistence_screen": "revision_contextual_pendiente;no_conclusion_de_persistencia",
+      "model_anchor_excluded": true
+    },
+    "30-0-11": {
+      "context_review": true,
+      "add_flags": [
+        "canales_o_estructuras_cercanas;revision_contextual_RGB_v2"
+      ],
+      "persistence_screen": "revision_contextual_pendiente;no_conclusion_de_persistencia",
+      "model_anchor_excluded": true
+    },
+    "84-0-75": {
+      "context_review": true,
+      "add_flags": [
+        "conflicto_de_orientacion_detectado_al_ampliar_mascara60;se_conserva_corte100_sin_conclusion_de_persistencia"
+      ],
+      "persistence_screen": "revision_contextual_pendiente;no_conclusion_de_persistencia",
+      "model_anchor_excluded": true
+    },
+    "84-0-76": {
+      "context_review": true,
+      "add_flags": [
+        "conflicto_de_orientacion_detectado_al_ampliar_mascara60;se_conserva_corte100_sin_conclusion_de_persistencia"
+      ],
+      "persistence_screen": "revision_contextual_pendiente;no_conclusion_de_persistencia",
+      "model_anchor_excluded": true
+    },
+    "84-0-89": {
+      "context_review": true,
+      "add_flags": [
+        "conflicto_de_orientacion_detectado_al_ampliar_mascara60;se_conserva_corte100_sin_conclusion_de_persistencia"
+      ],
+      "persistence_screen": "revision_contextual_pendiente;no_conclusion_de_persistencia",
+      "model_anchor_excluded": true
+    },
+    "84-0-90": {
+      "context_review": true,
+      "add_flags": [
+        "conflicto_de_orientacion_detectado_al_ampliar_mascara60;se_conserva_corte100_sin_conclusion_de_persistencia"
+      ],
+      "persistence_screen": "revision_contextual_pendiente;no_conclusion_de_persistencia",
+      "model_anchor_excluded": true
+    },
+    "84-0-94": {
+      "context_review": true,
+      "add_flags": [
+        "conflicto_de_orientacion_detectado_al_ampliar_mascara60;se_conserva_corte100_sin_conclusion_de_persistencia"
+      ],
+      "persistence_screen": "revision_contextual_pendiente;no_conclusion_de_persistencia",
+      "model_anchor_excluded": true
+    },
+    "89-0-0": {
+      "context_review": true,
+      "add_flags": [
+        "conflicto_de_orientacion_detectado_al_ampliar_mascara60;se_conserva_corte100_sin_conclusion_de_persistencia"
+      ],
+      "persistence_screen": "revision_contextual_pendiente;no_conclusion_de_persistencia",
+      "model_anchor_excluded": true
+    },
+    "94-0-2": {
+      "context_review": true,
+      "add_flags": [
+        "canales_o_estructuras_cercanas;revision_contextual_RGB_v2"
+      ],
+      "persistence_screen": "revision_contextual_pendiente;no_conclusion_de_persistencia",
+      "model_anchor_excluded": true
+    },
+    "112-0-0": {
+      "context_review": true,
+      "add_flags": [
+        "obra_o_cierre_costero_cercano;no_atribuir_cambio_a_erosion_de_playa_sin_revision"
+      ],
+      "persistence_screen": "revision_contextual_pendiente;no_conclusion_de_persistencia",
+      "model_anchor_excluded": true
+    },
+    "243-0-1": {
+      "context_review": true,
+      "add_flags": [
+        "obra_o_cierre_costero_cercano;no_atribuir_cambio_a_erosion_de_playa_sin_revision"
+      ],
+      "persistence_screen": "revision_contextual_pendiente;no_conclusion_de_persistencia",
+      "model_anchor_excluded": true
+    },
+    "258-0-1": {
+      "context_review": true,
+      "add_flags": [
+        "desplazamiento_aparente_mayor_30m;requiere_revision_individual",
+        "desplazamiento_aparente_mayor_30m;requiere_revision_individual"
+      ],
+      "persistence_screen": "revision_contextual_pendiente;no_conclusion_de_persistencia",
+      "model_anchor_excluded": true
+    },
+    "258-0-48": {
+      "context_review": true,
+      "add_flags": [
+        "canal_y_estructuras_costeras_visibles_en_RGB_2025_y_2026;no_atribuir_a_erosion_de_playa_sin_revision"
+      ],
+      "persistence_screen": "revision_contextual_pendiente;no_conclusion_de_persistencia",
+      "model_anchor_excluded": true
+    },
+    "264-0-3": {
+      "context_review": true,
+      "add_flags": [
+        "conflicto_de_orientacion_detectado_al_ampliar_mascara60;se_conserva_corte100_sin_conclusion_de_persistencia"
+      ],
+      "persistence_screen": "revision_contextual_pendiente;no_conclusion_de_persistencia",
+      "model_anchor_excluded": true
+    },
+    "264-0-4": {
+      "context_review": true,
+      "add_flags": [
+        "conflicto_de_orientacion_detectado_al_ampliar_mascara60;se_conserva_corte100_sin_conclusion_de_persistencia"
+      ],
+      "persistence_screen": "revision_contextual_pendiente;no_conclusion_de_persistencia",
+      "model_anchor_excluded": true
+    },
+    "264-0-22": {
+      "context_review": true,
+      "add_flags": [
+        "conflicto_de_orientacion_detectado_al_ampliar_mascara60;se_conserva_corte100_sin_conclusion_de_persistencia"
+      ],
+      "persistence_screen": "revision_contextual_pendiente;no_conclusion_de_persistencia",
+      "model_anchor_excluded": true
+    },
+    "264-0-25": {
+      "context_review": true,
+      "add_flags": [
+        "conflicto_de_orientacion_detectado_al_ampliar_mascara60;se_conserva_corte100_sin_conclusion_de_persistencia"
+      ],
+      "persistence_screen": "revision_contextual_pendiente;no_conclusion_de_persistencia",
+      "model_anchor_excluded": true
+    },
+    "264-0-50": {
+      "context_review": true,
+      "add_flags": [
+        "conflicto_de_orientacion_detectado_al_ampliar_mascara60;se_conserva_corte100_sin_conclusion_de_persistencia"
+      ],
+      "persistence_screen": "revision_contextual_pendiente;no_conclusion_de_persistencia",
+      "model_anchor_excluded": true
+    },
+    "280-0-3": {
+      "context_review": true,
+      "add_flags": [
+        "revision_RGB60_agua_somera_o_vegetacion_posible;indicador_pendiente_revision_contextual"
+      ],
+      "persistence_screen": "revision_contextual_pendiente;no_conclusion_de_persistencia",
+      "model_anchor_excluded": true
+    },
+    "84-0-46": {
+      "context_review": true,
+      "add_flags": [
+        "RGB_2026_04_08_nube_bruma_o_sombra_visible_cerca_de_franja_costera_aunque_SCL100_claro;no_rechazar_DN_sin_prueba;excluir_ancla_modelo_hasta_revision"
+      ],
+      "persistence_screen": "revision_contextual_pendiente;no_conclusion_de_persistencia",
+      "model_anchor_excluded": true
+    }
+  },
+  "specific_observation_alerts": [
+    {
+      "profile_id": "84-0-46",
+      "scene_id": "S2C_T16QBJ_20260408T163427_L2A",
+      "context_review": true,
+      "model_anchor_excluded": true,
+      "DN_rejected": false,
+      "finding": "Visible nearby cloud/haze/shadow inRGB despite clear nativeSCL100m crossing; retain originalDN and metrics, exclude as statisticalanchor pending contextual review."
+    }
+  ],
+  "RGB_cases_reviewed_by_root": [
+    {
+      "profile_id": "4-0-262",
+      "scene_id": "S2A_T15QYD_20260314T164357_L2A",
+      "chip_sha256": "a44a00f640af3042f4a41349d2f54a16e60c1cf042b5657ebed9766a37583a0e",
+      "review_scope": "originalexpansion",
+      "purposes": [
+        "new_scene_representative_Celestún"
+      ],
+      "assessment": "RGB_waterline_plausible_at10m_NOTphysicalaccuracy"
+    },
+    {
+      "profile_id": "84-0-30",
+      "scene_id": "S2A_T16QBJ_20250326T163011_L2A",
+      "chip_sha256": "3e34d5ee7e46925d303a29a68cc348d9721f178af1e573af1ac9ac3cf83ba44c",
+      "review_scope": "originalexpansion",
+      "purposes": [
+        "new_scene_representative_Dzidzantún"
+      ],
+      "assessment": "RGB_waterline_plausible_at10m_NOTphysicalaccuracy"
+    },
+    {
+      "profile_id": "24-0-1",
+      "scene_id": "S2B_T16QCJ_20250309T162600_L2A",
+      "chip_sha256": "1ec0facd3e8caa6c3fd20f20665efec453371d5a1f4db5d90cc5118e52eb2d4b",
+      "review_scope": "originalexpansion",
+      "purposes": [
+        "new_scene_representative_Dzilam de Bravo"
+      ],
+      "assessment": "RGB_waterline_plausible_at10m_NOTphysicalaccuracy"
+    },
+    {
+      "profile_id": "5-0-89",
+      "scene_id": "S2C_T15QZD_20260322T164046_L2A",
+      "chip_sha256": "95e81193398497b8148c02a803638b2518b7f28cab73f25d531dda5ad0614c90",
+      "review_scope": "originalexpansion",
+      "purposes": [
+        "new_scene_representative_Hunucmá"
+      ],
+      "assessment": "RGB_waterline_plausible_at10m_NOTphysicalaccuracy"
+    },
+    {
+      "profile_id": "88-0-75",
+      "scene_id": "S2A_T16QBJ_20250326T163011_L2A",
+      "chip_sha256": "31553d16f7500bc50a20682521c5f601b33e05347dba0c65a64c9f90c36955ed",
+      "review_scope": "originalexpansion",
+      "purposes": [
+        "new_scene_representative_Progreso"
+      ],
+      "assessment": "RGB_waterline_plausible_at10m_NOTphysicalaccuracy"
+    },
+    {
+      "profile_id": "7-0-168",
+      "scene_id": "S2B_T16QCJ_20260304T162939_L2A",
+      "chip_sha256": "6784dd8d255d9a78fce23a51bb728d81521e727dbd320eb7086f7d508a4a9d3f",
+      "review_scope": "originalexpansion",
+      "purposes": [
+        "new_scene_representative_Río Lagartos"
+      ],
+      "assessment": "RGB_waterline_plausible_at10m_NOTphysicalaccuracy"
+    },
+    {
+      "profile_id": "264-0-43",
+      "scene_id": "S2B_T16QCJ_20260304T162939_L2A",
+      "chip_sha256": "d7be2700d76b5d30cda800595bb177863f1df052986a1da6be79e893694c02a7",
+      "review_scope": "originalexpansion",
+      "purposes": [
+        "new_scene_representative_San Felipe"
+      ],
+      "assessment": "RGB_waterline_plausible_at10m_NOTphysicalaccuracy"
+    },
+    {
+      "profile_id": "28-0-99",
+      "scene_id": "S2A_T16QBJ_20250326T163011_L2A",
+      "chip_sha256": "34d0a83f3c593c591f718bd1ed124179d0e51858a6e4d539e7032dcafe358296",
+      "review_scope": "originalexpansion",
+      "purposes": [
+        "new_scene_representative_Sinanché"
+      ],
+      "assessment": "RGB_waterline_plausible_at10m_NOTphysicalaccuracy"
+    },
+    {
+      "profile_id": "611-0-10",
+      "scene_id": "S2C_T16QDJ_20260329T163543_L2A",
+      "chip_sha256": "17ca86833ac363fc458cd1eeb1db3e5c71188a670f82a07e4ce4d8dfa208d83f",
+      "review_scope": "originalexpansion",
+      "purposes": [
+        "new_scene_representative_Tizimín"
+      ],
+      "assessment": "RGB_waterline_plausible_at10m_NOTphysicalaccuracy"
+    },
+    {
+      "profile_id": "280-0-16",
+      "scene_id": "S2A_T16QBJ_20250326T163011_L2A",
+      "chip_sha256": "c498968ca83f7ceda81c08168d86e66af96a737d6ecf658079b9f748d2039e25",
+      "review_scope": "originalexpansion",
+      "purposes": [
+        "new_scene_representative_Yobaín"
+      ],
+      "assessment": "RGB_waterline_plausible_at10m_NOTphysicalaccuracy"
+    },
+    {
+      "profile_id": "22-0-4",
+      "scene_id": "S2B_T16QBJ_20250319T162822_L2A",
+      "chip_sha256": "f2ec0cc66a9dcadd368130da1b813ea5a8a68e1bd68331b1529dee83bff86242",
+      "review_scope": "originalexpansion",
+      "purposes": [
+        "extreme_delta_change_from_canonical100_-14.703m"
+      ],
+      "assessment": "RGB_waterline_plausible_at10m_NOTphysicalaccuracy"
+    },
+    {
+      "profile_id": "22-0-4",
+      "scene_id": "S2C_T16QBJ_20260329T163543_L2A",
+      "chip_sha256": "3ad1f6e0c76adb90c6bbfa215e2036f9e17aab30432bfc52e9e242c26f37d222",
+      "review_scope": "originalexpansion",
+      "purposes": [
+        "extreme_delta_change_from_canonical100_-14.703m"
+      ],
+      "assessment": "RGB_waterline_plausible_at10m_NOTphysicalaccuracy"
+    },
+    {
+      "profile_id": "9-0-320",
+      "scene_id": "S2C_T16QDJ_20250413T163452_L2A",
+      "chip_sha256": "9f2b88cda8d7f927ceb646faa6cd83f10355f36472e9c716fe41ad2804e00887",
+      "review_scope": "originalexpansion",
+      "purposes": [
+        "extreme_delta_change_from_canonical100_-8.400m"
+      ],
+      "assessment": "RGB_waterline_plausible_at10m_NOTphysicalaccuracy"
+    },
+    {
+      "profile_id": "9-0-320",
+      "scene_id": "S2B_T16QDJ_20260324T162938_L2A",
+      "chip_sha256": "90ddac5fc72a7ef81270af7bb7004316d02ee4149b889d3752f7c9cf72c13500",
+      "review_scope": "originalexpansion",
+      "purposes": [
+        "extreme_delta_change_from_canonical100_-8.400m"
+      ],
+      "assessment": "RGB_waterline_plausible_at10m_NOTphysicalaccuracy"
+    },
+    {
+      "profile_id": "84-0-34",
+      "scene_id": "S2B_T16QBJ_20250309T162600_L2A",
+      "chip_sha256": "539518f046610f51938ee90d4678e99c0e97e0b3f5a3671ab508b988b4e96b3f",
+      "review_scope": "originalexpansion",
+      "purposes": [
+        "extreme_delta_change_from_canonical100_8.768m"
+      ],
+      "assessment": "RGB_waterline_plausible_at10m_NOTphysicalaccuracy"
+    },
+    {
+      "profile_id": "84-0-34",
+      "scene_id": "S2B_T16QBJ_20260324T162938_L2A",
+      "chip_sha256": "8da6f0d8df4b39223d127d7c572c73193b3f3ab37a174d303a8cda05a768af97",
+      "review_scope": "originalexpansion",
+      "purposes": [
+        "extreme_delta_change_from_canonical100_8.768m"
+      ],
+      "assessment": "RGB_waterline_plausible_at10m_NOTphysicalaccuracy"
+    },
+    {
+      "profile_id": "25-0-7",
+      "scene_id": "S2B_T16QBJ_20250418T163555_L2A",
+      "chip_sha256": "06462da26ae80c517ceb23dbd3231e9a7ee476f6928e0361a4c7d4b2c2ce3c65",
+      "review_scope": "originalexpansion",
+      "purposes": [
+        "extreme_delta_change_from_canonical100_9.877m"
+      ],
+      "assessment": "RGB_waterline_plausible_at10m_NOTphysicalaccuracy"
+    },
+    {
+      "profile_id": "25-0-7",
+      "scene_id": "S2B_T16QBJ_20260324T162938_L2A",
+      "chip_sha256": "5cbb92eb73767cdfd34d8db28fac6eb3055e0472d3ae80938740792bc2312888",
+      "review_scope": "originalexpansion",
+      "purposes": [
+        "extreme_delta_change_from_canonical100_9.877m"
+      ],
+      "assessment": "RGB_waterline_plausible_at10m_NOTphysicalaccuracy"
+    },
+    {
+      "profile_id": "258-0-48",
+      "scene_id": "S2B_T16QBJ_20250319T162822_L2A",
+      "chip_sha256": "6e95257d997ec2e96f924c90d64389a76a3de48851be6117ea0ad15fa94c1f1e",
+      "review_scope": "originalexpansion",
+      "purposes": [
+        "Progreso_structure_or_barrier_context60"
+      ],
+      "assessment": "RGB_waterline_plausible_at10m_NOTphysicalaccuracy"
+    },
+    {
+      "profile_id": "258-0-48",
+      "scene_id": "S2B_T16QBJ_20260324T162938_L2A",
+      "chip_sha256": "ee6c9dfd3740c31eccabfd146ba0d7052b74e7b423d8ef4a0c3b13f1a1a28adb",
+      "review_scope": "originalexpansion",
+      "purposes": [
+        "Progreso_structure_or_barrier_context60"
+      ],
+      "assessment": "RGB_waterline_plausible_at10m_NOTphysicalaccuracy"
+    },
+    {
+      "profile_id": "4-0-475",
+      "scene_id": "S2B_T15QYD_20250302T164354_L2A",
+      "chip_sha256": "1a199a05be320bd1c7e6b23a726d4d901b352bf753db340c7d5f2556863e31a7",
+      "review_scope": "lote2",
+      "purposes": [
+        "new_lote2_scene_representative_Celestún"
+      ],
+      "assessment": "RGB_waterline_plausible_at10m_NOTphysicalaccuracy"
+    },
+    {
+      "profile_id": "88-0-286",
+      "scene_id": "S2A_T16QBJ_20260420T162815_L2A",
+      "chip_sha256": "94fba15755c2349c871f25980a3743e4423d9dbcbcee7c9c881f7ffe5f22fc61",
+      "review_scope": "lote2",
+      "purposes": [
+        "new_lote2_scene_representative_Dzemul"
+      ],
+      "assessment": "RGB_waterline_plausible_at10m_NOTphysicalaccuracy"
+    },
+    {
+      "profile_id": "84-0-46",
+      "scene_id": "S2C_T16QBJ_20260408T163427_L2A",
+      "chip_sha256": "058011cfbed2312fee7bfc9a6a353302d3c3c0e7997a406d153b57f13a1a9009",
+      "review_scope": "lote2",
+      "purposes": [
+        "new_lote2_scene_representative_Dzidzantún"
+      ],
+      "assessment": "visible_haze_shadow_context_review_not_anchor"
+    },
+    {
+      "profile_id": "25-0-24",
+      "scene_id": "S2B_T16QCJ_20250428T162951_L2A",
+      "chip_sha256": "39ef49a9ef62a8ed9cfe1086c028bf647a646b44b77a4bf9b53bb38af473f2d7",
+      "review_scope": "lote2",
+      "purposes": [
+        "new_lote2_scene_representative_Dzilam de Bravo"
+      ],
+      "assessment": "RGB_waterline_plausible_at10m_NOTphysicalaccuracy"
+    },
+    {
+      "profile_id": "5-0-15",
+      "scene_id": "S2C_T15QZD_20250327T164315_L2A",
+      "chip_sha256": "730b3ad33ec8383bb944a22733b28c3fdd549540d05f917700a315d2ddf075de",
+      "review_scope": "lote2",
+      "purposes": [
+        "new_lote2_scene_representative_Hunucmá",
+        "new_lote2_extreme_delta_15.195m"
+      ],
+      "assessment": "RGB_waterline_plausible_at10m_NOTphysicalaccuracy"
+    },
+    {
+      "profile_id": "88-0-154",
+      "scene_id": "S2A_T16QBJ_20260420T162815_L2A",
+      "chip_sha256": "4571931679bbd56ff9ff025bb0cd23e4c35b6db2e173685d9f7046f347e86e06",
+      "review_scope": "lote2",
+      "purposes": [
+        "new_lote2_scene_representative_Ixil"
+      ],
+      "assessment": "RGB_waterline_plausible_at10m_NOTphysicalaccuracy"
+    },
+    {
+      "profile_id": "88-0-17",
+      "scene_id": "S2C_T15QZD_20260329T163543_L2A",
+      "chip_sha256": "73b90951aaca19c959102ab694764848ccc67dd73a9914c1e6bd651bef8283c6",
+      "review_scope": "lote2",
+      "purposes": [
+        "new_lote2_scene_representative_Progreso"
+      ],
+      "assessment": "RGB_waterline_plausible_at10m_NOTphysicalaccuracy"
+    },
+    {
+      "profile_id": "9-0-53",
+      "scene_id": "S2A_T16QDJ_20260420T162815_L2A",
+      "chip_sha256": "2353557013ab913e40e34b8409cfe63d857b8ab1823d8ba2fdae533484d77129",
+      "review_scope": "lote2",
+      "purposes": [
+        "new_lote2_scene_representative_Río Lagartos",
+        "new_lote2_extreme_delta_-11.367m"
+      ],
+      "assessment": "RGB_waterline_plausible_at10m_NOTphysicalaccuracy"
+    },
+    {
+      "profile_id": "32-0-1",
+      "scene_id": "S2C_T16QCJ_20260309T163431_L2A",
+      "chip_sha256": "10300ee4e636efe4005bf5eff2bc275051dfaa33123f2aea308eb7c2acbf5848",
+      "review_scope": "lote2",
+      "purposes": [
+        "new_lote2_scene_representative_San Felipe"
+      ],
+      "assessment": "RGB_waterline_plausible_at10m_NOTphysicalaccuracy"
+    },
+    {
+      "profile_id": "29-0-18",
+      "scene_id": "S2A_T16QBJ_20260420T162815_L2A",
+      "chip_sha256": "2c81c6d9fb2c09c6df77f18fa162e260ad663bca2e1bc69f499818267b282eeb",
+      "review_scope": "lote2",
+      "purposes": [
+        "new_lote2_scene_representative_Telchac Puerto",
+        "new_lote2_extreme_delta_-12.527m"
+      ],
+      "assessment": "RGB_waterline_plausible_at10m_NOTphysicalaccuracy"
+    },
+    {
+      "profile_id": "11-0-18",
+      "scene_id": "S2A_T16QDJ_20250415T162701_L2A",
+      "chip_sha256": "6b3f3135a5e71a4d2331a8f03b56a0b79f5c22b337f7f4908235a43e00fcd126",
+      "review_scope": "lote2",
+      "purposes": [
+        "new_lote2_scene_representative_Tizimín"
+      ],
+      "assessment": "RGB_waterline_plausible_at10m_NOTphysicalaccuracy"
+    },
+    {
+      "profile_id": "280-0-15",
+      "scene_id": "S2C_T15QZD_20260329T163543_L2A",
+      "chip_sha256": "7f30c4464df9c9de33fc0311f4e3efa60304a56c518f624bed5bd1d0adc7a410",
+      "review_scope": "lote2",
+      "purposes": [
+        "new_lote2_scene_representative_Yobaín",
+        "new_lote2_extreme_delta_11.623m"
+      ],
+      "assessment": "RGB_waterline_plausible_at10m_NOTphysicalaccuracy"
+    },
+    {
+      "profile_id": "5-0-15",
+      "scene_id": "S2C_T15QZD_20260322T164046_L2A",
+      "chip_sha256": "d163b3f36e6abbfa5d6fedf8e6948e10232df03f0755107dd80fbb07501c244e",
+      "review_scope": "lote2",
+      "purposes": [
+        "new_lote2_extreme_delta_15.195m"
+      ],
+      "assessment": "RGB_waterline_plausible_at10m_NOTphysicalaccuracy"
+    },
+    {
+      "profile_id": "29-0-18",
+      "scene_id": "S2A_T15QZD_20250415T162701_L2A",
+      "chip_sha256": "f13869e15b9854890ff560130bb4bed8a7d3722aa4d9fd336372b70dec7854b0",
+      "review_scope": "lote2",
+      "purposes": [
+        "new_lote2_extreme_delta_-12.527m"
+      ],
+      "assessment": "RGB_waterline_plausible_at10m_NOTphysicalaccuracy"
+    },
+    {
+      "profile_id": "280-0-15",
+      "scene_id": "S2C_T16QBJ_20250413T163452_L2A",
+      "chip_sha256": "cfafdbe86bd10b66935868d52f624b803e0556515e64753b15880f0a9aff51d3",
+      "review_scope": "lote2",
+      "purposes": [
+        "new_lote2_extreme_delta_11.623m"
+      ],
+      "assessment": "RGB_waterline_plausible_at10m_NOTphysicalaccuracy"
+    },
+    {
+      "profile_id": "9-0-53",
+      "scene_id": "S2A_T16QCJ_20250415T162701_L2A",
+      "chip_sha256": "766ea7f09f3a13e757548500f53b9b5800c5a35cf08e187beb81207f00e1be93",
+      "review_scope": "lote2",
+      "purposes": [
+        "new_lote2_extreme_delta_-11.367m"
+      ],
+      "assessment": "RGB_waterline_plausible_at10m_NOTphysicalaccuracy"
+    }
+  ],
+  "preserve": {
+    "all10441_records_and_measurements": true,
+    "all_geometry": true,
+    "dates_calibration_DN_masks": true,
+    "frozen2105_source": true,
+    "all_prior_context_flags": true
+  },
+  "scope_warning": "No tide/wave/slope normalization or totalphysicalaccuracy claim. Profilecounts refer to Playa reference samples, not whole municipal shore length."
+}

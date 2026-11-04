@@ -1,0 +1,13 @@
+{
+  "capture_date": "2004-03-06",
+  "date_precision": "day",
+  "product_id": "LE07_L2SP_020045_20040306_02_T1",
+  "source_png": "/data/historical-background/frames/2004-5d1aa22cbae240f8.png",
+  "source_png_sha256": "5d1aa22cbae240f8b685f0340f91569a68f44b92f8d43c7efc6e6ece699047bc",
+  "source_metadata_url": "https://planetarycomputer.microsoft.com/api/stac/v1/collections/landsat-c2-l2/items/LE07_L2SP_020045_20040306_02_T1",
+  "native_resolution_m": 30,
+  "tile_preparation": "Received EPSG:3857 visual raster to lossless XYZ; nearest neighbour; no new measurement",
+  "original_preparation_receipt": "scientific/coverage-extension/historical-background-proof.json",
+  "has_accepted_annual_measurements": false,
+  "note": "Color natural. Resolución original 30 m; ampliar no añade detalle. Nubes y huecos permanecen visibles. La fotografía no implica una medición de costa aceptada."
+}

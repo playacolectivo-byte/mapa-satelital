@@ -1,0 +1,140 @@
+{
+  "source_id": "MC2026",
+  "retrieved_on": "2026-10-22",
+  "title": "Vector files of the inventory of coastal structures in Mexico from 1995 to 2019 and erosion rates for Antón Lizardo, Veracruz from 2015 to 2025",
+  "authors": [
+    {
+      "name": "Marin Coria, Etzaguery",
+      "affiliation": "Instituto de Ecología",
+      "orcid": "0000-0001-9875-2785"
+    },
+    {
+      "name": "Maximiliano-Cordova, Carmelo",
+      "affiliation": "Universidad Nacional Autónoma de México",
+      "orcid": "0000-0002-7365-7500"
+    },
+    {
+      "name": "Silva, Rodolfo",
+      "affiliation": "Universidad Nacional Autónoma de México",
+      "orcid": "0000-0003-0064-9558"
+    },
+    {
+      "name": "Martinez, M. Luisa",
+      "affiliation": "Instituto de Ecología",
+      "orcid": "0000-0002-4469-5284"
+    },
+    {
+      "name": "Chávez Cerón, Valeria",
+      "affiliation": "Universidad Nacional Autónoma de México"
+    }
+  ],
+  "article_url": "https://doi.org/10.1038/s41598-026-38793-0",
+  "repository_url": "https://doi.org/10.5281/zenodo.17307790",
+  "record_url": "https://zenodo.org/records/17307790",
+  "download_url": "https://zenodo.org/api/records/17307790/files/DatabasesStructuresMexicoandDSASAntonL.rar/content",
+  "license": "CC-BY-4.0",
+  "archive": {
+    "name": "DatabasesStructuresMexicoandDSASAntonL.rar",
+    "size_bytes": 43406,
+    "md5": "36b295e1296c6fee95b666a40c9b4713",
+    "sha256": "51022159ea52b8a434a903053a67460c174516a791a4884f36d1be247a7ddc6a"
+  },
+  "metadata_sha256": "13ce30758ed6be3700b55902178d9ef8c9ac9374d2a64a097a5d5bc27dc78304",
+  "members": [
+    {
+      "path": "DatabasesStructuresMexicoandDSASAntonL/DSASAntónLizardoAnalysis.cpg",
+      "size_bytes": 5,
+      "sha256": "3ad3031f5503a4404af825262ee8232cc04d4ea6683d42c5dd0a2f2a27ac9824"
+    },
+    {
+      "path": "DatabasesStructuresMexicoandDSASAntonL/DSASAntónLizardoAnalysis.dbf",
+      "size_bytes": 436164,
+      "sha256": "c1ec80426bc958e3c3211a086e62c59385a5b4676b525885d586bade57af6143"
+    },
+    {
+      "path": "DatabasesStructuresMexicoandDSASAntonL/DSASAntónLizardoAnalysis.prj",
+      "size_bytes": 145,
+      "sha256": "a02a27b1d1982c8516d83398e85a3c8b1aef1713c13ef4d84d7bde17430c07c4"
+    },
+    {
+      "path": "DatabasesStructuresMexicoandDSASAntonL/DSASAntónLizardoAnalysis.qmd",
+      "size_bytes": 686,
+      "sha256": "5ec585559f5a6085b5f73d32d76bf226953b126bf9acb35348b43f29dec2fb35"
+    },
+    {
+      "path": "DatabasesStructuresMexicoandDSASAntonL/DSASAntónLizardoAnalysis.shp",
+      "size_bytes": 6876,
+      "sha256": "0afda3eeab62539c8585183258675cdc4826a5d551c08cb085fbaafcd05f059c"
+    },
+    {
+      "path": "DatabasesStructuresMexicoandDSASAntonL/DSASAntónLizardoAnalysis.shx",
+      "size_bytes": 2036,
+      "sha256": "d4ceeeab54d7a4f54a63acdf09db2f14c19b5ce62962689dfbda23cb345d0f2f"
+    },
+    {
+      "path": "DatabasesStructuresMexicoandDSASAntonL/StructuresMexico1995-2019.cpg",
+      "size_bytes": 5,
+      "sha256": "3ad3031f5503a4404af825262ee8232cc04d4ea6683d42c5dd0a2f2a27ac9824"
+    },
+    {
+      "path": "DatabasesStructuresMexicoandDSASAntonL/StructuresMexico1995-2019.dbf",
+      "size_bytes": 856156,
+      "sha256": "8ab34bc941395412ccdf4e8f25c390ad53ef45fd69924efeb193d082e04104ab"
+    },
+    {
+      "path": "DatabasesStructuresMexicoandDSASAntonL/StructuresMexico1995-2019.prj",
+      "size_bytes": 145,
+      "sha256": "a02a27b1d1982c8516d83398e85a3c8b1aef1713c13ef4d84d7bde17430c07c4"
+    },
+    {
+      "path": "DatabasesStructuresMexicoandDSASAntonL/StructuresMexico1995-2019.qmd",
+      "size_bytes": 686,
+      "sha256": "5ec585559f5a6085b5f73d32d76bf226953b126bf9acb35348b43f29dec2fb35"
+    },
+    {
+      "path": "DatabasesStructuresMexicoandDSASAntonL/StructuresMexico1995-2019.shp",
+      "size_bytes": 28940,
+      "sha256": "9b28b6f04e98a27bcc095dc652133e4f20376e7590c1021608168f624c1103c5"
+    },
+    {
+      "path": "DatabasesStructuresMexicoandDSASAntonL/StructuresMexico1995-2019.shx",
+      "size_bytes": 8340,
+      "sha256": "c3316d9202d21547b1cb0766026f3efe1b46e14f6a7825579fd2f0f72a29be4a"
+    }
+  ],
+  "source_count": 1030,
+  "included_count": 359,
+  "selection": "State exactly equals Yucatan; no spatial clipping",
+  "source_crs": "WGS84 geographic coordinates, EPSG:4326 as declared in the article; original PRJ retained",
+  "bounds": [
+    -90.402281,
+    20.85866,
+    -87.677947,
+    21.612904
+  ],
+  "type_counts": {
+    "Groin": 322,
+    "Jetty": 12,
+    "Pier": 22,
+    "Port": 3
+  },
+  "year_attribute_counts": {
+    "1995": 205,
+    "2019": 154
+  },
+  "national_year_attribute_counts": {
+    "1995": 490,
+    "2019": 540
+  },
+  "geometry_attribute_max_delta_degrees": 0,
+  "duplicate_source_coordinates": 0,
+  "positional_accuracy_m": null,
+  "limitations": [
+    "Points represent published structure references, not footprints or cadastral boundaries.",
+    "Year is retained literally from the source; it is not treated as construction date, annual presence or current condition.",
+    "The article reports 570 structures in 1995; the downloaded file has 490 rows with Year=1995. No reconciliation or rewriting has been inferred.",
+    "No erosion rate, causal attribution, legality, property ownership or present damage is inferred from these points.",
+    "Submerged/low-crested breakwaters were excluded by the article; this is not a complete geotube inventory.",
+    "The Antón Lizardo erosion dataset is received in the archive but excluded from the Yucatan map."
+  ]
+}

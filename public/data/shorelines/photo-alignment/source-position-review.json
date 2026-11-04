@@ -1,0 +1,329 @@
+{
+  "version": 1,
+  "date": "2026-11-02",
+  "algorithm": "source-aware-photo-anchors-v1",
+  "model_sha256": "21ed574a9c464cab785197f95568e242da2358cae23b08a420afde98aa294513",
+  "data_sha256": "c4c78d75907157d82e6932695cd82236fdfdcc7d343edea440b08ddc74501c4f",
+  "scope": "Automatic point-by-point source-footprint verification at tile levels 17 and, where supplied, 18. This checks capture identity, not shoreline-detector or field accuracy. Missing finer-scale metadata does not prove imagery absence. Original observations are preserved.",
+  "blocked": [
+    {
+      "release": 26334,
+      "profile_id": "SC-28-0-34",
+      "kind": "spatial_estimate",
+      "expected": [
+        "2022-06-15",
+        "WV02",
+        0.6
+      ],
+      "actual": [
+        "2025-09-15",
+        "LG01",
+        0.6
+      ],
+      "position": [
+        -89.23085483629615,
+        21.34749180429195
+      ],
+      "reason": "capture_footprint_seam",
+      "levels": [
+        17,
+        18
+      ]
+    },
+    {
+      "release": 26334,
+      "profile_id": "SC-28-0-50",
+      "kind": "spatial_estimate",
+      "expected": [
+        "2022-06-15",
+        "WV02",
+        0.6
+      ],
+      "actual": [
+        "2025-09-15",
+        "LG01",
+        0.6
+      ],
+      "position": [
+        -89.21558876753517,
+        21.34899347700737
+      ],
+      "reason": "capture_footprint_seam",
+      "levels": [
+        17,
+        18
+      ]
+    },
+    {
+      "release": 25982,
+      "profile_id": "SC-18-0-4",
+      "kind": "photo",
+      "expected": [
+        "2019-03-14",
+        "WV02",
+        0.6
+      ],
+      "actual": [
+        "2018-03-04",
+        "WV02",
+        0.6
+      ],
+      "position": [
+        -88.63918193690864,
+        21.501446663671434
+      ],
+      "reason": "capture_footprint_seam",
+      "levels": [
+        17,
+        18
+      ]
+    },
+    {
+      "release": 25982,
+      "profile_id": "SC-18-0-5",
+      "kind": "photo",
+      "expected": [
+        "2019-03-14",
+        "WV02",
+        0.6
+      ],
+      "actual": [
+        "2018-03-04",
+        "WV02",
+        0.6
+      ],
+      "position": [
+        -88.63852633614722,
+        21.502151855729654
+      ],
+      "reason": "capture_footprint_seam",
+      "levels": [
+        17,
+        18
+      ]
+    },
+    {
+      "release": 45441,
+      "profile_id": "SC-18-0-4",
+      "kind": "photo",
+      "expected": [
+        "2019-03-14",
+        "WV02",
+        0.6
+      ],
+      "actual": [
+        "2018-03-04",
+        "WV02",
+        0.6
+      ],
+      "position": [
+        -88.63918193690864,
+        21.501446663671434
+      ],
+      "reason": "capture_footprint_seam",
+      "levels": [
+        17,
+        18
+      ]
+    },
+    {
+      "release": 45441,
+      "profile_id": "SC-18-0-5",
+      "kind": "photo",
+      "expected": [
+        "2019-03-14",
+        "WV02",
+        0.6
+      ],
+      "actual": [
+        "2018-03-04",
+        "WV02",
+        0.6
+      ],
+      "position": [
+        -88.63852633614722,
+        21.502151855729654
+      ],
+      "reason": "capture_footprint_seam",
+      "levels": [
+        17,
+        18
+      ]
+    },
+    {
+      "release": 15045,
+      "profile_id": "SC-5-0-156",
+      "kind": "photo",
+      "expected": [
+        "2019-11-22",
+        "WV02",
+        0.5
+      ],
+      "actual": [
+        "2019-10-04",
+        "GE01",
+        0.46
+      ],
+      "position": [
+        -89.89907049077542,
+        21.231205020160957
+      ],
+      "reason": "capture_footprint_seam",
+      "levels": [
+        17
+      ]
+    },
+    {
+      "release": 4756,
+      "profile_id": "SC-9-0-0",
+      "kind": "spatial_estimate",
+      "expected": [
+        "2017-02-09",
+        "WV02",
+        0.5
+      ],
+      "actual": null,
+      "position": [
+        -87.98607336581651,
+        21.61051080922924
+      ],
+      "reason": "unverified_source_footprint",
+      "levels": [
+        17
+      ]
+    },
+    {
+      "release": 4756,
+      "profile_id": "SC-29-0-19",
+      "kind": "photo",
+      "expected": [
+        "2015-03-26",
+        "WV03_VNIR",
+        0.31
+      ],
+      "actual": null,
+      "position": [
+        -89.29092245712687,
+        21.342151409127737
+      ],
+      "reason": "unverified_source_footprint",
+      "levels": [
+        17
+      ]
+    },
+    {
+      "release": 4756,
+      "profile_id": "SC-29-0-20",
+      "kind": "photo",
+      "expected": [
+        "2015-03-26",
+        "WV03_VNIR",
+        0.31
+      ],
+      "actual": null,
+      "position": [
+        -89.28996629323865,
+        21.342124271614146
+      ],
+      "reason": "unverified_source_footprint",
+      "levels": [
+        17
+      ]
+    },
+    {
+      "release": 4756,
+      "profile_id": "SC-266-0-0",
+      "kind": "photo",
+      "expected": [
+        "2015-04-26",
+        "WV03_VNIR",
+        0.31
+      ],
+      "actual": null,
+      "position": [
+        -88.23206378840668,
+        21.57771652794299
+      ],
+      "reason": "unverified_source_footprint",
+      "levels": [
+        17
+      ]
+    },
+    {
+      "release": 18691,
+      "profile_id": "SC-9-0-0",
+      "kind": "spatial_estimate",
+      "expected": [
+        "2017-02-09",
+        "WV02",
+        0.5
+      ],
+      "actual": null,
+      "position": [
+        -87.98607336581651,
+        21.61051080922924
+      ],
+      "reason": "unverified_source_footprint",
+      "levels": [
+        17
+      ]
+    },
+    {
+      "release": 18691,
+      "profile_id": "SC-29-0-19",
+      "kind": "photo",
+      "expected": [
+        "2015-03-26",
+        "WV03_VNIR",
+        0.31
+      ],
+      "actual": null,
+      "position": [
+        -89.29092245712687,
+        21.342151409127737
+      ],
+      "reason": "unverified_source_footprint",
+      "levels": [
+        17
+      ]
+    },
+    {
+      "release": 18691,
+      "profile_id": "SC-29-0-20",
+      "kind": "photo",
+      "expected": [
+        "2015-03-26",
+        "WV03_VNIR",
+        0.31
+      ],
+      "actual": null,
+      "position": [
+        -89.28996629323865,
+        21.342124271614146
+      ],
+      "reason": "unverified_source_footprint",
+      "levels": [
+        17
+      ]
+    },
+    {
+      "release": 18691,
+      "profile_id": "SC-266-0-0",
+      "kind": "photo",
+      "expected": [
+        "2015-04-26",
+        "WV03_VNIR",
+        0.31
+      ],
+      "actual": null,
+      "position": [
+        -88.23206378840668,
+        21.57771652794299
+      ],
+      "reason": "unverified_source_footprint",
+      "levels": [
+        17
+      ]
+    }
+  ]
+}

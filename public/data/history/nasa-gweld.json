@@ -1,0 +1,440 @@
+{
+  "schema_version": 1,
+  "prepared_on": "2026-10-28",
+  "attribution": "NASA GIBS · USGS Landsat · Roy and Zhang, GWELD v3.1",
+  "epochs": [
+    {
+      "id": "1986-gweld",
+      "year": 1986,
+      "label": "Landsat · mosaico anual 1986",
+      "short_label": "1986",
+      "resolution_m": 30
+    },
+    {
+      "id": "1989-gweld",
+      "year": 1989,
+      "label": "Landsat · mosaico anual 1989",
+      "short_label": "1989",
+      "resolution_m": 30
+    },
+    {
+      "id": "1990-gweld",
+      "year": 1990,
+      "label": "Landsat · mosaico anual 1990",
+      "short_label": "1990",
+      "resolution_m": 30
+    },
+    {
+      "id": "1991-gweld",
+      "year": 1991,
+      "label": "Landsat · mosaico anual 1991",
+      "short_label": "1991",
+      "resolution_m": 30
+    },
+    {
+      "id": "1999-gweld",
+      "year": 1999,
+      "label": "Landsat · mosaico anual 1999",
+      "short_label": "1999",
+      "resolution_m": 30
+    },
+    {
+      "id": "2000-gweld",
+      "year": 2000,
+      "label": "Landsat · mosaico anual 2000",
+      "short_label": "2000",
+      "resolution_m": 30
+    },
+    {
+      "id": "2001-gweld",
+      "year": 2001,
+      "label": "Landsat · mosaico anual 2001",
+      "short_label": "2001",
+      "resolution_m": 30
+    }
+  ],
+  "frames": [
+    {
+      "id": "1986-gweld-chelem-progreso",
+      "sheet": "GWELDYR.031 · GIBS",
+      "epoch": "1986-gweld",
+      "capture_year": 1986,
+      "period_start": "1985-12-01",
+      "period_end": "1986-11-30",
+      "date_precision": "year",
+      "attribution": "NASA GIBS · USGS Landsat · Roy and Zhang, GWELD v3.1",
+      "resolution_m": 30,
+      "bounds": [
+        -90.5,
+        20.8,
+        -89.05,
+        21.5
+      ],
+      "footprint": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -90.5,
+              20.8
+            ],
+            [
+              -89.05,
+              20.8
+            ],
+            [
+              -89.05,
+              21.5
+            ],
+            [
+              -90.5,
+              21.5
+            ],
+            [
+              -90.5,
+              20.8
+            ]
+          ]
+        ]
+      },
+      "tiles": "https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/Landsat_WELD_CorrectedReflectance_TrueColor_Global_Annual/default/1985-12-01/GoogleMapsCompatible_Level12/{z}/{y}/{x}.jpg",
+      "minzoom": 0,
+      "maxzoom": 12,
+      "tile_size": 256,
+      "catalogue_url": "https://cmr.earthdata.nasa.gov/search/concepts/C2763268459-LPCLOUD.umm_json",
+      "original_url": "https://doi.org/10.5067/MEaSUREs/GWELD/GWELDYR.031",
+      "metadata_url": "https://lpdaac.usgs.gov/documents/2014/GWELD_User_Guide_V31.pdf",
+      "license_url": "https://earthdata.nasa.gov/earth-observation-data/data-use-policy",
+      "note": "Mosaico anual de 1985-12-01 a 1986-11-30, compuesto con observaciones Landsat de distintas fechas; no es una captura única ni una medición nueva de erosión. Servicio NASA GIBS de 30 m. La ventana dibujada es el área de uso regional revisada de Celestún a Chabihau, no la huella global del producto. Puede tener huecos, nubes y uniones entre escenas. Las etiquetas de localidades actuales solo orientan."
+    },
+    {
+      "id": "1989-gweld-chelem-progreso",
+      "sheet": "GWELDYR.031 · GIBS",
+      "epoch": "1989-gweld",
+      "capture_year": 1989,
+      "period_start": "1988-12-01",
+      "period_end": "1989-11-30",
+      "date_precision": "year",
+      "attribution": "NASA GIBS · USGS Landsat · Roy and Zhang, GWELD v3.1",
+      "resolution_m": 30,
+      "bounds": [
+        -89.88,
+        21.22,
+        -89.59,
+        21.38
+      ],
+      "footprint": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -89.88,
+              21.22
+            ],
+            [
+              -89.59,
+              21.22
+            ],
+            [
+              -89.59,
+              21.38
+            ],
+            [
+              -89.88,
+              21.38
+            ],
+            [
+              -89.88,
+              21.22
+            ]
+          ]
+        ]
+      },
+      "tiles": "https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/Landsat_WELD_CorrectedReflectance_TrueColor_Global_Annual/default/1988-12-01/GoogleMapsCompatible_Level12/{z}/{y}/{x}.jpg",
+      "minzoom": 0,
+      "maxzoom": 12,
+      "tile_size": 256,
+      "catalogue_url": "https://cmr.earthdata.nasa.gov/search/concepts/C2763268459-LPCLOUD.umm_json",
+      "original_url": "https://doi.org/10.5067/MEaSUREs/GWELD/GWELDYR.031",
+      "metadata_url": "https://lpdaac.usgs.gov/documents/2014/GWELD_User_Guide_V31.pdf",
+      "license_url": "https://earthdata.nasa.gov/earth-observation-data/data-use-policy",
+      "note": "Mosaico anual de 1988-12-01 a 1989-11-30, compuesto con observaciones Landsat de distintas fechas; no es una captura única ni una medición nueva de erosión. Servicio NASA GIBS de 30 m. La ventana dibujada es el área de uso revisada Chelem–Progreso, no la huella global del producto. Puede tener huecos o nubes."
+    },
+    {
+      "id": "1990-gweld-chelem-progreso",
+      "sheet": "GWELDYR.031 · GIBS",
+      "epoch": "1990-gweld",
+      "capture_year": 1990,
+      "period_start": "1989-12-01",
+      "period_end": "1990-11-30",
+      "date_precision": "year",
+      "attribution": "NASA GIBS · USGS Landsat · Roy and Zhang, GWELD v3.1",
+      "resolution_m": 30,
+      "bounds": [
+        -89.88,
+        21.22,
+        -89.59,
+        21.38
+      ],
+      "footprint": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -89.88,
+              21.22
+            ],
+            [
+              -89.59,
+              21.22
+            ],
+            [
+              -89.59,
+              21.38
+            ],
+            [
+              -89.88,
+              21.38
+            ],
+            [
+              -89.88,
+              21.22
+            ]
+          ]
+        ]
+      },
+      "tiles": "https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/Landsat_WELD_CorrectedReflectance_TrueColor_Global_Annual/default/1989-12-01/GoogleMapsCompatible_Level12/{z}/{y}/{x}.jpg",
+      "minzoom": 0,
+      "maxzoom": 12,
+      "tile_size": 256,
+      "catalogue_url": "https://cmr.earthdata.nasa.gov/search/concepts/C2763268459-LPCLOUD.umm_json",
+      "original_url": "https://doi.org/10.5067/MEaSUREs/GWELD/GWELDYR.031",
+      "metadata_url": "https://lpdaac.usgs.gov/documents/2014/GWELD_User_Guide_V31.pdf",
+      "license_url": "https://earthdata.nasa.gov/earth-observation-data/data-use-policy",
+      "note": "Mosaico anual de 1989-12-01 a 1990-11-30, compuesto con observaciones Landsat de distintas fechas; no es una captura única ni una medición nueva de erosión. Servicio NASA GIBS de 30 m. La ventana dibujada es el área de uso revisada Chelem–Progreso, no la huella global del producto. Puede tener huecos o nubes."
+    },
+    {
+      "id": "1991-gweld-chelem-progreso",
+      "sheet": "GWELDYR.031 · GIBS",
+      "epoch": "1991-gweld",
+      "capture_year": 1991,
+      "period_start": "1990-12-01",
+      "period_end": "1991-11-30",
+      "date_precision": "year",
+      "attribution": "NASA GIBS · USGS Landsat · Roy and Zhang, GWELD v3.1",
+      "resolution_m": 30,
+      "bounds": [
+        -89.88,
+        21.22,
+        -89.59,
+        21.38
+      ],
+      "footprint": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -89.88,
+              21.22
+            ],
+            [
+              -89.59,
+              21.22
+            ],
+            [
+              -89.59,
+              21.38
+            ],
+            [
+              -89.88,
+              21.38
+            ],
+            [
+              -89.88,
+              21.22
+            ]
+          ]
+        ]
+      },
+      "tiles": "https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/Landsat_WELD_CorrectedReflectance_TrueColor_Global_Annual/default/1990-12-01/GoogleMapsCompatible_Level12/{z}/{y}/{x}.jpg",
+      "minzoom": 0,
+      "maxzoom": 12,
+      "tile_size": 256,
+      "catalogue_url": "https://cmr.earthdata.nasa.gov/search/concepts/C2763268459-LPCLOUD.umm_json",
+      "original_url": "https://doi.org/10.5067/MEaSUREs/GWELD/GWELDYR.031",
+      "metadata_url": "https://lpdaac.usgs.gov/documents/2014/GWELD_User_Guide_V31.pdf",
+      "license_url": "https://earthdata.nasa.gov/earth-observation-data/data-use-policy",
+      "note": "Mosaico anual de 1990-12-01 a 1991-11-30, compuesto con observaciones Landsat de distintas fechas; no es una captura única ni una medición nueva de erosión. Servicio NASA GIBS de 30 m. La ventana dibujada es el área de uso revisada Chelem–Progreso, no la huella global del producto. Puede tener huecos o nubes."
+    },
+    {
+      "id": "1999-gweld-chelem-progreso",
+      "sheet": "GWELDYR.031 · GIBS",
+      "epoch": "1999-gweld",
+      "capture_year": 1999,
+      "period_start": "1998-12-01",
+      "period_end": "1999-11-30",
+      "date_precision": "year",
+      "attribution": "NASA GIBS · USGS Landsat · Roy and Zhang, GWELD v3.1",
+      "resolution_m": 30,
+      "bounds": [
+        -89.88,
+        21.22,
+        -89.59,
+        21.38
+      ],
+      "footprint": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -89.88,
+              21.22
+            ],
+            [
+              -89.59,
+              21.22
+            ],
+            [
+              -89.59,
+              21.38
+            ],
+            [
+              -89.88,
+              21.38
+            ],
+            [
+              -89.88,
+              21.22
+            ]
+          ]
+        ]
+      },
+      "tiles": "https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/Landsat_WELD_CorrectedReflectance_TrueColor_Global_Annual/default/1998-12-01/GoogleMapsCompatible_Level12/{z}/{y}/{x}.jpg",
+      "minzoom": 0,
+      "maxzoom": 12,
+      "tile_size": 256,
+      "catalogue_url": "https://cmr.earthdata.nasa.gov/search/concepts/C2763268459-LPCLOUD.umm_json",
+      "original_url": "https://doi.org/10.5067/MEaSUREs/GWELD/GWELDYR.031",
+      "metadata_url": "https://lpdaac.usgs.gov/documents/2014/GWELD_User_Guide_V31.pdf",
+      "license_url": "https://earthdata.nasa.gov/earth-observation-data/data-use-policy",
+      "note": "Mosaico anual de 1998-12-01 a 1999-11-30, compuesto con observaciones Landsat de distintas fechas; no es una captura única ni una medición nueva de erosión. Servicio NASA GIBS de 30 m. La ventana dibujada es el área de uso revisada Chelem–Progreso, no la huella global del producto. Puede tener huecos o nubes."
+    },
+    {
+      "id": "2000-gweld-chelem-progreso",
+      "sheet": "GWELDYR.031 · GIBS",
+      "epoch": "2000-gweld",
+      "capture_year": 2000,
+      "period_start": "1999-12-01",
+      "period_end": "2000-11-30",
+      "date_precision": "year",
+      "attribution": "NASA GIBS · USGS Landsat · Roy and Zhang, GWELD v3.1",
+      "resolution_m": 30,
+      "bounds": [
+        -89.88,
+        21.22,
+        -89.59,
+        21.38
+      ],
+      "footprint": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -89.88,
+              21.22
+            ],
+            [
+              -89.59,
+              21.22
+            ],
+            [
+              -89.59,
+              21.38
+            ],
+            [
+              -89.88,
+              21.38
+            ],
+            [
+              -89.88,
+              21.22
+            ]
+          ]
+        ]
+      },
+      "tiles": "https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/Landsat_WELD_CorrectedReflectance_TrueColor_Global_Annual/default/1999-12-01/GoogleMapsCompatible_Level12/{z}/{y}/{x}.jpg",
+      "minzoom": 0,
+      "maxzoom": 12,
+      "tile_size": 256,
+      "catalogue_url": "https://cmr.earthdata.nasa.gov/search/concepts/C2763268459-LPCLOUD.umm_json",
+      "original_url": "https://doi.org/10.5067/MEaSUREs/GWELD/GWELDYR.031",
+      "metadata_url": "https://lpdaac.usgs.gov/documents/2014/GWELD_User_Guide_V31.pdf",
+      "license_url": "https://earthdata.nasa.gov/earth-observation-data/data-use-policy",
+      "note": "Mosaico anual de 1999-12-01 a 2000-11-30, compuesto con observaciones Landsat de distintas fechas; no es una captura única ni una medición nueva de erosión. Servicio NASA GIBS de 30 m. La ventana dibujada es el área de uso revisada Chelem–Progreso, no la huella global del producto. Puede tener huecos o nubes."
+    },
+    {
+      "id": "2001-gweld-chelem-progreso",
+      "sheet": "GWELDYR.031 · GIBS",
+      "epoch": "2001-gweld",
+      "capture_year": 2001,
+      "period_start": "2000-12-01",
+      "period_end": "2001-11-30",
+      "date_precision": "year",
+      "attribution": "NASA GIBS · USGS Landsat · Roy and Zhang, GWELD v3.1",
+      "resolution_m": 30,
+      "bounds": [
+        -89.88,
+        21.22,
+        -89.59,
+        21.38
+      ],
+      "footprint": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -89.88,
+              21.22
+            ],
+            [
+              -89.59,
+              21.22
+            ],
+            [
+              -89.59,
+              21.38
+            ],
+            [
+              -89.88,
+              21.38
+            ],
+            [
+              -89.88,
+              21.22
+            ]
+          ]
+        ]
+      },
+      "tiles": "https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/Landsat_WELD_CorrectedReflectance_TrueColor_Global_Annual/default/2000-12-01/GoogleMapsCompatible_Level12/{z}/{y}/{x}.jpg",
+      "minzoom": 0,
+      "maxzoom": 12,
+      "tile_size": 256,
+      "catalogue_url": "https://cmr.earthdata.nasa.gov/search/concepts/C2763268459-LPCLOUD.umm_json",
+      "original_url": "https://doi.org/10.5067/MEaSUREs/GWELD/GWELDYR.031",
+      "metadata_url": "https://lpdaac.usgs.gov/documents/2014/GWELD_User_Guide_V31.pdf",
+      "license_url": "https://earthdata.nasa.gov/earth-observation-data/data-use-policy",
+      "note": "Mosaico anual de 2000-12-01 a 2001-11-30, compuesto con observaciones Landsat de distintas fechas; no es una captura única ni una medición nueva de erosión. Servicio NASA GIBS de 30 m. La ventana dibujada es el área de uso revisada Chelem–Progreso, no la huella global del producto. Puede tener huecos o nubes."
+    }
+  ],
+  "comparison_bounds": [
+    -90.5,
+    20.8,
+    -89.05,
+    21.5
+  ],
+  "method": "Servicio WMTS público de NASA GIBS EPSG:3857, GoogleMapsCompatible_Level12. Se usan solo claves TIME incluidas en DescribeDomains y teselas reales comprobadas. El año del compuesto corresponde al periodo desde diciembre previo hasta noviembre de ese año, según la guía de GWELD. No se fecha una captura en un día inventado ni se reemplazan mediciones.",
+  "limits": "1986 tiene cobertura visual regional revisada de Celestún a Chabihau. Los otros seis compuestos conservan la ventana Chelem–Progreso revisada; pruebas puntuales en 1990 y 2001 fuera de esa ventana no equivalen a validación regional. Resolución de 30 m; no proporciona detalle de predios ni confirmación de pérdida de playa. 1984 y 1985 se excluyen por respuestas negras locales. Para años sin un compuesto exacto revisado no se declara una nueva imagen ni se reutiliza un año vecino. Fuera de la ventana de cada frame no se declara cobertura local validada.",
+  "source_manifest": "work/2026-10-28-alternativas-servicios/gibs-gweld-manifest.json",
+  "license_url": "https://earthdata.nasa.gov/earth-observation-data/data-use-policy",
+  "citation": "Roy, D., Zhang, H. (2019). NASA Global Web-Enabled Landsat Data Annual Global 30 m V031 [Data set]. NASA EOSDIS Land Processes DAAC. https://doi.org/10.5067/MEaSUREs/GWELD/GWELDYR.031"
+}

@@ -1,0 +1,349 @@
+{
+  "schema_version": 1,
+  "source": "INEGI · Catálogo Único de Claves Geoestadísticas",
+  "consulted_on": "2026-10-27",
+  "scope": "Current orientation labels only; not historical settlement existence, legal boundaries or littoral cell limits. Camera boxes only.",
+  "places": [
+    {
+      "id": "S02-310110001",
+      "name": "Celestún",
+      "official_name": "Celestún",
+      "coordinates": [
+        -90.3994636,
+        20.8600917
+      ],
+      "bounds": [
+        -90.4344636,
+        20.8420917,
+        -90.36446360000001,
+        20.878091700000002
+      ],
+      "population": "8366",
+      "cvegeo": "310110001",
+      "municipality": "Celestún",
+      "minZoom": 8.5,
+      "source_url": "https://gaia.inegi.org.mx/wscatgeo/v2/localidades/310110001"
+    },
+    {
+      "id": "S02-310380004",
+      "name": "Sisal",
+      "official_name": "Sisal",
+      "coordinates": [
+        -90.0325403,
+        21.1648975
+      ],
+      "bounds": [
+        -90.06754029999999,
+        21.146897499999998,
+        -89.9975403,
+        21.1828975
+      ],
+      "population": "2078",
+      "cvegeo": "310380004",
+      "municipality": "Hunucmá",
+      "minZoom": 8.5,
+      "source_url": "https://gaia.inegi.org.mx/wscatgeo/v2/localidades/310380004"
+    },
+    {
+      "id": "S02-310590005",
+      "name": "Chuburná",
+      "official_name": "Chuburná",
+      "coordinates": [
+        -89.8162133,
+        21.2518533
+      ],
+      "bounds": [
+        -89.8512133,
+        21.2338533,
+        -89.7812133,
+        21.2698533
+      ],
+      "population": "2874",
+      "cvegeo": "310590005",
+      "municipality": "Progreso",
+      "minZoom": 11,
+      "source_url": "https://gaia.inegi.org.mx/wscatgeo/v2/localidades/310590005"
+    },
+    {
+      "id": "S02-310590003",
+      "name": "Chelem",
+      "official_name": "Chelem",
+      "coordinates": [
+        -89.7429508,
+        21.2687364
+      ],
+      "bounds": [
+        -89.7779508,
+        21.2507364,
+        -89.7079508,
+        21.286736400000002
+      ],
+      "population": "4862",
+      "cvegeo": "310590003",
+      "municipality": "Progreso",
+      "minZoom": 8.5,
+      "source_url": "https://gaia.inegi.org.mx/wscatgeo/v2/localidades/310590003"
+    },
+    {
+      "id": "S02-310590001",
+      "name": "Progreso",
+      "official_name": "Progreso",
+      "coordinates": [
+        -89.6635736,
+        21.2825778
+      ],
+      "bounds": [
+        -89.6985736,
+        21.264577799999998,
+        -89.62857360000001,
+        21.3005778
+      ],
+      "population": "41965",
+      "cvegeo": "310590001",
+      "municipality": "Progreso",
+      "minZoom": 8.5,
+      "source_url": "https://gaia.inegi.org.mx/wscatgeo/v2/localidades/310590001"
+    },
+    {
+      "id": "S02-310590004",
+      "name": "Chicxulub Puerto",
+      "official_name": "Chicxulub (Chicxulub Puerto)",
+      "coordinates": [
+        -89.6071692,
+        21.2944286
+      ],
+      "bounds": [
+        -89.6421692,
+        21.2764286,
+        -89.5721692,
+        21.3124286
+      ],
+      "population": "7591",
+      "cvegeo": "310590004",
+      "municipality": "Progreso",
+      "minZoom": 11,
+      "source_url": "https://gaia.inegi.org.mx/wscatgeo/v2/localidades/310590004"
+    },
+    {
+      "id": "S02-310260035",
+      "name": "San Benito",
+      "official_name": "San Benito",
+      "coordinates": [
+        -89.4399006,
+        21.3237381
+      ],
+      "bounds": [
+        -89.4749006,
+        21.3057381,
+        -89.4049006,
+        21.3417381
+      ],
+      "population": "42",
+      "cvegeo": "310260035",
+      "municipality": "Dzemul",
+      "minZoom": 11,
+      "source_url": "https://gaia.inegi.org.mx/wscatgeo/v2/localidades/310260035"
+    },
+    {
+      "id": "S02-310260004",
+      "name": "San Bruno",
+      "official_name": "San Bruno",
+      "coordinates": [
+        -89.3910897,
+        21.3304378
+      ],
+      "bounds": [
+        -89.42608969999999,
+        21.312437799999998,
+        -89.3560897,
+        21.3484378
+      ],
+      "population": "10",
+      "cvegeo": "310260004",
+      "municipality": "Dzemul",
+      "minZoom": 11,
+      "source_url": "https://gaia.inegi.org.mx/wscatgeo/v2/localidades/310260004"
+    },
+    {
+      "id": "S02-310830001",
+      "name": "Telchac Puerto",
+      "official_name": "Telchac Puerto",
+      "coordinates": [
+        -89.264225,
+        21.3430039
+      ],
+      "bounds": [
+        -89.29922499999999,
+        21.3250039,
+        -89.229225,
+        21.3610039
+      ],
+      "population": "1913",
+      "cvegeo": "310830001",
+      "municipality": "Telchac Puerto",
+      "minZoom": 8.5,
+      "source_url": "https://gaia.inegi.org.mx/wscatgeo/v2/localidades/310830001"
+    },
+    {
+      "id": "S02-310680003",
+      "name": "San Crisanto",
+      "official_name": "San Crisanto",
+      "coordinates": [
+        -89.1718089,
+        21.3532814
+      ],
+      "bounds": [
+        -89.2068089,
+        21.3352814,
+        -89.1368089,
+        21.3712814
+      ],
+      "population": "605",
+      "cvegeo": "310680003",
+      "municipality": "Sinanché",
+      "minZoom": 11,
+      "source_url": "https://gaia.inegi.org.mx/wscatgeo/v2/localidades/310680003"
+    },
+    {
+      "id": "S02-311060002",
+      "name": "Chabihau",
+      "official_name": "Chabihau",
+      "coordinates": [
+        -89.1179189,
+        21.3562825
+      ],
+      "bounds": [
+        -89.1529189,
+        21.3382825,
+        -89.08291890000001,
+        21.3742825
+      ],
+      "population": "329",
+      "cvegeo": "311060002",
+      "municipality": "Yobaín",
+      "minZoom": 11,
+      "source_url": "https://gaia.inegi.org.mx/wscatgeo/v2/localidades/311060002"
+    },
+    {
+      "id": "S02-310270004",
+      "name": "Santa Clara",
+      "official_name": "Santa Clara",
+      "coordinates": [
+        -89.0137542,
+        21.3738203
+      ],
+      "bounds": [
+        -89.04875419999999,
+        21.355820299999998,
+        -88.9787542,
+        21.3918203
+      ],
+      "population": "38",
+      "cvegeo": "310270004",
+      "municipality": "Dzidzantún",
+      "minZoom": 11,
+      "source_url": "https://gaia.inegi.org.mx/wscatgeo/v2/localidades/310270004"
+    },
+    {
+      "id": "S02-310280001",
+      "name": "Dzilam de Bravo",
+      "official_name": "Dzilam de Bravo",
+      "coordinates": [
+        -88.8918797,
+        21.3932292
+      ],
+      "bounds": [
+        -88.9268797,
+        21.3752292,
+        -88.85687970000001,
+        21.4112292
+      ],
+      "population": "2455",
+      "cvegeo": "310280001",
+      "municipality": "Dzilam de Bravo",
+      "minZoom": 8.5,
+      "source_url": "https://gaia.inegi.org.mx/wscatgeo/v2/localidades/310280001"
+    },
+    {
+      "id": "S02-310650001",
+      "name": "San Felipe",
+      "official_name": "San Felipe",
+      "coordinates": [
+        -88.2320633,
+        21.5675989
+      ],
+      "bounds": [
+        -88.26706329999999,
+        21.5495989,
+        -88.1970633,
+        21.5855989
+      ],
+      "population": "2069",
+      "cvegeo": "310650001",
+      "municipality": "San Felipe",
+      "minZoom": 8.5,
+      "source_url": "https://gaia.inegi.org.mx/wscatgeo/v2/localidades/310650001"
+    },
+    {
+      "id": "S02-310610001",
+      "name": "Río Lagartos",
+      "official_name": "Río Lagartos",
+      "coordinates": [
+        -88.1579775,
+        21.5977506
+      ],
+      "bounds": [
+        -88.1929775,
+        21.5797506,
+        -88.1229775,
+        21.615750600000002
+      ],
+      "population": "2493",
+      "cvegeo": "310610001",
+      "municipality": "Río Lagartos",
+      "minZoom": 8.5,
+      "source_url": "https://gaia.inegi.org.mx/wscatgeo/v2/localidades/310610001"
+    },
+    {
+      "id": "S02-310610002",
+      "name": "Las Coloradas",
+      "official_name": "Las Coloradas",
+      "coordinates": [
+        -87.9906072,
+        21.6087247
+      ],
+      "bounds": [
+        -88.0256072,
+        21.5907247,
+        -87.9556072,
+        21.6267247
+      ],
+      "population": "1399",
+      "cvegeo": "310610002",
+      "municipality": "Río Lagartos",
+      "minZoom": 11,
+      "source_url": "https://gaia.inegi.org.mx/wscatgeo/v2/localidades/310610002"
+    },
+    {
+      "id": "S02-310960009",
+      "name": "El Cuyo",
+      "official_name": "El Cuyo",
+      "coordinates": [
+        -87.6781403,
+        21.5168589
+      ],
+      "bounds": [
+        -87.71314029999999,
+        21.4988589,
+        -87.6431403,
+        21.5348589
+      ],
+      "population": "1787",
+      "cvegeo": "310960009",
+      "municipality": "Tizimín",
+      "minZoom": 8.5,
+      "source_url": "https://gaia.inegi.org.mx/wscatgeo/v2/localidades/310960009"
+    }
+  ],
+  "road_kilometres": "Pending georeferenced official road reference posts; no chainage inferred from straight-line distance."
+}

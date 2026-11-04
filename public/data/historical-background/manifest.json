@@ -1,0 +1,256 @@
+{
+  "schema_version": 1,
+  "prepared_at": "2026-10-27T21:40:07.159193+00:00",
+  "frames": [
+    {
+      "id": "landsat-background-LT05_L2SP_020045_19860414_02_T1",
+      "year": 1986,
+      "date": "1986-04-14",
+      "image": "/data/historical-background/frames/1986-8e82909e60013801.png",
+      "bounds": [
+        -89.79164690238835,
+        21.24588650863516,
+        -89.53344494553471,
+        21.3390998966473
+      ],
+      "title": "Landsat · 1986-04-14",
+      "attribution": "USGS / NASA · Landsat",
+      "sourceUrl": "https://planetarycomputer.microsoft.com/api/stac/v1/collections/landsat-c2-l2/items/LT05_L2SP_020045_19860414_02_T1",
+      "resolution": "30 m",
+      "product_id": "LT05_L2SP_020045_19860414_02_T1",
+      "image_kind": "rgb",
+      "note": "Color natural. Resolución original 30 m; ampliar no añade detalle. Nubes y huecos permanecen visibles. La fotografía no implica una medición de costa aceptada.",
+      "image_sha256": "8e82909e6001380150bdf85f9fe0f389d82c6e52f2f1e87b6eac4593b313e71c",
+      "has_accepted_annual_measurements": true
+    },
+    {
+      "id": "landsat-background-LT05_L2SP_020045_19870417_02_T1",
+      "year": 1987,
+      "date": "1987-04-17",
+      "image": "/data/historical-background/frames/1987-e02470014ea385d8.png",
+      "bounds": [
+        -89.79164690238835,
+        21.24588650863516,
+        -89.53344494553471,
+        21.3390998966473
+      ],
+      "title": "Landsat · 1987-04-17",
+      "attribution": "USGS / NASA · Landsat",
+      "sourceUrl": "https://planetarycomputer.microsoft.com/api/stac/v1/collections/landsat-c2-l2/items/LT05_L2SP_020045_19870417_02_T1",
+      "resolution": "30 m",
+      "product_id": "LT05_L2SP_020045_19870417_02_T1",
+      "image_kind": "rgb",
+      "note": "Color natural. Resolución original 30 m; ampliar no añade detalle. Nubes y huecos permanecen visibles. La fotografía no implica una medición de costa aceptada.",
+      "image_sha256": "e02470014ea385d8ae096fdcde1f55aadda4c69ed97bd7785bba68a3a0500dc2",
+      "has_accepted_annual_measurements": true
+    },
+    {
+      "id": "landsat-background-LT04_L2SP_020045_19881105_02_T1",
+      "year": 1988,
+      "date": "1988-11-05",
+      "image": "/data/historical-background/frames/1988-7b525613a283782c.png",
+      "bounds": [
+        -89.79164690238835,
+        21.24588650863516,
+        -89.53344494553471,
+        21.3390998966473
+      ],
+      "title": "Landsat · 1988-11-05",
+      "attribution": "USGS / NASA · Landsat",
+      "sourceUrl": "https://planetarycomputer.microsoft.com/api/stac/v1/collections/landsat-c2-l2/items/LT04_L2SP_020045_19881105_02_T1",
+      "resolution": "30 m",
+      "product_id": "LT04_L2SP_020045_19881105_02_T1",
+      "image_kind": "rgb",
+      "note": "Color natural. Resolución original 30 m; ampliar no añade detalle. Nubes y huecos permanecen visibles. La fotografía no implica una medición de costa aceptada.",
+      "image_sha256": "7b525613a283782ceedd4c120e97dc3a157136e7bf65d4991a72d551000661c4",
+      "has_accepted_annual_measurements": true
+    },
+    {
+      "id": "landsat-background-LT04_L2SP_020045_19891023_02_T1",
+      "year": 1989,
+      "date": "1989-10-23",
+      "image": "/data/historical-background/frames/1989-16d1b6e75d186147.png",
+      "bounds": [
+        -89.79164690238835,
+        21.24588650863516,
+        -89.53344494553471,
+        21.3390998966473
+      ],
+      "title": "Landsat · 1989-10-23",
+      "attribution": "USGS / NASA · Landsat",
+      "sourceUrl": "https://planetarycomputer.microsoft.com/api/stac/v1/collections/landsat-c2-l2/items/LT04_L2SP_020045_19891023_02_T1",
+      "resolution": "30 m",
+      "product_id": "LT04_L2SP_020045_19891023_02_T1",
+      "image_kind": "green_band",
+      "note": "Banda verde en escala de grises; no hay RGB completo recibido. Resolución original 30 m; ampliar no añade detalle. Nubes y huecos permanecen visibles. La fotografía no implica una medición de costa aceptada.",
+      "image_sha256": "16d1b6e75d1861479e7ba9b4548054f88f625d0655b7d817271b25e25fbfb1cc",
+      "has_accepted_annual_measurements": false
+    },
+    {
+      "id": "landsat-background-LT05_L2SP_020045_19950525_02_T1",
+      "year": 1995,
+      "date": "1995-05-25",
+      "image": "/data/historical-background/frames/1995-8f9e826cc2dfc5e2.png",
+      "bounds": [
+        -89.79164690238835,
+        21.24588650863516,
+        -89.53344494553471,
+        21.3390998966473
+      ],
+      "title": "Landsat · 1995-05-25",
+      "attribution": "USGS / NASA · Landsat",
+      "sourceUrl": "https://planetarycomputer.microsoft.com/api/stac/v1/collections/landsat-c2-l2/items/LT05_L2SP_020045_19950525_02_T1",
+      "resolution": "30 m",
+      "product_id": "LT05_L2SP_020045_19950525_02_T1",
+      "image_kind": "rgb",
+      "note": "Color natural. Resolución original 30 m; ampliar no añade detalle. Nubes y huecos permanecen visibles. La fotografía no implica una medición de costa aceptada.",
+      "image_sha256": "8f9e826cc2dfc5e27fa42ea64530152563856da4591a6c69c3c301ef3004f976",
+      "has_accepted_annual_measurements": true
+    },
+    {
+      "id": "landsat-background-LT05_L2SP_020045_19960511_02_T1",
+      "year": 1996,
+      "date": "1996-05-11",
+      "image": "/data/historical-background/frames/1996-f27d06f4dec39759.png",
+      "bounds": [
+        -89.79164690238835,
+        21.24588650863516,
+        -89.53344494553471,
+        21.3390998966473
+      ],
+      "title": "Landsat · 1996-05-11",
+      "attribution": "USGS / NASA · Landsat",
+      "sourceUrl": "https://planetarycomputer.microsoft.com/api/stac/v1/collections/landsat-c2-l2/items/LT05_L2SP_020045_19960511_02_T1",
+      "resolution": "30 m",
+      "product_id": "LT05_L2SP_020045_19960511_02_T1",
+      "image_kind": "rgb",
+      "note": "Color natural. Resolución original 30 m; ampliar no añade detalle. Nubes y huecos permanecen visibles. La fotografía no implica una medición de costa aceptada.",
+      "image_sha256": "f27d06f4dec397593fc6b660367cf5ba4f3666e6d2f89f036e42476d8fea1d3f",
+      "has_accepted_annual_measurements": false
+    },
+    {
+      "id": "landsat-background-LT05_L2SP_020045_19970903_02_T1",
+      "year": 1997,
+      "date": "1997-09-03",
+      "image": "/data/historical-background/frames/1997-ffb8a211f6348399.png",
+      "bounds": [
+        -89.79164690238835,
+        21.24588650863516,
+        -89.53344494553471,
+        21.3390998966473
+      ],
+      "title": "Landsat · 1997-09-03",
+      "attribution": "USGS / NASA · Landsat",
+      "sourceUrl": "https://planetarycomputer.microsoft.com/api/stac/v1/collections/landsat-c2-l2/items/LT05_L2SP_020045_19970903_02_T1",
+      "resolution": "30 m",
+      "product_id": "LT05_L2SP_020045_19970903_02_T1",
+      "image_kind": "rgb",
+      "note": "Color natural. Resolución original 30 m; ampliar no añade detalle. Nubes y huecos permanecen visibles. La fotografía no implica una medición de costa aceptada.",
+      "image_sha256": "ffb8a211f63483995ada92cf5c5a05df61ebc7feadd0ecc046940b55a4b4fe66",
+      "has_accepted_annual_measurements": true
+    },
+    {
+      "id": "landsat-background-LT05_L2SP_020045_19980415_02_T1",
+      "year": 1998,
+      "date": "1998-04-15",
+      "image": "/data/historical-background/frames/1998-8012121ecf7260a4.png",
+      "bounds": [
+        -89.79164690238835,
+        21.24588650863516,
+        -89.53344494553471,
+        21.3390998966473
+      ],
+      "title": "Landsat · 1998-04-15",
+      "attribution": "USGS / NASA · Landsat",
+      "sourceUrl": "https://planetarycomputer.microsoft.com/api/stac/v1/collections/landsat-c2-l2/items/LT05_L2SP_020045_19980415_02_T1",
+      "resolution": "30 m",
+      "product_id": "LT05_L2SP_020045_19980415_02_T1",
+      "image_kind": "green_band",
+      "note": "Banda verde en escala de grises; no hay RGB completo recibido. Resolución original 30 m; ampliar no añade detalle. Nubes y huecos permanecen visibles. La fotografía no implica una medición de costa aceptada.",
+      "image_sha256": "8012121ecf7260a43a6dbcb27c89769a9c95c22647bfec18deef74fc32897212",
+      "has_accepted_annual_measurements": true
+    },
+    {
+      "id": "landsat-background-LE07_L2SP_020045_20040306_02_T1",
+      "year": 2004,
+      "date": "2004-03-06",
+      "image": "/data/historical-background/frames/2004-5d1aa22cbae240f8.png",
+      "bounds": [
+        -89.79164690238835,
+        21.24588650863516,
+        -89.53344494553471,
+        21.3390998966473
+      ],
+      "title": "Landsat · 2004-03-06",
+      "attribution": "USGS / NASA · Landsat",
+      "sourceUrl": "https://planetarycomputer.microsoft.com/api/stac/v1/collections/landsat-c2-l2/items/LE07_L2SP_020045_20040306_02_T1",
+      "resolution": "30 m",
+      "product_id": "LE07_L2SP_020045_20040306_02_T1",
+      "image_kind": "rgb",
+      "note": "Color natural. Resolución original 30 m; ampliar no añade detalle. Nubes y huecos permanecen visibles. La fotografía no implica una medición de costa aceptada.",
+      "image_sha256": "5d1aa22cbae240f8b685f0340f91569a68f44b92f8d43c7efc6e6ece699047bc",
+      "has_accepted_annual_measurements": false
+    },
+    {
+      "id": "landsat-background-LE07_L2SP_020045_20050325_02_T1",
+      "year": 2005,
+      "date": "2005-03-25",
+      "image": "/data/historical-background/frames/2005-5b6b17934bb3b390.png",
+      "bounds": [
+        -89.79164690238835,
+        21.24588650863516,
+        -89.53344494553471,
+        21.3390998966473
+      ],
+      "title": "Landsat · 2005-03-25",
+      "attribution": "USGS / NASA · Landsat",
+      "sourceUrl": "https://planetarycomputer.microsoft.com/api/stac/v1/collections/landsat-c2-l2/items/LE07_L2SP_020045_20050325_02_T1",
+      "resolution": "30 m",
+      "product_id": "LE07_L2SP_020045_20050325_02_T1",
+      "image_kind": "rgb",
+      "note": "Color natural. Resolución original 30 m; ampliar no añade detalle. Nubes y huecos permanecen visibles. La fotografía no implica una medición de costa aceptada.",
+      "image_sha256": "5b6b17934bb3b3905a941ab9b9e2058fbf966790d46c9ee76a962f8aefde2e21",
+      "has_accepted_annual_measurements": false
+    },
+    {
+      "id": "landsat-background-LE07_L2SP_020045_20060429_02_T1",
+      "year": 2006,
+      "date": "2006-04-29",
+      "image": "/data/historical-background/frames/2006-1a72b9a41acd8d30.png",
+      "bounds": [
+        -89.79164690238835,
+        21.24588650863516,
+        -89.53344494553471,
+        21.3390998966473
+      ],
+      "title": "Landsat · 2006-04-29",
+      "attribution": "USGS / NASA · Landsat",
+      "sourceUrl": "https://planetarycomputer.microsoft.com/api/stac/v1/collections/landsat-c2-l2/items/LE07_L2SP_020045_20060429_02_T1",
+      "resolution": "30 m",
+      "product_id": "LE07_L2SP_020045_20060429_02_T1",
+      "image_kind": "rgb",
+      "note": "Color natural. Resolución original 30 m; ampliar no añade detalle. Nubes y huecos permanecen visibles. La fotografía no implica una medición de costa aceptada.",
+      "image_sha256": "1a72b9a41acd8d30e3aeb5b813faa5c7b665a6db48bcfa08226c8262d27c9baa",
+      "has_accepted_annual_measurements": false
+    }
+  ],
+  "missing_years": [
+    1990,
+    1991,
+    1992,
+    1993,
+    1994,
+    1999,
+    2000,
+    2001,
+    2002,
+    2003,
+    2007,
+    2008,
+    2009,
+    2010
+  ],
+  "scope": "Received Chelem–Progreso raster window; not full regional coverage.",
+  "selection": "Exact year preferred. Missing years may show an explicitly labelled earlier reference. A later image is never used as a historical photograph.",
+  "limits": "Native Landsat 30 m. No sharpened or generated imagery. Some years have no received photograph. Waterline measurements have independent exact dates."
+}

@@ -1,0 +1,154 @@
+{
+  "version": 1,
+  "date": "2026-10-31",
+  "data_sha256": "c4c78d75907157d82e6932695cd82236fdfdcc7d343edea440b08ddc74501c4f",
+  "reviewer": "ChatGPT · inspección visual de fotos recibidas; no validación de campo",
+  "scope": "39 pares de posiciones en 13 municipios, priorizando los cambios más grandes por tercio espacial. No certifica las posiciones no revisadas.",
+  "action": "Excluir estas lecturas del visor, sin moverlas ni sustituirlas por cifras nuevas. Los datos originales permanecen intactos.",
+  "exclusions": [
+    {
+      "profile_id": "SC-30-0-2",
+      "capture": 6,
+      "date": "2016-03-07",
+      "original_offset_m": 49.0,
+      "reason": "water_patch",
+      "explanation": "El candidato cae dentro del agua, separado de la orilla visible.",
+      "figure": "sources-01.png",
+      "source_release": 20753,
+      "source_tile_zoom": 16,
+      "source_coordinate": [
+        -90.40358571061596,
+        20.856630941916368
+      ],
+      "source_metadata_url": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2020_r15/MapServer"
+    },
+    {
+      "profile_id": "SC-4-0-459",
+      "capture": 0,
+      "date": "2026-01-18",
+      "original_offset_m": -182.0,
+      "reason": "inland_road",
+      "explanation": "El candidato cae sobre un camino interior, no en la orilla del mar.",
+      "figure": "sources-01.png",
+      "source_release": 26334,
+      "source_tile_zoom": 16,
+      "source_coordinate": [
+        -90.37954242673193,
+        20.916100401097196
+      ],
+      "source_metadata_url": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2026_r07/MapServer"
+    },
+    {
+      "profile_id": "SC-88-0-248",
+      "capture": 187,
+      "date": "2023-07-01",
+      "original_offset_m": -179.0,
+      "reason": "inland_road",
+      "explanation": "El candidato cae sobre el borde de la carretera interior.",
+      "figure": "sources-02.png",
+      "source_release": 25285,
+      "source_tile_zoom": 16,
+      "source_coordinate": [
+        -89.3728566966663,
+        21.331380759093783
+      ],
+      "source_metadata_url": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2025_r05/MapServer"
+    },
+    {
+      "profile_id": "SC-84-0-20",
+      "capture": 164,
+      "date": "2023-09-27",
+      "original_offset_m": 49.0,
+      "reason": "water_patch",
+      "explanation": "El candidato corresponde a una mancha clara dentro del agua.",
+      "figure": "sources-03.png",
+      "source_release": 25285,
+      "source_tile_zoom": 16,
+      "source_coordinate": [
+        -89.0631337945631,
+        21.368576082040693
+      ],
+      "source_metadata_url": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2025_r05/MapServer"
+    },
+    {
+      "profile_id": "SC-84-0-35",
+      "capture": 157,
+      "date": "2020-04-22",
+      "original_offset_m": -137.0,
+      "reason": "inland_road",
+      "explanation": "El candidato cae sobre la carretera, detrás de la franja de vegetación.",
+      "figure": "sources-03.png",
+      "source_release": 10321,
+      "source_tile_zoom": 16,
+      "source_coordinate": [
+        -89.04870428805123,
+        21.369877475794468
+      ],
+      "source_metadata_url": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2022_r03/MapServer"
+    },
+    {
+      "profile_id": "SC-7-0-174",
+      "capture": 56,
+      "date": "2020-02-06",
+      "original_offset_m": -185.0,
+      "reason": "inland_road",
+      "explanation": "El candidato cae junto a un camino interior de las salinas.",
+      "figure": "sources-08.png",
+      "source_release": 20753,
+      "source_tile_zoom": 16,
+      "source_coordinate": [
+        -88.01272087819967,
+        21.60780315437612
+      ],
+      "source_metadata_url": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2020_r15/MapServer"
+    },
+    {
+      "profile_id": "SC-9-0-20",
+      "capture": 69,
+      "date": "2023-12-31",
+      "original_offset_m": -186.0,
+      "reason": "inland_road",
+      "explanation": "El candidato cae sobre un camino interior, separado del frente de playa.",
+      "figure": "sources-08.png",
+      "source_release": 22252,
+      "source_tile_zoom": 16,
+      "source_coordinate": [
+        -87.96685279413576,
+        21.60853630094017
+      ],
+      "source_metadata_url": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2026_r01/MapServer"
+    },
+    {
+      "profile_id": "SC-28-0-123",
+      "capture": 163,
+      "date": "2024-11-30",
+      "original_offset_m": -130.0,
+      "reason": "inland_road",
+      "explanation": "El candidato cae sobre la carretera detrás de la playa.",
+      "figure": "sources-13.png",
+      "source_release": 26334,
+      "source_tile_zoom": 16,
+      "source_coordinate": [
+        -89.14587280308966,
+        21.354002499686487
+      ],
+      "source_metadata_url": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2026_r07/MapServer"
+    },
+    {
+      "profile_id": "SC-84-0-10",
+      "capture": 163,
+      "date": "2024-11-30",
+      "original_offset_m": -111.0,
+      "reason": "inland_road",
+      "explanation": "El candidato cae sobre la carretera interior, no en el frente de playa.",
+      "figure": "sources-13.png",
+      "source_release": 22252,
+      "source_tile_zoom": 16,
+      "source_coordinate": [
+        -89.0723959640934,
+        21.36615052417616
+      ],
+      "source_metadata_url": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2026_r01/MapServer"
+    }
+  ]
+}
