@@ -1,0 +1,12 @@
+{
+  "version_date": "2026-11-04",
+  "site": "https://mapa-satelital.pages.dev/",
+  "cloudflare_deployment_id": "a749fc1b-cd0a-4b03-bc2d-d06319c8575c",
+  "delivery_archive_sha256": "55905294d6377e96fb0ceb06613d800df722f0075cc508b87454f115f69f9cad",
+  "public_data_files_verified": 6406,
+  "municipality_routes": 13,
+  "tests_passed": 33,
+  "typecheck_passed": true,
+  "build_passed": true,
+  "scope": "Public interface source and prepared assets; no private research archive or account credentials."
+}
