@@ -1,0 +1,9 @@
+{
+  "status": "pass",
+  "source": "work/hunucma-additional-review-20261106/approved-additional.json",
+  "sha256": "c911018e7e01a7e2e1ca9deba1e4dbbf766649d440d03c0c26160032008b1535",
+  "second_pass": "docs/qa/hunucma-additional-independent-review-20261106.json",
+  "corrections": 386,
+  "pending": 8,
+  "guard_normalizations": []
+}

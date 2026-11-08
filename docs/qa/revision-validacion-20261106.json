@@ -1,0 +1,72 @@
+{
+  "checked_on": "2026-11-06",
+  "status": "completed_with_documented_data_gaps",
+  "field_validated": false,
+  "tests": {
+    "command": "pnpm test",
+    "exit_code": 0,
+    "tests": 58,
+    "passed": 58,
+    "failed": 0,
+    "duration_ms": 139116.8771,
+    "log": "work/final-tests.log"
+  },
+  "typecheck": {"command": "pnpm typecheck", "exit_code": 0, "log": "work/final-typecheck.log"},
+  "build": {
+    "command": "pnpm build:public",
+    "exit_code": 0,
+    "municipal_pages": 13,
+    "warning": "Large JavaScript chunks; the full review payload is loaded dynamically on the global route.",
+    "log": "work/final-build.log"
+  },
+  "targeted_lint": {"files": 12, "exit_code": 0, "log": "work/final-targeted-lint.log"},
+  "repository_lint": {
+    "status": "preexisting_issues_remain",
+    "baseline_diagnostics": 56,
+    "current_diagnostics": 56,
+    "new_diagnostics_in_compared_scope": 0,
+    "comparison": "docs/qa/lint-comparison-20261106.json"
+  },
+  "diff_check": {"command": "git diff --check", "exit_code": 0},
+  "original_scientific_files": {
+    "unchanged_from_HEAD": true,
+    "files": [
+      "public/data/shorelines/photo-alignment/revised-data.json",
+      "public/data/shorelines/scenario/model.json",
+      "public/data/coastal-places.json"
+    ]
+  },
+  "shoreline_audit": {
+    "command": "pnpm audit:shorelines",
+    "exit_code": 0,
+    "approved_endpoint_pairs": 6946,
+    "fixed_2011_references": 880,
+    "pending_2011_references": 234,
+    "year_matrix_rows": 16710,
+    "strict_metadata_endpoints_checked": 5991,
+    "failures": 0,
+    "report": "docs/qa/municipal-shoreline-complete-audit-20261106.json"
+  },
+  "independent_code_review": "docs/qa/shoreline-code-independent-review-20261106.json",
+  "additional_hunucma_integration": "docs/qa/hunucma-additional-integration-20261106.json",
+  "preview": {
+    "url": "http://127.0.0.1:4173/municipio/hunucma/",
+    "retained_open": true,
+    "last_visible_analysis_year": 2020,
+    "last_visible_capture": "2020-12-30",
+    "screenshots": [
+      "docs/qa/progreso-orilla-2011-20261106.jpg",
+      "docs/qa/progreso-orilla-2025-20261106.jpg",
+      "docs/qa/hunucma-2015-sin-foto-20261106.jpg",
+      "docs/qa/hunucma-integracion-2020-20261106.jpg",
+      "docs/qa/rotulos-ixil-20261106.jpg"
+    ]
+  },
+  "publication": {"committed": false, "pushed": false, "deployed": false},
+  "limitations": [
+    "Missing 2011 references and ambiguous contacts remain pending without metres.",
+    "Not every profile has a photograph in every year; actual acquisition dates are preserved.",
+    "Visual tolerances are operational, not certified physical accuracy. Tide, waves, slope and full relative registration are not corrected.",
+    "Ixil project aliases do not resolve legal jurisdiction; Ixil Poniente has no confidently identified extent."
+  ]
+}

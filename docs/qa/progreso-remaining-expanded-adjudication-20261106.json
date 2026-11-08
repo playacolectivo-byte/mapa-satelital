@@ -1,0 +1,511 @@
+{
+  "date": "2026-11-06",
+  "status": "two_operator_visual_adjudication_complete_pending_endpoint_compilation",
+  "readings": [
+    {
+      "display_index": 1484,
+      "previous_choice": "pending_expanded_contact_review",
+      "operator_contact_offset_m": 0,
+      "source_panel": "work/progreso-remaining-review-20261105/expanded-1484-1485-1486-1487-1488-1489-1490-1491-1492-1493.png",
+      "source_panel_sha256": "864a3c53ec2e5d90e215c43c3b683ad461f959e8af7d0b4e4bdf94998c3a8ac6",
+      "source_pixel": [
+        104,
+        345
+      ],
+      "context_panels": [
+        {
+          "panel": "work/hunucma-audit-20261105/progreso-remaining-independent/context1484-20753-transects.png",
+          "sha256": "5f72c67151b27a4a02b2b144eaf253464f7990adbbac3d656b3794926a6c0e8c"
+        },
+        {
+          "panel": "work/hunucma-audit-20261105/progreso-remaining-independent/context1484-11019-native.png",
+          "sha256": "bd0dc7c4dac80930b1621bead9d6d432828608cca4e171816a9f87dfe1b98435"
+        }
+      ],
+      "reviewers": [
+        "dzemul_audit",
+        "hunucma_audit"
+      ],
+      "operational_interpretation_tolerance_m": 8,
+      "field_validated": false
+    },
+    {
+      "display_index": 1485,
+      "previous_choice": "pending_expand_window",
+      "operator_contact_offset_m": 10,
+      "source_panel": "work/progreso-remaining-review-20261105/expanded-1484-1485-1486-1487-1488-1489-1490-1491-1492-1493.png",
+      "source_panel_sha256": "864a3c53ec2e5d90e215c43c3b683ad461f959e8af7d0b4e4bdf94998c3a8ac6",
+      "source_pixel": [
+        232,
+        325
+      ],
+      "context_panels": [
+        {
+          "panel": "work/hunucma-audit-20261105/progreso-remaining-independent/context1484-20753-transects.png",
+          "sha256": "5f72c67151b27a4a02b2b144eaf253464f7990adbbac3d656b3794926a6c0e8c"
+        },
+        {
+          "panel": "work/hunucma-audit-20261105/progreso-remaining-independent/context1484-11019-native.png",
+          "sha256": "bd0dc7c4dac80930b1621bead9d6d432828608cca4e171816a9f87dfe1b98435"
+        }
+      ],
+      "reviewers": [
+        "dzemul_audit",
+        "hunucma_audit"
+      ],
+      "operational_interpretation_tolerance_m": 8,
+      "field_validated": false
+    },
+    {
+      "display_index": 1486,
+      "previous_choice": "pending_expand_window",
+      "operator_contact_offset_m": 10,
+      "source_panel": "work/progreso-remaining-review-20261105/expanded-1484-1485-1486-1487-1488-1489-1490-1491-1492-1493.png",
+      "source_panel_sha256": "864a3c53ec2e5d90e215c43c3b683ad461f959e8af7d0b4e4bdf94998c3a8ac6",
+      "source_pixel": [
+        360,
+        325
+      ],
+      "context_panels": [
+        {
+          "panel": "work/hunucma-audit-20261105/progreso-remaining-independent/context1484-20753-transects.png",
+          "sha256": "5f72c67151b27a4a02b2b144eaf253464f7990adbbac3d656b3794926a6c0e8c"
+        },
+        {
+          "panel": "work/hunucma-audit-20261105/progreso-remaining-independent/context1484-11019-native.png",
+          "sha256": "bd0dc7c4dac80930b1621bead9d6d432828608cca4e171816a9f87dfe1b98435"
+        }
+      ],
+      "reviewers": [
+        "dzemul_audit",
+        "hunucma_audit"
+      ],
+      "operational_interpretation_tolerance_m": 8,
+      "field_validated": false
+    },
+    {
+      "display_index": 1487,
+      "previous_choice": "pending_expand_window",
+      "operator_contact_offset_m": 12,
+      "source_panel": "work/progreso-remaining-review-20261105/expanded-1484-1485-1486-1487-1488-1489-1490-1491-1492-1493.png",
+      "source_panel_sha256": "864a3c53ec2e5d90e215c43c3b683ad461f959e8af7d0b4e4bdf94998c3a8ac6",
+      "source_pixel": [
+        488,
+        321
+      ],
+      "context_panels": [
+        {
+          "panel": "work/hunucma-audit-20261105/progreso-remaining-independent/context1484-20753-transects.png",
+          "sha256": "5f72c67151b27a4a02b2b144eaf253464f7990adbbac3d656b3794926a6c0e8c"
+        },
+        {
+          "panel": "work/hunucma-audit-20261105/progreso-remaining-independent/context1484-11019-native.png",
+          "sha256": "bd0dc7c4dac80930b1621bead9d6d432828608cca4e171816a9f87dfe1b98435"
+        }
+      ],
+      "reviewers": [
+        "dzemul_audit",
+        "hunucma_audit"
+      ],
+      "operational_interpretation_tolerance_m": 8,
+      "field_validated": false
+    },
+    {
+      "display_index": 1488,
+      "previous_choice": "pending_expand_window",
+      "operator_contact_offset_m": 20,
+      "source_panel": "work/progreso-remaining-review-20261105/expanded-1484-1485-1486-1487-1488-1489-1490-1491-1492-1493.png",
+      "source_panel_sha256": "864a3c53ec2e5d90e215c43c3b683ad461f959e8af7d0b4e4bdf94998c3a8ac6",
+      "source_pixel": [
+        616,
+        305
+      ],
+      "context_panels": [
+        {
+          "panel": "work/hunucma-audit-20261105/progreso-remaining-independent/context1484-20753-transects.png",
+          "sha256": "5f72c67151b27a4a02b2b144eaf253464f7990adbbac3d656b3794926a6c0e8c"
+        },
+        {
+          "panel": "work/hunucma-audit-20261105/progreso-remaining-independent/context1484-11019-native.png",
+          "sha256": "bd0dc7c4dac80930b1621bead9d6d432828608cca4e171816a9f87dfe1b98435"
+        }
+      ],
+      "reviewers": [
+        "dzemul_audit",
+        "hunucma_audit"
+      ],
+      "operational_interpretation_tolerance_m": 8,
+      "field_validated": false
+    },
+    {
+      "display_index": 1489,
+      "previous_choice": "pending_expand_window",
+      "operator_contact_offset_m": 20,
+      "source_panel": "work/progreso-remaining-review-20261105/expanded-1484-1485-1486-1487-1488-1489-1490-1491-1492-1493.png",
+      "source_panel_sha256": "864a3c53ec2e5d90e215c43c3b683ad461f959e8af7d0b4e4bdf94998c3a8ac6",
+      "source_pixel": [
+        744,
+        305
+      ],
+      "context_panels": [
+        {
+          "panel": "work/hunucma-audit-20261105/progreso-remaining-independent/context1484-20753-transects.png",
+          "sha256": "5f72c67151b27a4a02b2b144eaf253464f7990adbbac3d656b3794926a6c0e8c"
+        },
+        {
+          "panel": "work/hunucma-audit-20261105/progreso-remaining-independent/context1484-11019-native.png",
+          "sha256": "bd0dc7c4dac80930b1621bead9d6d432828608cca4e171816a9f87dfe1b98435"
+        }
+      ],
+      "reviewers": [
+        "dzemul_audit",
+        "hunucma_audit"
+      ],
+      "operational_interpretation_tolerance_m": 8,
+      "field_validated": false
+    },
+    {
+      "display_index": 1490,
+      "previous_choice": "pending_expand_window",
+      "operator_contact_offset_m": 15,
+      "source_panel": "work/progreso-remaining-review-20261105/expanded-1484-1485-1486-1487-1488-1489-1490-1491-1492-1493.png",
+      "source_panel_sha256": "864a3c53ec2e5d90e215c43c3b683ad461f959e8af7d0b4e4bdf94998c3a8ac6",
+      "source_pixel": [
+        872,
+        315
+      ],
+      "context_panels": [
+        {
+          "panel": "work/hunucma-audit-20261105/progreso-remaining-independent/context1484-20753-transects.png",
+          "sha256": "5f72c67151b27a4a02b2b144eaf253464f7990adbbac3d656b3794926a6c0e8c"
+        },
+        {
+          "panel": "work/hunucma-audit-20261105/progreso-remaining-independent/context1484-11019-native.png",
+          "sha256": "bd0dc7c4dac80930b1621bead9d6d432828608cca4e171816a9f87dfe1b98435"
+        }
+      ],
+      "reviewers": [
+        "dzemul_audit",
+        "hunucma_audit"
+      ],
+      "operational_interpretation_tolerance_m": 8,
+      "field_validated": false
+    },
+    {
+      "display_index": 1491,
+      "previous_choice": "pending_expand_window",
+      "operator_contact_offset_m": 8,
+      "source_panel": "work/progreso-remaining-review-20261105/expanded-1484-1485-1486-1487-1488-1489-1490-1491-1492-1493.png",
+      "source_panel_sha256": "864a3c53ec2e5d90e215c43c3b683ad461f959e8af7d0b4e4bdf94998c3a8ac6",
+      "source_pixel": [
+        1000,
+        329
+      ],
+      "context_panels": [
+        {
+          "panel": "work/hunucma-audit-20261105/progreso-remaining-independent/context1484-20753-transects.png",
+          "sha256": "5f72c67151b27a4a02b2b144eaf253464f7990adbbac3d656b3794926a6c0e8c"
+        },
+        {
+          "panel": "work/hunucma-audit-20261105/progreso-remaining-independent/context1484-11019-native.png",
+          "sha256": "bd0dc7c4dac80930b1621bead9d6d432828608cca4e171816a9f87dfe1b98435"
+        }
+      ],
+      "reviewers": [
+        "dzemul_audit",
+        "hunucma_audit"
+      ],
+      "operational_interpretation_tolerance_m": 8,
+      "field_validated": false
+    },
+    {
+      "display_index": 1492,
+      "previous_choice": "pending_expand_window",
+      "operator_contact_offset_m": -3,
+      "source_panel": "work/progreso-remaining-review-20261105/expanded-1484-1485-1486-1487-1488-1489-1490-1491-1492-1493.png",
+      "source_panel_sha256": "864a3c53ec2e5d90e215c43c3b683ad461f959e8af7d0b4e4bdf94998c3a8ac6",
+      "source_pixel": [
+        1128,
+        351
+      ],
+      "context_panels": [
+        {
+          "panel": "work/hunucma-audit-20261105/progreso-remaining-independent/context1484-20753-transects.png",
+          "sha256": "5f72c67151b27a4a02b2b144eaf253464f7990adbbac3d656b3794926a6c0e8c"
+        },
+        {
+          "panel": "work/hunucma-audit-20261105/progreso-remaining-independent/context1484-11019-native.png",
+          "sha256": "bd0dc7c4dac80930b1621bead9d6d432828608cca4e171816a9f87dfe1b98435"
+        }
+      ],
+      "reviewers": [
+        "dzemul_audit",
+        "hunucma_audit"
+      ],
+      "operational_interpretation_tolerance_m": 8,
+      "field_validated": false
+    },
+    {
+      "display_index": 1493,
+      "previous_choice": "pending_expand_window",
+      "operator_contact_offset_m": -10,
+      "source_panel": "work/progreso-remaining-review-20261105/expanded-1484-1485-1486-1487-1488-1489-1490-1491-1492-1493.png",
+      "source_panel_sha256": "864a3c53ec2e5d90e215c43c3b683ad461f959e8af7d0b4e4bdf94998c3a8ac6",
+      "source_pixel": [
+        1256,
+        365
+      ],
+      "context_panels": [
+        {
+          "panel": "work/hunucma-audit-20261105/progreso-remaining-independent/context1484-20753-transects.png",
+          "sha256": "5f72c67151b27a4a02b2b144eaf253464f7990adbbac3d656b3794926a6c0e8c"
+        },
+        {
+          "panel": "work/hunucma-audit-20261105/progreso-remaining-independent/context1484-11019-native.png",
+          "sha256": "bd0dc7c4dac80930b1621bead9d6d432828608cca4e171816a9f87dfe1b98435"
+        }
+      ],
+      "reviewers": [
+        "dzemul_audit",
+        "hunucma_audit"
+      ],
+      "operational_interpretation_tolerance_m": 8,
+      "field_validated": false
+    },
+    {
+      "display_index": 1721,
+      "previous_choice": "pending_expand_window",
+      "operator_contact_offset_m": -17.5,
+      "source_panel": "work/hunucma-audit-20261105/progreso-remaining-independent/expanded-native-1721-1730.png",
+      "source_panel_sha256": "1ba7629605e1588160e10df5655bbb8d74c0c3e3bb9573931690c7ecf157e72c",
+      "source_pixel": [
+        104,
+        380.0
+      ],
+      "context_panels": [
+        {
+          "panel": "work/hunucma-audit-20261105/progreso-remaining-independent/context1721-17825-native.png",
+          "sha256": "df58aec2f6877c90adc92c9e57c04f0c020f85f01229babdcdfb74a7e19f8a7f"
+        }
+      ],
+      "reviewers": [
+        "dzemul_audit",
+        "hunucma_audit"
+      ],
+      "operational_interpretation_tolerance_m": 8,
+      "field_validated": false
+    },
+    {
+      "display_index": 1722,
+      "previous_choice": "pending_expand_window",
+      "operator_contact_offset_m": -20,
+      "source_panel": "work/hunucma-audit-20261105/progreso-remaining-independent/expanded-native-1721-1730.png",
+      "source_panel_sha256": "1ba7629605e1588160e10df5655bbb8d74c0c3e3bb9573931690c7ecf157e72c",
+      "source_pixel": [
+        232,
+        385
+      ],
+      "context_panels": [
+        {
+          "panel": "work/hunucma-audit-20261105/progreso-remaining-independent/context1721-17825-native.png",
+          "sha256": "df58aec2f6877c90adc92c9e57c04f0c020f85f01229babdcdfb74a7e19f8a7f"
+        }
+      ],
+      "reviewers": [
+        "dzemul_audit",
+        "hunucma_audit"
+      ],
+      "operational_interpretation_tolerance_m": 8,
+      "field_validated": false
+    },
+    {
+      "display_index": 1723,
+      "previous_choice": "pending_expand_window",
+      "operator_contact_offset_m": -13,
+      "source_panel": "work/hunucma-audit-20261105/progreso-remaining-independent/expanded-native-1721-1730.png",
+      "source_panel_sha256": "1ba7629605e1588160e10df5655bbb8d74c0c3e3bb9573931690c7ecf157e72c",
+      "source_pixel": [
+        360,
+        371
+      ],
+      "context_panels": [
+        {
+          "panel": "work/hunucma-audit-20261105/progreso-remaining-independent/context1721-17825-native.png",
+          "sha256": "df58aec2f6877c90adc92c9e57c04f0c020f85f01229babdcdfb74a7e19f8a7f"
+        }
+      ],
+      "reviewers": [
+        "dzemul_audit",
+        "hunucma_audit"
+      ],
+      "operational_interpretation_tolerance_m": 8,
+      "field_validated": false
+    },
+    {
+      "display_index": 1724,
+      "previous_choice": "pending_expand_window",
+      "operator_contact_offset_m": -12,
+      "source_panel": "work/hunucma-audit-20261105/progreso-remaining-independent/expanded-native-1721-1730.png",
+      "source_panel_sha256": "1ba7629605e1588160e10df5655bbb8d74c0c3e3bb9573931690c7ecf157e72c",
+      "source_pixel": [
+        488,
+        369
+      ],
+      "context_panels": [
+        {
+          "panel": "work/hunucma-audit-20261105/progreso-remaining-independent/context1721-17825-native.png",
+          "sha256": "df58aec2f6877c90adc92c9e57c04f0c020f85f01229babdcdfb74a7e19f8a7f"
+        }
+      ],
+      "reviewers": [
+        "dzemul_audit",
+        "hunucma_audit"
+      ],
+      "operational_interpretation_tolerance_m": 8,
+      "field_validated": false
+    },
+    {
+      "display_index": 1725,
+      "previous_choice": "pending_expand_window",
+      "operator_contact_offset_m": -12.5,
+      "source_panel": "work/hunucma-audit-20261105/progreso-remaining-independent/expanded-native-1721-1730.png",
+      "source_panel_sha256": "1ba7629605e1588160e10df5655bbb8d74c0c3e3bb9573931690c7ecf157e72c",
+      "source_pixel": [
+        616,
+        370.0
+      ],
+      "context_panels": [
+        {
+          "panel": "work/hunucma-audit-20261105/progreso-remaining-independent/context1721-17825-native.png",
+          "sha256": "df58aec2f6877c90adc92c9e57c04f0c020f85f01229babdcdfb74a7e19f8a7f"
+        }
+      ],
+      "reviewers": [
+        "dzemul_audit",
+        "hunucma_audit"
+      ],
+      "operational_interpretation_tolerance_m": 8,
+      "field_validated": false
+    },
+    {
+      "display_index": 1726,
+      "previous_choice": "pending_expand_window",
+      "operator_contact_offset_m": -4.5,
+      "source_panel": "work/hunucma-audit-20261105/progreso-remaining-independent/expanded-native-1721-1730.png",
+      "source_panel_sha256": "1ba7629605e1588160e10df5655bbb8d74c0c3e3bb9573931690c7ecf157e72c",
+      "source_pixel": [
+        744,
+        354.0
+      ],
+      "context_panels": [
+        {
+          "panel": "work/hunucma-audit-20261105/progreso-remaining-independent/context1721-17825-native.png",
+          "sha256": "df58aec2f6877c90adc92c9e57c04f0c020f85f01229babdcdfb74a7e19f8a7f"
+        }
+      ],
+      "reviewers": [
+        "dzemul_audit",
+        "hunucma_audit"
+      ],
+      "operational_interpretation_tolerance_m": 8,
+      "field_validated": false
+    },
+    {
+      "display_index": 1727,
+      "previous_choice": "pending_expand_window",
+      "operator_contact_offset_m": -7,
+      "source_panel": "work/hunucma-audit-20261105/progreso-remaining-independent/expanded-native-1721-1730.png",
+      "source_panel_sha256": "1ba7629605e1588160e10df5655bbb8d74c0c3e3bb9573931690c7ecf157e72c",
+      "source_pixel": [
+        872,
+        359
+      ],
+      "context_panels": [
+        {
+          "panel": "work/hunucma-audit-20261105/progreso-remaining-independent/context1721-17825-native.png",
+          "sha256": "df58aec2f6877c90adc92c9e57c04f0c020f85f01229babdcdfb74a7e19f8a7f"
+        }
+      ],
+      "reviewers": [
+        "dzemul_audit",
+        "hunucma_audit"
+      ],
+      "operational_interpretation_tolerance_m": 8,
+      "field_validated": false
+    },
+    {
+      "display_index": 1728,
+      "previous_choice": "pending_expand_window",
+      "operator_contact_offset_m": -15.5,
+      "source_panel": "work/hunucma-audit-20261105/progreso-remaining-independent/expanded-native-1721-1730.png",
+      "source_panel_sha256": "1ba7629605e1588160e10df5655bbb8d74c0c3e3bb9573931690c7ecf157e72c",
+      "source_pixel": [
+        1000,
+        376.0
+      ],
+      "context_panels": [
+        {
+          "panel": "work/hunucma-audit-20261105/progreso-remaining-independent/context1721-17825-native.png",
+          "sha256": "df58aec2f6877c90adc92c9e57c04f0c020f85f01229babdcdfb74a7e19f8a7f"
+        }
+      ],
+      "reviewers": [
+        "dzemul_audit",
+        "hunucma_audit"
+      ],
+      "operational_interpretation_tolerance_m": 8,
+      "field_validated": false
+    },
+    {
+      "display_index": 1729,
+      "previous_choice": "pending_expand_window",
+      "operator_contact_offset_m": -22.5,
+      "source_panel": "work/hunucma-audit-20261105/progreso-remaining-independent/expanded-native-1721-1730.png",
+      "source_panel_sha256": "1ba7629605e1588160e10df5655bbb8d74c0c3e3bb9573931690c7ecf157e72c",
+      "source_pixel": [
+        1128,
+        390.0
+      ],
+      "context_panels": [
+        {
+          "panel": "work/hunucma-audit-20261105/progreso-remaining-independent/context1721-17825-native.png",
+          "sha256": "df58aec2f6877c90adc92c9e57c04f0c020f85f01229babdcdfb74a7e19f8a7f"
+        }
+      ],
+      "reviewers": [
+        "dzemul_audit",
+        "hunucma_audit"
+      ],
+      "operational_interpretation_tolerance_m": 8,
+      "field_validated": false
+    },
+    {
+      "display_index": 1730,
+      "previous_choice": 67,
+      "operator_contact_offset_m": -29.5,
+      "source_panel": "work/hunucma-audit-20261105/progreso-remaining-independent/expanded-native-1721-1730.png",
+      "source_panel_sha256": "1ba7629605e1588160e10df5655bbb8d74c0c3e3bb9573931690c7ecf157e72c",
+      "source_pixel": [
+        1256,
+        404.0
+      ],
+      "context_panels": [
+        {
+          "panel": "work/hunucma-audit-20261105/progreso-remaining-independent/context1721-17825-native.png",
+          "sha256": "df58aec2f6877c90adc92c9e57c04f0c020f85f01229babdcdfb74a7e19f8a7f"
+        }
+      ],
+      "reviewers": [
+        "dzemul_audit",
+        "hunucma_audit"
+      ],
+      "operational_interpretation_tolerance_m": 8,
+      "field_validated": false
+    }
+  ],
+  "notes": [
+    "1484 was initially -18m from a narrow crop at a wet/dry sand boundary. Full native context establishes the apparent water/sand edge near 0m; that original candidate was withdrawn before final publication.",
+    "The lower dark interior band is not used as the coastline. Native two-dimensional texture continuity, not RGB classifier scores, defines the retained apparent contacts.",
+    "2011 context for the first group confirms that a much wider beach is visible in 2019; no cause, tide correction or physical accuracy is certified."
+  ]
+}

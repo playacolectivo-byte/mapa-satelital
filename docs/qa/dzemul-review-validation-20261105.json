@@ -1,0 +1,539 @@
+{
+  "date": "2026-11-05",
+  "source_scope_key": "Dzemul",
+  "profiles": 134,
+  "photo_readings_visually_inspected": 1073,
+  "photo_readings_proposed": 1072,
+  "source_footprint_seams_pending": 1,
+  "fixed_2011_references": 134,
+  "reference_independent_cross_review": {
+    "scope": "All 1,072 proposed readings: 134 references by root and 938 temporal readings by hunucma_audit",
+    "report": "docs/qa/dzemul-independent-reference-review-20261105.json",
+    "operational_tolerance_m": 8,
+    "field_validated": false,
+    "temporal_report": "docs/qa/dzemul-independent-temporal-review-20261105.json"
+  },
+  "source_tiles": 814,
+  "source_tile_hashes_verified": 814,
+  "originally_rejected_now_interpretable": 232,
+  "absolute_offset_adjustment_m": {
+    "non_null_old_offsets": 1034,
+    "median": 2.0,
+    "max": 140.0,
+    "over20m": 42
+  },
+  "local_metric_vs_WGS84_geodesic_max_difference_m": 0.2309503407172926,
+  "native_z17_display_ground_pixel_m": {
+    "min": 1.112457809393977,
+    "max": 1.1125778157357606
+  },
+  "operational_interpretation_tolerance_m": 8,
+  "field_validated": false,
+  "year_coverage": {
+    "2011": {
+      "readings_proposed": 134,
+      "profiles_with_photo_proposal": 134,
+      "profiles_pending": 0
+    },
+    "2012": {
+      "readings_proposed": 134,
+      "profiles_with_photo_proposal": 134,
+      "profiles_pending": 0
+    },
+    "2013": {
+      "readings_proposed": 50,
+      "profiles_with_photo_proposal": 50,
+      "profiles_pending": 84
+    },
+    "2014": {
+      "readings_proposed": 0,
+      "profiles_with_photo_proposal": 0,
+      "profiles_pending": 134
+    },
+    "2015": {
+      "readings_proposed": 84,
+      "profiles_with_photo_proposal": 84,
+      "profiles_pending": 50
+    },
+    "2016": {
+      "readings_proposed": 0,
+      "profiles_with_photo_proposal": 0,
+      "profiles_pending": 134
+    },
+    "2017": {
+      "readings_proposed": 0,
+      "profiles_with_photo_proposal": 0,
+      "profiles_pending": 134
+    },
+    "2018": {
+      "readings_proposed": 0,
+      "profiles_with_photo_proposal": 0,
+      "profiles_pending": 134
+    },
+    "2019": {
+      "readings_proposed": 176,
+      "profiles_with_photo_proposal": 133,
+      "profiles_pending": 1
+    },
+    "2020": {
+      "readings_proposed": 155,
+      "profiles_with_photo_proposal": 91,
+      "profiles_pending": 43
+    },
+    "2021": {
+      "readings_proposed": 0,
+      "profiles_with_photo_proposal": 0,
+      "profiles_pending": 134
+    },
+    "2022": {
+      "readings_proposed": 70,
+      "profiles_with_photo_proposal": 70,
+      "profiles_pending": 64
+    },
+    "2023": {
+      "readings_proposed": 123,
+      "profiles_with_photo_proposal": 123,
+      "profiles_pending": 11
+    },
+    "2024": {
+      "readings_proposed": 0,
+      "profiles_with_photo_proposal": 0,
+      "profiles_pending": 134
+    },
+    "2025": {
+      "readings_proposed": 146,
+      "profiles_with_photo_proposal": 134,
+      "profiles_pending": 0
+    }
+  },
+  "large_adjustments": [
+    {
+      "profile_id": "SC-88-0-178",
+      "capture": 40,
+      "date": "2011-08-01",
+      "old_accepted": false,
+      "old_offset_m": -6.0,
+      "manual_offset_m": 15,
+      "difference_m": 21.0,
+      "source": "dzemul-11019-SC-88-0-178"
+    },
+    {
+      "profile_id": "SC-88-0-181",
+      "capture": 40,
+      "date": "2011-08-01",
+      "old_accepted": false,
+      "old_offset_m": -101.0,
+      "manual_offset_m": 13,
+      "difference_m": 114.0,
+      "source": "dzemul-11019-SC-88-0-181"
+    },
+    {
+      "profile_id": "SC-88-0-190",
+      "capture": 40,
+      "date": "2011-08-01",
+      "old_accepted": false,
+      "old_offset_m": -56.0,
+      "manual_offset_m": 1,
+      "difference_m": 57.0,
+      "source": "dzemul-11019-SC-88-0-190"
+    },
+    {
+      "profile_id": "SC-88-0-196",
+      "capture": 40,
+      "date": "2011-08-01",
+      "old_accepted": false,
+      "old_offset_m": -39.0,
+      "manual_offset_m": -8,
+      "difference_m": 31.0,
+      "source": "dzemul-11019-SC-88-0-196"
+    },
+    {
+      "profile_id": "SC-88-0-197",
+      "capture": 40,
+      "date": "2011-08-01",
+      "old_accepted": false,
+      "old_offset_m": -38.0,
+      "manual_offset_m": -7,
+      "difference_m": 31.0,
+      "source": "dzemul-11019-SC-88-0-197"
+    },
+    {
+      "profile_id": "SC-88-0-203",
+      "capture": 40,
+      "date": "2011-08-01",
+      "old_accepted": false,
+      "old_offset_m": -31.0,
+      "manual_offset_m": -10,
+      "difference_m": 21.0,
+      "source": "dzemul-11019-SC-88-0-203"
+    },
+    {
+      "profile_id": "SC-88-0-226",
+      "capture": 40,
+      "date": "2011-08-01",
+      "old_accepted": false,
+      "old_offset_m": -106.0,
+      "manual_offset_m": -5,
+      "difference_m": 101.0,
+      "source": "dzemul-11019-SC-88-0-226"
+    },
+    {
+      "profile_id": "SC-88-0-227",
+      "capture": 40,
+      "date": "2011-08-01",
+      "old_accepted": false,
+      "old_offset_m": -38.0,
+      "manual_offset_m": -16,
+      "difference_m": 22.0,
+      "source": "dzemul-11019-SC-88-0-227"
+    },
+    {
+      "profile_id": "SC-88-0-254",
+      "capture": 40,
+      "date": "2011-08-01",
+      "old_accepted": false,
+      "old_offset_m": -70.0,
+      "manual_offset_m": -6,
+      "difference_m": 64.0,
+      "source": "dzemul-11019-SC-88-0-254"
+    },
+    {
+      "profile_id": "SC-88-0-260",
+      "capture": 40,
+      "date": "2011-08-01",
+      "old_accepted": false,
+      "old_offset_m": -73.0,
+      "manual_offset_m": -18,
+      "difference_m": 55.0,
+      "source": "dzemul-11019-SC-88-0-260"
+    },
+    {
+      "profile_id": "SC-88-0-166",
+      "capture": 177,
+      "date": "2012-12-15",
+      "old_accepted": false,
+      "old_offset_m": -11.0,
+      "manual_offset_m": 12,
+      "difference_m": 23.0,
+      "source": "dzemul-27946-SC-88-0-166-c177"
+    },
+    {
+      "profile_id": "SC-88-0-245",
+      "capture": 177,
+      "date": "2012-12-15",
+      "old_accepted": false,
+      "old_offset_m": 76.0,
+      "manual_offset_m": -6,
+      "difference_m": 82.0,
+      "source": "dzemul-27946-SC-88-0-245-c177"
+    },
+    {
+      "profile_id": "SC-88-0-280",
+      "capture": 177,
+      "date": "2012-12-15",
+      "old_accepted": false,
+      "old_offset_m": -88.0,
+      "manual_offset_m": 5,
+      "difference_m": 93.0,
+      "source": "dzemul-27946-SC-88-0-280-c177"
+    },
+    {
+      "profile_id": "SC-88-0-295",
+      "capture": 177,
+      "date": "2012-12-15",
+      "old_accepted": false,
+      "old_offset_m": 107.0,
+      "manual_offset_m": 43,
+      "difference_m": 64.0,
+      "source": "dzemul-27946-SC-88-0-295-c177"
+    },
+    {
+      "profile_id": "SC-88-0-184",
+      "capture": 206,
+      "date": "2015-02-16",
+      "old_accepted": false,
+      "old_offset_m": 48.0,
+      "manual_offset_m": -4,
+      "difference_m": 52.0,
+      "source": "dzemul-18820-SC-88-0-184-c206"
+    },
+    {
+      "profile_id": "SC-88-0-211",
+      "capture": 206,
+      "date": "2015-02-16",
+      "old_accepted": false,
+      "old_offset_m": 30.0,
+      "manual_offset_m": 3,
+      "difference_m": 27.0,
+      "source": "dzemul-18820-SC-88-0-211-c206"
+    },
+    {
+      "profile_id": "SC-88-0-255",
+      "capture": 216,
+      "date": "2013-05-16",
+      "old_accepted": false,
+      "old_offset_m": -146.0,
+      "manual_offset_m": -8,
+      "difference_m": 138.0,
+      "source": "dzemul-18820-SC-88-0-255-c216"
+    },
+    {
+      "profile_id": "SC-88-0-164",
+      "capture": 207,
+      "date": "2025-11-25",
+      "old_accepted": false,
+      "old_offset_m": -42.0,
+      "manual_offset_m": -8,
+      "difference_m": 34.0,
+      "source": "dzemul-26334-SC-88-0-164-c207"
+    },
+    {
+      "profile_id": "SC-88-0-165",
+      "capture": 207,
+      "date": "2025-11-25",
+      "old_accepted": false,
+      "old_offset_m": 95.0,
+      "manual_offset_m": -8,
+      "difference_m": 103.0,
+      "source": "dzemul-26334-SC-88-0-165-c207"
+    },
+    {
+      "profile_id": "SC-88-0-166",
+      "capture": 197,
+      "date": "2025-10-11",
+      "old_accepted": false,
+      "old_offset_m": -37.0,
+      "manual_offset_m": -4,
+      "difference_m": 33.0,
+      "source": "dzemul-26334-SC-88-0-166-c197"
+    },
+    {
+      "profile_id": "SC-88-0-167",
+      "capture": 197,
+      "date": "2025-10-11",
+      "old_accepted": false,
+      "old_offset_m": -59.0,
+      "manual_offset_m": -16,
+      "difference_m": 43.0,
+      "source": "dzemul-26334-SC-88-0-167-c197"
+    },
+    {
+      "profile_id": "SC-88-0-172",
+      "capture": 197,
+      "date": "2025-10-11",
+      "old_accepted": false,
+      "old_offset_m": -106.0,
+      "manual_offset_m": 1,
+      "difference_m": 107.0,
+      "source": "dzemul-26334-SC-88-0-172-c197"
+    },
+    {
+      "profile_id": "SC-88-0-185",
+      "capture": 197,
+      "date": "2025-10-11",
+      "old_accepted": false,
+      "old_offset_m": -60.0,
+      "manual_offset_m": -12,
+      "difference_m": 48.0,
+      "source": "dzemul-26334-SC-88-0-185-c197"
+    },
+    {
+      "profile_id": "SC-88-0-187",
+      "capture": 215,
+      "date": "2025-12-21",
+      "old_accepted": false,
+      "old_offset_m": -26.0,
+      "manual_offset_m": -3,
+      "difference_m": 23.0,
+      "source": "dzemul-26334-SC-88-0-187-c215"
+    },
+    {
+      "profile_id": "SC-88-0-189",
+      "capture": 215,
+      "date": "2025-12-21",
+      "old_accepted": false,
+      "old_offset_m": -36.0,
+      "manual_offset_m": -2,
+      "difference_m": 34.0,
+      "source": "dzemul-26334-SC-88-0-189-c215"
+    },
+    {
+      "profile_id": "SC-88-0-191",
+      "capture": 215,
+      "date": "2025-12-21",
+      "old_accepted": false,
+      "old_offset_m": -53.0,
+      "manual_offset_m": -7,
+      "difference_m": 46.0,
+      "source": "dzemul-26334-SC-88-0-191-c215"
+    },
+    {
+      "profile_id": "SC-88-0-195",
+      "capture": 215,
+      "date": "2025-12-21",
+      "old_accepted": false,
+      "old_offset_m": -119.0,
+      "manual_offset_m": -6,
+      "difference_m": 113.0,
+      "source": "dzemul-26334-SC-88-0-195-c215"
+    },
+    {
+      "profile_id": "SC-88-0-197",
+      "capture": 215,
+      "date": "2025-12-21",
+      "old_accepted": false,
+      "old_offset_m": -122.0,
+      "manual_offset_m": -6,
+      "difference_m": 116.0,
+      "source": "dzemul-26334-SC-88-0-197-c215"
+    },
+    {
+      "profile_id": "SC-88-0-207",
+      "capture": 215,
+      "date": "2025-12-21",
+      "old_accepted": false,
+      "old_offset_m": -66.0,
+      "manual_offset_m": -9,
+      "difference_m": 57.0,
+      "source": "dzemul-26334-SC-88-0-207-c215"
+    },
+    {
+      "profile_id": "SC-88-0-208",
+      "capture": 215,
+      "date": "2025-12-21",
+      "old_accepted": false,
+      "old_offset_m": -53.0,
+      "manual_offset_m": -5,
+      "difference_m": 48.0,
+      "source": "dzemul-26334-SC-88-0-208-c215"
+    },
+    {
+      "profile_id": "SC-88-0-215",
+      "capture": 215,
+      "date": "2025-12-21",
+      "old_accepted": false,
+      "old_offset_m": -48.0,
+      "manual_offset_m": -9,
+      "difference_m": 39.0,
+      "source": "dzemul-26334-SC-88-0-215-c215"
+    },
+    {
+      "profile_id": "SC-88-0-228",
+      "capture": 187,
+      "date": "2023-07-01",
+      "old_accepted": false,
+      "old_offset_m": -37.0,
+      "manual_offset_m": -6,
+      "difference_m": 31.0,
+      "source": "dzemul-25285-SC-88-0-228-c187"
+    },
+    {
+      "profile_id": "SC-88-0-165",
+      "capture": 52,
+      "date": "2019-11-22",
+      "old_accepted": false,
+      "old_offset_m": -26.0,
+      "manual_offset_m": 3,
+      "difference_m": 29.0,
+      "source": "dzemul-10321-SC-88-0-165-c52"
+    },
+    {
+      "profile_id": "SC-88-0-166",
+      "capture": 52,
+      "date": "2019-11-22",
+      "old_accepted": false,
+      "old_offset_m": -96.0,
+      "manual_offset_m": -5,
+      "difference_m": 91.0,
+      "source": "dzemul-10321-SC-88-0-166-c52"
+    },
+    {
+      "profile_id": "SC-88-0-167",
+      "capture": 52,
+      "date": "2019-11-22",
+      "old_accepted": false,
+      "old_offset_m": -98.0,
+      "manual_offset_m": 1,
+      "difference_m": 99.0,
+      "source": "dzemul-10321-SC-88-0-167-c52"
+    },
+    {
+      "profile_id": "SC-88-0-168",
+      "capture": 52,
+      "date": "2019-11-22",
+      "old_accepted": false,
+      "old_offset_m": -52.0,
+      "manual_offset_m": 4,
+      "difference_m": 56.0,
+      "source": "dzemul-10321-SC-88-0-168-c52"
+    },
+    {
+      "profile_id": "SC-88-0-169",
+      "capture": 52,
+      "date": "2019-11-22",
+      "old_accepted": false,
+      "old_offset_m": -143.0,
+      "manual_offset_m": -3,
+      "difference_m": 140.0,
+      "source": "dzemul-10321-SC-88-0-169-c52"
+    },
+    {
+      "profile_id": "SC-88-0-170",
+      "capture": 52,
+      "date": "2019-11-22",
+      "old_accepted": false,
+      "old_offset_m": -110.0,
+      "manual_offset_m": -8,
+      "difference_m": 102.0,
+      "source": "dzemul-10321-SC-88-0-170-c52"
+    },
+    {
+      "profile_id": "SC-88-0-171",
+      "capture": 52,
+      "date": "2019-11-22",
+      "old_accepted": false,
+      "old_offset_m": -52.0,
+      "manual_offset_m": -6,
+      "difference_m": 46.0,
+      "source": "dzemul-10321-SC-88-0-171-c52"
+    },
+    {
+      "profile_id": "SC-88-0-173",
+      "capture": 52,
+      "date": "2019-11-22",
+      "old_accepted": false,
+      "old_offset_m": -62.0,
+      "manual_offset_m": -3,
+      "difference_m": 59.0,
+      "source": "dzemul-10321-SC-88-0-173-c52"
+    },
+    {
+      "profile_id": "SC-88-0-174",
+      "capture": 52,
+      "date": "2019-11-22",
+      "old_accepted": false,
+      "old_offset_m": -28.0,
+      "manual_offset_m": 2,
+      "difference_m": 30.0,
+      "source": "dzemul-10321-SC-88-0-174-c52"
+    },
+    {
+      "profile_id": "SC-88-0-175",
+      "capture": 52,
+      "date": "2019-11-22",
+      "old_accepted": false,
+      "old_offset_m": -101.0,
+      "manual_offset_m": -1,
+      "difference_m": 100.0,
+      "source": "dzemul-10321-SC-88-0-175-c52"
+    }
+  ],
+  "failed_integrity_assertions": 0,
+  "limitations": [
+    "8m is a visual interpretation tolerance, not measured physical accuracy or a calibrated standard uncertainty.",
+    "Tide, wave setup, beach slope, relative orthoregistration and capture mosaic seams are not globally corrected.",
+    "One profile/date is explicitly rejected at a source footprint seam; missing years have null measurements rather than interpolation disguised as observation."
+  ],
+  "independently_reviewed_proposals": 1072,
+  "last_review_date": "2026-11-06"
+}

@@ -1,0 +1,41 @@
+{
+  "status": "pass",
+  "grid_sha256": "ced7ebb8769e95352fa1317b2b0b7847fef4d64342ce03b70f7e98fc8d09883b",
+  "station_frames_checked": 46104,
+  "measured": 2171,
+  "pending": 43933,
+  "baseline_frames": [
+    {
+      "slug": "progreso",
+      "measured": 392,
+      "total": 392
+    },
+    {
+      "slug": "hunucma",
+      "measured": 152,
+      "total": 152
+    },
+    {
+      "slug": "dzemul",
+      "measured": 134,
+      "total": 134
+    }
+  ],
+  "scopes": [
+    {
+      "slug": "progreso",
+      "stations": 392,
+      "segments": 7
+    },
+    {
+      "slug": "hunucma",
+      "stations": 152,
+      "segments": 2
+    },
+    {
+      "slug": "dzemul",
+      "stations": 134,
+      "segments": 1
+    }
+  ]
+}

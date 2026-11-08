@@ -3,8 +3,9 @@ import type {WaybackItem} from '@esri/wayback-core';
 import {isVerifiedHdYear,type LocalEsriCapture} from './esri-captures.ts';
 import type {CoastalPhotoOption} from './esri-coastal-photos.ts';
 
-type MunicipalCapture={municipality:string;date:string;year:number;coordinates:[number,number];profile_id:string;releases:number[];metadata:{date:number;provider:string;source:string;resolution:number;accuracy:number|null}};
-export type MunicipalPhotoCatalogue={coastal_views:{name:string;bounds:[number,number,number,number];coordinates:[number,number]}[];captures:MunicipalCapture[];compatible_captures:(MunicipalCapture&{positions:number})[];anchors:{municipality:string;coordinates:[number,number];profile_id:string;profile_coordinates:[number,number];captures:{year:number;releases:number[]}[]}[]};
+export type MunicipalCapture={municipality:string;date:string;year:number;coordinates:[number,number];profile_id:string;releases:number[];reference_positions?:number;metadata:{date:number;provider:string;source:string;resolution:number;accuracy:number|null}};
+export type MunicipalPhotoAnchor={municipality:string;coordinates:[number,number];profile_id:string;profile_coordinates:[number,number];captures:{year:number;releases:number[]}[];review_scope?:'municipality'|'local';scope_profile_ids?:string[];dated_captures?:MunicipalCapture[];compatible_captures?:(MunicipalCapture&{positions:number})[]};
+export type MunicipalPhotoCatalogue={coastal_views:{name:string;bounds:[number,number,number,number];coordinates:[number,number]}[];captures:MunicipalCapture[];compatible_captures:(MunicipalCapture&{positions:number})[];anchors:MunicipalPhotoAnchor[]};
 export function municipalPhotoLocation(catalogue:MunicipalPhotoCatalogue,municipality:string):PhotoLocation|null{
  const view=catalogue.coastal_views.find(v=>v.name===municipality);
  return view?{name:municipality,municipality,coordinates:view.coordinates,bounds:view.bounds}:null;
@@ -38,12 +39,13 @@ export function municipalPhotoYears(catalogue:MunicipalPhotoCatalogue,municipali
 /** Current-study selectors share this closed set. Reference years remain
  * available, but an interpolated endpoint or a photo without a baseline does
  * not make an additional year selectable. */
-function compatibleCaptures(catalogue:MunicipalPhotoCatalogue,municipality:string|null,coordinates?:[number,number]){
+function compatibleCaptures(catalogue:MunicipalPhotoCatalogue,municipality:string|null,coordinates?:[number,number],dated=false){
  const center=coordinates??catalogue.coastal_views.find(v=>v.name===municipality)?.coordinates;
  if(!center)return [];
  const anchor=catalogue.anchors.filter(a=>a.municipality===municipality).sort((a,b)=>distance(a.coordinates,center)-distance(b.coordinates,center))[0];
  if(!anchor)return [];
- return catalogue.compatible_captures.filter(c=>c.municipality===municipality&&c.positions>0).map(c=>({...c,releases:c.releases.filter(release=>anchor.captures.some(a=>a.year===c.year&&a.releases.includes(release)))})).filter(c=>c.releases.length>0);
+ if(anchor.review_scope)return dated?(anchor.dated_captures??[]).map(c=>({...c,positions:1})):anchor.compatible_captures??[];
+ return (dated?catalogue.captures.map(c=>({...c,positions:1})):catalogue.compatible_captures).filter(c=>c.municipality===municipality&&c.positions>0).map(c=>({...c,releases:c.releases.filter(release=>anchor.captures.some(a=>a.year===c.year&&a.releases.includes(release)))})).filter(c=>c.releases.length>0);
 }
 export function municipalComparisonYears(catalogue:MunicipalPhotoCatalogue,municipality:string|null,first:number,last:number,coordinates?:[number,number]):number[]{
  return [...new Set(compatibleCaptures(catalogue,municipality,coordinates).filter(c=>c.year>=first&&c.year<=last).map(c=>c.year))].sort((a,b)=>a-b);
@@ -56,14 +58,19 @@ export function municipalComparisonOptions(items:WaybackItem[],catalogue:Municip
  const anchor=scopeCoordinates??catalogue.coastal_views.find(v=>v.name===municipality)?.coordinates;
  if(!anchor)return [];
  const captures=compatibleCaptures(catalogue,municipality,scopeCoordinates);
+ return comparisonOptionsForCaptures(items,catalogue,municipality,anchor,captures);
+}
+function comparisonOptionsForCaptures(items:WaybackItem[],catalogue:MunicipalPhotoCatalogue,municipality:string|null,anchor:[number,number],captures:(MunicipalCapture&{positions:number})[]):CoastalPhotoOption[]{
  const byRelease=new Map(items.map(item=>[item.releaseNum,item]));
  const result:CoastalPhotoOption[]=[];
  for(const year of [...new Set(captures.map(c=>c.year))].sort((a,b)=>a-b)){
   // One reviewed edition per place/year, chosen by actual accepted coverage.
   // Camera position, zoom and late point replies never select a new edition.
-  const rows=captures.filter(c=>c.year===year),scores=new Map<number,number>();
-  for(const row of rows)for(const release of row.releases)if(byRelease.has(release))scores.set(release,(scores.get(release)??0)+row.positions);
-  const release=[...scores].sort((a,b)=>b[1]-a[1]||byRelease.get(b[0])!.releaseDateLabel.localeCompare(byRelease.get(a[0])!.releaseDateLabel)||b[0]-a[0])[0]?.[0];
+  const rows=captures.filter(c=>c.year===year),scores=new Map<number,number>(),references=new Map<number,number>();
+  for(const row of rows)for(const release of row.releases)if(byRelease.has(release)){scores.set(release,(scores.get(release)??0)+row.positions);references.set(release,(references.get(release)??0)+(row.reference_positions??0));}
+  // Opening the base year must show the photograph used by the fixed points,
+  // rather than another capture from that year with a newer publication date.
+  const release=[...scores].sort((a,b)=>(references.get(b[0])??0)-(references.get(a[0])??0)||b[1]-a[1]||byRelease.get(b[0])!.releaseDateLabel.localeCompare(byRelease.get(a[0])!.releaseDateLabel)||b[0]-a[0])[0]?.[0];
   if(release===undefined)continue;
   const candidates=municipalPhotoOptions(items,{...catalogue,captures:rows.filter(c=>c.releases.includes(release)).map(c=>({...c,releases:[release]}))},municipality,anchor,17);
   const choice=candidates.sort((a,b)=>distance(a.reference.coordinates,anchor)-distance(b.reference.coordinates,anchor)||b.date.localeCompare(a.date))[0];
@@ -77,7 +84,9 @@ export function municipalComparisonOptions(items:WaybackItem[],catalogue:Municip
  * Strict photographic comparisons still use municipalComparisonOptions. */
 export function municipalDatedOptions(items:WaybackItem[],catalogue:MunicipalPhotoCatalogue,municipality:string|null,center:[number,number],zoom:number,scopeCoordinates?:[number,number]):CoastalPhotoOption[]{
  const strict=municipalComparisonOptions(items,catalogue,municipality,center,zoom,scopeCoordinates);
- const dated=municipalComparisonOptions(items,{...catalogue,compatible_captures:catalogue.captures.map(c=>({...c,positions:1}))},municipality,center,zoom,scopeCoordinates);
+ const anchor=scopeCoordinates??catalogue.coastal_views.find(v=>v.name===municipality)?.coordinates;
+ if(!anchor)return [];
+ const dated=comparisonOptionsForCaptures(items,catalogue,municipality,anchor,compatibleCaptures(catalogue,municipality,scopeCoordinates,true));
  return dated.map(option=>strict.find(c=>c.year===option.year)??option);
 }
 

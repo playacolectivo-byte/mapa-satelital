@@ -1,0 +1,36 @@
+import {readFileSync,writeFileSync} from 'node:fs';
+import {createHash} from 'node:crypto';
+import {gzipSync} from 'node:zlib';
+import {applyPhotoVisualReview} from '../lib/photo-visual-review.ts';
+import {applyPhotoDigitization} from '../lib/photo-digitization.ts';
+import {applyPhotoPilotReview} from '../lib/photo-pilot-review.ts';
+import {applyUserShorelineGuides} from '../lib/user-shoreline-guides.ts';
+import {applyCurrentMunicipalReviews} from '../lib/current-shoreline-reviews.ts';
+const root=new URL('../',import.meta.url);
+const read=p=>JSON.parse(readFileSync(new URL(p,root),'utf8'));
+const folder='public/data/shorelines/photo-alignment/';
+const raw=readFileSync(new URL(folder+'revised-data.json',root));
+const sha=createHash('sha256').update(raw).digest('hex');
+const review=read(folder+'manual-progreso-oeste-20261105.json');
+const pilotPhotos=applyPhotoPilotReview(applyPhotoDigitization(applyPhotoVisualReview(JSON.parse(raw),read(folder+'revised-visual-review.json'),sha),read(folder+'manual-digitization-20261103.json'),sha),review,sha);
+const photos=applyCurrentMunicipalReviews(applyUserShorelineGuides(pilotPhotos,read(folder+'user-guides-2011-20261105.json'),sha),sha);
+const updated={};
+for(const slug of ['progreso','hunucma','dzemul']){
+const base='public/data/municipalities/'+slug+'/';
+const local=read(base+'photos.json'),ids=new Set(local.targets.map(t=>t.id));
+const derived={...local,targets:photos.targets.filter(t=>ids.has(t.id))};
+const bytes=Buffer.from(JSON.stringify(derived)+'\n');
+writeFileSync(new URL(base+'photos.json',root),bytes);
+writeFileSync(new URL(base+'photos.json.gz',root),gzipSync(bytes,{mtime:0}));
+const index=read(base+'index.json');index.photos.sha256=createHash('sha256').update(bytes).digest('hex');index.photos.bytes=bytes.length;
+writeFileSync(new URL(base+'index.json',root),JSON.stringify(index)+'\n');
+updated[slug]=index.photos.sha256;
+}
+const model=read('public/data/shorelines/scenario/model.json');
+const targets=model.targets.filter(t=>review.profile_ids.includes(t.id)).sort((a,b)=>a.p[0]-b.p[0]);
+const place={id:'review-progreso-oeste',name:'Tramo occidental de Progreso',municipality:'Progreso',population:'',cvegeo:'',coordinates:targets[0].p,bounds:[Math.min(...targets.map(t=>t.p[0]))-.001,Math.min(...targets.map(t=>t.p[1]))-.001,Math.max(...targets.map(t=>t.p[0]))+.001,Math.max(...targets.map(t=>t.p[1]))+.001],minZoom:14,source_url:'/data/shorelines/photo-alignment/progreso-oeste-20261105-method.md'};
+const captures=review.corrections.map(c=>{const source=review.sources.find(s=>s.id===c.source),capture=photos.captures[c.capture],target=targets.find(t=>t.id===c.profile_id);return {municipality:'Progreso',date:c.date,year:Number(c.date.slice(0,4)),coordinates:target.p,profile_id:c.profile_id,releases:[source.release],metadata:{date:Date.parse(c.date+'T00:00:00Z'),provider:capture.provider,source:capture.source,resolution:capture.resolution_m,accuracy:capture.accuracy_m}};});
+const anchor={municipality:'Progreso',coordinates:place.coordinates,profile_id:targets[0].id,profile_coordinates:targets[0].p,captures:captures.filter(c=>c.profile_id===targets[0].id).map(c=>({year:c.year,releases:c.releases}))};
+const catalogue={place,captures,compatible_captures:captures.map(c=>({...c,positions:1})),anchors:[anchor]};
+writeFileSync(new URL('lib/generated/progreso-oeste-review-catalogue.json',root),JSON.stringify(catalogue)+'\n');
+console.log(JSON.stringify({profiles:review.profile_ids.length,intersections:review.corrections.length,municipal_sha256:updated,raw_source_sha256:sha}));

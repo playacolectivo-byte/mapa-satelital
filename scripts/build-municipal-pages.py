@@ -69,11 +69,91 @@ for t in photos['targets']:
   if key in corrections:
    c=corrections[key];assert r['offset_m']==c['original_offset_m'] and r['accepted']==c['original_accepted'];r.update(offset_m=c['offset_m'],accepted=True,reasons=[],manual_review={'id':manual['method'],'source':c['source'],'uncertainty_m':c['manual_uncertainty_m']})
 catalogue=json.loads((ROOT/'lib/generated/municipal-photo-refined-catalogue.json').read_text());overview=[];reports=[]
+pilot=read('shorelines/photo-alignment/manual-progreso-oeste-20261105.json')
+assert pilot['data_sha256']==original_photo_sha
+pilot_changes={(c['profile_id'],c['capture']):c for c in pilot['corrections']}
+for t in photos['targets']:
+ for r in t['readings']:
+  c=pilot_changes.get((t['id'],r['capture']))
+  if c:
+   assert r['offset_m']==c['original_offset_m'] and r['accepted']==c['original_accepted']
+   r.update(offset_m=c['offset_m'],accepted=True,reasons=[],manual_review={'id':pilot['method'],'source':c['source'],'uncertainty_m':c['manual_uncertainty_m']})
+ if t['id'] in pilot['profile_ids']:
+  t['review_policy']={k:pilot[k] for k in ['method','reference_capture','first_year','last_year','reviewed_releases']}
+guides=read('shorelines/photo-alignment/user-guides-2011-20261105.json')
+assert guides['data_sha256']==original_photo_sha
+guide_changes={(c['profile_id'],c['capture']):c for c in guides['corrections']}
+for t in photos['targets']:
+ for r in t['readings']:
+  c=guide_changes.get((t['id'],r['capture']))
+  if c:
+   assert r['offset_m']==c['original_offset_m'] and r['accepted']==c['original_accepted']
+   r.update(offset_m=c['offset_m'],accepted=True,reasons=[],manual_review={'id':guides['method'],'source':c['source'],'uncertainty_m':c['manual_uncertainty_m']})
+   t['fixed_reference']={'capture':c['capture'],'method':guides['method'],'source':c['source'],'verified_release':next(s['release'] for s in guides['sources'] if s['id']==c['source'])}
+for review_file in ['manual-progreso-full-20261105.json','manual-hunucma-20261105.json','manual-dzemul-20261105.json']:
+ review=read('shorelines/photo-alignment/'+review_file)
+ assert review['status']=='independently_reviewed' and review['data_sha256']==original_photo_sha
+ changes={(c['profile_id'],c['capture']):c for c in review['corrections']};refs={r['profile_id']:r for r in review['reference_captures']};gaps={r['profile_id']:r for r in review['reference_gaps']};sources={s['id']:s for s in review['sources']}
+ approved=[{'profile_id':c['profile_id'],'capture':c['capture'],'releases':[sources[c['source']]['release']]} for c in review['corrections']]+review.get('reviewed_readings',[])
+ method_url='/data/shorelines/photo-alignment/municipal-review-20261105-method.md'
+ assert not set(refs).intersection(gaps)
+ for t in photos['targets']:
+  if t['id'] not in refs and t['id'] not in gaps:continue
+  for r in t['readings']:
+   c=changes.get((t['id'],r['capture']))
+   if c:
+    assert r['offset_m']==c['original_offset_m'] and r['accepted']==c['original_accepted']
+    r.update(offset_m=c['offset_m'],accepted=True,reasons=[],manual_review={'id':review['method'],'source':c['source'],'uncertainty_m':c['manual_uncertainty_m']})
+   checked=next((x for x in review.get('reviewed_readings',[]) if x['profile_id']==t['id'] and x['capture']==r['capture']),None)
+   if checked:
+    assert 'offset_m' not in checked or checked['offset_m']==r['offset_m']
+    if t['id'] not in refs or refs[t['id']]['capture']!=r['capture']:r['manual_review']={'id':review['method'],'source':checked.get('source','reviewed-reading:'+t['id']+':'+str(r['capture'])),'uncertainty_m':checked.get('manual_uncertainty_m',8)}
+   excluded=[x for x in review['rejected_readings'] if x['profile_id']==t['id'] and x['capture']==r['capture']]
+   if excluded:
+    releases=[v for v in r['releases'] if not any('releases' not in x or v in x['releases'] for x in excluded)]
+    if releases:r['releases']=releases
+    else:r['accepted']=False;r['reasons']=list(dict.fromkeys(r['reasons']+[x['reason'] for x in excluded]))
+  captures=[{'capture':r['capture'],'releases':r['releases']} for r in approved if r['profile_id']==t['id']]
+  t['review_policy']={'method':review['method'],'reference_capture':refs[t['id']]['capture'] if t['id'] in refs else -1,'first_year':2011,'last_year':2025,'reviewed_releases':list(dict.fromkeys(v for r in captures for v in r['releases'])),'reviewed_captures':captures,'method_url':method_url}
+  if t['id'] in gaps:
+   t.pop('fixed_reference',None);t['reference_unavailable']={'year':2011,'reason':gaps[t['id']]['reason'],'method':review['method'],'method_url':method_url}
+  else:
+   ref=refs[t['id']];r=next(r for r in t['readings'] if r['capture']==ref['capture']);s=sources[r['manual_review']['source']]
+   assert r['accepted'] and photos['captures'][ref['capture']]['date']==ref['date']
+   t['fixed_reference']={'capture':ref['capture'],'method':r['manual_review']['id'],'source':s['id'],'verified_release':s['release'],'method_url':method_url}
+refinement_path=PUB/'shorelines/photo-alignment/reference-refinement-20261106.json'
+if refinement_path.exists():
+ refinement=json.loads(refinement_path.read_text(encoding='utf-8'))
+ assert refinement['status']=='independently_reviewed' and refinement['data_sha256']==original_photo_sha and refinement['reference_year']==2011
+ changes={c['profile_id']:c for c in refinement['corrections']};sources={s['id']:s for s in refinement['sources']}
+ for t in photos['targets']:
+  c=changes.get(t['id'])
+  if not c:continue
+  r=next(r for r in t['readings'] if r['capture']==c['capture']);source=sources[c['source']]
+  assert r['offset_m']==c['original_offset_m'] and r['accepted']==c['original_accepted']
+  assert photos['captures'][c['capture']]['date']==c['date']==source['capture_date'] and c['date'].startswith('2011-') and source['release'] in r['releases']
+  assert not t.get('fixed_reference') or t['fixed_reference']['capture']==c['capture']
+  r.update(offset_m=c['offset_m'],accepted=True,reasons=[],manual_review={'id':refinement['method'],'source':source['id'],'uncertainty_m':c['manual_uncertainty_m']})
+  t.pop('reference_unavailable',None)
+  method_url='/data/shorelines/photo-alignment/reference-refinement-20261106-method.md'
+  t['fixed_reference']={'capture':c['capture'],'method':refinement['method'],'source':source['id'],'verified_release':source['release'],'method_url':method_url}
+  captures=[r for r in t['review_policy']['reviewed_captures'] if r['capture']!=c['capture']]+[{'capture':c['capture'],'releases':[source['release']]}]
+  t['review_policy'].update(method=refinement['method'],reference_capture=c['capture'],reviewed_captures=captures,reviewed_releases=list(dict.fromkeys(v for r in captures for v in r['releases'])),method_url=method_url)
+ targets_by_id={t['id']:t for t in photos['targets']}
+ for gap in refinement.get('uninterpretable_references',[]):
+  t=targets_by_id[gap['profile_id']];r=next(r for r in t['readings'] if r['capture']==gap['capture'])
+  assert r['offset_m']==gap['original_offset_m'] and r['accepted']==gap['original_accepted'] and photos['captures'][gap['capture']]['date'].startswith('2011-')
+  t.pop('fixed_reference',None)
+  method_url='/data/shorelines/photo-alignment/reference-refinement-20261106-method.md'
+  t['reference_unavailable']={'year':2011,'reason':gap['reason'],'method':refinement['method'],'method_url':method_url}
+  captures=[r for r in t['review_policy']['reviewed_captures'] if r['capture']!=gap['capture']]
+  t['review_policy'].update(method=refinement['method'],reference_capture=-1,reviewed_captures=captures,reviewed_releases=list(dict.fromkeys(v for r in captures for v in r['releases'])),method_url=method_url)
 # Geometry-bearing datasets are partitioned ahead of time, not after a global download.
 names=['road-kilometres.geojson','problems/s34-inventory.geojson','problems/structures-yucatan.geojson','problems/structure-outlines.geojson','problems/geotube-historical-axes.geojson','problems/disturbed-mangrove-2020.geojson','context.geojson','localities.geojson','coast.geojson','mangrove.geojson','wetlands.geojson','water.geojson']
 names+=sorted(k for k in assets if k.startswith('problems/gmw/map/years/') and k.endswith('.geojson'))
 collections={k:read(k) for k in names}
 config=read('config.json');places=read('coastal-places.json')
+neighbours=json.loads((ROOT/'lib/generated/municipal-neighbours.json').read_text(encoding='utf-8'))
 for view in sorted(catalogue['coastal_views'],key=lambda v:v['bounds'][0]):
  name=view['name'];key=slug(name);folder=OUT/key;bounds=view['bounds'];nav=[bounds[0]-.012,bounds[1]-.012,bounds[2]+.012,bounds[3]+.012];window=box(*nav)
  info={'name':name,'slug':key,'bounds':bounds,'navigation_bounds':nav,'coordinates':view['coordinates']};overview.append(info);index={'municipality':info,'assets':{},'original_photo_sha256':original_photo_sha,'reviews_applied':True}
@@ -94,7 +174,7 @@ for view in sorted(catalogue['coastal_views'],key=lambda v:v['bounds'][0]):
      if clipped.geom_type!='GeometryCollection' and not clipped.is_empty:selected.append({**f,'geometry':mapping(clipped)})
   index['assets'][path]=write(folder,'layers/'+path,{**collection,'features':selected});counts[path]=len(selected)
  local_places=[p for p in places['places'] if p.get('municipality')==name]
- index['assets']['config.json']=write(folder,'config',{**config,'focus_bounds':bounds,'operational_bounds':bounds,'overview_bounds':bounds,'navigation_bounds':nav,'places':local_places,'municipality_scope':name})
+ index['assets']['config.json']=write(folder,'config',{**config,'focus_bounds':bounds,'operational_bounds':bounds,'overview_bounds':bounds,'navigation_bounds':nav,'places':local_places,'municipality_scope':name,**({'neighbour_places':neighbours[name]} if name in neighbours else {})})
  local_roads=[r for r in road_results if window.covers(Point(r['coordinate']))]
  index['road_search']=write(folder,'road-search',{'version':1,'records':local_roads})
  (folder/'index.json').write_bytes(encode(index));reports.append({'municipality':name,'profiles':len(targets),'beach_profiles':sum(t['type'].startswith('Playa') for t in targets),'model_bytes':index['model']['bytes'],'photo_bytes':index['photos']['bytes'],'layers':counts,'road_search_results':len(local_roads)})

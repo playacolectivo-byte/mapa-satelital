@@ -1,0 +1,44 @@
+{
+  "checked_on": "2026-11-06",
+  "original_source_keys_preserved": true,
+  "localities": {
+    "310260035": "Ixil San Benito",
+    "310260004": "Ixil San Bruno"
+  },
+  "unlocated_labels": [
+    "Ixil Poniente"
+  ],
+  "legal_jurisdiction_verified": false,
+  "additional_official_documents": [
+    {
+      "url": "https://sds.yucatan.gob.mx/tortugas-marinas/documentos/informe-tortugas-sds-2021.pdf",
+      "page": 6,
+      "checked_on": "2026-11-06",
+      "finding": "The 2021 operational report associates San Benito with Ixil and San Bruno with Dzemul. It does not define a legal boundary; the San Benito association differs from the INEGI locality catalogue.",
+      "evidence_type": "Official conservation-program report; not a legal delimitation",
+      "local_original_preserved": false
+    }
+  ],
+  "sources": [
+    {
+      "file": "work\\rotulos-ixil-20261105\\localidades-310260004.json",
+      "sha256": "bf2f4f9c8139f948db23d5778c295ab29e8a26785044f9edfe66311fd9aa2fd4",
+      "evidence_type": "official locality/geo-statistical record, not legal adjudication"
+    },
+    {
+      "file": "work\\rotulos-ixil-20261105\\localidades-310260035.json",
+      "sha256": "22b0609d30c09ac2bb4e44e808a93d1d2a9bab9681c8543018fb7930aff1b363",
+      "evidence_type": "official locality/geo-statistical record, not legal adjudication"
+    },
+    {
+      "file": "work\\rotulos-ixil-20261105\\mgem-31026.json",
+      "sha256": "5bc5475b91b77d1fcb466513f5e572b775bd12cec6447ead72953af9c330ea15",
+      "evidence_type": "official locality/geo-statistical record, not legal adjudication"
+    },
+    {
+      "file": "work\\rotulos-ixil-20261105\\mgem-31039.json",
+      "sha256": "99bd7d6e441370025b73e80e785d877de7af1ddbff42b21c1920d7440454ef45",
+      "evidence_type": "official locality/geo-statistical record, not legal adjudication"
+    }
+  ]
+}

@@ -1,0 +1,4891 @@
+{
+  "version": 1,
+  "status": "independently_reviewed",
+  "reference_year": 2011,
+  "field_validated": false,
+  "method": "refined-visible-water-contact-chicxulub-chelem-2011-20261106",
+  "data_sha256": "250fa694f9c3829ac0d41598454e28988a6c681fc36c6330c0f950eb08aa76e5",
+  "model_sha256": "21ed574a9c464cab785197f95568e242da2358cae23b08a420afde98aa294513",
+  "source_photos_sha256": "ada8576ba2cff7ab0d48b7de830501e3a4a0ccd1a618b6cb325b65d4d88f43dc",
+  "sources": [
+    {
+      "id": "chicxulub-2011-SC-89-0-21",
+      "release": 11019,
+      "capture_date": "2011-08-01",
+      "panel": "work\\chicxulub-reference-review-20261106\\west\\native-000.png",
+      "screenshot_sha256": "c4ffa1c1043ae733ebd9495ed60592ab05a684ea637a5bdc00b2e5c4c864f8d0",
+      "coordinate": [
+        -89.64415804890979,
+        21.290000262925634
+      ],
+      "metadata_endpoint_verified": true,
+      "metadata_file": "work\\progreso-full-review-20261105\\baseline-corrected-endpoint-footprints.json",
+      "metadata_sha256": "fa1114f3f6f28fafca052a7889a5c628e8c44874be1e867de052aac496c209af",
+      "source_accuracy_m": 10.199999809265137,
+      "source_resolution_m": 0.5,
+      "decision": "manual_water_facing_sand_sea_contact_native_2d"
+    },
+    {
+      "id": "chicxulub-2011-SC-89-0-22",
+      "release": 11019,
+      "capture_date": "2011-08-01",
+      "panel": "work\\chicxulub-reference-review-20261106\\west\\native-000.png",
+      "screenshot_sha256": "c4ffa1c1043ae733ebd9495ed60592ab05a684ea637a5bdc00b2e5c4c864f8d0",
+      "coordinate": [
+        -89.64320247732174,
+        21.290082741114386
+      ],
+      "metadata_endpoint_verified": true,
+      "metadata_file": "work\\progreso-full-review-20261105\\baseline-corrected-endpoint-footprints.json",
+      "metadata_sha256": "fa1114f3f6f28fafca052a7889a5c628e8c44874be1e867de052aac496c209af",
+      "source_accuracy_m": 10.199999809265137,
+      "source_resolution_m": 0.5,
+      "decision": "manual_water_facing_sand_sea_contact_native_2d"
+    },
+    {
+      "id": "chicxulub-2011-SC-89-0-23",
+      "release": 11019,
+      "capture_date": "2011-08-01",
+      "panel": "work\\chicxulub-reference-review-20261106\\west\\native-000.png",
+      "screenshot_sha256": "c4ffa1c1043ae733ebd9495ed60592ab05a684ea637a5bdc00b2e5c4c864f8d0",
+      "coordinate": [
+        -89.64225385395729,
+        21.29018432382344
+      ],
+      "metadata_endpoint_verified": true,
+      "metadata_file": "work\\progreso-full-review-20261105\\baseline-corrected-endpoint-footprints.json",
+      "metadata_sha256": "fa1114f3f6f28fafca052a7889a5c628e8c44874be1e867de052aac496c209af",
+      "source_accuracy_m": 10.199999809265137,
+      "source_resolution_m": 0.5,
+      "decision": "manual_water_facing_sand_sea_contact_native_2d"
+    },
+    {
+      "id": "chicxulub-2011-SC-89-0-24",
+      "release": 11019,
+      "capture_date": "2011-08-01",
+      "panel": "work\\chicxulub-reference-review-20261106\\west\\native-000.png",
+      "screenshot_sha256": "c4ffa1c1043ae733ebd9495ed60592ab05a684ea637a5bdc00b2e5c4c864f8d0",
+      "coordinate": [
+        -89.64130484754634,
+        21.29028693964272
+      ],
+      "metadata_endpoint_verified": true,
+      "metadata_file": "work\\progreso-full-review-20261105\\baseline-corrected-endpoint-footprints.json",
+      "metadata_sha256": "fa1114f3f6f28fafca052a7889a5c628e8c44874be1e867de052aac496c209af",
+      "source_accuracy_m": 10.199999809265137,
+      "source_resolution_m": 0.5,
+      "decision": "manual_water_facing_sand_sea_contact_native_2d"
+    },
+    {
+      "id": "chicxulub-2011-SC-89-0-25",
+      "release": 11019,
+      "capture_date": "2011-08-01",
+      "panel": "work\\chicxulub-reference-review-20261106\\west\\native-000.png",
+      "screenshot_sha256": "c4ffa1c1043ae733ebd9495ed60592ab05a684ea637a5bdc00b2e5c4c864f8d0",
+      "coordinate": [
+        -89.64037565500863,
+        21.290398746380816
+      ],
+      "metadata_endpoint_verified": true,
+      "metadata_file": "work\\progreso-full-review-20261105\\baseline-corrected-endpoint-footprints.json",
+      "metadata_sha256": "fa1114f3f6f28fafca052a7889a5c628e8c44874be1e867de052aac496c209af",
+      "source_accuracy_m": 10.199999809265137,
+      "source_resolution_m": 0.5,
+      "decision": "manual_water_facing_sand_sea_contact_native_2d"
+    },
+    {
+      "id": "chicxulub-2011-SC-89-0-26",
+      "release": 11019,
+      "capture_date": "2011-08-01",
+      "panel": "work\\chicxulub-reference-review-20261106\\west\\native-000.png",
+      "screenshot_sha256": "c4ffa1c1043ae733ebd9495ed60592ab05a684ea637a5bdc00b2e5c4c864f8d0",
+      "coordinate": [
+        -89.63944213821682,
+        21.290468864931032
+      ],
+      "metadata_endpoint_verified": true,
+      "metadata_file": "work\\progreso-full-review-20261105\\baseline-corrected-endpoint-footprints.json",
+      "metadata_sha256": "fa1114f3f6f28fafca052a7889a5c628e8c44874be1e867de052aac496c209af",
+      "source_accuracy_m": 10.199999809265137,
+      "source_resolution_m": 0.5,
+      "decision": "manual_water_facing_sand_sea_contact_native_2d"
+    },
+    {
+      "id": "chicxulub-2011-SC-89-0-27",
+      "release": 11019,
+      "capture_date": "2011-08-01",
+      "panel": "work\\chicxulub-reference-review-20261106\\west\\native-006.png",
+      "screenshot_sha256": "394dfedcb64bb1687ae692bfb3ce8277284dc89757d71194e703ed8b607b92f6",
+      "coordinate": [
+        -89.63849115564388,
+        21.290579699294085
+      ],
+      "metadata_endpoint_verified": true,
+      "metadata_file": "work\\progreso-full-review-20261105\\baseline-corrected-endpoint-footprints.json",
+      "metadata_sha256": "fa1114f3f6f28fafca052a7889a5c628e8c44874be1e867de052aac496c209af",
+      "source_accuracy_m": 10.199999809265137,
+      "source_resolution_m": 0.5,
+      "decision": "manual_water_facing_sand_sea_contact_native_2d"
+    },
+    {
+      "id": "chicxulub-2011-SC-89-0-28",
+      "release": 11019,
+      "capture_date": "2011-08-01",
+      "panel": "work\\chicxulub-reference-review-20261106\\west\\native-006.png",
+      "screenshot_sha256": "394dfedcb64bb1687ae692bfb3ce8277284dc89757d71194e703ed8b607b92f6",
+      "coordinate": [
+        -89.63753248433211,
+        21.290669186636855
+      ],
+      "metadata_endpoint_verified": true,
+      "metadata_file": "work\\progreso-full-review-20261105\\baseline-corrected-endpoint-footprints.json",
+      "metadata_sha256": "fa1114f3f6f28fafca052a7889a5c628e8c44874be1e867de052aac496c209af",
+      "source_accuracy_m": 10.199999809265137,
+      "source_resolution_m": 0.5,
+      "decision": "manual_water_facing_sand_sea_contact_native_2d"
+    },
+    {
+      "id": "chicxulub-2011-SC-89-0-29",
+      "release": 11019,
+      "capture_date": "2011-08-01",
+      "panel": "work\\chicxulub-reference-review-20261106\\west\\native-006.png",
+      "screenshot_sha256": "394dfedcb64bb1687ae692bfb3ce8277284dc89757d71194e703ed8b607b92f6",
+      "coordinate": [
+        -89.63663334195235,
+        21.290839186725872
+      ],
+      "metadata_endpoint_verified": true,
+      "metadata_file": "work\\progreso-full-review-20261105\\baseline-corrected-endpoint-footprints.json",
+      "metadata_sha256": "fa1114f3f6f28fafca052a7889a5c628e8c44874be1e867de052aac496c209af",
+      "source_accuracy_m": 10.199999809265137,
+      "source_resolution_m": 0.5,
+      "decision": "manual_water_facing_sand_sea_contact_native_2d"
+    },
+    {
+      "id": "chicxulub-2011-SC-89-0-30",
+      "release": 11019,
+      "capture_date": "2011-08-01",
+      "panel": "work\\chicxulub-reference-review-20261106\\west\\native-006.png",
+      "screenshot_sha256": "394dfedcb64bb1687ae692bfb3ce8277284dc89757d71194e703ed8b607b92f6",
+      "coordinate": [
+        -89.63569106032617,
+        21.290950307111352
+      ],
+      "metadata_endpoint_verified": true,
+      "metadata_file": "work\\progreso-full-review-20261105\\baseline-corrected-endpoint-footprints.json",
+      "metadata_sha256": "fa1114f3f6f28fafca052a7889a5c628e8c44874be1e867de052aac496c209af",
+      "source_accuracy_m": 10.199999809265137,
+      "source_resolution_m": 0.5,
+      "decision": "manual_water_facing_sand_sea_contact_native_2d"
+    },
+    {
+      "id": "chicxulub-2011-SC-89-0-31",
+      "release": 11019,
+      "capture_date": "2011-08-01",
+      "panel": "work\\chicxulub-reference-review-20261106\\west\\native-006.png",
+      "screenshot_sha256": "394dfedcb64bb1687ae692bfb3ce8277284dc89757d71194e703ed8b607b92f6",
+      "coordinate": [
+        -89.63477465810524,
+        21.29117165177118
+      ],
+      "metadata_endpoint_verified": true,
+      "metadata_file": "work\\progreso-full-review-20261105\\baseline-corrected-endpoint-footprints.json",
+      "metadata_sha256": "fa1114f3f6f28fafca052a7889a5c628e8c44874be1e867de052aac496c209af",
+      "source_accuracy_m": 10.199999809265137,
+      "source_resolution_m": 0.5,
+      "decision": "manual_water_facing_sand_sea_contact_native_2d"
+    },
+    {
+      "id": "chicxulub-2011-SC-89-0-32",
+      "release": 11019,
+      "capture_date": "2011-08-01",
+      "panel": "work\\chicxulub-reference-review-20261106\\west\\native-006.png",
+      "screenshot_sha256": "394dfedcb64bb1687ae692bfb3ce8277284dc89757d71194e703ed8b607b92f6",
+      "coordinate": [
+        -89.63384466803707,
+        21.29125194447822
+      ],
+      "metadata_endpoint_verified": true,
+      "metadata_file": "work\\progreso-full-review-20261105\\baseline-corrected-endpoint-footprints.json",
+      "metadata_sha256": "fa1114f3f6f28fafca052a7889a5c628e8c44874be1e867de052aac496c209af",
+      "source_accuracy_m": 10.199999809265137,
+      "source_resolution_m": 0.5,
+      "decision": "manual_water_facing_sand_sea_contact_native_2d"
+    },
+    {
+      "id": "chicxulub-2011-SC-89-0-33",
+      "release": 11019,
+      "capture_date": "2011-08-01",
+      "panel": "work\\chicxulub-reference-review-20261106\\west\\native-012.png",
+      "screenshot_sha256": "e6ed8d3e086ed56c5bbcf1b8dd14457c421203d7e223f442a75f805f29c576a9",
+      "coordinate": [
+        -89.63291321721863,
+        21.291478135251218
+      ],
+      "metadata_endpoint_verified": true,
+      "metadata_file": "work\\progreso-full-review-20261105\\baseline-corrected-endpoint-footprints.json",
+      "metadata_sha256": "fa1114f3f6f28fafca052a7889a5c628e8c44874be1e867de052aac496c209af",
+      "source_accuracy_m": 10.199999809265137,
+      "source_resolution_m": 0.5,
+      "decision": "manual_water_facing_sand_sea_contact_native_2d"
+    },
+    {
+      "id": "chicxulub-2011-SC-89-0-34",
+      "release": 11019,
+      "capture_date": "2011-08-01",
+      "panel": "work\\chicxulub-reference-review-20261106\\west\\native-012.png",
+      "screenshot_sha256": "e6ed8d3e086ed56c5bbcf1b8dd14457c421203d7e223f442a75f805f29c576a9",
+      "coordinate": [
+        -89.63198202480588,
+        21.291667783974923
+      ],
+      "metadata_endpoint_verified": true,
+      "metadata_file": "work\\progreso-full-review-20261105\\baseline-corrected-endpoint-footprints.json",
+      "metadata_sha256": "fa1114f3f6f28fafca052a7889a5c628e8c44874be1e867de052aac496c209af",
+      "source_accuracy_m": 10.199999809265137,
+      "source_resolution_m": 0.5,
+      "decision": "manual_water_facing_sand_sea_contact_native_2d"
+    },
+    {
+      "id": "chicxulub-2011-SC-89-0-35",
+      "release": 11019,
+      "capture_date": "2011-08-01",
+      "panel": "work\\chicxulub-reference-review-20261106\\west\\native-012.png",
+      "screenshot_sha256": "e6ed8d3e086ed56c5bbcf1b8dd14457c421203d7e223f442a75f805f29c576a9",
+      "coordinate": [
+        -89.63103720187196,
+        21.291774204365552
+      ],
+      "metadata_endpoint_verified": true,
+      "metadata_file": "work\\progreso-full-review-20261105\\baseline-corrected-endpoint-footprints.json",
+      "metadata_sha256": "fa1114f3f6f28fafca052a7889a5c628e8c44874be1e867de052aac496c209af",
+      "source_accuracy_m": 10.199999809265137,
+      "source_resolution_m": 0.5,
+      "decision": "manual_water_facing_sand_sea_contact_native_2d"
+    },
+    {
+      "id": "chicxulub-2011-SC-89-0-36",
+      "release": 11019,
+      "capture_date": "2011-08-01",
+      "panel": "work\\chicxulub-reference-review-20261106\\west\\native-012.png",
+      "screenshot_sha256": "e6ed8d3e086ed56c5bbcf1b8dd14457c421203d7e223f442a75f805f29c576a9",
+      "coordinate": [
+        -89.6301138995619,
+        21.291934249560846
+      ],
+      "metadata_endpoint_verified": true,
+      "metadata_file": "work\\progreso-full-review-20261105\\baseline-corrected-endpoint-footprints.json",
+      "metadata_sha256": "fa1114f3f6f28fafca052a7889a5c628e8c44874be1e867de052aac496c209af",
+      "source_accuracy_m": 10.199999809265137,
+      "source_resolution_m": 0.5,
+      "decision": "manual_water_facing_sand_sea_contact_native_2d"
+    },
+    {
+      "id": "chicxulub-2011-SC-89-0-37",
+      "release": 11019,
+      "capture_date": "2011-08-01",
+      "panel": "work\\chicxulub-reference-review-20261106\\west\\native-012.png",
+      "screenshot_sha256": "e6ed8d3e086ed56c5bbcf1b8dd14457c421203d7e223f442a75f805f29c576a9",
+      "coordinate": [
+        -89.62923744006557,
+        21.292224309885576
+      ],
+      "metadata_endpoint_verified": true,
+      "metadata_file": "work\\progreso-full-review-20261105\\baseline-corrected-endpoint-footprints.json",
+      "metadata_sha256": "fa1114f3f6f28fafca052a7889a5c628e8c44874be1e867de052aac496c209af",
+      "source_accuracy_m": 10.199999809265137,
+      "source_resolution_m": 0.5,
+      "decision": "manual_water_facing_sand_sea_contact_native_2d"
+    },
+    {
+      "id": "chicxulub-2011-SC-89-0-38",
+      "release": 11019,
+      "capture_date": "2011-08-01",
+      "panel": "work\\chicxulub-reference-review-20261106\\west\\native-012.png",
+      "screenshot_sha256": "e6ed8d3e086ed56c5bbcf1b8dd14457c421203d7e223f442a75f805f29c576a9",
+      "coordinate": [
+        -89.62831765923482,
+        21.29242879350111
+      ],
+      "metadata_endpoint_verified": true,
+      "metadata_file": "work\\progreso-full-review-20261105\\baseline-corrected-endpoint-footprints.json",
+      "metadata_sha256": "fa1114f3f6f28fafca052a7889a5c628e8c44874be1e867de052aac496c209af",
+      "source_accuracy_m": 10.199999809265137,
+      "source_resolution_m": 0.5,
+      "decision": "manual_water_facing_sand_sea_contact_native_2d"
+    },
+    {
+      "id": "chicxulub-2011-SC-89-0-39",
+      "release": 11019,
+      "capture_date": "2011-08-01",
+      "panel": "work\\chicxulub-reference-review-20261106\\west\\native-018.png",
+      "screenshot_sha256": "8358dd0e71ed741091be16bceeca3981f3c1ece5b3578a0443410e6acbb30788",
+      "coordinate": [
+        -89.62737266619082,
+        21.292527951667328
+      ],
+      "metadata_endpoint_verified": true,
+      "metadata_file": "work\\progreso-full-review-20261105\\baseline-corrected-endpoint-footprints.json",
+      "metadata_sha256": "fa1114f3f6f28fafca052a7889a5c628e8c44874be1e867de052aac496c209af",
+      "source_accuracy_m": 10.199999809265137,
+      "source_resolution_m": 0.5,
+      "decision": "manual_water_facing_sand_sea_contact_native_2d"
+    },
+    {
+      "id": "chicxulub-2011-SC-89-0-40",
+      "release": 11019,
+      "capture_date": "2011-08-01",
+      "panel": "work\\chicxulub-reference-review-20261106\\west\\native-018.png",
+      "screenshot_sha256": "8358dd0e71ed741091be16bceeca3981f3c1ece5b3578a0443410e6acbb30788",
+      "coordinate": [
+        -89.62643924548861,
+        21.292664463497136
+      ],
+      "metadata_endpoint_verified": true,
+      "metadata_file": "work\\progreso-full-review-20261105\\baseline-corrected-endpoint-footprints.json",
+      "metadata_sha256": "fa1114f3f6f28fafca052a7889a5c628e8c44874be1e867de052aac496c209af",
+      "source_accuracy_m": 10.199999809265137,
+      "source_resolution_m": 0.5,
+      "decision": "manual_water_facing_sand_sea_contact_native_2d"
+    },
+    {
+      "id": "chicxulub-2011-SC-89-0-41",
+      "release": 11019,
+      "capture_date": "2011-08-01",
+      "panel": "work\\chicxulub-reference-review-20261106\\west\\native-018.png",
+      "screenshot_sha256": "8358dd0e71ed741091be16bceeca3981f3c1ece5b3578a0443410e6acbb30788",
+      "coordinate": [
+        -89.62556395941023,
+        21.292803951136285
+      ],
+      "metadata_endpoint_verified": true,
+      "metadata_file": "work\\progreso-full-review-20261105\\baseline-corrected-endpoint-footprints.json",
+      "metadata_sha256": "fa1114f3f6f28fafca052a7889a5c628e8c44874be1e867de052aac496c209af",
+      "source_accuracy_m": 10.199999809265137,
+      "source_resolution_m": 0.5,
+      "decision": "manual_water_facing_sand_sea_contact_native_2d"
+    },
+    {
+      "id": "chicxulub-2011-SC-89-0-42",
+      "release": 11019,
+      "capture_date": "2011-08-01",
+      "panel": "work\\chicxulub-reference-review-20261106\\west\\native-018.png",
+      "screenshot_sha256": "8358dd0e71ed741091be16bceeca3981f3c1ece5b3578a0443410e6acbb30788",
+      "coordinate": [
+        -89.62464351456117,
+        21.292911681142115
+      ],
+      "metadata_endpoint_verified": true,
+      "metadata_file": "work\\progreso-full-review-20261105\\baseline-corrected-endpoint-footprints.json",
+      "metadata_sha256": "fa1114f3f6f28fafca052a7889a5c628e8c44874be1e867de052aac496c209af",
+      "source_accuracy_m": 10.199999809265137,
+      "source_resolution_m": 0.5,
+      "decision": "manual_water_facing_sand_sea_contact_native_2d"
+    },
+    {
+      "id": "chicxulub-2011-SC-89-0-43",
+      "release": 11019,
+      "capture_date": "2011-08-01",
+      "panel": "work\\chicxulub-reference-review-20261106\\west\\native-018.png",
+      "screenshot_sha256": "8358dd0e71ed741091be16bceeca3981f3c1ece5b3578a0443410e6acbb30788",
+      "coordinate": [
+        -89.62371736875279,
+        21.293116162586838
+      ],
+      "metadata_endpoint_verified": true,
+      "metadata_file": "work\\progreso-full-review-20261105\\baseline-corrected-endpoint-footprints.json",
+      "metadata_sha256": "fa1114f3f6f28fafca052a7889a5c628e8c44874be1e867de052aac496c209af",
+      "source_accuracy_m": 10.199999809265137,
+      "source_resolution_m": 0.5,
+      "decision": "manual_water_facing_sand_sea_contact_native_2d"
+    },
+    {
+      "id": "chicxulub-2011-SC-89-0-44",
+      "release": 11019,
+      "capture_date": "2011-08-01",
+      "panel": "work\\chicxulub-reference-review-20261106\\west\\native-018.png",
+      "screenshot_sha256": "8358dd0e71ed741091be16bceeca3981f3c1ece5b3578a0443410e6acbb30788",
+      "coordinate": [
+        -89.62278292253988,
+        21.293289276487606
+      ],
+      "metadata_endpoint_verified": true,
+      "metadata_file": "work\\progreso-full-review-20261105\\baseline-corrected-endpoint-footprints.json",
+      "metadata_sha256": "fa1114f3f6f28fafca052a7889a5c628e8c44874be1e867de052aac496c209af",
+      "source_accuracy_m": 10.199999809265137,
+      "source_resolution_m": 0.5,
+      "decision": "manual_water_facing_sand_sea_contact_native_2d"
+    },
+    {
+      "id": "chicxulub-2011-SC-89-0-45",
+      "release": 11019,
+      "capture_date": "2011-08-01",
+      "panel": "work\\chicxulub-reference-review-20261106\\west\\native-024.png",
+      "screenshot_sha256": "bf302b00aeb8cf9ee43664e031c4fff52cea49f50cff625560cc7cf5c782b46a",
+      "coordinate": [
+        -89.62185895598462,
+        21.293494646223607
+      ],
+      "metadata_endpoint_verified": true,
+      "metadata_file": "work\\progreso-full-review-20261105\\baseline-corrected-endpoint-footprints.json",
+      "metadata_sha256": "fa1114f3f6f28fafca052a7889a5c628e8c44874be1e867de052aac496c209af",
+      "source_accuracy_m": 10.199999809265137,
+      "source_resolution_m": 0.5,
+      "decision": "manual_water_facing_sand_sea_contact_native_2d"
+    },
+    {
+      "id": "chicxulub-2011-SC-89-0-46",
+      "release": 11019,
+      "capture_date": "2011-08-01",
+      "panel": "work\\chicxulub-reference-review-20261106\\west\\native-024.png",
+      "screenshot_sha256": "bf302b00aeb8cf9ee43664e031c4fff52cea49f50cff625560cc7cf5c782b46a",
+      "coordinate": [
+        -89.62091485543294,
+        21.293598208373844
+      ],
+      "metadata_endpoint_verified": true,
+      "metadata_file": "work\\progreso-full-review-20261105\\baseline-corrected-endpoint-footprints.json",
+      "metadata_sha256": "fa1114f3f6f28fafca052a7889a5c628e8c44874be1e867de052aac496c209af",
+      "source_accuracy_m": 10.199999809265137,
+      "source_resolution_m": 0.5,
+      "decision": "manual_water_facing_sand_sea_contact_native_2d"
+    },
+    {
+      "id": "chicxulub-2011-SC-89-0-47",
+      "release": 11019,
+      "capture_date": "2011-08-01",
+      "panel": "work\\chicxulub-reference-review-20261106\\west\\native-024.png",
+      "screenshot_sha256": "bf302b00aeb8cf9ee43664e031c4fff52cea49f50cff625560cc7cf5c782b46a",
+      "coordinate": [
+        -89.61997539988715,
+        21.293731418623363
+      ],
+      "metadata_endpoint_verified": true,
+      "metadata_file": "work\\progreso-full-review-20261105\\baseline-corrected-endpoint-footprints.json",
+      "metadata_sha256": "fa1114f3f6f28fafca052a7889a5c628e8c44874be1e867de052aac496c209af",
+      "source_accuracy_m": 10.199999809265137,
+      "source_resolution_m": 0.5,
+      "decision": "manual_water_facing_sand_sea_contact_native_2d"
+    },
+    {
+      "id": "chicxulub-2011-SC-89-0-48",
+      "release": 11019,
+      "capture_date": "2011-08-01",
+      "panel": "work\\chicxulub-reference-review-20261106\\west\\native-024.png",
+      "screenshot_sha256": "bf302b00aeb8cf9ee43664e031c4fff52cea49f50cff625560cc7cf5c782b46a",
+      "coordinate": [
+        -89.61903087999106,
+        21.293792125739444
+      ],
+      "metadata_endpoint_verified": true,
+      "metadata_file": "work\\progreso-full-review-20261105\\baseline-corrected-endpoint-footprints.json",
+      "metadata_sha256": "fa1114f3f6f28fafca052a7889a5c628e8c44874be1e867de052aac496c209af",
+      "source_accuracy_m": 10.199999809265137,
+      "source_resolution_m": 0.5,
+      "decision": "manual_water_facing_sand_sea_contact_native_2d"
+    },
+    {
+      "id": "chicxulub-2011-SC-89-0-49",
+      "release": 11019,
+      "capture_date": "2011-08-01",
+      "panel": "work\\chicxulub-reference-review-20261106\\west\\native-024.png",
+      "screenshot_sha256": "bf302b00aeb8cf9ee43664e031c4fff52cea49f50cff625560cc7cf5c782b46a",
+      "coordinate": [
+        -89.61808955124255,
+        21.293949455452097
+      ],
+      "metadata_endpoint_verified": true,
+      "metadata_file": "work\\progreso-full-review-20261105\\baseline-corrected-endpoint-footprints.json",
+      "metadata_sha256": "fa1114f3f6f28fafca052a7889a5c628e8c44874be1e867de052aac496c209af",
+      "source_accuracy_m": 10.199999809265137,
+      "source_resolution_m": 0.5,
+      "decision": "manual_water_facing_sand_sea_contact_native_2d"
+    },
+    {
+      "id": "chicxulub-2011-SC-89-0-50",
+      "release": 11019,
+      "capture_date": "2011-08-01",
+      "panel": "work\\chicxulub-reference-review-20261106\\west\\native-024.png",
+      "screenshot_sha256": "bf302b00aeb8cf9ee43664e031c4fff52cea49f50cff625560cc7cf5c782b46a",
+      "coordinate": [
+        -89.6171509754603,
+        21.29409773656001
+      ],
+      "metadata_endpoint_verified": true,
+      "metadata_file": "work\\progreso-full-review-20261105\\baseline-corrected-endpoint-footprints.json",
+      "metadata_sha256": "fa1114f3f6f28fafca052a7889a5c628e8c44874be1e867de052aac496c209af",
+      "source_accuracy_m": 10.199999809265137,
+      "source_resolution_m": 0.5,
+      "decision": "manual_water_facing_sand_sea_contact_native_2d"
+    },
+    {
+      "id": "chicxulub-2011-SC-89-0-51",
+      "release": 11019,
+      "capture_date": "2011-08-01",
+      "panel": "work\\chicxulub-reference-review-20261106\\west\\native-030.png",
+      "screenshot_sha256": "8d98924f060d9f724d67e45b52693c474dc3b20dd53048f6b9a67d7f81fc7dab",
+      "coordinate": [
+        -89.61621157367959,
+        21.29422193851404
+      ],
+      "metadata_endpoint_verified": true,
+      "metadata_file": "work\\progreso-full-review-20261105\\baseline-corrected-endpoint-footprints.json",
+      "metadata_sha256": "fa1114f3f6f28fafca052a7889a5c628e8c44874be1e867de052aac496c209af",
+      "source_accuracy_m": 10.199999809265137,
+      "source_resolution_m": 0.5,
+      "decision": "manual_water_facing_sand_sea_contact_native_2d"
+    },
+    {
+      "id": "chicxulub-2011-SC-89-0-54",
+      "release": 11019,
+      "capture_date": "2011-08-01",
+      "panel": "work\\chicxulub-reference-review-20261106\\west\\native-030.png",
+      "screenshot_sha256": "8d98924f060d9f724d67e45b52693c474dc3b20dd53048f6b9a67d7f81fc7dab",
+      "coordinate": [
+        -89.61341711358558,
+        21.29469891851246
+      ],
+      "metadata_endpoint_verified": true,
+      "metadata_file": "work\\progreso-full-review-20261105\\baseline-corrected-endpoint-footprints.json",
+      "metadata_sha256": "fa1114f3f6f28fafca052a7889a5c628e8c44874be1e867de052aac496c209af",
+      "source_accuracy_m": 10.199999809265137,
+      "source_resolution_m": 0.5,
+      "decision": "manual_water_facing_sand_sea_contact_native_2d"
+    },
+    {
+      "id": "chicxulub-2011-SC-89-0-55",
+      "release": 11019,
+      "capture_date": "2011-08-01",
+      "panel": "work\\chicxulub-reference-review-20261106\\west\\native-030.png",
+      "screenshot_sha256": "8d98924f060d9f724d67e45b52693c474dc3b20dd53048f6b9a67d7f81fc7dab",
+      "coordinate": [
+        -89.61248083418454,
+        21.294874407848148
+      ],
+      "metadata_endpoint_verified": true,
+      "metadata_file": "work\\progreso-full-review-20261105\\baseline-corrected-endpoint-footprints.json",
+      "metadata_sha256": "fa1114f3f6f28fafca052a7889a5c628e8c44874be1e867de052aac496c209af",
+      "source_accuracy_m": 10.199999809265137,
+      "source_resolution_m": 0.5,
+      "decision": "manual_water_facing_sand_sea_contact_native_2d"
+    },
+    {
+      "id": "chicxulub-2011-SC-89-0-56",
+      "release": 11019,
+      "capture_date": "2011-08-01",
+      "panel": "work\\chicxulub-reference-review-20261106\\west\\native-030.png",
+      "screenshot_sha256": "8d98924f060d9f724d67e45b52693c474dc3b20dd53048f6b9a67d7f81fc7dab",
+      "coordinate": [
+        -89.61155948828807,
+        21.295095645664098
+      ],
+      "metadata_endpoint_verified": true,
+      "metadata_file": "work\\progreso-full-review-20261105\\baseline-corrected-endpoint-footprints.json",
+      "metadata_sha256": "fa1114f3f6f28fafca052a7889a5c628e8c44874be1e867de052aac496c209af",
+      "source_accuracy_m": 10.199999809265137,
+      "source_resolution_m": 0.5,
+      "decision": "manual_water_facing_sand_sea_contact_native_2d"
+    },
+    {
+      "id": "chicxulub-2011-SC-89-0-57",
+      "release": 11019,
+      "capture_date": "2011-08-01",
+      "panel": "work\\chicxulub-reference-review-20261106\\west\\native-036.png",
+      "screenshot_sha256": "1aa76c9673fe73f9d2efded80b6d2480fcc68f459db7fb60e52036e02721fe1e",
+      "coordinate": [
+        -89.61065464862695,
+        21.29536885371085
+      ],
+      "metadata_endpoint_verified": true,
+      "metadata_file": "work\\progreso-full-review-20261105\\baseline-corrected-endpoint-footprints.json",
+      "metadata_sha256": "fa1114f3f6f28fafca052a7889a5c628e8c44874be1e867de052aac496c209af",
+      "source_accuracy_m": 10.199999809265137,
+      "source_resolution_m": 0.5,
+      "decision": "manual_water_facing_sand_sea_contact_native_2d"
+    },
+    {
+      "id": "chicxulub-2011-SC-89-0-58",
+      "release": 11019,
+      "capture_date": "2011-08-01",
+      "panel": "work\\chicxulub-reference-review-20261106\\west\\native-036.png",
+      "screenshot_sha256": "1aa76c9673fe73f9d2efded80b6d2480fcc68f459db7fb60e52036e02721fe1e",
+      "coordinate": [
+        -89.60971569019374,
+        21.295507231609584
+      ],
+      "metadata_endpoint_verified": true,
+      "metadata_file": "work\\progreso-full-review-20261105\\baseline-corrected-endpoint-footprints.json",
+      "metadata_sha256": "fa1114f3f6f28fafca052a7889a5c628e8c44874be1e867de052aac496c209af",
+      "source_accuracy_m": 10.199999809265137,
+      "source_resolution_m": 0.5,
+      "decision": "manual_water_facing_sand_sea_contact_native_2d"
+    },
+    {
+      "id": "chicxulub-2011-SC-89-0-59",
+      "release": 11019,
+      "capture_date": "2011-08-01",
+      "panel": "work\\chicxulub-reference-review-20261106\\west\\native-036.png",
+      "screenshot_sha256": "1aa76c9673fe73f9d2efded80b6d2480fcc68f459db7fb60e52036e02721fe1e",
+      "coordinate": [
+        -89.60877138241588,
+        21.295628976962323
+      ],
+      "metadata_endpoint_verified": true,
+      "metadata_file": "work\\progreso-full-review-20261105\\baseline-corrected-endpoint-footprints.json",
+      "metadata_sha256": "fa1114f3f6f28fafca052a7889a5c628e8c44874be1e867de052aac496c209af",
+      "source_accuracy_m": 10.199999809265137,
+      "source_resolution_m": 0.5,
+      "decision": "manual_water_facing_sand_sea_contact_native_2d"
+    },
+    {
+      "id": "chicxulub-2011-SC-89-0-60",
+      "release": 11019,
+      "capture_date": "2011-08-01",
+      "panel": "work\\chicxulub-reference-review-20261106\\west\\native-036.png",
+      "screenshot_sha256": "1aa76c9673fe73f9d2efded80b6d2480fcc68f459db7fb60e52036e02721fe1e",
+      "coordinate": [
+        -89.60784706429772,
+        21.295854868481282
+      ],
+      "metadata_endpoint_verified": true,
+      "metadata_file": "work\\progreso-full-review-20261105\\baseline-corrected-endpoint-footprints.json",
+      "metadata_sha256": "fa1114f3f6f28fafca052a7889a5c628e8c44874be1e867de052aac496c209af",
+      "source_accuracy_m": 10.199999809265137,
+      "source_resolution_m": 0.5,
+      "decision": "manual_water_facing_sand_sea_contact_native_2d"
+    },
+    {
+      "id": "chicxulub-2011-SC-88-0-0",
+      "release": 11019,
+      "capture_date": "2011-08-01",
+      "panel": "work\\chicxulub-reference-review-20261106\\east\\independent-native-000.png",
+      "screenshot_sha256": "b80c95c469d8c3fc221ab7d13e16b07edc28b8ef77e2e313af6050c276fd29c4",
+      "coordinate": [
+        -89.60679360828107,
+        21.29603529446936
+      ],
+      "metadata_endpoint_verified": true,
+      "metadata_file": "work\\progreso-full-review-20261105\\baseline-corrected-endpoint-footprints.json",
+      "metadata_sha256": "fa1114f3f6f28fafca052a7889a5c628e8c44874be1e867de052aac496c209af",
+      "source_accuracy_m": 10.199999809265137,
+      "source_resolution_m": 0.5,
+      "decision": "manual_water_facing_sand_sea_contact_native_2d"
+    },
+    {
+      "id": "chicxulub-2011-SC-88-0-1",
+      "release": 11019,
+      "capture_date": "2011-08-01",
+      "panel": "work\\chicxulub-reference-review-20261106\\east\\independent-native-000.png",
+      "screenshot_sha256": "b80c95c469d8c3fc221ab7d13e16b07edc28b8ef77e2e313af6050c276fd29c4",
+      "coordinate": [
+        -89.60584181324022,
+        21.29623183177422
+      ],
+      "metadata_endpoint_verified": true,
+      "metadata_file": "work\\progreso-full-review-20261105\\baseline-corrected-endpoint-footprints.json",
+      "metadata_sha256": "fa1114f3f6f28fafca052a7889a5c628e8c44874be1e867de052aac496c209af",
+      "source_accuracy_m": 10.199999809265137,
+      "source_resolution_m": 0.5,
+      "decision": "manual_water_facing_sand_sea_contact_native_2d"
+    },
+    {
+      "id": "chicxulub-2011-SC-88-0-2",
+      "release": 11019,
+      "capture_date": "2011-08-01",
+      "panel": "work\\chicxulub-reference-review-20261106\\east\\independent-native-000.png",
+      "screenshot_sha256": "b80c95c469d8c3fc221ab7d13e16b07edc28b8ef77e2e313af6050c276fd29c4",
+      "coordinate": [
+        -89.60489630519923,
+        21.296315542138636
+      ],
+      "metadata_endpoint_verified": true,
+      "metadata_file": "work\\progreso-full-review-20261105\\baseline-corrected-endpoint-footprints.json",
+      "metadata_sha256": "fa1114f3f6f28fafca052a7889a5c628e8c44874be1e867de052aac496c209af",
+      "source_accuracy_m": 10.199999809265137,
+      "source_resolution_m": 0.5,
+      "decision": "manual_water_facing_sand_sea_contact_native_2d"
+    },
+    {
+      "id": "chicxulub-2011-SC-88-0-3",
+      "release": 11019,
+      "capture_date": "2011-08-01",
+      "panel": "work\\chicxulub-reference-review-20261106\\east\\independent-native-000.png",
+      "screenshot_sha256": "b80c95c469d8c3fc221ab7d13e16b07edc28b8ef77e2e313af6050c276fd29c4",
+      "coordinate": [
+        -89.60396551905711,
+        21.29658151663413
+      ],
+      "metadata_endpoint_verified": true,
+      "metadata_file": "work\\progreso-full-review-20261105\\baseline-corrected-endpoint-footprints.json",
+      "metadata_sha256": "fa1114f3f6f28fafca052a7889a5c628e8c44874be1e867de052aac496c209af",
+      "source_accuracy_m": 10.199999809265137,
+      "source_resolution_m": 0.5,
+      "decision": "manual_water_facing_sand_sea_contact_native_2d"
+    },
+    {
+      "id": "chicxulub-2011-SC-88-0-4",
+      "release": 11019,
+      "capture_date": "2011-08-01",
+      "panel": "work\\chicxulub-reference-review-20261106\\east\\independent-native-000.png",
+      "screenshot_sha256": "b80c95c469d8c3fc221ab7d13e16b07edc28b8ef77e2e313af6050c276fd29c4",
+      "coordinate": [
+        -89.60300978386337,
+        21.296728442575827
+      ],
+      "metadata_endpoint_verified": true,
+      "metadata_file": "work\\progreso-full-review-20261105\\baseline-corrected-endpoint-footprints.json",
+      "metadata_sha256": "fa1114f3f6f28fafca052a7889a5c628e8c44874be1e867de052aac496c209af",
+      "source_accuracy_m": 10.199999809265137,
+      "source_resolution_m": 0.5,
+      "decision": "manual_water_facing_sand_sea_contact_native_2d"
+    },
+    {
+      "id": "chicxulub-2011-SC-88-0-5",
+      "release": 11019,
+      "capture_date": "2011-08-01",
+      "panel": "work\\chicxulub-reference-review-20261106\\east\\independent-native-000.png",
+      "screenshot_sha256": "b80c95c469d8c3fc221ab7d13e16b07edc28b8ef77e2e313af6050c276fd29c4",
+      "coordinate": [
+        -89.60203710347344,
+        21.29679131967854
+      ],
+      "metadata_endpoint_verified": true,
+      "metadata_file": "work\\progreso-full-review-20261105\\baseline-corrected-endpoint-footprints.json",
+      "metadata_sha256": "fa1114f3f6f28fafca052a7889a5c628e8c44874be1e867de052aac496c209af",
+      "source_accuracy_m": 10.199999809265137,
+      "source_resolution_m": 0.5,
+      "decision": "manual_water_facing_sand_sea_contact_native_2d"
+    },
+    {
+      "id": "chicxulub-2011-SC-88-0-6",
+      "release": 11019,
+      "capture_date": "2011-08-01",
+      "panel": "work\\chicxulub-reference-review-20261106\\east\\independent-native-006.png",
+      "screenshot_sha256": "72edf3a005ea39cf090f7b169c9301dfec6322662c81aeb68f9fdf110846a79d",
+      "coordinate": [
+        -89.6011041934842,
+        21.29695496678477
+      ],
+      "metadata_endpoint_verified": true,
+      "metadata_file": "work\\progreso-full-review-20261105\\baseline-corrected-endpoint-footprints.json",
+      "metadata_sha256": "fa1114f3f6f28fafca052a7889a5c628e8c44874be1e867de052aac496c209af",
+      "source_accuracy_m": 10.199999809265137,
+      "source_resolution_m": 0.5,
+      "decision": "manual_water_facing_sand_sea_contact_native_2d"
+    },
+    {
+      "id": "chicxulub-2011-SC-88-0-7",
+      "release": 11019,
+      "capture_date": "2011-08-01",
+      "panel": "work\\chicxulub-reference-review-20261106\\east\\independent-native-006.png",
+      "screenshot_sha256": "72edf3a005ea39cf090f7b169c9301dfec6322662c81aeb68f9fdf110846a79d",
+      "coordinate": [
+        -89.60017805646744,
+        21.2971112787387
+      ],
+      "metadata_endpoint_verified": true,
+      "metadata_file": "work\\progreso-full-review-20261105\\baseline-corrected-endpoint-footprints.json",
+      "metadata_sha256": "fa1114f3f6f28fafca052a7889a5c628e8c44874be1e867de052aac496c209af",
+      "source_accuracy_m": 10.199999809265137,
+      "source_resolution_m": 0.5,
+      "decision": "manual_water_facing_sand_sea_contact_native_2d"
+    },
+    {
+      "id": "chicxulub-2011-SC-88-0-8",
+      "release": 11019,
+      "capture_date": "2011-08-01",
+      "panel": "work\\chicxulub-reference-review-20261106\\east\\independent-native-006.png",
+      "screenshot_sha256": "72edf3a005ea39cf090f7b169c9301dfec6322662c81aeb68f9fdf110846a79d",
+      "coordinate": [
+        -89.5992552749795,
+        21.29732462572018
+      ],
+      "metadata_endpoint_verified": true,
+      "metadata_file": "work\\progreso-full-review-20261105\\baseline-corrected-endpoint-footprints.json",
+      "metadata_sha256": "fa1114f3f6f28fafca052a7889a5c628e8c44874be1e867de052aac496c209af",
+      "source_accuracy_m": 10.199999809265137,
+      "source_resolution_m": 0.5,
+      "decision": "manual_water_facing_sand_sea_contact_native_2d"
+    },
+    {
+      "id": "chicxulub-2011-SC-88-0-9",
+      "release": 11019,
+      "capture_date": "2011-08-01",
+      "panel": "work\\chicxulub-reference-review-20261106\\east\\independent-native-006.png",
+      "screenshot_sha256": "72edf3a005ea39cf090f7b169c9301dfec6322662c81aeb68f9fdf110846a79d",
+      "coordinate": [
+        -89.59830744893894,
+        21.297444865647666
+      ],
+      "metadata_endpoint_verified": true,
+      "metadata_file": "work\\progreso-full-review-20261105\\baseline-corrected-endpoint-footprints.json",
+      "metadata_sha256": "fa1114f3f6f28fafca052a7889a5c628e8c44874be1e867de052aac496c209af",
+      "source_accuracy_m": 10.199999809265137,
+      "source_resolution_m": 0.5,
+      "decision": "manual_water_facing_sand_sea_contact_native_2d"
+    },
+    {
+      "id": "chicxulub-2011-SC-88-0-10",
+      "release": 11019,
+      "capture_date": "2011-08-01",
+      "panel": "work\\chicxulub-reference-review-20261106\\east\\independent-native-006.png",
+      "screenshot_sha256": "72edf3a005ea39cf090f7b169c9301dfec6322662c81aeb68f9fdf110846a79d",
+      "coordinate": [
+        -89.59736545667508,
+        21.29755818177437
+      ],
+      "metadata_endpoint_verified": true,
+      "metadata_file": "work\\progreso-full-review-20261105\\baseline-corrected-endpoint-footprints.json",
+      "metadata_sha256": "fa1114f3f6f28fafca052a7889a5c628e8c44874be1e867de052aac496c209af",
+      "source_accuracy_m": 10.199999809265137,
+      "source_resolution_m": 0.5,
+      "decision": "manual_water_facing_sand_sea_contact_native_2d"
+    },
+    {
+      "id": "chicxulub-2011-SC-88-0-11",
+      "release": 11019,
+      "capture_date": "2011-08-01",
+      "panel": "work\\chicxulub-reference-review-20261106\\east\\independent-native-006.png",
+      "screenshot_sha256": "72edf3a005ea39cf090f7b169c9301dfec6322662c81aeb68f9fdf110846a79d",
+      "coordinate": [
+        -89.59644579233908,
+        21.297674928930356
+      ],
+      "metadata_endpoint_verified": true,
+      "metadata_file": "work\\progreso-full-review-20261105\\baseline-corrected-endpoint-footprints.json",
+      "metadata_sha256": "fa1114f3f6f28fafca052a7889a5c628e8c44874be1e867de052aac496c209af",
+      "source_accuracy_m": 10.199999809265137,
+      "source_resolution_m": 0.5,
+      "decision": "manual_water_facing_sand_sea_contact_native_2d"
+    },
+    {
+      "id": "chicxulub-2011-SC-88-0-12",
+      "release": 11019,
+      "capture_date": "2011-08-01",
+      "panel": "work\\chicxulub-reference-review-20261106\\east\\independent-native-012.png",
+      "screenshot_sha256": "fd981ff0d7d076834e60c7f1186d123837747e6b1fc2c62d015d24bd2182f76d",
+      "coordinate": [
+        -89.59550336115088,
+        21.297864600054
+      ],
+      "metadata_endpoint_verified": true,
+      "metadata_file": "work\\progreso-full-review-20261105\\baseline-corrected-endpoint-footprints.json",
+      "metadata_sha256": "fa1114f3f6f28fafca052a7889a5c628e8c44874be1e867de052aac496c209af",
+      "source_accuracy_m": 10.199999809265137,
+      "source_resolution_m": 0.5,
+      "decision": "manual_water_facing_sand_sea_contact_native_2d"
+    },
+    {
+      "id": "chicxulub-2011-SC-88-0-13",
+      "release": 11019,
+      "capture_date": "2011-08-01",
+      "panel": "work\\chicxulub-reference-review-20261106\\east\\independent-native-012.png",
+      "screenshot_sha256": "fd981ff0d7d076834e60c7f1186d123837747e6b1fc2c62d015d24bd2182f76d",
+      "coordinate": [
+        -89.59456573414445,
+        21.297984291980434
+      ],
+      "metadata_endpoint_verified": true,
+      "metadata_file": "work\\progreso-full-review-20261105\\baseline-corrected-endpoint-footprints.json",
+      "metadata_sha256": "fa1114f3f6f28fafca052a7889a5c628e8c44874be1e867de052aac496c209af",
+      "source_accuracy_m": 10.199999809265137,
+      "source_resolution_m": 0.5,
+      "decision": "manual_water_facing_sand_sea_contact_native_2d"
+    },
+    {
+      "id": "chicxulub-2011-SC-88-0-14",
+      "release": 11019,
+      "capture_date": "2011-08-01",
+      "panel": "work\\chicxulub-reference-review-20261106\\east\\independent-native-012.png",
+      "screenshot_sha256": "fd981ff0d7d076834e60c7f1186d123837747e6b1fc2c62d015d24bd2182f76d",
+      "coordinate": [
+        -89.59360943688802,
+        21.298074143253313
+      ],
+      "metadata_endpoint_verified": true,
+      "metadata_file": "work\\progreso-full-review-20261105\\baseline-corrected-endpoint-footprints.json",
+      "metadata_sha256": "fa1114f3f6f28fafca052a7889a5c628e8c44874be1e867de052aac496c209af",
+      "source_accuracy_m": 10.199999809265137,
+      "source_resolution_m": 0.5,
+      "decision": "manual_water_facing_sand_sea_contact_native_2d"
+    },
+    {
+      "id": "chicxulub-2011-SC-88-0-15",
+      "release": 11019,
+      "capture_date": "2011-08-01",
+      "panel": "work\\chicxulub-reference-review-20261106\\east\\independent-native-012.png",
+      "screenshot_sha256": "fd981ff0d7d076834e60c7f1186d123837747e6b1fc2c62d015d24bd2182f76d",
+      "coordinate": [
+        -89.59266443978143,
+        21.298251122531266
+      ],
+      "metadata_endpoint_verified": true,
+      "metadata_file": "work\\progreso-full-review-20261105\\baseline-corrected-endpoint-footprints.json",
+      "metadata_sha256": "fa1114f3f6f28fafca052a7889a5c628e8c44874be1e867de052aac496c209af",
+      "source_accuracy_m": 10.199999809265137,
+      "source_resolution_m": 0.5,
+      "decision": "manual_water_facing_sand_sea_contact_native_2d"
+    },
+    {
+      "id": "chicxulub-2011-SC-88-0-16",
+      "release": 11019,
+      "capture_date": "2011-08-01",
+      "panel": "work\\chicxulub-reference-review-20261106\\east\\independent-native-012.png",
+      "screenshot_sha256": "fd981ff0d7d076834e60c7f1186d123837747e6b1fc2c62d015d24bd2182f76d",
+      "coordinate": [
+        -89.59171819925045,
+        21.29843675690834
+      ],
+      "metadata_endpoint_verified": true,
+      "metadata_file": "work\\progreso-full-review-20261105\\baseline-corrected-endpoint-footprints.json",
+      "metadata_sha256": "fa1114f3f6f28fafca052a7889a5c628e8c44874be1e867de052aac496c209af",
+      "source_accuracy_m": 10.199999809265137,
+      "source_resolution_m": 0.5,
+      "decision": "manual_water_facing_sand_sea_contact_native_2d"
+    },
+    {
+      "id": "chicxulub-2011-SC-88-0-17",
+      "release": 11019,
+      "capture_date": "2011-08-01",
+      "panel": "work\\chicxulub-reference-review-20261106\\east\\independent-native-012.png",
+      "screenshot_sha256": "fd981ff0d7d076834e60c7f1186d123837747e6b1fc2c62d015d24bd2182f76d",
+      "coordinate": [
+        -89.59076661990686,
+        21.298574483605194
+      ],
+      "metadata_endpoint_verified": true,
+      "metadata_file": "work\\progreso-full-review-20261105\\baseline-corrected-endpoint-footprints.json",
+      "metadata_sha256": "fa1114f3f6f28fafca052a7889a5c628e8c44874be1e867de052aac496c209af",
+      "source_accuracy_m": 10.199999809265137,
+      "source_resolution_m": 0.5,
+      "decision": "manual_water_facing_sand_sea_contact_native_2d"
+    },
+    {
+      "id": "chicxulub-2011-SC-88-0-18",
+      "release": 11019,
+      "capture_date": "2011-08-01",
+      "panel": "work\\chicxulub-reference-review-20261106\\east\\independent-native-018.png",
+      "screenshot_sha256": "8a118736a05557f4089fe61fef4a2c9a5d6c3801d8c2c753a01908dbed12d3bd",
+      "coordinate": [
+        -89.58982219381954,
+        21.298758159909035
+      ],
+      "metadata_endpoint_verified": true,
+      "metadata_file": "work\\progreso-full-review-20261105\\baseline-corrected-endpoint-footprints.json",
+      "metadata_sha256": "fa1114f3f6f28fafca052a7889a5c628e8c44874be1e867de052aac496c209af",
+      "source_accuracy_m": 10.199999809265137,
+      "source_resolution_m": 0.5,
+      "decision": "manual_water_facing_sand_sea_contact_native_2d"
+    },
+    {
+      "id": "chicxulub-2011-SC-88-0-19",
+      "release": 11019,
+      "capture_date": "2011-08-01",
+      "panel": "work\\chicxulub-reference-review-20261106\\east\\independent-native-018.png",
+      "screenshot_sha256": "8a118736a05557f4089fe61fef4a2c9a5d6c3801d8c2c753a01908dbed12d3bd",
+      "coordinate": [
+        -89.58885505074784,
+        21.298834072927836
+      ],
+      "metadata_endpoint_verified": true,
+      "metadata_file": "work\\progreso-full-review-20261105\\baseline-corrected-endpoint-footprints.json",
+      "metadata_sha256": "fa1114f3f6f28fafca052a7889a5c628e8c44874be1e867de052aac496c209af",
+      "source_accuracy_m": 10.199999809265137,
+      "source_resolution_m": 0.5,
+      "decision": "manual_water_facing_sand_sea_contact_native_2d"
+    },
+    {
+      "id": "chicxulub-2011-SC-88-0-20",
+      "release": 11019,
+      "capture_date": "2011-08-01",
+      "panel": "work\\chicxulub-reference-review-20261106\\east\\independent-native-018.png",
+      "screenshot_sha256": "8a118736a05557f4089fe61fef4a2c9a5d6c3801d8c2c753a01908dbed12d3bd",
+      "coordinate": [
+        -89.5879304613562,
+        21.299164307588335
+      ],
+      "metadata_endpoint_verified": true,
+      "metadata_file": "work\\progreso-full-review-20261105\\baseline-corrected-endpoint-footprints.json",
+      "metadata_sha256": "fa1114f3f6f28fafca052a7889a5c628e8c44874be1e867de052aac496c209af",
+      "source_accuracy_m": 10.199999809265137,
+      "source_resolution_m": 0.5,
+      "decision": "manual_water_facing_sand_sea_contact_native_2d"
+    },
+    {
+      "id": "chicxulub-2011-SC-88-0-21",
+      "release": 11019,
+      "capture_date": "2011-08-01",
+      "panel": "work\\chicxulub-reference-review-20261106\\east\\independent-native-018.png",
+      "screenshot_sha256": "8a118736a05557f4089fe61fef4a2c9a5d6c3801d8c2c753a01908dbed12d3bd",
+      "coordinate": [
+        -89.58696795013803,
+        21.29924510598834
+      ],
+      "metadata_endpoint_verified": true,
+      "metadata_file": "work\\progreso-full-review-20261105\\baseline-corrected-endpoint-footprints.json",
+      "metadata_sha256": "fa1114f3f6f28fafca052a7889a5c628e8c44874be1e867de052aac496c209af",
+      "source_accuracy_m": 10.199999809265137,
+      "source_resolution_m": 0.5,
+      "decision": "manual_water_facing_sand_sea_contact_native_2d"
+    },
+    {
+      "id": "chicxulub-2011-SC-88-0-22",
+      "release": 11019,
+      "capture_date": "2011-08-01",
+      "panel": "work\\chicxulub-reference-review-20261106\\east\\independent-native-018.png",
+      "screenshot_sha256": "8a118736a05557f4089fe61fef4a2c9a5d6c3801d8c2c753a01908dbed12d3bd",
+      "coordinate": [
+        -89.58603848394759,
+        21.299467719674904
+      ],
+      "metadata_endpoint_verified": true,
+      "metadata_file": "work\\progreso-full-review-20261105\\baseline-corrected-endpoint-footprints.json",
+      "metadata_sha256": "fa1114f3f6f28fafca052a7889a5c628e8c44874be1e867de052aac496c209af",
+      "source_accuracy_m": 10.199999809265137,
+      "source_resolution_m": 0.5,
+      "decision": "manual_water_facing_sand_sea_contact_native_2d"
+    },
+    {
+      "id": "chicxulub-2011-SC-88-0-23",
+      "release": 11019,
+      "capture_date": "2011-08-01",
+      "panel": "work\\chicxulub-reference-review-20261106\\east\\independent-native-018.png",
+      "screenshot_sha256": "8a118736a05557f4089fe61fef4a2c9a5d6c3801d8c2c753a01908dbed12d3bd",
+      "coordinate": [
+        -89.58506499981674,
+        21.299540596411564
+      ],
+      "metadata_endpoint_verified": true,
+      "metadata_file": "work\\progreso-full-review-20261105\\baseline-corrected-endpoint-footprints.json",
+      "metadata_sha256": "fa1114f3f6f28fafca052a7889a5c628e8c44874be1e867de052aac496c209af",
+      "source_accuracy_m": 10.199999809265137,
+      "source_resolution_m": 0.5,
+      "decision": "manual_water_facing_sand_sea_contact_native_2d"
+    },
+    {
+      "id": "chicxulub-2011-SC-88-0-24",
+      "release": 11019,
+      "capture_date": "2011-08-01",
+      "panel": "work\\chicxulub-reference-review-20261106\\east\\independent-native-024.png",
+      "screenshot_sha256": "974b3b7623f79bf88aa2c02165eabc02fe9a92b170c712bf75f652f02f366e2e",
+      "coordinate": [
+        -89.5841510545607,
+        21.299844867547737
+      ],
+      "metadata_endpoint_verified": true,
+      "metadata_file": "work\\progreso-full-review-20261105\\baseline-corrected-endpoint-footprints.json",
+      "metadata_sha256": "fa1114f3f6f28fafca052a7889a5c628e8c44874be1e867de052aac496c209af",
+      "source_accuracy_m": 10.199999809265137,
+      "source_resolution_m": 0.5,
+      "decision": "manual_water_facing_sand_sea_contact_native_2d"
+    },
+    {
+      "id": "chicxulub-2011-SC-88-0-25",
+      "release": 11019,
+      "capture_date": "2011-08-01",
+      "panel": "work\\chicxulub-reference-review-20261106\\east\\independent-native-024.png",
+      "screenshot_sha256": "974b3b7623f79bf88aa2c02165eabc02fe9a92b170c712bf75f652f02f366e2e",
+      "coordinate": [
+        -89.58319862621629,
+        21.30005075415075
+      ],
+      "metadata_endpoint_verified": true,
+      "metadata_file": "work\\progreso-full-review-20261105\\baseline-corrected-endpoint-footprints.json",
+      "metadata_sha256": "fa1114f3f6f28fafca052a7889a5c628e8c44874be1e867de052aac496c209af",
+      "source_accuracy_m": 10.199999809265137,
+      "source_resolution_m": 0.5,
+      "decision": "manual_water_facing_sand_sea_contact_native_2d"
+    },
+    {
+      "id": "chicxulub-2011-SC-88-0-26",
+      "release": 11019,
+      "capture_date": "2011-08-01",
+      "panel": "work\\chicxulub-reference-review-20261106\\east\\independent-native-024.png",
+      "screenshot_sha256": "974b3b7623f79bf88aa2c02165eabc02fe9a92b170c712bf75f652f02f366e2e",
+      "coordinate": [
+        -89.58225712254152,
+        21.300170312080482
+      ],
+      "metadata_endpoint_verified": true,
+      "metadata_file": "work\\progreso-full-review-20261105\\baseline-corrected-endpoint-footprints.json",
+      "metadata_sha256": "fa1114f3f6f28fafca052a7889a5c628e8c44874be1e867de052aac496c209af",
+      "source_accuracy_m": 10.199999809265137,
+      "source_resolution_m": 0.5,
+      "decision": "manual_water_facing_sand_sea_contact_native_2d"
+    },
+    {
+      "id": "chicxulub-2011-SC-88-0-27",
+      "release": 11019,
+      "capture_date": "2011-08-01",
+      "panel": "work\\chicxulub-reference-review-20261106\\east\\independent-native-024.png",
+      "screenshot_sha256": "974b3b7623f79bf88aa2c02165eabc02fe9a92b170c712bf75f652f02f366e2e",
+      "coordinate": [
+        -89.58136012964991,
+        21.300298396562127
+      ],
+      "metadata_endpoint_verified": true,
+      "metadata_file": "work\\progreso-full-review-20261105\\baseline-corrected-endpoint-footprints.json",
+      "metadata_sha256": "fa1114f3f6f28fafca052a7889a5c628e8c44874be1e867de052aac496c209af",
+      "source_accuracy_m": 10.199999809265137,
+      "source_resolution_m": 0.5,
+      "decision": "manual_water_facing_sand_sea_contact_native_2d"
+    },
+    {
+      "id": "chicxulub-2011-SC-88-0-28",
+      "release": 11019,
+      "capture_date": "2011-08-01",
+      "panel": "work\\chicxulub-reference-review-20261106\\east\\independent-native-024.png",
+      "screenshot_sha256": "974b3b7623f79bf88aa2c02165eabc02fe9a92b170c712bf75f652f02f366e2e",
+      "coordinate": [
+        -89.58040105766447,
+        21.300383690009088
+      ],
+      "metadata_endpoint_verified": true,
+      "metadata_file": "work\\progreso-full-review-20261105\\baseline-corrected-endpoint-footprints.json",
+      "metadata_sha256": "fa1114f3f6f28fafca052a7889a5c628e8c44874be1e867de052aac496c209af",
+      "source_accuracy_m": 10.199999809265137,
+      "source_resolution_m": 0.5,
+      "decision": "manual_water_facing_sand_sea_contact_native_2d"
+    },
+    {
+      "id": "chicxulub-2011-SC-88-0-29",
+      "release": 11019,
+      "capture_date": "2011-08-01",
+      "panel": "work\\chicxulub-reference-review-20261106\\east\\independent-native-024.png",
+      "screenshot_sha256": "974b3b7623f79bf88aa2c02165eabc02fe9a92b170c712bf75f652f02f366e2e",
+      "coordinate": [
+        -89.57945282789103,
+        21.300530468841643
+      ],
+      "metadata_endpoint_verified": true,
+      "metadata_file": "work\\progreso-full-review-20261105\\baseline-corrected-endpoint-footprints.json",
+      "metadata_sha256": "fa1114f3f6f28fafca052a7889a5c628e8c44874be1e867de052aac496c209af",
+      "source_accuracy_m": 10.199999809265137,
+      "source_resolution_m": 0.5,
+      "decision": "manual_water_facing_sand_sea_contact_native_2d"
+    },
+    {
+      "id": "chicxulub-2011-SC-88-0-30",
+      "release": 11019,
+      "capture_date": "2011-08-01",
+      "panel": "work\\chicxulub-reference-review-20261106\\east\\independent-native-030.png",
+      "screenshot_sha256": "428ab600a05f680b2310cebe167c1dc792278a572046ab5d628722fb7aacd5b0",
+      "coordinate": [
+        -89.57850722651841,
+        21.300743561445955
+      ],
+      "metadata_endpoint_verified": true,
+      "metadata_file": "work\\progreso-full-review-20261105\\baseline-corrected-endpoint-footprints.json",
+      "metadata_sha256": "fa1114f3f6f28fafca052a7889a5c628e8c44874be1e867de052aac496c209af",
+      "source_accuracy_m": 10.199999809265137,
+      "source_resolution_m": 0.5,
+      "decision": "manual_water_facing_sand_sea_contact_native_2d"
+    },
+    {
+      "id": "chicxulub-2011-SC-88-0-31",
+      "release": 11019,
+      "capture_date": "2011-08-01",
+      "panel": "work\\chicxulub-reference-review-20261106\\east\\independent-native-030.png",
+      "screenshot_sha256": "428ab600a05f680b2310cebe167c1dc792278a572046ab5d628722fb7aacd5b0",
+      "coordinate": [
+        -89.57754515313663,
+        21.30081506534044
+      ],
+      "metadata_endpoint_verified": true,
+      "metadata_file": "work\\progreso-full-review-20261105\\baseline-corrected-endpoint-footprints.json",
+      "metadata_sha256": "fa1114f3f6f28fafca052a7889a5c628e8c44874be1e867de052aac496c209af",
+      "source_accuracy_m": 10.199999809265137,
+      "source_resolution_m": 0.5,
+      "decision": "manual_water_facing_sand_sea_contact_native_2d"
+    },
+    {
+      "id": "chicxulub-2011-SC-88-0-32",
+      "release": 11019,
+      "capture_date": "2011-08-01",
+      "panel": "work\\chicxulub-reference-review-20261106\\east\\independent-native-030.png",
+      "screenshot_sha256": "428ab600a05f680b2310cebe167c1dc792278a572046ab5d628722fb7aacd5b0",
+      "coordinate": [
+        -89.57657833165723,
+        21.30086349921528
+      ],
+      "metadata_endpoint_verified": true,
+      "metadata_file": "work\\progreso-full-review-20261105\\baseline-corrected-endpoint-footprints.json",
+      "metadata_sha256": "fa1114f3f6f28fafca052a7889a5c628e8c44874be1e867de052aac496c209af",
+      "source_accuracy_m": 10.199999809265137,
+      "source_resolution_m": 0.5,
+      "decision": "manual_water_facing_sand_sea_contact_native_2d"
+    },
+    {
+      "id": "chicxulub-2011-SC-88-0-33",
+      "release": 11019,
+      "capture_date": "2011-08-01",
+      "panel": "work\\chicxulub-reference-review-20261106\\east\\independent-native-030.png",
+      "screenshot_sha256": "428ab600a05f680b2310cebe167c1dc792278a572046ab5d628722fb7aacd5b0",
+      "coordinate": [
+        -89.57564450280051,
+        21.301091683226236
+      ],
+      "metadata_endpoint_verified": true,
+      "metadata_file": "work\\progreso-full-review-20261105\\baseline-corrected-endpoint-footprints.json",
+      "metadata_sha256": "fa1114f3f6f28fafca052a7889a5c628e8c44874be1e867de052aac496c209af",
+      "source_accuracy_m": 10.199999809265137,
+      "source_resolution_m": 0.5,
+      "decision": "manual_water_facing_sand_sea_contact_native_2d"
+    },
+    {
+      "id": "chicxulub-2011-SC-88-0-34",
+      "release": 11019,
+      "capture_date": "2011-08-01",
+      "panel": "work\\chicxulub-reference-review-20261106\\east\\independent-native-030.png",
+      "screenshot_sha256": "428ab600a05f680b2310cebe167c1dc792278a572046ab5d628722fb7aacd5b0",
+      "coordinate": [
+        -89.57468918647125,
+        21.301233114408053
+      ],
+      "metadata_endpoint_verified": true,
+      "metadata_file": "work\\progreso-full-review-20261105\\baseline-corrected-endpoint-footprints.json",
+      "metadata_sha256": "fa1114f3f6f28fafca052a7889a5c628e8c44874be1e867de052aac496c209af",
+      "source_accuracy_m": 10.199999809265137,
+      "source_resolution_m": 0.5,
+      "decision": "manual_water_facing_sand_sea_contact_native_2d"
+    },
+    {
+      "id": "chicxulub-2011-SC-88-0-35",
+      "release": 11019,
+      "capture_date": "2011-08-01",
+      "panel": "work\\chicxulub-reference-review-20261106\\east\\independent-native-030.png",
+      "screenshot_sha256": "428ab600a05f680b2310cebe167c1dc792278a572046ab5d628722fb7aacd5b0",
+      "coordinate": [
+        -89.57375483089528,
+        21.30142438150808
+      ],
+      "metadata_endpoint_verified": true,
+      "metadata_file": "work\\progreso-full-review-20261105\\baseline-corrected-endpoint-footprints.json",
+      "metadata_sha256": "fa1114f3f6f28fafca052a7889a5c628e8c44874be1e867de052aac496c209af",
+      "source_accuracy_m": 10.199999809265137,
+      "source_resolution_m": 0.5,
+      "decision": "manual_water_facing_sand_sea_contact_native_2d"
+    },
+    {
+      "id": "chicxulub-2011-SC-88-0-36",
+      "release": 11019,
+      "capture_date": "2011-08-01",
+      "panel": "work\\chicxulub-reference-review-20261106\\east\\independent-native-036.png",
+      "screenshot_sha256": "73b2cc1d298c877f3f648776a5f9acfcb35bb06ae29ed6f13c3ee6ec6ad8740a",
+      "coordinate": [
+        -89.5728129625212,
+        21.301616808203804
+      ],
+      "metadata_endpoint_verified": true,
+      "metadata_file": "work\\progreso-full-review-20261105\\baseline-corrected-endpoint-footprints.json",
+      "metadata_sha256": "fa1114f3f6f28fafca052a7889a5c628e8c44874be1e867de052aac496c209af",
+      "source_accuracy_m": 10.199999809265137,
+      "source_resolution_m": 0.5,
+      "decision": "manual_water_facing_sand_sea_contact_native_2d"
+    },
+    {
+      "id": "chicxulub-2011-SC-88-0-37",
+      "release": 11019,
+      "capture_date": "2011-08-01",
+      "panel": "work\\chicxulub-reference-review-20261106\\east\\independent-native-036.png",
+      "screenshot_sha256": "73b2cc1d298c877f3f648776a5f9acfcb35bb06ae29ed6f13c3ee6ec6ad8740a",
+      "coordinate": [
+        -89.57185508981048,
+        21.301745537310172
+      ],
+      "metadata_endpoint_verified": true,
+      "metadata_file": "work\\progreso-full-review-20261105\\baseline-corrected-endpoint-footprints.json",
+      "metadata_sha256": "fa1114f3f6f28fafca052a7889a5c628e8c44874be1e867de052aac496c209af",
+      "source_accuracy_m": 10.199999809265137,
+      "source_resolution_m": 0.5,
+      "decision": "manual_water_facing_sand_sea_contact_native_2d"
+    },
+    {
+      "id": "chicxulub-2011-SC-88-0-38",
+      "release": 11019,
+      "capture_date": "2011-08-01",
+      "panel": "work\\chicxulub-reference-review-20261106\\east\\independent-native-036.png",
+      "screenshot_sha256": "73b2cc1d298c877f3f648776a5f9acfcb35bb06ae29ed6f13c3ee6ec6ad8740a",
+      "coordinate": [
+        -89.5709067807599,
+        21.301919991331765
+      ],
+      "metadata_endpoint_verified": true,
+      "metadata_file": "work\\progreso-full-review-20261105\\baseline-corrected-endpoint-footprints.json",
+      "metadata_sha256": "fa1114f3f6f28fafca052a7889a5c628e8c44874be1e867de052aac496c209af",
+      "source_accuracy_m": 10.199999809265137,
+      "source_resolution_m": 0.5,
+      "decision": "manual_water_facing_sand_sea_contact_native_2d"
+    },
+    {
+      "id": "chelem-circle-1-2011-SC-C379-0-0",
+      "release": 11019,
+      "capture_date": "2011-08-01",
+      "screenshot_sha256": "f495b2e7b58a2703fb5fada8439da881b1d78f4e64f4ad265e915f8bea0ccf67",
+      "panel": "work\\chicxulub-reference-review-20261106\\QA\\source-circle-01-native.png",
+      "panel_pixel": [
+        112.83055741712451,
+        188.77956007048488
+      ],
+      "coordinate": [
+        -89.76677837965875,
+        21.266662337823405
+      ],
+      "metadata_endpoint_verified": true,
+      "metadata_file": "work\\progreso-full-review-20261105\\baseline-corrected-endpoint-footprints.json",
+      "metadata_sha256": "fa1114f3f6f28fafca052a7889a5c628e8c44874be1e867de052aac496c209af",
+      "source_accuracy_m": 10.199999809265137,
+      "source_resolution_m": 0.5,
+      "sampling_zoom": 17,
+      "interpretation": "Visible apparent water/sand interface in native 2D and valid original transect."
+    },
+    {
+      "id": "chelem-circle-1-2011-SC-C392-0-1",
+      "release": 11019,
+      "capture_date": "2011-08-01",
+      "screenshot_sha256": "f495b2e7b58a2703fb5fada8439da881b1d78f4e64f4ad265e915f8bea0ccf67",
+      "panel": "work\\chicxulub-reference-review-20261106\\QA\\source-circle-01-native.png",
+      "panel_pixel": [
+        214.58114414475858,
+        171.12320516817272
+      ],
+      "coordinate": [
+        -89.76568671429479,
+        21.266838869986163
+      ],
+      "metadata_endpoint_verified": true,
+      "metadata_file": "work\\progreso-full-review-20261105\\baseline-corrected-endpoint-footprints.json",
+      "metadata_sha256": "fa1114f3f6f28fafca052a7889a5c628e8c44874be1e867de052aac496c209af",
+      "source_accuracy_m": 10.199999809265137,
+      "source_resolution_m": 0.5,
+      "sampling_zoom": 17,
+      "interpretation": "Visible apparent water/sand interface in native 2D and valid original transect."
+    },
+    {
+      "id": "chelem-circle-2-2011-SC-93-0-0",
+      "release": 11019,
+      "capture_date": "2011-08-01",
+      "screenshot_sha256": "9d67ca7d268e0931cb957cffa08af9e2e213e0d15e4ab5563b88fab9d2258588",
+      "panel": "work\\chicxulub-reference-review-20261106\\QA\\source-circle-02-native.png",
+      "panel_pixel": [
+        82.34678095020354,
+        194.65450432896614
+      ],
+      "coordinate": [
+        -89.71702322837287,
+        21.27721134104838
+      ],
+      "metadata_endpoint_verified": true,
+      "metadata_file": "work\\progreso-full-review-20261105\\baseline-corrected-endpoint-footprints.json",
+      "metadata_sha256": "fa1114f3f6f28fafca052a7889a5c628e8c44874be1e867de052aac496c209af",
+      "source_accuracy_m": 10.199999809265137,
+      "source_resolution_m": 0.5,
+      "sampling_zoom": 17,
+      "interpretation": "Visible apparent water/sand interface in native 2D and valid original transect."
+    },
+    {
+      "id": "chelem-circle-2-2011-SC-96-0-0",
+      "release": 11019,
+      "capture_date": "2011-08-01",
+      "screenshot_sha256": "9d67ca7d268e0931cb957cffa08af9e2e213e0d15e4ab5563b88fab9d2258588",
+      "panel": "work\\chicxulub-reference-review-20261106\\QA\\source-circle-02-native.png",
+      "panel_pixel": [
+        198.94666923210025,
+        173.7149800118059
+      ],
+      "coordinate": [
+        -89.71577224728694,
+        21.277420684039523
+      ],
+      "metadata_endpoint_verified": true,
+      "metadata_file": "work\\progreso-full-review-20261105\\baseline-corrected-endpoint-footprints.json",
+      "metadata_sha256": "fa1114f3f6f28fafca052a7889a5c628e8c44874be1e867de052aac496c209af",
+      "source_accuracy_m": 10.199999809265137,
+      "source_resolution_m": 0.5,
+      "sampling_zoom": 17,
+      "interpretation": "Visible apparent water/sand interface in native 2D and valid original transect."
+    }
+  ],
+  "corrections": [
+    {
+      "profile_id": "SC-89-0-21",
+      "capture": 40,
+      "date": "2011-08-01",
+      "releases": [
+        11019,
+        10
+      ],
+      "original_offset_m": 18.5,
+      "original_accepted": true,
+      "offset_m": 21.0,
+      "manual_uncertainty_m": 8,
+      "source": "chicxulub-2011-SC-89-0-21"
+    },
+    {
+      "profile_id": "SC-89-0-22",
+      "capture": 40,
+      "date": "2011-08-01",
+      "releases": [
+        11019,
+        10
+      ],
+      "original_offset_m": 11,
+      "original_accepted": true,
+      "offset_m": 15.5,
+      "manual_uncertainty_m": 8,
+      "source": "chicxulub-2011-SC-89-0-22"
+    },
+    {
+      "profile_id": "SC-89-0-23",
+      "capture": 40,
+      "date": "2011-08-01",
+      "releases": [
+        11019,
+        10
+      ],
+      "original_offset_m": 16,
+      "original_accepted": true,
+      "offset_m": 18.0,
+      "manual_uncertainty_m": 8,
+      "source": "chicxulub-2011-SC-89-0-23"
+    },
+    {
+      "profile_id": "SC-89-0-24",
+      "capture": 40,
+      "date": "2011-08-01",
+      "releases": [
+        11019,
+        10
+      ],
+      "original_offset_m": 22,
+      "original_accepted": true,
+      "offset_m": 24.0,
+      "manual_uncertainty_m": 8,
+      "source": "chicxulub-2011-SC-89-0-24"
+    },
+    {
+      "profile_id": "SC-89-0-25",
+      "capture": 40,
+      "date": "2011-08-01",
+      "releases": [
+        11019,
+        10
+      ],
+      "original_offset_m": 23,
+      "original_accepted": true,
+      "offset_m": 26.0,
+      "manual_uncertainty_m": 8,
+      "source": "chicxulub-2011-SC-89-0-25"
+    },
+    {
+      "profile_id": "SC-89-0-26",
+      "capture": 40,
+      "date": "2011-08-01",
+      "releases": [
+        11019,
+        10
+      ],
+      "original_offset_m": 11.5,
+      "original_accepted": true,
+      "offset_m": 14.0,
+      "manual_uncertainty_m": 8,
+      "source": "chicxulub-2011-SC-89-0-26"
+    },
+    {
+      "profile_id": "SC-89-0-27",
+      "capture": 40,
+      "date": "2011-08-01",
+      "releases": [
+        11019,
+        10
+      ],
+      "original_offset_m": 3.5,
+      "original_accepted": true,
+      "offset_m": 7.0,
+      "manual_uncertainty_m": 8,
+      "source": "chicxulub-2011-SC-89-0-27"
+    },
+    {
+      "profile_id": "SC-89-0-28",
+      "capture": 40,
+      "date": "2011-08-01",
+      "releases": [
+        11019,
+        10
+      ],
+      "original_offset_m": 4,
+      "original_accepted": true,
+      "offset_m": 8.5,
+      "manual_uncertainty_m": 8,
+      "source": "chicxulub-2011-SC-89-0-28"
+    },
+    {
+      "profile_id": "SC-89-0-29",
+      "capture": 40,
+      "date": "2011-08-01",
+      "releases": [
+        11019,
+        10
+      ],
+      "original_offset_m": 18.5,
+      "original_accepted": true,
+      "offset_m": 21.0,
+      "manual_uncertainty_m": 8,
+      "source": "chicxulub-2011-SC-89-0-29"
+    },
+    {
+      "profile_id": "SC-89-0-30",
+      "capture": 40,
+      "date": "2011-08-01",
+      "releases": [
+        11019,
+        10
+      ],
+      "original_offset_m": 10,
+      "original_accepted": true,
+      "offset_m": 7.5,
+      "manual_uncertainty_m": 8,
+      "source": "chicxulub-2011-SC-89-0-30"
+    },
+    {
+      "profile_id": "SC-89-0-31",
+      "capture": 40,
+      "date": "2011-08-01",
+      "releases": [
+        11019,
+        10
+      ],
+      "original_offset_m": 2.5,
+      "original_accepted": true,
+      "offset_m": 4.0,
+      "manual_uncertainty_m": 8,
+      "source": "chicxulub-2011-SC-89-0-31"
+    },
+    {
+      "profile_id": "SC-89-0-32",
+      "capture": 40,
+      "date": "2011-08-01",
+      "releases": [
+        11019,
+        10
+      ],
+      "original_offset_m": -7,
+      "original_accepted": true,
+      "offset_m": -8.5,
+      "manual_uncertainty_m": 8,
+      "source": "chicxulub-2011-SC-89-0-32"
+    },
+    {
+      "profile_id": "SC-89-0-33",
+      "capture": 40,
+      "date": "2011-08-01",
+      "releases": [
+        11019,
+        10
+      ],
+      "original_offset_m": 5.5,
+      "original_accepted": true,
+      "offset_m": 6.0,
+      "manual_uncertainty_m": 8,
+      "source": "chicxulub-2011-SC-89-0-33"
+    },
+    {
+      "profile_id": "SC-89-0-34",
+      "capture": 40,
+      "date": "2011-08-01",
+      "releases": [
+        11019,
+        10
+      ],
+      "original_offset_m": 5.5,
+      "original_accepted": true,
+      "offset_m": 8.0,
+      "manual_uncertainty_m": 8,
+      "source": "chicxulub-2011-SC-89-0-34"
+    },
+    {
+      "profile_id": "SC-89-0-35",
+      "capture": 40,
+      "date": "2011-08-01",
+      "releases": [
+        11019,
+        10
+      ],
+      "original_offset_m": 9,
+      "original_accepted": true,
+      "offset_m": 9.5,
+      "manual_uncertainty_m": 8,
+      "source": "chicxulub-2011-SC-89-0-35"
+    },
+    {
+      "profile_id": "SC-89-0-36",
+      "capture": 40,
+      "date": "2011-08-01",
+      "releases": [
+        11019,
+        10
+      ],
+      "original_offset_m": 7.5,
+      "original_accepted": true,
+      "offset_m": 4.5,
+      "manual_uncertainty_m": 8,
+      "source": "chicxulub-2011-SC-89-0-36"
+    },
+    {
+      "profile_id": "SC-89-0-37",
+      "capture": 40,
+      "date": "2011-08-01",
+      "releases": [
+        11019,
+        10
+      ],
+      "original_offset_m": 4.5,
+      "original_accepted": true,
+      "offset_m": 3.0,
+      "manual_uncertainty_m": 8,
+      "source": "chicxulub-2011-SC-89-0-37"
+    },
+    {
+      "profile_id": "SC-89-0-38",
+      "capture": 40,
+      "date": "2011-08-01",
+      "releases": [
+        11019,
+        10
+      ],
+      "original_offset_m": -3.5,
+      "original_accepted": true,
+      "offset_m": 1.0,
+      "manual_uncertainty_m": 8,
+      "source": "chicxulub-2011-SC-89-0-38"
+    },
+    {
+      "profile_id": "SC-89-0-39",
+      "capture": 40,
+      "date": "2011-08-01",
+      "releases": [
+        11019,
+        10
+      ],
+      "original_offset_m": 3,
+      "original_accepted": true,
+      "offset_m": 7.5,
+      "manual_uncertainty_m": 8,
+      "source": "chicxulub-2011-SC-89-0-39"
+    },
+    {
+      "profile_id": "SC-89-0-40",
+      "capture": 40,
+      "date": "2011-08-01",
+      "releases": [
+        11019,
+        10
+      ],
+      "original_offset_m": -1,
+      "original_accepted": true,
+      "offset_m": -3.5,
+      "manual_uncertainty_m": 8,
+      "source": "chicxulub-2011-SC-89-0-40"
+    },
+    {
+      "profile_id": "SC-89-0-41",
+      "capture": 40,
+      "date": "2011-08-01",
+      "releases": [
+        11019,
+        10
+      ],
+      "original_offset_m": -4,
+      "original_accepted": true,
+      "offset_m": 1.5,
+      "manual_uncertainty_m": 8,
+      "source": "chicxulub-2011-SC-89-0-41"
+    },
+    {
+      "profile_id": "SC-89-0-42",
+      "capture": 40,
+      "date": "2011-08-01",
+      "releases": [
+        11019,
+        10
+      ],
+      "original_offset_m": -10.5,
+      "original_accepted": true,
+      "offset_m": -13.5,
+      "manual_uncertainty_m": 8,
+      "source": "chicxulub-2011-SC-89-0-42"
+    },
+    {
+      "profile_id": "SC-89-0-43",
+      "capture": 40,
+      "date": "2011-08-01",
+      "releases": [
+        11019,
+        10
+      ],
+      "original_offset_m": -7.5,
+      "original_accepted": true,
+      "offset_m": -5.0,
+      "manual_uncertainty_m": 8,
+      "source": "chicxulub-2011-SC-89-0-43"
+    },
+    {
+      "profile_id": "SC-89-0-44",
+      "capture": 40,
+      "date": "2011-08-01",
+      "releases": [
+        11019,
+        10
+      ],
+      "original_offset_m": 0,
+      "original_accepted": true,
+      "offset_m": -3.0,
+      "manual_uncertainty_m": 8,
+      "source": "chicxulub-2011-SC-89-0-44"
+    },
+    {
+      "profile_id": "SC-89-0-45",
+      "capture": 40,
+      "date": "2011-08-01",
+      "releases": [
+        11019,
+        10
+      ],
+      "original_offset_m": -5.5,
+      "original_accepted": true,
+      "offset_m": -1.5,
+      "manual_uncertainty_m": 8,
+      "source": "chicxulub-2011-SC-89-0-45"
+    },
+    {
+      "profile_id": "SC-89-0-46",
+      "capture": 40,
+      "date": "2011-08-01",
+      "releases": [
+        11019,
+        10
+      ],
+      "original_offset_m": 0.5,
+      "original_accepted": true,
+      "offset_m": 3.5,
+      "manual_uncertainty_m": 8,
+      "source": "chicxulub-2011-SC-89-0-46"
+    },
+    {
+      "profile_id": "SC-89-0-47",
+      "capture": 40,
+      "date": "2011-08-01",
+      "releases": [
+        11019,
+        10
+      ],
+      "original_offset_m": -2.5,
+      "original_accepted": true,
+      "offset_m": 2.0,
+      "manual_uncertainty_m": 8,
+      "source": "chicxulub-2011-SC-89-0-47"
+    },
+    {
+      "profile_id": "SC-89-0-48",
+      "capture": 40,
+      "date": "2011-08-01",
+      "releases": [
+        11019,
+        10
+      ],
+      "original_offset_m": -4,
+      "original_accepted": true,
+      "offset_m": -1.5,
+      "manual_uncertainty_m": 8,
+      "source": "chicxulub-2011-SC-89-0-48"
+    },
+    {
+      "profile_id": "SC-89-0-49",
+      "capture": 40,
+      "date": "2011-08-01",
+      "releases": [
+        11019,
+        10
+      ],
+      "original_offset_m": -2.5,
+      "original_accepted": true,
+      "offset_m": 1.5,
+      "manual_uncertainty_m": 8,
+      "source": "chicxulub-2011-SC-89-0-49"
+    },
+    {
+      "profile_id": "SC-89-0-50",
+      "capture": 40,
+      "date": "2011-08-01",
+      "releases": [
+        11019,
+        10
+      ],
+      "original_offset_m": -1.5,
+      "original_accepted": true,
+      "offset_m": 1.0,
+      "manual_uncertainty_m": 8,
+      "source": "chicxulub-2011-SC-89-0-50"
+    },
+    {
+      "profile_id": "SC-89-0-51",
+      "capture": 40,
+      "date": "2011-08-01",
+      "releases": [
+        11019,
+        10
+      ],
+      "original_offset_m": -12,
+      "original_accepted": true,
+      "offset_m": -6.0,
+      "manual_uncertainty_m": 8,
+      "source": "chicxulub-2011-SC-89-0-51"
+    },
+    {
+      "profile_id": "SC-89-0-54",
+      "capture": 40,
+      "date": "2011-08-01",
+      "releases": [
+        11019,
+        10
+      ],
+      "original_offset_m": -16.5,
+      "original_accepted": true,
+      "offset_m": -12.5,
+      "manual_uncertainty_m": 8,
+      "source": "chicxulub-2011-SC-89-0-54"
+    },
+    {
+      "profile_id": "SC-89-0-55",
+      "capture": 40,
+      "date": "2011-08-01",
+      "releases": [
+        11019,
+        10
+      ],
+      "original_offset_m": -14,
+      "original_accepted": true,
+      "offset_m": -9.5,
+      "manual_uncertainty_m": 8,
+      "source": "chicxulub-2011-SC-89-0-55"
+    },
+    {
+      "profile_id": "SC-89-0-56",
+      "capture": 40,
+      "date": "2011-08-01",
+      "releases": [
+        11019,
+        10
+      ],
+      "original_offset_m": -16,
+      "original_accepted": true,
+      "offset_m": -9.5,
+      "manual_uncertainty_m": 8,
+      "source": "chicxulub-2011-SC-89-0-56"
+    },
+    {
+      "profile_id": "SC-89-0-57",
+      "capture": 40,
+      "date": "2011-08-01",
+      "releases": [
+        11019,
+        10
+      ],
+      "original_offset_m": 4,
+      "original_accepted": true,
+      "offset_m": 7.5,
+      "manual_uncertainty_m": 8,
+      "source": "chicxulub-2011-SC-89-0-57"
+    },
+    {
+      "profile_id": "SC-89-0-58",
+      "capture": 40,
+      "date": "2011-08-01",
+      "releases": [
+        11019,
+        10
+      ],
+      "original_offset_m": -4.5,
+      "original_accepted": true,
+      "offset_m": 0.5,
+      "manual_uncertainty_m": 8,
+      "source": "chicxulub-2011-SC-89-0-58"
+    },
+    {
+      "profile_id": "SC-89-0-59",
+      "capture": 40,
+      "date": "2011-08-01",
+      "releases": [
+        11019,
+        10
+      ],
+      "original_offset_m": -9,
+      "original_accepted": true,
+      "offset_m": -7.0,
+      "manual_uncertainty_m": 8,
+      "source": "chicxulub-2011-SC-89-0-59"
+    },
+    {
+      "profile_id": "SC-89-0-60",
+      "capture": 40,
+      "date": "2011-08-01",
+      "releases": [
+        11019,
+        10
+      ],
+      "original_offset_m": -3.5,
+      "original_accepted": true,
+      "offset_m": -0.5,
+      "manual_uncertainty_m": 8,
+      "source": "chicxulub-2011-SC-89-0-60"
+    },
+    {
+      "profile_id": "SC-88-0-0",
+      "capture": 40,
+      "date": "2011-08-01",
+      "releases": [
+        11019,
+        10
+      ],
+      "original_offset_m": 4,
+      "original_accepted": true,
+      "offset_m": 5.0,
+      "manual_uncertainty_m": 8,
+      "source": "chicxulub-2011-SC-88-0-0"
+    },
+    {
+      "profile_id": "SC-88-0-1",
+      "capture": 40,
+      "date": "2011-08-01",
+      "releases": [
+        11019,
+        10
+      ],
+      "original_offset_m": 13.5,
+      "original_accepted": true,
+      "offset_m": 15.5,
+      "manual_uncertainty_m": 8,
+      "source": "chicxulub-2011-SC-88-0-1"
+    },
+    {
+      "profile_id": "SC-88-0-2",
+      "capture": 40,
+      "date": "2011-08-01",
+      "releases": [
+        11019,
+        10
+      ],
+      "original_offset_m": 8.5,
+      "original_accepted": true,
+      "offset_m": 9.6,
+      "manual_uncertainty_m": 8,
+      "source": "chicxulub-2011-SC-88-0-2"
+    },
+    {
+      "profile_id": "SC-88-0-3",
+      "capture": 40,
+      "date": "2011-08-01",
+      "releases": [
+        11019,
+        10
+      ],
+      "original_offset_m": 13.5,
+      "original_accepted": true,
+      "offset_m": 18.4,
+      "manual_uncertainty_m": 8,
+      "source": "chicxulub-2011-SC-88-0-3"
+    },
+    {
+      "profile_id": "SC-88-0-4",
+      "capture": 40,
+      "date": "2011-08-01",
+      "releases": [
+        11019,
+        10
+      ],
+      "original_offset_m": 13,
+      "original_accepted": true,
+      "offset_m": 16.5,
+      "manual_uncertainty_m": 8,
+      "source": "chicxulub-2011-SC-88-0-4"
+    },
+    {
+      "profile_id": "SC-88-0-5",
+      "capture": 40,
+      "date": "2011-08-01",
+      "releases": [
+        11019,
+        10
+      ],
+      "original_offset_m": 5,
+      "original_accepted": true,
+      "offset_m": 7.7,
+      "manual_uncertainty_m": 8,
+      "source": "chicxulub-2011-SC-88-0-5"
+    },
+    {
+      "profile_id": "SC-88-0-6",
+      "capture": 40,
+      "date": "2011-08-01",
+      "releases": [
+        11019,
+        10
+      ],
+      "original_offset_m": 9,
+      "original_accepted": true,
+      "offset_m": 10.3,
+      "manual_uncertainty_m": 8,
+      "source": "chicxulub-2011-SC-88-0-6"
+    },
+    {
+      "profile_id": "SC-88-0-7",
+      "capture": 40,
+      "date": "2011-08-01",
+      "releases": [
+        11019,
+        10
+      ],
+      "original_offset_m": 11,
+      "original_accepted": true,
+      "offset_m": 13.2,
+      "manual_uncertainty_m": 8,
+      "source": "chicxulub-2011-SC-88-0-7"
+    },
+    {
+      "profile_id": "SC-88-0-8",
+      "capture": 40,
+      "date": "2011-08-01",
+      "releases": [
+        11019,
+        10
+      ],
+      "original_offset_m": 5.5,
+      "original_accepted": true,
+      "offset_m": 9.6,
+      "manual_uncertainty_m": 8,
+      "source": "chicxulub-2011-SC-88-0-8"
+    },
+    {
+      "profile_id": "SC-88-0-9",
+      "capture": 40,
+      "date": "2011-08-01",
+      "releases": [
+        11019,
+        10
+      ],
+      "original_offset_m": 2,
+      "original_accepted": true,
+      "offset_m": 3.7,
+      "manual_uncertainty_m": 8,
+      "source": "chicxulub-2011-SC-88-0-9"
+    },
+    {
+      "profile_id": "SC-88-0-10",
+      "capture": 40,
+      "date": "2011-08-01",
+      "releases": [
+        11019,
+        10
+      ],
+      "original_offset_m": -6,
+      "original_accepted": true,
+      "offset_m": -5.7,
+      "manual_uncertainty_m": 8,
+      "source": "chicxulub-2011-SC-88-0-10"
+    },
+    {
+      "profile_id": "SC-88-0-11",
+      "capture": 40,
+      "date": "2011-08-01",
+      "releases": [
+        11019,
+        10
+      ],
+      "original_offset_m": -10.5,
+      "original_accepted": true,
+      "offset_m": -7.5,
+      "manual_uncertainty_m": 8,
+      "source": "chicxulub-2011-SC-88-0-11"
+    },
+    {
+      "profile_id": "SC-88-0-12",
+      "capture": 40,
+      "date": "2011-08-01",
+      "releases": [
+        11019,
+        10
+      ],
+      "original_offset_m": -2,
+      "original_accepted": true,
+      "offset_m": -0.5,
+      "manual_uncertainty_m": 8,
+      "source": "chicxulub-2011-SC-88-0-12"
+    },
+    {
+      "profile_id": "SC-88-0-13",
+      "capture": 40,
+      "date": "2011-08-01",
+      "releases": [
+        11019,
+        10
+      ],
+      "original_offset_m": -6,
+      "original_accepted": true,
+      "offset_m": -5.0,
+      "manual_uncertainty_m": 8,
+      "source": "chicxulub-2011-SC-88-0-13"
+    },
+    {
+      "profile_id": "SC-88-0-14",
+      "capture": 40,
+      "date": "2011-08-01",
+      "releases": [
+        11019,
+        10
+      ],
+      "original_offset_m": -9.5,
+      "original_accepted": true,
+      "offset_m": -8.6,
+      "manual_uncertainty_m": 8,
+      "source": "chicxulub-2011-SC-88-0-14"
+    },
+    {
+      "profile_id": "SC-88-0-15",
+      "capture": 40,
+      "date": "2011-08-01",
+      "releases": [
+        11019,
+        10
+      ],
+      "original_offset_m": -3,
+      "original_accepted": true,
+      "offset_m": -2.5,
+      "manual_uncertainty_m": 8,
+      "source": "chicxulub-2011-SC-88-0-15"
+    },
+    {
+      "profile_id": "SC-88-0-16",
+      "capture": 40,
+      "date": "2011-08-01",
+      "releases": [
+        11019,
+        10
+      ],
+      "original_offset_m": -18,
+      "original_accepted": true,
+      "offset_m": -2.5,
+      "manual_uncertainty_m": 8,
+      "source": "chicxulub-2011-SC-88-0-16"
+    },
+    {
+      "profile_id": "SC-88-0-17",
+      "capture": 40,
+      "date": "2011-08-01",
+      "releases": [
+        11019,
+        10
+      ],
+      "original_offset_m": -13,
+      "original_accepted": true,
+      "offset_m": -9.1,
+      "manual_uncertainty_m": 8,
+      "source": "chicxulub-2011-SC-88-0-17"
+    },
+    {
+      "profile_id": "SC-88-0-18",
+      "capture": 40,
+      "date": "2011-08-01",
+      "releases": [
+        11019,
+        10
+      ],
+      "original_offset_m": -8.5,
+      "original_accepted": true,
+      "offset_m": -5.5,
+      "manual_uncertainty_m": 8,
+      "source": "chicxulub-2011-SC-88-0-18"
+    },
+    {
+      "profile_id": "SC-88-0-19",
+      "capture": 40,
+      "date": "2011-08-01",
+      "releases": [
+        11019,
+        10
+      ],
+      "original_offset_m": -17,
+      "original_accepted": true,
+      "offset_m": -13.7,
+      "manual_uncertainty_m": 8,
+      "source": "chicxulub-2011-SC-88-0-19"
+    },
+    {
+      "profile_id": "SC-88-0-20",
+      "capture": 40,
+      "date": "2011-08-01",
+      "releases": [
+        11019,
+        10
+      ],
+      "original_offset_m": 1,
+      "original_accepted": true,
+      "offset_m": 8.7,
+      "manual_uncertainty_m": 8,
+      "source": "chicxulub-2011-SC-88-0-20"
+    },
+    {
+      "profile_id": "SC-88-0-21",
+      "capture": 40,
+      "date": "2011-08-01",
+      "releases": [
+        11019,
+        10
+      ],
+      "original_offset_m": 5,
+      "original_accepted": true,
+      "offset_m": 5.5,
+      "manual_uncertainty_m": 8,
+      "source": "chicxulub-2011-SC-88-0-21"
+    },
+    {
+      "profile_id": "SC-88-0-22",
+      "capture": 40,
+      "date": "2011-08-01",
+      "releases": [
+        11019,
+        10
+      ],
+      "original_offset_m": 6,
+      "original_accepted": true,
+      "offset_m": 9.6,
+      "manual_uncertainty_m": 8,
+      "source": "chicxulub-2011-SC-88-0-22"
+    },
+    {
+      "profile_id": "SC-88-0-23",
+      "capture": 40,
+      "date": "2011-08-01",
+      "releases": [
+        11019,
+        10
+      ],
+      "original_offset_m": -2.5,
+      "original_accepted": true,
+      "offset_m": -4.5,
+      "manual_uncertainty_m": 8,
+      "source": "chicxulub-2011-SC-88-0-23"
+    },
+    {
+      "profile_id": "SC-88-0-24",
+      "capture": 40,
+      "date": "2011-08-01",
+      "releases": [
+        11019,
+        10
+      ],
+      "original_offset_m": 6.5,
+      "original_accepted": true,
+      "offset_m": 8.5,
+      "manual_uncertainty_m": 8,
+      "source": "chicxulub-2011-SC-88-0-24"
+    },
+    {
+      "profile_id": "SC-88-0-25",
+      "capture": 40,
+      "date": "2011-08-01",
+      "releases": [
+        11019,
+        10
+      ],
+      "original_offset_m": 7.5,
+      "original_accepted": true,
+      "offset_m": 9.6,
+      "manual_uncertainty_m": 8,
+      "source": "chicxulub-2011-SC-88-0-25"
+    },
+    {
+      "profile_id": "SC-88-0-26",
+      "capture": 40,
+      "date": "2011-08-01",
+      "releases": [
+        11019,
+        10
+      ],
+      "original_offset_m": 7.5,
+      "original_accepted": true,
+      "offset_m": 10.2,
+      "manual_uncertainty_m": 8,
+      "source": "chicxulub-2011-SC-88-0-26"
+    },
+    {
+      "profile_id": "SC-88-0-27",
+      "capture": 40,
+      "date": "2011-08-01",
+      "releases": [
+        11019,
+        10
+      ],
+      "original_offset_m": 10.5,
+      "original_accepted": true,
+      "offset_m": 8.0,
+      "manual_uncertainty_m": 8,
+      "source": "chicxulub-2011-SC-88-0-27"
+    },
+    {
+      "profile_id": "SC-88-0-28",
+      "capture": 40,
+      "date": "2011-08-01",
+      "releases": [
+        11019,
+        10
+      ],
+      "original_offset_m": 3,
+      "original_accepted": true,
+      "offset_m": 4.0,
+      "manual_uncertainty_m": 8,
+      "source": "chicxulub-2011-SC-88-0-28"
+    },
+    {
+      "profile_id": "SC-88-0-29",
+      "capture": 40,
+      "date": "2011-08-01",
+      "releases": [
+        11019,
+        10
+      ],
+      "original_offset_m": -1.5,
+      "original_accepted": true,
+      "offset_m": 1.0,
+      "manual_uncertainty_m": 8,
+      "source": "chicxulub-2011-SC-88-0-29"
+    },
+    {
+      "profile_id": "SC-88-0-30",
+      "capture": 40,
+      "date": "2011-08-01",
+      "releases": [
+        11019,
+        10
+      ],
+      "original_offset_m": 12.5,
+      "original_accepted": true,
+      "offset_m": 10.5,
+      "manual_uncertainty_m": 8,
+      "source": "chicxulub-2011-SC-88-0-30"
+    },
+    {
+      "profile_id": "SC-88-0-31",
+      "capture": 40,
+      "date": "2011-08-01",
+      "releases": [
+        11019,
+        10
+      ],
+      "original_offset_m": 8,
+      "original_accepted": true,
+      "offset_m": 9.5,
+      "manual_uncertainty_m": 8,
+      "source": "chicxulub-2011-SC-88-0-31"
+    },
+    {
+      "profile_id": "SC-88-0-32",
+      "capture": 40,
+      "date": "2011-08-01",
+      "releases": [
+        11019,
+        10
+      ],
+      "original_offset_m": -2.5,
+      "original_accepted": true,
+      "offset_m": -1.5,
+      "manual_uncertainty_m": 8,
+      "source": "chicxulub-2011-SC-88-0-32"
+    },
+    {
+      "profile_id": "SC-88-0-33",
+      "capture": 40,
+      "date": "2011-08-01",
+      "releases": [
+        11019,
+        10
+      ],
+      "original_offset_m": 3.5,
+      "original_accepted": true,
+      "offset_m": 3.5,
+      "manual_uncertainty_m": 8,
+      "source": "chicxulub-2011-SC-88-0-33"
+    },
+    {
+      "profile_id": "SC-88-0-34",
+      "capture": 40,
+      "date": "2011-08-01",
+      "releases": [
+        11019,
+        10
+      ],
+      "original_offset_m": 5.5,
+      "original_accepted": true,
+      "offset_m": 5.0,
+      "manual_uncertainty_m": 8,
+      "source": "chicxulub-2011-SC-88-0-34"
+    },
+    {
+      "profile_id": "SC-88-0-35",
+      "capture": 40,
+      "date": "2011-08-01",
+      "releases": [
+        11019,
+        10
+      ],
+      "original_offset_m": 10,
+      "original_accepted": true,
+      "offset_m": 9.5,
+      "manual_uncertainty_m": 8,
+      "source": "chicxulub-2011-SC-88-0-35"
+    },
+    {
+      "profile_id": "SC-88-0-36",
+      "capture": 40,
+      "date": "2011-08-01",
+      "releases": [
+        11019,
+        10
+      ],
+      "original_offset_m": 1.5,
+      "original_accepted": true,
+      "offset_m": 5.0,
+      "manual_uncertainty_m": 8,
+      "source": "chicxulub-2011-SC-88-0-36"
+    },
+    {
+      "profile_id": "SC-88-0-37",
+      "capture": 40,
+      "date": "2011-08-01",
+      "releases": [
+        11019,
+        10
+      ],
+      "original_offset_m": -3,
+      "original_accepted": true,
+      "offset_m": -2.0,
+      "manual_uncertainty_m": 8,
+      "source": "chicxulub-2011-SC-88-0-37"
+    },
+    {
+      "profile_id": "SC-88-0-38",
+      "capture": 40,
+      "date": "2011-08-01",
+      "releases": [
+        11019,
+        10
+      ],
+      "original_offset_m": -3.5,
+      "original_accepted": true,
+      "offset_m": -1.1,
+      "manual_uncertainty_m": 8,
+      "source": "chicxulub-2011-SC-88-0-38"
+    },
+    {
+      "profile_id": "SC-C379-0-0",
+      "capture": 40,
+      "date": "2011-08-01",
+      "releases": [
+        11019,
+        10
+      ],
+      "original_offset_m": 3,
+      "original_accepted": true,
+      "offset_m": 6,
+      "manual_uncertainty_m": 8,
+      "source": "chelem-circle-1-2011-SC-C379-0-0"
+    },
+    {
+      "profile_id": "SC-C392-0-1",
+      "capture": 40,
+      "date": "2011-08-01",
+      "releases": [
+        11019,
+        10
+      ],
+      "original_offset_m": 6.3,
+      "original_accepted": true,
+      "offset_m": 8.3,
+      "manual_uncertainty_m": 8,
+      "source": "chelem-circle-1-2011-SC-C392-0-1"
+    },
+    {
+      "profile_id": "SC-93-0-0",
+      "capture": 40,
+      "date": "2011-08-01",
+      "releases": [
+        11019,
+        10
+      ],
+      "original_offset_m": 9.5,
+      "original_accepted": true,
+      "offset_m": 15.5,
+      "manual_uncertainty_m": 8,
+      "source": "chelem-circle-2-2011-SC-93-0-0"
+    },
+    {
+      "profile_id": "SC-96-0-0",
+      "capture": 40,
+      "date": "2011-08-01",
+      "releases": [
+        11019,
+        10
+      ],
+      "original_offset_m": 4.5,
+      "original_accepted": true,
+      "offset_m": 8.5,
+      "manual_uncertainty_m": 8,
+      "source": "chelem-circle-2-2011-SC-96-0-0"
+    }
+  ],
+  "uninterpretable_references": [
+    {
+      "profile_id": "SC-89-0-52",
+      "capture": 40,
+      "reason": "structure_or_shadow_prevents_unique_sand_water_contact",
+      "original_offset_m": -19,
+      "original_accepted": true,
+      "evidence_panel": "work\\chicxulub-reference-review-20261106\\west\\native-030.png",
+      "screenshot_sha256": "8d98924f060d9f724d67e45b52693c474dc3b20dd53048f6b9a67d7f81fc7dab"
+    },
+    {
+      "profile_id": "SC-89-0-53",
+      "capture": 40,
+      "reason": "structure_or_shadow_prevents_unique_sand_water_contact",
+      "original_offset_m": -19,
+      "original_accepted": true,
+      "evidence_panel": "work\\chicxulub-reference-review-20261106\\west\\native-030.png",
+      "screenshot_sha256": "8d98924f060d9f724d67e45b52693c474dc3b20dd53048f6b9a67d7f81fc7dab"
+    },
+    {
+      "profile_id": "SC-C88-0-0",
+      "capture": 40,
+      "reason": "structure_or_shadow_prevents_unique_sand_water_contact",
+      "original_offset_m": 10,
+      "original_accepted": true,
+      "evidence_panel": "work\\chicxulub-reference-review-20261106\\west\\native-036.png",
+      "screenshot_sha256": "1aa76c9673fe73f9d2efded80b6d2480fcc68f459db7fb60e52036e02721fe1e"
+    }
+  ],
+  "reference_geometry": [
+    {
+      "municipality": "Progreso",
+      "coordinates": [
+        [
+          -89.76677837965875,
+          21.266662337823405
+        ],
+        [
+          -89.76670145988464,
+          21.266665132928804
+        ],
+        [
+          -89.76654052734375,
+          21.2667001267233
+        ],
+        [
+          -89.76637959480286,
+          21.266725122285706
+        ],
+        [
+          -89.76621866226196,
+          21.266760116065935
+        ],
+        [
+          -89.76605772972107,
+          21.26678511161815
+        ],
+        [
+          -89.76589679718018,
+          21.266805108056875
+        ],
+        [
+          -89.76573586463928,
+          21.266825104492874
+        ],
+        [
+          -89.76568671429479,
+          21.266838869986163
+        ]
+      ]
+    },
+    {
+      "municipality": "Progreso",
+      "coordinates": [
+        [
+          -89.71702322837287,
+          21.27721134104838
+        ],
+        [
+          -89.71683382987976,
+          21.277247876993755
+        ],
+        [
+          -89.71667289733887,
+          21.27728286827197
+        ],
+        [
+          -89.71651196479797,
+          21.27734285330099
+        ],
+        [
+          -89.71635103225708,
+          21.27734285330099
+        ],
+        [
+          -89.71619009971619,
+          21.277357849554424
+        ],
+        [
+          -89.7160291671753,
+          21.277382843306746
+        ],
+        [
+          -89.71596112858047,
+          21.27739112592413
+        ],
+        [
+          -89.7158682346344,
+          21.27740283830555
+        ],
+        [
+          -89.71577224728694,
+          21.277420684039523
+        ]
+      ]
+    },
+    {
+      "municipality": "Progreso",
+      "coordinates": [
+        [
+          -89.64415804890979,
+          21.290000262925634
+        ],
+        [
+          -89.6440078501436,
+          21.29001484975276
+        ],
+        [
+          -89.64387233846367,
+          21.2900297543549
+        ],
+        [
+          -89.64373484470192,
+          21.290039891987178
+        ],
+        [
+          -89.64359595512569,
+          21.290051184480184
+        ],
+        [
+          -89.64345218355805,
+          21.290061432870726
+        ],
+        [
+          -89.64331366558022,
+          21.29006999879408
+        ],
+        [
+          -89.64320247732174,
+          21.290082741114386
+        ],
+        [
+          -89.643037230185,
+          21.290105863703833
+        ],
+        [
+          -89.64290699412413,
+          21.290125027962265
+        ],
+        [
+          -89.6427667229523,
+          21.290128908025274
+        ],
+        [
+          -89.64262963635856,
+          21.290144445317555
+        ],
+        [
+          -89.64249279158335,
+          21.29014153226776
+        ],
+        [
+          -89.64234941543234,
+          21.290154019908925
+        ],
+        [
+          -89.64225385395729,
+          21.29018432382344
+        ],
+        [
+          -89.64208118046358,
+          21.290186490457845
+        ],
+        [
+          -89.64194984074946,
+          21.290205206157232
+        ],
+        [
+          -89.64181598919893,
+          21.290227156565685
+        ],
+        [
+          -89.64167616324126,
+          21.290217729289402
+        ],
+        [
+          -89.64153792986036,
+          21.290236794035273
+        ],
+        [
+          -89.64141663113625,
+          21.290271231257773
+        ],
+        [
+          -89.64130484754634,
+          21.29028693964272
+        ],
+        [
+          -89.64114475433163,
+          21.290296648345947
+        ],
+        [
+          -89.64100339016504,
+          21.29031587826976
+        ],
+        [
+          -89.64087391138635,
+          21.290323261652922
+        ],
+        [
+          -89.64072950397659,
+          21.29032833207422
+        ],
+        [
+          -89.64058932637096,
+          21.29037289124788
+        ],
+        [
+          -89.64045440351775,
+          21.290356273964203
+        ],
+        [
+          -89.64037565500863,
+          21.290398746380816
+        ],
+        [
+          -89.64032100904622,
+          21.290404602454963
+        ],
+        [
+          -89.64017696873067,
+          21.290409741265663
+        ],
+        [
+          -89.64003573267584,
+          21.29041837702838
+        ],
+        [
+          -89.63990675335215,
+          21.290421063268237
+        ],
+        [
+          -89.63976937128112,
+          21.29045527692313
+        ],
+        [
+          -89.63962517519201,
+          21.29045761944842
+        ],
+        [
+          -89.63944213821682,
+          21.290468864931032
+        ],
+        [
+          -89.63934660153345,
+          21.290476203899683
+        ],
+        [
+          -89.63923418136837,
+          21.290508952451987
+        ],
+        [
+          -89.63909400376275,
+          21.29051667337933
+        ],
+        [
+          -89.63895382615712,
+          21.29052439430625
+        ],
+        [
+          -89.63881715134778,
+          21.29053217209808
+        ],
+        [
+          -89.6386782062412,
+          21.29053714687072
+        ],
+        [
+          -89.63855766091547,
+          21.29057392713817
+        ],
+        [
+          -89.63849115564388,
+          21.290579699294085
+        ],
+        [
+          -89.63842165782133,
+          21.290586351899957
+        ],
+        [
+          -89.63828519983073,
+          21.290605854289073
+        ],
+        [
+          -89.63814161689265,
+          21.290606029927183
+        ],
+        [
+          -89.63800223978966,
+          21.29061780371359
+        ],
+        [
+          -89.63785823478037,
+          21.290622223761396
+        ],
+        [
+          -89.63772784405549,
+          21.290651261346806
+        ],
+        [
+          -89.63760441554615,
+          21.29066789480782
+        ],
+        [
+          -89.63753248433211,
+          21.290669186636855
+        ],
+        [
+          -89.63746059012976,
+          21.29067125838701
+        ],
+        [
+          -89.63732069777014,
+          21.290679704918954
+        ],
+        [
+          -89.63718077584772,
+          21.290693337530232
+        ],
+        [
+          -89.63705493932461,
+          21.290717889371233
+        ],
+        [
+          -89.6369221613135,
+          21.290741973532302
+        ],
+        [
+          -89.63679714591599,
+          21.29076816572615
+        ],
+        [
+          -89.6366902846879,
+          21.290838694454607
+        ],
+        [
+          -89.63663334195235,
+          21.290839186725872
+        ],
+        [
+          -89.63655939542348,
+          21.290839877526963
+        ],
+        [
+          -89.63641820123385,
+          21.29085500680864
+        ],
+        [
+          -89.63628098389275,
+          21.290871914340617
+        ],
+        [
+          -89.63615605328819,
+          21.290904974782894
+        ],
+        [
+          -89.63602939018348,
+          21.29091315974704
+        ],
+        [
+          -89.63588812594641,
+          21.29092420601413
+        ],
+        [
+          -89.63575722599094,
+          21.290944045654943
+        ],
+        [
+          -89.63569106032617,
+          21.290950307111352
+        ],
+        [
+          -89.6356177322283,
+          21.29095879782365
+        ],
+        [
+          -89.63549741909006,
+          21.291000028132466
+        ],
+        [
+          -89.63536874683541,
+          21.291016067713475
+        ],
+        [
+          -89.63525023308672,
+          21.291091816423435
+        ],
+        [
+          -89.63512089684802,
+          21.291122266104843
+        ],
+        [
+          -89.63498798102431,
+          21.291129746165474
+        ],
+        [
+          -89.63485259739033,
+          21.291143182720422
+        ],
+        [
+          -89.63477465810524,
+          21.29117165177118
+        ],
+        [
+          -89.6347126125941,
+          21.291146313130938
+        ],
+        [
+          -89.63458137819522,
+          21.291155731497962
+        ],
+        [
+          -89.63444758295321,
+          21.29120200124559
+        ],
+        [
+          -89.63431133905621,
+          21.291218640285354
+        ],
+        [
+          -89.63418224105921,
+          21.291234167080088
+        ],
+        [
+          -89.6340443994145,
+          21.291237527193537
+        ],
+        [
+          -89.63390350232025,
+          21.2912429091614
+        ],
+        [
+          -89.63384466803707,
+          21.29125194447822
+        ],
+        [
+          -89.6337689815593,
+          21.291236472264632
+        ],
+        [
+          -89.63364212766506,
+          21.29130835047376
+        ],
+        [
+          -89.63354570545758,
+          21.291341034172948
+        ],
+        [
+          -89.6334024476557,
+          21.291392073717084
+        ],
+        [
+          -89.63325954007055,
+          21.291404739203806
+        ],
+        [
+          -89.63312166833762,
+          21.291416705299323
+        ],
+        [
+          -89.63299886785992,
+          21.291460219656148
+        ],
+        [
+          -89.63291321721863,
+          21.291478135251218
+        ],
+        [
+          -89.6327381076208,
+          21.291508380754717
+        ],
+        [
+          -89.63262081977182,
+          21.291524298909337
+        ],
+        [
+          -89.6324839481699,
+          21.291552999056886
+        ],
+        [
+          -89.6323491057221,
+          21.291584100335598
+        ],
+        [
+          -89.63224549943027,
+          21.291646971368376
+        ],
+        [
+          -89.63211076582468,
+          21.291666037518056
+        ],
+        [
+          -89.63198202480588,
+          21.291667783974923
+        ],
+        [
+          -89.63183230109716,
+          21.291683143208747
+        ],
+        [
+          -89.63170076198624,
+          21.291693875199552
+        ],
+        [
+          -89.63157513565304,
+          21.29168904280257
+        ],
+        [
+          -89.63143145528336,
+          21.291694278983794
+        ],
+        [
+          -89.63130154257213,
+          21.291759897696828
+        ],
+        [
+          -89.63116820413228,
+          21.291776799586046
+        ],
+        [
+          -89.63103720187196,
+          21.291774204365552
+        ],
+        [
+          -89.6308892658875,
+          21.29180505514394
+        ],
+        [
+          -89.6307629074852,
+          21.291840645752888
+        ],
+        [
+          -89.63065890687824,
+          21.29191290327104
+        ],
+        [
+          -89.63057135010175,
+          21.29193492788344
+        ],
+        [
+          -89.63038699154033,
+          21.29192221291722
+        ],
+        [
+          -89.63025187417317,
+          21.291914172370063
+        ],
+        [
+          -89.6301138995619,
+          21.291934249560846
+        ],
+        [
+          -89.63000806037378,
+          21.291996907001458
+        ],
+        [
+          -89.62991384595787,
+          21.29209696395868
+        ],
+        [
+          -89.62979894526038,
+          21.29213405032428
+        ],
+        [
+          -89.62964385589191,
+          21.29218977407746
+        ],
+        [
+          -89.62951845828161,
+          21.29219133312589
+        ],
+        [
+          -89.62937821940908,
+          21.292207252271663
+        ],
+        [
+          -89.62923744006557,
+          21.292224309885576
+        ],
+        [
+          -89.62910743713581,
+          21.29223804109992
+        ],
+        [
+          -89.62897202217505,
+          21.292254265902457
+        ],
+        [
+          -89.62883873172815,
+          21.292282940074582
+        ],
+        [
+          -89.6287101920268,
+          21.292327154477235
+        ],
+        [
+          -89.62860029235992,
+          21.292372837640745
+        ],
+        [
+          -89.62845955212134,
+          21.292406192199007
+        ],
+        [
+          -89.62831765923482,
+          21.29242879350111
+        ],
+        [
+          -89.62819217741469,
+          21.292433797330677
+        ],
+        [
+          -89.62805789287165,
+          21.292445369437964
+        ],
+        [
+          -89.62792734120538,
+          21.292453129203885
+        ],
+        [
+          -89.62779336915946,
+          21.292490534806053
+        ],
+        [
+          -89.62765745946164,
+          21.29251663338086
+        ],
+        [
+          -89.62751590577268,
+          21.292505698935027
+        ],
+        [
+          -89.62737266619082,
+          21.292527951667328
+        ],
+        [
+          -89.6272464458521,
+          21.292542984079418
+        ],
+        [
+          -89.62710713028592,
+          21.29255575947595
+        ],
+        [
+          -89.62697232358686,
+          21.292566025387824
+        ],
+        [
+          -89.62684269494672,
+          21.29255393619438
+        ],
+        [
+          -89.62671872701101,
+          21.292598549474146
+        ],
+        [
+          -89.62657979118339,
+          21.29264077596226
+        ],
+        [
+          -89.62643924548861,
+          21.292664463497136
+        ],
+        [
+          -89.62632852084887,
+          21.292669395533213
+        ],
+        [
+          -89.62620227980577,
+          21.292721715514343
+        ],
+        [
+          -89.62607293620579,
+          21.2927443674095
+        ],
+        [
+          -89.6259443410383,
+          21.29275706530397
+        ],
+        [
+          -89.62580284321112,
+          21.29275606507099
+        ],
+        [
+          -89.62568870261636,
+          21.292795960337678
+        ],
+        [
+          -89.62556395941023,
+          21.292803951136285
+        ],
+        [
+          -89.62541127336775,
+          21.292795089138284
+        ],
+        [
+          -89.62527553979153,
+          21.29281474743616
+        ],
+        [
+          -89.62503059578047,
+          21.29287412230343
+        ],
+        [
+          -89.6248927658635,
+          21.292889059892286
+        ],
+        [
+          -89.62475593648806,
+          21.29290625057441
+        ],
+        [
+          -89.62464351456117,
+          21.292911681142115
+        ],
+        [
+          -89.62448227773719,
+          21.29291448055512
+        ],
+        [
+          -89.62423545462038,
+          21.29295939408174
+        ],
+        [
+          -89.62411155619277,
+          21.293024919180912
+        ],
+        [
+          -89.62397881886906,
+          21.293027733413428
+        ],
+        [
+          -89.6238659801943,
+          21.29306484235388
+        ],
+        [
+          -89.62371736875279,
+          21.293116162586838
+        ],
+        [
+          -89.6235849049722,
+          21.29311224517692
+        ],
+        [
+          -89.62345752934094,
+          21.29314471133047
+        ],
+        [
+          -89.62332236318574,
+          21.293133261731
+        ],
+        [
+          -89.62319290243977,
+          21.2931827513073
+        ],
+        [
+          -89.62302374297086,
+          21.293199679138063
+        ],
+        [
+          -89.62293463756498,
+          21.293207271358874
+        ],
+        [
+          -89.62278292253988,
+          21.293289276487606
+        ],
+        [
+          -89.62268129232122,
+          21.29330755610984
+        ],
+        [
+          -89.62255791125865,
+          21.293342580697928
+        ],
+        [
+          -89.62244322432582,
+          21.293374082972036
+        ],
+        [
+          -89.62231079580759,
+          21.29342684573622
+        ],
+        [
+          -89.62218688071226,
+          21.293468970288913
+        ],
+        [
+          -89.6220430617055,
+          21.293445928984024
+        ],
+        [
+          -89.62190482869383,
+          21.293455150972175
+        ],
+        [
+          -89.62185895598462,
+          21.293494646223607
+        ],
+        [
+          -89.6217646510882,
+          21.293499061931257
+        ],
+        [
+          -89.6216253689417,
+          21.293505647498964
+        ],
+        [
+          -89.62149506895646,
+          21.293512609450886
+        ],
+        [
+          -89.62137039319813,
+          21.29353529015849
+        ],
+        [
+          -89.62123823801383,
+          21.293555648363306
+        ],
+        [
+          -89.62109946427623,
+          21.293576402741262
+        ],
+        [
+          -89.62096758339112,
+          21.293599499611368
+        ],
+        [
+          -89.62091485543294,
+          21.293598208373844
+        ],
+        [
+          -89.62082296175609,
+          21.293599504780207
+        ],
+        [
+          -89.62068278861662,
+          21.293593334803788
+        ],
+        [
+          -89.62054799374012,
+          21.29359329150233
+        ],
+        [
+          -89.62041410470194,
+          21.293600274604785
+        ],
+        [
+          -89.62030353181167,
+          21.293672872855264
+        ],
+        [
+          -89.62016297705944,
+          21.293708779568206
+        ],
+        [
+          -89.62002533256552,
+          21.293730714189877
+        ],
+        [
+          -89.61997539988715,
+          21.293731418623363
+        ],
+        [
+          -89.61988071093046,
+          21.293700204193986
+        ],
+        [
+          -89.61975830944246,
+          21.293778591444433
+        ],
+        [
+          -89.61961813183684,
+          21.293786773954846
+        ],
+        [
+          -89.61947795423121,
+          21.29377496369453
+        ],
+        [
+          -89.61933333259618,
+          21.29377309231454
+        ],
+        [
+          -89.61919315499057,
+          21.293781274825243
+        ],
+        [
+          -89.61903087999106,
+          21.293792125739444
+        ],
+        [
+          -89.6189221612355,
+          21.293782948041976
+        ],
+        [
+          -89.61881906284529,
+          21.29385480831005
+        ],
+        [
+          -89.6186819034277,
+          21.293850238865915
+        ],
+        [
+          -89.61854668889153,
+          21.293902070190192
+        ],
+        [
+          -89.61841342248097,
+          21.293910893395008
+        ],
+        [
+          -89.61829701310756,
+          21.293958722056246
+        ],
+        [
+          -89.61815683550194,
+          21.293952470471382
+        ],
+        [
+          -89.61808955124255,
+          21.293949455452097
+        ],
+        [
+          -89.61801707450313,
+          21.2939408731529
+        ],
+        [
+          -89.61790239050185,
+          21.293946528025707
+        ],
+        [
+          -89.61778568121278,
+          21.293994023358227
+        ],
+        [
+          -89.61760726631104,
+          21.294014275798588
+        ],
+        [
+          -89.61750772625261,
+          21.29397594467904
+        ],
+        [
+          -89.61737706339711,
+          21.293990816961507
+        ],
+        [
+          -89.617316883377,
+          21.294031540494736
+        ],
+        [
+          -89.6171509754603,
+          21.29409773656001
+        ],
+        [
+          -89.61700388931052,
+          21.294106144360146
+        ],
+        [
+          -89.61688227839238,
+          21.294156009406827
+        ],
+        [
+          -89.61674778461737,
+          21.294124016656156
+        ],
+        [
+          -89.61621157367959,
+          21.29422193851404
+        ]
+      ]
+    },
+    {
+      "municipality": "Progreso",
+      "coordinates": [
+        [
+          -89.61341711358558,
+          21.29469891851246
+        ],
+        [
+          -89.61334192844356,
+          21.29469916130885
+        ],
+        [
+          -89.61323797870459,
+          21.29471513108096
+        ],
+        [
+          -89.61310298649444,
+          21.2947672162291
+        ],
+        [
+          -89.61296427834085,
+          21.294777660478967
+        ],
+        [
+          -89.612869371958,
+          21.294847941167824
+        ],
+        [
+          -89.61273135903446,
+          21.294840225864483
+        ],
+        [
+          -89.61259304046936,
+          21.294848409246914
+        ],
+        [
+          -89.61248083418454,
+          21.294874407848148
+        ],
+        [
+          -89.61233260845748,
+          21.29488213029358
+        ],
+        [
+          -89.61219871992141,
+          21.294912740696933
+        ],
+        [
+          -89.61195174164135,
+          21.294977583863712
+        ],
+        [
+          -89.61181535116879,
+          21.294965647660227
+        ],
+        [
+          -89.61169665704169,
+          21.295019671190303
+        ],
+        [
+          -89.61155948828807,
+          21.295095645664098
+        ],
+        [
+          -89.61146214606097,
+          21.295115833005138
+        ],
+        [
+          -89.6113495046164,
+          21.295200459197286
+        ],
+        [
+          -89.61122108776196,
+          21.295239685293776
+        ],
+        [
+          -89.61109368559652,
+          21.29525997096985
+        ],
+        [
+          -89.61096374800958,
+          21.295264587999352
+        ],
+        [
+          -89.61084420272023,
+          21.295305515942484
+        ],
+        [
+          -89.61072008235175,
+          21.295325882487546
+        ],
+        [
+          -89.61065464862695,
+          21.29536885371085
+        ],
+        [
+          -89.61058971830006,
+          21.295380283902702
+        ],
+        [
+          -89.61046088471892,
+          21.295384157287263
+        ],
+        [
+          -89.61032807204789,
+          21.295404941159095
+        ],
+        [
+          -89.6102004582939,
+          21.295413765508794
+        ],
+        [
+          -89.61007169963088,
+          21.295446208639984
+        ],
+        [
+          -89.60994073363011,
+          21.295470949241448
+        ],
+        [
+          -89.60980801765066,
+          21.295486466867906
+        ],
+        [
+          -89.60971569019374,
+          21.295507231609584
+        ],
+        [
+          -89.60955216437164,
+          21.295549141686692
+        ],
+        [
+          -89.6094158249828,
+          21.295561495596466
+        ],
+        [
+          -89.60927261723555,
+          21.2955673058807
+        ],
+        [
+          -89.6091322077545,
+          21.295586419371322
+        ],
+        [
+          -89.60900376270378,
+          21.29561978493495
+        ],
+        [
+          -89.608883372385,
+          21.295632128181705
+        ],
+        [
+          -89.60877138241588,
+          21.295628976962323
+        ],
+        [
+          -89.60859868803438,
+          21.29561001997143
+        ],
+        [
+          -89.6084700692206,
+          21.29566828294351
+        ],
+        [
+          -89.60836692363607,
+          21.295710821574502
+        ],
+        [
+          -89.60825079112078,
+          21.295787061269344
+        ],
+        [
+          -89.60811424686077,
+          21.295807970339308
+        ],
+        [
+          -89.60799107374368,
+          21.295845645032742
+        ],
+        [
+          -89.60784706429772,
+          21.295854868481282
+        ]
+      ]
+    },
+    {
+      "municipality": "Progreso",
+      "coordinates": [
+        [
+          -89.60679360828107,
+          21.29603529446936
+        ],
+        [
+          -89.60664896267386,
+          21.296046669731272
+        ],
+        [
+          -89.60651877600384,
+          21.29608154505505
+        ],
+        [
+          -89.60640519205711,
+          21.296142905335863
+        ],
+        [
+          -89.60627992416154,
+          21.29617812644078
+        ],
+        [
+          -89.6061701851979,
+          21.296215740171775
+        ],
+        [
+          -89.60603000759227,
+          21.296207450656176
+        ],
+        [
+          -89.60588538595724,
+          21.296214209578146
+        ],
+        [
+          -89.60584181324022,
+          21.29623183177422
+        ],
+        [
+          -89.60574279849918,
+          21.29621382140449
+        ],
+        [
+          -89.60560758137774,
+          21.29622315715869
+        ],
+        [
+          -89.60546972437818,
+          21.29625043874087
+        ],
+        [
+          -89.60520855545926,
+          21.29627858371207
+        ],
+        [
+          -89.60507338836501,
+          21.296298094799354
+        ],
+        [
+          -89.60489630519923,
+          21.296315542138636
+        ],
+        [
+          -89.60480362327789,
+          21.296345084564006
+        ],
+        [
+          -89.60466312763307,
+          21.29635512859333
+        ],
+        [
+          -89.60453117126941,
+          21.296380898524315
+        ],
+        [
+          -89.60440970903359,
+          21.296423483350047
+        ],
+        [
+          -89.60428919313196,
+          21.296468202839534
+        ],
+        [
+          -89.60416389378769,
+          21.296507307353
+        ],
+        [
+          -89.6040424826405,
+          21.29655348359004
+        ],
+        [
+          -89.60396551905711,
+          21.29658151663413
+        ],
+        [
+          -89.60392214467947,
+          21.296596306191606
+        ],
+        [
+          -89.60380112098113,
+          21.296636495149805
+        ],
+        [
+          -89.60368600822005,
+          21.296676255369867
+        ],
+        [
+          -89.60355101115836,
+          21.29668791371169
+        ],
+        [
+          -89.60341628315429,
+          21.2967038099234
+        ],
+        [
+          -89.6032776118865,
+          21.29672682817933
+        ],
+        [
+          -89.60313303976896,
+          21.296726382053627
+        ],
+        [
+          -89.60300978386337,
+          21.296728442575827
+        ],
+        [
+          -89.60285456093061,
+          21.296748194219866
+        ],
+        [
+          -89.6027120428153,
+          21.296747994449436
+        ],
+        [
+          -89.60257295753205,
+          21.296764592335606
+        ],
+        [
+          -89.60244011458755,
+          21.29676666265656
+        ],
+        [
+          -89.60230135982884,
+          21.296780299227418
+        ],
+        [
+          -89.60215983419258,
+          21.296791023112487
+        ],
+        [
+          -89.60203710347344,
+          21.29679131967854
+        ],
+        [
+          -89.60187656822718,
+          21.296798188336844
+        ],
+        [
+          -89.60173983030053,
+          21.296817050295058
+        ],
+        [
+          -89.60161155645199,
+          21.296852268429625
+        ],
+        [
+          -89.60149272670442,
+          21.296910960189294
+        ],
+        [
+          -89.60136334804947,
+          21.29694343414345
+        ],
+        [
+          -89.60122317044384,
+          21.296951466179337
+        ],
+        [
+          -89.6011041934842,
+          21.29695496678477
+        ],
+        [
+          -89.60094406999873,
+          21.29696910342941
+        ],
+        [
+          -89.60081290114263,
+          21.29699781833037
+        ],
+        [
+          -89.60068981071285,
+          21.29702697791469
+        ],
+        [
+          -89.60055735601995,
+          21.297043607976867
+        ],
+        [
+          -89.60042844782268,
+          21.297075198666512
+        ],
+        [
+          -89.60029410412565,
+          21.29709477571962
+        ],
+        [
+          -89.60017805646744,
+          21.2971112787387
+        ],
+        [
+          -89.60003954999762,
+          21.297164697289404
+        ],
+        [
+          -89.59994093179937,
+          21.297237096436746
+        ],
+        [
+          -89.5998054090142,
+          21.29725127980627
+        ],
+        [
+          -89.59966826600103,
+          21.297251817251354
+        ],
+        [
+          -89.59953752334478,
+          21.29729567714484
+        ],
+        [
+          -89.59939437243165,
+          21.297300645417618
+        ],
+        [
+          -89.5992552749795,
+          21.29732462572018
+        ],
+        [
+          -89.5991143405484,
+          21.297340687425823
+        ],
+        [
+          -89.5989791517612,
+          21.29736393698719
+        ],
+        [
+          -89.59883897415557,
+          21.297356189007225
+        ],
+        [
+          -89.5987264393019,
+          21.297407974538284
+        ],
+        [
+          -89.59858626169625,
+          21.297400226560637
+        ],
+        [
+          -89.59845052812004,
+          21.29742239572578
+        ],
+        [
+          -89.59830744893894,
+          21.297444865647666
+        ],
+        [
+          -89.59827217165005,
+          21.297409124846922
+        ],
+        [
+          -89.59817644012153,
+          21.297413165198122
+        ],
+        [
+          -89.59805613962058,
+          21.297450196939824
+        ],
+        [
+          -89.59791789708532,
+          21.297465212004596
+        ],
+        [
+          -89.5977858291142,
+          21.297472529535558
+        ],
+        [
+          -89.59764446205929,
+          21.29750460234141
+        ],
+        [
+          -89.59750972799999,
+          21.29752533228857
+        ],
+        [
+          -89.59736545667508,
+          21.29755818177437
+        ],
+        [
+          -89.59724713834959,
+          21.297581033546525
+        ],
+        [
+          -89.59711157617448,
+          21.29759937031596
+        ],
+        [
+          -89.5969725210962,
+          21.29760979200203
+        ],
+        [
+          -89.59684521707356,
+          21.29764838508216
+        ],
+        [
+          -89.59670998074553,
+          21.297655052674266
+        ],
+        [
+          -89.59656957160168,
+          21.29766657956195
+        ],
+        [
+          -89.59644579233908,
+          21.297674928930356
+        ],
+        [
+          -89.59629934889182,
+          21.297681336147583
+        ],
+        [
+          -89.59617258581949,
+          21.297705871091594
+        ],
+        [
+          -89.596047392618,
+          21.297754508616293
+        ],
+        [
+          -89.59592572203151,
+          21.29777440079804
+        ],
+        [
+          -89.59578874233425,
+          21.297784046932026
+        ],
+        [
+          -89.59564976166496,
+          21.2978136801766
+        ],
+        [
+          -89.59550336115088,
+          21.297864600054
+        ],
+        [
+          -89.59539971020384,
+          21.297891487972386
+        ],
+        [
+          -89.59525509698402,
+          21.29789350823727
+        ],
+        [
+          -89.59511754335999,
+          21.29790561188615
+        ],
+        [
+          -89.5949832186637,
+          21.297934954682503
+        ],
+        [
+          -89.5948697781579,
+          21.297970179937426
+        ],
+        [
+          -89.594732895076,
+          21.297977491917017
+        ],
+        [
+          -89.59456573414445,
+          21.297984291980434
+        ],
+        [
+          -89.59445318873321,
+          21.297981849748087
+        ],
+        [
+          -89.5943098891788,
+          21.297995135695743
+        ],
+        [
+          -89.5941675956303,
+          21.297974384994014
+        ],
+        [
+          -89.59403456896152,
+          21.29799622420055
+        ],
+        [
+          -89.59390190123239,
+          21.298031786070634
+        ],
+        [
+          -89.59376267447729,
+          21.298033052436903
+        ],
+        [
+          -89.59360943688802,
+          21.298074143253313
+        ],
+        [
+          -89.59350630578773,
+          21.298163430576622
+        ],
+        [
+          -89.59338161049604,
+          21.298171453339386
+        ],
+        [
+          -89.59325032094922,
+          21.29820047798199
+        ],
+        [
+          -89.5931101433436,
+          21.298209445216848
+        ],
+        [
+          -89.59297440976738,
+          21.29822844115189
+        ],
+        [
+          -89.59282983340512,
+          21.29822748185055
+        ],
+        [
+          -89.59266443978143,
+          21.298251122531266
+        ],
+        [
+          -89.59256553462185,
+          21.298266946301645
+        ],
+        [
+          -89.59243137720978,
+          21.29827436614199
+        ],
+        [
+          -89.59230830809952,
+          21.29832580285163
+        ],
+        [
+          -89.59216915027551,
+          21.29832175296976
+        ],
+        [
+          -89.59203646086453,
+          21.298360892925697
+        ],
+        [
+          -89.59189647601966,
+          21.298360220614796
+        ],
+        [
+          -89.59177977563388,
+          21.29841815682053
+        ],
+        [
+          -89.59171819925045,
+          21.29843675690834
+        ],
+        [
+          -89.59165407326284,
+          21.298432452285272
+        ],
+        [
+          -89.59151040970183,
+          21.298451522297864
+        ],
+        [
+          -89.59137360164262,
+          21.298480343793063
+        ],
+        [
+          -89.5912326815342,
+          21.298495081609257
+        ],
+        [
+          -89.59110041743938,
+          21.298498934460078
+        ],
+        [
+          -89.59098324778141,
+          21.298543815599757
+        ],
+        [
+          -89.59085588050702,
+          21.29857990046068
+        ],
+        [
+          -89.59076661990686,
+          21.298574483605194
+        ],
+        [
+          -89.59071998750518,
+          21.298570478227838
+        ],
+        [
+          -89.59059751549965,
+          21.298608951858522
+        ],
+        [
+          -89.59045289386462,
+          21.298607168056474
+        ],
+        [
+          -89.59032763780732,
+          21.298637927576927
+        ],
+        [
+          -89.59020915276838,
+          21.298684130125615
+        ],
+        [
+          -89.59007994407148,
+          21.298700854435793
+        ],
+        [
+          -89.58994837961279,
+          21.298730893933474
+        ],
+        [
+          -89.58982219381954,
+          21.298758159909035
+        ],
+        [
+          -89.58968628875222,
+          21.298776792856454
+        ],
+        [
+          -89.58954609126127,
+          21.298787777796562
+        ],
+        [
+          -89.58940146962625,
+          21.298786973239572
+        ],
+        [
+          -89.58926208886753,
+          21.2987985374674
+        ],
+        [
+          -89.5891373583693,
+          21.298835484156392
+        ],
+        [
+          -89.58899718076368,
+          21.29882470828057
+        ],
+        [
+          -89.58885505074784,
+          21.298834072927836
+        ],
+        [
+          -89.58871765692652,
+          21.29885155021796
+        ],
+        [
+          -89.58858473543592,
+          21.298875066503694
+        ],
+        [
+          -89.58847296239557,
+          21.298952302175543
+        ],
+        [
+          -89.58835760755319,
+          21.29901407016534
+        ],
+        [
+          -89.58823045893045,
+          21.299052328407697
+        ],
+        [
+          -89.58811776607689,
+          21.299119511049454
+        ],
+        [
+          -89.58799031715877,
+          21.299124636868264
+        ],
+        [
+          -89.5879304613562,
+          21.299164307588335
+        ],
+        [
+          -89.58787917269672,
+          21.299193682080606
+        ],
+        [
+          -89.58773992882864,
+          21.29919674043744
+        ],
+        [
+          -89.58759533368726,
+          21.29919099156493
+        ],
+        [
+          -89.58745760725861,
+          21.299202856600264
+        ],
+        [
+          -89.5873249274983,
+          21.29921903781536
+        ],
+        [
+          -89.58719156924212,
+          21.29923844776243
+        ],
+        [
+          -89.58704901631646,
+          21.299236767509946
+        ],
+        [
+          -89.58696795013803,
+          21.29924510598834
+        ],
+        [
+          -89.58691328274024,
+          21.29925406030249
+        ],
+        [
+          -89.58676866110521,
+          21.299256447644396
+        ],
+        [
+          -89.58664195036464,
+          21.29927866986848
+        ],
+        [
+          -89.58652830023769,
+          21.2993303874743
+        ],
+        [
+          -89.58640207350898,
+          21.299353315926375
+        ],
+        [
+          -89.58633567086997,
+          21.29947351134438
+        ],
+        [
+          -89.58619981566243,
+          21.299476027557613
+        ],
+        [
+          -89.58603848394759,
+          21.299467719674904
+        ],
+        [
+          -89.58595169524975,
+          21.299486727627382
+        ],
+        [
+          -89.58580707361472,
+          21.29948391893464
+        ],
+        [
+          -89.58566245197969,
+          21.299481110241857
+        ],
+        [
+          -89.58551783034464,
+          21.29947830154901
+        ],
+        [
+          -89.58537765273903,
+          21.29948557516126
+        ],
+        [
+          -89.58524721675018,
+          21.299491952979956
+        ],
+        [
+          -89.58506499981674,
+          21.299540596411564
+        ],
+        [
+          -89.58500965335494,
+          21.299599006526204
+        ],
+        [
+          -89.58487669747946,
+          21.299613172059946
+        ],
+        [
+          -89.58474019213578,
+          21.299628971981097
+        ],
+        [
+          -89.58460028133109,
+          21.299640993905587
+        ],
+        [
+          -89.58446956931544,
+          21.29966897433703
+        ],
+        [
+          -89.58439041066408,
+          21.2997649113748
+        ],
+        [
+          -89.58429329186689,
+          21.299841594695508
+        ],
+        [
+          -89.5841510545607,
+          21.299844867547737
+        ],
+        [
+          -89.58400457078702,
+          21.299844268133906
+        ],
+        [
+          -89.58386384257722,
+          21.299853665312007
+        ],
+        [
+          -89.58374012632339,
+          21.299891763577477
+        ],
+        [
+          -89.58363344257958,
+          21.299948673154077
+        ],
+        [
+          -89.58355418021364,
+          21.300037910094034
+        ],
+        [
+          -89.5834151489091,
+          21.30004732648072
+        ],
+        [
+          -89.58327233457773,
+          21.300051067777336
+        ],
+        [
+          -89.58319862621629,
+          21.30005075415075
+        ],
+        [
+          -89.58312771294271,
+          21.300052036805777
+        ],
+        [
+          -89.58298309130768,
+          21.300054652672387
+        ],
+        [
+          -89.58284291370205,
+          21.300067184115058
+        ],
+        [
+          -89.5826993550925,
+          21.30007217181751
+        ],
+        [
+          -89.5825625584908,
+          21.300092246997234
+        ],
+        [
+          -89.58243078220019,
+          21.300114332152766
+        ],
+        [
+          -89.5823051323497,
+          21.300156713280664
+        ],
+        [
+          -89.58225712254152,
+          21.300170312080482
+        ],
+        [
+          -89.58218251250149,
+          21.300187476165696
+        ],
+        [
+          -89.58206919529074,
+          21.30024085598703
+        ],
+        [
+          -89.5819376495955,
+          21.300231495520205
+        ],
+        [
+          -89.581807259068,
+          21.300271898982135
+        ],
+        [
+          -89.58166708146238,
+          21.300276972989273
+        ],
+        [
+          -89.58153134788617,
+          21.300292198978532
+        ],
+        [
+          -89.58136012964991,
+          21.300298396562127
+        ],
+        [
+          -89.5812509926749,
+          21.30030659386732
+        ],
+        [
+          -89.58111081506928,
+          21.300317122641303
+        ],
+        [
+          -89.58096864946785,
+          21.300323187378872
+        ],
+        [
+          -89.58083045985802,
+          21.300338180186976
+        ],
+        [
+          -89.58069917031122,
+          21.300368667050137
+        ],
+        [
+          -89.5805550189382,
+          21.30037027274589
+        ],
+        [
+          -89.58040105766447,
+          21.300383690009088
+        ],
+        [
+          -89.58029312781538,
+          21.300416278715137
+        ],
+        [
+          -89.58017148228888,
+          21.30045194106084
+        ],
+        [
+          -89.58003181145547,
+          21.300461946492362
+        ],
+        [
+          -89.57989316981055,
+          21.300474567683423
+        ],
+        [
+          -89.57976082743322,
+          21.300492853073827
+        ],
+        [
+          -89.57962806244029,
+          21.300517061146795
+        ],
+        [
+          -89.57945282789103,
+          21.300530468841643
+        ],
+        [
+          -89.5793504166478,
+          21.30054198589824
+        ],
+        [
+          -89.57922311190066,
+          21.300546580587156
+        ],
+        [
+          -89.57911495834898,
+          21.30061685366054
+        ],
+        [
+          -89.57898366880217,
+          21.300646132005397
+        ],
+        [
+          -89.57885237925535,
+          21.300675410344418
+        ],
+        [
+          -89.57872865340987,
+          21.300702711534715
+        ],
+        [
+          -89.57859494862473,
+          21.30072399891143
+        ],
+        [
+          -89.57850722651841,
+          21.300743561445955
+        ],
+        [
+          -89.57846365907791,
+          21.30075313140911
+        ],
+        [
+          -89.5783217133376,
+          21.300752431384982
+        ],
+        [
+          -89.57818294276001,
+          21.30076266351549
+        ],
+        [
+          -89.57804632329618,
+          21.300744481534757
+        ],
+        [
+          -89.57791743437778,
+          21.30078780068297
+        ],
+        [
+          -89.57778966888164,
+          21.300815756836084
+        ],
+        [
+          -89.57764569107277,
+          21.300815945102517
+        ],
+        [
+          -89.57754515313663,
+          21.30081506534044
+        ],
+        [
+          -89.57750106943774,
+          21.30081331122083
+        ],
+        [
+          -89.57736032633534,
+          21.300816434900735
+        ],
+        [
+          -89.5772207142265,
+          21.300822147514978
+        ],
+        [
+          -89.57707706567996,
+          21.300814010488665
+        ],
+        [
+          -89.57690415578605,
+          21.30086507213645
+        ],
+        [
+          -89.5767977264244,
+          21.300825308363756
+        ],
+        [
+          -89.57665755155621,
+          21.3008298651236
+        ],
+        [
+          -89.57657833165723,
+          21.30086349921528
+        ],
+        [
+          -89.5764840751859,
+          21.300926514950234
+        ],
+        [
+          -89.5763942904243,
+          21.300930054918393
+        ],
+        [
+          -89.57627145597225,
+          21.30098049338723
+        ],
+        [
+          -89.57614423988235,
+          21.30101155590672
+        ],
+        [
+          -89.57600964727142,
+          21.301021112821733
+        ],
+        [
+          -89.57586998485101,
+          21.301035669424163
+        ],
+        [
+          -89.57574355419865,
+          21.301080582642474
+        ],
+        [
+          -89.57564450280051,
+          21.301091683226236
+        ],
+        [
+          -89.57546146274095,
+          21.301093010311014
+        ],
+        [
+          -89.5753171800428,
+          21.30109409604588
+        ],
+        [
+          -89.57519772142557,
+          21.301141751620012
+        ],
+        [
+          -89.57508701203339,
+          21.301214986423048
+        ],
+        [
+          -89.57495025618738,
+          21.301224808272522
+        ],
+        [
+          -89.57480657797376,
+          21.30122462543341
+        ],
+        [
+          -89.57468918647125,
+          21.301233114408053
+        ],
+        [
+          -89.57453165638098,
+          21.301249676007505
+        ],
+        [
+          -89.57440805667224,
+          21.301290971779142
+        ],
+        [
+          -89.57431402035283,
+          21.301367431002106
+        ],
+        [
+          -89.57418495698973,
+          21.301401119463833
+        ],
+        [
+          -89.57404248127213,
+          21.301410759078657
+        ],
+        [
+          -89.57390236667668,
+          21.301424873748953
+        ],
+        [
+          -89.57375483089528,
+          21.30142438150808
+        ],
+        [
+          -89.57361405763623,
+          21.301428012021244
+        ],
+        [
+          -89.57348546029425,
+          21.301467894300874
+        ],
+        [
+          -89.5733636313625,
+          21.301507833875366
+        ],
+        [
+          -89.57325562543916,
+          21.30157596129645
+        ],
+        [
+          -89.57311959391757,
+          21.301585972155138
+        ],
+        [
+          -89.57298205683932,
+          21.301599149521984
+        ],
+        [
+          -89.5728129625212,
+          21.301616808203804
+        ],
+        [
+          -89.57271977104716,
+          21.30163756421616
+        ],
+        [
+          -89.57258424087762,
+          21.3016560732566
+        ],
+        [
+          -89.57245294492948,
+          21.301682778972445
+        ],
+        [
+          -89.57231853541681,
+          21.30170084043405
+        ],
+        [
+          -89.57217872130786,
+          21.30171401101517
+        ],
+        [
+          -89.57204250825598,
+          21.301735425226894
+        ],
+        [
+          -89.57190284497459,
+          21.30174292722172
+        ],
+        [
+          -89.57185508981048,
+          21.301745537310172
+        ],
+        [
+          -89.57176499367012,
+          21.301755680306478
+        ],
+        [
+          -89.57163654136004,
+          21.301794494900346
+        ],
+        [
+          -89.57149917158821,
+          21.301816310446313
+        ],
+        [
+          -89.57136059297169,
+          21.30182817196036
+        ],
+        [
+          -89.57122006476814,
+          21.301850354663145
+        ],
+        [
+          -89.57109377381768,
+          21.301902102707274
+        ],
+        [
+          -89.57095378834572,
+          21.301918107837796
+        ],
+        [
+          -89.5709067807599,
+          21.301919991331765
+        ]
+      ]
+    }
+  ],
+  "non_barrier_auxiliary_ids": [
+    "SC-C392-0-0"
+  ],
+  "evidence": {
+    "work\\chicxulub-reference-review-20261106\\west\\manual-decisions.json": "b9347bb6cc216e8ab89297f62eb6738f56615239e1f208bad740525cf19e2690",
+    "work\\chicxulub-reference-review-20261106\\east\\independent-decisions.json": "322d42518867421b38f312192ef7f6b8589813a13a497ac3b36b7f16d4f4b8b5",
+    "work\\chicxulub-reference-review-20261106\\cases-final.json": "22f8fea46360e17b5e0f31324fa09c6563ee328a0159aef9a7725784047088fa",
+    "work\\progreso-full-review-20261105\\baseline-corrected-endpoint-footprints.json": "fa1114f3f6f28fafca052a7889a5c628e8c44874be1e867de052aac496c209af",
+    "work\\chicxulub-reference-review-20261106\\dense-shoreline\\approved-geometry.json": "a07296036a9782d6e0b9c74bb8ebec9b5197611c66d2c374e83b259ded59fb2b",
+    "work\\chicxulub-reference-review-20261106\\grid-qa\\final\\independent-review.json": "a415abdd653a62130940fa24f0d6ba12c73f02c63706a19829362804d6942a3f"
+  },
+  "notes": [
+    "Chicxulub uses the water-facing visible contact. All 80 controls were read individually.",
+    "The two Chelem screenshots were registered to the original 2011 tiles. The auxiliary tangential axis is archived, not turned into a false measurement.",
+    "Only 2011 references change. Later observed endpoints and their approvals are preserved.",
+    "Orphan locators outside the 100 m grid are hidden in the map but remain archived."
+  ],
+  "visual_grid_review": {
+    "grid_sha256": "ced7ebb8769e95352fa1317b2b0b7847fef4d64342ce03b70f7e98fc8d09883b",
+    "chicxulub_stations_reviewed": 77,
+    "review_sha256": "a415abdd653a62130940fa24f0d6ba12c73f02c63706a19829362804d6942a3f"
+  }
+}

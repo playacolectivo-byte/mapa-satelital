@@ -2,9 +2,16 @@
 
 import { useEffect, useRef, useState } from 'react';
 import type { WaybackItem } from '@esri/wayback-core';
-import {fetchEsriNativeZoom} from './esri-catalogue';
+import {fetchEsriNativeZoom} from './esri-catalogue.ts';
 
 export type SatelliteDetail = { nativeZoom: number | null; status: 'checking' | 'ready' | 'error' };
+// The prepared shoreline imagery was sampled at z17. Until this edition has
+// its own confirmed ceiling, avoid speculative z18+ requests to old editions.
+export const ESRI_UNVERIFIED_NATIVE_ZOOM=17;
+export function esriEditionNativeZoom({release,selectedRelease,renderedNativeZoom,cachedNativeZoom,selectedNativeZoom}:{release:number;selectedRelease:number|undefined;renderedNativeZoom?:number;cachedNativeZoom?:number;selectedNativeZoom?:number|null}):number{
+ const value=renderedNativeZoom??cachedNativeZoom??(release===selectedRelease?selectedNativeZoom:undefined);
+ return typeof value==='number'&&Number.isInteger(value)&&value>=10&&value<=20?value:ESRI_UNVERIFIED_NATIVE_ZOOM;
+}
 const cache = new Map<string, number>();
 const tile = ([lon, lat]: [number, number], z: number) => ({
   x: Math.floor((lon + 180) / 360 * 2 ** z),

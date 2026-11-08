@@ -1,0 +1,12 @@
+{
+  "baseline_lint_rule_diagnostics": 56,
+  "current_lint_rule_diagnostics": 56,
+  "new_lint_rule_diagnostics": [],
+  "comparison_notes": [
+    "Original HEAD files were copied to a separate ignored directory without edits to the worktree.",
+    "Snapshot-only TypeScript unresolved-relative-import diagnostics are excluded; actual current typecheck runs separately.",
+    "Dependency order within a diagnostic is normalized before comparison."
+  ],
+  "baseline_commit": "2a1c346c1a829dc3e4027205c065121cc5ef7fff",
+  "scope": "components/explorer.tsx,components/raster-territory-map.tsx,lib/territory.ts"
+}

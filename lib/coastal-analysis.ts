@@ -3,6 +3,7 @@ import { getJson, fetchJsonAsset, dataAssetBytes } from '@/lib/data-delivery';
 import { ResourceCache } from '@/lib/resource-cache';
 import {coastalDirectionUnresolved} from './coastal-direction.ts';
 import receivedEsriCatalogue from '../public/data/history/esri-local-captures.json';
+import {projectCoastLabel,hasProjectCoastLabel} from './project-coast-labels.ts';
 
 export type CoastalAnalysisData = FeatureCollection<Geometry, Record<string, unknown>>;
 export type ShorelinePair = { before: CoastalAnalysisData; after: CoastalAnalysisData; beforeYear: number; afterYear: number };
@@ -47,6 +48,7 @@ export function validateCoastalAnalysis(value: unknown): CoastalAnalysisData {
 
 export function coastalValue(feature: Feature, key: string): string {
   const value = feature.properties?.[key];
+  if(key==='municipality'&&typeof value==='string')return projectCoastLabel(value);
   return typeof value === 'string' || typeof value === 'number' ? String(value) : Array.isArray(value) ? value.join(', ') : '';
 }
 
@@ -78,15 +80,27 @@ export function coastalPopup(feature: Feature): HTMLElement {
   }
   const el = document.createElement('article'); el.className = 'coastal-analysis-popup';
   const addText = (parent: HTMLElement, text: string) => { const line = document.createElement('p'); line.textContent = text; parent.appendChild(line); };
+  if(p.grid_spacing_m===100)addText(el,`Estación ${Number(p.grid_chainage_m).toLocaleString('es-MX')} m · malla de 100 m sobre la línea base de 2011. Los cruces originales se conservan como controles.`);
+  const addUserReference=()=>{if(!p.user_reference_method)return;addText(el,String(p.user_reference_method).includes('user-')?'Referencia de 2011: línea blanca aportada por el usuario. Las otras fechas conservan su propia calidad de lectura.':'Referencia de 2011: borde visible entre arena y mar, interpretado en su fotografía fechada. Las otras fechas requieren su propia revisión.');const a=document.createElement('a');a.href=String(p.reference_method_url??'/data/shorelines/photo-alignment/user-guides-2011-method.md');a.target='_blank';a.rel='noreferrer';a.textContent='Trazos y referencia fija';el.appendChild(a);};
+  if(p.photo_review_pending===true){
+    const title=document.createElement('strong');title.textContent=p.baseline_fixed===false?'Referencia de 2011 pendiente':'Sin comparación fotográfica revisada';el.appendChild(title);
+    addUserReference();
+    addText(el,p.baseline_fixed===false?'No hay una orilla de 2011 interpretable y verificada en este perfil. El localizador indica el lugar de muestreo.':`Referencia fija: ${String(p.baseline_date??p.baseline_year)}. Para ${p.year} no hay una posición revisada compatible con esta imagen.`);
+    addText(el,p.baseline_fixed===false?'Sin esa base no se calcula un cambio en metros.':'Se conserva el punto de referencia y no se le asignan metros mediante interpolación ni mediante el modelo.');
+    addText(el,'Perfil '+coastalValue(feature,'profile_id')+' · '+coastalValue(feature,'municipality')+'.');
+    const link=document.createElement('a');link.href=String(p.method_url);link.target='_blank';link.rel='noreferrer';link.textContent='Fechas revisadas y método';el.appendChild(link);
+    return el;
+  }
   if(p.photo_interpretation===true){
     const delta=typeof p.delta_m==='number'?p.delta_m:null;
     const title=document.createElement('strong');title.textContent=p.reference_only===true?'Referencia · '+p.year:delta===null?'Punto en revisión':p.estimated?'Cambio estimado · fotos':'Cambio aparente · fotos';el.appendChild(title);
+    addUserReference();
     if(p.reference_only===true)addText(el,'Referencia '+p.year+'; todavía no se compara un cambio.');
     else if(delta!==null)addText(el,`${p.baseline_year} → ${p.year}: ≈ ${Math.round(Math.abs(delta)).toLocaleString('es-MX')} m ${p.direction_unresolved===true?'de diferencia · dirección incierta':delta<0?'hacia tierra':delta>0?'hacia el agua':'de cambio'}.`);
     else addText(el,p.photo_mismatch?`La foto de este punto es de ${String(p.photo_date).slice(0,4)}; el análisis está en ${p.year}. Elige su fecha para consultar la comparación compatible.`:p.baseline_year===null?'Falta una referencia interpretable de 2010 o 2011; este punto sigue pendiente.':p.photo_location_matched?'La foto tiene una posición interpretable, pero falta una pareja compatible con la base elegida.':'Este localizador es el lugar de muestreo; falta una orilla clara aceptada en esta foto.');
-    addText(el,coastalValue(feature,'municipality')+(p.municipality_is_approximate?' · municipio aproximado':'')+(p.photo_date?' · foto '+coastalValue(feature,'photo_date'):'')+'.');
+    addText(el,coastalValue(feature,'municipality')+(hasProjectCoastLabel(String(p.municipality))?' · rótulo del proyecto':p.municipality_is_approximate?' · municipio aproximado':'')+(p.photo_date?' · foto '+coastalValue(feature,'photo_date'):'')+'.');
     const details=document.createElement('details'),summary=document.createElement('summary');details.className='coastal-method-details';summary.textContent='Cómo se calculó';details.appendChild(summary);
-    addText(details,Array.isArray(p.photo_manual_reviews)&&p.photo_manual_reviews.length?'La referencia de 2011 se trazó sobre el límite visible de agua y arena en la foto, en una revisión manual asistida por ChatGPT. Se mantiene separado el candidato automático anterior. Los metros se recalculan entre las dos posiciones del mismo perfil; el trazado no es validación de campo.':'Se detectó el borde visible en cinco perfiles de la foto fechada y se comprobó con la conexión de tierra y mar en un área de la imagen. Ambos métodos deben coincidir dentro de 12 m. Los metros son la diferencia entre dos posiciones del mismo perfil. Investigación experimental asistida por ChatGPT; sin validación de campo.');
+    addText(details,p.grid_spacing_m===100?'La malla se calcula con distancias geodésicas WGS84 sobre la orilla digitalizada de 2011. En otras fechas se interpola espacialmente entre dos controles revisados de la misma fotografía. Es una posición derivada, no una nueva lectura manual. No se interpolan años ni se unen fotografías de fechas o sensores distintos. Las consultas de fuente identifican los controles originales.':p.photo_review_method?'Se revisaron por separado los cruces del límite aparente entre agua y arena en cada foto disponible de este tramo. La referencia es la toma del 1 de agosto de 2011 y permanece fija; los metros se recalculan entre posiciones del mismo perfil. Revisión visual asistida por ChatGPT, sin validación de campo.':Array.isArray(p.photo_manual_reviews)&&p.photo_manual_reviews.length?'La referencia de 2011 se trazó sobre el límite visible de agua y arena en la foto, en una revisión manual asistida por ChatGPT. Se mantiene separado el candidato automático anterior. Los metros se recalculan entre las dos posiciones del mismo perfil; el trazado no es validación de campo.':'Se detectó el borde visible en cinco perfiles de la foto fechada y se comprobó con la conexión de tierra y mar en un área de la imagen. Ambos métodos deben coincidir dentro de 12 m. Los metros son la diferencia entre dos posiciones del mismo perfil. Investigación experimental asistida por ChatGPT; sin validación de campo.');
     if(p.photo_baseline_fallback===true)addText(details,'Se usa la foto de 2011 como referencia porque no hay una orilla interpretable aceptada de 2010 en este punto. El cambio empieza en 2011.');
     const reasons:Record<string,string>={water_classifier_ambiguous:'No se distingue el agua con suficiente claridad.',land_classifier_ambiguous:'No se distingue la tierra con suficiente claridad.',parallel_transects_disagree:'Los perfiles próximos no coinciden en una misma orilla.',search_edge:'El cruce queda junto al límite de búsqueda.',no_sharp_visible_edge:'No hay un borde visible suficientemente claro.',capture_footprint_seam:'El cruce cambia de huella o fuente de imagen.',non_beach_coast_type:'La cartografía identifica una obra, vegetación u otro tipo de costa; no se calcula como playa.',source_unavailable:'No se recibió una imagen suficiente para el cálculo.',edition_not_reviewed:'Esta edición del fondo todavía no forma parte de la revisión de posiciones.'};
     for(const reason of (Array.isArray(p.photo_rejection_reasons)?p.photo_rejection_reasons:[]).slice(0,2))if(reasons[String(reason)])addText(details,reasons[String(reason)]);
@@ -102,13 +116,16 @@ export function coastalPopup(feature: Feature): HTMLElement {
     const seen=new Set<string>();
     for(const source of Array.isArray(p.photo_sources)?p.photo_sources:[]){const c=source as {date?:string;provider?:string;source?:string};if(!c.date||seen.has(c.date))continue;seen.add(c.date);addText(sources,c.date+' · '+c.provider+' · '+c.source);}
     const anchor=p.photo_anchor_coordinate;
-    if(Array.isArray(anchor)&&anchor.length===2)for(const release of Array.isArray(p.photo_source_releases)?p.photo_source_releases:[]){const item=receivedEsriCatalogue.items.find(i=>i.releaseNum===release);if(!item)continue;const url=new URL(item.metadataLayerUrl+'/6/query');url.search=new URLSearchParams({f:'json',where:'1=1',outFields:'SRC_DATE2,NICE_DESC,SRC_DESC,SAMP_RES,SRC_ACC',geometry:JSON.stringify({spatialReference:{wkid:4326},x:anchor[0],y:anchor[1]}),geometryType:'esriGeometryPoint',returnGeometry:'false',spatialRel:'esriSpatialRelIntersects'}).toString();const a=document.createElement('a');a.href=url.toString();a.target='_blank';a.rel='noreferrer';a.textContent='Metadatos oficiales · edición '+item.releaseDateLabel;sources.appendChild(a);}
+    const probes=Array.isArray(p.photo_metadata_points)?p.photo_metadata_points as {release:number;coordinate:number[];date?:string}[]:(Array.isArray(p.photo_source_releases)?p.photo_source_releases:[]).map(release=>({release:Number(release),coordinate:Array.isArray(anchor)?anchor as number[]:[],date:undefined}));
+    const linked=new Set<string>();
+    for(const probe of probes){if(!Array.isArray(probe.coordinate)||probe.coordinate.length!==2||probe.coordinate.some(v=>!Number.isFinite(v)))continue;const key=probe.release+':'+probe.coordinate.join(',');if(linked.has(key))continue;linked.add(key);const item=receivedEsriCatalogue.items.find(i=>i.releaseNum===probe.release);if(!item)continue;const url=new URL(item.metadataLayerUrl+'/6/query');url.search=new URLSearchParams({f:'json',where:'1=1',outFields:'SRC_DATE2,NICE_DESC,SRC_DESC,SAMP_RES,SRC_ACC',geometry:JSON.stringify({spatialReference:{wkid:4326},x:probe.coordinate[0],y:probe.coordinate[1]}),geometryType:'esriGeometryPoint',returnGeometry:'false',spatialRel:'esriSpatialRelIntersects'}).toString();const a=document.createElement('a');a.href=url.toString();a.target='_blank';a.rel='noreferrer';a.textContent='Metadatos del extremo'+(probe.date?' · '+probe.date:'')+' · edición '+item.releaseDateLabel;sources.appendChild(a);}
     addText(sources,'Perfil '+coastalValue(feature,'profile_id')+'.');el.appendChild(sources);
-    if(Array.isArray(p.photo_manual_reviews)&&p.photo_manual_reviews.length){const a=document.createElement('a');a.href='/data/shorelines/photo-alignment/manual-digitization-20261103.json';a.target='_blank';a.rel='noreferrer';a.textContent='Trazado manual y procedencia · 3 nov 2026';sources.appendChild(a);}
+    if(Array.isArray(p.photo_manual_reviews)&&p.photo_manual_reviews.length){const a=document.createElement('a');a.href=typeof p.reference_method_url==='string'?p.reference_method_url:p.photo_review_method?'/data/shorelines/photo-alignment/manual-progreso-oeste-20261105.json':'/data/shorelines/photo-alignment/manual-digitization-20261103.json';a.target='_blank';a.rel='noreferrer';a.textContent=p.photo_review_method?'Intersecciones y procedencia · 5 nov 2026':'Trazado manual y procedencia · 3 nov 2026';sources.appendChild(a);}
     return el;
   }
   if(p.trajectory_estimate===true){
     const title=document.createElement('strong');title.textContent=p.before_reference===true?'Referencia aún no disponible':p.reference_only===true?'Referencia · '+p.baseline_year:'Cambio estimado · ChatGPT';el.appendChild(title);
+    addUserReference();
     const delta=typeof p.delta_m==='number'?p.delta_m:null;
     addText(el,p.before_reference===true?`El año ${p.year} es anterior a la referencia ${p.baseline_year}; no se atribuye cero erosión.`:p.reference_only===true?`Punto de partida fijo: ${p.baseline_year}${p.trajectory_reference_kind==='model'?' · referencia reconstruida':''}.`:`${p.baseline_year} → ${p.year}: ≈ ${Math.round(Math.abs(delta??0)).toLocaleString('es-MX')} m ${delta!==null&&delta<0?'hacia tierra':delta!==null&&delta>0?'hacia el agua':'de cambio'} · estimación.`);
     addText(el,coastalValue(feature,'municipality')+' · '+(p.trajectory_reference_kind==='photo'?'base fotográfica':'base reconstruida con el modelo')+'.');

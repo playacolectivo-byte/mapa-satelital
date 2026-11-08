@@ -1,0 +1,17 @@
+{
+  "reviewer": "sub-agent progreso_2015",
+  "status": "native_context_recheck_complete",
+  "capture_date": "2025-02-13",
+  "release": 22252,
+  "evidence": [
+    "work/progreso-year-review-20261105/latest-19-21-unmarked-000.png",
+    "work/progreso-year-review-20261105/latest-19-21-marked-000.png"
+  ],
+  "interpretation": "The continuous apparent water/wet-sand boundary is seaward of the bright dry sand. The visible offshore submerged sandbank is separate. These three positions follow the beach boundary, not the dry/wet-sand line or the sandbank.",
+  "profiles": [
+    {"display_index":19,"profile_id":"SC-258-0-49","pre_refinement_offset_m":-14.5,"root_refined_offset_m":-18,"approximate_visible_edge_interval_m":[-20,-14],"finding":"Original point compatible within the operational 8m tolerance, at the seaward side of the diffuse transition. Root selected -18m; its new endpoint was separately verified in latest-root-refinements-19-20.json."},
+    {"display_index":20,"profile_id":"SC-258-0-50","pre_refinement_offset_m":-29,"root_refined_offset_m":-30.5,"approximate_visible_edge_interval_m":[-34,-27],"finding":"Original point compatible within the operational 8m tolerance; no dry/wet-line substitution found. Root selected -30.5m; its new endpoint was separately verified in latest-root-refinements-19-20.json."},
+    {"display_index":21,"profile_id":"SC-258-0-51","current_offset_m":-31,"approximate_visible_edge_interval_m":[-34,-28],"finding":"Compatible within the operational 8m tolerance; position lies beside the continuous water/wet-sand boundary west of the breakwater."}
+  ],
+  "limitations": ["Intervals are approximate visual interpretation bands, not statistical confidence limits or certified absolute accuracy.","No tide, wave, beach-slope or image-registration correction is certified.","Root's subsequent refinements are documented separately in work/progreso-year-review-20261105/latest-root-refinements-19-20.json; no public measurement asset was changed by this agent."]
+}

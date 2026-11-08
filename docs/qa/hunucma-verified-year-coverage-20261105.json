@@ -1,0 +1,80 @@
+{
+  "scope": "153 independently reviewed 2011 reference positions; subsequent manual visual consistency within 8m operational tolerance plus per-endpoint source/date confirmation. Calendar gaps stay pending.",
+  "years": {
+    "2011": {
+      "photo_readings": 0,
+      "unique_profiles": 0,
+      "unique_profiles_with_valid_2011_base": 0
+    },
+    "2012": {
+      "photo_readings": 0,
+      "unique_profiles": 0,
+      "unique_profiles_with_valid_2011_base": 0
+    },
+    "2013": {
+      "photo_readings": 51,
+      "unique_profiles": 51,
+      "unique_profiles_with_valid_2011_base": 51
+    },
+    "2014": {
+      "photo_readings": 27,
+      "unique_profiles": 27,
+      "unique_profiles_with_valid_2011_base": 26
+    },
+    "2015": {
+      "photo_readings": 0,
+      "unique_profiles": 0,
+      "unique_profiles_with_valid_2011_base": 0
+    },
+    "2016": {
+      "photo_readings": 56,
+      "unique_profiles": 56,
+      "unique_profiles_with_valid_2011_base": 56
+    },
+    "2017": {
+      "photo_readings": 7,
+      "unique_profiles": 7,
+      "unique_profiles_with_valid_2011_base": 7
+    },
+    "2018": {
+      "photo_readings": 2,
+      "unique_profiles": 2,
+      "unique_profiles_with_valid_2011_base": 2
+    },
+    "2019": {
+      "photo_readings": 163,
+      "unique_profiles": 100,
+      "unique_profiles_with_valid_2011_base": 98
+    },
+    "2020": {
+      "photo_readings": 106,
+      "unique_profiles": 81,
+      "unique_profiles_with_valid_2011_base": 81
+    },
+    "2021": {
+      "photo_readings": 0,
+      "unique_profiles": 0,
+      "unique_profiles_with_valid_2011_base": 0
+    },
+    "2022": {
+      "photo_readings": 253,
+      "unique_profiles": 134,
+      "unique_profiles_with_valid_2011_base": 132
+    },
+    "2023": {
+      "photo_readings": 0,
+      "unique_profiles": 0,
+      "unique_profiles_with_valid_2011_base": 0
+    },
+    "2024": {
+      "photo_readings": 4,
+      "unique_profiles": 4,
+      "unique_profiles_with_valid_2011_base": 4
+    },
+    "2025": {
+      "photo_readings": 126,
+      "unique_profiles": 126,
+      "unique_profiles_with_valid_2011_base": 126
+    }
+  }
+}

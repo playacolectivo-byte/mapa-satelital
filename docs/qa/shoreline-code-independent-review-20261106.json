@@ -1,0 +1,136 @@
+{
+  "status": "independent_code_review_complete",
+  "checked_on": "2026-11-06",
+  "reviewer": "progreso_2015",
+  "scope": {
+    "files": [
+      "lib/municipal-shoreline-review.ts",
+      "lib/photo-coast.ts",
+      "lib/coastal-image-alignment.ts",
+      "lib/photo-source-review.ts",
+      "scripts/audit-municipal-shoreline-reviews.mjs"
+    ],
+    "alignment_municipalities": [
+      "progreso",
+      "dzemul"
+    ],
+    "years": [
+      2010,
+      2026
+    ],
+    "editions": [
+      null,
+      11019,
+      18820,
+      22252,
+      10321,
+      15045
+    ],
+    "excluded": "Hunucma394 image interpretation is handled by other reviewers."
+  },
+  "alignment_checks": [
+    {
+      "municipality": "progreso",
+      "features_checked": 60792,
+      "measured": 1600,
+      "neutral_or_pending": 59192,
+      "moving_baseline_failures": 0,
+      "unapproved_measurement_failures": 0,
+      "sign_or_geometry_failures": 0
+    },
+    {
+      "municipality": "dzemul",
+      "features_checked": 13668,
+      "measured": 669,
+      "neutral_or_pending": 12999,
+      "moving_baseline_failures": 0,
+      "unapproved_measurement_failures": 0,
+      "sign_or_geometry_failures": 0
+    }
+  ],
+  "strict_endpoint_checks": [
+    {
+      "municipality": "progreso",
+      "measured_features_checked": 3970,
+      "endpoint_capture_and_release_checks": 3970,
+      "metadata_geometry_mismatches": 0
+    },
+    {
+      "municipality": "dzemul",
+      "measured_features_checked": 953,
+      "endpoint_capture_and_release_checks": 953,
+      "metadata_geometry_mismatches": 0
+    }
+  ],
+  "axis_checks": [
+    {
+      "municipality": "progreso",
+      "beach_profiles": 596,
+      "unit_vector_failures": 0,
+      "nonpositive_north_component": 0,
+      "sign": "Positive offset follows the seaward transect; delta=endOffset-referenceOffset, so positive is toward water and negative toward land."
+    },
+    {
+      "municipality": "hunucma",
+      "beach_profiles": 384,
+      "unit_vector_failures": 0,
+      "nonpositive_north_component": 0,
+      "sign": "Positive offset follows the seaward transect; delta=endOffset-referenceOffset, so positive is toward water and negative toward land."
+    },
+    {
+      "municipality": "dzemul",
+      "beach_profiles": 134,
+      "unit_vector_failures": 0,
+      "nonpositive_north_component": 0,
+      "sign": "Positive offset follows the seaward transect; delta=endOffset-referenceOffset, so positive is toward water and negative toward land."
+    }
+  ],
+  "file_sha256": {
+    "lib/municipal-shoreline-review.ts": "0428b88b8d9eedb0110e3c8c10593694cbb4c5b9bd81cc8e48065b5197461c90",
+    "lib/photo-coast.ts": "b452143181ff27b29ed780e6ce49e9de39ecab38443d4c8e78b0644071feb0c1",
+    "lib/coastal-image-alignment.ts": "ca00b91188697cf6471d54b08902597ab9300f27860c8f35370422ceab5d94d8",
+    "lib/photo-source-review.ts": "745f5af5a837c454f87a93f0398c010d123c8044a4e85a42e7a440d36e0ac0c5",
+    "scripts/audit-municipal-shoreline-reviews.mjs": "9c3b7e6269726934ab86b7c2dfa863d78bdf2567672dff20bb69a496007c7a5f"
+  },
+  "regression_example": {
+    "profile_id": "SC-88-0-177",
+    "year": 2019,
+    "chosen_capture": 211,
+    "chosen_offset_m": 1,
+    "expected_release": 15045,
+    "actual_release": 15045,
+    "delta_m": -14,
+    "geometry_endpoint": [
+      -89.44070103192911,
+      21.32399842256898
+    ],
+    "metadata_endpoint": [
+      -89.44070103192911,
+      21.32399842256898
+    ],
+    "source_releases": [
+      15045,
+      11019
+    ]
+  },
+  "alignment_features_checked": 74460,
+  "resolved_defect": {
+    "file": "lib/photo-coast.ts",
+    "current_line": 114,
+    "cause": "End reading was selected by date; different capture records can share a date and have different offsets/editions.",
+    "previous_dzemul_endpoint_mismatches": 49,
+    "current_dzemul_endpoint_mismatches": 0,
+    "fix": "Position preserves captureIndices; endReading and ancillary source/manual attribution use exact capture identity.",
+    "audit_regression": "Audit now asserts metadata-point coordinates equal the displayed geometry endpoints and the endpoint edition belongs to an explicitly approved capture."
+  },
+  "limitations": [
+    "This checks software invariants and source attribution, not a new independent visual digitization of every shoreline.",
+    "No claim of field validation, tidal correction, wave run-up correction, slope correction or calibrated absolute metre accuracy is made.",
+    "The read-only matrix covers Progreso and Dzemul for six edition states across 2010..2026; source/date integrity for other editions depends on the separate full municipal source audits.",
+    "Hunucma transect directions were checked numerically; its disputed 394 interpretation was not reviewed here."
+  ],
+  "public_data_sha256": {
+    "progreso": "ada8576ba2cff7ab0d48b7de830501e3a4a0ccd1a618b6cb325b65d4d88f43dc",
+    "dzemul": "621637a507b1a36f50e778197c17febf6ea6566c854ddca0ef4f93633961f8c0"
+  }
+}

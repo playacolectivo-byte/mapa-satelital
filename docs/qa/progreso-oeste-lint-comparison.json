@@ -1,0 +1,2499 @@
+{
+  "scope": "React compiler, React hooks and Next navigation diagnostics in explorer.tsx",
+  "baseline_count": 49,
+  "current_count": 49,
+  "same_diagnostic_signatures": true,
+  "note": "Baseline copied under a temporary sibling filename. Type diagnostics from that synthetic filename are excluded; the actual application passed tsc --noEmit.",
+  "baseline": [
+    {
+      "message": "EffectSetState: Calling setState synchronously within an effect can trigger cascading renders",
+      "code": "react(react-compiler)",
+      "severity": "error",
+      "causes": [],
+      "url": "https://oxc.rs/docs/guide/usage/linter/rules/react/react-compiler.html",
+      "help": "Effects are intended to synchronize state between React and external systems such as manually updating the DOM, state management libraries, or other platform APIs. In general, the body of an effect should do one or both of the following:\n* Update external systems with the latest state from React.\n* Subscribe for updates from some external system, calling setState in a callback function when external state changes.\n\nCalling setState synchronously within an effect body causes cascading renders that can hurt performance, and is not recommended. (https://react.dev/learn/you-might-not-need-an-effect)",
+      "filename": "components/.lint-baseline-explorer.tsx",
+      "labels": [
+        {
+          "label": "Avoid calling setState() directly within an effect",
+          "span": {
+            "offset": 10023,
+            "length": 17,
+            "line": 181,
+            "column": 44
+          }
+        }
+      ],
+      "related": []
+    },
+    {
+      "message": "EffectSetState: Calling setState synchronously within an effect can trigger cascading renders",
+      "code": "react(react-compiler)",
+      "severity": "error",
+      "causes": [],
+      "url": "https://oxc.rs/docs/guide/usage/linter/rules/react/react-compiler.html",
+      "help": "Effects are intended to synchronize state between React and external systems such as manually updating the DOM, state management libraries, or other platform APIs. In general, the body of an effect should do one or both of the following:\n* Update external systems with the latest state from React.\n* Subscribe for updates from some external system, calling setState in a callback function when external state changes.\n\nCalling setState synchronously within an effect body causes cascading renders that can hurt performance, and is not recommended. (https://react.dev/learn/you-might-not-need-an-effect)",
+      "filename": "components/.lint-baseline-explorer.tsx",
+      "labels": [
+        {
+          "label": "Avoid calling setState() directly within an effect",
+          "span": {
+            "offset": 11050,
+            "length": 24,
+            "line": 190,
+            "column": 44
+          }
+        }
+      ],
+      "related": []
+    },
+    {
+      "message": "EffectSetState: Calling setState synchronously within an effect can trigger cascading renders",
+      "code": "react(react-compiler)",
+      "severity": "error",
+      "causes": [],
+      "url": "https://oxc.rs/docs/guide/usage/linter/rules/react/react-compiler.html",
+      "help": "Effects are intended to synchronize state between React and external systems such as manually updating the DOM, state management libraries, or other platform APIs. In general, the body of an effect should do one or both of the following:\n* Update external systems with the latest state from React.\n* Subscribe for updates from some external system, calling setState in a callback function when external state changes.\n\nCalling setState synchronously within an effect body causes cascading renders that can hurt performance, and is not recommended. (https://react.dev/learn/you-might-not-need-an-effect)",
+      "filename": "components/.lint-baseline-explorer.tsx",
+      "labels": [
+        {
+          "label": "Avoid calling setState() directly within an effect",
+          "span": {
+            "offset": 13333,
+            "length": 14,
+            "line": 206,
+            "column": 110
+          }
+        }
+      ],
+      "related": []
+    },
+    {
+      "message": "EffectSetState: Calling setState synchronously within an effect can trigger cascading renders",
+      "code": "react(react-compiler)",
+      "severity": "error",
+      "causes": [],
+      "url": "https://oxc.rs/docs/guide/usage/linter/rules/react/react-compiler.html",
+      "help": "Effects are intended to synchronize state between React and external systems such as manually updating the DOM, state management libraries, or other platform APIs. In general, the body of an effect should do one or both of the following:\n* Update external systems with the latest state from React.\n* Subscribe for updates from some external system, calling setState in a callback function when external state changes.\n\nCalling setState synchronously within an effect body causes cascading renders that can hurt performance, and is not recommended. (https://react.dev/learn/you-might-not-need-an-effect)",
+      "filename": "components/.lint-baseline-explorer.tsx",
+      "labels": [
+        {
+          "label": "Avoid calling setState() directly within an effect",
+          "span": {
+            "offset": 14336,
+            "length": 17,
+            "line": 217,
+            "column": 5
+          }
+        }
+      ],
+      "related": []
+    },
+    {
+      "message": "EffectSetState: Calling setState synchronously within an effect can trigger cascading renders",
+      "code": "react(react-compiler)",
+      "severity": "error",
+      "causes": [],
+      "url": "https://oxc.rs/docs/guide/usage/linter/rules/react/react-compiler.html",
+      "help": "Effects are intended to synchronize state between React and external systems such as manually updating the DOM, state management libraries, or other platform APIs. In general, the body of an effect should do one or both of the following:\n* Update external systems with the latest state from React.\n* Subscribe for updates from some external system, calling setState in a callback function when external state changes.\n\nCalling setState synchronously within an effect body causes cascading renders that can hurt performance, and is not recommended. (https://react.dev/learn/you-might-not-need-an-effect)",
+      "filename": "components/.lint-baseline-explorer.tsx",
+      "labels": [
+        {
+          "label": "Avoid calling setState() directly within an effect",
+          "span": {
+            "offset": 16125,
+            "length": 15,
+            "line": 241,
+            "column": 44
+          }
+        }
+      ],
+      "related": []
+    },
+    {
+      "message": "EffectSetState: Calling setState synchronously within an effect can trigger cascading renders",
+      "code": "react(react-compiler)",
+      "severity": "error",
+      "causes": [],
+      "url": "https://oxc.rs/docs/guide/usage/linter/rules/react/react-compiler.html",
+      "help": "Effects are intended to synchronize state between React and external systems such as manually updating the DOM, state management libraries, or other platform APIs. In general, the body of an effect should do one or both of the following:\n* Update external systems with the latest state from React.\n* Subscribe for updates from some external system, calling setState in a callback function when external state changes.\n\nCalling setState synchronously within an effect body causes cascading renders that can hurt performance, and is not recommended. (https://react.dev/learn/you-might-not-need-an-effect)",
+      "filename": "components/.lint-baseline-explorer.tsx",
+      "labels": [
+        {
+          "label": "Avoid calling setState() directly within an effect",
+          "span": {
+            "offset": 17854,
+            "length": 14,
+            "line": 260,
+            "column": 44
+          }
+        }
+      ],
+      "related": []
+    },
+    {
+      "message": "EffectSetState: Calling setState synchronously within an effect can trigger cascading renders",
+      "code": "react(react-compiler)",
+      "severity": "error",
+      "causes": [],
+      "url": "https://oxc.rs/docs/guide/usage/linter/rules/react/react-compiler.html",
+      "help": "Effects are intended to synchronize state between React and external systems such as manually updating the DOM, state management libraries, or other platform APIs. In general, the body of an effect should do one or both of the following:\n* Update external systems with the latest state from React.\n* Subscribe for updates from some external system, calling setState in a callback function when external state changes.\n\nCalling setState synchronously within an effect body causes cascading renders that can hurt performance, and is not recommended. (https://react.dev/learn/you-might-not-need-an-effect)",
+      "filename": "components/.lint-baseline-explorer.tsx",
+      "labels": [
+        {
+          "label": "Avoid calling setState() directly within an effect",
+          "span": {
+            "offset": 18344,
+            "length": 18,
+            "line": 267,
+            "column": 5
+          }
+        }
+      ],
+      "related": []
+    },
+    {
+      "message": "EffectSetState: Calling setState synchronously within an effect can trigger cascading renders",
+      "code": "react(react-compiler)",
+      "severity": "error",
+      "causes": [],
+      "url": "https://oxc.rs/docs/guide/usage/linter/rules/react/react-compiler.html",
+      "help": "Effects are intended to synchronize state between React and external systems such as manually updating the DOM, state management libraries, or other platform APIs. In general, the body of an effect should do one or both of the following:\n* Update external systems with the latest state from React.\n* Subscribe for updates from some external system, calling setState in a callback function when external state changes.\n\nCalling setState synchronously within an effect body causes cascading renders that can hurt performance, and is not recommended. (https://react.dev/learn/you-might-not-need-an-effect)",
+      "filename": "components/.lint-baseline-explorer.tsx",
+      "labels": [
+        {
+          "label": "Avoid calling setState() directly within an effect",
+          "span": {
+            "offset": 21694,
+            "length": 22,
+            "line": 302,
+            "column": 121
+          }
+        }
+      ],
+      "related": []
+    },
+    {
+      "message": "EffectSetState: Calling setState synchronously within an effect can trigger cascading renders",
+      "code": "react(react-compiler)",
+      "severity": "error",
+      "causes": [],
+      "url": "https://oxc.rs/docs/guide/usage/linter/rules/react/react-compiler.html",
+      "help": "Effects are intended to synchronize state between React and external systems such as manually updating the DOM, state management libraries, or other platform APIs. In general, the body of an effect should do one or both of the following:\n* Update external systems with the latest state from React.\n* Subscribe for updates from some external system, calling setState in a callback function when external state changes.\n\nCalling setState synchronously within an effect body causes cascading renders that can hurt performance, and is not recommended. (https://react.dev/learn/you-might-not-need-an-effect)",
+      "filename": "components/.lint-baseline-explorer.tsx",
+      "labels": [
+        {
+          "label": "Avoid calling setState() directly within an effect",
+          "span": {
+            "offset": 25615,
+            "length": 20,
+            "line": 327,
+            "column": 59
+          }
+        }
+      ],
+      "related": []
+    },
+    {
+      "message": "EffectSetState: Calling setState synchronously within an effect can trigger cascading renders",
+      "code": "react(react-compiler)",
+      "severity": "error",
+      "causes": [],
+      "url": "https://oxc.rs/docs/guide/usage/linter/rules/react/react-compiler.html",
+      "help": "Effects are intended to synchronize state between React and external systems such as manually updating the DOM, state management libraries, or other platform APIs. In general, the body of an effect should do one or both of the following:\n* Update external systems with the latest state from React.\n* Subscribe for updates from some external system, calling setState in a callback function when external state changes.\n\nCalling setState synchronously within an effect body causes cascading renders that can hurt performance, and is not recommended. (https://react.dev/learn/you-might-not-need-an-effect)",
+      "filename": "components/.lint-baseline-explorer.tsx",
+      "labels": [
+        {
+          "label": "Avoid calling setState() directly within an effect",
+          "span": {
+            "offset": 28133,
+            "length": 26,
+            "line": 343,
+            "column": 113
+          }
+        }
+      ],
+      "related": []
+    },
+    {
+      "message": "EffectSetState: Calling setState synchronously within an effect can trigger cascading renders",
+      "code": "react(react-compiler)",
+      "severity": "error",
+      "causes": [],
+      "url": "https://oxc.rs/docs/guide/usage/linter/rules/react/react-compiler.html",
+      "help": "Effects are intended to synchronize state between React and external systems such as manually updating the DOM, state management libraries, or other platform APIs. In general, the body of an effect should do one or both of the following:\n* Update external systems with the latest state from React.\n* Subscribe for updates from some external system, calling setState in a callback function when external state changes.\n\nCalling setState synchronously within an effect body causes cascading renders that can hurt performance, and is not recommended. (https://react.dev/learn/you-might-not-need-an-effect)",
+      "filename": "components/.lint-baseline-explorer.tsx",
+      "labels": [
+        {
+          "label": "Avoid calling setState() directly within an effect",
+          "span": {
+            "offset": 31211,
+            "length": 19,
+            "line": 363,
+            "column": 5
+          }
+        }
+      ],
+      "related": []
+    },
+    {
+      "message": "EffectSetState: Calling setState synchronously within an effect can trigger cascading renders",
+      "code": "react(react-compiler)",
+      "severity": "error",
+      "causes": [],
+      "url": "https://oxc.rs/docs/guide/usage/linter/rules/react/react-compiler.html",
+      "help": "Effects are intended to synchronize state between React and external systems such as manually updating the DOM, state management libraries, or other platform APIs. In general, the body of an effect should do one or both of the following:\n* Update external systems with the latest state from React.\n* Subscribe for updates from some external system, calling setState in a callback function when external state changes.\n\nCalling setState synchronously within an effect body causes cascading renders that can hurt performance, and is not recommended. (https://react.dev/learn/you-might-not-need-an-effect)",
+      "filename": "components/.lint-baseline-explorer.tsx",
+      "labels": [
+        {
+          "label": "Avoid calling setState() directly within an effect",
+          "span": {
+            "offset": 32979,
+            "length": 16,
+            "line": 383,
+            "column": 48
+          }
+        }
+      ],
+      "related": []
+    },
+    {
+      "message": "EffectSetState: Calling setState synchronously within an effect can trigger cascading renders",
+      "code": "react(react-compiler)",
+      "severity": "error",
+      "causes": [],
+      "url": "https://oxc.rs/docs/guide/usage/linter/rules/react/react-compiler.html",
+      "help": "Effects are intended to synchronize state between React and external systems such as manually updating the DOM, state management libraries, or other platform APIs. In general, the body of an effect should do one or both of the following:\n* Update external systems with the latest state from React.\n* Subscribe for updates from some external system, calling setState in a callback function when external state changes.\n\nCalling setState synchronously within an effect body causes cascading renders that can hurt performance, and is not recommended. (https://react.dev/learn/you-might-not-need-an-effect)",
+      "filename": "components/.lint-baseline-explorer.tsx",
+      "labels": [
+        {
+          "label": "Avoid calling setState() directly within an effect",
+          "span": {
+            "offset": 35725,
+            "length": 14,
+            "line": 416,
+            "column": 5
+          }
+        }
+      ],
+      "related": []
+    },
+    {
+      "message": "EffectSetState: Calling setState synchronously within an effect can trigger cascading renders",
+      "code": "react(react-compiler)",
+      "severity": "error",
+      "causes": [],
+      "url": "https://oxc.rs/docs/guide/usage/linter/rules/react/react-compiler.html",
+      "help": "Effects are intended to synchronize state between React and external systems such as manually updating the DOM, state management libraries, or other platform APIs. In general, the body of an effect should do one or both of the following:\n* Update external systems with the latest state from React.\n* Subscribe for updates from some external system, calling setState in a callback function when external state changes.\n\nCalling setState synchronously within an effect body causes cascading renders that can hurt performance, and is not recommended. (https://react.dev/learn/you-might-not-need-an-effect)",
+      "filename": "components/.lint-baseline-explorer.tsx",
+      "labels": [
+        {
+          "label": "Avoid calling setState() directly within an effect",
+          "span": {
+            "offset": 39177,
+            "length": 24,
+            "line": 466,
+            "column": 7
+          }
+        }
+      ],
+      "related": []
+    },
+    {
+      "message": "EffectSetState: Calling setState synchronously within an effect can trigger cascading renders",
+      "code": "react(react-compiler)",
+      "severity": "error",
+      "causes": [],
+      "url": "https://oxc.rs/docs/guide/usage/linter/rules/react/react-compiler.html",
+      "help": "Effects are intended to synchronize state between React and external systems such as manually updating the DOM, state management libraries, or other platform APIs. In general, the body of an effect should do one or both of the following:\n* Update external systems with the latest state from React.\n* Subscribe for updates from some external system, calling setState in a callback function when external state changes.\n\nCalling setState synchronously within an effect body causes cascading renders that can hurt performance, and is not recommended. (https://react.dev/learn/you-might-not-need-an-effect)",
+      "filename": "components/.lint-baseline-explorer.tsx",
+      "labels": [
+        {
+          "label": "Avoid calling setState() directly within an effect",
+          "span": {
+            "offset": 40012,
+            "length": 17,
+            "line": 478,
+            "column": 47
+          }
+        }
+      ],
+      "related": []
+    },
+    {
+      "message": "EffectSetState: Calling setState synchronously within an effect can trigger cascading renders",
+      "code": "react(react-compiler)",
+      "severity": "error",
+      "causes": [],
+      "url": "https://oxc.rs/docs/guide/usage/linter/rules/react/react-compiler.html",
+      "help": "Effects are intended to synchronize state between React and external systems such as manually updating the DOM, state management libraries, or other platform APIs. In general, the body of an effect should do one or both of the following:\n* Update external systems with the latest state from React.\n* Subscribe for updates from some external system, calling setState in a callback function when external state changes.\n\nCalling setState synchronously within an effect body causes cascading renders that can hurt performance, and is not recommended. (https://react.dev/learn/you-might-not-need-an-effect)",
+      "filename": "components/.lint-baseline-explorer.tsx",
+      "labels": [
+        {
+          "label": "Avoid calling setState() directly within an effect",
+          "span": {
+            "offset": 41330,
+            "length": 14,
+            "line": 488,
+            "column": 103
+          }
+        }
+      ],
+      "related": []
+    },
+    {
+      "message": "EffectSetState: Calling setState synchronously within an effect can trigger cascading renders",
+      "code": "react(react-compiler)",
+      "severity": "error",
+      "causes": [],
+      "url": "https://oxc.rs/docs/guide/usage/linter/rules/react/react-compiler.html",
+      "help": "Effects are intended to synchronize state between React and external systems such as manually updating the DOM, state management libraries, or other platform APIs. In general, the body of an effect should do one or both of the following:\n* Update external systems with the latest state from React.\n* Subscribe for updates from some external system, calling setState in a callback function when external state changes.\n\nCalling setState synchronously within an effect body causes cascading renders that can hurt performance, and is not recommended. (https://react.dev/learn/you-might-not-need-an-effect)",
+      "filename": "components/.lint-baseline-explorer.tsx",
+      "labels": [
+        {
+          "label": "Avoid calling setState() directly within an effect",
+          "span": {
+            "offset": 42149,
+            "length": 12,
+            "line": 496,
+            "column": 88
+          }
+        }
+      ],
+      "related": []
+    },
+    {
+      "message": "EffectSetState: Calling setState synchronously within an effect can trigger cascading renders",
+      "code": "react(react-compiler)",
+      "severity": "error",
+      "causes": [],
+      "url": "https://oxc.rs/docs/guide/usage/linter/rules/react/react-compiler.html",
+      "help": "Effects are intended to synchronize state between React and external systems such as manually updating the DOM, state management libraries, or other platform APIs. In general, the body of an effect should do one or both of the following:\n* Update external systems with the latest state from React.\n* Subscribe for updates from some external system, calling setState in a callback function when external state changes.\n\nCalling setState synchronously within an effect body causes cascading renders that can hurt performance, and is not recommended. (https://react.dev/learn/you-might-not-need-an-effect)",
+      "filename": "components/.lint-baseline-explorer.tsx",
+      "labels": [
+        {
+          "label": "Avoid calling setState() directly within an effect",
+          "span": {
+            "offset": 50615,
+            "length": 18,
+            "line": 564,
+            "column": 61
+          }
+        }
+      ],
+      "related": []
+    },
+    {
+      "message": "EffectSetState: Calling setState synchronously within an effect can trigger cascading renders",
+      "code": "react(react-compiler)",
+      "severity": "error",
+      "causes": [],
+      "url": "https://oxc.rs/docs/guide/usage/linter/rules/react/react-compiler.html",
+      "help": "Effects are intended to synchronize state between React and external systems such as manually updating the DOM, state management libraries, or other platform APIs. In general, the body of an effect should do one or both of the following:\n* Update external systems with the latest state from React.\n* Subscribe for updates from some external system, calling setState in a callback function when external state changes.\n\nCalling setState synchronously within an effect body causes cascading renders that can hurt performance, and is not recommended. (https://react.dev/learn/you-might-not-need-an-effect)",
+      "filename": "components/.lint-baseline-explorer.tsx",
+      "labels": [
+        {
+          "label": "Avoid calling setState() directly within an effect",
+          "span": {
+            "offset": 58288,
+            "length": 23,
+            "line": 719,
+            "column": 283
+          }
+        }
+      ],
+      "related": []
+    },
+    {
+      "message": "EffectSetState: Calling setState synchronously within an effect can trigger cascading renders",
+      "code": "react(react-compiler)",
+      "severity": "error",
+      "causes": [],
+      "url": "https://oxc.rs/docs/guide/usage/linter/rules/react/react-compiler.html",
+      "help": "Effects are intended to synchronize state between React and external systems such as manually updating the DOM, state management libraries, or other platform APIs. In general, the body of an effect should do one or both of the following:\n* Update external systems with the latest state from React.\n* Subscribe for updates from some external system, calling setState in a callback function when external state changes.\n\nCalling setState synchronously within an effect body causes cascading renders that can hurt performance, and is not recommended. (https://react.dev/learn/you-might-not-need-an-effect)",
+      "filename": "components/.lint-baseline-explorer.tsx",
+      "labels": [
+        {
+          "label": "Avoid calling setState() directly within an effect",
+          "span": {
+            "offset": 67419,
+            "length": 19,
+            "line": 896,
+            "column": 5
+          }
+        }
+      ],
+      "related": []
+    },
+    {
+      "message": "EffectSetState: Calling setState synchronously within an effect can trigger cascading renders",
+      "code": "react(react-compiler)",
+      "severity": "error",
+      "causes": [],
+      "url": "https://oxc.rs/docs/guide/usage/linter/rules/react/react-compiler.html",
+      "help": "Effects are intended to synchronize state between React and external systems such as manually updating the DOM, state management libraries, or other platform APIs. In general, the body of an effect should do one or both of the following:\n* Update external systems with the latest state from React.\n* Subscribe for updates from some external system, calling setState in a callback function when external state changes.\n\nCalling setState synchronously within an effect body causes cascading renders that can hurt performance, and is not recommended. (https://react.dev/learn/you-might-not-need-an-effect)",
+      "filename": "components/.lint-baseline-explorer.tsx",
+      "labels": [
+        {
+          "label": "Avoid calling setState() directly within an effect",
+          "span": {
+            "offset": 68219,
+            "length": 18,
+            "line": 923,
+            "column": 5
+          }
+        }
+      ],
+      "related": []
+    },
+    {
+      "message": "Refs: Cannot access refs during render",
+      "code": "react(react-compiler)",
+      "severity": "error",
+      "causes": [],
+      "url": "https://oxc.rs/docs/guide/usage/linter/rules/react/react-compiler.html",
+      "help": "React refs are values that are not needed for rendering. Refs should only be accessed outside of render, such as in event handlers or effects. Accessing a ref value (the `current` property) during render can cause your component not to update as expected (https://react.dev/reference/react/useRef)",
+      "filename": "components/.lint-baseline-explorer.tsx",
+      "labels": [
+        {
+          "label": "Passing a ref to a function may read its value during render",
+          "span": {
+            "offset": 44557,
+            "length": 23,
+            "line": 515,
+            "column": 91
+          }
+        }
+      ],
+      "related": []
+    },
+    {
+      "message": "Refs: Cannot access refs during render",
+      "code": "react(react-compiler)",
+      "severity": "error",
+      "causes": [],
+      "url": "https://oxc.rs/docs/guide/usage/linter/rules/react/react-compiler.html",
+      "help": "React refs are values that are not needed for rendering. Refs should only be accessed outside of render, such as in event handlers or effects. Accessing a ref value (the `current` property) during render can cause your component not to update as expected (https://react.dev/reference/react/useRef)",
+      "filename": "components/.lint-baseline-explorer.tsx",
+      "labels": [
+        {
+          "label": "Passing a ref to a function may read its value during render",
+          "span": {
+            "offset": 44557,
+            "length": 27,
+            "line": 515,
+            "column": 91
+          }
+        }
+      ],
+      "related": []
+    },
+    {
+      "message": "Refs: Cannot access refs during render",
+      "code": "react(react-compiler)",
+      "severity": "error",
+      "causes": [],
+      "url": "https://oxc.rs/docs/guide/usage/linter/rules/react/react-compiler.html",
+      "help": "React refs are values that are not needed for rendering. Refs should only be accessed outside of render, such as in event handlers or effects. Accessing a ref value (the `current` property) during render can cause your component not to update as expected (https://react.dev/reference/react/useRef)",
+      "filename": "components/.lint-baseline-explorer.tsx",
+      "labels": [
+        {
+          "label": "Passing a ref to a function may read its value during render",
+          "span": {
+            "offset": 48815,
+            "length": 30,
+            "line": 555,
+            "column": 139
+          }
+        }
+      ],
+      "related": []
+    },
+    {
+      "message": "Refs: Cannot access refs during render",
+      "code": "react(react-compiler)",
+      "severity": "error",
+      "causes": [],
+      "url": "https://oxc.rs/docs/guide/usage/linter/rules/react/react-compiler.html",
+      "help": "React refs are values that are not needed for rendering. Refs should only be accessed outside of render, such as in event handlers or effects. Accessing a ref value (the `current` property) during render can cause your component not to update as expected (https://react.dev/reference/react/useRef)",
+      "filename": "components/.lint-baseline-explorer.tsx",
+      "labels": [
+        {
+          "label": "Passing a ref to a function may read its value during render",
+          "span": {
+            "offset": 48815,
+            "length": 34,
+            "line": 555,
+            "column": 139
+          }
+        }
+      ],
+      "related": []
+    },
+    {
+      "message": "MemoDependencies: Found missing memoization dependencies",
+      "code": "react(react-compiler)",
+      "severity": "error",
+      "causes": [],
+      "url": "https://oxc.rs/docs/guide/usage/linter/rules/react/react-compiler.html",
+      "help": "Missing dependencies can cause a value to update less often than it should, resulting in stale UI",
+      "filename": "components/.lint-baseline-explorer.tsx",
+      "labels": [
+        {
+          "label": "Missing dependency `municipalityScope`",
+          "span": {
+            "offset": 61964,
+            "length": 17,
+            "line": 768,
+            "column": 20
+          }
+        }
+      ],
+      "related": []
+    },
+    {
+      "message": "PreserveManualMemo: Existing memoization could not be preserved",
+      "code": "react(react-compiler)",
+      "severity": "error",
+      "causes": [],
+      "url": "https://oxc.rs/docs/guide/usage/linter/rules/react/react-compiler.html",
+      "help": "React Compiler has skipped optimizing this component because the existing manual memoization could not be preserved. The inferred dependencies did not match the manually specified dependencies, which could cause the value to change more or less frequently than expected. The inferred dependency was `chapterSatellites.current?.releaseNum`, but the source dependencies were [coastalChapter, photoLocation, imageYear, coastalResultView, chapterSatellites.current]. Differences in ref.current access",
+      "filename": "components/.lint-baseline-explorer.tsx",
+      "labels": [
+        {
+          "label": "Could not preserve existing manual memoization",
+          "span": {
+            "offset": 24900,
+            "length": 551,
+            "line": 321,
+            "column": 40
+          }
+        }
+      ],
+      "related": []
+    },
+    {
+      "message": "React Hook useEffect has missing dependencies: 'municipalityScope', 'municipalityScope.municipality.name', and 'municipalityScope.model'",
+      "code": "react-hooks(exhaustive-deps)",
+      "severity": "error",
+      "causes": [],
+      "url": "https://oxc.rs/docs/guide/usage/linter/rules/react/exhaustive-deps.html",
+      "help": "Either include it or remove the dependency array.",
+      "filename": "components/.lint-baseline-explorer.tsx",
+      "labels": [
+        {
+          "span": {
+            "offset": 10158,
+            "length": 17,
+            "line": 183,
+            "column": 11
+          }
+        },
+        {
+          "span": {
+            "offset": 10516,
+            "length": 30,
+            "line": 184,
+            "column": 71
+          }
+        },
+        {
+          "span": {
+            "offset": 10196,
+            "length": 17,
+            "line": 183,
+            "column": 49
+          }
+        },
+        {
+          "span": {
+            "offset": 10901,
+            "length": 38,
+            "line": 187,
+            "column": 5
+          }
+        }
+      ],
+      "related": []
+    },
+    {
+      "message": "React Hook useEffect has missing dependencies: 'municipalityScope.original_photo_sha256', 'municipalityScope', and 'municipalityScope.photos'",
+      "code": "react-hooks(exhaustive-deps)",
+      "severity": "error",
+      "causes": [],
+      "url": "https://oxc.rs/docs/guide/usage/linter/rules/react/exhaustive-deps.html",
+      "help": "Either include it or remove the dependency array.",
+      "filename": "components/.lint-baseline-explorer.tsx",
+      "labels": [
+        {
+          "span": {
+            "offset": 11611,
+            "length": 17,
+            "line": 192,
+            "column": 423
+          }
+        },
+        {
+          "span": {
+            "offset": 11199,
+            "length": 17,
+            "line": 192,
+            "column": 11
+          }
+        },
+        {
+          "span": {
+            "offset": 11237,
+            "length": 17,
+            "line": 192,
+            "column": 49
+          }
+        },
+        {
+          "span": {
+            "offset": 12377,
+            "length": 57,
+            "line": 196,
+            "column": 5
+          }
+        }
+      ],
+      "related": []
+    },
+    {
+      "message": "React Hook useEffect has a missing dependency: 'getJson'",
+      "code": "react-hooks(exhaustive-deps)",
+      "severity": "error",
+      "causes": [],
+      "url": "https://oxc.rs/docs/guide/usage/linter/rules/react/exhaustive-deps.html",
+      "help": "Either include it or remove the dependency array.",
+      "filename": "components/.lint-baseline-explorer.tsx",
+      "labels": [
+        {
+          "label": "useEffect uses `getJson` here",
+          "span": {
+            "offset": 13378,
+            "length": 7,
+            "line": 207,
+            "column": 5
+          }
+        },
+        {
+          "span": {
+            "offset": 14023,
+            "length": 39,
+            "line": 211,
+            "column": 287
+          }
+        }
+      ],
+      "related": []
+    },
+    {
+      "message": "React Hook useEffect has a missing dependency: 'getJson'",
+      "code": "react-hooks(exhaustive-deps)",
+      "severity": "error",
+      "causes": [],
+      "url": "https://oxc.rs/docs/guide/usage/linter/rules/react/exhaustive-deps.html",
+      "help": "Either include it or remove the dependency array.",
+      "filename": "components/.lint-baseline-explorer.tsx",
+      "labels": [
+        {
+          "label": "useEffect uses `getJson` here",
+          "span": {
+            "offset": 14375,
+            "length": 7,
+            "line": 218,
+            "column": 10
+          }
+        },
+        {
+          "span": {
+            "offset": 15237,
+            "length": 9,
+            "line": 224,
+            "column": 6
+          }
+        }
+      ],
+      "related": []
+    },
+    {
+      "message": "React Hook useEffect has a missing dependency: 'getJson'",
+      "code": "react-hooks(exhaustive-deps)",
+      "severity": "error",
+      "causes": [],
+      "url": "https://oxc.rs/docs/guide/usage/linter/rules/react/exhaustive-deps.html",
+      "help": "Either include it or remove the dependency array.",
+      "filename": "components/.lint-baseline-explorer.tsx",
+      "labels": [
+        {
+          "label": "useEffect uses `getJson` here",
+          "span": {
+            "offset": 15595,
+            "length": 7,
+            "line": 231,
+            "column": 10
+          }
+        },
+        {
+          "span": {
+            "offset": 15831,
+            "length": 2,
+            "line": 235,
+            "column": 6
+          }
+        }
+      ],
+      "related": []
+    },
+    {
+      "message": "React Hook useEffect has a missing dependency: 'getJson'",
+      "code": "react-hooks(exhaustive-deps)",
+      "severity": "error",
+      "causes": [],
+      "url": "https://oxc.rs/docs/guide/usage/linter/rules/react/exhaustive-deps.html",
+      "help": "Either include it or remove the dependency array.",
+      "filename": "components/.lint-baseline-explorer.tsx",
+      "labels": [
+        {
+          "label": "useEffect uses `getJson` here",
+          "span": {
+            "offset": 16162,
+            "length": 7,
+            "line": 242,
+            "column": 10
+          }
+        },
+        {
+          "span": {
+            "offset": 16942,
+            "length": 23,
+            "line": 247,
+            "column": 5
+          }
+        }
+      ],
+      "related": []
+    },
+    {
+      "message": "React Hook useEffect has a missing dependency: 'getJson'",
+      "code": "react-hooks(exhaustive-deps)",
+      "severity": "error",
+      "causes": [],
+      "url": "https://oxc.rs/docs/guide/usage/linter/rules/react/exhaustive-deps.html",
+      "help": "Either include it or remove the dependency array.",
+      "filename": "components/.lint-baseline-explorer.tsx",
+      "labels": [
+        {
+          "label": "useEffect uses `getJson` here",
+          "span": {
+            "offset": 17890,
+            "length": 7,
+            "line": 261,
+            "column": 10
+          }
+        },
+        {
+          "span": {
+            "offset": 18189,
+            "length": 38,
+            "line": 263,
+            "column": 5
+          }
+        }
+      ],
+      "related": []
+    },
+    {
+      "message": "React Hook useEffect has a missing dependency: 'getJson'",
+      "code": "react-hooks(exhaustive-deps)",
+      "severity": "error",
+      "causes": [],
+      "url": "https://oxc.rs/docs/guide/usage/linter/rules/react/exhaustive-deps.html",
+      "help": "Either include it or remove the dependency array.",
+      "filename": "components/.lint-baseline-explorer.tsx",
+      "labels": [
+        {
+          "label": "useEffect uses `getJson` here",
+          "span": {
+            "offset": 18384,
+            "length": 7,
+            "line": 268,
+            "column": 10
+          }
+        },
+        {
+          "span": {
+            "offset": 18735,
+            "length": 38,
+            "line": 272,
+            "column": 6
+          }
+        }
+      ],
+      "related": []
+    },
+    {
+      "message": "React Hook useEffect has a missing dependency: 'getJson'",
+      "code": "react-hooks(exhaustive-deps)",
+      "severity": "error",
+      "causes": [],
+      "url": "https://oxc.rs/docs/guide/usage/linter/rules/react/exhaustive-deps.html",
+      "help": "Either include it or remove the dependency array.",
+      "filename": "components/.lint-baseline-explorer.tsx",
+      "labels": [
+        {
+          "label": "useEffect uses `getJson` here",
+          "span": {
+            "offset": 35761,
+            "length": 7,
+            "line": 417,
+            "column": 10
+          }
+        },
+        {
+          "span": {
+            "offset": 36096,
+            "length": 25,
+            "line": 423,
+            "column": 6
+          }
+        }
+      ],
+      "related": []
+    },
+    {
+      "message": "React Hook useEffect has a missing dependency: 'getJson'",
+      "code": "react-hooks(exhaustive-deps)",
+      "severity": "error",
+      "causes": [],
+      "url": "https://oxc.rs/docs/guide/usage/linter/rules/react/exhaustive-deps.html",
+      "help": "Either include it or remove the dependency array.",
+      "filename": "components/.lint-baseline-explorer.tsx",
+      "labels": [
+        {
+          "label": "useEffect uses `getJson` here",
+          "span": {
+            "offset": 39262,
+            "length": 7,
+            "line": 467,
+            "column": 12
+          }
+        },
+        {
+          "span": {
+            "offset": 39738,
+            "length": 29,
+            "line": 474,
+            "column": 6
+          }
+        }
+      ],
+      "related": []
+    },
+    {
+      "message": "React Hook useEffect has a missing dependency: 'getJson'",
+      "code": "react-hooks(exhaustive-deps)",
+      "severity": "error",
+      "causes": [],
+      "url": "https://oxc.rs/docs/guide/usage/linter/rules/react/exhaustive-deps.html",
+      "help": "Either include it or remove the dependency array.",
+      "filename": "components/.lint-baseline-explorer.tsx",
+      "labels": [
+        {
+          "label": "useEffect uses `getJson` here",
+          "span": {
+            "offset": 40051,
+            "length": 7,
+            "line": 479,
+            "column": 10
+          }
+        },
+        {
+          "span": {
+            "offset": 40398,
+            "length": 46,
+            "line": 483,
+            "column": 6
+          }
+        }
+      ],
+      "related": []
+    },
+    {
+      "message": "React Hook useMemo has missing dependencies: 'municipalityScope.municipality.name', 'municipalityScope.municipality.bounds', and 'municipalityScope'",
+      "code": "react-hooks(exhaustive-deps)",
+      "severity": "error",
+      "causes": [],
+      "url": "https://oxc.rs/docs/guide/usage/linter/rules/react/exhaustive-deps.html",
+      "help": "Either include it or remove the dependency array.",
+      "filename": "components/.lint-baseline-explorer.tsx",
+      "labels": [
+        {
+          "span": {
+            "offset": 62023,
+            "length": 30,
+            "line": 768,
+            "column": 79
+          }
+        },
+        {
+          "span": {
+            "offset": 61879,
+            "length": 31,
+            "line": 767,
+            "column": 27
+          }
+        },
+        {
+          "span": {
+            "offset": 61964,
+            "length": 17,
+            "line": 768,
+            "column": 20
+          }
+        },
+        {
+          "span": {
+            "offset": 62142,
+            "length": 22,
+            "line": 771,
+            "column": 5
+          }
+        }
+      ],
+      "related": []
+    },
+    {
+      "message": "React Hook useEffect has a missing dependency: 'getJson'",
+      "code": "react-hooks(exhaustive-deps)",
+      "severity": "error",
+      "causes": [],
+      "url": "https://oxc.rs/docs/guide/usage/linter/rules/react/exhaustive-deps.html",
+      "help": "Either include it or remove the dependency array.",
+      "filename": "components/.lint-baseline-explorer.tsx",
+      "labels": [
+        {
+          "label": "useEffect uses `getJson` here",
+          "span": {
+            "offset": 64575,
+            "length": 7,
+            "line": 813,
+            "column": 10
+          }
+        },
+        {
+          "span": {
+            "offset": 64759,
+            "length": 2,
+            "line": 820,
+            "column": 6
+          }
+        }
+      ],
+      "related": []
+    },
+    {
+      "message": "React Hook useEffect has a missing dependency: 'getJson'",
+      "code": "react-hooks(exhaustive-deps)",
+      "severity": "error",
+      "causes": [],
+      "url": "https://oxc.rs/docs/guide/usage/linter/rules/react/exhaustive-deps.html",
+      "help": "Either include it or remove the dependency array.",
+      "filename": "components/.lint-baseline-explorer.tsx",
+      "labels": [
+        {
+          "label": "useEffect uses `getJson` here",
+          "span": {
+            "offset": 64913,
+            "length": 7,
+            "line": 825,
+            "column": 5
+          }
+        },
+        {
+          "span": {
+            "offset": 65650,
+            "length": 9,
+            "line": 853,
+            "column": 6
+          }
+        }
+      ],
+      "related": []
+    },
+    {
+      "message": "React Hook useEffect has a missing dependency: 'getJson'",
+      "code": "react-hooks(exhaustive-deps)",
+      "severity": "error",
+      "causes": [],
+      "url": "https://oxc.rs/docs/guide/usage/linter/rules/react/exhaustive-deps.html",
+      "help": "Either include it or remove the dependency array.",
+      "filename": "components/.lint-baseline-explorer.tsx",
+      "labels": [
+        {
+          "label": "useEffect uses `getJson` here",
+          "span": {
+            "offset": 65926,
+            "length": 7,
+            "line": 858,
+            "column": 34
+          }
+        },
+        {
+          "span": {
+            "offset": 66267,
+            "length": 15,
+            "line": 863,
+            "column": 5
+          }
+        }
+      ],
+      "related": []
+    },
+    {
+      "message": "React Hook useEffect has a missing dependency: 'getJson'",
+      "code": "react-hooks(exhaustive-deps)",
+      "severity": "error",
+      "causes": [],
+      "url": "https://oxc.rs/docs/guide/usage/linter/rules/react/exhaustive-deps.html",
+      "help": "Either include it or remove the dependency array.",
+      "filename": "components/.lint-baseline-explorer.tsx",
+      "labels": [
+        {
+          "label": "useEffect uses `getJson` here",
+          "span": {
+            "offset": 66705,
+            "length": 7,
+            "line": 874,
+            "column": 12
+          }
+        },
+        {
+          "span": {
+            "offset": 67250,
+            "length": 17,
+            "line": 891,
+            "column": 6
+          }
+        }
+      ],
+      "related": []
+    },
+    {
+      "message": "React Hook useEffect has a missing dependency: 'getJson'",
+      "code": "react-hooks(exhaustive-deps)",
+      "severity": "error",
+      "causes": [],
+      "url": "https://oxc.rs/docs/guide/usage/linter/rules/react/exhaustive-deps.html",
+      "help": "Either include it or remove the dependency array.",
+      "filename": "components/.lint-baseline-explorer.tsx",
+      "labels": [
+        {
+          "label": "useEffect uses `getJson` here",
+          "span": {
+            "offset": 67514,
+            "length": 7,
+            "line": 899,
+            "column": 5
+          }
+        },
+        {
+          "span": {
+            "offset": 68101,
+            "length": 17,
+            "line": 919,
+            "column": 6
+          }
+        }
+      ],
+      "related": []
+    },
+    {
+      "message": "React Hook useEffect has a missing dependency: 'municipalityScope'",
+      "code": "react-hooks(exhaustive-deps)",
+      "severity": "error",
+      "causes": [],
+      "url": "https://oxc.rs/docs/guide/usage/linter/rules/react/exhaustive-deps.html",
+      "help": "Either include it or remove the dependency array.",
+      "filename": "components/.lint-baseline-explorer.tsx",
+      "labels": [
+        {
+          "label": "useEffect uses `municipalityScope` here",
+          "span": {
+            "offset": 68433,
+            "length": 17,
+            "line": 927,
+            "column": 50
+          }
+        },
+        {
+          "span": {
+            "offset": 68680,
+            "length": 59,
+            "line": 931,
+            "column": 6
+          }
+        }
+      ],
+      "related": []
+    },
+    {
+      "message": "React Hook useEffect has a missing dependency: 'getJson'",
+      "code": "react-hooks(exhaustive-deps)",
+      "severity": "error",
+      "causes": [],
+      "url": "https://oxc.rs/docs/guide/usage/linter/rules/react/exhaustive-deps.html",
+      "help": "Either include it or remove the dependency array.",
+      "filename": "components/.lint-baseline-explorer.tsx",
+      "labels": [
+        {
+          "label": "useEffect uses `getJson` here",
+          "span": {
+            "offset": 68945,
+            "length": 7,
+            "line": 937,
+            "column": 5
+          }
+        },
+        {
+          "span": {
+            "offset": 69446,
+            "length": 44,
+            "line": 954,
+            "column": 6
+          }
+        }
+      ],
+      "related": []
+    },
+    {
+      "message": "React Hook useEffect has a missing dependency: 'getJson'",
+      "code": "react-hooks(exhaustive-deps)",
+      "severity": "error",
+      "causes": [],
+      "url": "https://oxc.rs/docs/guide/usage/linter/rules/react/exhaustive-deps.html",
+      "help": "Either include it or remove the dependency array.",
+      "filename": "components/.lint-baseline-explorer.tsx",
+      "labels": [
+        {
+          "label": "useEffect uses `getJson` here",
+          "span": {
+            "offset": 69768,
+            "length": 7,
+            "line": 960,
+            "column": 5
+          }
+        },
+        {
+          "span": {
+            "offset": 70212,
+            "length": 68,
+            "line": 976,
+            "column": 6
+          }
+        }
+      ],
+      "related": []
+    },
+    {
+      "message": "React Hook useEffect has a missing dependency: 'getJson'",
+      "code": "react-hooks(exhaustive-deps)",
+      "severity": "error",
+      "causes": [],
+      "url": "https://oxc.rs/docs/guide/usage/linter/rules/react/exhaustive-deps.html",
+      "help": "Either include it or remove the dependency array.",
+      "filename": "components/.lint-baseline-explorer.tsx",
+      "labels": [
+        {
+          "label": "useEffect uses `getJson` here",
+          "span": {
+            "offset": 70470,
+            "length": 7,
+            "line": 982,
+            "column": 5
+          }
+        },
+        {
+          "span": {
+            "offset": 70830,
+            "length": 30,
+            "line": 995,
+            "column": 6
+          }
+        }
+      ],
+      "related": []
+    },
+    {
+      "message": "Do not use `<a>` elements to navigate between Next.js pages.",
+      "code": "next(no-html-link-for-pages)",
+      "severity": "error",
+      "causes": [],
+      "url": "https://oxc.rs/docs/guide/usage/linter/rules/nextjs/no-html-link-for-pages.html",
+      "help": "Use `<Link />` from `next/link` instead for internal navigation. See https://nextjs.org/docs/messages/no-html-link-for-pages",
+      "filename": "components/.lint-baseline-explorer.tsx",
+      "labels": [
+        {
+          "label": "Replace with `<Link>` from `next/link`",
+          "span": {
+            "offset": 81422,
+            "length": 44,
+            "line": 1188,
+            "column": 29
+          }
+        }
+      ],
+      "related": []
+    }
+  ],
+  "current": [
+    {
+      "message": "EffectSetState: Calling setState synchronously within an effect can trigger cascading renders",
+      "code": "react(react-compiler)",
+      "severity": "error",
+      "causes": [],
+      "url": "https://oxc.rs/docs/guide/usage/linter/rules/react/react-compiler.html",
+      "help": "Effects are intended to synchronize state between React and external systems such as manually updating the DOM, state management libraries, or other platform APIs. In general, the body of an effect should do one or both of the following:\n* Update external systems with the latest state from React.\n* Subscribe for updates from some external system, calling setState in a callback function when external state changes.\n\nCalling setState synchronously within an effect body causes cascading renders that can hurt performance, and is not recommended. (https://react.dev/learn/you-might-not-need-an-effect)",
+      "filename": "components/explorer.tsx",
+      "labels": [
+        {
+          "label": "Avoid calling setState() directly within an effect",
+          "span": {
+            "offset": 10712,
+            "length": 17,
+            "line": 185,
+            "column": 44
+          }
+        }
+      ],
+      "related": []
+    },
+    {
+      "message": "EffectSetState: Calling setState synchronously within an effect can trigger cascading renders",
+      "code": "react(react-compiler)",
+      "severity": "error",
+      "causes": [],
+      "url": "https://oxc.rs/docs/guide/usage/linter/rules/react/react-compiler.html",
+      "help": "Effects are intended to synchronize state between React and external systems such as manually updating the DOM, state management libraries, or other platform APIs. In general, the body of an effect should do one or both of the following:\n* Update external systems with the latest state from React.\n* Subscribe for updates from some external system, calling setState in a callback function when external state changes.\n\nCalling setState synchronously within an effect body causes cascading renders that can hurt performance, and is not recommended. (https://react.dev/learn/you-might-not-need-an-effect)",
+      "filename": "components/explorer.tsx",
+      "labels": [
+        {
+          "label": "Avoid calling setState() directly within an effect",
+          "span": {
+            "offset": 11748,
+            "length": 24,
+            "line": 194,
+            "column": 44
+          }
+        }
+      ],
+      "related": []
+    },
+    {
+      "message": "EffectSetState: Calling setState synchronously within an effect can trigger cascading renders",
+      "code": "react(react-compiler)",
+      "severity": "error",
+      "causes": [],
+      "url": "https://oxc.rs/docs/guide/usage/linter/rules/react/react-compiler.html",
+      "help": "Effects are intended to synchronize state between React and external systems such as manually updating the DOM, state management libraries, or other platform APIs. In general, the body of an effect should do one or both of the following:\n* Update external systems with the latest state from React.\n* Subscribe for updates from some external system, calling setState in a callback function when external state changes.\n\nCalling setState synchronously within an effect body causes cascading renders that can hurt performance, and is not recommended. (https://react.dev/learn/you-might-not-need-an-effect)",
+      "filename": "components/explorer.tsx",
+      "labels": [
+        {
+          "label": "Avoid calling setState() directly within an effect",
+          "span": {
+            "offset": 14188,
+            "length": 14,
+            "line": 211,
+            "column": 110
+          }
+        }
+      ],
+      "related": []
+    },
+    {
+      "message": "EffectSetState: Calling setState synchronously within an effect can trigger cascading renders",
+      "code": "react(react-compiler)",
+      "severity": "error",
+      "causes": [],
+      "url": "https://oxc.rs/docs/guide/usage/linter/rules/react/react-compiler.html",
+      "help": "Effects are intended to synchronize state between React and external systems such as manually updating the DOM, state management libraries, or other platform APIs. In general, the body of an effect should do one or both of the following:\n* Update external systems with the latest state from React.\n* Subscribe for updates from some external system, calling setState in a callback function when external state changes.\n\nCalling setState synchronously within an effect body causes cascading renders that can hurt performance, and is not recommended. (https://react.dev/learn/you-might-not-need-an-effect)",
+      "filename": "components/explorer.tsx",
+      "labels": [
+        {
+          "label": "Avoid calling setState() directly within an effect",
+          "span": {
+            "offset": 15202,
+            "length": 17,
+            "line": 222,
+            "column": 5
+          }
+        }
+      ],
+      "related": []
+    },
+    {
+      "message": "EffectSetState: Calling setState synchronously within an effect can trigger cascading renders",
+      "code": "react(react-compiler)",
+      "severity": "error",
+      "causes": [],
+      "url": "https://oxc.rs/docs/guide/usage/linter/rules/react/react-compiler.html",
+      "help": "Effects are intended to synchronize state between React and external systems such as manually updating the DOM, state management libraries, or other platform APIs. In general, the body of an effect should do one or both of the following:\n* Update external systems with the latest state from React.\n* Subscribe for updates from some external system, calling setState in a callback function when external state changes.\n\nCalling setState synchronously within an effect body causes cascading renders that can hurt performance, and is not recommended. (https://react.dev/learn/you-might-not-need-an-effect)",
+      "filename": "components/explorer.tsx",
+      "labels": [
+        {
+          "label": "Avoid calling setState() directly within an effect",
+          "span": {
+            "offset": 17015,
+            "length": 15,
+            "line": 246,
+            "column": 44
+          }
+        }
+      ],
+      "related": []
+    },
+    {
+      "message": "EffectSetState: Calling setState synchronously within an effect can trigger cascading renders",
+      "code": "react(react-compiler)",
+      "severity": "error",
+      "causes": [],
+      "url": "https://oxc.rs/docs/guide/usage/linter/rules/react/react-compiler.html",
+      "help": "Effects are intended to synchronize state between React and external systems such as manually updating the DOM, state management libraries, or other platform APIs. In general, the body of an effect should do one or both of the following:\n* Update external systems with the latest state from React.\n* Subscribe for updates from some external system, calling setState in a callback function when external state changes.\n\nCalling setState synchronously within an effect body causes cascading renders that can hurt performance, and is not recommended. (https://react.dev/learn/you-might-not-need-an-effect)",
+      "filename": "components/explorer.tsx",
+      "labels": [
+        {
+          "label": "Avoid calling setState() directly within an effect",
+          "span": {
+            "offset": 18837,
+            "length": 14,
+            "line": 266,
+            "column": 44
+          }
+        }
+      ],
+      "related": []
+    },
+    {
+      "message": "EffectSetState: Calling setState synchronously within an effect can trigger cascading renders",
+      "code": "react(react-compiler)",
+      "severity": "error",
+      "causes": [],
+      "url": "https://oxc.rs/docs/guide/usage/linter/rules/react/react-compiler.html",
+      "help": "Effects are intended to synchronize state between React and external systems such as manually updating the DOM, state management libraries, or other platform APIs. In general, the body of an effect should do one or both of the following:\n* Update external systems with the latest state from React.\n* Subscribe for updates from some external system, calling setState in a callback function when external state changes.\n\nCalling setState synchronously within an effect body causes cascading renders that can hurt performance, and is not recommended. (https://react.dev/learn/you-might-not-need-an-effect)",
+      "filename": "components/explorer.tsx",
+      "labels": [
+        {
+          "label": "Avoid calling setState() directly within an effect",
+          "span": {
+            "offset": 19334,
+            "length": 18,
+            "line": 273,
+            "column": 5
+          }
+        }
+      ],
+      "related": []
+    },
+    {
+      "message": "EffectSetState: Calling setState synchronously within an effect can trigger cascading renders",
+      "code": "react(react-compiler)",
+      "severity": "error",
+      "causes": [],
+      "url": "https://oxc.rs/docs/guide/usage/linter/rules/react/react-compiler.html",
+      "help": "Effects are intended to synchronize state between React and external systems such as manually updating the DOM, state management libraries, or other platform APIs. In general, the body of an effect should do one or both of the following:\n* Update external systems with the latest state from React.\n* Subscribe for updates from some external system, calling setState in a callback function when external state changes.\n\nCalling setState synchronously within an effect body causes cascading renders that can hurt performance, and is not recommended. (https://react.dev/learn/you-might-not-need-an-effect)",
+      "filename": "components/explorer.tsx",
+      "labels": [
+        {
+          "label": "Avoid calling setState() directly within an effect",
+          "span": {
+            "offset": 22912,
+            "length": 22,
+            "line": 309,
+            "column": 121
+          }
+        }
+      ],
+      "related": []
+    },
+    {
+      "message": "EffectSetState: Calling setState synchronously within an effect can trigger cascading renders",
+      "code": "react(react-compiler)",
+      "severity": "error",
+      "causes": [],
+      "url": "https://oxc.rs/docs/guide/usage/linter/rules/react/react-compiler.html",
+      "help": "Effects are intended to synchronize state between React and external systems such as manually updating the DOM, state management libraries, or other platform APIs. In general, the body of an effect should do one or both of the following:\n* Update external systems with the latest state from React.\n* Subscribe for updates from some external system, calling setState in a callback function when external state changes.\n\nCalling setState synchronously within an effect body causes cascading renders that can hurt performance, and is not recommended. (https://react.dev/learn/you-might-not-need-an-effect)",
+      "filename": "components/explorer.tsx",
+      "labels": [
+        {
+          "label": "Avoid calling setState() directly within an effect",
+          "span": {
+            "offset": 26858,
+            "length": 20,
+            "line": 334,
+            "column": 59
+          }
+        }
+      ],
+      "related": []
+    },
+    {
+      "message": "EffectSetState: Calling setState synchronously within an effect can trigger cascading renders",
+      "code": "react(react-compiler)",
+      "severity": "error",
+      "causes": [],
+      "url": "https://oxc.rs/docs/guide/usage/linter/rules/react/react-compiler.html",
+      "help": "Effects are intended to synchronize state between React and external systems such as manually updating the DOM, state management libraries, or other platform APIs. In general, the body of an effect should do one or both of the following:\n* Update external systems with the latest state from React.\n* Subscribe for updates from some external system, calling setState in a callback function when external state changes.\n\nCalling setState synchronously within an effect body causes cascading renders that can hurt performance, and is not recommended. (https://react.dev/learn/you-might-not-need-an-effect)",
+      "filename": "components/explorer.tsx",
+      "labels": [
+        {
+          "label": "Avoid calling setState() directly within an effect",
+          "span": {
+            "offset": 29392,
+            "length": 26,
+            "line": 350,
+            "column": 113
+          }
+        }
+      ],
+      "related": []
+    },
+    {
+      "message": "EffectSetState: Calling setState synchronously within an effect can trigger cascading renders",
+      "code": "react(react-compiler)",
+      "severity": "error",
+      "causes": [],
+      "url": "https://oxc.rs/docs/guide/usage/linter/rules/react/react-compiler.html",
+      "help": "Effects are intended to synchronize state between React and external systems such as manually updating the DOM, state management libraries, or other platform APIs. In general, the body of an effect should do one or both of the following:\n* Update external systems with the latest state from React.\n* Subscribe for updates from some external system, calling setState in a callback function when external state changes.\n\nCalling setState synchronously within an effect body causes cascading renders that can hurt performance, and is not recommended. (https://react.dev/learn/you-might-not-need-an-effect)",
+      "filename": "components/explorer.tsx",
+      "labels": [
+        {
+          "label": "Avoid calling setState() directly within an effect",
+          "span": {
+            "offset": 32763,
+            "length": 19,
+            "line": 371,
+            "column": 5
+          }
+        }
+      ],
+      "related": []
+    },
+    {
+      "message": "EffectSetState: Calling setState synchronously within an effect can trigger cascading renders",
+      "code": "react(react-compiler)",
+      "severity": "error",
+      "causes": [],
+      "url": "https://oxc.rs/docs/guide/usage/linter/rules/react/react-compiler.html",
+      "help": "Effects are intended to synchronize state between React and external systems such as manually updating the DOM, state management libraries, or other platform APIs. In general, the body of an effect should do one or both of the following:\n* Update external systems with the latest state from React.\n* Subscribe for updates from some external system, calling setState in a callback function when external state changes.\n\nCalling setState synchronously within an effect body causes cascading renders that can hurt performance, and is not recommended. (https://react.dev/learn/you-might-not-need-an-effect)",
+      "filename": "components/explorer.tsx",
+      "labels": [
+        {
+          "label": "Avoid calling setState() directly within an effect",
+          "span": {
+            "offset": 34551,
+            "length": 16,
+            "line": 391,
+            "column": 48
+          }
+        }
+      ],
+      "related": []
+    },
+    {
+      "message": "EffectSetState: Calling setState synchronously within an effect can trigger cascading renders",
+      "code": "react(react-compiler)",
+      "severity": "error",
+      "causes": [],
+      "url": "https://oxc.rs/docs/guide/usage/linter/rules/react/react-compiler.html",
+      "help": "Effects are intended to synchronize state between React and external systems such as manually updating the DOM, state management libraries, or other platform APIs. In general, the body of an effect should do one or both of the following:\n* Update external systems with the latest state from React.\n* Subscribe for updates from some external system, calling setState in a callback function when external state changes.\n\nCalling setState synchronously within an effect body causes cascading renders that can hurt performance, and is not recommended. (https://react.dev/learn/you-might-not-need-an-effect)",
+      "filename": "components/explorer.tsx",
+      "labels": [
+        {
+          "label": "Avoid calling setState() directly within an effect",
+          "span": {
+            "offset": 37330,
+            "length": 14,
+            "line": 424,
+            "column": 5
+          }
+        }
+      ],
+      "related": []
+    },
+    {
+      "message": "EffectSetState: Calling setState synchronously within an effect can trigger cascading renders",
+      "code": "react(react-compiler)",
+      "severity": "error",
+      "causes": [],
+      "url": "https://oxc.rs/docs/guide/usage/linter/rules/react/react-compiler.html",
+      "help": "Effects are intended to synchronize state between React and external systems such as manually updating the DOM, state management libraries, or other platform APIs. In general, the body of an effect should do one or both of the following:\n* Update external systems with the latest state from React.\n* Subscribe for updates from some external system, calling setState in a callback function when external state changes.\n\nCalling setState synchronously within an effect body causes cascading renders that can hurt performance, and is not recommended. (https://react.dev/learn/you-might-not-need-an-effect)",
+      "filename": "components/explorer.tsx",
+      "labels": [
+        {
+          "label": "Avoid calling setState() directly within an effect",
+          "span": {
+            "offset": 40832,
+            "length": 24,
+            "line": 474,
+            "column": 7
+          }
+        }
+      ],
+      "related": []
+    },
+    {
+      "message": "EffectSetState: Calling setState synchronously within an effect can trigger cascading renders",
+      "code": "react(react-compiler)",
+      "severity": "error",
+      "causes": [],
+      "url": "https://oxc.rs/docs/guide/usage/linter/rules/react/react-compiler.html",
+      "help": "Effects are intended to synchronize state between React and external systems such as manually updating the DOM, state management libraries, or other platform APIs. In general, the body of an effect should do one or both of the following:\n* Update external systems with the latest state from React.\n* Subscribe for updates from some external system, calling setState in a callback function when external state changes.\n\nCalling setState synchronously within an effect body causes cascading renders that can hurt performance, and is not recommended. (https://react.dev/learn/you-might-not-need-an-effect)",
+      "filename": "components/explorer.tsx",
+      "labels": [
+        {
+          "label": "Avoid calling setState() directly within an effect",
+          "span": {
+            "offset": 41679,
+            "length": 17,
+            "line": 486,
+            "column": 47
+          }
+        }
+      ],
+      "related": []
+    },
+    {
+      "message": "EffectSetState: Calling setState synchronously within an effect can trigger cascading renders",
+      "code": "react(react-compiler)",
+      "severity": "error",
+      "causes": [],
+      "url": "https://oxc.rs/docs/guide/usage/linter/rules/react/react-compiler.html",
+      "help": "Effects are intended to synchronize state between React and external systems such as manually updating the DOM, state management libraries, or other platform APIs. In general, the body of an effect should do one or both of the following:\n* Update external systems with the latest state from React.\n* Subscribe for updates from some external system, calling setState in a callback function when external state changes.\n\nCalling setState synchronously within an effect body causes cascading renders that can hurt performance, and is not recommended. (https://react.dev/learn/you-might-not-need-an-effect)",
+      "filename": "components/explorer.tsx",
+      "labels": [
+        {
+          "label": "Avoid calling setState() directly within an effect",
+          "span": {
+            "offset": 43007,
+            "length": 14,
+            "line": 496,
+            "column": 103
+          }
+        }
+      ],
+      "related": []
+    },
+    {
+      "message": "EffectSetState: Calling setState synchronously within an effect can trigger cascading renders",
+      "code": "react(react-compiler)",
+      "severity": "error",
+      "causes": [],
+      "url": "https://oxc.rs/docs/guide/usage/linter/rules/react/react-compiler.html",
+      "help": "Effects are intended to synchronize state between React and external systems such as manually updating the DOM, state management libraries, or other platform APIs. In general, the body of an effect should do one or both of the following:\n* Update external systems with the latest state from React.\n* Subscribe for updates from some external system, calling setState in a callback function when external state changes.\n\nCalling setState synchronously within an effect body causes cascading renders that can hurt performance, and is not recommended. (https://react.dev/learn/you-might-not-need-an-effect)",
+      "filename": "components/explorer.tsx",
+      "labels": [
+        {
+          "label": "Avoid calling setState() directly within an effect",
+          "span": {
+            "offset": 43834,
+            "length": 12,
+            "line": 504,
+            "column": 88
+          }
+        }
+      ],
+      "related": []
+    },
+    {
+      "message": "EffectSetState: Calling setState synchronously within an effect can trigger cascading renders",
+      "code": "react(react-compiler)",
+      "severity": "error",
+      "causes": [],
+      "url": "https://oxc.rs/docs/guide/usage/linter/rules/react/react-compiler.html",
+      "help": "Effects are intended to synchronize state between React and external systems such as manually updating the DOM, state management libraries, or other platform APIs. In general, the body of an effect should do one or both of the following:\n* Update external systems with the latest state from React.\n* Subscribe for updates from some external system, calling setState in a callback function when external state changes.\n\nCalling setState synchronously within an effect body causes cascading renders that can hurt performance, and is not recommended. (https://react.dev/learn/you-might-not-need-an-effect)",
+      "filename": "components/explorer.tsx",
+      "labels": [
+        {
+          "label": "Avoid calling setState() directly within an effect",
+          "span": {
+            "offset": 52368,
+            "length": 18,
+            "line": 572,
+            "column": 61
+          }
+        }
+      ],
+      "related": []
+    },
+    {
+      "message": "EffectSetState: Calling setState synchronously within an effect can trigger cascading renders",
+      "code": "react(react-compiler)",
+      "severity": "error",
+      "causes": [],
+      "url": "https://oxc.rs/docs/guide/usage/linter/rules/react/react-compiler.html",
+      "help": "Effects are intended to synchronize state between React and external systems such as manually updating the DOM, state management libraries, or other platform APIs. In general, the body of an effect should do one or both of the following:\n* Update external systems with the latest state from React.\n* Subscribe for updates from some external system, calling setState in a callback function when external state changes.\n\nCalling setState synchronously within an effect body causes cascading renders that can hurt performance, and is not recommended. (https://react.dev/learn/you-might-not-need-an-effect)",
+      "filename": "components/explorer.tsx",
+      "labels": [
+        {
+          "label": "Avoid calling setState() directly within an effect",
+          "span": {
+            "offset": 60196,
+            "length": 23,
+            "line": 727,
+            "column": 283
+          }
+        }
+      ],
+      "related": []
+    },
+    {
+      "message": "EffectSetState: Calling setState synchronously within an effect can trigger cascading renders",
+      "code": "react(react-compiler)",
+      "severity": "error",
+      "causes": [],
+      "url": "https://oxc.rs/docs/guide/usage/linter/rules/react/react-compiler.html",
+      "help": "Effects are intended to synchronize state between React and external systems such as manually updating the DOM, state management libraries, or other platform APIs. In general, the body of an effect should do one or both of the following:\n* Update external systems with the latest state from React.\n* Subscribe for updates from some external system, calling setState in a callback function when external state changes.\n\nCalling setState synchronously within an effect body causes cascading renders that can hurt performance, and is not recommended. (https://react.dev/learn/you-might-not-need-an-effect)",
+      "filename": "components/explorer.tsx",
+      "labels": [
+        {
+          "label": "Avoid calling setState() directly within an effect",
+          "span": {
+            "offset": 69504,
+            "length": 19,
+            "line": 904,
+            "column": 5
+          }
+        }
+      ],
+      "related": []
+    },
+    {
+      "message": "EffectSetState: Calling setState synchronously within an effect can trigger cascading renders",
+      "code": "react(react-compiler)",
+      "severity": "error",
+      "causes": [],
+      "url": "https://oxc.rs/docs/guide/usage/linter/rules/react/react-compiler.html",
+      "help": "Effects are intended to synchronize state between React and external systems such as manually updating the DOM, state management libraries, or other platform APIs. In general, the body of an effect should do one or both of the following:\n* Update external systems with the latest state from React.\n* Subscribe for updates from some external system, calling setState in a callback function when external state changes.\n\nCalling setState synchronously within an effect body causes cascading renders that can hurt performance, and is not recommended. (https://react.dev/learn/you-might-not-need-an-effect)",
+      "filename": "components/explorer.tsx",
+      "labels": [
+        {
+          "label": "Avoid calling setState() directly within an effect",
+          "span": {
+            "offset": 70331,
+            "length": 18,
+            "line": 931,
+            "column": 5
+          }
+        }
+      ],
+      "related": []
+    },
+    {
+      "message": "Refs: Cannot access refs during render",
+      "code": "react(react-compiler)",
+      "severity": "error",
+      "causes": [],
+      "url": "https://oxc.rs/docs/guide/usage/linter/rules/react/react-compiler.html",
+      "help": "React refs are values that are not needed for rendering. Refs should only be accessed outside of render, such as in event handlers or effects. Accessing a ref value (the `current` property) during render can cause your component not to update as expected (https://react.dev/reference/react/useRef)",
+      "filename": "components/explorer.tsx",
+      "labels": [
+        {
+          "label": "Passing a ref to a function may read its value during render",
+          "span": {
+            "offset": 46261,
+            "length": 23,
+            "line": 523,
+            "column": 91
+          }
+        }
+      ],
+      "related": []
+    },
+    {
+      "message": "Refs: Cannot access refs during render",
+      "code": "react(react-compiler)",
+      "severity": "error",
+      "causes": [],
+      "url": "https://oxc.rs/docs/guide/usage/linter/rules/react/react-compiler.html",
+      "help": "React refs are values that are not needed for rendering. Refs should only be accessed outside of render, such as in event handlers or effects. Accessing a ref value (the `current` property) during render can cause your component not to update as expected (https://react.dev/reference/react/useRef)",
+      "filename": "components/explorer.tsx",
+      "labels": [
+        {
+          "label": "Passing a ref to a function may read its value during render",
+          "span": {
+            "offset": 46261,
+            "length": 27,
+            "line": 523,
+            "column": 91
+          }
+        }
+      ],
+      "related": []
+    },
+    {
+      "message": "Refs: Cannot access refs during render",
+      "code": "react(react-compiler)",
+      "severity": "error",
+      "causes": [],
+      "url": "https://oxc.rs/docs/guide/usage/linter/rules/react/react-compiler.html",
+      "help": "React refs are values that are not needed for rendering. Refs should only be accessed outside of render, such as in event handlers or effects. Accessing a ref value (the `current` property) during render can cause your component not to update as expected (https://react.dev/reference/react/useRef)",
+      "filename": "components/explorer.tsx",
+      "labels": [
+        {
+          "label": "Passing a ref to a function may read its value during render",
+          "span": {
+            "offset": 50559,
+            "length": 30,
+            "line": 563,
+            "column": 139
+          }
+        }
+      ],
+      "related": []
+    },
+    {
+      "message": "Refs: Cannot access refs during render",
+      "code": "react(react-compiler)",
+      "severity": "error",
+      "causes": [],
+      "url": "https://oxc.rs/docs/guide/usage/linter/rules/react/react-compiler.html",
+      "help": "React refs are values that are not needed for rendering. Refs should only be accessed outside of render, such as in event handlers or effects. Accessing a ref value (the `current` property) during render can cause your component not to update as expected (https://react.dev/reference/react/useRef)",
+      "filename": "components/explorer.tsx",
+      "labels": [
+        {
+          "label": "Passing a ref to a function may read its value during render",
+          "span": {
+            "offset": 50559,
+            "length": 34,
+            "line": 563,
+            "column": 139
+          }
+        }
+      ],
+      "related": []
+    },
+    {
+      "message": "MemoDependencies: Found missing memoization dependencies",
+      "code": "react(react-compiler)",
+      "severity": "error",
+      "causes": [],
+      "url": "https://oxc.rs/docs/guide/usage/linter/rules/react/react-compiler.html",
+      "help": "Missing dependencies can cause a value to update less often than it should, resulting in stale UI",
+      "filename": "components/explorer.tsx",
+      "labels": [
+        {
+          "label": "Missing dependency `municipalityScope`",
+          "span": {
+            "offset": 63921,
+            "length": 17,
+            "line": 776,
+            "column": 20
+          }
+        }
+      ],
+      "related": []
+    },
+    {
+      "message": "PreserveManualMemo: Existing memoization could not be preserved",
+      "code": "react(react-compiler)",
+      "severity": "error",
+      "causes": [],
+      "url": "https://oxc.rs/docs/guide/usage/linter/rules/react/react-compiler.html",
+      "help": "React Compiler has skipped optimizing this component because the existing manual memoization could not be preserved. The inferred dependencies did not match the manually specified dependencies, which could cause the value to change more or less frequently than expected. The inferred dependency was `chapterSatellites.current?.releaseNum`, but the source dependencies were [coastalChapter, photoLocation, imageYear, coastalResultView, chapterSatellites.current]. Differences in ref.current access",
+      "filename": "components/explorer.tsx",
+      "labels": [
+        {
+          "label": "Could not preserve existing manual memoization",
+          "span": {
+            "offset": 26137,
+            "length": 555,
+            "line": 328,
+            "column": 40
+          }
+        }
+      ],
+      "related": []
+    },
+    {
+      "message": "React Hook useEffect has missing dependencies: 'municipalityScope', 'municipalityScope.model', and 'municipalityScope.municipality.name'",
+      "code": "react-hooks(exhaustive-deps)",
+      "severity": "error",
+      "causes": [],
+      "url": "https://oxc.rs/docs/guide/usage/linter/rules/react/exhaustive-deps.html",
+      "help": "Either include it or remove the dependency array.",
+      "filename": "components/explorer.tsx",
+      "labels": [
+        {
+          "span": {
+            "offset": 10849,
+            "length": 17,
+            "line": 187,
+            "column": 11
+          }
+        },
+        {
+          "span": {
+            "offset": 10887,
+            "length": 17,
+            "line": 187,
+            "column": 49
+          }
+        },
+        {
+          "span": {
+            "offset": 11208,
+            "length": 30,
+            "line": 188,
+            "column": 71
+          }
+        },
+        {
+          "span": {
+            "offset": 11596,
+            "length": 38,
+            "line": 191,
+            "column": 5
+          }
+        }
+      ],
+      "related": []
+    },
+    {
+      "message": "React Hook useEffect has missing dependencies: 'municipalityScope', 'municipalityScope.photos', and 'municipalityScope.original_photo_sha256'",
+      "code": "react-hooks(exhaustive-deps)",
+      "severity": "error",
+      "causes": [],
+      "url": "https://oxc.rs/docs/guide/usage/linter/rules/react/exhaustive-deps.html",
+      "help": "Either include it or remove the dependency array.",
+      "filename": "components/explorer.tsx",
+      "labels": [
+        {
+          "span": {
+            "offset": 11899,
+            "length": 17,
+            "line": 196,
+            "column": 11
+          }
+        },
+        {
+          "span": {
+            "offset": 11937,
+            "length": 17,
+            "line": 196,
+            "column": 49
+          }
+        },
+        {
+          "span": {
+            "offset": 12311,
+            "length": 17,
+            "line": 196,
+            "column": 423
+          }
+        },
+        {
+          "span": {
+            "offset": 13222,
+            "length": 57,
+            "line": 201,
+            "column": 5
+          }
+        }
+      ],
+      "related": []
+    },
+    {
+      "message": "React Hook useEffect has a missing dependency: 'getJson'",
+      "code": "react-hooks(exhaustive-deps)",
+      "severity": "error",
+      "causes": [],
+      "url": "https://oxc.rs/docs/guide/usage/linter/rules/react/exhaustive-deps.html",
+      "help": "Either include it or remove the dependency array.",
+      "filename": "components/explorer.tsx",
+      "labels": [
+        {
+          "label": "useEffect uses `getJson` here",
+          "span": {
+            "offset": 14234,
+            "length": 7,
+            "line": 212,
+            "column": 5
+          }
+        },
+        {
+          "span": {
+            "offset": 14883,
+            "length": 39,
+            "line": 216,
+            "column": 287
+          }
+        }
+      ],
+      "related": []
+    },
+    {
+      "message": "React Hook useEffect has a missing dependency: 'getJson'",
+      "code": "react-hooks(exhaustive-deps)",
+      "severity": "error",
+      "causes": [],
+      "url": "https://oxc.rs/docs/guide/usage/linter/rules/react/exhaustive-deps.html",
+      "help": "Either include it or remove the dependency array.",
+      "filename": "components/explorer.tsx",
+      "labels": [
+        {
+          "label": "useEffect uses `getJson` here",
+          "span": {
+            "offset": 15242,
+            "length": 7,
+            "line": 223,
+            "column": 10
+          }
+        },
+        {
+          "span": {
+            "offset": 16110,
+            "length": 9,
+            "line": 229,
+            "column": 6
+          }
+        }
+      ],
+      "related": []
+    },
+    {
+      "message": "React Hook useEffect has a missing dependency: 'getJson'",
+      "code": "react-hooks(exhaustive-deps)",
+      "severity": "error",
+      "causes": [],
+      "url": "https://oxc.rs/docs/guide/usage/linter/rules/react/exhaustive-deps.html",
+      "help": "Either include it or remove the dependency array.",
+      "filename": "components/explorer.tsx",
+      "labels": [
+        {
+          "label": "useEffect uses `getJson` here",
+          "span": {
+            "offset": 16475,
+            "length": 7,
+            "line": 236,
+            "column": 10
+          }
+        },
+        {
+          "span": {
+            "offset": 16715,
+            "length": 2,
+            "line": 240,
+            "column": 6
+          }
+        }
+      ],
+      "related": []
+    },
+    {
+      "message": "React Hook useEffect has a missing dependency: 'getJson'",
+      "code": "react-hooks(exhaustive-deps)",
+      "severity": "error",
+      "causes": [],
+      "url": "https://oxc.rs/docs/guide/usage/linter/rules/react/exhaustive-deps.html",
+      "help": "Either include it or remove the dependency array.",
+      "filename": "components/explorer.tsx",
+      "labels": [
+        {
+          "label": "useEffect uses `getJson` here",
+          "span": {
+            "offset": 17053,
+            "length": 7,
+            "line": 247,
+            "column": 10
+          }
+        },
+        {
+          "span": {
+            "offset": 17912,
+            "length": 23,
+            "line": 253,
+            "column": 5
+          }
+        }
+      ],
+      "related": []
+    },
+    {
+      "message": "React Hook useEffect has a missing dependency: 'getJson'",
+      "code": "react-hooks(exhaustive-deps)",
+      "severity": "error",
+      "causes": [],
+      "url": "https://oxc.rs/docs/guide/usage/linter/rules/react/exhaustive-deps.html",
+      "help": "Either include it or remove the dependency array.",
+      "filename": "components/explorer.tsx",
+      "labels": [
+        {
+          "label": "useEffect uses `getJson` here",
+          "span": {
+            "offset": 18874,
+            "length": 7,
+            "line": 267,
+            "column": 10
+          }
+        },
+        {
+          "span": {
+            "offset": 19175,
+            "length": 38,
+            "line": 269,
+            "column": 5
+          }
+        }
+      ],
+      "related": []
+    },
+    {
+      "message": "React Hook useEffect has a missing dependency: 'getJson'",
+      "code": "react-hooks(exhaustive-deps)",
+      "severity": "error",
+      "causes": [],
+      "url": "https://oxc.rs/docs/guide/usage/linter/rules/react/exhaustive-deps.html",
+      "help": "Either include it or remove the dependency array.",
+      "filename": "components/explorer.tsx",
+      "labels": [
+        {
+          "label": "useEffect uses `getJson` here",
+          "span": {
+            "offset": 19375,
+            "length": 7,
+            "line": 274,
+            "column": 10
+          }
+        },
+        {
+          "span": {
+            "offset": 19730,
+            "length": 38,
+            "line": 278,
+            "column": 6
+          }
+        }
+      ],
+      "related": []
+    },
+    {
+      "message": "React Hook useEffect has a missing dependency: 'getJson'",
+      "code": "react-hooks(exhaustive-deps)",
+      "severity": "error",
+      "causes": [],
+      "url": "https://oxc.rs/docs/guide/usage/linter/rules/react/exhaustive-deps.html",
+      "help": "Either include it or remove the dependency array.",
+      "filename": "components/explorer.tsx",
+      "labels": [
+        {
+          "label": "useEffect uses `getJson` here",
+          "span": {
+            "offset": 37367,
+            "length": 7,
+            "line": 425,
+            "column": 10
+          }
+        },
+        {
+          "span": {
+            "offset": 37708,
+            "length": 25,
+            "line": 431,
+            "column": 6
+          }
+        }
+      ],
+      "related": []
+    },
+    {
+      "message": "React Hook useEffect has a missing dependency: 'getJson'",
+      "code": "react-hooks(exhaustive-deps)",
+      "severity": "error",
+      "causes": [],
+      "url": "https://oxc.rs/docs/guide/usage/linter/rules/react/exhaustive-deps.html",
+      "help": "Either include it or remove the dependency array.",
+      "filename": "components/explorer.tsx",
+      "labels": [
+        {
+          "label": "useEffect uses `getJson` here",
+          "span": {
+            "offset": 40918,
+            "length": 7,
+            "line": 475,
+            "column": 12
+          }
+        },
+        {
+          "span": {
+            "offset": 41401,
+            "length": 29,
+            "line": 482,
+            "column": 6
+          }
+        }
+      ],
+      "related": []
+    },
+    {
+      "message": "React Hook useEffect has a missing dependency: 'getJson'",
+      "code": "react-hooks(exhaustive-deps)",
+      "severity": "error",
+      "causes": [],
+      "url": "https://oxc.rs/docs/guide/usage/linter/rules/react/exhaustive-deps.html",
+      "help": "Either include it or remove the dependency array.",
+      "filename": "components/explorer.tsx",
+      "labels": [
+        {
+          "label": "useEffect uses `getJson` here",
+          "span": {
+            "offset": 41719,
+            "length": 7,
+            "line": 487,
+            "column": 10
+          }
+        },
+        {
+          "span": {
+            "offset": 42070,
+            "length": 46,
+            "line": 491,
+            "column": 6
+          }
+        }
+      ],
+      "related": []
+    },
+    {
+      "message": "React Hook useMemo has missing dependencies: 'municipalityScope', 'municipalityScope.municipality.name', and 'municipalityScope.municipality.bounds'",
+      "code": "react-hooks(exhaustive-deps)",
+      "severity": "error",
+      "causes": [],
+      "url": "https://oxc.rs/docs/guide/usage/linter/rules/react/exhaustive-deps.html",
+      "help": "Either include it or remove the dependency array.",
+      "filename": "components/explorer.tsx",
+      "labels": [
+        {
+          "span": {
+            "offset": 63921,
+            "length": 17,
+            "line": 776,
+            "column": 20
+          }
+        },
+        {
+          "span": {
+            "offset": 63980,
+            "length": 30,
+            "line": 776,
+            "column": 79
+          }
+        },
+        {
+          "span": {
+            "offset": 63835,
+            "length": 31,
+            "line": 775,
+            "column": 27
+          }
+        },
+        {
+          "span": {
+            "offset": 64102,
+            "length": 22,
+            "line": 779,
+            "column": 5
+          }
+        }
+      ],
+      "related": []
+    },
+    {
+      "message": "React Hook useEffect has a missing dependency: 'getJson'",
+      "code": "react-hooks(exhaustive-deps)",
+      "severity": "error",
+      "causes": [],
+      "url": "https://oxc.rs/docs/guide/usage/linter/rules/react/exhaustive-deps.html",
+      "help": "Either include it or remove the dependency array.",
+      "filename": "components/explorer.tsx",
+      "labels": [
+        {
+          "label": "useEffect uses `getJson` here",
+          "span": {
+            "offset": 66577,
+            "length": 7,
+            "line": 821,
+            "column": 10
+          }
+        },
+        {
+          "span": {
+            "offset": 66768,
+            "length": 2,
+            "line": 828,
+            "column": 6
+          }
+        }
+      ],
+      "related": []
+    },
+    {
+      "message": "React Hook useEffect has a missing dependency: 'getJson'",
+      "code": "react-hooks(exhaustive-deps)",
+      "severity": "error",
+      "causes": [],
+      "url": "https://oxc.rs/docs/guide/usage/linter/rules/react/exhaustive-deps.html",
+      "help": "Either include it or remove the dependency array.",
+      "filename": "components/explorer.tsx",
+      "labels": [
+        {
+          "label": "useEffect uses `getJson` here",
+          "span": {
+            "offset": 66927,
+            "length": 7,
+            "line": 833,
+            "column": 5
+          }
+        },
+        {
+          "span": {
+            "offset": 67692,
+            "length": 9,
+            "line": 861,
+            "column": 6
+          }
+        }
+      ],
+      "related": []
+    },
+    {
+      "message": "React Hook useEffect has a missing dependency: 'getJson'",
+      "code": "react-hooks(exhaustive-deps)",
+      "severity": "error",
+      "causes": [],
+      "url": "https://oxc.rs/docs/guide/usage/linter/rules/react/exhaustive-deps.html",
+      "help": "Either include it or remove the dependency array.",
+      "filename": "components/explorer.tsx",
+      "labels": [
+        {
+          "label": "useEffect uses `getJson` here",
+          "span": {
+            "offset": 67973,
+            "length": 7,
+            "line": 866,
+            "column": 34
+          }
+        },
+        {
+          "span": {
+            "offset": 68319,
+            "length": 15,
+            "line": 871,
+            "column": 5
+          }
+        }
+      ],
+      "related": []
+    },
+    {
+      "message": "React Hook useEffect has a missing dependency: 'getJson'",
+      "code": "react-hooks(exhaustive-deps)",
+      "severity": "error",
+      "causes": [],
+      "url": "https://oxc.rs/docs/guide/usage/linter/rules/react/exhaustive-deps.html",
+      "help": "Either include it or remove the dependency array.",
+      "filename": "components/explorer.tsx",
+      "labels": [
+        {
+          "label": "useEffect uses `getJson` here",
+          "span": {
+            "offset": 68768,
+            "length": 7,
+            "line": 882,
+            "column": 12
+          }
+        },
+        {
+          "span": {
+            "offset": 69330,
+            "length": 17,
+            "line": 899,
+            "column": 6
+          }
+        }
+      ],
+      "related": []
+    },
+    {
+      "message": "React Hook useEffect has a missing dependency: 'getJson'",
+      "code": "react-hooks(exhaustive-deps)",
+      "severity": "error",
+      "causes": [],
+      "url": "https://oxc.rs/docs/guide/usage/linter/rules/react/exhaustive-deps.html",
+      "help": "Either include it or remove the dependency array.",
+      "filename": "components/explorer.tsx",
+      "labels": [
+        {
+          "label": "useEffect uses `getJson` here",
+          "span": {
+            "offset": 69602,
+            "length": 7,
+            "line": 907,
+            "column": 5
+          }
+        },
+        {
+          "span": {
+            "offset": 70209,
+            "length": 17,
+            "line": 927,
+            "column": 6
+          }
+        }
+      ],
+      "related": []
+    },
+    {
+      "message": "React Hook useEffect has a missing dependency: 'municipalityScope'",
+      "code": "react-hooks(exhaustive-deps)",
+      "severity": "error",
+      "causes": [],
+      "url": "https://oxc.rs/docs/guide/usage/linter/rules/react/exhaustive-deps.html",
+      "help": "Either include it or remove the dependency array.",
+      "filename": "components/explorer.tsx",
+      "labels": [
+        {
+          "label": "useEffect uses `municipalityScope` here",
+          "span": {
+            "offset": 70549,
+            "length": 17,
+            "line": 935,
+            "column": 50
+          }
+        },
+        {
+          "span": {
+            "offset": 70800,
+            "length": 59,
+            "line": 939,
+            "column": 6
+          }
+        }
+      ],
+      "related": []
+    },
+    {
+      "message": "React Hook useEffect has a missing dependency: 'getJson'",
+      "code": "react-hooks(exhaustive-deps)",
+      "severity": "error",
+      "causes": [],
+      "url": "https://oxc.rs/docs/guide/usage/linter/rules/react/exhaustive-deps.html",
+      "help": "Either include it or remove the dependency array.",
+      "filename": "components/explorer.tsx",
+      "labels": [
+        {
+          "label": "useEffect uses `getJson` here",
+          "span": {
+            "offset": 71071,
+            "length": 7,
+            "line": 945,
+            "column": 5
+          }
+        },
+        {
+          "span": {
+            "offset": 71589,
+            "length": 44,
+            "line": 962,
+            "column": 6
+          }
+        }
+      ],
+      "related": []
+    },
+    {
+      "message": "React Hook useEffect has a missing dependency: 'getJson'",
+      "code": "react-hooks(exhaustive-deps)",
+      "severity": "error",
+      "causes": [],
+      "url": "https://oxc.rs/docs/guide/usage/linter/rules/react/exhaustive-deps.html",
+      "help": "Either include it or remove the dependency array.",
+      "filename": "components/explorer.tsx",
+      "labels": [
+        {
+          "label": "useEffect uses `getJson` here",
+          "span": {
+            "offset": 71917,
+            "length": 7,
+            "line": 968,
+            "column": 5
+          }
+        },
+        {
+          "span": {
+            "offset": 72377,
+            "length": 68,
+            "line": 984,
+            "column": 6
+          }
+        }
+      ],
+      "related": []
+    },
+    {
+      "message": "React Hook useEffect has a missing dependency: 'getJson'",
+      "code": "react-hooks(exhaustive-deps)",
+      "severity": "error",
+      "causes": [],
+      "url": "https://oxc.rs/docs/guide/usage/linter/rules/react/exhaustive-deps.html",
+      "help": "Either include it or remove the dependency array.",
+      "filename": "components/explorer.tsx",
+      "labels": [
+        {
+          "label": "useEffect uses `getJson` here",
+          "span": {
+            "offset": 72641,
+            "length": 7,
+            "line": 990,
+            "column": 5
+          }
+        },
+        {
+          "span": {
+            "offset": 73014,
+            "length": 30,
+            "line": 1003,
+            "column": 6
+          }
+        }
+      ],
+      "related": []
+    },
+    {
+      "message": "Do not use `<a>` elements to navigate between Next.js pages.",
+      "code": "next(no-html-link-for-pages)",
+      "severity": "error",
+      "causes": [],
+      "url": "https://oxc.rs/docs/guide/usage/linter/rules/nextjs/no-html-link-for-pages.html",
+      "help": "Use `<Link />` from `next/link` instead for internal navigation. See https://nextjs.org/docs/messages/no-html-link-for-pages",
+      "filename": "components/explorer.tsx",
+      "labels": [
+        {
+          "label": "Replace with `<Link>` from `next/link`",
+          "span": {
+            "offset": 83799,
+            "length": 44,
+            "line": 1196,
+            "column": 29
+          }
+        }
+      ],
+      "related": []
+    }
+  ],
+  "normalization": "Dependency names are sorted because oxlint changes their display order.",
+  "other_changed_modules": {
+    "diagnostics": 0
+  }
+}

@@ -1,14 +1,15 @@
 'use client';
+import {projectCoastLabel,projectPlaceLabel} from '@/lib/project-coast-labels';
 
 import { useCallback, useEffect, useLayoutEffect, useMemo, useRef, useState } from 'react';
 import { type WaybackItem, type WaybackMetadata } from '@esri/wayback-core';
 import { satellitePixelRatio, type SatelliteDetail } from '@/lib/satellite-detail';
-import {analysisPhotoCandidate,esriPhotoMetadataZoom,orderedPhotoHintReleases,ESRI_TEMPORAL_MAX_ZOOM,type PhotoIntent} from '@/lib/esri-photo-options';
+import {analysisPhotoCandidate,esriPhotoMetadataZoom,orderedPhotoHintReleases,photoReferenceState,ESRI_TEMPORAL_MAX_ZOOM,type PhotoIntent} from '@/lib/esri-photo-options';
 import { distinctLocalCaptures, captureIndex, mergePointMetadata, metadataCaptureDate, metadataProbeQueue, PointMetadataProbeQueue, isVerifiedHdYear, type PointProbeJob, type ScopedPointMetadata } from '@/lib/esri-captures';
 import { loadReceivedEsriCatalogue, loadEsriEditions, fetchRenderedEsriMetadata,cachedRenderedEsriMetadata,type ReceivedCatalogue } from '@/lib/esri-catalogue';
 import {coastalPhotoForYear,type CoastalPhotoOption} from '@/lib/esri-coastal-photos';
 import {municipalPhotoOptions,municipalDatedOptions,municipalComparisonOptions,localMetadataBelongsToLocation,type PhotoLocation,type MunicipalPhotoCatalogue} from '@/lib/coastal-photo-scopes';
-import municipalCatalogueJson from '@/lib/generated/municipal-photo-refined-catalogue.json';
+import municipalCatalogueJson from '@/lib/generated/municipal-photo-reviewed-catalogue.json';
 import receivedCatalogueJson from '@/public/data/history/esri-local-captures.json';
 import { ESRI_PROJECT_FIRST_YEAR } from '@/lib/calendar-time';
 import { TimelineCache, captureMetadataKey } from '@/lib/timeline-cache';
@@ -47,6 +48,8 @@ type Props = {
   compatibleComparison?:boolean;
   scenarioReference?:boolean;
   selectedPhotoYear?:number;
+  photoCatalogue?:MunicipalPhotoCatalogue;
+  reviewedOnly?:boolean;
   imageStatus: 'loading' | 'ready' | 'error';
   onInfo: (info: ImageInfo) => void;
   onMetadata: (info: ImageInfo) => void;
@@ -58,7 +61,7 @@ type Props = {
   flights: StudyFlight[];
 };
 
-export function SatelliteTimeline({ firstYear=ESRI_PROJECT_FIRST_YEAR,lastYear=new Date().getUTCFullYear(),scopeKey,sourceAvailability,comparisonPeriod,displayedInfo, year, onYearChange, onSource, active, center, viewZoom, detail, selected, onChange,photoLocation,compatibleComparison=false,scenarioReference=false,selectedPhotoYear, imageStatus, onInfo, onMetadata, onFrameChange, onWarmFrames, flightSelected }: Props) {
+export function SatelliteTimeline({ firstYear=ESRI_PROJECT_FIRST_YEAR,lastYear=new Date().getUTCFullYear(),scopeKey,sourceAvailability,comparisonPeriod,displayedInfo, year, onYearChange, onSource, active, center, viewZoom, detail, selected, onChange,photoLocation,compatibleComparison=false,scenarioReference=false,selectedPhotoYear,photoCatalogue=municipalCatalogueJson as unknown as MunicipalPhotoCatalogue,reviewedOnly=false, imageStatus, onInfo, onMetadata, onFrameChange, onWarmFrames, flightSelected }: Props) {
   const [point, setPoint] = useState(initialPoint);
   const [attempt, setAttempt] = useState(0);
   const [items, setItems] = useState<WaybackItem[]>(receivedCatalogue.items);
@@ -186,17 +189,16 @@ export function SatelliteTimeline({ firstYear=ESRI_PROJECT_FIRST_YEAR,lastYear=n
   useEffect(() => () => probes.dispose(), [probes]);
 
   const captures = useMemo(() => distinctLocalCaptures(availableItems, values).filter(capture=>isVerifiedHdYear(capture.year,capture.year,capture.date,capture.metadata.resolution)), [availableItems, values]);
-  const comparisonOptions=useMemo(()=>compatibleComparison?(scenarioReference?municipalDatedOptions:municipalComparisonOptions)(availableItems,municipalCatalogueJson as unknown as MunicipalPhotoCatalogue,photoLocation?.municipality??null,photoLocation?.coordinates??initialPoint,17,photoLocation?.coordinates).filter(value=>value.year>=firstYear&&value.year<=lastYear):[],[compatibleComparison,scenarioReference,availableItems,photoLocation,firstYear,lastYear]);
-  const browsingOptions=useMemo(()=>compatibleComparison?[]:municipalPhotoOptions(availableItems,municipalCatalogueJson as unknown as MunicipalPhotoCatalogue,photoLocation?.municipality??null,[longitude,latitude],metadataZoom,localMetadataBelongsToLocation([longitude,latitude],photoLocation,sites)?captures:[]).filter(value=>value.year>=firstYear&&value.year<=lastYear),[compatibleComparison,availableItems,photoLocation,longitude,latitude,metadataZoom,sites,captures,firstYear,lastYear]);
+  const comparisonOptions=useMemo(()=>compatibleComparison?(scenarioReference?municipalDatedOptions:municipalComparisonOptions)(availableItems,photoCatalogue,photoLocation?.municipality??null,photoLocation?.coordinates??initialPoint,17,photoLocation?.coordinates).filter(value=>value.year>=firstYear&&value.year<=lastYear):[],[compatibleComparison,scenarioReference,availableItems,photoLocation,firstYear,lastYear,photoCatalogue]);
+  const browsingOptions=useMemo(()=>compatibleComparison?[]:municipalPhotoOptions(availableItems,photoCatalogue,photoLocation?.municipality??null,[longitude,latitude],metadataZoom,localMetadataBelongsToLocation([longitude,latitude],photoLocation,sites)?captures:[]).filter(value=>value.year>=firstYear&&value.year<=lastYear),[compatibleComparison,availableItems,photoLocation,longitude,latitude,metadataZoom,sites,captures,firstYear,lastYear,photoCatalogue]);
   const datedOptions=compatibleComparison?comparisonOptions:browsingOptions;
   const checking = offeredScope !== scope || queueState?.key !== scope || queueState.status === 'loading';
   const stops = captures;
   const captureDate = flightSelected?.date ?? metadataCaptureDate(metadata);
   const datedReference=compatibleComparison?datedOptions.find(option=>option.item.releaseNum===releaseNum&&option.year===(scenarioReference?selectedPhotoYear??year:year)):null;
-  const exactYear = Number(captureDate?.slice(0,4)) === year;
   const selectedIndex = captureIndex(stops, captureDate);
-  const partialFailure=!!captureDate && queueState?.key===scope && queueState.status==='error';
-  const failed = !exactYear && (!!(releaseNum !== undefined && errors[releaseNum]) || queueState?.key === scope && queueState.status === 'error' || catalogueState?.key === catalogueKey && catalogueState.status === 'error');
+  const referenceState=photoReferenceState({year,reviewedOnly,years:datedOptions.map(option=>option.year),captureDate,scopeName:photoLocation?projectPlaceLabel(photoLocation.name):'esta zona',selectedQueryFailed:releaseNum!==undefined&&!!errors[releaseNum],inventoryFailed:queueState?.key===scope&&queueState.status==='error',catalogueFailed:catalogueState?.key===catalogueKey&&catalogueState.status==='error'});
+  const failed=referenceState.queryFailed;
   const capture = captureDate ? formatDate(captureDate) : datedReference ? formatDate(datedReference.date)+' · referencia local' : failed ? 'No se pudo consultar la fecha al centro' : checking ? 'Consultando captura al centro…' : 'Sin fecha publicada al centro a esta escala';
   const enlarged = viewZoom > (detail.nativeZoom??ESRI_TEMPORAL_MAX_ZOOM)-(satellitePixelRatio()>1?1:0)+0.05;
   const title = flightSelected?.title ?? 'Esri · captura al centro';
@@ -257,12 +259,13 @@ export function SatelliteTimeline({ firstYear=ESRI_PROJECT_FIRST_YEAR,lastYear=n
   const photoYears=[...new Set(datedOptions.map(value=>value.year))];
   const pointYear=Number(captureDate?.slice(0,4));
   const pointMismatch=!!photoLocation&&!!captureDate&&pointYear!==year&&imageStatus==='ready';
+  const metadataFailure=failed?<>No se pudo consultar la fecha al centro. <button onClick={()=>{probes.retry();setAttempt(n=>n+1);}}>Reintentar</button></>:null;
   return <DateSourcePicker source="detail" value={compatibleComparison?String(scenarioReference?selectedPhotoYear??year:year):selectedDate?.slice(0,4)??''}
     options={photoYears.map(value=>({value:String(value),label:String(value)}))}
-    label={photoLocation?'Años de '+photoLocation.municipality:'Elige un municipio'} availability={sourceAvailability} status={imageStatus}
+    label={photoLocation?'Años de '+projectCoastLabel(photoLocation.municipality):'Elige un municipio'} availability={sourceAvailability} status={imageStatus}
     emptyLabel={photoLocation?'Sin comparación compatible en este periodo':'Selecciona un municipio'}
-    caption={(photoLocation?photoLocation.municipality+' · ':'')+(comparisonPeriod?'Estudio '+comparisonPeriod+' · '+referenceNote:referenceNote)}
-    notice={!photoLocation?scenarioReference?'Resultados en toda la costa. Elige un municipio para consultar sus fotos.':'Elige un municipio para comparar.':pointMismatch?scenarioReference?'Análisis '+year+' · foto de '+pointYear+'. Los trazos discontinuos muestran estimaciones con referencia fija.':'Foto al centro: '+pointYear+'. Las barras sólo aparecen donde la captura coincide con '+year+'.':partialFailure||failed?<>No se pudo consultar la fecha al centro. <button onClick={()=>{probes.retry();setAttempt(n=>n+1);}}>Reintentar</button></>:undefined}
+    caption={(photoLocation?projectCoastLabel(photoLocation.municipality)+' · ':'')+(comparisonPeriod?'Estudio '+comparisonPeriod+' · '+referenceNote:referenceNote)}
+    notice={!photoLocation?scenarioReference?'Resultados en toda la costa. Elige un municipio para consultar sus fotos.':'Elige un municipio para comparar.':scenarioReference&&referenceState.notice?<>{referenceState.notice}{metadataFailure&&<> {metadataFailure}</>}</>:pointMismatch?reviewedOnly?'Foto al centro: '+pointYear+'. Sin foto revisada de '+year+', el punto queda pendiente, sin metros.':'Foto al centro: '+pointYear+'. Las barras sólo aparecen donde la captura coincide con '+year+'.':metadataFailure}
     onDate={value=>{const next=coastalPhotoForYear(datedOptions,Number(value),[longitude,latitude]);if(next)selectCapture(next);}}
     onSource={onSource} onInfo={()=>onInfo(displayedInfo??info)}
     onRetry={()=>{probes.retry();setAttempt(value=>value+1);if(selected)onChange({...selected});else bootstrapped.current=false;}}

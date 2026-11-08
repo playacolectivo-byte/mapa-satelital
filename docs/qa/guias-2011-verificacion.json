@@ -1,0 +1,336 @@
+{
+  "profiles": 47,
+  "max_distance_to_white_pixel_px": 0.6471628068949236,
+  "note": "Pixel fit is not physical shoreline accuracy.",
+  "rows": [
+    {
+      "profile_id": "SC-258-0-43",
+      "guide": 1,
+      "distance_to_drawn_white_pixel_px": 0.2929215628966302,
+      "reference_offset_m": 40.97,
+      "previous_offset_m": 45
+    },
+    {
+      "profile_id": "SC-258-0-44",
+      "guide": 1,
+      "distance_to_drawn_white_pixel_px": 0.29654829951025075,
+      "reference_offset_m": 39.59,
+      "previous_offset_m": 45.5
+    },
+    {
+      "profile_id": "SC-258-0-46",
+      "guide": 2,
+      "distance_to_drawn_white_pixel_px": 0.47690966028806275,
+      "reference_offset_m": 23.32,
+      "previous_offset_m": 28.5
+    },
+    {
+      "profile_id": "SC-258-0-47",
+      "guide": 2,
+      "distance_to_drawn_white_pixel_px": 0.4418470071879955,
+      "reference_offset_m": 13.71,
+      "previous_offset_m": 22
+    },
+    {
+      "profile_id": "SC-258-0-48",
+      "guide": 2,
+      "distance_to_drawn_white_pixel_px": 0.25299797376805394,
+      "reference_offset_m": 9.36,
+      "previous_offset_m": 17
+    },
+    {
+      "profile_id": "SC-258-0-49",
+      "guide": 2,
+      "distance_to_drawn_white_pixel_px": 0.36570185520862747,
+      "reference_offset_m": 5.29,
+      "previous_offset_m": 9
+    },
+    {
+      "profile_id": "SC-256-0-0",
+      "guide": 3,
+      "distance_to_drawn_white_pixel_px": 0.23577874295148535,
+      "reference_offset_m": -24.15,
+      "previous_offset_m": null
+    },
+    {
+      "profile_id": "SC-256-0-1",
+      "guide": 3,
+      "distance_to_drawn_white_pixel_px": 0.4116208479475191,
+      "reference_offset_m": -36.46,
+      "previous_offset_m": null
+    },
+    {
+      "profile_id": "SC-256-0-2",
+      "guide": 3,
+      "distance_to_drawn_white_pixel_px": 0.40888743852761456,
+      "reference_offset_m": -35.83,
+      "previous_offset_m": null
+    },
+    {
+      "profile_id": "SC-256-0-3",
+      "guide": 3,
+      "distance_to_drawn_white_pixel_px": 0.10964417631506011,
+      "reference_offset_m": -40.36,
+      "previous_offset_m": null
+    },
+    {
+      "profile_id": "SC-256-0-4",
+      "guide": 3,
+      "distance_to_drawn_white_pixel_px": 0.17447770888216405,
+      "reference_offset_m": -53.86,
+      "previous_offset_m": null
+    },
+    {
+      "profile_id": "SC-256-0-5",
+      "guide": 3,
+      "distance_to_drawn_white_pixel_px": 0.2119819725216305,
+      "reference_offset_m": -52.52,
+      "previous_offset_m": null
+    },
+    {
+      "profile_id": "SC-256-0-6",
+      "guide": 3,
+      "distance_to_drawn_white_pixel_px": 0.6471628068949236,
+      "reference_offset_m": -44.21,
+      "previous_offset_m": null
+    },
+    {
+      "profile_id": "SC-256-0-7",
+      "guide": 3,
+      "distance_to_drawn_white_pixel_px": 0.12752056686482244,
+      "reference_offset_m": -40.34,
+      "previous_offset_m": null
+    },
+    {
+      "profile_id": "SC-256-0-8",
+      "guide": 3,
+      "distance_to_drawn_white_pixel_px": 0.11113931649965722,
+      "reference_offset_m": -30.8,
+      "previous_offset_m": null
+    },
+    {
+      "profile_id": "SC-256-0-9",
+      "guide": 4,
+      "distance_to_drawn_white_pixel_px": 0.3609093269887361,
+      "reference_offset_m": -29.21,
+      "previous_offset_m": 15
+    },
+    {
+      "profile_id": "SC-256-0-10",
+      "guide": 4,
+      "distance_to_drawn_white_pixel_px": 0.2821250994014358,
+      "reference_offset_m": -16.37,
+      "previous_offset_m": null
+    },
+    {
+      "profile_id": "SC-256-0-11",
+      "guide": 4,
+      "distance_to_drawn_white_pixel_px": 0.4438952123953103,
+      "reference_offset_m": -8.9,
+      "previous_offset_m": null
+    },
+    {
+      "profile_id": "SC-256-0-12",
+      "guide": 4,
+      "distance_to_drawn_white_pixel_px": 0.25598128245022567,
+      "reference_offset_m": 1.11,
+      "previous_offset_m": 15
+    },
+    {
+      "profile_id": "SC-256-0-13",
+      "guide": 4,
+      "distance_to_drawn_white_pixel_px": 0.493695281274266,
+      "reference_offset_m": 14.42,
+      "previous_offset_m": 45
+    },
+    {
+      "profile_id": "SC-256-0-14",
+      "guide": 4,
+      "distance_to_drawn_white_pixel_px": 0.30083638412395275,
+      "reference_offset_m": 28.77,
+      "previous_offset_m": 40
+    },
+    {
+      "profile_id": "SC-256-0-15",
+      "guide": 4,
+      "distance_to_drawn_white_pixel_px": 0.4072019571944273,
+      "reference_offset_m": 39.97,
+      "previous_offset_m": null
+    },
+    {
+      "profile_id": "SC-256-0-16",
+      "guide": 4,
+      "distance_to_drawn_white_pixel_px": 0.5122284511926726,
+      "reference_offset_m": 48.24,
+      "previous_offset_m": 48
+    },
+    {
+      "profile_id": "SC-256-0-17",
+      "guide": 4,
+      "distance_to_drawn_white_pixel_px": 0.1713467177732889,
+      "reference_offset_m": 54.42,
+      "previous_offset_m": null
+    },
+    {
+      "profile_id": "SC-256-0-18",
+      "guide": 4,
+      "distance_to_drawn_white_pixel_px": 0.4766127191809498,
+      "reference_offset_m": 20.9,
+      "previous_offset_m": null
+    },
+    {
+      "profile_id": "SC-256-0-19",
+      "guide": 5,
+      "distance_to_drawn_white_pixel_px": 0.22851489743733522,
+      "reference_offset_m": 35.05,
+      "previous_offset_m": null
+    },
+    {
+      "profile_id": "SC-256-0-20",
+      "guide": 5,
+      "distance_to_drawn_white_pixel_px": 0.06343672096678894,
+      "reference_offset_m": 47.09,
+      "previous_offset_m": null
+    },
+    {
+      "profile_id": "SC-256-0-21",
+      "guide": 5,
+      "distance_to_drawn_white_pixel_px": 0.16574319260885054,
+      "reference_offset_m": 50.9,
+      "previous_offset_m": null
+    },
+    {
+      "profile_id": "SC-252-0-0",
+      "guide": 5,
+      "distance_to_drawn_white_pixel_px": 0.5597322646788485,
+      "reference_offset_m": 28.53,
+      "previous_offset_m": null
+    },
+    {
+      "profile_id": "SC-251-0-0",
+      "guide": 5,
+      "distance_to_drawn_white_pixel_px": 0.47214046413353733,
+      "reference_offset_m": -10.05,
+      "previous_offset_m": null
+    },
+    {
+      "profile_id": "SC-251-0-1",
+      "guide": 5,
+      "distance_to_drawn_white_pixel_px": 0.49883113805307067,
+      "reference_offset_m": -3.46,
+      "previous_offset_m": null
+    },
+    {
+      "profile_id": "SC-251-0-2",
+      "guide": 5,
+      "distance_to_drawn_white_pixel_px": 0.5386170179346067,
+      "reference_offset_m": -6.35,
+      "previous_offset_m": -60
+    },
+    {
+      "profile_id": "SC-251-0-3",
+      "guide": 5,
+      "distance_to_drawn_white_pixel_px": 0.4085319731543898,
+      "reference_offset_m": 1.8,
+      "previous_offset_m": null
+    },
+    {
+      "profile_id": "SC-251-0-4",
+      "guide": 5,
+      "distance_to_drawn_white_pixel_px": 0.29450540234903616,
+      "reference_offset_m": -5.65,
+      "previous_offset_m": null
+    },
+    {
+      "profile_id": "SC-251-0-5",
+      "guide": 5,
+      "distance_to_drawn_white_pixel_px": 0.26640115668636094,
+      "reference_offset_m": 4.77,
+      "previous_offset_m": 15
+    },
+    {
+      "profile_id": "SC-251-0-6",
+      "guide": 6,
+      "distance_to_drawn_white_pixel_px": 0.33099506687645874,
+      "reference_offset_m": 11.32,
+      "previous_offset_m": null
+    },
+    {
+      "profile_id": "SC-251-0-7",
+      "guide": 6,
+      "distance_to_drawn_white_pixel_px": 0.4654864889132918,
+      "reference_offset_m": 4.48,
+      "previous_offset_m": null
+    },
+    {
+      "profile_id": "SC-251-0-8",
+      "guide": 6,
+      "distance_to_drawn_white_pixel_px": 0.17695687605274538,
+      "reference_offset_m": 2.03,
+      "previous_offset_m": null
+    },
+    {
+      "profile_id": "SC-251-0-9",
+      "guide": 6,
+      "distance_to_drawn_white_pixel_px": 0.17221416680250973,
+      "reference_offset_m": 1.54,
+      "previous_offset_m": null
+    },
+    {
+      "profile_id": "SC-251-0-10",
+      "guide": 6,
+      "distance_to_drawn_white_pixel_px": 0.2838890406326698,
+      "reference_offset_m": 5.53,
+      "previous_offset_m": -38
+    },
+    {
+      "profile_id": "SC-251-0-11",
+      "guide": 6,
+      "distance_to_drawn_white_pixel_px": 0.24246048783515553,
+      "reference_offset_m": 5.15,
+      "previous_offset_m": null
+    },
+    {
+      "profile_id": "SC-251-0-12",
+      "guide": 6,
+      "distance_to_drawn_white_pixel_px": 0.23743131433415265,
+      "reference_offset_m": 4.57,
+      "previous_offset_m": null
+    },
+    {
+      "profile_id": "SC-614-0-0",
+      "guide": 6,
+      "distance_to_drawn_white_pixel_px": 0.1546704225413722,
+      "reference_offset_m": 14.81,
+      "previous_offset_m": null
+    },
+    {
+      "profile_id": "SC-614-0-1",
+      "guide": 6,
+      "distance_to_drawn_white_pixel_px": 0.5870282506881006,
+      "reference_offset_m": 2.35,
+      "previous_offset_m": null
+    },
+    {
+      "profile_id": "SC-244-0-0",
+      "guide": 6,
+      "distance_to_drawn_white_pixel_px": 0.5748574702523512,
+      "reference_offset_m": 13.03,
+      "previous_offset_m": null
+    },
+    {
+      "profile_id": "SC-231-0-0",
+      "guide": 6,
+      "distance_to_drawn_white_pixel_px": 0.1653108704791275,
+      "reference_offset_m": 14.15,
+      "previous_offset_m": -123
+    },
+    {
+      "profile_id": "SC-231-0-1",
+      "guide": 6,
+      "distance_to_drawn_white_pixel_px": 0.2758535855683132,
+      "reference_offset_m": 17.32,
+      "previous_offset_m": null
+    }
+  ]
+}

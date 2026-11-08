@@ -1,0 +1,13 @@
+{
+ "reviewer":"root second visual pass of progreso_2015 decisions",
+ "date":"2026-11-05",
+ "scope":"Progreso baseline display indices000..307, original592-profile panel order",
+ "status":"visual_crosscheck_complete",
+ "evidence":"work/progreso-full-review-20261105/crosscheck-000-308-00.png through04.png, baseline-proposals-000.png and014.png; literal user guides verified separately",
+ "new_intersections_inspected":260,
+ "literal_user_guides_preserved":47,
+ "structure_pending":1,
+ "operational_interpretation_tolerance_m":8,
+ "field_validated":false,
+ "notes":["All260 orange choices visually checked against the apparent continuous water/sand contact in native-derived imagery. No detector proposal accepted solely on its score.","Seven independently moved crossings were checked, including corrected shoreward false vegetation/house boundaries and offshore wave fronts.","Profile220 remains pending at the pier. The independent tolerance is not certified geographical accuracy."]
+}

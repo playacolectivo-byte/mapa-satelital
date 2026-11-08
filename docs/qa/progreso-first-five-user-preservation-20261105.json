@@ -1,0 +1,97 @@
+{
+  "status": "retain_user_approved_five_source_and_visual_checks_pass",
+  "date": "2026-11-06",
+  "field_validated": false,
+  "user_instruction_priority": "The first five western 2011 points were explicitly identified by the user as already correct. Optional within-tolerance refinements should not replace them.",
+  "before_photos_sha256": "982e2111b0487df18f4a20127ac82f5a39a0b7d423d1e7f1fe64354a10ba6290",
+  "source_panel_sha256": "dfca3cbe05b01e0f496288fdd9094d51c2de73b30e99cc9c079441cdba3b0470",
+  "retained_position_visual_panel": "work\\progreso-full-review-20261105\\baseline-first-five-old-preserved.png",
+  "metadata_cache": "work\\progreso-full-review-20261105\\baseline-corrected-endpoint-footprints.json",
+  "operational_visual_tolerance_m": 8,
+  "records": [
+    {
+      "display_index": 0,
+      "profile_id": "SC-258-0-30",
+      "capture": 40,
+      "release": 11019,
+      "preserve_offset_m": 21,
+      "discarded_optional_red_refinement_m": 17.0,
+      "visual_verdict": "Both positions compatible with apparent visible water/sand boundary within operational8m; retain prior value because the user explicitly approved these five.",
+      "coordinate": [
+        -89.86447261491351,
+        21.242292713638765
+      ],
+      "verified_date": "2011-08-01",
+      "verified_sensor": "WV02",
+      "metadata_sha256": "fa1114f3f6f28fafca052a7889a5c628e8c44874be1e867de052aac496c209af"
+    },
+    {
+      "display_index": 1,
+      "profile_id": "SC-258-0-31",
+      "capture": 40,
+      "release": 11019,
+      "preserve_offset_m": 21,
+      "discarded_optional_red_refinement_m": 19.7,
+      "visual_verdict": "Both positions compatible with apparent visible water/sand boundary within operational8m; retain prior value because the user explicitly approved these five.",
+      "coordinate": [
+        -89.86355121037712,
+        21.242481123322325
+      ],
+      "verified_date": "2011-08-01",
+      "verified_sensor": "WV02",
+      "metadata_sha256": "fa1114f3f6f28fafca052a7889a5c628e8c44874be1e867de052aac496c209af"
+    },
+    {
+      "display_index": 2,
+      "profile_id": "SC-258-0-32",
+      "capture": 40,
+      "release": 11019,
+      "preserve_offset_m": 19.5,
+      "discarded_optional_red_refinement_m": 17.1,
+      "visual_verdict": "Both positions compatible with apparent visible water/sand boundary within operational8m; retain prior value because the user explicitly approved these five.",
+      "coordinate": [
+        -89.86263493152848,
+        21.242756677380413
+      ],
+      "verified_date": "2011-08-01",
+      "verified_sensor": "WV02",
+      "metadata_sha256": "fa1114f3f6f28fafca052a7889a5c628e8c44874be1e867de052aac496c209af"
+    },
+    {
+      "display_index": 3,
+      "profile_id": "SC-258-0-33",
+      "capture": 40,
+      "release": 11019,
+      "preserve_offset_m": 28.5,
+      "discarded_optional_red_refinement_m": 22.3,
+      "visual_verdict": "Both positions compatible with apparent visible water/sand boundary within operational8m; retain prior value because the user explicitly approved these five.",
+      "coordinate": [
+        -89.86170685534793,
+        21.243026921018018
+      ],
+      "verified_date": "2011-08-01",
+      "verified_sensor": "WV02",
+      "metadata_sha256": "fa1114f3f6f28fafca052a7889a5c628e8c44874be1e867de052aac496c209af"
+    },
+    {
+      "display_index": 4,
+      "profile_id": "SC-258-0-34",
+      "capture": 40,
+      "release": 11019,
+      "preserve_offset_m": 28,
+      "discarded_optional_red_refinement_m": 29.6,
+      "visual_verdict": "Both positions compatible with apparent visible water/sand boundary within operational8m; retain prior value because the user explicitly approved these five.",
+      "coordinate": [
+        -89.86076926441255,
+        21.243240122717857
+      ],
+      "verified_date": "2011-08-01",
+      "verified_sensor": "WV02",
+      "metadata_sha256": "fa1114f3f6f28fafca052a7889a5c628e8c44874be1e867de052aac496c209af"
+    }
+  ],
+  "limitations": [
+    "8m is an operational visual interpretation tolerance, not certified geographic accuracy.",
+    "No public scientific asset was modified by this audit."
+  ]
+}

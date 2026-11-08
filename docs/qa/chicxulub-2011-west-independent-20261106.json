@@ -1,0 +1,14 @@
+{
+  "status": "independent_visual_review_complete",
+  "reviewer": "root",
+  "primary_reviewer": "progreso_2015",
+  "capture_date": "2011-08-01",
+  "release": 11019,
+  "readings_reviewed": 41,
+  "accepted": 38,
+  "pending": ["SC-89-0-52", "SC-89-0-53", "SC-C88-0-0"],
+  "manual_decisions_sha256": "b9347bb6cc216e8ab89297f62eb6738f56615239e1f208bad740525cf19e2690",
+  "visual_evidence": "All seven original north-up context sheets and all seven marked native detail sheets were examined, comparing the water-facing contact against the interior beach and buildings.",
+  "decision": "The 38 marked positions follow the visible water-facing contact. Two contacts are obscured by shadow beside shore structures and the last axis crosses the pier. Do not retain the old landward positions as established 2011 references.",
+  "tolerance_note": "Interpretation was made against the visible contact at native pixel scale; the 8 m operational proxy is not a permissible dry-sand margin or a certified physical error."
+}

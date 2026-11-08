@@ -1,0 +1,15 @@
+# Estaciones cada 100 m sobre la costa de referencia de 2011
+
+La malla visible usa estaciones 0, 100, 200… metros de distancia acumulada sobre la polilínea de referencia de 2011. La longitud se calcula sobre el elipsoide WGS84 con PROJ/pyproj.Geod. En una curva, esa distancia a lo largo de la línea puede ser ligeramente mayor que la cuerda recta entre dos estaciones. No expresa una exactitud física milimétrica de la fotografía.
+
+Los cruces originales revisados, incluidas las guías blancas del usuario, se conservan como controles. Algunos controles auxiliares procedían de extremos de segmentos cartográficos y estaban separados por menos de un metro. No se muestran como estaciones adicionales de la malla. Los datos científicos y revisiones originales no se modifican.
+
+La malla se construye una sola vez por versión de la línea base de 2011 y conserva sus posiciones en todos los años y escalas. Se interrumpe en puertos, contactos estructurales no interpretables y huecos de cobertura; no se rellena una base de 2011 inexistente. El extremo sobrante de un tramo no se añade como estación si queda a menos de 100 m de la anterior. Los localizadores originales sin referencia que no forman parte de la malla se conservan en los datos y no añaden puntos visibles.
+
+En Chelem y Chicxulub Puerto, el [afinado de 2011](/data/shorelines/photo-alignment/reference-refinement-20261106-method.md) permite que la malla siga las curvas del contacto fotografiado entre controles. Los vértices que definen esa forma no son marcadores adicionales. Cada estación conserva las coordenadas de los controles utilizados para recalcular los otros años.
+
+Para las otras fechas se intersecta la normal de cada estación con el segmento entre dos controles fotográficos revisados. Ambos deben estar aceptados para la edición visible y coincidir en fecha, sensor y proveedor. El resultado se declara **derivado por interpolación espacial**, no como una nueva lectura manual. No se interpolan años, fuentes distintas ni normales que queden fuera de los controles. Una intersección casi paralela (menos de 30 grados) o ausente queda pendiente, sin metros.
+
+El cambio es la distancia métrica entre referencia y extremo, con signo según el eje hacia el mar. La métrica elipsoidal local se verifica contra WGS84/Geod para estas distancias cortas. Las consultas de procedencia muestran las posiciones originales de los controles, no una supuesta inspección independiente de cada nueva estación. Si la incertidumbre indicativa de un control es desconocida, la dirección permanece incierta. En posiciones derivadas se usa un indicador conservador duplicado de los controles; no es un intervalo estadístico ni incluye errores desconocidos de registro relativo, marea, oleaje o pendiente.
+
+Las etiquetas «100 m» se dibujan únicamente entre estaciones consecutivas del mismo tramo. Si falta una estación, no se etiqueta el hueco como 100 m. En capas anteriores ajenas a esta malla, la etiqueta muestra la distancia calculada entre sus puntos y no una constante.

@@ -1,0 +1,17 @@
+{
+ "reviewer":"root independent visual crosscheck",
+ "checked_on":"2026-11-06",
+ "scope":"Latest actual photograph for each of596 Progreso beach profiles within2011–2025; other dates require their own records",
+ "status":"independent_visual_review_complete",
+ "profiles_inspected":596,
+ "approved_dated_positions":591,
+ "pending_structures":3,
+ "pending_clouds":2,
+ "panels_inspected":43,
+ "evidence":"work/progreso-year-review-20261105/root-crosscheck/contact-latest-00.png through10.png; latest-reviewed-014.png rechecked after two refinements",
+ "root_refinements":{"SC-258-0-49":-18,"SC-258-0-50":-30.5},
+ "refinement_provenance":"work/progreso-year-review-20261105/latest-root-refinements-19-20.json; exact containment in retained official22252 source polygon,2025-02-13 WV03",
+ "operational_interpretation_tolerance_m":8,
+ "field_validated":false,
+ "notes":["Orange explicit choices checked individually against apparent water/sand boundary. Unapproved red classifier candidates and old cyan readings are not authority.","Two shoreward refinements place points nearer the centre of the native visible boundary band; submerged bars and wet/dry sand were checked separately.","Three pier/structure intersections and two cloud-covered profiles remain pending without invented measurements.","Metadata and capture identity were independently verified by the first reviewer against polygons, with12 individual point queries agreeing. No physical accuracy certification, tides, waves or full relative-registration validation is implied."]
+}

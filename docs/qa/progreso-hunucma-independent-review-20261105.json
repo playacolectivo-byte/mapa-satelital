@@ -1,0 +1,3060 @@
+{
+  "status": "visual_review_complete",
+  "reviewer": "hunucma_audit independent operator",
+  "date": "2026-11-05",
+  "field_validated": false,
+  "scope": "Progreso displayed beach profiles308..591 inclusive; manual rows only, not RGB red candidates",
+  "manual_proposal_sha256": "512cc36b6b4fecde282e93125c1fda881788c522199c0fc67a5f73e08abf3d00",
+  "panel_formula": "y=45+2*(150-offset_m); panels start x=44, profile centre x=83.5+80j",
+  "profiles_reviewed": 284,
+  "visually_compatible_manual_positions": 282,
+  "pending_structure_profiles": [
+    "SC-90-0-3",
+    "SC-C88-0-0"
+  ],
+  "changes_required": [],
+  "interpretation_tolerance_m": 8,
+  "limitations": [
+    "The 8m value is an operational interpretation tolerance, not physical certified accuracy.",
+    "Capture/date footprints must be checked separately; root owns those endpoint metadata checks.",
+    "Wave/foam and georeferencing/tidal physical uncertainty remain."
+  ],
+  "panels": [
+    {
+      "start": 308,
+      "source_panel": "work\\progreso-full-review-20261105\\baseline-proposals-308.png",
+      "source_sha256": "fdc9b146fb45eabbf202ed28054d51476c6170ae2bb7d0fab155104a7dbb26b1",
+      "manual_overlay": "work\\hunucma-audit-20261105\\progreso-independent\\root-manual-308.png",
+      "manual_overlay_sha256": "d112b1bbd0cf6a731e245dd2ce26ebfb605f3f60d9268b62002ccabd6b39fce4"
+    },
+    {
+      "start": 322,
+      "source_panel": "work\\progreso-full-review-20261105\\baseline-proposals-322.png",
+      "source_sha256": "b24bf0690a55995b81fe212ae5982a59b4688a613bee6dcd4c2a219a3a5ebb11",
+      "manual_overlay": "work\\hunucma-audit-20261105\\progreso-independent\\root-manual-322.png",
+      "manual_overlay_sha256": "c347703363ac4c52fb8c28291c2a58c52a2dc046e3eca549e96130a1361e3cee"
+    },
+    {
+      "start": 336,
+      "source_panel": "work\\progreso-full-review-20261105\\baseline-proposals-336.png",
+      "source_sha256": "b6b6af3095837adb9eab63583bf76f748bc62f761622ba420d1a55a88e158051",
+      "manual_overlay": "work\\hunucma-audit-20261105\\progreso-independent\\root-manual-336.png",
+      "manual_overlay_sha256": "63f02a01ef4f430e42606b6cd9aaaa46569494c04257405eec5e6c782463974b"
+    },
+    {
+      "start": 350,
+      "source_panel": "work\\progreso-full-review-20261105\\baseline-proposals-350.png",
+      "source_sha256": "9889de91939b465b0fcaa500a6ac43ce312ecba46c3ded44a0c2d8fe92579e5b",
+      "manual_overlay": "work\\hunucma-audit-20261105\\progreso-independent\\root-manual-350.png",
+      "manual_overlay_sha256": "c49fca9b167bac9f1a30b1bb02cbf83f217f2dcf04c71d2802a3fc14a0e63fcd"
+    },
+    {
+      "start": 364,
+      "source_panel": "work\\progreso-full-review-20261105\\baseline-proposals-364.png",
+      "source_sha256": "c76bffa47355e21e667a4e1e138f6b4d94fc0a6e3131f3faf6f9306ac3c9decc",
+      "manual_overlay": "work\\hunucma-audit-20261105\\progreso-independent\\root-manual-364.png",
+      "manual_overlay_sha256": "988dfacdc899bec0dfbcfe49376cfaf44bb38efd5d08d92f56ff0e8dbc656c54"
+    },
+    {
+      "start": 378,
+      "source_panel": "work\\progreso-full-review-20261105\\baseline-proposals-378.png",
+      "source_sha256": "4a8b3e2d2439bfb5199c3b17d4d6b4682c91a4e321557ce6765b509a2b31ce7b",
+      "manual_overlay": "work\\hunucma-audit-20261105\\progreso-independent\\root-manual-378.png",
+      "manual_overlay_sha256": "b535853de08b227e90ac694f2ada8265f8ed56b718fc6b2ae2914b00c91ac41d"
+    },
+    {
+      "start": 392,
+      "source_panel": "work\\progreso-full-review-20261105\\baseline-proposals-392.png",
+      "source_sha256": "0dc00b3893e996af8d4136d4d01f82823428e781c2ef4a08ffa6048ef65c468a",
+      "manual_overlay": "work\\hunucma-audit-20261105\\progreso-independent\\root-manual-392.png",
+      "manual_overlay_sha256": "6e4520afb11105498dd0facc8133335686ce7239632f9931ae04ac7b72856398"
+    },
+    {
+      "start": 406,
+      "source_panel": "work\\progreso-full-review-20261105\\baseline-proposals-406.png",
+      "source_sha256": "7bb6786db2f69f740e1d7c64c4dfdf14c97058be711e068511800dd055a6118b",
+      "manual_overlay": "work\\hunucma-audit-20261105\\progreso-independent\\root-manual-406.png",
+      "manual_overlay_sha256": "046aece2cc9f65211fb837dd346d6c667b55a8540a7063c811f8db5ec7c4eec8"
+    },
+    {
+      "start": 420,
+      "source_panel": "work\\progreso-full-review-20261105\\baseline-proposals-420.png",
+      "source_sha256": "ef684b780ee53e7706a169cbb93193276632fe9d96e8412b3f63edc83b174f9c",
+      "manual_overlay": "work\\hunucma-audit-20261105\\progreso-independent\\root-manual-420.png",
+      "manual_overlay_sha256": "476c8e0991cdab347b761a485ac2ac5602472e9a58a3f4d78df19f3f2ee5b3b7"
+    },
+    {
+      "start": 434,
+      "source_panel": "work\\progreso-full-review-20261105\\baseline-proposals-434.png",
+      "source_sha256": "c227908bb53748afe5a4d27aa93b8bc5ee87e61cd64b018ccefcc73331b85718",
+      "manual_overlay": "work\\hunucma-audit-20261105\\progreso-independent\\root-manual-434.png",
+      "manual_overlay_sha256": "9296ef7cc81f08f1f32427388b44c987af878ce3991a0d4dcef89b63e502f16e"
+    },
+    {
+      "start": 448,
+      "source_panel": "work\\progreso-full-review-20261105\\baseline-proposals-448.png",
+      "source_sha256": "9968fcaea591577fab7b25b92af27be5a3e72e1e25de90ccd710682039067e74",
+      "manual_overlay": "work\\hunucma-audit-20261105\\progreso-independent\\root-manual-448.png",
+      "manual_overlay_sha256": "d302221c167f41c2ac938271bc09b10e43d36a8ab16793a8ac8f2bb0b9fb808f"
+    },
+    {
+      "start": 462,
+      "source_panel": "work\\progreso-full-review-20261105\\baseline-proposals-462.png",
+      "source_sha256": "86339de13070490acd6987855b8446444ba733b61523951eb0f88edef57293ca",
+      "manual_overlay": "work\\hunucma-audit-20261105\\progreso-independent\\root-manual-462.png",
+      "manual_overlay_sha256": "be26ae7d59625d4e09ae219262aee226b172b75b232ac2a8ef316ad1c70d9fda"
+    },
+    {
+      "start": 476,
+      "source_panel": "work\\progreso-full-review-20261105\\baseline-proposals-476.png",
+      "source_sha256": "c7d944e287a6adcdeb76b976ab0f5192e7a5756027c45723c0a33ce6bc9561cd",
+      "manual_overlay": "work\\hunucma-audit-20261105\\progreso-independent\\root-manual-476.png",
+      "manual_overlay_sha256": "6e5b48bbaeca04d2b09b0f8bc5160797e060c055085614d3a791505bebabb12a"
+    },
+    {
+      "start": 490,
+      "source_panel": "work\\progreso-full-review-20261105\\baseline-proposals-490.png",
+      "source_sha256": "8904bd9d5c5d4d3a05d8b33e2b422d4ff22a892decb81f8628351efdde450aff",
+      "manual_overlay": "work\\hunucma-audit-20261105\\progreso-independent\\root-manual-490.png",
+      "manual_overlay_sha256": "6875605f4f45ed633412bf96240080c7dbb97091d1fa63c80574ecc064076961"
+    },
+    {
+      "start": 504,
+      "source_panel": "work\\progreso-full-review-20261105\\baseline-proposals-504.png",
+      "source_sha256": "b610a37cbe92cfca31da1c77cca5de5d54b1f53f1955a0892d02cc05217edd66",
+      "manual_overlay": "work\\hunucma-audit-20261105\\progreso-independent\\root-manual-504.png",
+      "manual_overlay_sha256": "58201300c0343b70f540b8a9003634307410b3ed2aeb762099841ccd6ce7922e"
+    },
+    {
+      "start": 518,
+      "source_panel": "work\\progreso-full-review-20261105\\baseline-proposals-518.png",
+      "source_sha256": "7d1c161a8e3f172f865edea776a45123c07c1ae9961143f9ca649aa1be5e8f10",
+      "manual_overlay": "work\\hunucma-audit-20261105\\progreso-independent\\root-manual-518.png",
+      "manual_overlay_sha256": "cc4e5c87c49b4c509c28f58e9fe92d31f1cd46f4557aed659e4572f2372fcdd8"
+    },
+    {
+      "start": 532,
+      "source_panel": "work\\progreso-full-review-20261105\\baseline-proposals-532.png",
+      "source_sha256": "c8a8112ffda33dcdee1c759262dee1f1bc594ea108985b8fab8d86eab0ce18c6",
+      "manual_overlay": "work\\hunucma-audit-20261105\\progreso-independent\\root-manual-532.png",
+      "manual_overlay_sha256": "4d1833f3119d70f6e6a5058a7f68261c17f7c2a8846a919f6aa7eff617e4bea6"
+    },
+    {
+      "start": 546,
+      "source_panel": "work\\progreso-full-review-20261105\\baseline-proposals-546.png",
+      "source_sha256": "27b95fbb88a9b2b863d5def1bc8f2052ee1c9182ffc49430babba7e934fa365a",
+      "manual_overlay": "work\\hunucma-audit-20261105\\progreso-independent\\root-manual-546.png",
+      "manual_overlay_sha256": "6dab5d02bc477e3df0c9d4f73c9a9a29e9c66c25b9373923a4383b347af2d50d"
+    },
+    {
+      "start": 560,
+      "source_panel": "work\\progreso-full-review-20261105\\baseline-proposals-560.png",
+      "source_sha256": "1083c219d5db15030fea88562dec9ee9399d40c739e55d0b987748e776a32a4b",
+      "manual_overlay": "work\\hunucma-audit-20261105\\progreso-independent\\root-manual-560.png",
+      "manual_overlay_sha256": "2ad597397f097bb37cc0cabce1b3bdf7cfb851c3911eb34936637e3c8617966f"
+    },
+    {
+      "start": 574,
+      "source_panel": "work\\progreso-full-review-20261105\\baseline-proposals-574.png",
+      "source_sha256": "c7af835798904dfe3d459dc4956ab35554a6abee6ea8a34faaf4d46ca78f483a",
+      "manual_overlay": "work\\hunucma-audit-20261105\\progreso-independent\\root-manual-574.png",
+      "manual_overlay_sha256": "7c992fbf3f4aa707d985494a2b4cc470fddd1c01954194db319e65e8cec0eb5b"
+    },
+    {
+      "start": 588,
+      "source_panel": "work\\progreso-full-review-20261105\\baseline-proposals-588.png",
+      "source_sha256": "77247dd4f43bcf9cde1adb3814b93bb34a69beee11992bb629e9856bc9c0422f",
+      "manual_overlay": "work\\hunucma-audit-20261105\\progreso-independent\\root-manual-588.png",
+      "manual_overlay_sha256": "806ba3b835e5a085620b8bbed7af559653f1b7f1a61404c673dfe35d10eb7a09"
+    }
+  ],
+  "decisions": [
+    {
+      "display_index": 308,
+      "profile_id": "SC-C498-0-0",
+      "status": "accepted_visible_edge",
+      "proposed_y": 344,
+      "offset_m": 0.5,
+      "alternative_y": null,
+      "interpretation_tolerance_m": 8,
+      "note": "Manual position compatible with the apparent water/sand edge in independent visual reading."
+    },
+    {
+      "display_index": 309,
+      "profile_id": "SC-C498-0-1",
+      "status": "accepted_visible_edge",
+      "proposed_y": 321,
+      "offset_m": 12.0,
+      "alternative_y": null,
+      "interpretation_tolerance_m": 8,
+      "note": "Manual position compatible with the apparent water/sand edge in independent visual reading."
+    },
+    {
+      "display_index": 310,
+      "profile_id": "SC-C493-0-0",
+      "status": "accepted_visible_edge",
+      "proposed_y": 328,
+      "offset_m": 8.5,
+      "alternative_y": null,
+      "interpretation_tolerance_m": 8,
+      "note": "Manual position compatible with the apparent water/sand edge in independent visual reading."
+    },
+    {
+      "display_index": 311,
+      "profile_id": "SC-C493-0-1",
+      "status": "accepted_visible_edge",
+      "proposed_y": 327,
+      "offset_m": 9.0,
+      "alternative_y": null,
+      "interpretation_tolerance_m": 8,
+      "note": "Manual position compatible with the apparent water/sand edge in independent visual reading."
+    },
+    {
+      "display_index": 312,
+      "profile_id": "SC-C492-0-0",
+      "status": "accepted_visible_edge",
+      "proposed_y": 333,
+      "offset_m": 6.0,
+      "alternative_y": null,
+      "interpretation_tolerance_m": 8,
+      "note": "Manual position compatible with the apparent water/sand edge in independent visual reading."
+    },
+    {
+      "display_index": 313,
+      "profile_id": "SC-491-0-0",
+      "status": "accepted_visible_edge",
+      "proposed_y": 331,
+      "offset_m": 7.0,
+      "alternative_y": null,
+      "interpretation_tolerance_m": 8,
+      "note": "Manual position compatible with the apparent water/sand edge in independent visual reading."
+    },
+    {
+      "display_index": 314,
+      "profile_id": "SC-C490-0-0",
+      "status": "accepted_visible_edge",
+      "proposed_y": 343,
+      "offset_m": 1.0,
+      "alternative_y": null,
+      "interpretation_tolerance_m": 8,
+      "note": "Manual position compatible with the apparent water/sand edge in independent visual reading."
+    },
+    {
+      "display_index": 315,
+      "profile_id": "SC-508-0-0",
+      "status": "accepted_visible_edge",
+      "proposed_y": 337,
+      "offset_m": 4.0,
+      "alternative_y": null,
+      "interpretation_tolerance_m": 8,
+      "note": "Manual position compatible with the apparent water/sand edge in independent visual reading."
+    },
+    {
+      "display_index": 316,
+      "profile_id": "SC-508-0-1",
+      "status": "accepted_visible_edge",
+      "proposed_y": 343,
+      "offset_m": 1.0,
+      "alternative_y": null,
+      "interpretation_tolerance_m": 8,
+      "note": "Manual position compatible with the apparent water/sand edge in independent visual reading."
+    },
+    {
+      "display_index": 317,
+      "profile_id": "SC-510-0-0",
+      "status": "accepted_visible_edge",
+      "proposed_y": 339,
+      "offset_m": 3.0,
+      "alternative_y": null,
+      "interpretation_tolerance_m": 8,
+      "note": "Manual position compatible with the apparent water/sand edge in independent visual reading."
+    },
+    {
+      "display_index": 318,
+      "profile_id": "SC-510-0-1",
+      "status": "accepted_visible_edge",
+      "proposed_y": 341,
+      "offset_m": 2.0,
+      "alternative_y": null,
+      "interpretation_tolerance_m": 8,
+      "note": "Manual position compatible with the apparent water/sand edge in independent visual reading."
+    },
+    {
+      "display_index": 319,
+      "profile_id": "SC-510-0-2",
+      "status": "accepted_visible_edge",
+      "proposed_y": 336,
+      "offset_m": 4.5,
+      "alternative_y": null,
+      "interpretation_tolerance_m": 8,
+      "note": "Manual position compatible with the apparent water/sand edge in independent visual reading."
+    },
+    {
+      "display_index": 320,
+      "profile_id": "SC-511-0-0",
+      "status": "accepted_visible_edge",
+      "proposed_y": 347,
+      "offset_m": -1.0,
+      "alternative_y": null,
+      "interpretation_tolerance_m": 8,
+      "note": "Manual position compatible with the apparent water/sand edge in independent visual reading."
+    },
+    {
+      "display_index": 321,
+      "profile_id": "SC-514-0-0",
+      "status": "accepted_visible_edge",
+      "proposed_y": 339,
+      "offset_m": 3.0,
+      "alternative_y": null,
+      "interpretation_tolerance_m": 8,
+      "note": "Manual position compatible with the apparent water/sand edge in independent visual reading."
+    },
+    {
+      "display_index": 322,
+      "profile_id": "SC-C515-0-0",
+      "status": "accepted_visible_edge",
+      "proposed_y": 345,
+      "offset_m": 0.0,
+      "alternative_y": null,
+      "interpretation_tolerance_m": 8,
+      "note": "Manual position compatible with the apparent water/sand edge in independent visual reading."
+    },
+    {
+      "display_index": 323,
+      "profile_id": "SC-C516-0-0",
+      "status": "accepted_visible_edge",
+      "proposed_y": 347,
+      "offset_m": -1.0,
+      "alternative_y": null,
+      "interpretation_tolerance_m": 8,
+      "note": "Manual position compatible with the apparent water/sand edge in independent visual reading."
+    },
+    {
+      "display_index": 324,
+      "profile_id": "SC-C516-0-1",
+      "status": "accepted_visible_edge",
+      "proposed_y": 355,
+      "offset_m": -5.0,
+      "alternative_y": null,
+      "interpretation_tolerance_m": 8,
+      "note": "Manual position compatible with the apparent water/sand edge in independent visual reading."
+    },
+    {
+      "display_index": 325,
+      "profile_id": "SC-C517-0-0",
+      "status": "accepted_visible_edge",
+      "proposed_y": 355,
+      "offset_m": -5.0,
+      "alternative_y": null,
+      "interpretation_tolerance_m": 8,
+      "note": "Manual position compatible with the apparent water/sand edge in independent visual reading."
+    },
+    {
+      "display_index": 326,
+      "profile_id": "SC-522-0-0",
+      "status": "accepted_visible_edge",
+      "proposed_y": 346,
+      "offset_m": -0.5,
+      "alternative_y": null,
+      "interpretation_tolerance_m": 8,
+      "note": "Manual position compatible with the apparent water/sand edge in independent visual reading."
+    },
+    {
+      "display_index": 327,
+      "profile_id": "SC-522-0-1",
+      "status": "accepted_visible_edge",
+      "proposed_y": 344,
+      "offset_m": 0.5,
+      "alternative_y": null,
+      "interpretation_tolerance_m": 8,
+      "note": "Manual position compatible with the apparent water/sand edge in independent visual reading."
+    },
+    {
+      "display_index": 328,
+      "profile_id": "SC-524-0-0",
+      "status": "accepted_visible_edge",
+      "proposed_y": 337,
+      "offset_m": 4.0,
+      "alternative_y": null,
+      "interpretation_tolerance_m": 8,
+      "note": "Manual position compatible with the apparent water/sand edge in independent visual reading."
+    },
+    {
+      "display_index": 329,
+      "profile_id": "SC-528-0-0",
+      "status": "accepted_visible_edge",
+      "proposed_y": 346,
+      "offset_m": -0.5,
+      "alternative_y": null,
+      "interpretation_tolerance_m": 8,
+      "note": "Manual position compatible with the apparent water/sand edge in independent visual reading."
+    },
+    {
+      "display_index": 330,
+      "profile_id": "SC-102-0-0",
+      "status": "accepted_visible_edge",
+      "proposed_y": 346,
+      "offset_m": -0.5,
+      "alternative_y": null,
+      "interpretation_tolerance_m": 8,
+      "note": "Manual position compatible with the apparent water/sand edge in independent visual reading."
+    },
+    {
+      "display_index": 331,
+      "profile_id": "SC-C531-0-0",
+      "status": "accepted_visible_edge",
+      "proposed_y": 354,
+      "offset_m": -4.5,
+      "alternative_y": null,
+      "interpretation_tolerance_m": 8,
+      "note": "Manual position compatible with the apparent water/sand edge in independent visual reading."
+    },
+    {
+      "display_index": 332,
+      "profile_id": "SC-C531-0-1",
+      "status": "accepted_visible_edge",
+      "proposed_y": 344,
+      "offset_m": 0.5,
+      "alternative_y": null,
+      "interpretation_tolerance_m": 8,
+      "note": "Manual position compatible with the apparent water/sand edge in independent visual reading."
+    },
+    {
+      "display_index": 333,
+      "profile_id": "SC-C532-0-0",
+      "status": "accepted_visible_edge",
+      "proposed_y": 354,
+      "offset_m": -4.5,
+      "alternative_y": null,
+      "interpretation_tolerance_m": 8,
+      "note": "Manual position compatible with the apparent water/sand edge in independent visual reading."
+    },
+    {
+      "display_index": 334,
+      "profile_id": "SC-C532-0-1",
+      "status": "accepted_visible_edge",
+      "proposed_y": 348,
+      "offset_m": -1.5,
+      "alternative_y": null,
+      "interpretation_tolerance_m": 8,
+      "note": "Manual position compatible with the apparent water/sand edge in independent visual reading."
+    },
+    {
+      "display_index": 335,
+      "profile_id": "SC-C533-0-0",
+      "status": "accepted_visible_edge",
+      "proposed_y": 357,
+      "offset_m": -6.0,
+      "alternative_y": null,
+      "interpretation_tolerance_m": 8,
+      "note": "Manual position compatible with the apparent water/sand edge in independent visual reading."
+    },
+    {
+      "display_index": 336,
+      "profile_id": "SC-C533-0-1",
+      "status": "accepted_visible_edge",
+      "proposed_y": 350,
+      "offset_m": -2.5,
+      "alternative_y": null,
+      "interpretation_tolerance_m": 8,
+      "note": "Manual position compatible with the apparent water/sand edge in independent visual reading."
+    },
+    {
+      "display_index": 337,
+      "profile_id": "SC-C536-0-0",
+      "status": "accepted_visible_edge",
+      "proposed_y": 344,
+      "offset_m": 0.5,
+      "alternative_y": null,
+      "interpretation_tolerance_m": 8,
+      "note": "Manual position compatible with the apparent water/sand edge in independent visual reading."
+    },
+    {
+      "display_index": 338,
+      "profile_id": "SC-C536-0-1",
+      "status": "accepted_visible_edge",
+      "proposed_y": 345,
+      "offset_m": 0.0,
+      "alternative_y": null,
+      "interpretation_tolerance_m": 8,
+      "note": "Manual position compatible with the apparent water/sand edge in independent visual reading."
+    },
+    {
+      "display_index": 339,
+      "profile_id": "SC-C537-0-0",
+      "status": "accepted_visible_edge",
+      "proposed_y": 342,
+      "offset_m": 1.5,
+      "alternative_y": null,
+      "interpretation_tolerance_m": 8,
+      "note": "Manual position compatible with the apparent water/sand edge in independent visual reading."
+    },
+    {
+      "display_index": 340,
+      "profile_id": "SC-C537-0-1",
+      "status": "accepted_visible_edge",
+      "proposed_y": 345,
+      "offset_m": 0.0,
+      "alternative_y": null,
+      "interpretation_tolerance_m": 8,
+      "note": "Manual position compatible with the apparent water/sand edge in independent visual reading."
+    },
+    {
+      "display_index": 341,
+      "profile_id": "SC-C538-0-0",
+      "status": "accepted_visible_edge",
+      "proposed_y": 344,
+      "offset_m": 0.5,
+      "alternative_y": null,
+      "interpretation_tolerance_m": 8,
+      "note": "Manual position compatible with the apparent water/sand edge in independent visual reading."
+    },
+    {
+      "display_index": 342,
+      "profile_id": "SC-542-0-0",
+      "status": "accepted_visible_edge",
+      "proposed_y": 349,
+      "offset_m": -2.0,
+      "alternative_y": null,
+      "interpretation_tolerance_m": 8,
+      "note": "Manual position compatible with the apparent water/sand edge in independent visual reading."
+    },
+    {
+      "display_index": 343,
+      "profile_id": "SC-544-0-0",
+      "status": "accepted_visible_edge",
+      "proposed_y": 352,
+      "offset_m": -3.5,
+      "alternative_y": null,
+      "interpretation_tolerance_m": 8,
+      "note": "Manual position compatible with the apparent water/sand edge in independent visual reading."
+    },
+    {
+      "display_index": 344,
+      "profile_id": "SC-544-0-1",
+      "status": "accepted_visible_edge",
+      "proposed_y": 352,
+      "offset_m": -3.5,
+      "alternative_y": null,
+      "interpretation_tolerance_m": 8,
+      "note": "Manual position compatible with the apparent water/sand edge in independent visual reading."
+    },
+    {
+      "display_index": 345,
+      "profile_id": "SC-546-0-0",
+      "status": "accepted_visible_edge",
+      "proposed_y": 343,
+      "offset_m": 1.0,
+      "alternative_y": null,
+      "interpretation_tolerance_m": 8,
+      "note": "Manual position compatible with the apparent water/sand edge in independent visual reading."
+    },
+    {
+      "display_index": 346,
+      "profile_id": "SC-548-0-0",
+      "status": "accepted_visible_edge",
+      "proposed_y": 346,
+      "offset_m": -0.5,
+      "alternative_y": null,
+      "interpretation_tolerance_m": 8,
+      "note": "Manual position compatible with the apparent water/sand edge in independent visual reading."
+    },
+    {
+      "display_index": 347,
+      "profile_id": "SC-550-0-0",
+      "status": "accepted_visible_edge",
+      "proposed_y": 338,
+      "offset_m": 3.5,
+      "alternative_y": null,
+      "interpretation_tolerance_m": 8,
+      "note": "Manual position compatible with the apparent water/sand edge in independent visual reading."
+    },
+    {
+      "display_index": 348,
+      "profile_id": "SC-552-0-0",
+      "status": "accepted_visible_edge",
+      "proposed_y": 348,
+      "offset_m": -1.5,
+      "alternative_y": null,
+      "interpretation_tolerance_m": 8,
+      "note": "Manual position compatible with the apparent water/sand edge in independent visual reading."
+    },
+    {
+      "display_index": 349,
+      "profile_id": "SC-552-0-1",
+      "status": "accepted_visible_edge",
+      "proposed_y": 344,
+      "offset_m": 0.5,
+      "alternative_y": null,
+      "interpretation_tolerance_m": 8,
+      "note": "Manual position compatible with the apparent water/sand edge in independent visual reading."
+    },
+    {
+      "display_index": 350,
+      "profile_id": "SC-556-0-0",
+      "status": "accepted_visible_edge",
+      "proposed_y": 344,
+      "offset_m": 0.5,
+      "alternative_y": null,
+      "interpretation_tolerance_m": 8,
+      "note": "Manual position compatible with the apparent water/sand edge in independent visual reading."
+    },
+    {
+      "display_index": 351,
+      "profile_id": "SC-556-0-1",
+      "status": "accepted_visible_edge",
+      "proposed_y": 345,
+      "offset_m": 0.0,
+      "alternative_y": null,
+      "interpretation_tolerance_m": 8,
+      "note": "Manual position compatible with the apparent water/sand edge in independent visual reading."
+    },
+    {
+      "display_index": 352,
+      "profile_id": "SC-93-0-0",
+      "status": "accepted_visible_edge",
+      "proposed_y": 326,
+      "offset_m": 9.5,
+      "alternative_y": null,
+      "interpretation_tolerance_m": 8,
+      "note": "Manual position compatible with the apparent water/sand edge in independent visual reading."
+    },
+    {
+      "display_index": 353,
+      "profile_id": "SC-C101-0-0",
+      "status": "accepted_visible_edge",
+      "proposed_y": 329,
+      "offset_m": 8.0,
+      "alternative_y": null,
+      "interpretation_tolerance_m": 8,
+      "note": "Manual position compatible with the apparent water/sand edge in independent visual reading."
+    },
+    {
+      "display_index": 354,
+      "profile_id": "SC-96-0-0",
+      "status": "accepted_visible_edge",
+      "proposed_y": 336,
+      "offset_m": 4.5,
+      "alternative_y": null,
+      "interpretation_tolerance_m": 8,
+      "note": "Manual position compatible with the apparent water/sand edge in independent visual reading."
+    },
+    {
+      "display_index": 355,
+      "profile_id": "SC-96-0-1",
+      "status": "accepted_visible_edge",
+      "proposed_y": 337,
+      "offset_m": 4.0,
+      "alternative_y": null,
+      "interpretation_tolerance_m": 8,
+      "note": "Manual position compatible with the apparent water/sand edge in independent visual reading."
+    },
+    {
+      "display_index": 356,
+      "profile_id": "SC-96-0-2",
+      "status": "accepted_visible_edge",
+      "proposed_y": 338,
+      "offset_m": 3.5,
+      "alternative_y": null,
+      "interpretation_tolerance_m": 8,
+      "note": "Manual position compatible with the apparent water/sand edge in independent visual reading."
+    },
+    {
+      "display_index": 357,
+      "profile_id": "SC-96-0-3",
+      "status": "accepted_visible_edge",
+      "proposed_y": 345,
+      "offset_m": 0.0,
+      "alternative_y": null,
+      "interpretation_tolerance_m": 8,
+      "note": "Manual position compatible with the apparent water/sand edge in independent visual reading."
+    },
+    {
+      "display_index": 358,
+      "profile_id": "SC-96-0-4",
+      "status": "accepted_visible_edge",
+      "proposed_y": 345,
+      "offset_m": 0.0,
+      "alternative_y": null,
+      "interpretation_tolerance_m": 8,
+      "note": "Manual position compatible with the apparent water/sand edge in independent visual reading."
+    },
+    {
+      "display_index": 359,
+      "profile_id": "SC-95-0-0",
+      "status": "accepted_visible_edge",
+      "proposed_y": 342,
+      "offset_m": 1.5,
+      "alternative_y": null,
+      "interpretation_tolerance_m": 8,
+      "note": "Manual position compatible with the apparent water/sand edge in independent visual reading."
+    },
+    {
+      "display_index": 360,
+      "profile_id": "SC-95-0-1",
+      "status": "accepted_visible_edge",
+      "proposed_y": 340,
+      "offset_m": 2.5,
+      "alternative_y": null,
+      "interpretation_tolerance_m": 8,
+      "note": "Manual position compatible with the apparent water/sand edge in independent visual reading."
+    },
+    {
+      "display_index": 361,
+      "profile_id": "SC-95-0-2",
+      "status": "accepted_visible_edge",
+      "proposed_y": 339,
+      "offset_m": 3.0,
+      "alternative_y": null,
+      "interpretation_tolerance_m": 8,
+      "note": "Manual position compatible with the apparent water/sand edge in independent visual reading."
+    },
+    {
+      "display_index": 362,
+      "profile_id": "SC-95-0-3",
+      "status": "accepted_visible_edge",
+      "proposed_y": 339,
+      "offset_m": 3.0,
+      "alternative_y": null,
+      "interpretation_tolerance_m": 8,
+      "note": "Manual position compatible with the apparent water/sand edge in independent visual reading."
+    },
+    {
+      "display_index": 363,
+      "profile_id": "SC-95-0-4",
+      "status": "accepted_visible_edge",
+      "proposed_y": 340,
+      "offset_m": 2.5,
+      "alternative_y": null,
+      "interpretation_tolerance_m": 8,
+      "note": "Manual position compatible with the apparent water/sand edge in independent visual reading."
+    },
+    {
+      "display_index": 364,
+      "profile_id": "SC-94-0-0",
+      "status": "accepted_visible_edge",
+      "proposed_y": 348,
+      "offset_m": -1.5,
+      "alternative_y": null,
+      "interpretation_tolerance_m": 8,
+      "note": "Manual position compatible with the apparent water/sand edge in independent visual reading."
+    },
+    {
+      "display_index": 365,
+      "profile_id": "SC-94-0-1",
+      "status": "accepted_visible_edge",
+      "proposed_y": 347,
+      "offset_m": -1.0,
+      "alternative_y": null,
+      "interpretation_tolerance_m": 8,
+      "note": "Manual position compatible with the apparent water/sand edge in independent visual reading."
+    },
+    {
+      "display_index": 366,
+      "profile_id": "SC-94-0-2",
+      "status": "accepted_visible_edge",
+      "proposed_y": 354,
+      "offset_m": -4.5,
+      "alternative_y": null,
+      "interpretation_tolerance_m": 8,
+      "note": "Manual position compatible with the apparent water/sand edge in independent visual reading."
+    },
+    {
+      "display_index": 367,
+      "profile_id": "SC-94-0-3",
+      "status": "accepted_visible_edge",
+      "proposed_y": 365,
+      "offset_m": -10.0,
+      "alternative_y": null,
+      "interpretation_tolerance_m": 8,
+      "note": "Manual position compatible with the apparent water/sand edge in independent visual reading."
+    },
+    {
+      "display_index": 368,
+      "profile_id": "SC-94-0-4",
+      "status": "accepted_visible_edge",
+      "proposed_y": 367,
+      "offset_m": -11.0,
+      "alternative_y": null,
+      "interpretation_tolerance_m": 8,
+      "note": "Manual position compatible with the apparent water/sand edge in independent visual reading."
+    },
+    {
+      "display_index": 369,
+      "profile_id": "SC-90-0-0",
+      "status": "accepted_visible_edge",
+      "proposed_y": 335,
+      "offset_m": 5.0,
+      "alternative_y": null,
+      "interpretation_tolerance_m": 8,
+      "note": "Manual position compatible with the apparent water/sand edge in independent visual reading."
+    },
+    {
+      "display_index": 370,
+      "profile_id": "SC-90-0-1",
+      "status": "accepted_visible_edge",
+      "proposed_y": 336,
+      "offset_m": 4.5,
+      "alternative_y": null,
+      "interpretation_tolerance_m": 8,
+      "note": "Manual position compatible with the apparent water/sand edge in independent visual reading."
+    },
+    {
+      "display_index": 371,
+      "profile_id": "SC-90-0-2",
+      "status": "accepted_visible_edge",
+      "proposed_y": 314,
+      "offset_m": 15.5,
+      "alternative_y": null,
+      "interpretation_tolerance_m": 8,
+      "note": "Manual position compatible with the apparent water/sand edge in independent visual reading."
+    },
+    {
+      "display_index": 372,
+      "profile_id": "SC-90-0-3",
+      "status": "pending_structure_obscures_reference",
+      "proposed_y": null,
+      "offset_m": null,
+      "alternative_y": null,
+      "interpretation_tolerance_m": 8,
+      "note": "Correctly left pending: transect crosses a pier/structure; no visible sand/sea reference can be assigned uniquely."
+    },
+    {
+      "display_index": 373,
+      "profile_id": "SC-90-0-4",
+      "status": "accepted_visible_edge",
+      "proposed_y": 348,
+      "offset_m": -1.5,
+      "alternative_y": null,
+      "interpretation_tolerance_m": 8,
+      "note": "Manual position compatible with the apparent water/sand edge in independent visual reading."
+    },
+    {
+      "display_index": 374,
+      "profile_id": "SC-90-0-5",
+      "status": "accepted_visible_edge",
+      "proposed_y": 341,
+      "offset_m": 2.0,
+      "alternative_y": null,
+      "interpretation_tolerance_m": 8,
+      "note": "Manual position compatible with the apparent water/sand edge in independent visual reading."
+    },
+    {
+      "display_index": 375,
+      "profile_id": "SC-90-0-6",
+      "status": "accepted_visible_edge",
+      "proposed_y": 348,
+      "offset_m": -1.5,
+      "alternative_y": null,
+      "interpretation_tolerance_m": 8,
+      "note": "Manual position compatible with the apparent water/sand edge in independent visual reading."
+    },
+    {
+      "display_index": 376,
+      "profile_id": "SC-90-0-7",
+      "status": "accepted_visible_edge",
+      "proposed_y": 352,
+      "offset_m": -3.5,
+      "alternative_y": null,
+      "interpretation_tolerance_m": 8,
+      "note": "Manual position compatible with the apparent water/sand edge in independent visual reading."
+    },
+    {
+      "display_index": 377,
+      "profile_id": "SC-90-0-8",
+      "status": "accepted_visible_edge",
+      "proposed_y": 359,
+      "offset_m": -7.0,
+      "alternative_y": null,
+      "interpretation_tolerance_m": 8,
+      "note": "Manual position compatible with the apparent water/sand edge in independent visual reading."
+    },
+    {
+      "display_index": 378,
+      "profile_id": "SC-90-0-9",
+      "status": "accepted_visible_edge",
+      "proposed_y": 373,
+      "offset_m": -14.0,
+      "alternative_y": null,
+      "interpretation_tolerance_m": 8,
+      "note": "Manual position compatible with the apparent water/sand edge in independent visual reading."
+    },
+    {
+      "display_index": 379,
+      "profile_id": "SC-90-0-10",
+      "status": "accepted_visible_edge",
+      "proposed_y": 374,
+      "offset_m": -14.5,
+      "alternative_y": null,
+      "interpretation_tolerance_m": 8,
+      "note": "Manual position compatible with the apparent water/sand edge in independent visual reading."
+    },
+    {
+      "display_index": 380,
+      "profile_id": "SC-90-0-11",
+      "status": "accepted_visible_edge",
+      "proposed_y": 374,
+      "offset_m": -14.5,
+      "alternative_y": null,
+      "interpretation_tolerance_m": 8,
+      "note": "Manual position compatible with the apparent water/sand edge in independent visual reading."
+    },
+    {
+      "display_index": 381,
+      "profile_id": "SC-90-0-12",
+      "status": "accepted_visible_edge",
+      "proposed_y": 381,
+      "offset_m": -18.0,
+      "alternative_y": null,
+      "interpretation_tolerance_m": 8,
+      "note": "Manual position compatible with the apparent water/sand edge in independent visual reading."
+    },
+    {
+      "display_index": 382,
+      "profile_id": "SC-90-0-13",
+      "status": "accepted_visible_edge",
+      "proposed_y": 384,
+      "offset_m": -19.5,
+      "alternative_y": null,
+      "interpretation_tolerance_m": 8,
+      "note": "Manual position compatible with the apparent water/sand edge in independent visual reading."
+    },
+    {
+      "display_index": 383,
+      "profile_id": "SC-90-0-14",
+      "status": "accepted_visible_edge",
+      "proposed_y": 386,
+      "offset_m": -20.5,
+      "alternative_y": null,
+      "interpretation_tolerance_m": 8,
+      "note": "Manual position compatible with the apparent water/sand edge in independent visual reading."
+    },
+    {
+      "display_index": 384,
+      "profile_id": "SC-90-0-15",
+      "status": "accepted_visible_edge",
+      "proposed_y": 386,
+      "offset_m": -20.5,
+      "alternative_y": null,
+      "interpretation_tolerance_m": 8,
+      "note": "Manual position compatible with the apparent water/sand edge in independent visual reading."
+    },
+    {
+      "display_index": 385,
+      "profile_id": "SC-90-0-16",
+      "status": "accepted_visible_edge",
+      "proposed_y": 399,
+      "offset_m": -27.0,
+      "alternative_y": null,
+      "interpretation_tolerance_m": 8,
+      "note": "Manual position compatible with the apparent water/sand edge in independent visual reading."
+    },
+    {
+      "display_index": 386,
+      "profile_id": "SC-90-0-17",
+      "status": "accepted_visible_edge",
+      "proposed_y": 413,
+      "offset_m": -34.0,
+      "alternative_y": null,
+      "interpretation_tolerance_m": 8,
+      "note": "Manual position compatible with the apparent water/sand edge in independent visual reading."
+    },
+    {
+      "display_index": 387,
+      "profile_id": "SC-90-0-18",
+      "status": "accepted_visible_edge",
+      "proposed_y": 428,
+      "offset_m": -41.5,
+      "alternative_y": null,
+      "interpretation_tolerance_m": 8,
+      "note": "Manual position compatible with the apparent water/sand edge in independent visual reading."
+    },
+    {
+      "display_index": 388,
+      "profile_id": "SC-90-0-19",
+      "status": "accepted_visible_edge",
+      "proposed_y": 451,
+      "offset_m": -53.0,
+      "alternative_y": null,
+      "interpretation_tolerance_m": 8,
+      "note": "Manual position compatible with the apparent water/sand edge in independent visual reading."
+    },
+    {
+      "display_index": 389,
+      "profile_id": "SC-90-0-20",
+      "status": "accepted_visible_edge",
+      "proposed_y": 469,
+      "offset_m": -62.0,
+      "alternative_y": null,
+      "interpretation_tolerance_m": 8,
+      "note": "Manual position compatible with the apparent water/sand edge in independent visual reading."
+    },
+    {
+      "display_index": 390,
+      "profile_id": "SC-90-0-21",
+      "status": "accepted_visible_edge",
+      "proposed_y": 501,
+      "offset_m": -78.0,
+      "alternative_y": null,
+      "interpretation_tolerance_m": 8,
+      "note": "Manual position compatible with the apparent water/sand edge in independent visual reading."
+    },
+    {
+      "display_index": 391,
+      "profile_id": "SC-90-0-22",
+      "status": "accepted_visible_edge",
+      "proposed_y": 504,
+      "offset_m": -79.5,
+      "alternative_y": null,
+      "interpretation_tolerance_m": 8,
+      "note": "Manual position compatible with the apparent water/sand edge in independent visual reading."
+    },
+    {
+      "display_index": 392,
+      "profile_id": "SC-90-0-23",
+      "status": "accepted_visible_edge",
+      "proposed_y": 518,
+      "offset_m": -86.5,
+      "alternative_y": null,
+      "interpretation_tolerance_m": 8,
+      "note": "Manual position compatible with the apparent water/sand edge in independent visual reading."
+    },
+    {
+      "display_index": 393,
+      "profile_id": "SC-90-0-24",
+      "status": "accepted_visible_edge",
+      "proposed_y": 520,
+      "offset_m": -87.5,
+      "alternative_y": null,
+      "interpretation_tolerance_m": 8,
+      "note": "Manual position compatible with the apparent water/sand edge in independent visual reading."
+    },
+    {
+      "display_index": 394,
+      "profile_id": "SC-90-0-25",
+      "status": "accepted_visible_edge",
+      "proposed_y": 514,
+      "offset_m": -84.5,
+      "alternative_y": null,
+      "interpretation_tolerance_m": 8,
+      "note": "Manual position compatible with the apparent water/sand edge in independent visual reading."
+    },
+    {
+      "display_index": 395,
+      "profile_id": "SC-90-0-26",
+      "status": "accepted_visible_edge",
+      "proposed_y": 516,
+      "offset_m": -85.5,
+      "alternative_y": null,
+      "interpretation_tolerance_m": 8,
+      "note": "Manual position compatible with the apparent water/sand edge in independent visual reading."
+    },
+    {
+      "display_index": 396,
+      "profile_id": "SC-90-0-27",
+      "status": "accepted_visible_edge",
+      "proposed_y": 519,
+      "offset_m": -87.0,
+      "alternative_y": null,
+      "interpretation_tolerance_m": 8,
+      "note": "Manual position compatible with the apparent water/sand edge in independent visual reading."
+    },
+    {
+      "display_index": 397,
+      "profile_id": "SC-90-0-28",
+      "status": "accepted_visible_edge",
+      "proposed_y": 520,
+      "offset_m": -87.5,
+      "alternative_y": null,
+      "interpretation_tolerance_m": 8,
+      "note": "Manual position compatible with the apparent water/sand edge in independent visual reading."
+    },
+    {
+      "display_index": 398,
+      "profile_id": "SC-90-0-29",
+      "status": "accepted_visible_edge",
+      "proposed_y": 499,
+      "offset_m": -77.0,
+      "alternative_y": null,
+      "interpretation_tolerance_m": 8,
+      "note": "Manual position compatible with the apparent water/sand edge in independent visual reading."
+    },
+    {
+      "display_index": 399,
+      "profile_id": "SC-90-0-30",
+      "status": "accepted_visible_edge",
+      "proposed_y": 460,
+      "offset_m": -57.5,
+      "alternative_y": null,
+      "interpretation_tolerance_m": 8,
+      "note": "Manual position compatible with the apparent water/sand edge in independent visual reading."
+    },
+    {
+      "display_index": 400,
+      "profile_id": "SC-90-0-31",
+      "status": "accepted_visible_edge",
+      "proposed_y": 431,
+      "offset_m": -43.0,
+      "alternative_y": null,
+      "interpretation_tolerance_m": 8,
+      "note": "Manual position compatible with the apparent water/sand edge in independent visual reading."
+    },
+    {
+      "display_index": 401,
+      "profile_id": "SC-90-0-32",
+      "status": "accepted_visible_edge",
+      "proposed_y": 448,
+      "offset_m": -51.5,
+      "alternative_y": null,
+      "interpretation_tolerance_m": 8,
+      "note": "Manual position compatible with the apparent water/sand edge in independent visual reading."
+    },
+    {
+      "display_index": 402,
+      "profile_id": "SC-90-0-33",
+      "status": "accepted_visible_edge",
+      "proposed_y": 411,
+      "offset_m": -33.0,
+      "alternative_y": null,
+      "interpretation_tolerance_m": 8,
+      "note": "Manual position compatible with the apparent water/sand edge in independent visual reading."
+    },
+    {
+      "display_index": 403,
+      "profile_id": "SC-90-0-34",
+      "status": "accepted_visible_edge",
+      "proposed_y": 418,
+      "offset_m": -36.5,
+      "alternative_y": null,
+      "interpretation_tolerance_m": 8,
+      "note": "Manual position compatible with the apparent water/sand edge in independent visual reading."
+    },
+    {
+      "display_index": 404,
+      "profile_id": "SC-90-0-35",
+      "status": "accepted_visible_edge",
+      "proposed_y": 446,
+      "offset_m": -50.5,
+      "alternative_y": null,
+      "interpretation_tolerance_m": 8,
+      "note": "Manual position compatible with the apparent water/sand edge in independent visual reading."
+    },
+    {
+      "display_index": 405,
+      "profile_id": "SC-90-0-36",
+      "status": "accepted_visible_edge",
+      "proposed_y": 423,
+      "offset_m": -39.0,
+      "alternative_y": null,
+      "interpretation_tolerance_m": 8,
+      "note": "Manual position compatible with the apparent water/sand edge in independent visual reading."
+    },
+    {
+      "display_index": 406,
+      "profile_id": "SC-89-0-0",
+      "status": "accepted_visible_edge",
+      "proposed_y": 424,
+      "offset_m": -39.5,
+      "alternative_y": null,
+      "interpretation_tolerance_m": 8,
+      "note": "Manual position compatible with the apparent water/sand edge in independent visual reading."
+    },
+    {
+      "display_index": 407,
+      "profile_id": "SC-89-0-1",
+      "status": "accepted_visible_edge",
+      "proposed_y": 429,
+      "offset_m": -42.0,
+      "alternative_y": null,
+      "interpretation_tolerance_m": 8,
+      "note": "Manual position compatible with the apparent water/sand edge in independent visual reading."
+    },
+    {
+      "display_index": 408,
+      "profile_id": "SC-89-0-2",
+      "status": "accepted_visible_edge",
+      "proposed_y": 428,
+      "offset_m": -41.5,
+      "alternative_y": null,
+      "interpretation_tolerance_m": 8,
+      "note": "Manual position compatible with the apparent water/sand edge in independent visual reading."
+    },
+    {
+      "display_index": 409,
+      "profile_id": "SC-89-0-3",
+      "status": "accepted_visible_edge",
+      "proposed_y": 415,
+      "offset_m": -35.0,
+      "alternative_y": null,
+      "interpretation_tolerance_m": 8,
+      "note": "Manual position compatible with the apparent water/sand edge in independent visual reading."
+    },
+    {
+      "display_index": 410,
+      "profile_id": "SC-89-0-4",
+      "status": "accepted_visible_edge",
+      "proposed_y": 391,
+      "offset_m": -23.0,
+      "alternative_y": null,
+      "interpretation_tolerance_m": 8,
+      "note": "Manual position compatible with the apparent water/sand edge in independent visual reading."
+    },
+    {
+      "display_index": 411,
+      "profile_id": "SC-89-0-5",
+      "status": "accepted_visible_edge",
+      "proposed_y": 384,
+      "offset_m": -19.5,
+      "alternative_y": null,
+      "interpretation_tolerance_m": 8,
+      "note": "Manual position compatible with the apparent water/sand edge in independent visual reading."
+    },
+    {
+      "display_index": 412,
+      "profile_id": "SC-89-0-6",
+      "status": "accepted_visible_edge",
+      "proposed_y": 378,
+      "offset_m": -16.5,
+      "alternative_y": null,
+      "interpretation_tolerance_m": 8,
+      "note": "Manual position compatible with the apparent water/sand edge in independent visual reading."
+    },
+    {
+      "display_index": 413,
+      "profile_id": "SC-89-0-7",
+      "status": "accepted_visible_edge",
+      "proposed_y": 367,
+      "offset_m": -11.0,
+      "alternative_y": null,
+      "interpretation_tolerance_m": 8,
+      "note": "Manual position compatible with the apparent water/sand edge in independent visual reading."
+    },
+    {
+      "display_index": 414,
+      "profile_id": "SC-89-0-8",
+      "status": "accepted_visible_edge",
+      "proposed_y": 349,
+      "offset_m": -2.0,
+      "alternative_y": null,
+      "interpretation_tolerance_m": 8,
+      "note": "Manual position compatible with the apparent water/sand edge in independent visual reading."
+    },
+    {
+      "display_index": 415,
+      "profile_id": "SC-89-0-9",
+      "status": "accepted_visible_edge",
+      "proposed_y": 342,
+      "offset_m": 1.5,
+      "alternative_y": null,
+      "interpretation_tolerance_m": 8,
+      "note": "Manual position compatible with the apparent water/sand edge in independent visual reading."
+    },
+    {
+      "display_index": 416,
+      "profile_id": "SC-89-0-10",
+      "status": "accepted_visible_edge",
+      "proposed_y": 342,
+      "offset_m": 1.5,
+      "alternative_y": null,
+      "interpretation_tolerance_m": 8,
+      "note": "Manual position compatible with the apparent water/sand edge in independent visual reading."
+    },
+    {
+      "display_index": 417,
+      "profile_id": "SC-89-0-11",
+      "status": "accepted_visible_edge",
+      "proposed_y": 350,
+      "offset_m": -2.5,
+      "alternative_y": null,
+      "interpretation_tolerance_m": 8,
+      "note": "Manual position compatible with the apparent water/sand edge in independent visual reading."
+    },
+    {
+      "display_index": 418,
+      "profile_id": "SC-89-0-12",
+      "status": "accepted_visible_edge",
+      "proposed_y": 332,
+      "offset_m": 6.5,
+      "alternative_y": null,
+      "interpretation_tolerance_m": 8,
+      "note": "Manual position compatible with the apparent water/sand edge in independent visual reading."
+    },
+    {
+      "display_index": 419,
+      "profile_id": "SC-89-0-13",
+      "status": "accepted_visible_edge",
+      "proposed_y": 319,
+      "offset_m": 13.0,
+      "alternative_y": null,
+      "interpretation_tolerance_m": 8,
+      "note": "Manual position compatible with the apparent water/sand edge in independent visual reading."
+    },
+    {
+      "display_index": 420,
+      "profile_id": "SC-89-0-14",
+      "status": "accepted_visible_edge",
+      "proposed_y": 318,
+      "offset_m": 13.5,
+      "alternative_y": null,
+      "interpretation_tolerance_m": 8,
+      "note": "Manual position compatible with the apparent water/sand edge in independent visual reading."
+    },
+    {
+      "display_index": 421,
+      "profile_id": "SC-89-0-15",
+      "status": "accepted_visible_edge",
+      "proposed_y": 299,
+      "offset_m": 23.0,
+      "alternative_y": null,
+      "interpretation_tolerance_m": 8,
+      "note": "Manual position compatible with the apparent water/sand edge in independent visual reading."
+    },
+    {
+      "display_index": 422,
+      "profile_id": "SC-89-0-16",
+      "status": "accepted_visible_edge",
+      "proposed_y": 330,
+      "offset_m": 7.5,
+      "alternative_y": null,
+      "interpretation_tolerance_m": 8,
+      "note": "Manual position compatible with the apparent water/sand edge in independent visual reading."
+    },
+    {
+      "display_index": 423,
+      "profile_id": "SC-89-0-17",
+      "status": "accepted_visible_edge",
+      "proposed_y": 333,
+      "offset_m": 6.0,
+      "alternative_y": null,
+      "interpretation_tolerance_m": 8,
+      "note": "Manual position compatible with the apparent water/sand edge in independent visual reading."
+    },
+    {
+      "display_index": 424,
+      "profile_id": "SC-89-0-18",
+      "status": "accepted_visible_edge",
+      "proposed_y": 336,
+      "offset_m": 4.5,
+      "alternative_y": null,
+      "interpretation_tolerance_m": 8,
+      "note": "Manual position compatible with the apparent water/sand edge in independent visual reading."
+    },
+    {
+      "display_index": 425,
+      "profile_id": "SC-89-0-19",
+      "status": "accepted_visible_edge",
+      "proposed_y": 323,
+      "offset_m": 11.0,
+      "alternative_y": null,
+      "interpretation_tolerance_m": 8,
+      "note": "Manual position compatible with the apparent water/sand edge in independent visual reading."
+    },
+    {
+      "display_index": 426,
+      "profile_id": "SC-89-0-20",
+      "status": "accepted_visible_edge",
+      "proposed_y": 324,
+      "offset_m": 10.5,
+      "alternative_y": null,
+      "interpretation_tolerance_m": 8,
+      "note": "Manual position compatible with the apparent water/sand edge in independent visual reading."
+    },
+    {
+      "display_index": 427,
+      "profile_id": "SC-89-0-21",
+      "status": "accepted_visible_edge",
+      "proposed_y": 308,
+      "offset_m": 18.5,
+      "alternative_y": null,
+      "interpretation_tolerance_m": 8,
+      "note": "Manual position compatible with the apparent water/sand edge in independent visual reading."
+    },
+    {
+      "display_index": 428,
+      "profile_id": "SC-89-0-22",
+      "status": "accepted_visible_edge",
+      "proposed_y": 323,
+      "offset_m": 11.0,
+      "alternative_y": null,
+      "interpretation_tolerance_m": 8,
+      "note": "Manual position compatible with the apparent water/sand edge in independent visual reading."
+    },
+    {
+      "display_index": 429,
+      "profile_id": "SC-89-0-23",
+      "status": "accepted_visible_edge",
+      "proposed_y": 313,
+      "offset_m": 16.0,
+      "alternative_y": null,
+      "interpretation_tolerance_m": 8,
+      "note": "Manual position compatible with the apparent water/sand edge in independent visual reading."
+    },
+    {
+      "display_index": 430,
+      "profile_id": "SC-89-0-24",
+      "status": "accepted_visible_edge",
+      "proposed_y": 301,
+      "offset_m": 22.0,
+      "alternative_y": null,
+      "interpretation_tolerance_m": 8,
+      "note": "Manual position compatible with the apparent water/sand edge in independent visual reading."
+    },
+    {
+      "display_index": 431,
+      "profile_id": "SC-89-0-25",
+      "status": "accepted_visible_edge",
+      "proposed_y": 299,
+      "offset_m": 23.0,
+      "alternative_y": null,
+      "interpretation_tolerance_m": 8,
+      "note": "Manual position compatible with the apparent water/sand edge in independent visual reading."
+    },
+    {
+      "display_index": 432,
+      "profile_id": "SC-89-0-26",
+      "status": "accepted_visible_edge",
+      "proposed_y": 322,
+      "offset_m": 11.5,
+      "alternative_y": null,
+      "interpretation_tolerance_m": 8,
+      "note": "Manual position compatible with the apparent water/sand edge in independent visual reading."
+    },
+    {
+      "display_index": 433,
+      "profile_id": "SC-89-0-27",
+      "status": "accepted_visible_edge",
+      "proposed_y": 338,
+      "offset_m": 3.5,
+      "alternative_y": null,
+      "interpretation_tolerance_m": 8,
+      "note": "Manual position compatible with the apparent water/sand edge in independent visual reading."
+    },
+    {
+      "display_index": 434,
+      "profile_id": "SC-89-0-28",
+      "status": "accepted_visible_edge",
+      "proposed_y": 337,
+      "offset_m": 4.0,
+      "alternative_y": null,
+      "interpretation_tolerance_m": 8,
+      "note": "Manual position compatible with the apparent water/sand edge in independent visual reading."
+    },
+    {
+      "display_index": 435,
+      "profile_id": "SC-89-0-29",
+      "status": "accepted_visible_edge",
+      "proposed_y": 308,
+      "offset_m": 18.5,
+      "alternative_y": null,
+      "interpretation_tolerance_m": 8,
+      "note": "Manual position compatible with the apparent water/sand edge in independent visual reading."
+    },
+    {
+      "display_index": 436,
+      "profile_id": "SC-89-0-30",
+      "status": "accepted_visible_edge",
+      "proposed_y": 325,
+      "offset_m": 10.0,
+      "alternative_y": null,
+      "interpretation_tolerance_m": 8,
+      "note": "Manual position compatible with the apparent water/sand edge in independent visual reading."
+    },
+    {
+      "display_index": 437,
+      "profile_id": "SC-89-0-31",
+      "status": "accepted_visible_edge",
+      "proposed_y": 340,
+      "offset_m": 2.5,
+      "alternative_y": null,
+      "interpretation_tolerance_m": 8,
+      "note": "Manual position compatible with the apparent water/sand edge in independent visual reading."
+    },
+    {
+      "display_index": 438,
+      "profile_id": "SC-89-0-32",
+      "status": "accepted_visible_edge",
+      "proposed_y": 359,
+      "offset_m": -7.0,
+      "alternative_y": null,
+      "interpretation_tolerance_m": 8,
+      "note": "Manual position compatible with the apparent water/sand edge in independent visual reading."
+    },
+    {
+      "display_index": 439,
+      "profile_id": "SC-89-0-33",
+      "status": "accepted_visible_edge",
+      "proposed_y": 334,
+      "offset_m": 5.5,
+      "alternative_y": null,
+      "interpretation_tolerance_m": 8,
+      "note": "Manual position compatible with the apparent water/sand edge in independent visual reading."
+    },
+    {
+      "display_index": 440,
+      "profile_id": "SC-89-0-34",
+      "status": "accepted_visible_edge",
+      "proposed_y": 334,
+      "offset_m": 5.5,
+      "alternative_y": null,
+      "interpretation_tolerance_m": 8,
+      "note": "Manual position compatible with the apparent water/sand edge in independent visual reading."
+    },
+    {
+      "display_index": 441,
+      "profile_id": "SC-89-0-35",
+      "status": "accepted_visible_edge",
+      "proposed_y": 327,
+      "offset_m": 9.0,
+      "alternative_y": null,
+      "interpretation_tolerance_m": 8,
+      "note": "Manual position compatible with the apparent water/sand edge in independent visual reading."
+    },
+    {
+      "display_index": 442,
+      "profile_id": "SC-89-0-36",
+      "status": "accepted_visible_edge",
+      "proposed_y": 330,
+      "offset_m": 7.5,
+      "alternative_y": null,
+      "interpretation_tolerance_m": 8,
+      "note": "Manual position compatible with the apparent water/sand edge in independent visual reading."
+    },
+    {
+      "display_index": 443,
+      "profile_id": "SC-89-0-37",
+      "status": "accepted_visible_edge",
+      "proposed_y": 336,
+      "offset_m": 4.5,
+      "alternative_y": null,
+      "interpretation_tolerance_m": 8,
+      "note": "Manual position compatible with the apparent water/sand edge in independent visual reading."
+    },
+    {
+      "display_index": 444,
+      "profile_id": "SC-89-0-38",
+      "status": "accepted_visible_edge",
+      "proposed_y": 352,
+      "offset_m": -3.5,
+      "alternative_y": null,
+      "interpretation_tolerance_m": 8,
+      "note": "Manual position compatible with the apparent water/sand edge in independent visual reading."
+    },
+    {
+      "display_index": 445,
+      "profile_id": "SC-89-0-39",
+      "status": "accepted_visible_edge",
+      "proposed_y": 339,
+      "offset_m": 3.0,
+      "alternative_y": null,
+      "interpretation_tolerance_m": 8,
+      "note": "Manual position compatible with the apparent water/sand edge in independent visual reading."
+    },
+    {
+      "display_index": 446,
+      "profile_id": "SC-89-0-40",
+      "status": "accepted_visible_edge",
+      "proposed_y": 347,
+      "offset_m": -1.0,
+      "alternative_y": null,
+      "interpretation_tolerance_m": 8,
+      "note": "Manual position compatible with the apparent water/sand edge in independent visual reading."
+    },
+    {
+      "display_index": 447,
+      "profile_id": "SC-89-0-41",
+      "status": "accepted_visible_edge",
+      "proposed_y": 353,
+      "offset_m": -4.0,
+      "alternative_y": null,
+      "interpretation_tolerance_m": 8,
+      "note": "Manual position compatible with the apparent water/sand edge in independent visual reading."
+    },
+    {
+      "display_index": 448,
+      "profile_id": "SC-89-0-42",
+      "status": "accepted_visible_edge",
+      "proposed_y": 366,
+      "offset_m": -10.5,
+      "alternative_y": null,
+      "interpretation_tolerance_m": 8,
+      "note": "Manual position compatible with the apparent water/sand edge in independent visual reading."
+    },
+    {
+      "display_index": 449,
+      "profile_id": "SC-89-0-43",
+      "status": "accepted_visible_edge",
+      "proposed_y": 360,
+      "offset_m": -7.5,
+      "alternative_y": null,
+      "interpretation_tolerance_m": 8,
+      "note": "Manual position compatible with the apparent water/sand edge in independent visual reading."
+    },
+    {
+      "display_index": 450,
+      "profile_id": "SC-89-0-44",
+      "status": "accepted_visible_edge",
+      "proposed_y": 345,
+      "offset_m": 0.0,
+      "alternative_y": null,
+      "interpretation_tolerance_m": 8,
+      "note": "Manual position compatible with the apparent water/sand edge in independent visual reading."
+    },
+    {
+      "display_index": 451,
+      "profile_id": "SC-89-0-45",
+      "status": "accepted_visible_edge",
+      "proposed_y": 356,
+      "offset_m": -5.5,
+      "alternative_y": null,
+      "interpretation_tolerance_m": 8,
+      "note": "Manual position compatible with the apparent water/sand edge in independent visual reading."
+    },
+    {
+      "display_index": 452,
+      "profile_id": "SC-89-0-46",
+      "status": "accepted_visible_edge",
+      "proposed_y": 344,
+      "offset_m": 0.5,
+      "alternative_y": null,
+      "interpretation_tolerance_m": 8,
+      "note": "Manual position compatible with the apparent water/sand edge in independent visual reading."
+    },
+    {
+      "display_index": 453,
+      "profile_id": "SC-89-0-47",
+      "status": "accepted_visible_edge",
+      "proposed_y": 350,
+      "offset_m": -2.5,
+      "alternative_y": null,
+      "interpretation_tolerance_m": 8,
+      "note": "Manual position compatible with the apparent water/sand edge in independent visual reading."
+    },
+    {
+      "display_index": 454,
+      "profile_id": "SC-89-0-48",
+      "status": "accepted_visible_edge",
+      "proposed_y": 353,
+      "offset_m": -4.0,
+      "alternative_y": null,
+      "interpretation_tolerance_m": 8,
+      "note": "Manual position compatible with the apparent water/sand edge in independent visual reading."
+    },
+    {
+      "display_index": 455,
+      "profile_id": "SC-89-0-49",
+      "status": "accepted_visible_edge",
+      "proposed_y": 350,
+      "offset_m": -2.5,
+      "alternative_y": null,
+      "interpretation_tolerance_m": 8,
+      "note": "Manual position compatible with the apparent water/sand edge in independent visual reading."
+    },
+    {
+      "display_index": 456,
+      "profile_id": "SC-89-0-50",
+      "status": "accepted_visible_edge",
+      "proposed_y": 348,
+      "offset_m": -1.5,
+      "alternative_y": null,
+      "interpretation_tolerance_m": 8,
+      "note": "Manual position compatible with the apparent water/sand edge in independent visual reading."
+    },
+    {
+      "display_index": 457,
+      "profile_id": "SC-89-0-51",
+      "status": "accepted_visible_edge",
+      "proposed_y": 369,
+      "offset_m": -12.0,
+      "alternative_y": null,
+      "interpretation_tolerance_m": 8,
+      "note": "Manual position compatible with the apparent water/sand edge in independent visual reading."
+    },
+    {
+      "display_index": 458,
+      "profile_id": "SC-89-0-52",
+      "status": "accepted_visible_edge",
+      "proposed_y": 383,
+      "offset_m": -19.0,
+      "alternative_y": null,
+      "interpretation_tolerance_m": 8,
+      "note": "Manual position compatible with the apparent water/sand edge in independent visual reading."
+    },
+    {
+      "display_index": 459,
+      "profile_id": "SC-89-0-53",
+      "status": "accepted_visible_edge",
+      "proposed_y": 383,
+      "offset_m": -19.0,
+      "alternative_y": null,
+      "interpretation_tolerance_m": 8,
+      "note": "Manual position compatible with the apparent water/sand edge in independent visual reading."
+    },
+    {
+      "display_index": 460,
+      "profile_id": "SC-89-0-54",
+      "status": "accepted_visible_edge",
+      "proposed_y": 378,
+      "offset_m": -16.5,
+      "alternative_y": null,
+      "interpretation_tolerance_m": 8,
+      "note": "Manual position compatible with the apparent water/sand edge in independent visual reading."
+    },
+    {
+      "display_index": 461,
+      "profile_id": "SC-89-0-55",
+      "status": "accepted_visible_edge",
+      "proposed_y": 373,
+      "offset_m": -14.0,
+      "alternative_y": null,
+      "interpretation_tolerance_m": 8,
+      "note": "Manual position compatible with the apparent water/sand edge in independent visual reading."
+    },
+    {
+      "display_index": 462,
+      "profile_id": "SC-89-0-56",
+      "status": "accepted_visible_edge",
+      "proposed_y": 377,
+      "offset_m": -16.0,
+      "alternative_y": null,
+      "interpretation_tolerance_m": 8,
+      "note": "Manual position compatible with the apparent water/sand edge in independent visual reading."
+    },
+    {
+      "display_index": 463,
+      "profile_id": "SC-89-0-57",
+      "status": "accepted_visible_edge",
+      "proposed_y": 337,
+      "offset_m": 4.0,
+      "alternative_y": null,
+      "interpretation_tolerance_m": 8,
+      "note": "Manual position compatible with the apparent water/sand edge in independent visual reading."
+    },
+    {
+      "display_index": 464,
+      "profile_id": "SC-89-0-58",
+      "status": "accepted_visible_edge",
+      "proposed_y": 354,
+      "offset_m": -4.5,
+      "alternative_y": null,
+      "interpretation_tolerance_m": 8,
+      "note": "Manual position compatible with the apparent water/sand edge in independent visual reading."
+    },
+    {
+      "display_index": 465,
+      "profile_id": "SC-89-0-59",
+      "status": "accepted_visible_edge",
+      "proposed_y": 363,
+      "offset_m": -9.0,
+      "alternative_y": null,
+      "interpretation_tolerance_m": 8,
+      "note": "Manual position compatible with the apparent water/sand edge in independent visual reading."
+    },
+    {
+      "display_index": 466,
+      "profile_id": "SC-89-0-60",
+      "status": "accepted_visible_edge",
+      "proposed_y": 352,
+      "offset_m": -3.5,
+      "alternative_y": null,
+      "interpretation_tolerance_m": 8,
+      "note": "Manual position compatible with the apparent water/sand edge in independent visual reading."
+    },
+    {
+      "display_index": 467,
+      "profile_id": "SC-C88-0-0",
+      "status": "pending_structure_obscures_reference",
+      "proposed_y": null,
+      "offset_m": null,
+      "alternative_y": null,
+      "interpretation_tolerance_m": 8,
+      "note": "Correctly left pending: transect crosses a pier/structure; no visible sand/sea reference can be assigned uniquely."
+    },
+    {
+      "display_index": 468,
+      "profile_id": "SC-88-0-0",
+      "status": "accepted_visible_edge",
+      "proposed_y": 337,
+      "offset_m": 4.0,
+      "alternative_y": null,
+      "interpretation_tolerance_m": 8,
+      "note": "Manual position compatible with the apparent water/sand edge in independent visual reading."
+    },
+    {
+      "display_index": 469,
+      "profile_id": "SC-88-0-1",
+      "status": "accepted_visible_edge",
+      "proposed_y": 318,
+      "offset_m": 13.5,
+      "alternative_y": null,
+      "interpretation_tolerance_m": 8,
+      "note": "Manual position compatible with the apparent water/sand edge in independent visual reading."
+    },
+    {
+      "display_index": 470,
+      "profile_id": "SC-88-0-2",
+      "status": "accepted_visible_edge",
+      "proposed_y": 328,
+      "offset_m": 8.5,
+      "alternative_y": null,
+      "interpretation_tolerance_m": 8,
+      "note": "Manual position compatible with the apparent water/sand edge in independent visual reading."
+    },
+    {
+      "display_index": 471,
+      "profile_id": "SC-88-0-3",
+      "status": "accepted_visible_edge",
+      "proposed_y": 318,
+      "offset_m": 13.5,
+      "alternative_y": null,
+      "interpretation_tolerance_m": 8,
+      "note": "Manual position compatible with the apparent water/sand edge in independent visual reading."
+    },
+    {
+      "display_index": 472,
+      "profile_id": "SC-88-0-4",
+      "status": "accepted_visible_edge",
+      "proposed_y": 319,
+      "offset_m": 13.0,
+      "alternative_y": null,
+      "interpretation_tolerance_m": 8,
+      "note": "Manual position compatible with the apparent water/sand edge in independent visual reading."
+    },
+    {
+      "display_index": 473,
+      "profile_id": "SC-88-0-5",
+      "status": "accepted_visible_edge",
+      "proposed_y": 335,
+      "offset_m": 5.0,
+      "alternative_y": null,
+      "interpretation_tolerance_m": 8,
+      "note": "Manual position compatible with the apparent water/sand edge in independent visual reading."
+    },
+    {
+      "display_index": 474,
+      "profile_id": "SC-88-0-6",
+      "status": "accepted_visible_edge",
+      "proposed_y": 327,
+      "offset_m": 9.0,
+      "alternative_y": null,
+      "interpretation_tolerance_m": 8,
+      "note": "Manual position compatible with the apparent water/sand edge in independent visual reading."
+    },
+    {
+      "display_index": 475,
+      "profile_id": "SC-88-0-7",
+      "status": "accepted_visible_edge",
+      "proposed_y": 323,
+      "offset_m": 11.0,
+      "alternative_y": null,
+      "interpretation_tolerance_m": 8,
+      "note": "Manual position compatible with the apparent water/sand edge in independent visual reading."
+    },
+    {
+      "display_index": 476,
+      "profile_id": "SC-88-0-8",
+      "status": "accepted_visible_edge",
+      "proposed_y": 334,
+      "offset_m": 5.5,
+      "alternative_y": null,
+      "interpretation_tolerance_m": 8,
+      "note": "Manual position compatible with the apparent water/sand edge in independent visual reading."
+    },
+    {
+      "display_index": 477,
+      "profile_id": "SC-88-0-9",
+      "status": "accepted_visible_edge",
+      "proposed_y": 341,
+      "offset_m": 2.0,
+      "alternative_y": null,
+      "interpretation_tolerance_m": 8,
+      "note": "Manual position compatible with the apparent water/sand edge in independent visual reading."
+    },
+    {
+      "display_index": 478,
+      "profile_id": "SC-88-0-10",
+      "status": "accepted_visible_edge",
+      "proposed_y": 357,
+      "offset_m": -6.0,
+      "alternative_y": null,
+      "interpretation_tolerance_m": 8,
+      "note": "Manual position compatible with the apparent water/sand edge in independent visual reading."
+    },
+    {
+      "display_index": 479,
+      "profile_id": "SC-88-0-11",
+      "status": "accepted_visible_edge",
+      "proposed_y": 366,
+      "offset_m": -10.5,
+      "alternative_y": null,
+      "interpretation_tolerance_m": 8,
+      "note": "Manual position compatible with the apparent water/sand edge in independent visual reading."
+    },
+    {
+      "display_index": 480,
+      "profile_id": "SC-88-0-12",
+      "status": "accepted_visible_edge",
+      "proposed_y": 349,
+      "offset_m": -2.0,
+      "alternative_y": null,
+      "interpretation_tolerance_m": 8,
+      "note": "Manual position compatible with the apparent water/sand edge in independent visual reading."
+    },
+    {
+      "display_index": 481,
+      "profile_id": "SC-88-0-13",
+      "status": "accepted_visible_edge",
+      "proposed_y": 357,
+      "offset_m": -6.0,
+      "alternative_y": null,
+      "interpretation_tolerance_m": 8,
+      "note": "Manual position compatible with the apparent water/sand edge in independent visual reading."
+    },
+    {
+      "display_index": 482,
+      "profile_id": "SC-88-0-14",
+      "status": "accepted_visible_edge",
+      "proposed_y": 364,
+      "offset_m": -9.5,
+      "alternative_y": null,
+      "interpretation_tolerance_m": 8,
+      "note": "Manual position compatible with the apparent water/sand edge in independent visual reading."
+    },
+    {
+      "display_index": 483,
+      "profile_id": "SC-88-0-15",
+      "status": "accepted_visible_edge",
+      "proposed_y": 351,
+      "offset_m": -3.0,
+      "alternative_y": null,
+      "interpretation_tolerance_m": 8,
+      "note": "Manual position compatible with the apparent water/sand edge in independent visual reading."
+    },
+    {
+      "display_index": 484,
+      "profile_id": "SC-88-0-16",
+      "status": "accepted_visible_edge",
+      "proposed_y": 381,
+      "offset_m": -18.0,
+      "alternative_y": null,
+      "interpretation_tolerance_m": 8,
+      "note": "Manual position compatible with the apparent water/sand edge in independent visual reading."
+    },
+    {
+      "display_index": 485,
+      "profile_id": "SC-88-0-17",
+      "status": "accepted_visible_edge",
+      "proposed_y": 371,
+      "offset_m": -13.0,
+      "alternative_y": null,
+      "interpretation_tolerance_m": 8,
+      "note": "Manual position compatible with the apparent water/sand edge in independent visual reading."
+    },
+    {
+      "display_index": 486,
+      "profile_id": "SC-88-0-18",
+      "status": "accepted_visible_edge",
+      "proposed_y": 362,
+      "offset_m": -8.5,
+      "alternative_y": null,
+      "interpretation_tolerance_m": 8,
+      "note": "Manual position compatible with the apparent water/sand edge in independent visual reading."
+    },
+    {
+      "display_index": 487,
+      "profile_id": "SC-88-0-19",
+      "status": "accepted_visible_edge",
+      "proposed_y": 379,
+      "offset_m": -17.0,
+      "alternative_y": null,
+      "interpretation_tolerance_m": 8,
+      "note": "Manual position compatible with the apparent water/sand edge in independent visual reading."
+    },
+    {
+      "display_index": 488,
+      "profile_id": "SC-88-0-24",
+      "status": "accepted_visible_edge",
+      "proposed_y": 332,
+      "offset_m": 6.5,
+      "alternative_y": null,
+      "interpretation_tolerance_m": 8,
+      "note": "Manual position compatible with the apparent water/sand edge in independent visual reading."
+    },
+    {
+      "display_index": 489,
+      "profile_id": "SC-88-0-25",
+      "status": "accepted_visible_edge",
+      "proposed_y": 330,
+      "offset_m": 7.5,
+      "alternative_y": null,
+      "interpretation_tolerance_m": 8,
+      "note": "Manual position compatible with the apparent water/sand edge in independent visual reading."
+    },
+    {
+      "display_index": 490,
+      "profile_id": "SC-88-0-26",
+      "status": "accepted_visible_edge",
+      "proposed_y": 330,
+      "offset_m": 7.5,
+      "alternative_y": null,
+      "interpretation_tolerance_m": 8,
+      "note": "Manual position compatible with the apparent water/sand edge in independent visual reading."
+    },
+    {
+      "display_index": 491,
+      "profile_id": "SC-88-0-27",
+      "status": "accepted_visible_edge",
+      "proposed_y": 324,
+      "offset_m": 10.5,
+      "alternative_y": null,
+      "interpretation_tolerance_m": 8,
+      "note": "Manual position compatible with the apparent water/sand edge in independent visual reading."
+    },
+    {
+      "display_index": 492,
+      "profile_id": "SC-88-0-28",
+      "status": "accepted_visible_edge",
+      "proposed_y": 339,
+      "offset_m": 3.0,
+      "alternative_y": null,
+      "interpretation_tolerance_m": 8,
+      "note": "Manual position compatible with the apparent water/sand edge in independent visual reading."
+    },
+    {
+      "display_index": 493,
+      "profile_id": "SC-88-0-29",
+      "status": "accepted_visible_edge",
+      "proposed_y": 348,
+      "offset_m": -1.5,
+      "alternative_y": null,
+      "interpretation_tolerance_m": 8,
+      "note": "Manual position compatible with the apparent water/sand edge in independent visual reading."
+    },
+    {
+      "display_index": 494,
+      "profile_id": "SC-88-0-30",
+      "status": "accepted_visible_edge",
+      "proposed_y": 320,
+      "offset_m": 12.5,
+      "alternative_y": null,
+      "interpretation_tolerance_m": 8,
+      "note": "Manual position compatible with the apparent water/sand edge in independent visual reading."
+    },
+    {
+      "display_index": 495,
+      "profile_id": "SC-88-0-31",
+      "status": "accepted_visible_edge",
+      "proposed_y": 329,
+      "offset_m": 8.0,
+      "alternative_y": null,
+      "interpretation_tolerance_m": 8,
+      "note": "Manual position compatible with the apparent water/sand edge in independent visual reading."
+    },
+    {
+      "display_index": 496,
+      "profile_id": "SC-88-0-32",
+      "status": "accepted_visible_edge",
+      "proposed_y": 350,
+      "offset_m": -2.5,
+      "alternative_y": null,
+      "interpretation_tolerance_m": 8,
+      "note": "Manual position compatible with the apparent water/sand edge in independent visual reading."
+    },
+    {
+      "display_index": 497,
+      "profile_id": "SC-88-0-33",
+      "status": "accepted_visible_edge",
+      "proposed_y": 338,
+      "offset_m": 3.5,
+      "alternative_y": null,
+      "interpretation_tolerance_m": 8,
+      "note": "Manual position compatible with the apparent water/sand edge in independent visual reading."
+    },
+    {
+      "display_index": 498,
+      "profile_id": "SC-88-0-34",
+      "status": "accepted_visible_edge",
+      "proposed_y": 334,
+      "offset_m": 5.5,
+      "alternative_y": null,
+      "interpretation_tolerance_m": 8,
+      "note": "Manual position compatible with the apparent water/sand edge in independent visual reading."
+    },
+    {
+      "display_index": 499,
+      "profile_id": "SC-88-0-35",
+      "status": "accepted_visible_edge",
+      "proposed_y": 325,
+      "offset_m": 10.0,
+      "alternative_y": null,
+      "interpretation_tolerance_m": 8,
+      "note": "Manual position compatible with the apparent water/sand edge in independent visual reading."
+    },
+    {
+      "display_index": 500,
+      "profile_id": "SC-88-0-36",
+      "status": "accepted_visible_edge",
+      "proposed_y": 342,
+      "offset_m": 1.5,
+      "alternative_y": null,
+      "interpretation_tolerance_m": 8,
+      "note": "Manual position compatible with the apparent water/sand edge in independent visual reading."
+    },
+    {
+      "display_index": 501,
+      "profile_id": "SC-88-0-37",
+      "status": "accepted_visible_edge",
+      "proposed_y": 351,
+      "offset_m": -3.0,
+      "alternative_y": null,
+      "interpretation_tolerance_m": 8,
+      "note": "Manual position compatible with the apparent water/sand edge in independent visual reading."
+    },
+    {
+      "display_index": 502,
+      "profile_id": "SC-88-0-38",
+      "status": "accepted_visible_edge",
+      "proposed_y": 352,
+      "offset_m": -3.5,
+      "alternative_y": null,
+      "interpretation_tolerance_m": 8,
+      "note": "Manual position compatible with the apparent water/sand edge in independent visual reading."
+    },
+    {
+      "display_index": 503,
+      "profile_id": "SC-88-0-39",
+      "status": "accepted_visible_edge",
+      "proposed_y": 356,
+      "offset_m": -5.5,
+      "alternative_y": null,
+      "interpretation_tolerance_m": 8,
+      "note": "Manual position compatible with the apparent water/sand edge in independent visual reading."
+    },
+    {
+      "display_index": 504,
+      "profile_id": "SC-88-0-40",
+      "status": "accepted_visible_edge",
+      "proposed_y": 364,
+      "offset_m": -9.5,
+      "alternative_y": null,
+      "interpretation_tolerance_m": 8,
+      "note": "Manual position compatible with the apparent water/sand edge in independent visual reading."
+    },
+    {
+      "display_index": 505,
+      "profile_id": "SC-88-0-41",
+      "status": "accepted_visible_edge",
+      "proposed_y": 358,
+      "offset_m": -6.5,
+      "alternative_y": null,
+      "interpretation_tolerance_m": 8,
+      "note": "Manual position compatible with the apparent water/sand edge in independent visual reading."
+    },
+    {
+      "display_index": 506,
+      "profile_id": "SC-88-0-42",
+      "status": "accepted_visible_edge",
+      "proposed_y": 347,
+      "offset_m": -1.0,
+      "alternative_y": null,
+      "interpretation_tolerance_m": 8,
+      "note": "Manual position compatible with the apparent water/sand edge in independent visual reading."
+    },
+    {
+      "display_index": 507,
+      "profile_id": "SC-88-0-43",
+      "status": "accepted_visible_edge",
+      "proposed_y": 350,
+      "offset_m": -2.5,
+      "alternative_y": null,
+      "interpretation_tolerance_m": 8,
+      "note": "Manual position compatible with the apparent water/sand edge in independent visual reading."
+    },
+    {
+      "display_index": 508,
+      "profile_id": "SC-88-0-44",
+      "status": "accepted_visible_edge",
+      "proposed_y": 336,
+      "offset_m": 4.5,
+      "alternative_y": null,
+      "interpretation_tolerance_m": 8,
+      "note": "Manual position compatible with the apparent water/sand edge in independent visual reading."
+    },
+    {
+      "display_index": 509,
+      "profile_id": "SC-88-0-45",
+      "status": "accepted_visible_edge",
+      "proposed_y": 332,
+      "offset_m": 6.5,
+      "alternative_y": null,
+      "interpretation_tolerance_m": 8,
+      "note": "Manual position compatible with the apparent water/sand edge in independent visual reading."
+    },
+    {
+      "display_index": 510,
+      "profile_id": "SC-88-0-46",
+      "status": "accepted_visible_edge",
+      "proposed_y": 349,
+      "offset_m": -2.0,
+      "alternative_y": null,
+      "interpretation_tolerance_m": 8,
+      "note": "Manual position compatible with the apparent water/sand edge in independent visual reading."
+    },
+    {
+      "display_index": 511,
+      "profile_id": "SC-88-0-47",
+      "status": "accepted_visible_edge",
+      "proposed_y": 322,
+      "offset_m": 11.5,
+      "alternative_y": null,
+      "interpretation_tolerance_m": 8,
+      "note": "Manual position compatible with the apparent water/sand edge in independent visual reading."
+    },
+    {
+      "display_index": 512,
+      "profile_id": "SC-88-0-48",
+      "status": "accepted_visible_edge",
+      "proposed_y": 343,
+      "offset_m": 1.0,
+      "alternative_y": null,
+      "interpretation_tolerance_m": 8,
+      "note": "Manual position compatible with the apparent water/sand edge in independent visual reading."
+    },
+    {
+      "display_index": 513,
+      "profile_id": "SC-88-0-49",
+      "status": "accepted_visible_edge",
+      "proposed_y": 289,
+      "offset_m": 28.0,
+      "alternative_y": null,
+      "interpretation_tolerance_m": 8,
+      "note": "Manual position compatible with the apparent water/sand edge in independent visual reading."
+    },
+    {
+      "display_index": 514,
+      "profile_id": "SC-88-0-50",
+      "status": "accepted_visible_edge",
+      "proposed_y": 298,
+      "offset_m": 23.5,
+      "alternative_y": null,
+      "interpretation_tolerance_m": 8,
+      "note": "Manual position compatible with the apparent water/sand edge in independent visual reading."
+    },
+    {
+      "display_index": 515,
+      "profile_id": "SC-88-0-51",
+      "status": "accepted_visible_edge",
+      "proposed_y": 276,
+      "offset_m": 34.5,
+      "alternative_y": null,
+      "interpretation_tolerance_m": 8,
+      "note": "Manual position compatible with the apparent water/sand edge in independent visual reading."
+    },
+    {
+      "display_index": 516,
+      "profile_id": "SC-88-0-52",
+      "status": "accepted_visible_edge",
+      "proposed_y": 307,
+      "offset_m": 19.0,
+      "alternative_y": null,
+      "interpretation_tolerance_m": 8,
+      "note": "Manual position compatible with the apparent water/sand edge in independent visual reading."
+    },
+    {
+      "display_index": 517,
+      "profile_id": "SC-88-0-53",
+      "status": "accepted_visible_edge",
+      "proposed_y": 341,
+      "offset_m": 2.0,
+      "alternative_y": null,
+      "interpretation_tolerance_m": 8,
+      "note": "Manual position compatible with the apparent water/sand edge in independent visual reading."
+    },
+    {
+      "display_index": 518,
+      "profile_id": "SC-88-0-54",
+      "status": "accepted_visible_edge",
+      "proposed_y": 300,
+      "offset_m": 22.5,
+      "alternative_y": null,
+      "interpretation_tolerance_m": 8,
+      "note": "Manual position compatible with the apparent water/sand edge in independent visual reading."
+    },
+    {
+      "display_index": 519,
+      "profile_id": "SC-88-0-55",
+      "status": "accepted_visible_edge",
+      "proposed_y": 341,
+      "offset_m": 2.0,
+      "alternative_y": null,
+      "interpretation_tolerance_m": 8,
+      "note": "Manual position compatible with the apparent water/sand edge in independent visual reading."
+    },
+    {
+      "display_index": 520,
+      "profile_id": "SC-88-0-56",
+      "status": "accepted_visible_edge",
+      "proposed_y": 333,
+      "offset_m": 6.0,
+      "alternative_y": null,
+      "interpretation_tolerance_m": 8,
+      "note": "Manual position compatible with the apparent water/sand edge in independent visual reading."
+    },
+    {
+      "display_index": 521,
+      "profile_id": "SC-88-0-57",
+      "status": "accepted_visible_edge",
+      "proposed_y": 335,
+      "offset_m": 5.0,
+      "alternative_y": null,
+      "interpretation_tolerance_m": 8,
+      "note": "Manual position compatible with the apparent water/sand edge in independent visual reading."
+    },
+    {
+      "display_index": 522,
+      "profile_id": "SC-88-0-58",
+      "status": "accepted_visible_edge",
+      "proposed_y": 339,
+      "offset_m": 3.0,
+      "alternative_y": null,
+      "interpretation_tolerance_m": 8,
+      "note": "Manual position compatible with the apparent water/sand edge in independent visual reading."
+    },
+    {
+      "display_index": 523,
+      "profile_id": "SC-88-0-59",
+      "status": "accepted_visible_edge",
+      "proposed_y": 328,
+      "offset_m": 8.5,
+      "alternative_y": null,
+      "interpretation_tolerance_m": 8,
+      "note": "Manual position compatible with the apparent water/sand edge in independent visual reading."
+    },
+    {
+      "display_index": 524,
+      "profile_id": "SC-88-0-60",
+      "status": "accepted_visible_edge",
+      "proposed_y": 351,
+      "offset_m": -3.0,
+      "alternative_y": null,
+      "interpretation_tolerance_m": 8,
+      "note": "Manual position compatible with the apparent water/sand edge in independent visual reading."
+    },
+    {
+      "display_index": 525,
+      "profile_id": "SC-88-0-61",
+      "status": "accepted_visible_edge",
+      "proposed_y": 350,
+      "offset_m": -2.5,
+      "alternative_y": null,
+      "interpretation_tolerance_m": 8,
+      "note": "Manual position compatible with the apparent water/sand edge in independent visual reading."
+    },
+    {
+      "display_index": 526,
+      "profile_id": "SC-88-0-62",
+      "status": "accepted_visible_edge",
+      "proposed_y": 370,
+      "offset_m": -12.5,
+      "alternative_y": null,
+      "interpretation_tolerance_m": 8,
+      "note": "Manual position compatible with the apparent water/sand edge in independent visual reading."
+    },
+    {
+      "display_index": 527,
+      "profile_id": "SC-88-0-63",
+      "status": "accepted_visible_edge",
+      "proposed_y": 357,
+      "offset_m": -6.0,
+      "alternative_y": null,
+      "interpretation_tolerance_m": 8,
+      "note": "Manual position compatible with the apparent water/sand edge in independent visual reading."
+    },
+    {
+      "display_index": 528,
+      "profile_id": "SC-88-0-64",
+      "status": "accepted_visible_edge",
+      "proposed_y": 344,
+      "offset_m": 0.5,
+      "alternative_y": null,
+      "interpretation_tolerance_m": 8,
+      "note": "Manual position compatible with the apparent water/sand edge in independent visual reading."
+    },
+    {
+      "display_index": 529,
+      "profile_id": "SC-88-0-65",
+      "status": "accepted_visible_edge",
+      "proposed_y": 350,
+      "offset_m": -2.5,
+      "alternative_y": null,
+      "interpretation_tolerance_m": 8,
+      "note": "Manual position compatible with the apparent water/sand edge in independent visual reading."
+    },
+    {
+      "display_index": 530,
+      "profile_id": "SC-88-0-66",
+      "status": "accepted_visible_edge",
+      "proposed_y": 370,
+      "offset_m": -12.5,
+      "alternative_y": null,
+      "interpretation_tolerance_m": 8,
+      "note": "Manual position compatible with the apparent water/sand edge in independent visual reading."
+    },
+    {
+      "display_index": 531,
+      "profile_id": "SC-88-0-67",
+      "status": "accepted_visible_edge",
+      "proposed_y": 400,
+      "offset_m": -27.5,
+      "alternative_y": null,
+      "interpretation_tolerance_m": 8,
+      "note": "Manual position compatible with the apparent water/sand edge in independent visual reading."
+    },
+    {
+      "display_index": 532,
+      "profile_id": "SC-88-0-68",
+      "status": "accepted_visible_edge",
+      "proposed_y": 379,
+      "offset_m": -17.0,
+      "alternative_y": null,
+      "interpretation_tolerance_m": 8,
+      "note": "Manual position compatible with the apparent water/sand edge in independent visual reading."
+    },
+    {
+      "display_index": 533,
+      "profile_id": "SC-88-0-69",
+      "status": "accepted_visible_edge",
+      "proposed_y": 359,
+      "offset_m": -7.0,
+      "alternative_y": null,
+      "interpretation_tolerance_m": 8,
+      "note": "Manual position compatible with the apparent water/sand edge in independent visual reading."
+    },
+    {
+      "display_index": 534,
+      "profile_id": "SC-88-0-70",
+      "status": "accepted_visible_edge",
+      "proposed_y": 331,
+      "offset_m": 7.0,
+      "alternative_y": null,
+      "interpretation_tolerance_m": 8,
+      "note": "Manual position compatible with the apparent water/sand edge in independent visual reading."
+    },
+    {
+      "display_index": 535,
+      "profile_id": "SC-88-0-71",
+      "status": "accepted_visible_edge",
+      "proposed_y": 332,
+      "offset_m": 6.5,
+      "alternative_y": null,
+      "interpretation_tolerance_m": 8,
+      "note": "Manual position compatible with the apparent water/sand edge in independent visual reading."
+    },
+    {
+      "display_index": 536,
+      "profile_id": "SC-88-0-72",
+      "status": "accepted_visible_edge",
+      "proposed_y": 338,
+      "offset_m": 3.5,
+      "alternative_y": null,
+      "interpretation_tolerance_m": 8,
+      "note": "Manual position compatible with the apparent water/sand edge in independent visual reading."
+    },
+    {
+      "display_index": 537,
+      "profile_id": "SC-88-0-73",
+      "status": "accepted_visible_edge",
+      "proposed_y": 349,
+      "offset_m": -2.0,
+      "alternative_y": null,
+      "interpretation_tolerance_m": 8,
+      "note": "Manual position compatible with the apparent water/sand edge in independent visual reading."
+    },
+    {
+      "display_index": 538,
+      "profile_id": "SC-88-0-74",
+      "status": "accepted_visible_edge",
+      "proposed_y": 355,
+      "offset_m": -5.0,
+      "alternative_y": null,
+      "interpretation_tolerance_m": 8,
+      "note": "Manual position compatible with the apparent water/sand edge in independent visual reading."
+    },
+    {
+      "display_index": 539,
+      "profile_id": "SC-88-0-75",
+      "status": "accepted_visible_edge",
+      "proposed_y": 347,
+      "offset_m": -1.0,
+      "alternative_y": null,
+      "interpretation_tolerance_m": 8,
+      "note": "Manual position compatible with the apparent water/sand edge in independent visual reading."
+    },
+    {
+      "display_index": 540,
+      "profile_id": "SC-88-0-76",
+      "status": "accepted_visible_edge",
+      "proposed_y": 346,
+      "offset_m": -0.5,
+      "alternative_y": null,
+      "interpretation_tolerance_m": 8,
+      "note": "Manual position compatible with the apparent water/sand edge in independent visual reading."
+    },
+    {
+      "display_index": 541,
+      "profile_id": "SC-88-0-77",
+      "status": "accepted_visible_edge",
+      "proposed_y": 342,
+      "offset_m": 1.5,
+      "alternative_y": null,
+      "interpretation_tolerance_m": 8,
+      "note": "Manual position compatible with the apparent water/sand edge in independent visual reading."
+    },
+    {
+      "display_index": 542,
+      "profile_id": "SC-88-0-78",
+      "status": "accepted_visible_edge",
+      "proposed_y": 352,
+      "offset_m": -3.5,
+      "alternative_y": null,
+      "interpretation_tolerance_m": 8,
+      "note": "Manual position compatible with the apparent water/sand edge in independent visual reading."
+    },
+    {
+      "display_index": 543,
+      "profile_id": "SC-88-0-79",
+      "status": "accepted_visible_edge",
+      "proposed_y": 348,
+      "offset_m": -1.5,
+      "alternative_y": null,
+      "interpretation_tolerance_m": 8,
+      "note": "Manual position compatible with the apparent water/sand edge in independent visual reading."
+    },
+    {
+      "display_index": 544,
+      "profile_id": "SC-88-0-80",
+      "status": "accepted_visible_edge",
+      "proposed_y": 343,
+      "offset_m": 1.0,
+      "alternative_y": null,
+      "interpretation_tolerance_m": 8,
+      "note": "Manual position compatible with the apparent water/sand edge in independent visual reading."
+    },
+    {
+      "display_index": 545,
+      "profile_id": "SC-88-0-81",
+      "status": "accepted_visible_edge",
+      "proposed_y": 319,
+      "offset_m": 13.0,
+      "alternative_y": null,
+      "interpretation_tolerance_m": 8,
+      "note": "Manual position compatible with the apparent water/sand edge in independent visual reading."
+    },
+    {
+      "display_index": 546,
+      "profile_id": "SC-88-0-82",
+      "status": "accepted_visible_edge",
+      "proposed_y": 340,
+      "offset_m": 2.5,
+      "alternative_y": null,
+      "interpretation_tolerance_m": 8,
+      "note": "Manual position compatible with the apparent water/sand edge in independent visual reading."
+    },
+    {
+      "display_index": 547,
+      "profile_id": "SC-88-0-83",
+      "status": "accepted_visible_edge",
+      "proposed_y": 350,
+      "offset_m": -2.5,
+      "alternative_y": null,
+      "interpretation_tolerance_m": 8,
+      "note": "Manual position compatible with the apparent water/sand edge in independent visual reading."
+    },
+    {
+      "display_index": 548,
+      "profile_id": "SC-88-0-84",
+      "status": "accepted_visible_edge",
+      "proposed_y": 359,
+      "offset_m": -7.0,
+      "alternative_y": null,
+      "interpretation_tolerance_m": 8,
+      "note": "Manual position compatible with the apparent water/sand edge in independent visual reading."
+    },
+    {
+      "display_index": 549,
+      "profile_id": "SC-88-0-85",
+      "status": "accepted_visible_edge",
+      "proposed_y": 357,
+      "offset_m": -6.0,
+      "alternative_y": null,
+      "interpretation_tolerance_m": 8,
+      "note": "Manual position compatible with the apparent water/sand edge in independent visual reading."
+    },
+    {
+      "display_index": 550,
+      "profile_id": "SC-88-0-86",
+      "status": "accepted_visible_edge",
+      "proposed_y": 345,
+      "offset_m": 0.0,
+      "alternative_y": null,
+      "interpretation_tolerance_m": 8,
+      "note": "Manual position compatible with the apparent water/sand edge in independent visual reading."
+    },
+    {
+      "display_index": 551,
+      "profile_id": "SC-88-0-87",
+      "status": "accepted_visible_edge",
+      "proposed_y": 333,
+      "offset_m": 6.0,
+      "alternative_y": null,
+      "interpretation_tolerance_m": 8,
+      "note": "Manual position compatible with the apparent water/sand edge in independent visual reading."
+    },
+    {
+      "display_index": 552,
+      "profile_id": "SC-88-0-88",
+      "status": "accepted_visible_edge",
+      "proposed_y": 340,
+      "offset_m": 2.5,
+      "alternative_y": null,
+      "interpretation_tolerance_m": 8,
+      "note": "Manual position compatible with the apparent water/sand edge in independent visual reading."
+    },
+    {
+      "display_index": 553,
+      "profile_id": "SC-88-0-89",
+      "status": "accepted_visible_edge",
+      "proposed_y": 351,
+      "offset_m": -3.0,
+      "alternative_y": null,
+      "interpretation_tolerance_m": 8,
+      "note": "Manual position compatible with the apparent water/sand edge in independent visual reading."
+    },
+    {
+      "display_index": 554,
+      "profile_id": "SC-88-0-90",
+      "status": "accepted_visible_edge",
+      "proposed_y": 386,
+      "offset_m": -20.5,
+      "alternative_y": null,
+      "interpretation_tolerance_m": 8,
+      "note": "Manual position compatible with the apparent water/sand edge in independent visual reading."
+    },
+    {
+      "display_index": 555,
+      "profile_id": "SC-88-0-91",
+      "status": "accepted_visible_edge",
+      "proposed_y": 370,
+      "offset_m": -12.5,
+      "alternative_y": null,
+      "interpretation_tolerance_m": 8,
+      "note": "Manual position compatible with the apparent water/sand edge in independent visual reading."
+    },
+    {
+      "display_index": 556,
+      "profile_id": "SC-88-0-92",
+      "status": "accepted_visible_edge",
+      "proposed_y": 379,
+      "offset_m": -17.0,
+      "alternative_y": null,
+      "interpretation_tolerance_m": 8,
+      "note": "Manual position compatible with the apparent water/sand edge in independent visual reading."
+    },
+    {
+      "display_index": 557,
+      "profile_id": "SC-88-0-93",
+      "status": "accepted_visible_edge",
+      "proposed_y": 333,
+      "offset_m": 6.0,
+      "alternative_y": null,
+      "interpretation_tolerance_m": 8,
+      "note": "Manual position compatible with the apparent water/sand edge in independent visual reading."
+    },
+    {
+      "display_index": 558,
+      "profile_id": "SC-88-0-94",
+      "status": "accepted_visible_edge",
+      "proposed_y": 366,
+      "offset_m": -10.5,
+      "alternative_y": null,
+      "interpretation_tolerance_m": 8,
+      "note": "Manual position compatible with the apparent water/sand edge in independent visual reading."
+    },
+    {
+      "display_index": 559,
+      "profile_id": "SC-88-0-95",
+      "status": "accepted_visible_edge",
+      "proposed_y": 362,
+      "offset_m": -8.5,
+      "alternative_y": null,
+      "interpretation_tolerance_m": 8,
+      "note": "Manual position compatible with the apparent water/sand edge in independent visual reading."
+    },
+    {
+      "display_index": 560,
+      "profile_id": "SC-88-0-96",
+      "status": "accepted_visible_edge",
+      "proposed_y": 351,
+      "offset_m": -3.0,
+      "alternative_y": null,
+      "interpretation_tolerance_m": 8,
+      "note": "Manual position compatible with the apparent water/sand edge in independent visual reading."
+    },
+    {
+      "display_index": 561,
+      "profile_id": "SC-88-0-97",
+      "status": "accepted_visible_edge",
+      "proposed_y": 360,
+      "offset_m": -7.5,
+      "alternative_y": null,
+      "interpretation_tolerance_m": 8,
+      "note": "Manual position compatible with the apparent water/sand edge in independent visual reading."
+    },
+    {
+      "display_index": 562,
+      "profile_id": "SC-88-0-98",
+      "status": "accepted_visible_edge",
+      "proposed_y": 378,
+      "offset_m": -16.5,
+      "alternative_y": null,
+      "interpretation_tolerance_m": 8,
+      "note": "Manual position compatible with the apparent water/sand edge in independent visual reading."
+    },
+    {
+      "display_index": 563,
+      "profile_id": "SC-88-0-99",
+      "status": "accepted_visible_edge",
+      "proposed_y": 386,
+      "offset_m": -20.5,
+      "alternative_y": null,
+      "interpretation_tolerance_m": 8,
+      "note": "Manual position compatible with the apparent water/sand edge in independent visual reading."
+    },
+    {
+      "display_index": 564,
+      "profile_id": "SC-88-0-100",
+      "status": "accepted_visible_edge",
+      "proposed_y": 389,
+      "offset_m": -22.0,
+      "alternative_y": null,
+      "interpretation_tolerance_m": 8,
+      "note": "Manual position compatible with the apparent water/sand edge in independent visual reading."
+    },
+    {
+      "display_index": 565,
+      "profile_id": "SC-88-0-101",
+      "status": "accepted_visible_edge",
+      "proposed_y": 352,
+      "offset_m": -3.5,
+      "alternative_y": null,
+      "interpretation_tolerance_m": 8,
+      "note": "Manual position compatible with the apparent water/sand edge in independent visual reading."
+    },
+    {
+      "display_index": 566,
+      "profile_id": "SC-88-0-102",
+      "status": "accepted_visible_edge",
+      "proposed_y": 369,
+      "offset_m": -12.0,
+      "alternative_y": null,
+      "interpretation_tolerance_m": 8,
+      "note": "Manual position compatible with the apparent water/sand edge in independent visual reading."
+    },
+    {
+      "display_index": 567,
+      "profile_id": "SC-88-0-103",
+      "status": "accepted_visible_edge",
+      "proposed_y": 368,
+      "offset_m": -11.5,
+      "alternative_y": null,
+      "interpretation_tolerance_m": 8,
+      "note": "Manual position compatible with the apparent water/sand edge in independent visual reading."
+    },
+    {
+      "display_index": 568,
+      "profile_id": "SC-88-0-104",
+      "status": "accepted_visible_edge",
+      "proposed_y": 349,
+      "offset_m": -2.0,
+      "alternative_y": null,
+      "interpretation_tolerance_m": 8,
+      "note": "Manual position compatible with the apparent water/sand edge in independent visual reading."
+    },
+    {
+      "display_index": 569,
+      "profile_id": "SC-88-0-105",
+      "status": "accepted_visible_edge",
+      "proposed_y": 345,
+      "offset_m": 0.0,
+      "alternative_y": null,
+      "interpretation_tolerance_m": 8,
+      "note": "Manual position compatible with the apparent water/sand edge in independent visual reading."
+    },
+    {
+      "display_index": 570,
+      "profile_id": "SC-88-0-106",
+      "status": "accepted_visible_edge",
+      "proposed_y": 358,
+      "offset_m": -6.5,
+      "alternative_y": null,
+      "interpretation_tolerance_m": 8,
+      "note": "Manual position compatible with the apparent water/sand edge in independent visual reading."
+    },
+    {
+      "display_index": 571,
+      "profile_id": "SC-88-0-107",
+      "status": "accepted_visible_edge",
+      "proposed_y": 339,
+      "offset_m": 3.0,
+      "alternative_y": null,
+      "interpretation_tolerance_m": 8,
+      "note": "Manual position compatible with the apparent water/sand edge in independent visual reading."
+    },
+    {
+      "display_index": 572,
+      "profile_id": "SC-88-0-108",
+      "status": "accepted_visible_edge",
+      "proposed_y": 328,
+      "offset_m": 8.5,
+      "alternative_y": null,
+      "interpretation_tolerance_m": 8,
+      "note": "Manual position compatible with the apparent water/sand edge in independent visual reading."
+    },
+    {
+      "display_index": 573,
+      "profile_id": "SC-88-0-109",
+      "status": "accepted_visible_edge",
+      "proposed_y": 343,
+      "offset_m": 1.0,
+      "alternative_y": null,
+      "interpretation_tolerance_m": 8,
+      "note": "Manual position compatible with the apparent water/sand edge in independent visual reading."
+    },
+    {
+      "display_index": 574,
+      "profile_id": "SC-88-0-110",
+      "status": "accepted_visible_edge",
+      "proposed_y": 344,
+      "offset_m": 0.5,
+      "alternative_y": null,
+      "interpretation_tolerance_m": 8,
+      "note": "Manual position compatible with the apparent water/sand edge in independent visual reading."
+    },
+    {
+      "display_index": 575,
+      "profile_id": "SC-88-0-111",
+      "status": "accepted_visible_edge",
+      "proposed_y": 369,
+      "offset_m": -12.0,
+      "alternative_y": null,
+      "interpretation_tolerance_m": 8,
+      "note": "Manual position compatible with the apparent water/sand edge in independent visual reading."
+    },
+    {
+      "display_index": 576,
+      "profile_id": "SC-88-0-112",
+      "status": "accepted_visible_edge",
+      "proposed_y": 384,
+      "offset_m": -19.5,
+      "alternative_y": null,
+      "interpretation_tolerance_m": 8,
+      "note": "Manual position compatible with the apparent water/sand edge in independent visual reading."
+    },
+    {
+      "display_index": 577,
+      "profile_id": "SC-88-0-113",
+      "status": "accepted_visible_edge",
+      "proposed_y": 385,
+      "offset_m": -20.0,
+      "alternative_y": null,
+      "interpretation_tolerance_m": 8,
+      "note": "Manual position compatible with the apparent water/sand edge in independent visual reading."
+    },
+    {
+      "display_index": 578,
+      "profile_id": "SC-88-0-114",
+      "status": "accepted_visible_edge",
+      "proposed_y": 384,
+      "offset_m": -19.5,
+      "alternative_y": null,
+      "interpretation_tolerance_m": 8,
+      "note": "Manual position compatible with the apparent water/sand edge in independent visual reading."
+    },
+    {
+      "display_index": 579,
+      "profile_id": "SC-88-0-115",
+      "status": "accepted_visible_edge",
+      "proposed_y": 380,
+      "offset_m": -17.5,
+      "alternative_y": null,
+      "interpretation_tolerance_m": 8,
+      "note": "Manual position compatible with the apparent water/sand edge in independent visual reading."
+    },
+    {
+      "display_index": 580,
+      "profile_id": "SC-88-0-116",
+      "status": "accepted_visible_edge",
+      "proposed_y": 368,
+      "offset_m": -11.5,
+      "alternative_y": null,
+      "interpretation_tolerance_m": 8,
+      "note": "Manual position compatible with the apparent water/sand edge in independent visual reading."
+    },
+    {
+      "display_index": 581,
+      "profile_id": "SC-88-0-117",
+      "status": "accepted_visible_edge",
+      "proposed_y": 374,
+      "offset_m": -14.5,
+      "alternative_y": null,
+      "interpretation_tolerance_m": 8,
+      "note": "Manual position compatible with the apparent water/sand edge in independent visual reading."
+    },
+    {
+      "display_index": 582,
+      "profile_id": "SC-88-0-118",
+      "status": "accepted_visible_edge",
+      "proposed_y": 362,
+      "offset_m": -8.5,
+      "alternative_y": null,
+      "interpretation_tolerance_m": 8,
+      "note": "Manual position compatible with the apparent water/sand edge in independent visual reading."
+    },
+    {
+      "display_index": 583,
+      "profile_id": "SC-88-0-119",
+      "status": "accepted_visible_edge",
+      "proposed_y": 343,
+      "offset_m": 1.0,
+      "alternative_y": null,
+      "interpretation_tolerance_m": 8,
+      "note": "Manual position compatible with the apparent water/sand edge in independent visual reading."
+    },
+    {
+      "display_index": 584,
+      "profile_id": "SC-88-0-120",
+      "status": "accepted_visible_edge",
+      "proposed_y": 353,
+      "offset_m": -4.0,
+      "alternative_y": null,
+      "interpretation_tolerance_m": 8,
+      "note": "Manual position compatible with the apparent water/sand edge in independent visual reading."
+    },
+    {
+      "display_index": 585,
+      "profile_id": "SC-88-0-121",
+      "status": "accepted_visible_edge",
+      "proposed_y": 339,
+      "offset_m": 3.0,
+      "alternative_y": null,
+      "interpretation_tolerance_m": 8,
+      "note": "Manual position compatible with the apparent water/sand edge in independent visual reading."
+    },
+    {
+      "display_index": 586,
+      "profile_id": "SC-88-0-122",
+      "status": "accepted_visible_edge",
+      "proposed_y": 333,
+      "offset_m": 6.0,
+      "alternative_y": null,
+      "interpretation_tolerance_m": 8,
+      "note": "Manual position compatible with the apparent water/sand edge in independent visual reading."
+    },
+    {
+      "display_index": 587,
+      "profile_id": "SC-88-0-123",
+      "status": "accepted_visible_edge",
+      "proposed_y": 337,
+      "offset_m": 4.0,
+      "alternative_y": null,
+      "interpretation_tolerance_m": 8,
+      "note": "Manual position compatible with the apparent water/sand edge in independent visual reading."
+    },
+    {
+      "display_index": 588,
+      "profile_id": "SC-88-0-124",
+      "status": "accepted_visible_edge",
+      "proposed_y": 328,
+      "offset_m": 8.5,
+      "alternative_y": null,
+      "interpretation_tolerance_m": 8,
+      "note": "Manual position compatible with the apparent water/sand edge in independent visual reading."
+    },
+    {
+      "display_index": 589,
+      "profile_id": "SC-88-0-125",
+      "status": "accepted_visible_edge",
+      "proposed_y": 323,
+      "offset_m": 11.0,
+      "alternative_y": null,
+      "interpretation_tolerance_m": 8,
+      "note": "Manual position compatible with the apparent water/sand edge in independent visual reading."
+    },
+    {
+      "display_index": 590,
+      "profile_id": "SC-88-0-126",
+      "status": "accepted_visible_edge",
+      "proposed_y": 292,
+      "offset_m": 26.5,
+      "alternative_y": null,
+      "interpretation_tolerance_m": 8,
+      "note": "Manual position compatible with the apparent water/sand edge in independent visual reading."
+    },
+    {
+      "display_index": 591,
+      "profile_id": "SC-88-0-127",
+      "status": "accepted_visible_edge",
+      "proposed_y": 315,
+      "offset_m": 15.0,
+      "alternative_y": null,
+      "interpretation_tolerance_m": 8,
+      "note": "Manual position compatible with the apparent water/sand edge in independent visual reading."
+    }
+  ],
+  "additional_reference_gap_review": {
+    "source_panel": "work\\progreso-year-review-20261105\\baseline-gap-000.png",
+    "source_sha256": "7bc0fc24ac430a51c2d88ca0e06f2b384722448cc0a4c2e37295ead8e964bfa6",
+    "status": "all_four_manual_positions_compatible_with_visible_edge",
+    "decisions": [
+      {
+        "profile_id": "SC-88-0-20",
+        "date": "2011-08-01",
+        "release": 11019,
+        "proposed_y": 343,
+        "offset_m": 1.0,
+        "status": "accepted_visible_edge",
+        "alternative_y": null,
+        "interpretation_tolerance_m": 8
+      },
+      {
+        "profile_id": "SC-88-0-21",
+        "date": "2011-08-01",
+        "release": 11019,
+        "proposed_y": 335,
+        "offset_m": 5.0,
+        "status": "accepted_visible_edge",
+        "alternative_y": null,
+        "interpretation_tolerance_m": 8
+      },
+      {
+        "profile_id": "SC-88-0-22",
+        "date": "2011-08-01",
+        "release": 11019,
+        "proposed_y": 333,
+        "offset_m": 6.0,
+        "status": "accepted_visible_edge",
+        "alternative_y": null,
+        "interpretation_tolerance_m": 8
+      },
+      {
+        "profile_id": "SC-88-0-23",
+        "date": "2011-08-01",
+        "release": 11019,
+        "proposed_y": 350,
+        "offset_m": -2.5,
+        "status": "accepted_visible_edge",
+        "alternative_y": null,
+        "interpretation_tolerance_m": 8
+      }
+    ]
+  }
+}

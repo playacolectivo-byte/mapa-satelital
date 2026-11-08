@@ -1,0 +1,14 @@
+{
+ "reviewer":"root independent visual crosscheck",
+ "checked_on":"2026-11-06",
+ "scope":"All220 actual2015 readings in the received Progreso inventory; no other year approved by this report",
+ "status":"independent_visual_review_complete",
+ "approved_dated_positions":218,
+ "source_date_rejection":1,
+ "unique_water_sand_crossing_pending_at_pier":1,
+ "panels_individually_checked":16,
+ "evidence":"work/progreso-year-review-20261105/root-crosscheck/contact-2015-00.png through03.png, with orange explicit dated decisions; original native-derived strips retained",
+ "operational_interpretation_tolerance_m":8,
+ "field_validated":false,
+ "notes":["All218 orange positions checked against apparent water/sand contact.31 corrected/recovered readings and187 retained positions remain separately recorded by the first reviewer.","Offshore shallow-water/foam misidentifications near the last ten February2015 profiles were checked against the revised shoreward positions.","SC-90-0-7/c203/release18820 is excluded because endpoint imagery is2014-09-18 GE01, not2015-03-26 WV02.","SC-C88-0-0 remains pending at the pier; missing2015 photographs in Chelem/Chuburna are not reconstructed as measurements.","No tide, wave, beach-slope, field or full inter-image registration validation is implied."]
+}

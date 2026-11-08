@@ -1,0 +1,14 @@
+{
+ "reviewer":"root independent visual crosscheck",
+ "date":"2026-11-05",
+ "source_scope_key":"Dzemul",
+ "capture":40,
+ "capture_date":"2011-08-01",
+ "profiles_inspected":134,
+ "panels_inspected":["000","010","020","030","040","050","060","070","080","090","100","110","120","130"],
+ "evidence_pattern":"work/dzemul-audit-20261105/manual-reference-{panel}.png",
+ "status":"baseline_annotations_compatible_with_visible_water_sand_boundary_within_operational_tolerance",
+ "operational_interpretation_tolerance_m":8,
+ "field_validated":false,
+ "notes":["Orange manual marks reviewed individually against retained native-derived image strips. Old cyan and RGB candidates were not assumed reliable.","Large old landward errors at SC-88-0-196,197,226,227,254,260 were checked against the new manual intersections.","This independent check covers 2011 only. Subsequent dates require their own review; metadata does not validate a shoreline interpretation.","Project display aliases Ixil San Benito and Ixil San Bruno do not change the source municipal key or assert jurisdiction."]
+}

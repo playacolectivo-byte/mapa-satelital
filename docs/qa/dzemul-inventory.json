@@ -1,0 +1,1024 @@
+{
+  "date": "2026-11-05",
+  "municipality": "Dzemul",
+  "profiles": 134,
+  "range": [
+    "SC-88-0-164",
+    "SC-88-0-297"
+  ],
+  "coast_axis_length_m": 13316.65310561967,
+  "spacing_m": {
+    "min": 97.07185675795117,
+    "max": 100.33929423915018,
+    "median": 100.25650705510688
+  },
+  "approximate_municipality_assignments": 6,
+  "crs_contract": "Geographic longitude,latitude degrees; WGS84 Geod ellipsoid; lengths in metres.",
+  "baselines": [
+    {
+      "profile_id": "SC-88-0-164",
+      "kind": "photograph",
+      "baseline_capture_dates": [
+        "2011-08-01"
+      ]
+    },
+    {
+      "profile_id": "SC-88-0-165",
+      "kind": "photograph",
+      "baseline_capture_dates": [
+        "2011-08-01"
+      ]
+    },
+    {
+      "profile_id": "SC-88-0-166",
+      "kind": "reconstructed",
+      "baseline_capture_dates": []
+    },
+    {
+      "profile_id": "SC-88-0-167",
+      "kind": "reconstructed",
+      "baseline_capture_dates": []
+    },
+    {
+      "profile_id": "SC-88-0-168",
+      "kind": "photograph",
+      "baseline_capture_dates": [
+        "2011-08-01"
+      ]
+    },
+    {
+      "profile_id": "SC-88-0-169",
+      "kind": "photograph",
+      "baseline_capture_dates": [
+        "2011-08-01"
+      ]
+    },
+    {
+      "profile_id": "SC-88-0-170",
+      "kind": "photograph",
+      "baseline_capture_dates": [
+        "2011-08-01"
+      ]
+    },
+    {
+      "profile_id": "SC-88-0-171",
+      "kind": "reconstructed",
+      "baseline_capture_dates": []
+    },
+    {
+      "profile_id": "SC-88-0-172",
+      "kind": "photograph",
+      "baseline_capture_dates": [
+        "2011-08-01"
+      ]
+    },
+    {
+      "profile_id": "SC-88-0-173",
+      "kind": "photograph",
+      "baseline_capture_dates": [
+        "2011-08-01"
+      ]
+    },
+    {
+      "profile_id": "SC-88-0-174",
+      "kind": "photograph",
+      "baseline_capture_dates": [
+        "2011-08-01"
+      ]
+    },
+    {
+      "profile_id": "SC-88-0-175",
+      "kind": "photograph",
+      "baseline_capture_dates": [
+        "2011-08-01"
+      ]
+    },
+    {
+      "profile_id": "SC-88-0-176",
+      "kind": "photograph",
+      "baseline_capture_dates": [
+        "2011-08-01"
+      ]
+    },
+    {
+      "profile_id": "SC-88-0-177",
+      "kind": "reconstructed",
+      "baseline_capture_dates": []
+    },
+    {
+      "profile_id": "SC-88-0-178",
+      "kind": "reconstructed",
+      "baseline_capture_dates": []
+    },
+    {
+      "profile_id": "SC-88-0-179",
+      "kind": "photograph",
+      "baseline_capture_dates": [
+        "2011-08-01"
+      ]
+    },
+    {
+      "profile_id": "SC-88-0-180",
+      "kind": "reconstructed",
+      "baseline_capture_dates": []
+    },
+    {
+      "profile_id": "SC-88-0-181",
+      "kind": "reconstructed",
+      "baseline_capture_dates": []
+    },
+    {
+      "profile_id": "SC-88-0-182",
+      "kind": "reconstructed",
+      "baseline_capture_dates": []
+    },
+    {
+      "profile_id": "SC-88-0-183",
+      "kind": "photograph",
+      "baseline_capture_dates": [
+        "2011-08-01"
+      ]
+    },
+    {
+      "profile_id": "SC-88-0-184",
+      "kind": "photograph",
+      "baseline_capture_dates": [
+        "2011-08-01"
+      ]
+    },
+    {
+      "profile_id": "SC-88-0-185",
+      "kind": "photograph",
+      "baseline_capture_dates": [
+        "2011-08-01"
+      ]
+    },
+    {
+      "profile_id": "SC-88-0-186",
+      "kind": "reconstructed",
+      "baseline_capture_dates": []
+    },
+    {
+      "profile_id": "SC-88-0-187",
+      "kind": "photograph",
+      "baseline_capture_dates": [
+        "2011-08-01"
+      ]
+    },
+    {
+      "profile_id": "SC-88-0-188",
+      "kind": "reconstructed",
+      "baseline_capture_dates": []
+    },
+    {
+      "profile_id": "SC-88-0-189",
+      "kind": "reconstructed",
+      "baseline_capture_dates": []
+    },
+    {
+      "profile_id": "SC-88-0-190",
+      "kind": "reconstructed",
+      "baseline_capture_dates": []
+    },
+    {
+      "profile_id": "SC-88-0-191",
+      "kind": "photograph",
+      "baseline_capture_dates": [
+        "2011-08-01"
+      ]
+    },
+    {
+      "profile_id": "SC-88-0-192",
+      "kind": "reconstructed",
+      "baseline_capture_dates": []
+    },
+    {
+      "profile_id": "SC-88-0-193",
+      "kind": "reconstructed",
+      "baseline_capture_dates": []
+    },
+    {
+      "profile_id": "SC-88-0-194",
+      "kind": "reconstructed",
+      "baseline_capture_dates": []
+    },
+    {
+      "profile_id": "SC-88-0-195",
+      "kind": "reconstructed",
+      "baseline_capture_dates": []
+    },
+    {
+      "profile_id": "SC-88-0-196",
+      "kind": "reconstructed",
+      "baseline_capture_dates": []
+    },
+    {
+      "profile_id": "SC-88-0-197",
+      "kind": "reconstructed",
+      "baseline_capture_dates": []
+    },
+    {
+      "profile_id": "SC-88-0-198",
+      "kind": "photograph",
+      "baseline_capture_dates": [
+        "2011-08-01"
+      ]
+    },
+    {
+      "profile_id": "SC-88-0-199",
+      "kind": "reconstructed",
+      "baseline_capture_dates": []
+    },
+    {
+      "profile_id": "SC-88-0-200",
+      "kind": "reconstructed",
+      "baseline_capture_dates": []
+    },
+    {
+      "profile_id": "SC-88-0-201",
+      "kind": "reconstructed",
+      "baseline_capture_dates": []
+    },
+    {
+      "profile_id": "SC-88-0-202",
+      "kind": "reconstructed",
+      "baseline_capture_dates": []
+    },
+    {
+      "profile_id": "SC-88-0-203",
+      "kind": "reconstructed",
+      "baseline_capture_dates": []
+    },
+    {
+      "profile_id": "SC-88-0-204",
+      "kind": "reconstructed",
+      "baseline_capture_dates": []
+    },
+    {
+      "profile_id": "SC-88-0-205",
+      "kind": "reconstructed",
+      "baseline_capture_dates": []
+    },
+    {
+      "profile_id": "SC-88-0-206",
+      "kind": "reconstructed",
+      "baseline_capture_dates": []
+    },
+    {
+      "profile_id": "SC-88-0-207",
+      "kind": "photograph",
+      "baseline_capture_dates": [
+        "2011-08-01"
+      ]
+    },
+    {
+      "profile_id": "SC-88-0-208",
+      "kind": "reconstructed",
+      "baseline_capture_dates": []
+    },
+    {
+      "profile_id": "SC-88-0-209",
+      "kind": "reconstructed",
+      "baseline_capture_dates": []
+    },
+    {
+      "profile_id": "SC-88-0-210",
+      "kind": "reconstructed",
+      "baseline_capture_dates": []
+    },
+    {
+      "profile_id": "SC-88-0-211",
+      "kind": "reconstructed",
+      "baseline_capture_dates": []
+    },
+    {
+      "profile_id": "SC-88-0-212",
+      "kind": "reconstructed",
+      "baseline_capture_dates": []
+    },
+    {
+      "profile_id": "SC-88-0-213",
+      "kind": "reconstructed",
+      "baseline_capture_dates": []
+    },
+    {
+      "profile_id": "SC-88-0-214",
+      "kind": "reconstructed",
+      "baseline_capture_dates": []
+    },
+    {
+      "profile_id": "SC-88-0-215",
+      "kind": "reconstructed",
+      "baseline_capture_dates": []
+    },
+    {
+      "profile_id": "SC-88-0-216",
+      "kind": "photograph",
+      "baseline_capture_dates": [
+        "2011-08-01"
+      ]
+    },
+    {
+      "profile_id": "SC-88-0-217",
+      "kind": "photograph",
+      "baseline_capture_dates": [
+        "2011-08-01"
+      ]
+    },
+    {
+      "profile_id": "SC-88-0-218",
+      "kind": "photograph",
+      "baseline_capture_dates": [
+        "2011-08-01"
+      ]
+    },
+    {
+      "profile_id": "SC-88-0-219",
+      "kind": "photograph",
+      "baseline_capture_dates": [
+        "2011-08-01"
+      ]
+    },
+    {
+      "profile_id": "SC-88-0-220",
+      "kind": "photograph",
+      "baseline_capture_dates": [
+        "2011-08-01"
+      ]
+    },
+    {
+      "profile_id": "SC-88-0-221",
+      "kind": "photograph",
+      "baseline_capture_dates": [
+        "2011-08-01"
+      ]
+    },
+    {
+      "profile_id": "SC-88-0-222",
+      "kind": "reconstructed",
+      "baseline_capture_dates": []
+    },
+    {
+      "profile_id": "SC-88-0-223",
+      "kind": "reconstructed",
+      "baseline_capture_dates": []
+    },
+    {
+      "profile_id": "SC-88-0-224",
+      "kind": "reconstructed",
+      "baseline_capture_dates": []
+    },
+    {
+      "profile_id": "SC-88-0-225",
+      "kind": "reconstructed",
+      "baseline_capture_dates": []
+    },
+    {
+      "profile_id": "SC-88-0-226",
+      "kind": "reconstructed",
+      "baseline_capture_dates": []
+    },
+    {
+      "profile_id": "SC-88-0-227",
+      "kind": "reconstructed",
+      "baseline_capture_dates": []
+    },
+    {
+      "profile_id": "SC-88-0-228",
+      "kind": "photograph",
+      "baseline_capture_dates": [
+        "2011-08-01"
+      ]
+    },
+    {
+      "profile_id": "SC-88-0-229",
+      "kind": "photograph",
+      "baseline_capture_dates": [
+        "2011-08-01"
+      ]
+    },
+    {
+      "profile_id": "SC-88-0-230",
+      "kind": "photograph",
+      "baseline_capture_dates": [
+        "2011-08-01"
+      ]
+    },
+    {
+      "profile_id": "SC-88-0-231",
+      "kind": "photograph",
+      "baseline_capture_dates": [
+        "2011-08-01"
+      ]
+    },
+    {
+      "profile_id": "SC-88-0-232",
+      "kind": "photograph",
+      "baseline_capture_dates": [
+        "2011-08-01"
+      ]
+    },
+    {
+      "profile_id": "SC-88-0-233",
+      "kind": "photograph",
+      "baseline_capture_dates": [
+        "2011-08-01"
+      ]
+    },
+    {
+      "profile_id": "SC-88-0-234",
+      "kind": "photograph",
+      "baseline_capture_dates": [
+        "2011-08-01"
+      ]
+    },
+    {
+      "profile_id": "SC-88-0-235",
+      "kind": "photograph",
+      "baseline_capture_dates": [
+        "2011-08-01"
+      ]
+    },
+    {
+      "profile_id": "SC-88-0-236",
+      "kind": "photograph",
+      "baseline_capture_dates": [
+        "2011-08-01"
+      ]
+    },
+    {
+      "profile_id": "SC-88-0-237",
+      "kind": "photograph",
+      "baseline_capture_dates": [
+        "2011-08-01"
+      ]
+    },
+    {
+      "profile_id": "SC-88-0-238",
+      "kind": "photograph",
+      "baseline_capture_dates": [
+        "2011-08-01"
+      ]
+    },
+    {
+      "profile_id": "SC-88-0-239",
+      "kind": "photograph",
+      "baseline_capture_dates": [
+        "2011-08-01"
+      ]
+    },
+    {
+      "profile_id": "SC-88-0-240",
+      "kind": "reconstructed",
+      "baseline_capture_dates": []
+    },
+    {
+      "profile_id": "SC-88-0-241",
+      "kind": "photograph",
+      "baseline_capture_dates": [
+        "2011-08-01"
+      ]
+    },
+    {
+      "profile_id": "SC-88-0-242",
+      "kind": "photograph",
+      "baseline_capture_dates": [
+        "2011-08-01"
+      ]
+    },
+    {
+      "profile_id": "SC-88-0-243",
+      "kind": "photograph",
+      "baseline_capture_dates": [
+        "2011-08-01"
+      ]
+    },
+    {
+      "profile_id": "SC-88-0-244",
+      "kind": "photograph",
+      "baseline_capture_dates": [
+        "2011-08-01"
+      ]
+    },
+    {
+      "profile_id": "SC-88-0-245",
+      "kind": "photograph",
+      "baseline_capture_dates": [
+        "2011-08-01"
+      ]
+    },
+    {
+      "profile_id": "SC-88-0-246",
+      "kind": "photograph",
+      "baseline_capture_dates": [
+        "2011-08-01"
+      ]
+    },
+    {
+      "profile_id": "SC-88-0-247",
+      "kind": "photograph",
+      "baseline_capture_dates": [
+        "2011-08-01"
+      ]
+    },
+    {
+      "profile_id": "SC-88-0-248",
+      "kind": "photograph",
+      "baseline_capture_dates": [
+        "2011-08-01"
+      ]
+    },
+    {
+      "profile_id": "SC-88-0-249",
+      "kind": "photograph",
+      "baseline_capture_dates": [
+        "2011-08-01"
+      ]
+    },
+    {
+      "profile_id": "SC-88-0-250",
+      "kind": "photograph",
+      "baseline_capture_dates": [
+        "2011-08-01"
+      ]
+    },
+    {
+      "profile_id": "SC-88-0-251",
+      "kind": "photograph",
+      "baseline_capture_dates": [
+        "2011-08-01"
+      ]
+    },
+    {
+      "profile_id": "SC-88-0-252",
+      "kind": "photograph",
+      "baseline_capture_dates": [
+        "2011-08-01"
+      ]
+    },
+    {
+      "profile_id": "SC-88-0-253",
+      "kind": "photograph",
+      "baseline_capture_dates": [
+        "2011-08-01"
+      ]
+    },
+    {
+      "profile_id": "SC-88-0-254",
+      "kind": "reconstructed",
+      "baseline_capture_dates": []
+    },
+    {
+      "profile_id": "SC-88-0-255",
+      "kind": "photograph",
+      "baseline_capture_dates": [
+        "2011-08-01"
+      ]
+    },
+    {
+      "profile_id": "SC-88-0-256",
+      "kind": "reconstructed",
+      "baseline_capture_dates": []
+    },
+    {
+      "profile_id": "SC-88-0-257",
+      "kind": "photograph",
+      "baseline_capture_dates": [
+        "2011-08-01"
+      ]
+    },
+    {
+      "profile_id": "SC-88-0-258",
+      "kind": "reconstructed",
+      "baseline_capture_dates": []
+    },
+    {
+      "profile_id": "SC-88-0-259",
+      "kind": "photograph",
+      "baseline_capture_dates": [
+        "2011-08-01"
+      ]
+    },
+    {
+      "profile_id": "SC-88-0-260",
+      "kind": "reconstructed",
+      "baseline_capture_dates": []
+    },
+    {
+      "profile_id": "SC-88-0-261",
+      "kind": "reconstructed",
+      "baseline_capture_dates": []
+    },
+    {
+      "profile_id": "SC-88-0-262",
+      "kind": "photograph",
+      "baseline_capture_dates": [
+        "2011-08-01"
+      ]
+    },
+    {
+      "profile_id": "SC-88-0-263",
+      "kind": "photograph",
+      "baseline_capture_dates": [
+        "2011-08-01"
+      ]
+    },
+    {
+      "profile_id": "SC-88-0-264",
+      "kind": "photograph",
+      "baseline_capture_dates": [
+        "2011-08-01"
+      ]
+    },
+    {
+      "profile_id": "SC-88-0-265",
+      "kind": "reconstructed",
+      "baseline_capture_dates": []
+    },
+    {
+      "profile_id": "SC-88-0-266",
+      "kind": "photograph",
+      "baseline_capture_dates": [
+        "2011-08-01"
+      ]
+    },
+    {
+      "profile_id": "SC-88-0-267",
+      "kind": "photograph",
+      "baseline_capture_dates": [
+        "2011-08-01"
+      ]
+    },
+    {
+      "profile_id": "SC-88-0-268",
+      "kind": "photograph",
+      "baseline_capture_dates": [
+        "2011-08-01"
+      ]
+    },
+    {
+      "profile_id": "SC-88-0-269",
+      "kind": "photograph",
+      "baseline_capture_dates": [
+        "2011-08-01"
+      ]
+    },
+    {
+      "profile_id": "SC-88-0-270",
+      "kind": "photograph",
+      "baseline_capture_dates": [
+        "2011-08-01"
+      ]
+    },
+    {
+      "profile_id": "SC-88-0-271",
+      "kind": "photograph",
+      "baseline_capture_dates": [
+        "2011-08-01"
+      ]
+    },
+    {
+      "profile_id": "SC-88-0-272",
+      "kind": "photograph",
+      "baseline_capture_dates": [
+        "2011-08-01"
+      ]
+    },
+    {
+      "profile_id": "SC-88-0-273",
+      "kind": "photograph",
+      "baseline_capture_dates": [
+        "2011-08-01"
+      ]
+    },
+    {
+      "profile_id": "SC-88-0-274",
+      "kind": "photograph",
+      "baseline_capture_dates": [
+        "2011-08-01"
+      ]
+    },
+    {
+      "profile_id": "SC-88-0-275",
+      "kind": "photograph",
+      "baseline_capture_dates": [
+        "2011-08-01"
+      ]
+    },
+    {
+      "profile_id": "SC-88-0-276",
+      "kind": "photograph",
+      "baseline_capture_dates": [
+        "2011-08-01"
+      ]
+    },
+    {
+      "profile_id": "SC-88-0-277",
+      "kind": "photograph",
+      "baseline_capture_dates": [
+        "2011-08-01"
+      ]
+    },
+    {
+      "profile_id": "SC-88-0-278",
+      "kind": "photograph",
+      "baseline_capture_dates": [
+        "2011-08-01"
+      ]
+    },
+    {
+      "profile_id": "SC-88-0-279",
+      "kind": "photograph",
+      "baseline_capture_dates": [
+        "2011-08-01"
+      ]
+    },
+    {
+      "profile_id": "SC-88-0-280",
+      "kind": "photograph",
+      "baseline_capture_dates": [
+        "2011-08-01"
+      ]
+    },
+    {
+      "profile_id": "SC-88-0-281",
+      "kind": "photograph",
+      "baseline_capture_dates": [
+        "2011-08-01"
+      ]
+    },
+    {
+      "profile_id": "SC-88-0-282",
+      "kind": "photograph",
+      "baseline_capture_dates": [
+        "2011-08-01"
+      ]
+    },
+    {
+      "profile_id": "SC-88-0-283",
+      "kind": "photograph",
+      "baseline_capture_dates": [
+        "2011-08-01"
+      ]
+    },
+    {
+      "profile_id": "SC-88-0-284",
+      "kind": "photograph",
+      "baseline_capture_dates": [
+        "2011-08-01"
+      ]
+    },
+    {
+      "profile_id": "SC-88-0-285",
+      "kind": "photograph",
+      "baseline_capture_dates": [
+        "2011-08-01"
+      ]
+    },
+    {
+      "profile_id": "SC-88-0-286",
+      "kind": "photograph",
+      "baseline_capture_dates": [
+        "2011-08-01"
+      ]
+    },
+    {
+      "profile_id": "SC-88-0-287",
+      "kind": "photograph",
+      "baseline_capture_dates": [
+        "2011-08-01"
+      ]
+    },
+    {
+      "profile_id": "SC-88-0-288",
+      "kind": "photograph",
+      "baseline_capture_dates": [
+        "2011-08-01"
+      ]
+    },
+    {
+      "profile_id": "SC-88-0-289",
+      "kind": "photograph",
+      "baseline_capture_dates": [
+        "2011-08-01"
+      ]
+    },
+    {
+      "profile_id": "SC-88-0-290",
+      "kind": "photograph",
+      "baseline_capture_dates": [
+        "2011-08-01"
+      ]
+    },
+    {
+      "profile_id": "SC-88-0-291",
+      "kind": "photograph",
+      "baseline_capture_dates": [
+        "2011-08-01"
+      ]
+    },
+    {
+      "profile_id": "SC-88-0-292",
+      "kind": "reconstructed",
+      "baseline_capture_dates": []
+    },
+    {
+      "profile_id": "SC-88-0-293",
+      "kind": "photograph",
+      "baseline_capture_dates": [
+        "2011-08-01"
+      ]
+    },
+    {
+      "profile_id": "SC-88-0-294",
+      "kind": "reconstructed",
+      "baseline_capture_dates": []
+    },
+    {
+      "profile_id": "SC-88-0-295",
+      "kind": "photograph",
+      "baseline_capture_dates": [
+        "2011-08-01"
+      ]
+    },
+    {
+      "profile_id": "SC-88-0-296",
+      "kind": "reconstructed",
+      "baseline_capture_dates": []
+    },
+    {
+      "profile_id": "SC-88-0-297",
+      "kind": "reconstructed",
+      "baseline_capture_dates": []
+    }
+  ],
+  "year_coverage": {
+    "2011": {
+      "profiles": 134,
+      "accepted_profiles": 83,
+      "readings": 134,
+      "accepted_readings": 83,
+      "dates": {
+        "2011-08-01": 134
+      },
+      "releases": [
+        10,
+        11019
+      ]
+    },
+    "2012": {
+      "profiles": 134,
+      "accepted_profiles": 81,
+      "readings": 134,
+      "accepted_readings": 81,
+      "dates": {
+        "2012-12-15": 134
+      },
+      "releases": [
+        6984,
+        27946
+      ]
+    },
+    "2013": {
+      "profiles": 50,
+      "accepted_profiles": 45,
+      "readings": 50,
+      "accepted_readings": 45,
+      "dates": {
+        "2013-05-16": 50
+      },
+      "releases": [
+        10768,
+        18820
+      ]
+    },
+    "2015": {
+      "profiles": 84,
+      "accepted_profiles": 52,
+      "readings": 84,
+      "accepted_readings": 52,
+      "dates": {
+        "2015-02-16": 62,
+        "2015-03-26": 22
+      },
+      "releases": [
+        10768,
+        18820
+      ]
+    },
+    "2019": {
+      "profiles": 134,
+      "accepted_profiles": 122,
+      "readings": 177,
+      "accepted_readings": 148,
+      "dates": {
+        "2019-11-22": 13,
+        "2019-09-30": 102,
+        "2019-10-12": 62
+      },
+      "releases": [
+        10321,
+        15045,
+        16749,
+        17825
+      ]
+    },
+    "2020": {
+      "profiles": 91,
+      "accepted_profiles": 88,
+      "readings": 155,
+      "accepted_readings": 149,
+      "dates": {
+        "2020-04-17": 155
+      },
+      "releases": [
+        10321,
+        16749,
+        25982,
+        45441,
+        64776
+      ]
+    },
+    "2022": {
+      "profiles": 70,
+      "accepted_profiles": 70,
+      "readings": 70,
+      "accepted_readings": 70,
+      "dates": {
+        "2022-03-03": 70
+      },
+      "releases": [
+        22252,
+        25285,
+        25982,
+        32553,
+        45441,
+        52304,
+        64776
+      ]
+    },
+    "2023": {
+      "profiles": 123,
+      "accepted_profiles": 118,
+      "readings": 123,
+      "accepted_readings": 118,
+      "dates": {
+        "2023-07-01": 123
+      },
+      "releases": [
+        22252,
+        25285,
+        32553,
+        52304
+      ]
+    },
+    "2025": {
+      "profiles": 134,
+      "accepted_profiles": 82,
+      "readings": 146,
+      "accepted_readings": 94,
+      "dates": {
+        "2025-11-25": 2,
+        "2025-10-11": 20,
+        "2025-12-21": 51,
+        "2025-04-10": 73
+      },
+      "releases": [
+        22252,
+        26334,
+        52304
+      ]
+    },
+    "2026": {
+      "profiles": 61,
+      "accepted_profiles": 59,
+      "readings": 61,
+      "accepted_readings": 59,
+      "dates": {
+        "2026-01-25": 61
+      },
+      "releases": [
+        26334
+      ]
+    }
+  },
+  "rejection_reasons": {
+    "parallel_transects_disagree": 75,
+    "insufficient_visible_edge_support": 45,
+    "central_profile_has_no_visible_edge": 39,
+    "visible_edge_not_confirmed_by_2d_context": 110,
+    "central_profile_disagrees": 37,
+    "manual_visual_discrepancy": 1,
+    "capture_footprint_seam": 1
+  },
+  "sha256": {
+    "scenario.json": "63f41cc7ed4485f3e36359995bdb9e8de853444e2dafc2439495e862805d17a8",
+    "photos.json": "13b9b9c33961d85612de75038e14899397b1d0dfbc4dbe30f1c3ac2e6d7cc078"
+  },
+  "observations": [
+    "All 134 profiles have an actual 2011-08-01 reading in source edition 11019; 51 are rejected and therefore currently reconstructed by the runtime.",
+    "Edition 22252 is not a uniform 2025 photograph: it includes March 2022 and July 2023 footprints in Dzemul.",
+    "2015 is not municipal-wide: western 62 profiles are February 2015, middle/eastern 50 are May 2013, eastern 22 are March 2015 in edition 18820.",
+    "Provider positional accuracy and interpretation spread are proxies, not a calibrated total physical uncertainty; tide, waves and cross-image registration remain uncorrected."
+  ]
+}

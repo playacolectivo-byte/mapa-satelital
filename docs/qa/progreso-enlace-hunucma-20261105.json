@@ -1,0 +1,13 @@
+{
+  "date": "2026-11-05",
+  "navigation": "original bounds restored",
+  "mask": "removed",
+  "label": "Hunucmá · Ver municipio →",
+  "target": "/municipio/hunucma/",
+  "browser_click": "verified Hunucmá selected and 384 profiles shown; returned to Progreso",
+  "municipal_tests_passed": 4,
+  "typecheck": "passed",
+  "build_public": "passed",
+  "config_hash_and_gzip": "passed",
+  "screenshot": "progreso-enlace-hunucma.jpg"
+}

@@ -1,0 +1,99 @@
+{
+  "date": "2026-11-05",
+  "profiles": [
+    "SC-258-0-30",
+    "SC-258-0-31",
+    "SC-258-0-32",
+    "SC-258-0-33",
+    "SC-258-0-34",
+    "SC-258-0-35",
+    "SC-258-0-36",
+    "SC-258-0-37",
+    "SC-258-0-38",
+    "SC-258-0-39",
+    "SC-258-0-40",
+    "SC-258-0-41",
+    "SC-258-0-42",
+    "SC-258-0-43",
+    "SC-258-0-44",
+    "SC-258-0-45",
+    "SC-258-0-46",
+    "SC-258-0-47",
+    "SC-258-0-48",
+    "SC-258-0-49"
+  ],
+  "reference_date": "2011-08-01",
+  "interpreted_intersections": 140,
+  "dated_intersections": {
+    "2011-08-01": 20,
+    "2011-12-01": 17,
+    "2013-02-13": 3,
+    "2014-09-18": 20,
+    "2019-11-22": 20,
+    "2020-12-30": 20,
+    "2022-01-24": 20,
+    "2025-02-13": 20
+  },
+  "year_coverage": {
+    "2011": 20,
+    "2012": 0,
+    "2013": 3,
+    "2014": 20,
+    "2015": 0,
+    "2016": 0,
+    "2017": 0,
+    "2018": 0,
+    "2019": 20,
+    "2020": 20,
+    "2021": 0,
+    "2022": 20,
+    "2023": 0,
+    "2024": 0,
+    "2025": 20
+  },
+  "source_endpoint_checks": {
+    "status": "passed",
+    "checked": 140
+  },
+  "tests": {
+    "passed": 76,
+    "failed": 0,
+    "core_tests": 37,
+    "timeline_and_scope_tests": 39,
+    "typecheck": "passed",
+    "build_public": "passed",
+    "lint": "blocked by existing React / Next diagnostics; explorer has the same 49 normalized findings as HEAD; other changed modules have zero diagnostics"
+  },
+  "review_sha256": "9ec3e2f163ade6fcb37d33c6c7e10905a27115abdbe3e463af2252e8fd973484",
+  "source_bytes_unchanged": {
+    "original_photos_sha256": "250fa694f9c3829ac0d41598454e28988a6c681fc36c6330c0f950eb08aa76e5",
+    "original_model_sha256": "21ed574a9c464cab785197f95568e242da2358cae23b08a420afde98aa294513"
+  },
+  "methods": "public/data/shorelines/photo-alignment/progreso-oeste-20261105-method.md",
+  "limitations": [
+    "Visual interpretation of the apparent water/sand edge, assisted by ChatGPT.",
+    "6-8 m operational interpretation tolerance, not calibrated physical accuracy.",
+    "No tide, wave, beach-slope or relative-image-registration correction.",
+    "2013 is dated only in profiles 30-32; other profiles have December 2011 imagery.",
+    "Missing or incompatible years have no numerical change; no model substitution."
+  ],
+  "preview_checks": {
+    "years": [
+      2011,
+      2013,
+      2019,
+      2025
+    ],
+    "profiles_in_view": 20,
+    "fixed_reference": "2011-08-01",
+    "partial_2013": "3 reviewed; 17 pending without metres",
+    "screenshots": [
+      "progreso-oeste-2011.jpg",
+      "progreso-oeste-2013.jpg",
+      "progreso-oeste-2019.jpg",
+      "progreso-oeste-2025.jpg"
+    ]
+  },
+  "status": "superseded_by_reference_refinement_r2",
+  "superseding_report": "progreso-referencia-2011-r2.json"
+}

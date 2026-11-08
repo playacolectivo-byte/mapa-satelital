@@ -1,7 +1,7 @@
 import type {CoastalAnalysisData} from './coastal-analysis.ts';
 import type {CoastalScenario,ScenarioTarget} from './coastal-scenario.ts';
 import {createScenarioLayerCache} from './coastal-result-view.ts';
-import {photoCoastBaselineYear,photoCoastPosition,photoCoastCoordinate,photoCoastUncertainty,type PhotoCoastData,type PhotoCoastReading} from './photo-coast.ts';
+import {photoCoastBaselineYear,photoCoastPosition,photoCoastCoordinate,photoCoastUncertainty,photoCoastFixedReference,type PhotoCoastData,type PhotoCoastReading} from './photo-coast.ts';
 import type {PhotoSourceReview} from './photo-source-review.ts';
 
 type Coordinate=[number,number];
@@ -50,8 +50,15 @@ export function createCoastalImageAlignment(model:CoastalScenario,photos:PhotoCo
  const frames=new Map<string,CoastalAlignedFrame>();
  const captureKeys=photos.captures.map(c=>c.date+'|'+c.source+'|'+c.resolution_m);
  const cumulative=(t:ScenarioTarget,year:number)=>model.years.reduce((n,y,j)=>n+(y>2010&&y<=year?t.d[j]:0),0);
- const usable=photos.targets.map(row=>row.readings.filter(r=>r.accepted&&r.releases.some(release=>!sourceBlocked.has(release+':'+row.id))));
+ const verifiedEndpoint=(i:number,r:PhotoCoastReading|undefined,release:number|null)=>!!r&&(photos.targets[i].review_policy?.reviewed_captures?.some(v=>v.capture===r.capture&&v.releases.includes(release!))||photos.targets[i].fixed_reference?.capture===r.capture&&photos.targets[i].fixed_reference?.verified_release===release);
+ const usable=photos.targets.map((row,i)=>row.readings.filter(r=>r.accepted&&r.releases.some(release=>!sourceBlocked.has(release+':'+row.id)||verifiedEndpoint(i,r,release))));
  const references=model.targets.map((t,i)=>{
+  const missing=photos.targets[i].reference_unavailable;
+  if(missing)return {year:missing.year,offset:0,kind:'unavailable' as const,captures:[],error:null,date:null};
+  const fixed=photoCoastFixedReference(photos,photos.targets[i]);if(fixed)return {...fixed,kind:'photo' as const};
+  const policy=photos.targets[i].review_policy;
+  const reviewed=policy?usable[i].find(r=>r.capture===policy.reference_capture):null;
+  if(policy&&reviewed){const c=photos.captures[reviewed.capture];return {year:Number(c.date.slice(0,4)),offset:reviewed.offset_m!,kind:'photo' as const,captures:[c],error:photoCoastUncertainty(c,reviewed),date:c.date};}
   const rows=usable[i],year=photoCoastBaselineYear(photos,rows,2010)??2011;
   const position=photoCoastPosition(photos,rows,year,null);
   if(position?.kind==='photo')return {...position,year,kind:'photo' as const};
@@ -69,8 +76,8 @@ export function createCoastalImageAlignment(model:CoastalScenario,photos:PhotoCo
   const cached=anchorCache.get(release);if(cached)return cached;
   const readings=photos.targets.map(row=>release===null?undefined:row.readings.find(r=>r.releases.includes(release)));
   const direct=new Map<number,Anchor>();
-  readings.forEach((r,i)=>{if(r?.accepted&&isBeach(model.targets[i])&&!sourceBlocked.has(release+':'+model.targets[i].id))direct.set(i,{coordinate:at(model,model.targets[i],r.offset_m!),kind:'photo',capture:r.capture,sourceKey:captureKeys[r.capture],offset:r.offset_m,donors:[]});});
-  const anchors=model.targets.map((t,i):Anchor=>sourceBlocked.has(release+':'+t.id)?{coordinate:t.p,kind:'cartography',capture:null,sourceKey:null,offset:null,donors:[]}:direct.get(i)??(isBeach(t)?interpolatedAnchor(model,t,readings[i],readings[i]?captureKeys[readings[i]!.capture]:null,direct,municipalities.get(t.m)??[]):null)??{coordinate:t.p,kind:'cartography',capture:null,sourceKey:null,offset:null,donors:[]});
+  readings.forEach((r,i)=>{if(r?.accepted&&isBeach(model.targets[i])&&(!sourceBlocked.has(release+':'+model.targets[i].id)||verifiedEndpoint(i,r,release)))direct.set(i,{coordinate:at(model,model.targets[i],r.offset_m!),kind:'photo',capture:r.capture,sourceKey:captureKeys[r.capture],offset:r.offset_m,donors:[]});});
+  const anchors=model.targets.map((t,i):Anchor=>direct.get(i)??(sourceBlocked.has(release+':'+t.id)?null:isBeach(t)?interpolatedAnchor(model,t,readings[i],readings[i]?captureKeys[readings[i]!.capture]:null,direct,municipalities.get(t.m)??[]):null)??{coordinate:t.p,kind:'cartography',capture:null,sourceKey:null,offset:null,donors:[]});
   const result={anchors,readings};anchorCache.set(release,result);
   while(anchorCache.size>3)anchorCache.delete(anchorCache.keys().next().value!);
   return result;
@@ -85,24 +92,36 @@ export function createCoastalImageAlignment(model:CoastalScenario,photos:PhotoCo
    if(!isBeach(t)){if(isStructure(t))summary.structures++;else summary.otherCoasts++;return;}
    summary.beachProfiles++;
    const anchor=anchors[i],reading=readings[i],capture=reading?photos.captures[reading.capture]:null;
-   if(anchor.kind==='photo')summary.photoPositions++;else if(anchor.kind==='spatial_estimate')summary.spatialPositions++;else summary.pendingPositions++;
-   const sourceIssue=sourceBlocked.get(release+':'+t.id);
+   const fixed=photos.targets[i].fixed_reference;
+   const sourceIssue=verifiedEndpoint(i,reading,release)?undefined:sourceBlocked.get(release+':'+t.id);
    const reference=references[i],baselineYear=reference.year,base=reference.kind==='photo'?reference:null;
    const baselineCoordinate=at(model,t,reference.offset);
-   const original=scenario.features[i],common={...original.properties,scenario_original_delta_m:original.properties.scenario_delta_m,image_alignment:anchor.kind,image_alignment_release:release,image_alignment_date:sourceIssue?.actual?.[0]??capture?.date??null,image_alignment_donors:anchor.donors,image_source_review:sourceIssue?.reason??null,image_anchor_coordinate:anchor.coordinate,cartographic_anchor_coordinate:t.p,spacing_eligible:reference.kind==='photo',alignment_method_url:'/data/shorelines/photo-alignment/position-method.md',baseline_coordinate:baselineCoordinate,baseline_fixed:true};
+   const original=scenario.features[i],common={...original.properties,scenario_original_delta_m:original.properties.scenario_delta_m,image_alignment:anchor.kind,image_alignment_release:release,image_alignment_date:sourceIssue?.actual?.[0]??capture?.date??null,image_alignment_donors:anchor.donors,image_source_review:sourceIssue?.reason??null,image_anchor_coordinate:anchor.coordinate,cartographic_anchor_coordinate:t.p,spacing_eligible:reference.kind==='photo',alignment_method_url:'/data/shorelines/photo-alignment/position-method.md',baseline_coordinate:baselineCoordinate,baseline_fixed:reference.kind!=='unavailable',user_reference_method:fixed?.method??null,reference_method_url:fixed?.method_url??(fixed?'/data/shorelines/photo-alignment/user-guides-2011-method.md':photos.targets[i].reference_unavailable?.method_url??null)};
    const row=photos.targets[i];
    const sameYear=!!capture&&Number(capture.date.slice(0,4))===year;
-   if(anchor.kind==='photo'&&reading&&sameYear&&base&&baselineYear<=year){
+   const policy=row.review_policy;
+   const reviewedEndpoint=!policy||year>=policy.first_year&&year<=policy.last_year&&(policy.reviewed_captures?policy.reviewed_captures.some(r=>r.capture===reading?.capture&&r.releases.includes(release!)):policy.reviewed_releases.includes(release!)&&(reading?.manual_review?.id===policy.method||reading?.capture===row.fixed_reference?.capture));
+   if(policy&&!reviewedEndpoint||row.reference_unavailable)summary.pendingPositions++;else if(anchor.kind==='photo')summary.photoPositions++;else if(anchor.kind==='spatial_estimate')summary.spatialPositions++;else summary.pendingPositions++;
+   if(row.reference_unavailable){
+    features.push({type:'Feature',id:t.id,geometry:{type:'Point',coordinates:anchor.coordinate},properties:{...common,baseline_year:2011,comparison_start_year:2011,comparison_end_year:year,baseline_date:null,delta_m:null,scenario_delta_m:null,estimated:false,scenario_unvalidated:false,photo_interpretation:false,photo_review_pending:true,photo_review_method:row.reference_unavailable.method,photo_review_reason:row.reference_unavailable.reason,direction_unresolved:true,context_review:true,reference_only:false,method_url:row.reference_unavailable.method_url}});
+   }else
+   if(policy&&(!reviewedEndpoint||anchor.kind!=='photo'||!reading||!sameYear||!base||baselineYear>year)){
+    features.push({type:'Feature',id:t.id,geometry:{type:'Point',coordinates:baselineCoordinate},properties:{...common,baseline_year:baselineYear,comparison_start_year:baselineYear,comparison_end_year:year,baseline_date:reference.date,delta_m:null,scenario_delta_m:null,estimated:false,scenario_unvalidated:false,photo_interpretation:false,photo_review_pending:true,photo_review_method:policy.method,photo_review_reason:year<policy.first_year||year>policy.last_year?'outside_review_period':!sameYear?'no_dated_photo_for_year':'edition_or_position_not_reviewed',direction_unresolved:true,context_review:true,reference_only:false,method_url:policy.method_url??'/data/shorelines/photo-alignment/progreso-oeste-20261105-method.md'}});
+   }else if(anchor.kind==='photo'&&reading&&sameYear&&base&&baselineYear<=year){
     // All metres are recomputed from the two real offsets on the same axis.
     // Translating a picture or copying the model's delta cannot enter here.
-    const endOffset=baselineYear===year?base.offset:reading.offset_m!;
+    const isReference=row.fixed_reference?reading.capture===row.fixed_reference.capture:policy?reading.capture===policy.reference_capture:baselineYear===year;
+    const endOffset=isReference?base.offset:reading.offset_m!;
     const delta=endOffset-base.offset;
     const endError=photoCoastUncertainty(capture,reading);
     const error=base.error===null||endError===null?null:Math.hypot(base.error,endError);
     const photoSources=[...base.captures,capture];
+    const metadataPoints=[...(fixed?[{release:fixed.verified_release,coordinate:baselineCoordinate,date:base.date}]:[]),{release:release!,coordinate:at(model,t,endOffset),date:capture.date}];
     summary.photoComparisons++;
-    const manual=usable[i].filter(r=>r.manual_review&&photoSources.some(c=>c.date===photos.captures[r.capture].date)).map(r=>r.manual_review!);
-    features.push({type:'Feature',id:t.id,geometry:{type:'LineString',coordinates:[baselineCoordinate,at(model,t,endOffset)]},properties:{...common,baseline_year:baselineYear,baseline_requested_year:2010,comparison_start_year:baselineYear,comparison_end_year:year,photo_baseline_fallback:baselineYear!==2010,reference_only:baselineYear===year,photo_interpretation:true,photo_location_matched:true,photo_mismatch:false,photo_date:capture.date,delta_m:delta,estimated:false,scenario_unvalidated:false,direction_unresolved:error===null||Math.abs(delta)<=error,context_review:false,photo_start_kind:'photo',photo_end_kind:'photo',date_before:base.date,date_after:capture.date,registration_proxy_m:error,photo_sources:photoSources,photo_manual_reviews:manual,photo_source_releases:[...new Set([release!,...row.readings.filter(r=>r.accepted&&base.captures.some(c=>c.date===photos.captures[r.capture].date)).flatMap(r=>r.releases.slice(0,1))])],photo_anchor_coordinate:t.p,photo_rejection_reasons:[],method_url:'/data/shorelines/photo-alignment/position-method.md'}});
+    const usedCaptures=new Set(photoSources);
+    const manual=usable[i].filter(r=>r.manual_review&&usedCaptures.has(photos.captures[r.capture])).map(r=>r.manual_review!);
+    const referenceReleases=fixed?[fixed.verified_release]:row.readings.filter(r=>r.accepted&&base.captures.includes(photos.captures[r.capture])).flatMap(r=>r.releases.slice(0,1));
+    features.push({type:'Feature',id:t.id,geometry:{type:'LineString',coordinates:[baselineCoordinate,at(model,t,endOffset)]},properties:{...common,baseline_year:baselineYear,baseline_requested_year:policy?.first_year??2010,comparison_start_year:baselineYear,comparison_end_year:year,photo_baseline_fallback:!policy&&baselineYear!==2010,reference_only:isReference,photo_interpretation:true,photo_location_matched:true,photo_mismatch:false,photo_date:capture.date,delta_m:delta,estimated:false,scenario_unvalidated:false,direction_unresolved:error===null||Math.abs(delta)<=error,context_review:false,photo_start_kind:'photo',photo_end_kind:'photo',date_before:base.date,date_after:capture.date,registration_proxy_m:error,photo_sources:photoSources,photo_metadata_points:metadataPoints,photo_manual_reviews:manual,photo_review_method:policy?.method??null,photo_source_releases:[...new Set([release!,...referenceReleases])],photo_anchor_coordinate:t.p,photo_rejection_reasons:[],method_url:policy?.method_url??(policy?'/data/shorelines/photo-alignment/progreso-oeste-20261105-method.md':'/data/shorelines/photo-alignment/position-method.md')}});
    }else{
     summary.modelLocators++;
     const compatibleRows=sourceIssue?usable[i].filter(r=>!r.releases.includes(release!)):usable[i];

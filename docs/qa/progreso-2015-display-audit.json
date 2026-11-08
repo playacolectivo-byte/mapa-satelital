@@ -1,0 +1,24 @@
+{
+  "date": "2026-11-05",
+  "scope": "Progreso imagery selection and the 2015 error",
+  "2015_inventory": {
+    "unique_beach_profiles": 220,
+    "accepted_readings": 191,
+    "dates": {"2015-03-26": 167, "2015-02-16": 53},
+    "longitude_range": [-89.69325845, -89.48832661],
+    "whole_municipality_option": {"release": 18820, "date_at_reference": "2015-03-26"},
+    "Chuburna_and_Chelem": "No verified 2015 HD acquisition in their frozen locality calendars. A dated reference is retained."
+  },
+  "fixed": [
+    "A known capture date is not marked as a failed metadata query merely because it differs from the analysis year or another edition lookup failed.",
+    "The UI distinguishes missing local-year imagery from partial municipal-year coverage and from a genuinely failed selected-date lookup.",
+    "The renderer uses a conservative z17 ceiling until that edition has its own confirmed native ceiling. A warm old edition cannot borrow the selected newer edition's higher ceiling."
+  ],
+  "validation": {
+    "targeted_tests_passed": 26,
+    "typecheck": "passed",
+    "root_browser_observation_Chuburna_2015": "The 2011 photograph retained its real date, the missing 2015 HD notice appeared, and no image error was visible.",
+    "live_availability_probe": "Edition 18820 at the municipal center returned valid zero at z20 and z19. Lower probes encountered timeout/DNS failures; these are recorded as transport failures, not absence evidence."
+  },
+  "measurement_data_modified": false
+}

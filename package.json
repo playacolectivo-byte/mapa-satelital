@@ -13,7 +13,8 @@
     "build:public": "node scripts/build-repository-map.mjs",
     "preview": "vite preview --config vite.public.config.ts --host 127.0.0.1 --port 4174 --strictPort",
     "typecheck": "tsc --noEmit",
-    "test": "node --test tests/municipal-pages.test.ts tests/coastal-fixed-reference.test.ts tests/coastal-direction.test.ts tests/coastal-chapters.test.ts tests/coastal-image-alignment.test.ts tests/photo-coast.test.ts tests/photo-visual-review.test.ts tests/coastal-refined-photos.test.ts"
+    "audit:shorelines": "node scripts/audit-municipal-shoreline-reviews.mjs",
+    "test": "node --test tests/municipal-pages.test.ts tests/coastal-fixed-reference.test.ts tests/coastal-direction.test.ts tests/coastal-chapters.test.ts tests/coastal-image-alignment.test.ts tests/photo-coast.test.ts tests/photo-visual-review.test.ts tests/coastal-refined-photos.test.ts tests/photo-pilot-review.test.ts tests/user-shoreline-guides.test.ts tests/esri-photo-options.test.ts tests/municipal-shoreline-review.test.ts tests/project-coast-labels.test.ts tests/reviewed-photo-catalogue.test.ts tests/coastal-100m-grid.test.ts tests/shoreline-reference-refinement.test.ts"
   },
   "dependencies": {
     "@base-ui/react": "1.7.0",
@@ -61,5 +62,5 @@
   },
   "type": "module",
   "packageManager": "pnpm@11.25.0",
-  "description": "Visor satelital de la costa de Yucatán con páginas municipales y comparaciones costeras."
+  "description": "Visor satelital de la costa de YucatÃ¡n con pÃ¡ginas municipales y comparaciones costeras."
 }

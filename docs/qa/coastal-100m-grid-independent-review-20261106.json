@@ -1,0 +1,174 @@
+{
+  "status": "independent_grid_code_geometry_and_source_review_complete",
+  "checked_on": "2026-11-06",
+  "reviewer": "progreso_2015",
+  "artifact": {
+    "path": "public/data/shorelines/photo-alignment/coastal-100m-grid-20261106.json",
+    "sha256": "c0967d7c45f568813f8437a5f0d6d30d262dcd3565fe05377e9ffa5d4c80e46e",
+    "segments": 10,
+    "stations": 678
+  },
+  "input_fingerprints_verified": {
+    "public/data/shorelines/photo-alignment/user-guides-2011-20261105.json": {
+      "sha256": "ac0269e09537e01f1e6fdf6f648c3cc2a69a205744655f28fd6ddd06b7bedee5",
+      "bytes": 102585
+    },
+    "public/data/coast.geojson": {
+      "sha256": "918d73fd611e1a0109f903b350f6027dfc21ace810c35a50df3142a1cfefab30",
+      "bytes": 304899
+    },
+    "public/data/municipalities/progreso/scenario.json": {
+      "sha256": "255cc381bac6e50430df3fe34d1d745cb0746693b43b11f75e3ab940a9b203fa",
+      "bytes": 473898
+    },
+    "public/data/municipalities/progreso/photos.json": {
+      "sha256": "ada8576ba2cff7ab0d48b7de830501e3a4a0ccd1a618b6cb325b65d4d88f43dc",
+      "bytes": 2340219
+    },
+    "public/data/shorelines/photo-alignment/manual-progreso-full-20261105.json": {
+      "sha256": "3d76ef7f5b53f8dadfed9946bf1aa89519ac4584d2fda1f3b61bc22484932f11",
+      "bytes": 6773381
+    },
+    "public/data/municipalities/hunucma/scenario.json": {
+      "sha256": "7ca471bfb522d0620d4ebdcd0073de9beb18b50dfc96e0afd6419c4d6e03712b",
+      "bytes": 192089
+    },
+    "public/data/municipalities/hunucma/photos.json": {
+      "sha256": "84e445c6f900da170fe1c420686d3baf86e026ae439c78a59421c8bba758b4bf",
+      "bytes": 835606
+    },
+    "public/data/shorelines/photo-alignment/manual-hunucma-20261105.json": {
+      "sha256": "3d0987d0f852c7bc6fbd15a134c6428d08fc7f268f0c4fdc83c5d2fdfb541382",
+      "bytes": 1569841
+    },
+    "public/data/municipalities/dzemul/scenario.json": {
+      "sha256": "63f41cc7ed4485f3e36359995bdb9e8de853444e2dafc2439495e862805d17a8",
+      "bytes": 74373
+    },
+    "public/data/municipalities/dzemul/photos.json": {
+      "sha256": "621637a507b1a36f50e778197c17febf6ea6566c854ddca0ef4f93633961f8c0",
+      "bytes": 393488
+    },
+    "public/data/shorelines/photo-alignment/manual-dzemul-20261105.json": {
+      "sha256": "56b423b0ac021845a8b75f254927ba5f9db5d0c723cab164a2603be9c87ba44c",
+      "bytes": 1601038
+    }
+  },
+  "code_sha256": {
+    "lib/coastal-100m-grid.ts": "86fba13b0b78b76b8c3d8f569494b8c46918cf9bd90c93197a69bb515c3e391d",
+    "lib/coastal-spacing.ts": "fd419e14c56e0a79f0319608044632b0ebbeecffa3227aeb20aaa5c67b702c77",
+    "components/explorer.tsx": "e0d13fcd322a516c66bc963e674ae488fdf9842cc09b01cd2297bb34c2ed52bf",
+    "components/raster-territory-map.tsx": "578c5f6a7ec17abf6ce007eb429459aa3045e912a462f748fb4952f7cc4eb809",
+    "lib/coastal-analysis.ts": "b5399ebea6c3a6cc461176862be52e71f5e65d00382aa08b6a54a2779d9a678e",
+    "scripts/build-coastal-100m-grid.py": "fc5b12dff854b9259a95433e70342ce81780ae3c806402c612d087d103a9cee1",
+    "tests/coastal-100m-grid.test.ts": "3cd7bc97cdcb01a49356bc04f53f06fe6e1cd0a54070085d0b58adaccb5da0e1"
+  },
+  "geometry": {
+    "controls_checked": 699,
+    "control_edges_checked": 689,
+    "original_control_drift_max_m": 4.443999063804828e-9,
+    "all_47_user_guide_controls_preserved": true,
+    "maximum_independent_Vincenty_chainage_difference_m": 0.00032087100407807156,
+    "maximum_fraction_metric_difference_m": 0.000004098169797739359,
+    "maximum_station_vs_linear_control_mix_m": 0.00023501093616945932,
+    "maximum_WGS84_ENU_axis_component_error": 3.339511653553157e-16,
+    "adjacent_station_chord_range_m": [
+      96.9407301395698,
+      99.99999818305237
+    ],
+    "station_interval_chainage_m": 100,
+    "chainage_numeric_tolerance_m": 0.001,
+    "duplicate_station_ids": 0,
+    "coordinate_order": "longitude,latitude in degrees",
+    "ellipsoid": "WGS84"
+  },
+  "runtime": {
+    "years": [
+      2010,
+      2026
+    ],
+    "releases": [
+      null,
+      11019,
+      18820,
+      22252,
+      10321,
+      15045
+    ],
+    "modes": [
+      "aligned",
+      "photos"
+    ],
+    "method": "Both modes were evaluated using the same source-review gates as the explorer. Every input feature collection was compared before and after sampling. The grid station inventory, 2011 positions, source control identity, endpoint metadata lineage, interpolation flag, normal residual and spacing links were checked for every frame.",
+    "municipalities": [
+      {
+        "slug": "progreso",
+        "stations": 392,
+        "frames": 204,
+        "station_results": 79968,
+        "measured": 4790,
+        "pending": 75178,
+        "spatially_interpolated": 4702,
+        "spacing_links_checked": 78540,
+        "provenance_points_checked": 18984
+      },
+      {
+        "slug": "hunucma",
+        "stations": 152,
+        "frames": 204,
+        "station_results": 31008,
+        "measured": 2540,
+        "pending": 28468,
+        "spatially_interpolated": 2505,
+        "spacing_links_checked": 30600,
+        "provenance_points_checked": 10090
+      },
+      {
+        "slug": "dzemul",
+        "stations": 134,
+        "frames": 204,
+        "station_results": 27336,
+        "measured": 2264,
+        "pending": 25072,
+        "spatially_interpolated": 2248,
+        "spacing_links_checked": 27132,
+        "provenance_points_checked": 9024
+      }
+    ],
+    "total_station_results": 138312,
+    "total_measured": 9594,
+    "total_pending": 128718,
+    "total_provenance_points_checked": 38098,
+    "total_spacing_links_checked": 136272,
+    "maximum_normal_residual_m": 0.00006351588425612675,
+    "missing_stations": 0,
+    "moving_2011_bases": 0,
+    "mutated_inputs": 0,
+    "incorrect_endpoint_provenance": 0
+  },
+  "local_metric_check": {
+    "pairs": 875,
+    "maximum_pair_length_m": 500,
+    "maximum_absolute_difference_vs_independent_Vincenty_m": 0.000005016140420366355
+  },
+  "focused_tests": {
+    "command": "node --test tests/coastal-100m-grid.test.ts",
+    "passed": 4,
+    "failed": 0
+  },
+  "resolved_review_findings": [
+    "Annual derived positions now intersect the station normal with the bracketed contemporaneous shoreline segment, rather than carrying offsets or mixing temporal endpoints at a fixed fraction.",
+    "Unknown source identity is rejected; controls require explicit same date, sensor, provider and a fixed real 2011 base.",
+    "Missing controls produce neutral pending stations; the photo-mode caller retains pending controls before constructing the grid.",
+    "Unknown positional proxy remains null and direction unresolved; an angle guard and conservative derived proxy prevent treating near-parallel intersections as direct measurements.",
+    "Exact right-hand endpoint identity is preserved, and stale grids are rejected if their base differs from the current controls by at least2cm.",
+    "Spacing labels use100m of baseline chainage, while unrelated original control links show their calculated separation."
+  ],
+  "limitations": [
+    "The 100m interval is ellipsoidal chainage along the interpreted 2011 control polyline; a straight chord across a bend can be shorter (minimum observed96.94m).",
+    "Submillimetre numerical agreement does not establish physical shoreline accuracy.",
+    "The new stations between controls are spatially interpolated positions, explicitly estimated; they are not newly digitized photographic intersections. No years are interpolated.",
+    "The derived positional proxy is operational and omits unknown spatial interpolation error, tide, wave run-up, slope, orthoregistration and field validation.",
+    "This is an independent software, geometry and source-lineage audit; a complete new visual digitization at all678 grid stations was not performed."
+  ]
+}

@@ -1,0 +1,315 @@
+{
+  "checked_on": "2026-11-06",
+  "raw_photo_sha256": "250fa694f9c3829ac0d41598454e28988a6c681fc36c6330c0f950eb08aa76e5",
+  "field_validated": false,
+  "municipalities": [
+    {
+      "slug": "progreso",
+      "profiles": 596,
+      "references": 591,
+      "reference_gaps": 5,
+      "reviewed_endpoint_pairs": 4529,
+      "years": [
+        {
+          "year": 2011,
+          "actual_photographs": 596,
+          "reference_and_reviewed_date": 591,
+          "pending_reference": 5
+        },
+        {
+          "year": 2012,
+          "actual_photographs": 350,
+          "reference_and_reviewed_date": 346,
+          "pending_reference": 5
+        },
+        {
+          "year": 2013,
+          "actual_photographs": 3,
+          "reference_and_reviewed_date": 3,
+          "pending_reference": 5
+        },
+        {
+          "year": 2014,
+          "actual_photographs": 376,
+          "reference_and_reviewed_date": 372,
+          "pending_reference": 5
+        },
+        {
+          "year": 2015,
+          "actual_photographs": 220,
+          "reference_and_reviewed_date": 216,
+          "pending_reference": 5
+        },
+        {
+          "year": 2016,
+          "actual_photographs": 0,
+          "reference_and_reviewed_date": 0,
+          "pending_reference": 5
+        },
+        {
+          "year": 2017,
+          "actual_photographs": 0,
+          "reference_and_reviewed_date": 0,
+          "pending_reference": 5
+        },
+        {
+          "year": 2018,
+          "actual_photographs": 0,
+          "reference_and_reviewed_date": 0,
+          "pending_reference": 5
+        },
+        {
+          "year": 2019,
+          "actual_photographs": 596,
+          "reference_and_reviewed_date": 584,
+          "pending_reference": 5
+        },
+        {
+          "year": 2020,
+          "actual_photographs": 504,
+          "reference_and_reviewed_date": 497,
+          "pending_reference": 5
+        },
+        {
+          "year": 2021,
+          "actual_photographs": 10,
+          "reference_and_reviewed_date": 10,
+          "pending_reference": 5
+        },
+        {
+          "year": 2022,
+          "actual_photographs": 423,
+          "reference_and_reviewed_date": 418,
+          "pending_reference": 5
+        },
+        {
+          "year": 2023,
+          "actual_photographs": 389,
+          "reference_and_reviewed_date": 383,
+          "pending_reference": 5
+        },
+        {
+          "year": 2024,
+          "actual_photographs": 0,
+          "reference_and_reviewed_date": 0,
+          "pending_reference": 5
+        },
+        {
+          "year": 2025,
+          "actual_photographs": 538,
+          "reference_and_reviewed_date": 534,
+          "pending_reference": 5
+        }
+      ]
+    },
+    {
+      "slug": "hunucma",
+      "profiles": 384,
+      "references": 153,
+      "reference_gaps": 231,
+      "reviewed_endpoint_pairs": 1327,
+      "years": [
+        {
+          "year": 2011,
+          "actual_photographs": 157,
+          "reference_and_reviewed_date": 153,
+          "pending_reference": 231
+        },
+        {
+          "year": 2012,
+          "actual_photographs": 162,
+          "reference_and_reviewed_date": 0,
+          "pending_reference": 231
+        },
+        {
+          "year": 2013,
+          "actual_photographs": 384,
+          "reference_and_reviewed_date": 152,
+          "pending_reference": 231
+        },
+        {
+          "year": 2014,
+          "actual_photographs": 55,
+          "reference_and_reviewed_date": 50,
+          "pending_reference": 231
+        },
+        {
+          "year": 2015,
+          "actual_photographs": 0,
+          "reference_and_reviewed_date": 0,
+          "pending_reference": 231
+        },
+        {
+          "year": 2016,
+          "actual_photographs": 194,
+          "reference_and_reviewed_date": 99,
+          "pending_reference": 231
+        },
+        {
+          "year": 2017,
+          "actual_photographs": 150,
+          "reference_and_reviewed_date": 13,
+          "pending_reference": 231
+        },
+        {
+          "year": 2018,
+          "actual_photographs": 141,
+          "reference_and_reviewed_date": 2,
+          "pending_reference": 231
+        },
+        {
+          "year": 2019,
+          "actual_photographs": 142,
+          "reference_and_reviewed_date": 137,
+          "pending_reference": 231
+        },
+        {
+          "year": 2020,
+          "actual_photographs": 384,
+          "reference_and_reviewed_date": 153,
+          "pending_reference": 231
+        },
+        {
+          "year": 2021,
+          "actual_photographs": 0,
+          "reference_and_reviewed_date": 0,
+          "pending_reference": 231
+        },
+        {
+          "year": 2022,
+          "actual_photographs": 247,
+          "reference_and_reviewed_date": 153,
+          "pending_reference": 231
+        },
+        {
+          "year": 2023,
+          "actual_photographs": 0,
+          "reference_and_reviewed_date": 0,
+          "pending_reference": 231
+        },
+        {
+          "year": 2024,
+          "actual_photographs": 231,
+          "reference_and_reviewed_date": 4,
+          "pending_reference": 231
+        },
+        {
+          "year": 2025,
+          "actual_photographs": 375,
+          "reference_and_reviewed_date": 152,
+          "pending_reference": 231
+        }
+      ]
+    },
+    {
+      "slug": "dzemul",
+      "profiles": 134,
+      "references": 134,
+      "reference_gaps": 0,
+      "reviewed_endpoint_pairs": 1072,
+      "years": [
+        {
+          "year": 2011,
+          "actual_photographs": 134,
+          "reference_and_reviewed_date": 134,
+          "pending_reference": 0
+        },
+        {
+          "year": 2012,
+          "actual_photographs": 134,
+          "reference_and_reviewed_date": 134,
+          "pending_reference": 0
+        },
+        {
+          "year": 2013,
+          "actual_photographs": 50,
+          "reference_and_reviewed_date": 50,
+          "pending_reference": 0
+        },
+        {
+          "year": 2014,
+          "actual_photographs": 0,
+          "reference_and_reviewed_date": 0,
+          "pending_reference": 0
+        },
+        {
+          "year": 2015,
+          "actual_photographs": 84,
+          "reference_and_reviewed_date": 84,
+          "pending_reference": 0
+        },
+        {
+          "year": 2016,
+          "actual_photographs": 0,
+          "reference_and_reviewed_date": 0,
+          "pending_reference": 0
+        },
+        {
+          "year": 2017,
+          "actual_photographs": 0,
+          "reference_and_reviewed_date": 0,
+          "pending_reference": 0
+        },
+        {
+          "year": 2018,
+          "actual_photographs": 0,
+          "reference_and_reviewed_date": 0,
+          "pending_reference": 0
+        },
+        {
+          "year": 2019,
+          "actual_photographs": 134,
+          "reference_and_reviewed_date": 133,
+          "pending_reference": 0
+        },
+        {
+          "year": 2020,
+          "actual_photographs": 91,
+          "reference_and_reviewed_date": 91,
+          "pending_reference": 0
+        },
+        {
+          "year": 2021,
+          "actual_photographs": 0,
+          "reference_and_reviewed_date": 0,
+          "pending_reference": 0
+        },
+        {
+          "year": 2022,
+          "actual_photographs": 70,
+          "reference_and_reviewed_date": 70,
+          "pending_reference": 0
+        },
+        {
+          "year": 2023,
+          "actual_photographs": 123,
+          "reference_and_reviewed_date": 123,
+          "pending_reference": 0
+        },
+        {
+          "year": 2024,
+          "actual_photographs": 0,
+          "reference_and_reviewed_date": 0,
+          "pending_reference": 0
+        },
+        {
+          "year": 2025,
+          "actual_photographs": 134,
+          "reference_and_reviewed_date": 134,
+          "pending_reference": 0
+        }
+      ]
+    }
+  ],
+  "checks": {
+    "fixed_reference": 44778,
+    "missing_reference_without_metres": 12036,
+    "reviewed_endpoint": 6928,
+    "missing_annual_photo": 27387,
+    "strict_unavailable_without_metres": 10735,
+    "strict_metadata_endpoint": 5975
+  },
+  "failures": [],
+  "matrix_rows": 16710,
+  "status": "pass"
+}

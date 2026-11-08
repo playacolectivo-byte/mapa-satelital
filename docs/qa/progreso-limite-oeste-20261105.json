@@ -1,0 +1,24 @@
+{
+  "date": "2026-11-05",
+  "scope": "Progreso western display extent",
+  "west": -89.864900465,
+  "previous_navigation_west": -89.88364721,
+  "basis": "Midpoint between existing profiles SC-258-0-29 and SC-258-0-30; not an official administrative boundary.",
+  "controls": {
+    "pan_limit": "Leaflet maxBounds with viscosity 1",
+    "outside_view": "Opaque noninteractive west mask above data panes at overview and detailed zoom",
+    "reviewed_profile_30_requested_longitude": -89.86443213,
+    "clamped_center_longitude_at_zoom_17": -89.860141,
+    "arrow_left_at_boundary": "center remained -89.860141",
+    "municipal_home": "center -89.666735,21.279943; zoom 11"
+  },
+  "verification": {
+    "municipal_tests_passed": 4,
+    "typecheck": "passed",
+    "build_public": "passed",
+    "config_hash_and_gzip": "passed",
+    "preserved_measurements": true
+  },
+  "status": "reverted_at_user_request",
+  "replacement": "Original navigation restored; neighbouring Hunucmá labelled with a link to its municipality page."
+}

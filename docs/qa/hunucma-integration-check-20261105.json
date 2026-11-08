@@ -1,0 +1,10 @@
+{
+  "status": "pass",
+  "reference_positions": 153,
+  "dated_2025_comparisons": 126,
+  "no_invented_2015_checks": 8448,
+  "stable_reference_checks": 50490,
+  "reference_gaps": 231,
+  "reviewed_readings": 795,
+  "release_specific_rejection_preserves_valid_source": true
+}

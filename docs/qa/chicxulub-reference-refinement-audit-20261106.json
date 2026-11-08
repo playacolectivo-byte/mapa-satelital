@@ -1,0 +1,97 @@
+{
+  "status": "pass",
+  "review_sha256": "9c46526c2c9e165093e2f6d418b49b7c99dd8d08e320fef7d326cc4b49b61bd7",
+  "grid_sha256": "ced7ebb8769e95352fa1317b2b0b7847fef4d64342ce03b70f7e98fc8d09883b",
+  "photos_before_sha256": "ada8576ba2cff7ab0d48b7de830501e3a4a0ccd1a618b6cb325b65d4d88f43dc",
+  "photos_after_sha256": "162e428f5cb8e9e4d75b05a7a85d0ac850866b80367ba235b192cd04ce1777c6",
+  "later_original_readings_preserved": 7915,
+  "refined_controls": 81,
+  "ambiguous_controls": [
+    "SC-89-0-52",
+    "SC-89-0-53",
+    "SC-C88-0-0"
+  ],
+  "progreso_stations": 392,
+  "chicxulub_stations": 77,
+  "year_edition_frames": 21,
+  "station_frames_checked": 8232,
+  "measured": 2954,
+  "pending": 5278,
+  "years": [
+    {
+      "year": 2011,
+      "with_reviewed_position": 77,
+      "pending": 0
+    },
+    {
+      "year": 2012,
+      "with_reviewed_position": 77,
+      "pending": 0
+    },
+    {
+      "year": 2013,
+      "with_reviewed_position": 0,
+      "pending": 77
+    },
+    {
+      "year": 2014,
+      "with_reviewed_position": 0,
+      "pending": 77
+    },
+    {
+      "year": 2015,
+      "with_reviewed_position": 77,
+      "pending": 0
+    },
+    {
+      "year": 2016,
+      "with_reviewed_position": 0,
+      "pending": 77
+    },
+    {
+      "year": 2017,
+      "with_reviewed_position": 0,
+      "pending": 77
+    },
+    {
+      "year": 2018,
+      "with_reviewed_position": 0,
+      "pending": 77
+    },
+    {
+      "year": 2019,
+      "with_reviewed_position": 74,
+      "pending": 3
+    },
+    {
+      "year": 2020,
+      "with_reviewed_position": 73,
+      "pending": 4
+    },
+    {
+      "year": 2021,
+      "with_reviewed_position": 0,
+      "pending": 77
+    },
+    {
+      "year": 2022,
+      "with_reviewed_position": 76,
+      "pending": 1
+    },
+    {
+      "year": 2023,
+      "with_reviewed_position": 77,
+      "pending": 0
+    },
+    {
+      "year": 2024,
+      "with_reviewed_position": 0,
+      "pending": 77
+    },
+    {
+      "year": 2025,
+      "with_reviewed_position": 76,
+      "pending": 1
+    }
+  ]
+}
