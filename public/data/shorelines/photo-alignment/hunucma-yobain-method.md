@@ -9,3 +9,5 @@ Cada extremo anual utiliza la fecha de adquisición de la foto en esa ubicación
 Las distancias describen el desplazamiento aparente del borde visible. Marea, oleaje y registro de imágenes pueden influir en la comparación. Cuando la diferencia queda dentro del margen de incertidumbre, el visor indica dirección incierta.
 
 [Lecturas de Hunucmá](refinement-hunucma.json) · [Lecturas de Yobaín](refinement-yobain.json) · [Malla de 100 m](coastal-100m-hunucma-yobain.json)
+
+[Imágenes alternativas revisadas y rangos aproximados](hunucma-yobain-alternatives.md)

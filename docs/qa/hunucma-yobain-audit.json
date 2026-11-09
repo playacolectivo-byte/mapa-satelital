@@ -1019,7 +1019,12 @@
           "year": 2023,
           "available": 0,
           "pending": 157,
-          "dates": []
+          "dates": [],
+          "alternative_ranges": 129,
+          "alternative_dates": [
+            "2023-05-04"
+          ],
+          "pending_without_range": 28
         },
         {
           "year": 2024,
@@ -1047,7 +1052,10 @@
             "2026-02-07"
           ]
         }
-      ]
+      ],
+      "alternative_reference_ranges": 105,
+      "alternative_comparison_ranges": 129,
+      "alternative_catalogue_profiles": 227
     },
     {
       "slug": "yobain",
@@ -1194,9 +1202,18 @@
           "pending": 74,
           "dates": [
             "2025-09-14"
-          ]
+          ],
+          "alternative_ranges": 70,
+          "alternative_dates": [
+            "2025-03-19",
+            "2025-11-19"
+          ],
+          "pending_without_range": 4
         }
-      ]
+      ],
+      "alternative_reference_ranges": 0,
+      "alternative_comparison_ranges": 70,
+      "alternative_catalogue_profiles": 7
     }
   ]
 }

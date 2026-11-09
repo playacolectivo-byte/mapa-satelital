@@ -33,6 +33,7 @@ import {validateCoastalScenario,type CoastalScenario} from '@/lib/coastal-scenar
 import {SCENARIO_YEARS,scenarioReferencePhoto,type CoastalResultView} from '@/lib/coastal-result-view';
 import {createCoastalImageAlignment} from '@/lib/coastal-image-alignment';
 import {applyCoastal100mGrid,type Coastal100mGrid} from '@/lib/coastal-100m-grid';
+import {hasRegionalAlternativeYear} from '@/lib/regional-shoreline-alternatives';
 import previousCoastalGrid from '@/public/data/shorelines/photo-alignment/coastal-100m-grid-20261106.json';
 import regionalCoastalGrid from '@/public/data/shorelines/photo-alignment/coastal-100m-hunucma-yobain.json';
 import {photoCoastComparison,compatiblePhotoCoastLayer,displayedPhotoCoastPresentation,validatePhotoCoast,type PhotoCoastPresentation,type PhotoCoastData} from '@/lib/photo-coast';
@@ -374,9 +375,17 @@ export default function Explorer({reviewMode=false,municipalityScope}:{reviewMod
   const displayedAlignmentRelease=imageSource==='detail'&&displayedRasterKey?.startsWith('esri:')?Number(displayedRasterKey.slice(5)):null;
   // On first load, wait for the first committed photo. Do not briefly paint
   // unbound results while the initial 2025 photograph is still arriving.
-  const alignedCoast=useMemo(()=>scenarioActive&&coastalResultView==='scenario'&&(imageSource!=='detail'||displayedAlignmentRelease!==null)?alignedCoastCache?.read(backgroundYear,displayedAlignmentRelease)??null:null,[scenarioActive,coastalResultView,alignedCoastCache,backgroundYear,displayedAlignmentRelease,imageSource]);
+  const alternativeScope=photoLocation?.municipality;
+  const showAlternativeLocators=imageSource==='detail'&&displayedAlignmentRelease===null&&hasRegionalAlternativeYear(alternativeScope,backgroundYear);
+  const alignedCoast=useMemo(()=>scenarioActive&&coastalResultView==='scenario'&&(imageSource!=='detail'||displayedAlignmentRelease!==null||showAlternativeLocators)?alignedCoastCache?.read(backgroundYear,displayedAlignmentRelease)??null:null,[scenarioActive,coastalResultView,alignedCoastCache,backgroundYear,displayedAlignmentRelease,imageSource,showAlternativeLocators]);
   const sourceScenarioLayer=coastalResultView==='scenario'?alignedCoast?.layer??null:photoComparisonPresentation?.layer??null;
-  const scenarioLayer=useMemo(()=>sourceScenarioLayer?applyCoastal100mGrid(sourceScenarioLayer,coastal100mGrid as unknown as Coastal100mGrid):null,[sourceScenarioLayer]);
+  const scenarioLayer=useMemo(()=>{
+    if(!sourceScenarioLayer)return null;
+    const frame=applyCoastal100mGrid(sourceScenarioLayer,coastal100mGrid as unknown as Coastal100mGrid);
+    return showAlternativeLocators&&coastalResultView==='scenario'
+      ?{...frame,features:frame.features.filter(f=>f.properties.municipality===alternativeScope&&f.properties.grid_spacing_m===100&&f.properties.photo_review_pending===true)}
+      :frame;
+  },[sourceScenarioLayer,coastalResultView,showAlternativeLocators,alternativeScope]);
   const activeRegional=scenarioActive?scenarioLayer:receivedRegional;
   const useComparisonEndpoints=['2010','2015','2020'].includes(coastalAnalysisMode)||(coastalAnalysisMode==='regional'&&backgroundYear>=2015);
   const referenceShorelines = useMemo<ShorelinePair|null>(()=>{

@@ -2,6 +2,7 @@
 import {projectCoastLabel,hasProjectCoastLabel,PROJECT_COAST_LABEL_NOTE} from '@/lib/project-coast-labels';
 import type {CoastalResultView} from '@/lib/coastal-result-view';
 import type {CoastalAlignmentSummary} from '@/lib/coastal-image-alignment';
+import {regionalAlternativeMethod} from '@/lib/regional-shoreline-alternatives';
 
 export function CoastalAnalysisControls({scopeLabel,year,displayedYear=year,years,municipality,onYearChange,comparableCount,referenceCount,visibleCount=null,status,onRetry,resultView='scenario',alignmentSummary,reviewedOnly=false,reviewedMunicipality=false}:{scopeLabel?:string;reviewedOnly?:boolean;reviewedMunicipality?:boolean;
  year:number;displayedYear?:number|null;years:number[];municipality:string|null;onYearChange:(year:number)=>void;
@@ -38,6 +39,7 @@ export function CoastalAnalysisControls({scopeLabel,year,displayedYear=year,year
      <p>La referencia de 2011 permanece fija. Cada extremo se revisa en su fotografía fechada y los metros se recalculan desde esa misma base. Cuando falta la foto, el borde no es interpretable o falta la revisión, el perfil queda pendiente sin una cifra de cambio.</p>
      <p>Interpretación visual asistida por ChatGPT, contrastada en revisiones independientes. Sin correcciones de marea, oleaje o registro relativo ni validación de campo.</p>
      <a className="compact-link" href={municipalMethod} target="_blank" rel="noreferrer">Método, fechas y pendientes</a>
+     {['Hunucmá','Yobaín'].includes(municipality??scopeLabel??'')&&<a className="compact-link" href={regionalAlternativeMethod} target="_blank" rel="noreferrer">Imágenes alternativas revisadas</a>}
     </>:reviewedOnly?<>
      <p>22 perfiles del extremo oeste de Progreso, revisados en cada foto disponible. La referencia del 1 de agosto de 2011 permanece fija. En 2013 hay tres posiciones; los otros 19 puntos no tienen una foto de ese año en esta edición.</p>
      <p>Interpretación visual asistida por ChatGPT. No se aplicaron correcciones de marea, oleaje o registro ni validación de campo.</p>

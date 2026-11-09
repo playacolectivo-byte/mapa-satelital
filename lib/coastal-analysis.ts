@@ -4,6 +4,7 @@ import { ResourceCache } from '@/lib/resource-cache';
 import {coastalDirectionUnresolved} from './coastal-direction.ts';
 import receivedEsriCatalogue from '../public/data/history/esri-local-captures.json';
 import {projectCoastLabel,hasProjectCoastLabel} from './project-coast-labels.ts';
+import {regionalAlternativeComparisons,regionalAlternativeMethod,regionalAlternativePendingReason,regionalShorelineAlternatives} from './regional-shoreline-alternatives.ts';
 
 export type CoastalAnalysisData = FeatureCollection<Geometry, Record<string, unknown>>;
 export type ShorelinePair = { before: CoastalAnalysisData; after: CoastalAnalysisData; beforeYear: number; afterYear: number };
@@ -87,6 +88,22 @@ export function coastalPopup(feature: Feature): HTMLElement {
     addUserReference();
     addText(el,p.baseline_fixed===false?'No hay una orilla de 2011 interpretable y verificada en este perfil. El localizador indica el lugar de muestreo.':`Referencia fija: ${String(p.baseline_date??p.baseline_year)}. Para ${p.year} no hay una posición revisada compatible con esta imagen.`);
     addText(el,p.baseline_fixed===false?'Sin esa base no se calcula un cambio en metros.':'Se conserva el punto de referencia y no se le asignan metros mediante interpolación ni mediante el modelo.');
+    const id=coastalValue(feature,'profile_id'),year=String(p.year);
+    const alternatives=regionalAlternativeComparisons(id,Number(year));
+    const rejected=regionalShorelineAlternatives.pending.filter(row=>row.id===id&&regionalShorelineAlternatives.sources[row.source].date.startsWith(year+'-'));
+    if(alternatives.length||rejected.length){
+      const details=document.createElement('details'),heading=document.createElement('summary');
+      heading.textContent=alternatives.length?'Rango en otra imagen':'Otras imágenes revisadas';details.appendChild(heading);
+      for(const {capture,interval_m:[low,high],reference_date} of alternatives){
+        const direction=low>0?'hacia el mar':high<0?'hacia tierra':'dirección incierta';
+        const range=direction==='dirección incierta'?`${low} a ${high}`:`${Math.min(Math.abs(low),Math.abs(high))}–${Math.max(Math.abs(low),Math.abs(high))}`;
+        addText(details,`${reference_date} → ${capture.date}: ${range} m · ${direction}. ${capture.label} (${capture.resolution_m} m por píxel).`);
+      }
+      if(alternatives.length)addText(details,'Rango aproximado en una captura distinta de la que se muestra en el mapa.');
+      for(const row of rejected)addText(details,`${regionalShorelineAlternatives.sources[row.source].date} · ${regionalAlternativePendingReason(row.reason)}`);
+      const source=document.createElement('a');source.href=regionalAlternativeMethod;source.target='_blank';source.rel='noreferrer';source.textContent='Ver fuentes y método';details.appendChild(source);
+      el.appendChild(details);
+    }
     addText(el,'Perfil '+coastalValue(feature,'profile_id')+' · '+coastalValue(feature,'municipality')+'.');
     const link=document.createElement('a');link.href=String(p.method_url);link.target='_blank';link.rel='noreferrer';link.textContent='Fechas revisadas y método';el.appendChild(link);
     return el;

@@ -1,4 +1,6 @@
 'use client';
+
+import {regionalAlternativeYears} from '@/lib/regional-shoreline-alternatives';
 import {projectCoastLabel,projectPlaceLabel} from '@/lib/project-coast-labels';
 
 import { useCallback, useEffect, useLayoutEffect, useMemo, useRef, useState } from 'react';
@@ -257,16 +259,24 @@ export function SatelliteTimeline({ firstYear=ESRI_PROJECT_FIRST_YEAR,lastYear=n
   const referenceNote=displayedInfo?'Análisis '+year+' · '+(shown?'Foto '+formatDate(shown):displayedInfo.capture):'Análisis '+year+' · fecha de la imagen en consulta';
   const selectedDate=requestedPhoto?.chapter===(scopeKey??'current')&&requestedPhoto.year===year&&requestedPhoto.release===releaseNum?requestedPhoto.date:captureDate;
   const photoYears=[...new Set(datedOptions.map(value=>value.year))];
+  const alternativeYears=scenarioReference?regionalAlternativeYears(photoLocation?.municipality).filter(value=>value>=firstYear&&value<=lastYear):[];
+  const timelineYears=[...new Set([...photoYears,...alternativeYears])].sort((a,b)=>a-b);
+  const hasAlternative=alternativeYears.includes(year);
   const pointYear=Number(captureDate?.slice(0,4));
   const pointMismatch=!!photoLocation&&!!captureDate&&pointYear!==year&&imageStatus==='ready';
   const metadataFailure=failed?<>No se pudo consultar la fecha al centro. <button onClick={()=>{probes.retry();setAttempt(n=>n+1);}}>Reintentar</button></>:null;
-  return <DateSourcePicker source="detail" value={compatibleComparison?String(scenarioReference?selectedPhotoYear??year:year):selectedDate?.slice(0,4)??''}
-    options={photoYears.map(value=>({value:String(value),label:String(value)}))}
+  return <DateSourcePicker source="detail" value={compatibleComparison?String(scenarioReference&&!hasAlternative?selectedPhotoYear??year:year):selectedDate?.slice(0,4)??''}
+    options={timelineYears.map(value=>({value:String(value),label:photoYears.includes(value)?String(value):value+' · rango alternativo'}))}
     label={photoLocation?'Años de '+projectCoastLabel(photoLocation.municipality):'Elige un municipio'} availability={sourceAvailability} status={imageStatus}
     emptyLabel={photoLocation?'Sin comparación compatible en este periodo':'Selecciona un municipio'}
     caption={(photoLocation?projectCoastLabel(photoLocation.municipality)+' · ':'')+(comparisonPeriod?'Estudio '+comparisonPeriod+' · '+referenceNote:referenceNote)}
     notice={!photoLocation?scenarioReference?'Resultados en toda la costa. Elige un municipio para consultar sus fotos.':'Elige un municipio para comparar.':scenarioReference&&referenceState.notice?<>{referenceState.notice}{metadataFailure&&<> {metadataFailure}</>}</>:pointMismatch?reviewedOnly?'Foto al centro: '+pointYear+'. Sin foto revisada de '+year+', el punto queda pendiente, sin metros.':'Foto al centro: '+pointYear+'. Las barras sólo aparecen donde la captura coincide con '+year+'.':metadataFailure}
-    onDate={value=>{const next=coastalPhotoForYear(datedOptions,Number(value),[longitude,latitude]);if(next)selectCapture(next);}}
+    onDate={value=>{
+      const nextYear=Number(value);
+      const next=coastalPhotoForYear(datedOptions,nextYear,[longitude,latitude]);
+      if(next)selectCapture(next);
+      else if(alternativeYears.includes(nextYear))onYearChange(nextYear);
+    }}
     onSource={onSource} onInfo={()=>onInfo(displayedInfo??info)}
     onRetry={()=>{probes.retry();setAttempt(value=>value+1);if(selected)onChange({...selected});else bootstrapped.current=false;}}
   />;
