@@ -175,7 +175,7 @@ def station_segment(slug: str, municipality: str, number: int, controls: list[di
             if path['municipality'] != municipality:
                 continue
             points = path['coordinates']
-            if points[0][0] <= left['coordinate'][0] and right['coordinate'][0] <= points[-1][0]:
+            if points[0][0] <= left['coordinate'][0] + 1e-10 and right['coordinate'][0] <= points[-1][0] + 1e-10:
                 vertices.extend(p for p in points if left['coordinate'][0] < p[0] < right['coordinate'][0])
         geometry.extend(sorted(vertices, key=lambda p: p[0]))
         geometry.append(right['coordinate'])
@@ -234,27 +234,40 @@ def station_segment(slug: str, municipality: str, number: int, controls: list[di
     return {'id': segment_id, 'municipality': municipality, 'reference_geometry': geometry, 'stations': stations}, audit
 
 
+def traced_between(municipality: str, left: dict, right: dict) -> bool:
+    return any(path['municipality'] == municipality
+               and path['coordinates'][0][0] <= left['coordinate'][0] + 1e-10
+               and right['coordinate'][0] <= path['coordinates'][-1][0] + 1e-10
+               for path in REFINED_PATHS)
+
+
 def main() -> None:
     parser = argparse.ArgumentParser()
     parser.add_argument('--stage-controls', action='store_true')
     parser.add_argument('--stage-geometry', action='store_true')
+    parser.add_argument('--regional-plan', type=Path,
+                        help='Build a private grid from reviewed municipal photo payloads and detailed geometry.')
     args = parser.parse_args()
-    assert not (args.stage_controls and args.stage_geometry)
+    assert sum(map(bool, (args.stage_controls, args.stage_geometry, args.regional_plan))) <= 1
+    regional = read_input(args.regional_plan.as_posix()) if args.regional_plan else None
     stage = ROOT / 'work/chicxulub-reference-review-20261106'
     staging = args.stage_controls or args.stage_geometry
     stage_prefix = 'grid-geometry-stage' if args.stage_geometry else 'grid-stage'
-    output = stage / (stage_prefix+'.json') if staging else OUTPUT
-    audit_output = stage / (stage_prefix+'-audit.json') if staging else AUDIT
+    output = args.regional_plan.parent / 'grid.json' if regional else stage / (stage_prefix+'.json') if staging else OUTPUT
+    audit_output = output.with_name('grid-audit.json') if regional else stage / (stage_prefix+'-audit.json') if staging else AUDIT
     refinement_path = stage / ('geometry-stage.json' if args.stage_geometry else 'controls-stage.json') if staging else ROOT / 'public/data/shorelines/photo-alignment/reference-refinement-20261106.json'
     refinement = None
-    if refinement_path.exists():
+    if regional:
+        REFINED_PATHS.extend(regional['reference_geometry'])
+        NON_BARRIER_AUXILIARY_IDS.update(regional.get('non_barrier_auxiliary_ids', []))
+    elif refinement_path.exists():
         refinement = read_input(str(refinement_path.relative_to(ROOT)).replace('\\', '/'))
         assert refinement['status'] == 'independently_reviewed'
         REFINED_PATHS.extend(refinement.get('reference_geometry', []))
         NON_BARRIER_AUXILIARY_IDS.update(refinement.get('non_barrier_auxiliary_ids', []))
     guides = read_input('public/data/shorelines/photo-alignment/user-guides-2011-20261105.json')
-    guide_ids = {c['profile_id'] for c in guides['corrections']}
-    assert len(guide_ids) == 47
+    guide_ids = set() if regional else {c['profile_id'] for c in guides['corrections']}
+    assert regional or len(guide_ids) == 47
     coast = read_input('public/data/coast.geojson')
     ports = [{'id': f['properties']['record_id'], 'coordinates': f['geometry']['coordinates']}
              for f in coast['features'] if f['properties'].get('SUBTIPO') == 'Construcción portuaria' and f['geometry']['type'] == 'LineString']
@@ -279,25 +292,30 @@ def main() -> None:
                               'Municipal/scientific source coordinates, readings, guide corrections and acceptance flags are not modified.'],
               'municipalities': [], 'segments': [], 'rejected_controls': [], 'cuts': []}
     protected_used = set()
-    for slug, municipality in MUNICIPALITIES:
+    municipalities = [(scope['slug'], scope['municipality']) for scope in regional['scopes']] if regional else MUNICIPALITIES
+    for slug, municipality in municipalities:
         model = read_input(f'public/data/municipalities/{slug}/scenario.json')
-        photos_path = stage / 'photos-stage.json' if staging and slug == 'progreso' else ROOT / f'public/data/municipalities/{slug}/photos.json'
+        if regional:
+            photos_path = ROOT / next(scope['photos'] for scope in regional['scopes'] if scope['slug'] == slug)
+        else:
+            photos_path = stage / 'photos-stage.json' if staging and slug == 'progreso' else ROOT / f'public/data/municipalities/{slug}/photos.json'
         photos = read_input(str(photos_path.relative_to(ROOT)).replace('\\', '/'))
-        overlay_name = 'manual-progreso-full' if slug == 'progreso' else f'manual-{slug}'
-        read_input(f'public/data/shorelines/photo-alignment/{overlay_name}-20261105.json')
+        if not regional:
+            overlay_name = 'manual-progreso-full' if slug == 'progreso' else f'manual-{slug}'
+            read_input(f'public/data/shorelines/photo-alignment/{overlay_name}-20261105.json')
         references = {r['id']: {'capture': r['fixed_reference']['capture']} for r in photos['targets'] if r.get('fixed_reference')}
         gap_reasons = {r['id']: r['reference_unavailable']['reason'] for r in photos['targets'] if r.get('reference_unavailable')}
         photo_rows = {r['id']: r for r in photos['targets']}
         approved, barriers, rejected = [], [], []
         for target in model['targets']:
-            if not target['type'].startswith('Playa'):
-                continue
             row = photo_rows[target['id']]
+            if not target['type'].startswith('Playa') and not (regional and row.get('reviewed_beach_control')):
+                continue
             ref = references.get(target['id'])
             if ref is None:
                 reason = gap_reasons.get(target['id'], 'no_manually_approved_2011_reference')
                 rejected.append({'municipality': municipality, 'profile_id': target['id'], 'group': target['id'].split('-')[1], 'reason': reason})
-                if ('structure' in reason or 'ambiguous_inlet' in reason) and target['id'] not in NON_BARRIER_AUXILIARY_IDS:
+                if (regional or 'structure' in reason or 'ambiguous_inlet' in reason) and target['id'] not in NON_BARRIER_AUXILIARY_IDS:
                     barriers.append({'profile_id': target['id'], 'longitude': target['p'][0], 'reason': reason})
                 continue
             reference_capture = row.get('review_policy', {}).get('reference_capture', -1)
@@ -337,6 +355,11 @@ def main() -> None:
             crossing = [p for p in barriers if left['coordinate'][0] <= p['longitude'] <= right['coordinate'][0]]
             port_ids = port_crossings(left, right, ports)
             reasons = ([] if gap <= MAX_EDGE_M else ['control_gap_over_180m']) + ([] if not crossing else ['unreviewable_2011_reference_between_controls']) + ([] if not port_ids else ['port_geometry_intersection'])
+            if regional:
+                if left['reference_capture'] != right['reference_capture']:
+                    reasons.append('different_2011_captures')
+                if not traced_between(municipality, left, right):
+                    reasons.append('no_continuous_reviewed_2011_trace')
             if reasons:
                 report['cuts'].append({'municipality': municipality, 'left_profile_id': left['id'], 'right_profile_id': right['id'],
                                        'geodesic_gap_m': gap, 'reasons': reasons, 'unreviewable_2011_controls': crossing, 'port_record_ids': port_ids})
@@ -346,6 +369,8 @@ def main() -> None:
         municipality_segments = []
         for number, controls in enumerate(groups, 1):
             segment, audit = station_segment(slug, municipality, number, controls)
+            if regional:
+                segment['method_url'] = regional['method_url']
             grid['segments'].append(segment)
             report['segments'].append(audit)
             municipality_segments.append(segment)
@@ -370,7 +395,7 @@ def main() -> None:
                         'user_guide_controls_preserved': len(protected_used), 'excluded_controls': len(report['rejected_controls'])}
     report['maximum_chainage_reconstruction_error_m'] = max(s['maximum_chainage_reconstruction_error_m'] for s in report['segments'])
     output_bytes = (json.dumps(grid, ensure_ascii=False, indent=2) + '\n').encode('utf-8')
-    report['artifact'] = {'path': str(output.relative_to(ROOT)), 'sha256': hashlib.sha256(output_bytes).hexdigest(), 'bytes': len(output_bytes)}
+    report['artifact'] = {'path': str(output.resolve().relative_to(ROOT)), 'sha256': hashlib.sha256(output_bytes).hexdigest(), 'bytes': len(output_bytes)}
     if not staging and refinement is not None:
         review = refinement['visual_grid_review']
         assert report['artifact']['sha256'] == review['grid_sha256'], 'Regenerated coordinates differ from the visually reviewed grid'

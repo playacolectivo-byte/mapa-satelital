@@ -1,0 +1,1202 @@
+{
+  "grid_sha256": "6ed4a6af9efec4220b8cde8dba7904a081b8ba004816c16963b6ec10b58f671c",
+  "scopes": [
+    {
+      "slug": "hunucma",
+      "stations": 157,
+      "segments": 3,
+      "reference_gaps": [
+        {
+          "id": "SC-4-0-0",
+          "reason": "no_2011_high_resolution_footprint_in_198_wayback_editions"
+        },
+        {
+          "id": "SC-4-0-1",
+          "reason": "no_2011_high_resolution_footprint_in_198_wayback_editions"
+        },
+        {
+          "id": "SC-4-0-2",
+          "reason": "no_2011_high_resolution_footprint_in_198_wayback_editions"
+        },
+        {
+          "id": "SC-4-0-3",
+          "reason": "no_2011_high_resolution_footprint_in_198_wayback_editions"
+        },
+        {
+          "id": "SC-4-0-4",
+          "reason": "no_2011_high_resolution_footprint_in_198_wayback_editions"
+        },
+        {
+          "id": "SC-4-0-5",
+          "reason": "no_2011_high_resolution_footprint_in_198_wayback_editions"
+        },
+        {
+          "id": "SC-4-0-6",
+          "reason": "no_2011_high_resolution_footprint_in_198_wayback_editions"
+        },
+        {
+          "id": "SC-4-0-7",
+          "reason": "no_2011_high_resolution_footprint_in_198_wayback_editions"
+        },
+        {
+          "id": "SC-4-0-8",
+          "reason": "no_2011_high_resolution_footprint_in_198_wayback_editions"
+        },
+        {
+          "id": "SC-4-0-9",
+          "reason": "no_2011_high_resolution_footprint_in_198_wayback_editions"
+        },
+        {
+          "id": "SC-4-0-10",
+          "reason": "no_2011_high_resolution_footprint_in_198_wayback_editions"
+        },
+        {
+          "id": "SC-4-0-11",
+          "reason": "no_2011_high_resolution_footprint_in_198_wayback_editions"
+        },
+        {
+          "id": "SC-4-0-12",
+          "reason": "no_2011_high_resolution_footprint_in_198_wayback_editions"
+        },
+        {
+          "id": "SC-4-0-13",
+          "reason": "no_2011_high_resolution_footprint_in_198_wayback_editions"
+        },
+        {
+          "id": "SC-4-0-14",
+          "reason": "no_2011_high_resolution_footprint_in_198_wayback_editions"
+        },
+        {
+          "id": "SC-4-0-15",
+          "reason": "no_2011_high_resolution_footprint_in_198_wayback_editions"
+        },
+        {
+          "id": "SC-4-0-16",
+          "reason": "no_2011_high_resolution_footprint_in_198_wayback_editions"
+        },
+        {
+          "id": "SC-4-0-17",
+          "reason": "no_2011_high_resolution_footprint_in_198_wayback_editions"
+        },
+        {
+          "id": "SC-4-0-18",
+          "reason": "no_2011_high_resolution_footprint_in_198_wayback_editions"
+        },
+        {
+          "id": "SC-4-0-19",
+          "reason": "no_2011_high_resolution_footprint_in_198_wayback_editions"
+        },
+        {
+          "id": "SC-4-0-20",
+          "reason": "no_2011_high_resolution_footprint_in_198_wayback_editions"
+        },
+        {
+          "id": "SC-4-0-21",
+          "reason": "no_2011_high_resolution_footprint_in_198_wayback_editions"
+        },
+        {
+          "id": "SC-4-0-22",
+          "reason": "no_2011_high_resolution_footprint_in_198_wayback_editions"
+        },
+        {
+          "id": "SC-4-0-23",
+          "reason": "no_2011_high_resolution_footprint_in_198_wayback_editions"
+        },
+        {
+          "id": "SC-4-0-24",
+          "reason": "no_2011_high_resolution_footprint_in_198_wayback_editions"
+        },
+        {
+          "id": "SC-4-0-25",
+          "reason": "no_2011_high_resolution_footprint_in_198_wayback_editions"
+        },
+        {
+          "id": "SC-4-0-26",
+          "reason": "no_2011_high_resolution_footprint_in_198_wayback_editions"
+        },
+        {
+          "id": "SC-4-0-27",
+          "reason": "no_2011_high_resolution_footprint_in_198_wayback_editions"
+        },
+        {
+          "id": "SC-4-0-28",
+          "reason": "no_2011_high_resolution_footprint_in_198_wayback_editions"
+        },
+        {
+          "id": "SC-4-0-29",
+          "reason": "no_2011_high_resolution_footprint_in_198_wayback_editions"
+        },
+        {
+          "id": "SC-4-0-30",
+          "reason": "no_2011_high_resolution_footprint_in_198_wayback_editions"
+        },
+        {
+          "id": "SC-4-0-31",
+          "reason": "no_2011_high_resolution_footprint_in_198_wayback_editions"
+        },
+        {
+          "id": "SC-4-0-32",
+          "reason": "no_2011_high_resolution_footprint_in_198_wayback_editions"
+        },
+        {
+          "id": "SC-4-0-33",
+          "reason": "no_2011_high_resolution_footprint_in_198_wayback_editions"
+        },
+        {
+          "id": "SC-4-0-34",
+          "reason": "no_2011_high_resolution_footprint_in_198_wayback_editions"
+        },
+        {
+          "id": "SC-4-0-35",
+          "reason": "no_2011_high_resolution_footprint_in_198_wayback_editions"
+        },
+        {
+          "id": "SC-4-0-36",
+          "reason": "no_2011_high_resolution_footprint_in_198_wayback_editions"
+        },
+        {
+          "id": "SC-4-0-37",
+          "reason": "no_2011_high_resolution_footprint_in_198_wayback_editions"
+        },
+        {
+          "id": "SC-4-0-38",
+          "reason": "no_2011_high_resolution_footprint_in_198_wayback_editions"
+        },
+        {
+          "id": "SC-4-0-39",
+          "reason": "no_2011_high_resolution_footprint_in_198_wayback_editions"
+        },
+        {
+          "id": "SC-4-0-40",
+          "reason": "no_2011_high_resolution_footprint_in_198_wayback_editions"
+        },
+        {
+          "id": "SC-4-0-41",
+          "reason": "no_2011_high_resolution_footprint_in_198_wayback_editions"
+        },
+        {
+          "id": "SC-4-0-42",
+          "reason": "no_2011_high_resolution_footprint_in_198_wayback_editions"
+        },
+        {
+          "id": "SC-4-0-43",
+          "reason": "no_2011_high_resolution_footprint_in_198_wayback_editions"
+        },
+        {
+          "id": "SC-4-0-44",
+          "reason": "no_2011_high_resolution_footprint_in_198_wayback_editions"
+        },
+        {
+          "id": "SC-4-0-45",
+          "reason": "no_2011_high_resolution_footprint_in_198_wayback_editions"
+        },
+        {
+          "id": "SC-4-0-46",
+          "reason": "no_2011_high_resolution_footprint_in_198_wayback_editions"
+        },
+        {
+          "id": "SC-4-0-47",
+          "reason": "no_2011_high_resolution_footprint_in_198_wayback_editions"
+        },
+        {
+          "id": "SC-4-0-48",
+          "reason": "no_2011_high_resolution_footprint_in_198_wayback_editions"
+        },
+        {
+          "id": "SC-4-0-49",
+          "reason": "no_2011_high_resolution_footprint_in_198_wayback_editions"
+        },
+        {
+          "id": "SC-4-0-50",
+          "reason": "no_2011_high_resolution_footprint_in_198_wayback_editions"
+        },
+        {
+          "id": "SC-4-0-51",
+          "reason": "no_2011_high_resolution_footprint_in_198_wayback_editions"
+        },
+        {
+          "id": "SC-4-0-52",
+          "reason": "no_2011_high_resolution_footprint_in_198_wayback_editions"
+        },
+        {
+          "id": "SC-4-0-53",
+          "reason": "no_2011_high_resolution_footprint_in_198_wayback_editions"
+        },
+        {
+          "id": "SC-4-0-54",
+          "reason": "no_2011_high_resolution_footprint_in_198_wayback_editions"
+        },
+        {
+          "id": "SC-4-0-55",
+          "reason": "no_2011_high_resolution_footprint_in_198_wayback_editions"
+        },
+        {
+          "id": "SC-4-0-56",
+          "reason": "no_2011_high_resolution_footprint_in_198_wayback_editions"
+        },
+        {
+          "id": "SC-4-0-57",
+          "reason": "no_2011_high_resolution_footprint_in_198_wayback_editions"
+        },
+        {
+          "id": "SC-4-0-58",
+          "reason": "no_2011_high_resolution_footprint_in_198_wayback_editions"
+        },
+        {
+          "id": "SC-4-0-59",
+          "reason": "no_2011_high_resolution_footprint_in_198_wayback_editions"
+        },
+        {
+          "id": "SC-4-0-60",
+          "reason": "no_2011_high_resolution_footprint_in_198_wayback_editions"
+        },
+        {
+          "id": "SC-4-0-61",
+          "reason": "no_2011_high_resolution_footprint_in_198_wayback_editions"
+        },
+        {
+          "id": "SC-4-0-62",
+          "reason": "no_2011_high_resolution_footprint_in_198_wayback_editions"
+        },
+        {
+          "id": "SC-4-0-63",
+          "reason": "no_2011_high_resolution_footprint_in_198_wayback_editions"
+        },
+        {
+          "id": "SC-4-0-64",
+          "reason": "no_2011_high_resolution_footprint_in_198_wayback_editions"
+        },
+        {
+          "id": "SC-4-0-65",
+          "reason": "no_2011_high_resolution_footprint_in_198_wayback_editions"
+        },
+        {
+          "id": "SC-4-0-66",
+          "reason": "no_2011_high_resolution_footprint_in_198_wayback_editions"
+        },
+        {
+          "id": "SC-4-0-67",
+          "reason": "no_2011_high_resolution_footprint_in_198_wayback_editions"
+        },
+        {
+          "id": "SC-4-0-68",
+          "reason": "no_2011_high_resolution_footprint_in_198_wayback_editions"
+        },
+        {
+          "id": "SC-4-0-69",
+          "reason": "no_2011_high_resolution_footprint_in_198_wayback_editions"
+        },
+        {
+          "id": "SC-4-0-70",
+          "reason": "no_2011_high_resolution_footprint_in_198_wayback_editions"
+        },
+        {
+          "id": "SC-4-0-71",
+          "reason": "no_2011_high_resolution_footprint_in_198_wayback_editions"
+        },
+        {
+          "id": "SC-4-0-72",
+          "reason": "no_2011_high_resolution_footprint_in_198_wayback_editions"
+        },
+        {
+          "id": "SC-4-0-73",
+          "reason": "no_2011_high_resolution_footprint_in_198_wayback_editions"
+        },
+        {
+          "id": "SC-4-0-74",
+          "reason": "no_2011_high_resolution_footprint_in_198_wayback_editions"
+        },
+        {
+          "id": "SC-4-0-75",
+          "reason": "no_2011_high_resolution_footprint_in_198_wayback_editions"
+        },
+        {
+          "id": "SC-4-0-76",
+          "reason": "no_2011_high_resolution_footprint_in_198_wayback_editions"
+        },
+        {
+          "id": "SC-4-0-77",
+          "reason": "no_2011_high_resolution_footprint_in_198_wayback_editions"
+        },
+        {
+          "id": "SC-4-0-78",
+          "reason": "no_2011_high_resolution_footprint_in_198_wayback_editions"
+        },
+        {
+          "id": "SC-4-0-79",
+          "reason": "no_2011_high_resolution_footprint_in_198_wayback_editions"
+        },
+        {
+          "id": "SC-4-0-80",
+          "reason": "no_2011_high_resolution_footprint_in_198_wayback_editions"
+        },
+        {
+          "id": "SC-4-0-81",
+          "reason": "no_2011_high_resolution_footprint_in_198_wayback_editions"
+        },
+        {
+          "id": "SC-4-0-82",
+          "reason": "no_2011_high_resolution_footprint_in_198_wayback_editions"
+        },
+        {
+          "id": "SC-4-0-83",
+          "reason": "no_2011_high_resolution_footprint_in_198_wayback_editions"
+        },
+        {
+          "id": "SC-4-0-84",
+          "reason": "no_2011_high_resolution_footprint_in_198_wayback_editions"
+        },
+        {
+          "id": "SC-4-0-85",
+          "reason": "no_2011_high_resolution_footprint_in_198_wayback_editions"
+        },
+        {
+          "id": "SC-4-0-86",
+          "reason": "no_2011_high_resolution_footprint_in_198_wayback_editions"
+        },
+        {
+          "id": "SC-4-0-87",
+          "reason": "no_2011_high_resolution_footprint_in_198_wayback_editions"
+        },
+        {
+          "id": "SC-4-0-88",
+          "reason": "no_2011_high_resolution_footprint_in_198_wayback_editions"
+        },
+        {
+          "id": "SC-4-0-89",
+          "reason": "no_2011_high_resolution_footprint_in_198_wayback_editions"
+        },
+        {
+          "id": "SC-4-0-90",
+          "reason": "no_2011_high_resolution_footprint_in_198_wayback_editions"
+        },
+        {
+          "id": "SC-4-0-91",
+          "reason": "no_2011_high_resolution_footprint_in_198_wayback_editions"
+        },
+        {
+          "id": "SC-4-0-92",
+          "reason": "no_2011_high_resolution_footprint_in_198_wayback_editions"
+        },
+        {
+          "id": "SC-4-0-93",
+          "reason": "no_2011_high_resolution_footprint_in_198_wayback_editions"
+        },
+        {
+          "id": "SC-4-0-94",
+          "reason": "no_2011_high_resolution_footprint_in_198_wayback_editions"
+        },
+        {
+          "id": "SC-4-0-95",
+          "reason": "no_2011_high_resolution_footprint_in_198_wayback_editions"
+        },
+        {
+          "id": "SC-4-0-96",
+          "reason": "no_2011_high_resolution_footprint_in_198_wayback_editions"
+        },
+        {
+          "id": "SC-4-0-97",
+          "reason": "no_2011_high_resolution_footprint_in_198_wayback_editions"
+        },
+        {
+          "id": "SC-4-0-98",
+          "reason": "no_2011_high_resolution_footprint_in_198_wayback_editions"
+        },
+        {
+          "id": "SC-4-0-99",
+          "reason": "no_2011_high_resolution_footprint_in_198_wayback_editions"
+        },
+        {
+          "id": "SC-4-0-100",
+          "reason": "no_2011_high_resolution_footprint_in_198_wayback_editions"
+        },
+        {
+          "id": "SC-4-0-101",
+          "reason": "no_2011_high_resolution_footprint_in_198_wayback_editions"
+        },
+        {
+          "id": "SC-4-0-102",
+          "reason": "no_2011_high_resolution_footprint_in_198_wayback_editions"
+        },
+        {
+          "id": "SC-4-0-103",
+          "reason": "no_2011_high_resolution_footprint_in_198_wayback_editions"
+        },
+        {
+          "id": "SC-4-0-104",
+          "reason": "no_2011_high_resolution_footprint_in_198_wayback_editions"
+        },
+        {
+          "id": "SC-4-0-105",
+          "reason": "no_2011_high_resolution_footprint_in_198_wayback_editions"
+        },
+        {
+          "id": "SC-4-0-106",
+          "reason": "no_2011_high_resolution_footprint_in_198_wayback_editions"
+        },
+        {
+          "id": "SC-4-0-107",
+          "reason": "no_2011_high_resolution_footprint_in_198_wayback_editions"
+        },
+        {
+          "id": "SC-4-0-108",
+          "reason": "no_2011_high_resolution_footprint_in_198_wayback_editions"
+        },
+        {
+          "id": "SC-4-0-109",
+          "reason": "no_2011_high_resolution_footprint_in_198_wayback_editions"
+        },
+        {
+          "id": "SC-4-0-110",
+          "reason": "no_2011_high_resolution_footprint_in_198_wayback_editions"
+        },
+        {
+          "id": "SC-4-0-111",
+          "reason": "no_2011_high_resolution_footprint_in_198_wayback_editions"
+        },
+        {
+          "id": "SC-4-0-112",
+          "reason": "no_2011_high_resolution_footprint_in_198_wayback_editions"
+        },
+        {
+          "id": "SC-4-0-113",
+          "reason": "no_2011_high_resolution_footprint_in_198_wayback_editions"
+        },
+        {
+          "id": "SC-4-0-114",
+          "reason": "no_2011_high_resolution_footprint_in_198_wayback_editions"
+        },
+        {
+          "id": "SC-4-0-115",
+          "reason": "no_2011_high_resolution_footprint_in_198_wayback_editions"
+        },
+        {
+          "id": "SC-4-0-116",
+          "reason": "no_2011_high_resolution_footprint_in_198_wayback_editions"
+        },
+        {
+          "id": "SC-4-0-117",
+          "reason": "no_2011_high_resolution_footprint_in_198_wayback_editions"
+        },
+        {
+          "id": "SC-4-0-118",
+          "reason": "no_2011_high_resolution_footprint_in_198_wayback_editions"
+        },
+        {
+          "id": "SC-4-0-119",
+          "reason": "no_2011_high_resolution_footprint_in_198_wayback_editions"
+        },
+        {
+          "id": "SC-4-0-120",
+          "reason": "no_2011_high_resolution_footprint_in_198_wayback_editions"
+        },
+        {
+          "id": "SC-4-0-121",
+          "reason": "no_2011_high_resolution_footprint_in_198_wayback_editions"
+        },
+        {
+          "id": "SC-4-0-122",
+          "reason": "no_2011_high_resolution_footprint_in_198_wayback_editions"
+        },
+        {
+          "id": "SC-4-0-123",
+          "reason": "no_2011_high_resolution_footprint_in_198_wayback_editions"
+        },
+        {
+          "id": "SC-4-0-124",
+          "reason": "no_2011_high_resolution_footprint_in_198_wayback_editions"
+        },
+        {
+          "id": "SC-4-0-125",
+          "reason": "no_2011_high_resolution_footprint_in_198_wayback_editions"
+        },
+        {
+          "id": "SC-4-0-126",
+          "reason": "no_2011_high_resolution_footprint_in_198_wayback_editions"
+        },
+        {
+          "id": "SC-4-0-127",
+          "reason": "no_2011_high_resolution_footprint_in_198_wayback_editions"
+        },
+        {
+          "id": "SC-4-0-128",
+          "reason": "no_2011_high_resolution_footprint_in_198_wayback_editions"
+        },
+        {
+          "id": "SC-4-0-129",
+          "reason": "no_2011_high_resolution_footprint_in_198_wayback_editions"
+        },
+        {
+          "id": "SC-4-0-130",
+          "reason": "no_2011_high_resolution_footprint_in_198_wayback_editions"
+        },
+        {
+          "id": "SC-4-0-131",
+          "reason": "no_2011_high_resolution_footprint_in_198_wayback_editions"
+        },
+        {
+          "id": "SC-4-0-132",
+          "reason": "no_2011_high_resolution_footprint_in_198_wayback_editions"
+        },
+        {
+          "id": "SC-4-0-133",
+          "reason": "no_2011_high_resolution_footprint_in_198_wayback_editions"
+        },
+        {
+          "id": "SC-4-0-134",
+          "reason": "no_2011_high_resolution_footprint_in_198_wayback_editions"
+        },
+        {
+          "id": "SC-4-0-135",
+          "reason": "no_2011_high_resolution_footprint_in_198_wayback_editions"
+        },
+        {
+          "id": "SC-4-0-136",
+          "reason": "no_2011_high_resolution_footprint_in_198_wayback_editions"
+        },
+        {
+          "id": "SC-4-0-137",
+          "reason": "no_2011_high_resolution_footprint_in_198_wayback_editions"
+        },
+        {
+          "id": "SC-4-0-138",
+          "reason": "no_2011_high_resolution_footprint_in_198_wayback_editions"
+        },
+        {
+          "id": "SC-4-0-139",
+          "reason": "no_2011_high_resolution_footprint_in_198_wayback_editions"
+        },
+        {
+          "id": "SC-4-0-140",
+          "reason": "no_2011_high_resolution_footprint_in_198_wayback_editions"
+        },
+        {
+          "id": "SC-4-0-141",
+          "reason": "no_2011_high_resolution_footprint_in_198_wayback_editions"
+        },
+        {
+          "id": "SC-4-0-142",
+          "reason": "no_2011_high_resolution_footprint_in_198_wayback_editions"
+        },
+        {
+          "id": "SC-4-0-143",
+          "reason": "no_2011_high_resolution_footprint_in_198_wayback_editions"
+        },
+        {
+          "id": "SC-4-0-144",
+          "reason": "no_2011_high_resolution_footprint_in_198_wayback_editions"
+        },
+        {
+          "id": "SC-4-0-145",
+          "reason": "no_2011_high_resolution_footprint_in_198_wayback_editions"
+        },
+        {
+          "id": "SC-4-0-146",
+          "reason": "no_2011_high_resolution_footprint_in_198_wayback_editions"
+        },
+        {
+          "id": "SC-4-0-147",
+          "reason": "no_2011_high_resolution_footprint_in_198_wayback_editions"
+        },
+        {
+          "id": "SC-4-0-148",
+          "reason": "no_2011_high_resolution_footprint_in_198_wayback_editions"
+        },
+        {
+          "id": "SC-4-0-149",
+          "reason": "no_2011_high_resolution_footprint_in_198_wayback_editions"
+        },
+        {
+          "id": "SC-4-0-150",
+          "reason": "no_2011_high_resolution_footprint_in_198_wayback_editions"
+        },
+        {
+          "id": "SC-4-0-151",
+          "reason": "no_2011_high_resolution_footprint_in_198_wayback_editions"
+        },
+        {
+          "id": "SC-4-0-152",
+          "reason": "no_2011_high_resolution_footprint_in_198_wayback_editions"
+        },
+        {
+          "id": "SC-4-0-153",
+          "reason": "no_2011_high_resolution_footprint_in_198_wayback_editions"
+        },
+        {
+          "id": "SC-4-0-154",
+          "reason": "no_2011_high_resolution_footprint_in_198_wayback_editions"
+        },
+        {
+          "id": "SC-4-0-155",
+          "reason": "no_2011_high_resolution_footprint_in_198_wayback_editions"
+        },
+        {
+          "id": "SC-4-0-156",
+          "reason": "no_2011_high_resolution_footprint_in_198_wayback_editions"
+        },
+        {
+          "id": "SC-4-0-157",
+          "reason": "no_2011_high_resolution_footprint_in_198_wayback_editions"
+        },
+        {
+          "id": "SC-4-0-158",
+          "reason": "no_2011_high_resolution_footprint_in_198_wayback_editions"
+        },
+        {
+          "id": "SC-4-0-159",
+          "reason": "no_2011_high_resolution_footprint_in_198_wayback_editions"
+        },
+        {
+          "id": "SC-4-0-160",
+          "reason": "no_2011_high_resolution_footprint_in_198_wayback_editions"
+        },
+        {
+          "id": "SC-4-0-161",
+          "reason": "no_2011_high_resolution_footprint_in_198_wayback_editions"
+        },
+        {
+          "id": "SC-4-0-162",
+          "reason": "no_2011_high_resolution_footprint_in_198_wayback_editions"
+        },
+        {
+          "id": "SC-4-0-163",
+          "reason": "no_2011_high_resolution_footprint_in_198_wayback_editions"
+        },
+        {
+          "id": "SC-4-0-164",
+          "reason": "no_2011_high_resolution_footprint_in_198_wayback_editions"
+        },
+        {
+          "id": "SC-4-0-165",
+          "reason": "no_2011_high_resolution_footprint_in_198_wayback_editions"
+        },
+        {
+          "id": "SC-4-0-166",
+          "reason": "no_2011_high_resolution_footprint_in_198_wayback_editions"
+        },
+        {
+          "id": "SC-4-0-167",
+          "reason": "no_2011_high_resolution_footprint_in_198_wayback_editions"
+        },
+        {
+          "id": "SC-4-0-168",
+          "reason": "no_2011_high_resolution_footprint_in_198_wayback_editions"
+        },
+        {
+          "id": "SC-4-0-169",
+          "reason": "no_2011_high_resolution_footprint_in_198_wayback_editions"
+        },
+        {
+          "id": "SC-4-0-170",
+          "reason": "no_2011_high_resolution_footprint_in_198_wayback_editions"
+        },
+        {
+          "id": "SC-4-0-171",
+          "reason": "no_2011_high_resolution_footprint_in_198_wayback_editions"
+        },
+        {
+          "id": "SC-4-0-172",
+          "reason": "no_2011_high_resolution_footprint_in_198_wayback_editions"
+        },
+        {
+          "id": "SC-4-0-173",
+          "reason": "no_2011_high_resolution_footprint_in_198_wayback_editions"
+        },
+        {
+          "id": "SC-4-0-174",
+          "reason": "no_2011_high_resolution_footprint_in_198_wayback_editions"
+        },
+        {
+          "id": "SC-4-0-175",
+          "reason": "no_2011_high_resolution_footprint_in_198_wayback_editions"
+        },
+        {
+          "id": "SC-4-0-176",
+          "reason": "no_2011_high_resolution_footprint_in_198_wayback_editions"
+        },
+        {
+          "id": "SC-5-0-0",
+          "reason": "no_2011_high_resolution_footprint_in_198_wayback_editions"
+        },
+        {
+          "id": "SC-5-0-1",
+          "reason": "no_2011_high_resolution_footprint_in_198_wayback_editions"
+        },
+        {
+          "id": "SC-5-0-2",
+          "reason": "no_2011_high_resolution_footprint_in_198_wayback_editions"
+        },
+        {
+          "id": "SC-5-0-3",
+          "reason": "no_2011_high_resolution_footprint_in_198_wayback_editions"
+        },
+        {
+          "id": "SC-5-0-4",
+          "reason": "no_2011_high_resolution_footprint_in_198_wayback_editions"
+        },
+        {
+          "id": "SC-5-0-5",
+          "reason": "no_2011_high_resolution_footprint_in_198_wayback_editions"
+        },
+        {
+          "id": "SC-5-0-6",
+          "reason": "no_2011_high_resolution_footprint_in_198_wayback_editions"
+        },
+        {
+          "id": "SC-5-0-7",
+          "reason": "no_2011_high_resolution_footprint_in_198_wayback_editions"
+        },
+        {
+          "id": "SC-5-0-8",
+          "reason": "no_2011_high_resolution_footprint_in_198_wayback_editions"
+        },
+        {
+          "id": "SC-5-0-9",
+          "reason": "no_2011_high_resolution_footprint_in_198_wayback_editions"
+        },
+        {
+          "id": "SC-5-0-10",
+          "reason": "no_2011_high_resolution_footprint_in_198_wayback_editions"
+        },
+        {
+          "id": "SC-5-0-11",
+          "reason": "no_2011_high_resolution_footprint_in_198_wayback_editions"
+        },
+        {
+          "id": "SC-5-0-12",
+          "reason": "no_2011_high_resolution_footprint_in_198_wayback_editions"
+        },
+        {
+          "id": "SC-5-0-13",
+          "reason": "no_2011_high_resolution_footprint_in_198_wayback_editions"
+        },
+        {
+          "id": "SC-5-0-14",
+          "reason": "no_2011_high_resolution_footprint_in_198_wayback_editions"
+        },
+        {
+          "id": "SC-5-0-15",
+          "reason": "no_2011_high_resolution_footprint_in_198_wayback_editions"
+        },
+        {
+          "id": "SC-5-0-16",
+          "reason": "no_2011_high_resolution_footprint_in_198_wayback_editions"
+        },
+        {
+          "id": "SC-5-0-17",
+          "reason": "no_2011_high_resolution_footprint_in_198_wayback_editions"
+        },
+        {
+          "id": "SC-5-0-18",
+          "reason": "no_2011_high_resolution_footprint_in_198_wayback_editions"
+        },
+        {
+          "id": "SC-5-0-19",
+          "reason": "no_2011_high_resolution_footprint_in_198_wayback_editions"
+        },
+        {
+          "id": "SC-5-0-20",
+          "reason": "no_2011_high_resolution_footprint_in_198_wayback_editions"
+        },
+        {
+          "id": "SC-5-0-21",
+          "reason": "no_2011_high_resolution_footprint_in_198_wayback_editions"
+        },
+        {
+          "id": "SC-5-0-22",
+          "reason": "no_2011_high_resolution_footprint_in_198_wayback_editions"
+        },
+        {
+          "id": "SC-5-0-23",
+          "reason": "no_2011_high_resolution_footprint_in_198_wayback_editions"
+        },
+        {
+          "id": "SC-5-0-24",
+          "reason": "no_2011_high_resolution_footprint_in_198_wayback_editions"
+        },
+        {
+          "id": "SC-5-0-25",
+          "reason": "no_2011_high_resolution_footprint_in_198_wayback_editions"
+        },
+        {
+          "id": "SC-5-0-26",
+          "reason": "no_2011_high_resolution_footprint_in_198_wayback_editions"
+        },
+        {
+          "id": "SC-5-0-27",
+          "reason": "no_2011_high_resolution_footprint_in_198_wayback_editions"
+        },
+        {
+          "id": "SC-5-0-28",
+          "reason": "no_2011_high_resolution_footprint_in_198_wayback_editions"
+        },
+        {
+          "id": "SC-5-0-29",
+          "reason": "no_2011_high_resolution_footprint_in_198_wayback_editions"
+        },
+        {
+          "id": "SC-5-0-30",
+          "reason": "no_2011_high_resolution_footprint_in_198_wayback_editions"
+        },
+        {
+          "id": "SC-5-0-31",
+          "reason": "no_2011_high_resolution_footprint_in_198_wayback_editions"
+        },
+        {
+          "id": "SC-31-0-0",
+          "reason": "no_2011_high_resolution_footprint_in_198_wayback_editions"
+        },
+        {
+          "id": "SC-31-0-1",
+          "reason": "no_2011_high_resolution_footprint_in_198_wayback_editions"
+        },
+        {
+          "id": "SC-31-0-2",
+          "reason": "no_2011_high_resolution_footprint_in_198_wayback_editions"
+        },
+        {
+          "id": "SC-31-0-3",
+          "reason": "no_2011_high_resolution_footprint_in_198_wayback_editions"
+        },
+        {
+          "id": "SC-31-0-4",
+          "reason": "no_2011_high_resolution_footprint_in_198_wayback_editions"
+        },
+        {
+          "id": "SC-31-0-5",
+          "reason": "no_2011_high_resolution_footprint_in_198_wayback_editions"
+        },
+        {
+          "id": "SC-31-0-6",
+          "reason": "no_2011_high_resolution_footprint_in_198_wayback_editions"
+        },
+        {
+          "id": "SC-31-0-7",
+          "reason": "no_2011_high_resolution_footprint_in_198_wayback_editions"
+        },
+        {
+          "id": "SC-31-0-8",
+          "reason": "no_2011_high_resolution_footprint_in_198_wayback_editions"
+        },
+        {
+          "id": "SC-31-0-9",
+          "reason": "no_2011_high_resolution_footprint_in_198_wayback_editions"
+        },
+        {
+          "id": "SC-31-0-10",
+          "reason": "no_2011_high_resolution_footprint_in_198_wayback_editions"
+        },
+        {
+          "id": "SC-31-0-11",
+          "reason": "no_2011_high_resolution_footprint_in_198_wayback_editions"
+        },
+        {
+          "id": "SC-31-0-12",
+          "reason": "no_2011_high_resolution_footprint_in_198_wayback_editions"
+        },
+        {
+          "id": "SC-31-0-13",
+          "reason": "no_2011_high_resolution_footprint_in_198_wayback_editions"
+        },
+        {
+          "id": "SC-31-0-14",
+          "reason": "no_2011_high_resolution_footprint_in_198_wayback_editions"
+        },
+        {
+          "id": "SC-31-0-15",
+          "reason": "no_2011_high_resolution_footprint_in_198_wayback_editions"
+        },
+        {
+          "id": "SC-31-0-16",
+          "reason": "no_2011_high_resolution_footprint_in_198_wayback_editions"
+        },
+        {
+          "id": "SC-31-0-17",
+          "reason": "no_2011_high_resolution_footprint_in_198_wayback_editions"
+        }
+      ],
+      "year_edition_frames": 39,
+      "station_frames_checked": 6123,
+      "years": [
+        {
+          "year": 2011,
+          "available": 157,
+          "pending": 0,
+          "dates": [
+            "2011-08-01"
+          ]
+        },
+        {
+          "year": 2012,
+          "available": 0,
+          "pending": 157,
+          "dates": []
+        },
+        {
+          "year": 2013,
+          "available": 153,
+          "pending": 4,
+          "dates": [
+            "2013-02-13",
+            "2013-04-11"
+          ]
+        },
+        {
+          "year": 2014,
+          "available": 51,
+          "pending": 106,
+          "dates": [
+            "2014-09-18"
+          ]
+        },
+        {
+          "year": 2015,
+          "available": 0,
+          "pending": 157,
+          "dates": []
+        },
+        {
+          "year": 2016,
+          "available": 98,
+          "pending": 59,
+          "dates": [
+            "2016-03-07",
+            "2016-10-01"
+          ]
+        },
+        {
+          "year": 2017,
+          "available": 12,
+          "pending": 145,
+          "dates": [
+            "2017-02-11"
+          ]
+        },
+        {
+          "year": 2018,
+          "available": 2,
+          "pending": 155,
+          "dates": [
+            "2018-03-20"
+          ]
+        },
+        {
+          "year": 2019,
+          "available": 138,
+          "pending": 19,
+          "dates": [
+            "2019-10-04",
+            "2019-11-22",
+            "2019-12-16"
+          ]
+        },
+        {
+          "year": 2020,
+          "available": 154,
+          "pending": 3,
+          "dates": [
+            "2020-03-31",
+            "2020-12-30"
+          ]
+        },
+        {
+          "year": 2021,
+          "available": 0,
+          "pending": 157,
+          "dates": []
+        },
+        {
+          "year": 2022,
+          "available": 153,
+          "pending": 4,
+          "dates": [
+            "2022-01-14",
+            "2022-01-24",
+            "2022-07-15"
+          ]
+        },
+        {
+          "year": 2023,
+          "available": 0,
+          "pending": 157,
+          "dates": []
+        },
+        {
+          "year": 2024,
+          "available": 4,
+          "pending": 153,
+          "dates": [
+            "2024-03-30"
+          ]
+        },
+        {
+          "year": 2025,
+          "available": 152,
+          "pending": 5,
+          "dates": [
+            "2025-02-13",
+            "2025-03-19",
+            "2025-03-23"
+          ]
+        },
+        {
+          "year": 2026,
+          "available": 43,
+          "pending": 114,
+          "dates": [
+            "2026-02-07"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "yobain",
+      "stations": 76,
+      "segments": 12,
+      "reference_gaps": [
+        {
+          "id": "SC-27-0-0",
+          "reason": "pending_structure_at_port_jetty_no_unique_water_sand_contact"
+        },
+        {
+          "id": "SC-280-0-6",
+          "reason": "pending_structure_near_breach_no_unique_water_sand_contact"
+        },
+        {
+          "id": "SC-280-0-7",
+          "reason": "broad_dark_strip_masks_unique_water_sand_contact"
+        },
+        {
+          "id": "SC-280-0-8",
+          "reason": "dark_strip_has_separated_plausible_contacts"
+        },
+        {
+          "id": "SC-280-0-9",
+          "reason": "broad_dark_strip_masks_unique_water_sand_contact"
+        },
+        {
+          "id": "SC-280-0-10",
+          "reason": "dark_strip_has_separated_plausible_contacts"
+        },
+        {
+          "id": "SC-280-0-11",
+          "reason": "pending_dark_broad_strip_obscures_visible_water_sand_contact"
+        }
+      ],
+      "year_edition_frames": 32,
+      "station_frames_checked": 2432,
+      "years": [
+        {
+          "year": 2011,
+          "available": 76,
+          "pending": 0,
+          "dates": [
+            "2011-08-01"
+          ]
+        },
+        {
+          "year": 2012,
+          "available": 6,
+          "pending": 70,
+          "dates": [
+            "2012-12-10"
+          ]
+        },
+        {
+          "year": 2013,
+          "available": 36,
+          "pending": 40,
+          "dates": [
+            "2013-03-15"
+          ]
+        },
+        {
+          "year": 2014,
+          "available": 0,
+          "pending": 76,
+          "dates": []
+        },
+        {
+          "year": 2015,
+          "available": 0,
+          "pending": 76,
+          "dates": []
+        },
+        {
+          "year": 2016,
+          "available": 0,
+          "pending": 76,
+          "dates": []
+        },
+        {
+          "year": 2017,
+          "available": 59,
+          "pending": 17,
+          "dates": [
+            "2017-01-26"
+          ]
+        },
+        {
+          "year": 2018,
+          "available": 0,
+          "pending": 76,
+          "dates": []
+        },
+        {
+          "year": 2019,
+          "available": 53,
+          "pending": 23,
+          "dates": [
+            "2019-09-04",
+            "2019-11-27"
+          ]
+        },
+        {
+          "year": 2020,
+          "available": 62,
+          "pending": 14,
+          "dates": [
+            "2020-04-12",
+            "2020-04-22"
+          ]
+        },
+        {
+          "year": 2021,
+          "available": 0,
+          "pending": 76,
+          "dates": []
+        },
+        {
+          "year": 2022,
+          "available": 0,
+          "pending": 76,
+          "dates": []
+        },
+        {
+          "year": 2023,
+          "available": 30,
+          "pending": 46,
+          "dates": [
+            "2023-09-27"
+          ]
+        },
+        {
+          "year": 2024,
+          "available": 21,
+          "pending": 55,
+          "dates": [
+            "2024-11-30"
+          ]
+        },
+        {
+          "year": 2025,
+          "available": 2,
+          "pending": 74,
+          "dates": [
+            "2025-09-14"
+          ]
+        }
+      ]
+    }
+  ]
+}

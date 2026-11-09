@@ -6,6 +6,7 @@ import {applyPhotoPilotReview} from '../lib/photo-pilot-review.ts';
 import {applyUserShorelineGuides} from '../lib/user-shoreline-guides.ts';
 import {applyMunicipalShorelineReview} from '../lib/municipal-shoreline-review.ts';
 import {applyShorelineReferenceRefinement} from '../lib/shoreline-reference-refinement.ts';
+import {applyCoastalMunicipalRefinement} from '../lib/coastal-municipal-refinement.ts';
 import {existsSync} from 'node:fs';
 import {validatePhotoCoast} from '../lib/photo-coast.ts';
 import {withReviewedPhotoCatalogue} from '../lib/reviewed-photo-catalogue.ts';
@@ -26,6 +27,13 @@ const refinementName='reference-refinement-20261106.json';
 if(existsSync(new URL(folder+refinementName,root))){
  const bytes=await readFile(new URL(folder+refinementName,root));fingerprints[refinementName]=createHash('sha256').update(bytes).digest('hex');
  photos=applyShorelineReferenceRefinement(photos,JSON.parse(bytes),sha);
+}
+for(const slug of ['hunucma','yobain']){
+ const name='refinement-'+slug+'.json';
+ if(!existsSync(new URL(folder+name,root)))continue;
+ const bytes=await readFile(new URL(folder+name,root));
+ fingerprints[name]=createHash('sha256').update(bytes).digest('hex');
+ photos=applyCoastalMunicipalRefinement(photos,JSON.parse(bytes),sha);
 }
 validatePhotoCoast(photos);
 const base=await read('lib/generated/municipal-photo-refined-catalogue.json'),model=await read('public/data/shorelines/scenario/model.json');

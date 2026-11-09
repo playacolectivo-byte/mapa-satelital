@@ -12,6 +12,9 @@ export function CoastalAnalysisControls({scopeLabel,year,displayedYear=year,year
  const present=years.includes(year),scenario=resultView==='scenario';
  scopeLabel=scopeLabel?projectCoastLabel(scopeLabel):scopeLabel;
  const projectNames=municipality!==null&&hasProjectCoastLabel(municipality);
+ const municipalMethod=municipality==='Hunucmá'||municipality==='Yobaín'
+  ?'/data/shorelines/photo-alignment/hunucma-yobain-method.md'
+  :'/data/shorelines/photo-alignment/municipal-review-20261105-method.md';
  return <section className="coastal-analysis-controls" aria-label="Comparación de posiciones de costa">
   <strong className="coastal-analysis-title">Cambio de la costa</strong>
   {projectNames&&<p className="coastal-inline-status">{PROJECT_COAST_LABEL_NOTE} <a href="/data/project-coast-labels-20261105.md" target="_blank" rel="noreferrer">Fuentes y nombres</a></p>}
@@ -34,7 +37,7 @@ export function CoastalAnalysisControls({scopeLabel,year,displayedYear=year,year
     {reviewedMunicipality?<>
      <p>La referencia de 2011 permanece fija. Cada extremo se revisa en su fotografía fechada y los metros se recalculan desde esa misma base. Cuando falta la foto, el borde no es interpretable o falta la revisión, el perfil queda pendiente sin una cifra de cambio.</p>
      <p>Interpretación visual asistida por ChatGPT, contrastada en revisiones independientes. Sin correcciones de marea, oleaje o registro relativo ni validación de campo.</p>
-     <a className="compact-link" href="/data/shorelines/photo-alignment/municipal-review-20261105-method.md" target="_blank" rel="noreferrer">Método, fechas y pendientes</a>
+     <a className="compact-link" href={municipalMethod} target="_blank" rel="noreferrer">Método, fechas y pendientes</a>
     </>:reviewedOnly?<>
      <p>22 perfiles del extremo oeste de Progreso, revisados en cada foto disponible. La referencia del 1 de agosto de 2011 permanece fija. En 2013 hay tres posiciones; los otros 19 puntos no tienen una foto de ese año en esta edición.</p>
      <p>Interpretación visual asistida por ChatGPT. No se aplicaron correcciones de marea, oleaje o registro ni validación de campo.</p>

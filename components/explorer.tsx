@@ -33,7 +33,8 @@ import {validateCoastalScenario,type CoastalScenario} from '@/lib/coastal-scenar
 import {SCENARIO_YEARS,scenarioReferencePhoto,type CoastalResultView} from '@/lib/coastal-result-view';
 import {createCoastalImageAlignment} from '@/lib/coastal-image-alignment';
 import {applyCoastal100mGrid,type Coastal100mGrid} from '@/lib/coastal-100m-grid';
-import coastal100mGrid from '@/public/data/shorelines/photo-alignment/coastal-100m-grid-20261106.json';
+import previousCoastalGrid from '@/public/data/shorelines/photo-alignment/coastal-100m-grid-20261106.json';
+import regionalCoastalGrid from '@/public/data/shorelines/photo-alignment/coastal-100m-hunucma-yobain.json';
 import {photoCoastComparison,compatiblePhotoCoastLayer,displayedPhotoCoastPresentation,validatePhotoCoast,type PhotoCoastPresentation,type PhotoCoastData} from '@/lib/photo-coast';
 import photoCoastVersion from '@/lib/generated/photo-coast-revised-version.json';
 import photoVisualReview from '@/public/data/shorelines/photo-alignment/revised-visual-review.json';
@@ -72,6 +73,11 @@ import {CoastalPlacePicker} from './coastal-place-picker';
 import receivedPhotoCatalogueJson from '@/public/data/history/esri-local-captures.json';
 import {chapterBounds,initialChapterYears,withChapterYear} from '@/lib/coastal-chapters';
 const municipalPhotoCatalogueJson=reviewedMunicipalPhotoCatalogueJson as unknown as MunicipalPhotoCatalogue;
+const regionalGridScopes=new Set(regionalCoastalGrid.segments.map(segment=>segment.municipality));
+const coastal100mGrid={
+ ...previousCoastalGrid,
+ segments:[...previousCoastalGrid.segments.filter(segment=>!regionalGridScopes.has(segment.municipality)),...regionalCoastalGrid.segments],
+} as unknown as Coastal100mGrid;
 const HistoricalDocumentViewer=lazy(()=>import('./historical-document-viewer').then(module=>({default:module.HistoricalDocumentViewer})));
 const HistoricalErosionSummary=lazy(()=>import('./historical-erosion-summary').then(module=>({default:module.HistoricalErosionSummary})));
 import { loadCoastalLayer, peekCoastalLayer, type CoastalAnalysisData, type ShorelinePair } from '@/lib/coastal-analysis';
@@ -202,6 +208,11 @@ export default function Explorer({reviewMode=false,municipalityScope}:{reviewMod
       .then(photos=>municipalityScope?photos:applyPhotoPilotReview(photos,westProgresoReview as PhotoPilotReview,photoCoastVersion.sha256))
       .then(photos=>municipalityScope?photos:applyUserShorelineGuides(photos,userShorelineGuides as UserShorelineGuides,photoCoastVersion.sha256))
       .then(async photos=>municipalityScope?photos:(await import('@/lib/current-shoreline-reviews')).applyCurrentMunicipalReviews(photos,photoCoastVersion.sha256))
+      .then(async photos=>{
+        const slug=municipalityScope?.municipality.slug;
+        if(slug&&slug!=='hunucma'&&slug!=='yobain')return photos;
+        return (await import('@/lib/regional-shoreline-reviews')).applyRegionalShorelineReviews(photos,photoCoastVersion.sha256,slug);
+      })
       .then(photos=>{if(photos.model_sha256!==scenarioVersion.sha256)throw new Error('Photo inventory version mismatch');if(!controller.signal.aborted){setPhotoCoastData(photos);setPhotoComparisonStatus('ready');}}).catch(()=>{if(!controller.signal.aborted)setPhotoComparisonStatus('error');}).finally(()=>window.clearTimeout(timer));
     return()=>{window.clearTimeout(timer);controller.abort();};
   },[scenarioActive,coastalResultView,photoCoastData,attempt]);
@@ -1209,7 +1220,7 @@ export default function Explorer({reviewMode=false,municipalityScope}:{reviewMod
       {coastalChapter==='current' && evolutionMode && coastalAnalysisMode === '1993' && researchVisible && <CoastalEvolutionLegend index={evolutionIndex} year={backgroundYear} status={evolutionStatus} historicalContext={!!historicalContext?.features.length} trendStatus={trendStatus} />}
       {!evolutionMode && pilotMode && pilotCut && pilotSeries && <LittoralLegend cut={pilotCut} count={pilotSeries.pilot.transects.features.length} />}
       <CoastalPeriodSections historicalEvidence={<Suspense fallback={<p>Cargando cálculo histórico…</p>}><HistoricalErosionSummary year={backgroundYear} onYear={setImageYear}/></Suspense>} onPartialYear={year=>{setImageYear(year);setPhotoYear(year,'archive');setImageSourceState('archive');setArchiveKind('inegi');setPanel(null);setSatelliteStatus('loading');const epoch=historicalEpochForYear(archiveManifests.inegi,year);const bounds=historicalEpochBounds(archiveManifests.inegi,epoch?.id??null);if(bounds)map.current?.coverage(bounds);}} chapter={coastalChapter} onChapter={chapter=>{setCoastalChapter(chapter);setPanel(null);setEvidenceSelected(null);setResearchSelectedId(null);setPilotMode(false);setEvolutionMode(chapter!=='alec');if(chapter==='alec'){setResearchFollowsTime(false);}}} series={researchSeriesId} onSeries={series=>{setManualResearchSeries(series);setImageYear(series==='L5'?2011:2021);setResearchFollowsTime(false);setResearchSelectedId(null);}} count={researchData?.features.length??0} status={researchStatus} onRetry={()=>setResearchAttempt(n=>n+1)}>
-        <CoastalAnalysisControls reviewedMunicipality={['Progreso','Hunucmá','Dzemul'].includes(municipalityScope?.municipality.name??photoLocation?.municipality??'')} scopeLabel={municipalityScope?.municipality.name} resultView={coastalResultView} alignmentSummary={alignedCoast?.summary} visibleCount={photoResultsInView} displayedYear={coastalResultView==='scenario'?backgroundYear:photoComparisonPresentation?.year??null} year={backgroundYear} years={availableAnalysisYears} municipality={photoLocation?.municipality??null} onYearChange={setImageYear} comparableCount={activeRegional?.features.filter(f=>f.properties.reference_only!==true).length??0} referenceCount={activeRegional?.features.filter(f=>f.properties.reference_only===true).length??0} status={scenarioStatus!=='ready'?scenarioStatus:photoComparisonStatus==='ready'&&coastalResultView==='photos'&&imageSource==='detail'&&photoComparisonCandidate!==photoComparisonPresentation?'loading':photoComparisonStatus} onRetry={()=>setAttempt(n=>n+1)}/>
+        <CoastalAnalysisControls reviewedMunicipality={['Progreso','Hunucmá','Dzemul','Yobaín'].includes(municipalityScope?.municipality.name??photoLocation?.municipality??'')} scopeLabel={municipalityScope?.municipality.name} resultView={coastalResultView} alignmentSummary={alignedCoast?.summary} visibleCount={photoResultsInView} displayedYear={coastalResultView==='scenario'?backgroundYear:photoComparisonPresentation?.year??null} year={backgroundYear} years={availableAnalysisYears} municipality={photoLocation?.municipality??null} onYearChange={setImageYear} comparableCount={activeRegional?.features.filter(f=>f.properties.reference_only!==true).length??0} referenceCount={activeRegional?.features.filter(f=>f.properties.reference_only===true).length??0} status={scenarioStatus!=='ready'?scenarioStatus:photoComparisonStatus==='ready'&&coastalResultView==='photos'&&imageSource==='detail'&&photoComparisonCandidate!==photoComparisonPresentation?'loading':photoComparisonStatus} onRetry={()=>setAttempt(n=>n+1)}/>
         {!scenarioActive&&coverageRows.length>0&&['regional','2015','2020'].includes(coastalAnalysisMode)&&<CoastalCoverageSummary rows={coverageRows} year={backgroundYear} visible={coverageVisible} onVisible={setCoverageVisible}/>}
         {seriesError&&<button className="coastal-popup-retry" onClick={()=>setAttempt(n=>n+1)}>Reintentar inventario regional</button>}
       </CoastalPeriodSections>

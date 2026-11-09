@@ -7,14 +7,14 @@ from scipy.ndimage import map_coordinates
 import rasterio
 from rasterio.transform import from_origin
 ROOT=Path(__file__).resolve().parents[1]
-parser=argparse.ArgumentParser();parser.add_argument('--release',type=int,default=11019);parser.add_argument('--date',default='2011-08-01');parser.add_argument('--all-profiles',action='store_true');parser.add_argument('--baseline-only',action='store_true');parser.add_argument('--workers',type=int,choices=[1,2,3,4],default=4);parser.add_argument('--tile-ip');args=parser.parse_args()
+parser=argparse.ArgumentParser();parser.add_argument('--release',type=int,default=11019);parser.add_argument('--date',default='2011-08-01');parser.add_argument('--all-profiles',action='store_true');parser.add_argument('--baseline-only',action='store_true');parser.add_argument('--workers',type=int,choices=[1,2,3,4],default=4);parser.add_argument('--tile-ip');parser.add_argument('--output',type=Path);args=parser.parse_args()
 if args.tile_ip:
  socket.inet_pton(socket.AF_INET,args.tile_ip)
  original_getaddrinfo=socket.getaddrinfo
  def cached_getaddrinfo(host,port,*extra,**kwargs):
   return original_getaddrinfo(args.tile_ip if host=='wayback.maptiles.arcgis.com' else host,port,*extra,**kwargs)
  socket.getaddrinfo=cached_getaddrinfo
-QA=ROOT/'work/hunucma-audit-20261105';OUT=QA/f'release-{args.release}';OUT.mkdir(parents=True,exist_ok=True)
+QA=ROOT/'work/hunucma-audit-20261105';OUT=args.output or QA/f'release-{args.release}';OUT.mkdir(parents=True,exist_ok=True)
 baseline_ids={t['id'] for t in json.loads((QA/'release-11019/manifest.json').read_text(encoding='utf-8'))['profiles']} if args.baseline_only else None
 model=json.loads((ROOT/'public/data/municipalities/hunucma/scenario.json').read_text(encoding='utf-8'));photos=json.loads((ROOT/'public/data/municipalities/hunucma/photos.json').read_text(encoding='utf-8'));rows={t['id']:t for t in photos['targets']}
 targets=[]
@@ -37,6 +37,7 @@ mosaic=Image.new('RGB',tuple((tile_hi-tile_lo+1)*256))
 def download(task):
  x,y=task;name=f'{Z}-{x}-{y}.jpg';dest=OUT/'tiles'/name
  caches=[ROOT/f'work/{folder}/tiles/{args.release}/{name}' for folder in ['shoreline-review-20261105','shoreline-reference-refinement-20261105']]
+ caches.append(ROOT/f'work/hunucma-additional-review-20261106/release-{args.release}/tiles/{name}')
  if args.release==11019:caches.append(ROOT/f'work/shoreline-user-guides-20261105/tiles/{name}')
  if dest.exists():data=dest.read_bytes()
  elif any(p.exists() for p in caches):data=next(p for p in caches if p.exists()).read_bytes()

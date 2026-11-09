@@ -11,7 +11,6 @@ export type CoastalAlignmentSummary={audited:number;beachProfiles:number;structu
 export type CoastalAlignedFrame={layer:CoastalAnalysisData;summary:CoastalAlignmentSummary;release:number|null;year:number};
 
 const at=(_model:CoastalScenario,t:ScenarioTarget,offset:number):Coordinate=>photoCoastCoordinate(t,offset);
-const isBeach=(t:ScenarioTarget)=>t.type.startsWith('Playa');
 const isStructure=(t:ScenarioTarget)=>t.type==='Rompeolas'||t.type==='Construcción portuaria';
 
 /** Same-capture, bracketing neighbours can suggest a locator, never a new
@@ -45,6 +44,7 @@ function interpolatedAnchor(model:CoastalScenario,t:ScenarioTarget,reading:Photo
 export function createCoastalImageAlignment(model:CoastalScenario,photos:PhotoCoastData,sourceReview?:PhotoSourceReview){
  if(photos.model_sha256.length!==64||photos.targets.length!==model.targets.length||photos.targets.some((r,i)=>r.id!==model.targets[i].id))throw new Error('Inventario de alineación incompatible');
  if(sourceReview&&(sourceReview.version!==1||sourceReview.algorithm!=='source-aware-photo-anchors-v1'||sourceReview.model_sha256!==photos.model_sha256))throw new Error('Revisión de fuentes incompatible');
+ const isBeach=(i:number)=>model.targets[i].type.startsWith('Playa')||photos.targets[i].reviewed_beach_control===true;
  const sourceBlocked=new Map(sourceReview?.blocked.map(r=>[r.release+':'+r.profile_id,r])??[]);
  const scenarios=createScenarioLayerCache(model);
  const frames=new Map<string,CoastalAlignedFrame>();
@@ -71,13 +71,13 @@ export function createCoastalImageAlignment(model:CoastalScenario,photos:PhotoCo
  });
  const anchorCache=new Map<number|null,{anchors:Anchor[];readings:(PhotoCoastReading|undefined)[]}>();
  const municipalities=new Map<string,number[]>();
- model.targets.forEach((t,i)=>{if(isBeach(t)){const ids=municipalities.get(t.m)??[];ids.push(i);municipalities.set(t.m,ids);}});
+ model.targets.forEach((t,i)=>{if(isBeach(i)){const ids=municipalities.get(t.m)??[];ids.push(i);municipalities.set(t.m,ids);}});
  const anchorsFor=(release:number|null)=>{
   const cached=anchorCache.get(release);if(cached)return cached;
   const readings=photos.targets.map(row=>release===null?undefined:row.readings.find(r=>r.releases.includes(release)));
   const direct=new Map<number,Anchor>();
-  readings.forEach((r,i)=>{if(r?.accepted&&isBeach(model.targets[i])&&(!sourceBlocked.has(release+':'+model.targets[i].id)||verifiedEndpoint(i,r,release)))direct.set(i,{coordinate:at(model,model.targets[i],r.offset_m!),kind:'photo',capture:r.capture,sourceKey:captureKeys[r.capture],offset:r.offset_m,donors:[]});});
-  const anchors=model.targets.map((t,i):Anchor=>direct.get(i)??(sourceBlocked.has(release+':'+t.id)?null:isBeach(t)?interpolatedAnchor(model,t,readings[i],readings[i]?captureKeys[readings[i]!.capture]:null,direct,municipalities.get(t.m)??[]):null)??{coordinate:t.p,kind:'cartography',capture:null,sourceKey:null,offset:null,donors:[]});
+  readings.forEach((r,i)=>{if(r?.accepted&&isBeach(i)&&(!sourceBlocked.has(release+':'+model.targets[i].id)||verifiedEndpoint(i,r,release)))direct.set(i,{coordinate:at(model,model.targets[i],r.offset_m!),kind:'photo',capture:r.capture,sourceKey:captureKeys[r.capture],offset:r.offset_m,donors:[]});});
+  const anchors=model.targets.map((t,i):Anchor=>direct.get(i)??(sourceBlocked.has(release+':'+t.id)?null:isBeach(i)?interpolatedAnchor(model,t,readings[i],readings[i]?captureKeys[readings[i]!.capture]:null,direct,municipalities.get(t.m)??[]):null)??{coordinate:t.p,kind:'cartography',capture:null,sourceKey:null,offset:null,donors:[]});
   const result={anchors,readings};anchorCache.set(release,result);
   while(anchorCache.size>3)anchorCache.delete(anchorCache.keys().next().value!);
   return result;
@@ -89,7 +89,7 @@ export function createCoastalImageAlignment(model:CoastalScenario,photos:PhotoCo
   const summary:CoastalAlignmentSummary={audited:model.targets.length,beachProfiles:0,structures:0,otherCoasts:0,photoPositions:0,spatialPositions:0,pendingPositions:0,photoComparisons:0,modelLocators:0};
   const features:CoastalAnalysisData['features']=[];
   model.targets.forEach((t,i)=>{
-   if(!isBeach(t)){if(isStructure(t))summary.structures++;else summary.otherCoasts++;return;}
+   if(!isBeach(i)){if(isStructure(t))summary.structures++;else summary.otherCoasts++;return;}
    summary.beachProfiles++;
    const anchor=anchors[i],reading=readings[i],capture=reading?photos.captures[reading.capture]:null;
    const fixed=photos.targets[i].fixed_reference;

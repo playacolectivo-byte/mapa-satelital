@@ -27,6 +27,7 @@ FOOTPRINTS = ROOT / 'work/progreso-full-review-20261105/baseline-corrected-endpo
 OUTPUT = ROOT / 'work/chicxulub-reference-review-20261106/grid-qa'
 ZOOM = 17
 LON_RANGE = (-89.6442, -89.5702)
+MUNICIPALITY = 'Progreso'
 SCALE = 3
 CROP_WIDTH, CROP_HEIGHT = 72, 52
 WORLD = 6378137 * math.pi
@@ -117,7 +118,7 @@ def read_stations(grid: dict) -> list[dict]:
     assert grid['spacing_m'] == 100
     result = []
     for segment in grid['segments']:
-        if segment['municipality'] != 'Progreso':
+        if segment['municipality'] != MUNICIPALITY:
             continue
         for station in segment['stations']:
             if LON_RANGE[0] <= station['coordinate'][0] <= LON_RANGE[1]:
@@ -179,7 +180,7 @@ def render(grid_path: Path, output: Path) -> None:
     print(json.dumps({'stations': len(rows), 'panels': math.ceil(len(rows)/6), 'grid_sha256': evidence['grid_sha256'], 'output': relative(output)}))
 
 
-def finish(output: Path, choices_path: Path) -> None:
+def finish(output: Path, choices_path: Path, reviewer: str = 'dzemul_audit') -> None:
     evidence = json.loads((output / 'inventory.json').read_bytes())
     assert sha(ROOT / evidence['grid']) == evidence['grid_sha256'], 'Grid changed; render and inspect the new version.'
     assert sha(ROOT / evidence['source_footprints']) == evidence['source_footprints_sha256']
@@ -209,7 +210,7 @@ def finish(output: Path, choices_path: Path) -> None:
                           proposed_coordinate=list(proposed), adjustment_m=GEOD.inv(*r['coordinate'], *proposed)[2],
                           proposed_coordinate_verified_photo=verify_photo(proposed))
         rows.append(result)
-    result = {**evidence, 'status': 'independent_visual_review_complete', 'reviewer': 'dzemul_audit',
+    result = {**evidence, 'status': 'independent_visual_review_complete', 'reviewer': reviewer,
               'stations_reviewed': len(rows), 'accepted': sum(r['visual_status'] == 'compatible_visible_contact' for r in rows),
               'needs_adjustment': sum(r['visual_status'] == 'needs_adjustment' for r in rows),
               'unresolved': sum(r['visual_status'] == 'no_unique_visible_contact' for r in rows),
@@ -223,9 +224,15 @@ if __name__ == '__main__':
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--grid', type=Path, default=GRID)
     parser.add_argument('--output', type=Path, default=OUTPUT)
+    parser.add_argument('--municipality', default=MUNICIPALITY)
+    parser.add_argument('--tiles', type=Path, default=TILES)
+    parser.add_argument('--footprints', type=Path, default=FOOTPRINTS)
+    parser.add_argument('--longitude-range', nargs=2, type=float, default=LON_RANGE)
+    parser.add_argument('--reviewer', default='dzemul_audit')
     parser.add_argument('--finish', type=Path, help='Compile explicit manual visual choices; does not alter the grid.')
     args = parser.parse_args()
+    MUNICIPALITY, TILES, FOOTPRINTS, LON_RANGE = args.municipality, args.tiles, args.footprints, args.longitude_range
     if args.finish:
-        finish(args.output, args.finish)
+        finish(args.output, args.finish, args.reviewer)
     else:
         render(args.grid, args.output)

@@ -13,9 +13,9 @@ const options=(municipality:string,dated=false)=>{
  return (dated?municipalDatedOptions:municipalComparisonOptions)(items,catalogue,municipality,location.coordinates,17,location.coordinates);
 };
 
-void test('all 13 municipal camera scopes and the 10 unreviewed municipal catalogues remain intact',()=>{
+void test('all 13 municipal camera scopes and the unreviewed municipal catalogues remain intact',()=>{
  assert.equal(catalogue.coastal_views.length,13);assert.deepEqual(catalogue.coastal_views,before.coastal_views);
- const reviewed=new Set(['Progreso','Hunucmá','Dzemul']);
+ const reviewed=new Set(['Progreso','Hunucmá','Dzemul','Yobaín']);
  for(const key of ['captures','compatible_captures','anchors'] as const){
   assert.deepEqual(catalogue[key].filter(c=>!reviewed.has(c.municipality)),before[key].filter(c=>!reviewed.has(c.municipality)));
  }
@@ -31,8 +31,8 @@ void test('Hunucmá municipal choices expose its real eastern 2011 references an
  const view=catalogue.coastal_views.find(v=>v.name==='Hunucmá')!;
  const whole=catalogue.anchors.find(a=>a.municipality==='Hunucmá'&&a.review_scope==='municipality')!;
  assert.deepEqual(whole.coordinates,view.coordinates);assert.equal(whole.scope_profile_ids?.length,384);
- // The independent additional review recovered 26 more 2025 readings in this edition.
- assert.equal(whole.compatible_captures?.filter(c=>c.year===2025&&c.releases.includes(22252)).reduce((n,c)=>n+c.positions,0),152);
+ // The two recovered controls on the sandbar extend this edition's coverage.
+ assert.equal(whole.compatible_captures?.filter(c=>c.year===2025&&c.releases.includes(22252)).reduce((n,c)=>n+c.positions,0),154);
 });
 
 void test('local Chelem and Chuburná dates do not borrow the 2015 photograph from eastern Progreso',()=>{
@@ -66,4 +66,13 @@ void test('Dzemul choices keep real acquisition dates even when the edition was 
  const current=choices.find(o=>o.year===2025)!;
  assert.equal(current.item.releaseNum,26334);assert.equal(current.date,'2025-12-21');assert.equal(new Date(current.metadata.date).toISOString().slice(0,10),current.date);
  assert.equal(current.year,2025);assert.ok(current.item.releaseDateLabel.startsWith('2026-'));
+});
+
+void test('the new reviewed scopes open the fixed August 2011 scene and retain their latest approved dates',()=>{
+ for(const [municipality,year,date] of [['Hunucmá',2026,'2026-02-07'],['Yobaín',2025,'2025-09-14']] as const){
+  const strict=options(municipality);
+  assert.equal(strict.find(o=>o.year===2011)?.date,'2011-08-01');
+  assert.equal(strict.find(o=>o.year===2011)?.item.releaseNum,11019);
+  assert.equal(strict.find(o=>o.year===year)?.date,date);
+ }
 });

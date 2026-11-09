@@ -2,7 +2,7 @@ import type {CoastalAnalysisData} from './coastal-analysis.ts';
 
 type Coordinate=[number,number];
 export type CoastalGridStation={id:string;chainage_m:number;coordinate:Coordinate;left_profile_id:string;right_profile_id:string;fraction:number;axis:Coordinate;control_reference_coordinates?:[Coordinate,Coordinate]};
-export type Coastal100mGrid={version:1;spacing_m:100;method:string;segments:{id:string;municipality:string;stations:CoastalGridStation[]}[]};
+export type Coastal100mGrid={version:1;spacing_m:100;method:string;segments:{id:string;municipality:string;method_url?:string;stations:CoastalGridStation[]}[]};
 
 /** Ellipsoidal local metric for short (<500 m) shoreline segments. Validated
  * independently against PROJ/Geod; not a coast-wide degree conversion. */
@@ -36,6 +36,7 @@ export function applyCoastal100mGrid(layer:CoastalAnalysisData,grid:Coastal100mG
  for(const segment of grid.segments){
   if(!scopes.has(segment.municipality))continue;
   const fallback=layer.features.find(f=>String(f.properties.municipality)===segment.municipality)!;
+  const methodUrl=segment.method_url??'/data/shorelines/photo-alignment/coastal-100m-grid-method.md';
   for(const station of segment.stations){
    const rightExact=station.fraction>1-1e-9;
    const leftControl=byId.get(rightExact?station.right_profile_id:station.left_profile_id),rightControl=byId.get(rightExact?station.left_profile_id:station.right_profile_id);
@@ -57,9 +58,13 @@ export function applyCoastal100mGrid(layer:CoastalAnalysisData,grid:Coastal100mG
    const valid=dated&&sameDate&&sameSensor&&basesKnown&&baseOnControls;
    const reference=a.reference_only===true&&(exact||b.reference_only===true);
    const end=valid?(reference?station.coordinate:exact?leftLine![1]:intersectGridNormal(station.coordinate,station.axis,leftLine![1],rightLine![1])):null;
-   const common={...a,profile_id:station.id,grid_segment:segment.id,grid_chainage_m:station.chainage_m,grid_spacing_m:100,grid_source_profile_ids:exact?[rightExact?station.right_profile_id:station.left_profile_id]:[station.left_profile_id,station.right_profile_id],grid_spatial_interpolation:!exact,grid_method:grid.method,baseline_coordinate:station.coordinate,baseline_year:2011,baseline_fixed:true,spacing_eligible:true,user_reference_method:null,reference_method_url:'/data/shorelines/photo-alignment/coastal-100m-grid-method.md',method_url:'/data/shorelines/photo-alignment/coastal-100m-grid-method.md'};
+   const common={...a,profile_id:station.id,grid_segment:segment.id,grid_chainage_m:station.chainage_m,grid_spacing_m:100,grid_source_profile_ids:exact?[rightExact?station.right_profile_id:station.left_profile_id]:[station.left_profile_id,station.right_profile_id],grid_spatial_interpolation:!exact,grid_method:grid.method,baseline_coordinate:station.coordinate,baseline_year:2011,baseline_fixed:true,spacing_eligible:true,user_reference_method:null,reference_method_url:methodUrl,method_url:methodUrl};
    if(!valid||!end){
-    sampled.push({type:'Feature',id:station.id,geometry:{type:'Point',coordinates:station.coordinate},properties:{...common,delta_m:null,scenario_delta_m:null,estimated:false,photo_interpretation:false,photo_review_pending:true,photo_review_reason:!sameDate||!sameSensor?'grid_controls_different_capture':valid?'grid_normal_without_bracketed_intersection':'grid_control_pending',direction_unresolved:true,context_review:true}});
+    const reasons=controls.map(control=>control.properties.photo_review_reason).filter(Boolean);
+    const reason=!dated?(reasons.length===controls.length&&reasons.every(r=>r===reasons[0])?reasons[0]:'grid_control_pending'):
+      !sameDate||!sameSensor?'grid_controls_different_capture':
+      valid?'grid_normal_without_bracketed_intersection':'grid_control_pending';
+    sampled.push({type:'Feature',id:station.id,geometry:{type:'Point',coordinates:station.coordinate},properties:{...common,delta_m:null,scenario_delta_m:null,estimated:false,photo_interpretation:false,photo_review_pending:true,photo_review_reason:reason,direction_unresolved:true,context_review:true}});
     continue;
    }
    // The zero-year frame uses the stationed polyline itself exactly.

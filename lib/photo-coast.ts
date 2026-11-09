@@ -4,7 +4,7 @@ import type {CoastalAnalysisData} from './coastal-analysis.ts';
 export type PhotoCoastCapture={date:string;provider:string;source:string;resolution_m:number;accuracy_m:number|null};
 export type PhotoCoastReading={capture:number;offset_m:number|null;spread_m:number|null;releases:number[];accepted:boolean;reasons:string[];manual_review?:{id:string;source:string;uncertainty_m:number}};
 export type PhotoReviewPolicy={method:string;reference_capture:number;first_year:number;last_year:number;reviewed_releases:number[];reviewed_captures?:{capture:number;releases:number[]}[];method_url?:string};
-export type PhotoCoastTarget={id:string;readings:PhotoCoastReading[];review_policy?:PhotoReviewPolicy;fixed_reference?:{capture:number;method:string;source:string;verified_release:number;method_url?:string};reference_unavailable?:{year:number;reason:string;method:string;method_url:string}};
+export type PhotoCoastTarget={id:string;readings:PhotoCoastReading[];reviewed_beach_control?:true;review_policy?:PhotoReviewPolicy;fixed_reference?:{capture:number;method:string;source:string;verified_release:number;method_url?:string};reference_unavailable?:{year:number;reason:string;method:string;method_url:string}};
 export type PhotoCoastData={version:1;method:string;field_validated:false;model_sha256:string;captures:PhotoCoastCapture[];targets:PhotoCoastTarget[]};
 export function validatePhotoCoast(value:unknown):PhotoCoastData{
  const data=value as PhotoCoastData;

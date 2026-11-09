@@ -15,7 +15,7 @@ export function withReviewedPhotoCatalogue(base:MunicipalPhotoCatalogue,model:Co
  if(model.targets.length!==photos.targets.length||model.targets.some((t,i)=>t.id!==photos.targets[i].id))throw new Error('Inventario fotográfico incompatible');
  const reviewed=new Set(model.targets.filter((_,i)=>photos.targets[i].review_policy?.reviewed_captures!==undefined).map(t=>t.m));
  const byMunicipality=new Map<string,{target:ScenarioTarget;row:PhotoCoastTarget}[]>();
- model.targets.forEach((target,i)=>{if(reviewed.has(target.m)&&target.type.startsWith('Playa')){const rows=byMunicipality.get(target.m)??[];rows.push({target,row:photos.targets[i]});byMunicipality.set(target.m,rows);}});
+ model.targets.forEach((target,i)=>{if(reviewed.has(target.m)&&(target.type.startsWith('Playa')||photos.targets[i].reviewed_beach_control)){const rows=byMunicipality.get(target.m)??[];rows.push({target,row:photos.targets[i]});byMunicipality.set(target.m,rows);}});
  const aggregate=(rows:Dated[],center:[number,number]):Comparable[]=>{
   const groups=new Map<string,Comparable>();
   for(const row of rows){
@@ -34,7 +34,7 @@ export function withReviewedPhotoCatalogue(base:MunicipalPhotoCatalogue,model:Co
    const approved=[...new Set((row.review_policy?.reviewed_captures??[]).filter(r=>r.capture===reading.capture).flatMap(r=>r.releases))].filter(r=>reading.releases.includes(r));
    const entry:Dated={municipality,date:capture.date,year:Number(capture.date.slice(0,4)),capture:reading.capture,reference:row.fixed_reference?.capture===reading.capture,profile_id:target.id,coordinates:target.p,releases:reading.releases,metadata:{date:Date.parse(capture.date+'T00:00:00Z'),provider:capture.provider,source:capture.source,resolution:capture.resolution_m,accuracy:capture.accuracy_m}};
    dated.push(entry);
-   if(reading.accepted&&reading.offset_m!==null&&approved.length&&!row.reference_unavailable&&row.fixed_reference&&entry.year>=2011&&entry.year<=2025){
+   if(reading.accepted&&reading.offset_m!==null&&approved.length&&!row.reference_unavailable&&row.fixed_reference&&row.review_policy&&entry.year>=row.review_policy.first_year&&entry.year<=row.review_policy.last_year){
     compatible.push({...entry,coordinates:photoCoastCoordinate(target,reading.offset_m),releases:approved});
    }
   }
