@@ -28,3 +28,14 @@ export function analysisPhotoCandidate(captures:LocalEsriCapture[],year:number,c
 export function orderedPhotoHintReleases(values:Record<number,{date:number}>):number[]{
   return Object.entries(values).sort((a,b)=>a[1].date-b[1].date||Number(a[0])-Number(b[0])).map(([release])=>Number(release));
 }
+
+/** A missing analysis-year photo is a coverage fact, not a failed query.
+ * Nor can failures while checking other editions invalidate a known date. */
+export function photoReferenceState({year,years,captureDate,scopeName,selectedQueryFailed,inventoryFailed,catalogueFailed,reviewedOnly=false}:{year:number;years:number[];captureDate:string|null;scopeName:string;selectedQueryFailed:boolean;inventoryFailed:boolean;catalogueFailed:boolean;reviewedOnly?:boolean}):{queryFailed:boolean;notice:string|null}{
+ const queryFailed=!captureDate&&(selectedQueryFailed||inventoryFailed||catalogueFailed);
+ const pointYear=Number(captureDate?.slice(0,4));
+ if(captureDate&&pointYear===year)return {queryFailed,notice:null};
+ if(years.length&&!years.includes(year))return {queryFailed,notice:`No hay una foto HD de ${year} verificada para ${scopeName}. Se conserva una imagen de referencia con su fecha propia; ${reviewedOnly?`los perfiles de ${year} quedan pendientes, sin metros`:`los resultados de ${year} pueden ser estimados o pendientes`}.`};
+ if(captureDate&&pointYear!==year)return {queryFailed,notice:`La foto al centro es de ${pointYear}. La cobertura fotográfica de ${year} en ${scopeName} es parcial; esa imagen no se presenta como una toma de ${year}.`};
+ return {queryFailed,notice:null};
+}

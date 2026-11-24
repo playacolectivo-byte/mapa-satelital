@@ -1,0 +1,12 @@
+import {readFileSync,writeFileSync} from 'node:fs';
+import {createHash} from 'node:crypto';
+import {applyIntegratedPhotoReviews} from '../lib/integrated-photo-reviews.ts';
+import {validatePhotoCoast} from '../lib/photo-coast.ts';
+import {applyPhotoVisualReview} from '../lib/photo-visual-review.ts';
+import {applyPhotoDigitization} from '../lib/photo-digitization.ts';
+const root=new URL('../',import.meta.url),read=p=>JSON.parse(readFileSync(new URL(p,root),'utf8'));
+const raw=readFileSync(new URL('public/data/shorelines/photo-alignment/revised-data.json',root));
+const sha=createHash('sha256').update(raw).digest('hex');
+const initial=applyPhotoDigitization(applyPhotoVisualReview(validatePhotoCoast(JSON.parse(raw)),read('public/data/shorelines/photo-alignment/revised-visual-review.json'),sha),read('public/data/shorelines/photo-alignment/manual-digitization-20261103.json'),sha);
+const integrated=validatePhotoCoast(await applyIntegratedPhotoReviews(initial,sha,async(url,expected)=>{const b=readFileSync(new URL('public'+url,root));if(createHash('sha256').update(b).digest('hex')!==expected)throw new Error('Revisión alterada: '+url);return JSON.parse(b);}));
+const output=process.argv[2];if(!output)throw new Error('Falta el archivo de salida');writeFileSync(output,JSON.stringify(integrated)+'\n');

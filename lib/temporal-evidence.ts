@@ -78,6 +78,22 @@ export function resolveTemporalRecord(
   if (observation) return observation;
   return { ...unknown, date };
 }
+export function groynesForStudyYear(data: EvidenceData, year: number): EvidenceData {
+  return { ...data, features: data.features.filter(feature =>
+    String(feature.properties.capture_date).startsWith(year + '-')) };
+}
+
+function uniqueGroyneSites(features: EvidenceFeature[]): EvidenceFeature[] {
+  const sites = new Map<string, EvidenceFeature>();
+  for (const feature of features) {
+    const key = String(feature.properties.groyne_site_id ?? feature.id);
+    const previous = sites.get(key);
+    if (!previous || (previous.properties.temporal_state === 'reference' && feature.properties.temporal_state === 'present'))
+      sites.set(key, feature);
+  }
+  return [...sites.values()];
+}
+
 export function temporalEvidence(
   layers: EvidenceLayers,
   frame: CaptureFrame | null,
@@ -90,6 +106,7 @@ export function temporalEvidence(
   const result: EvidenceLayers = {
     barriers: null,
     geotubes: null,
+    groynes: null,
     vegetation: null,
   };
   const counts = { visible: 0, unknown: 0, absent: 0, unresolved: 0 };
@@ -97,15 +114,38 @@ export function temporalEvidence(
     EvidenceKind,
     { visible: number; unknown: number; absent: number }
   >;
-  for (const kind of ['barriers', 'geotubes', 'vegetation'] as EvidenceKind[]) {
+  for (const kind of Object.keys(result) as EvidenceKind[]) {
     const features: EvidenceFeature[] = [];
     byKind[kind] = { visible: 0, unknown: 0, absent: 0 };
     for (const feature of layers[kind]?.features ?? []) {
-      const resolution = resolveTemporalRecord(
-        records.get(String(feature.id ?? feature.properties.record_id)),
-        frame,
-        registry,
-      );
+      const observation = feature.properties;
+      const datedGroyne = kind === 'groynes' && observation.type === 'groyne_visible_axis';
+      const datedAxis = datedGroyne || (kind === 'geotubes' && observation.type === 'geotube_probable_axis');
+      const observedDate = typeof observation.capture_date === 'string' ? observation.capture_date : null;
+      const equivalent = datedGroyne && Array.isArray(observation.capture_equivalent_releases)
+        ? observation.capture_equivalent_releases : [];
+      const onObservedMosaic = frame?.source === 'esri' &&
+        (frame.key === 'esri:' + observation.capture_release || equivalent.some(release=>frame.key === 'esri:' + release));
+      const datedGroyneReference = datedGroyne && !onObservedMosaic && frame?.source === 'esri' &&
+        !!observedDate && frame.date?.slice(0, 4) === observedDate.slice(0, 4);
+      if (datedAxis && (!observedDate || (!onObservedMosaic && !datedGroyneReference))) continue;
+      const resolution: TemporalResolution =
+        datedAxis && observedDate
+          ? {
+              state: datedGroyneReference ? 'reference' : 'present',
+              date: observedDate,
+              note: datedGroyneReference
+                ? 'Eje observado en otra toma del mismo año.'
+                : datedGroyne
+                  ? 'Eje del espolón visible en la toma fechada.'
+                  : 'Eje visible identificado como geotubo probable en la toma fechada.',
+              source: String(observation.source_url),
+            }
+          : resolveTemporalRecord(
+              records.get(String(feature.id ?? observation.record_id)),
+              frame,
+              registry,
+            );
       const drawable =
         resolution.state === 'present' || resolution.state === 'deflated';
       if (
@@ -122,7 +162,7 @@ export function temporalEvidence(
       }
       // Display authorization includes undated references, never an object
       // documented as absent at the selected capture.
-      if (drawable || (references && resolution.state !== 'absent')) {
+      if (drawable || datedGroyneReference || (references && resolution.state !== 'absent')) {
         counts.visible++;
         byKind[kind].visible++;
         features.push({
@@ -137,8 +177,12 @@ export function temporalEvidence(
         });
       }
     }
-    if (layers[kind])
-      result[kind] = { type: 'FeatureCollection', features } as EvidenceData;
+    if (layers[kind]) {
+      const unique = kind === 'groynes' ? uniqueGroyneSites(features) : features;
+      counts.visible -= features.length - unique.length;
+      byKind[kind].visible = unique.length;
+      result[kind] = { type: 'FeatureCollection', features: unique } as EvidenceData;
+    }
   }
   return { layers: result, counts, byKind };
 }
@@ -163,15 +207,11 @@ export function createTemporalEvidenceResolver(
   const cache = new Map<string, ReturnType<typeof temporalEvidence>>();
   let previous: ReturnType<typeof temporalEvidence> | null = null;
   return (frame: CaptureFrame | null) => {
-    const key = JSON.stringify([frame?.key, frame?.date, frame?.center]);
+    const key = JSON.stringify([frame?.source, frame?.key, frame?.date, frame?.center]);
     const cached = cache.get(key);
     if (cached) return cached;
     const next = temporalEvidence(layers, frame, registry, references);
-    for (const kind of [
-      'barriers',
-      'geotubes',
-      'vegetation',
-    ] as EvidenceKind[]) {
+    for (const kind of Object.keys(next.layers) as EvidenceKind[]) {
       const old = previous?.layers[kind],
         current = next.layers[kind];
       if (

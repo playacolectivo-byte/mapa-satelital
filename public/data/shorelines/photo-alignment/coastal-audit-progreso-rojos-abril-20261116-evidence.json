@@ -1,0 +1,2062 @@
+{
+  "method": "/data/shorelines/photo-alignment/coastal-audit-progreso-rojos-abril-20261116-method.md",
+  "readings": [
+    {
+      "status": "corregir",
+      "year": 2025,
+      "release": 26334,
+      "profile": "SC-90-0-24",
+      "station": "GRID100-progreso-004-0020",
+      "reference_2011": {
+        "date": "2011-08-01",
+        "coord": [
+          -89.67705833936844,
+          21.284101132376428
+        ],
+        "capture": 40,
+        "sensor": "WV02",
+        "resolution_m": 0.5,
+        "release": 11019,
+        "offset_m": -87.5,
+        "method": "manual-progreso-apparent-water-sand-2011-20261105",
+        "offset": -87.5,
+        "metadata": {
+          "release": 11019,
+          "positionOffset": -87.5,
+          "url": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2014_r17/MapServer/6/query?f=json&where=MinMapLevel+%3C%3D+17+AND+MaxMapLevel+%3E%3D+17&geometryType=esriGeometryEnvelope&geometry=-89.67712607%2C21.28401516%2C-89.66702528%2C21.28738409&inSR=4326&outSR=4326&outFields=OBJECTID%2CSRC_DATE2%2CSRC_DESC%2CSAMP_RES%2CSRC_ACC%2CMinMapLevel%2CMaxMapLevel&returnGeometry=true",
+          "sha256": "167e7145a077c878fc7ec68a4bbd177eb7ca744117ea2eaf4d09068e84d35ed8",
+          "file": "huellas-11019-cc8a2c146ea.json",
+          "checks": [
+            {
+              "delta_m": -3,
+              "date": "2011-08-01",
+              "sensor": "WV02"
+            },
+            {
+              "delta_m": 0,
+              "date": "2011-08-01",
+              "sensor": "WV02"
+            },
+            {
+              "delta_m": 3,
+              "date": "2011-08-01",
+              "sensor": "WV02"
+            }
+          ]
+        }
+      },
+      "date_read": "2025-04-14",
+      "sensor": "LG02",
+      "reading_m": -5.5,
+      "metadata": {
+        "release": 26334,
+        "positionOffset": -5.5,
+        "url": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2026_r07/MapServer/6/query?f=json&where=MinMapLevel+%3C%3D+17+AND+MaxMapLevel+%3E%3D+17&geometryType=esriGeometryEnvelope&geometry=-89.67733746%2C21.28472496%2C-89.66707525%2C21.28756690&inSR=4326&outSR=4326&outFields=OBJECTID%2CSRC_DATE2%2CSRC_DESC%2CSAMP_RES%2CSRC_ACC%2CMinMapLevel%2CMaxMapLevel&returnGeometry=true",
+        "sha256": "5ce54a71e65170c04606609bfc36e6e150f9c65a2edf4234706d149f18a8b44c",
+        "file": "huellas-26334-7da6ef67d58.json",
+        "checks": [
+          {
+            "delta_m": -3,
+            "date": "2025-04-14",
+            "sensor": "LG02"
+          },
+          {
+            "delta_m": 0,
+            "date": "2025-04-14",
+            "sensor": "LG02"
+          },
+          {
+            "delta_m": 3,
+            "date": "2025-04-14",
+            "sensor": "LG02"
+          }
+        ]
+      },
+      "equivalent_metadata": [
+        {
+          "release": 22252,
+          "positionOffset": -5.5,
+          "url": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2026_r01/MapServer/6/query?f=json&where=MinMapLevel+%3C%3D+17+AND+MaxMapLevel+%3E%3D+17&geometryType=esriGeometryEnvelope&geometry=-89.67733746%2C21.28472496%2C-89.66707525%2C21.28756690&inSR=4326&outSR=4326&outFields=OBJECTID%2CSRC_DATE2%2CSRC_DESC%2CSAMP_RES%2CSRC_ACC%2CMinMapLevel%2CMaxMapLevel&returnGeometry=true",
+          "sha256": "ee67eb901834f4c5b0dea2d1258a7eb7c4997b177346887aa85197ae3fe7c18f",
+          "file": "huellas-22252-8383725f9bc.json",
+          "checks": [
+            {
+              "delta_m": -3,
+              "date": "2025-04-14",
+              "sensor": "LG02"
+            },
+            {
+              "delta_m": 0,
+              "date": "2025-04-14",
+              "sensor": "LG02"
+            },
+            {
+              "delta_m": 3,
+              "date": "2025-04-14",
+              "sensor": "LG02"
+            }
+          ]
+        },
+        {
+          "release": 52304,
+          "positionOffset": -5.5,
+          "url": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2025_r08/MapServer/6/query?f=json&where=MinMapLevel+%3C%3D+17+AND+MaxMapLevel+%3E%3D+17&geometryType=esriGeometryEnvelope&geometry=-89.67733746%2C21.28472496%2C-89.66707525%2C21.28756690&inSR=4326&outSR=4326&outFields=OBJECTID%2CSRC_DATE2%2CSRC_DESC%2CSAMP_RES%2CSRC_ACC%2CMinMapLevel%2CMaxMapLevel&returnGeometry=true",
+          "sha256": "f573809eca6b6a893d8a775aeab3eaee04641a8352d90de0d4eddd62ff4e3dc0",
+          "file": "huellas-52304-2a3abcc1361.json",
+          "checks": [
+            {
+              "delta_m": -3,
+              "date": "2025-04-14",
+              "sensor": "LG02"
+            },
+            {
+              "delta_m": 0,
+              "date": "2025-04-14",
+              "sensor": "LG02"
+            },
+            {
+              "delta_m": 3,
+              "date": "2025-04-14",
+              "sensor": "LG02"
+            }
+          ]
+        }
+      ],
+      "sheet": "rojos-abril-2025.jpg"
+    },
+    {
+      "status": "corregir",
+      "year": 2025,
+      "release": 26334,
+      "profile": "SC-90-0-25",
+      "station": "GRID100-progreso-004-0021",
+      "reference_2011": {
+        "date": "2011-08-01",
+        "coord": [
+          -89.67611815408442,
+          21.284348125310856
+        ],
+        "capture": 40,
+        "sensor": "WV02",
+        "resolution_m": 0.5,
+        "release": 11019,
+        "offset_m": -84.5,
+        "method": "manual-progreso-apparent-water-sand-2011-20261105",
+        "offset": -84.5,
+        "metadata": {
+          "release": 11019,
+          "positionOffset": -84.5,
+          "url": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2014_r17/MapServer/6/query?f=json&where=MinMapLevel+%3C%3D+17+AND+MaxMapLevel+%3E%3D+17&geometryType=esriGeometryEnvelope&geometry=-89.67712607%2C21.28401516%2C-89.66702528%2C21.28738409&inSR=4326&outSR=4326&outFields=OBJECTID%2CSRC_DATE2%2CSRC_DESC%2CSAMP_RES%2CSRC_ACC%2CMinMapLevel%2CMaxMapLevel&returnGeometry=true",
+          "sha256": "167e7145a077c878fc7ec68a4bbd177eb7ca744117ea2eaf4d09068e84d35ed8",
+          "file": "huellas-11019-cc8a2c146ea.json",
+          "checks": [
+            {
+              "delta_m": -3,
+              "date": "2011-08-01",
+              "sensor": "WV02"
+            },
+            {
+              "delta_m": 0,
+              "date": "2011-08-01",
+              "sensor": "WV02"
+            },
+            {
+              "delta_m": 3,
+              "date": "2011-08-01",
+              "sensor": "WV02"
+            }
+          ]
+        }
+      },
+      "date_read": "2025-04-14",
+      "sensor": "LG02",
+      "reading_m": -1.5,
+      "metadata": {
+        "release": 26334,
+        "positionOffset": -1.5,
+        "url": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2026_r07/MapServer/6/query?f=json&where=MinMapLevel+%3C%3D+17+AND+MaxMapLevel+%3E%3D+17&geometryType=esriGeometryEnvelope&geometry=-89.67733746%2C21.28472496%2C-89.66707525%2C21.28756690&inSR=4326&outSR=4326&outFields=OBJECTID%2CSRC_DATE2%2CSRC_DESC%2CSAMP_RES%2CSRC_ACC%2CMinMapLevel%2CMaxMapLevel&returnGeometry=true",
+        "sha256": "5ce54a71e65170c04606609bfc36e6e150f9c65a2edf4234706d149f18a8b44c",
+        "file": "huellas-26334-7da6ef67d58.json",
+        "checks": [
+          {
+            "delta_m": -3,
+            "date": "2025-04-14",
+            "sensor": "LG02"
+          },
+          {
+            "delta_m": 0,
+            "date": "2025-04-14",
+            "sensor": "LG02"
+          },
+          {
+            "delta_m": 3,
+            "date": "2025-04-14",
+            "sensor": "LG02"
+          }
+        ]
+      },
+      "equivalent_metadata": [
+        {
+          "release": 22252,
+          "positionOffset": -1.5,
+          "url": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2026_r01/MapServer/6/query?f=json&where=MinMapLevel+%3C%3D+17+AND+MaxMapLevel+%3E%3D+17&geometryType=esriGeometryEnvelope&geometry=-89.67733746%2C21.28472496%2C-89.66707525%2C21.28756690&inSR=4326&outSR=4326&outFields=OBJECTID%2CSRC_DATE2%2CSRC_DESC%2CSAMP_RES%2CSRC_ACC%2CMinMapLevel%2CMaxMapLevel&returnGeometry=true",
+          "sha256": "ee67eb901834f4c5b0dea2d1258a7eb7c4997b177346887aa85197ae3fe7c18f",
+          "file": "huellas-22252-8383725f9bc.json",
+          "checks": [
+            {
+              "delta_m": -3,
+              "date": "2025-04-14",
+              "sensor": "LG02"
+            },
+            {
+              "delta_m": 0,
+              "date": "2025-04-14",
+              "sensor": "LG02"
+            },
+            {
+              "delta_m": 3,
+              "date": "2025-04-14",
+              "sensor": "LG02"
+            }
+          ]
+        },
+        {
+          "release": 52304,
+          "positionOffset": -1.5,
+          "url": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2025_r08/MapServer/6/query?f=json&where=MinMapLevel+%3C%3D+17+AND+MaxMapLevel+%3E%3D+17&geometryType=esriGeometryEnvelope&geometry=-89.67733746%2C21.28472496%2C-89.66707525%2C21.28756690&inSR=4326&outSR=4326&outFields=OBJECTID%2CSRC_DATE2%2CSRC_DESC%2CSAMP_RES%2CSRC_ACC%2CMinMapLevel%2CMaxMapLevel&returnGeometry=true",
+          "sha256": "f573809eca6b6a893d8a775aeab3eaee04641a8352d90de0d4eddd62ff4e3dc0",
+          "file": "huellas-52304-2a3abcc1361.json",
+          "checks": [
+            {
+              "delta_m": -3,
+              "date": "2025-04-14",
+              "sensor": "LG02"
+            },
+            {
+              "delta_m": 0,
+              "date": "2025-04-14",
+              "sensor": "LG02"
+            },
+            {
+              "delta_m": 3,
+              "date": "2025-04-14",
+              "sensor": "LG02"
+            }
+          ]
+        }
+      ],
+      "sheet": "rojos-abril-2025.jpg"
+    },
+    {
+      "status": "corregir",
+      "year": 2025,
+      "release": 26334,
+      "profile": "SC-90-0-26",
+      "station": "GRID100-progreso-004-0022",
+      "reference_2011": {
+        "date": "2011-08-01",
+        "coord": [
+          -89.67517820170917,
+          21.28465389484913
+        ],
+        "capture": 40,
+        "sensor": "WV02",
+        "resolution_m": 0.5,
+        "release": 11019,
+        "offset_m": -85.5,
+        "method": "manual-progreso-apparent-water-sand-2011-20261105",
+        "offset": -85.5,
+        "metadata": {
+          "release": 11019,
+          "positionOffset": -85.5,
+          "url": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2014_r17/MapServer/6/query?f=json&where=MinMapLevel+%3C%3D+17+AND+MaxMapLevel+%3E%3D+17&geometryType=esriGeometryEnvelope&geometry=-89.67712607%2C21.28401516%2C-89.66702528%2C21.28738409&inSR=4326&outSR=4326&outFields=OBJECTID%2CSRC_DATE2%2CSRC_DESC%2CSAMP_RES%2CSRC_ACC%2CMinMapLevel%2CMaxMapLevel&returnGeometry=true",
+          "sha256": "167e7145a077c878fc7ec68a4bbd177eb7ca744117ea2eaf4d09068e84d35ed8",
+          "file": "huellas-11019-cc8a2c146ea.json",
+          "checks": [
+            {
+              "delta_m": -3,
+              "date": "2011-08-01",
+              "sensor": "WV02"
+            },
+            {
+              "delta_m": 0,
+              "date": "2011-08-01",
+              "sensor": "WV02"
+            },
+            {
+              "delta_m": 3,
+              "date": "2011-08-01",
+              "sensor": "WV02"
+            }
+          ]
+        }
+      },
+      "date_read": "2025-04-14",
+      "sensor": "LG02",
+      "reading_m": -7.5,
+      "metadata": {
+        "release": 26334,
+        "positionOffset": -7.5,
+        "url": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2026_r07/MapServer/6/query?f=json&where=MinMapLevel+%3C%3D+17+AND+MaxMapLevel+%3E%3D+17&geometryType=esriGeometryEnvelope&geometry=-89.67733746%2C21.28472496%2C-89.66707525%2C21.28756690&inSR=4326&outSR=4326&outFields=OBJECTID%2CSRC_DATE2%2CSRC_DESC%2CSAMP_RES%2CSRC_ACC%2CMinMapLevel%2CMaxMapLevel&returnGeometry=true",
+        "sha256": "5ce54a71e65170c04606609bfc36e6e150f9c65a2edf4234706d149f18a8b44c",
+        "file": "huellas-26334-7da6ef67d58.json",
+        "checks": [
+          {
+            "delta_m": -3,
+            "date": "2025-04-14",
+            "sensor": "LG02"
+          },
+          {
+            "delta_m": 0,
+            "date": "2025-04-14",
+            "sensor": "LG02"
+          },
+          {
+            "delta_m": 3,
+            "date": "2025-04-14",
+            "sensor": "LG02"
+          }
+        ]
+      },
+      "equivalent_metadata": [],
+      "sheet": "rojos-abril-2025.jpg"
+    },
+    {
+      "status": "corregir",
+      "year": 2025,
+      "release": 26334,
+      "profile": "SC-90-0-27",
+      "station": "GRID100-progreso-004-0023",
+      "reference_2011": {
+        "date": "2011-08-01",
+        "coord": [
+          -89.67426704624587,
+          21.28493727301989
+        ],
+        "capture": 40,
+        "sensor": "WV02",
+        "resolution_m": 0.5,
+        "release": 11019,
+        "offset_m": -87,
+        "method": "manual-progreso-apparent-water-sand-2011-20261105",
+        "offset": -87,
+        "metadata": {
+          "release": 11019,
+          "positionOffset": -87,
+          "url": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2014_r17/MapServer/6/query?f=json&where=MinMapLevel+%3C%3D+17+AND+MaxMapLevel+%3E%3D+17&geometryType=esriGeometryEnvelope&geometry=-89.67712607%2C21.28401516%2C-89.66702528%2C21.28738409&inSR=4326&outSR=4326&outFields=OBJECTID%2CSRC_DATE2%2CSRC_DESC%2CSAMP_RES%2CSRC_ACC%2CMinMapLevel%2CMaxMapLevel&returnGeometry=true",
+          "sha256": "167e7145a077c878fc7ec68a4bbd177eb7ca744117ea2eaf4d09068e84d35ed8",
+          "file": "huellas-11019-cc8a2c146ea.json",
+          "checks": [
+            {
+              "delta_m": -3,
+              "date": "2011-08-01",
+              "sensor": "WV02"
+            },
+            {
+              "delta_m": 0,
+              "date": "2011-08-01",
+              "sensor": "WV02"
+            },
+            {
+              "delta_m": 3,
+              "date": "2011-08-01",
+              "sensor": "WV02"
+            }
+          ]
+        }
+      },
+      "date_read": "2025-04-14",
+      "sensor": "LG02",
+      "reading_m": -9,
+      "metadata": {
+        "release": 26334,
+        "positionOffset": -9,
+        "url": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2026_r07/MapServer/6/query?f=json&where=MinMapLevel+%3C%3D+17+AND+MaxMapLevel+%3E%3D+17&geometryType=esriGeometryEnvelope&geometry=-89.67733746%2C21.28472496%2C-89.66707525%2C21.28756690&inSR=4326&outSR=4326&outFields=OBJECTID%2CSRC_DATE2%2CSRC_DESC%2CSAMP_RES%2CSRC_ACC%2CMinMapLevel%2CMaxMapLevel&returnGeometry=true",
+        "sha256": "5ce54a71e65170c04606609bfc36e6e150f9c65a2edf4234706d149f18a8b44c",
+        "file": "huellas-26334-7da6ef67d58.json",
+        "checks": [
+          {
+            "delta_m": -3,
+            "date": "2025-04-14",
+            "sensor": "LG02"
+          },
+          {
+            "delta_m": 0,
+            "date": "2025-04-14",
+            "sensor": "LG02"
+          },
+          {
+            "delta_m": 3,
+            "date": "2025-04-14",
+            "sensor": "LG02"
+          }
+        ]
+      },
+      "equivalent_metadata": [
+        {
+          "release": 22252,
+          "positionOffset": -9,
+          "url": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2026_r01/MapServer/6/query?f=json&where=MinMapLevel+%3C%3D+17+AND+MaxMapLevel+%3E%3D+17&geometryType=esriGeometryEnvelope&geometry=-89.67733746%2C21.28472496%2C-89.66707525%2C21.28756690&inSR=4326&outSR=4326&outFields=OBJECTID%2CSRC_DATE2%2CSRC_DESC%2CSAMP_RES%2CSRC_ACC%2CMinMapLevel%2CMaxMapLevel&returnGeometry=true",
+          "sha256": "ee67eb901834f4c5b0dea2d1258a7eb7c4997b177346887aa85197ae3fe7c18f",
+          "file": "huellas-22252-8383725f9bc.json",
+          "checks": [
+            {
+              "delta_m": -3,
+              "date": "2025-04-14",
+              "sensor": "LG02"
+            },
+            {
+              "delta_m": 0,
+              "date": "2025-04-14",
+              "sensor": "LG02"
+            },
+            {
+              "delta_m": 3,
+              "date": "2025-04-14",
+              "sensor": "LG02"
+            }
+          ]
+        },
+        {
+          "release": 52304,
+          "positionOffset": -9,
+          "url": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2025_r08/MapServer/6/query?f=json&where=MinMapLevel+%3C%3D+17+AND+MaxMapLevel+%3E%3D+17&geometryType=esriGeometryEnvelope&geometry=-89.67733746%2C21.28472496%2C-89.66707525%2C21.28756690&inSR=4326&outSR=4326&outFields=OBJECTID%2CSRC_DATE2%2CSRC_DESC%2CSAMP_RES%2CSRC_ACC%2CMinMapLevel%2CMaxMapLevel&returnGeometry=true",
+          "sha256": "f573809eca6b6a893d8a775aeab3eaee04641a8352d90de0d4eddd62ff4e3dc0",
+          "file": "huellas-52304-2a3abcc1361.json",
+          "checks": [
+            {
+              "delta_m": -3,
+              "date": "2025-04-14",
+              "sensor": "LG02"
+            },
+            {
+              "delta_m": 0,
+              "date": "2025-04-14",
+              "sensor": "LG02"
+            },
+            {
+              "delta_m": 3,
+              "date": "2025-04-14",
+              "sensor": "LG02"
+            }
+          ]
+        }
+      ],
+      "sheet": "rojos-abril-2025.jpg"
+    },
+    {
+      "status": "corregir",
+      "year": 2025,
+      "release": 26334,
+      "profile": "SC-90-0-28",
+      "station": "GRID100-progreso-004-0024",
+      "reference_2011": {
+        "date": "2011-08-01",
+        "coord": [
+          -89.6734009257466,
+          21.28518912071887
+        ],
+        "capture": 40,
+        "sensor": "WV02",
+        "resolution_m": 0.5,
+        "release": 11019,
+        "offset_m": -87.5,
+        "method": "manual-progreso-apparent-water-sand-2011-20261105",
+        "offset": -87.5,
+        "metadata": {
+          "release": 11019,
+          "positionOffset": -87.5,
+          "url": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2014_r17/MapServer/6/query?f=json&where=MinMapLevel+%3C%3D+17+AND+MaxMapLevel+%3E%3D+17&geometryType=esriGeometryEnvelope&geometry=-89.67712607%2C21.28401516%2C-89.66702528%2C21.28738409&inSR=4326&outSR=4326&outFields=OBJECTID%2CSRC_DATE2%2CSRC_DESC%2CSAMP_RES%2CSRC_ACC%2CMinMapLevel%2CMaxMapLevel&returnGeometry=true",
+          "sha256": "167e7145a077c878fc7ec68a4bbd177eb7ca744117ea2eaf4d09068e84d35ed8",
+          "file": "huellas-11019-cc8a2c146ea.json",
+          "checks": [
+            {
+              "delta_m": -3,
+              "date": "2011-08-01",
+              "sensor": "WV02"
+            },
+            {
+              "delta_m": 0,
+              "date": "2011-08-01",
+              "sensor": "WV02"
+            },
+            {
+              "delta_m": 3,
+              "date": "2011-08-01",
+              "sensor": "WV02"
+            }
+          ]
+        }
+      },
+      "date_read": "2025-04-14",
+      "sensor": "LG02",
+      "reading_m": 0.5,
+      "metadata": {
+        "release": 26334,
+        "positionOffset": 0.5,
+        "url": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2026_r07/MapServer/6/query?f=json&where=MinMapLevel+%3C%3D+17+AND+MaxMapLevel+%3E%3D+17&geometryType=esriGeometryEnvelope&geometry=-89.67733746%2C21.28472496%2C-89.66707525%2C21.28756690&inSR=4326&outSR=4326&outFields=OBJECTID%2CSRC_DATE2%2CSRC_DESC%2CSAMP_RES%2CSRC_ACC%2CMinMapLevel%2CMaxMapLevel&returnGeometry=true",
+        "sha256": "5ce54a71e65170c04606609bfc36e6e150f9c65a2edf4234706d149f18a8b44c",
+        "file": "huellas-26334-7da6ef67d58.json",
+        "checks": [
+          {
+            "delta_m": -3,
+            "date": "2025-04-14",
+            "sensor": "LG02"
+          },
+          {
+            "delta_m": 0,
+            "date": "2025-04-14",
+            "sensor": "LG02"
+          },
+          {
+            "delta_m": 3,
+            "date": "2025-04-14",
+            "sensor": "LG02"
+          }
+        ]
+      },
+      "equivalent_metadata": [
+        {
+          "release": 22252,
+          "positionOffset": 0.5,
+          "url": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2026_r01/MapServer/6/query?f=json&where=MinMapLevel+%3C%3D+17+AND+MaxMapLevel+%3E%3D+17&geometryType=esriGeometryEnvelope&geometry=-89.67733746%2C21.28472496%2C-89.66707525%2C21.28756690&inSR=4326&outSR=4326&outFields=OBJECTID%2CSRC_DATE2%2CSRC_DESC%2CSAMP_RES%2CSRC_ACC%2CMinMapLevel%2CMaxMapLevel&returnGeometry=true",
+          "sha256": "ee67eb901834f4c5b0dea2d1258a7eb7c4997b177346887aa85197ae3fe7c18f",
+          "file": "huellas-22252-8383725f9bc.json",
+          "checks": [
+            {
+              "delta_m": -3,
+              "date": "2025-04-14",
+              "sensor": "LG02"
+            },
+            {
+              "delta_m": 0,
+              "date": "2025-04-14",
+              "sensor": "LG02"
+            },
+            {
+              "delta_m": 3,
+              "date": "2025-04-14",
+              "sensor": "LG02"
+            }
+          ]
+        },
+        {
+          "release": 52304,
+          "positionOffset": 0.5,
+          "url": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2025_r08/MapServer/6/query?f=json&where=MinMapLevel+%3C%3D+17+AND+MaxMapLevel+%3E%3D+17&geometryType=esriGeometryEnvelope&geometry=-89.67733746%2C21.28472496%2C-89.66707525%2C21.28756690&inSR=4326&outSR=4326&outFields=OBJECTID%2CSRC_DATE2%2CSRC_DESC%2CSAMP_RES%2CSRC_ACC%2CMinMapLevel%2CMaxMapLevel&returnGeometry=true",
+          "sha256": "f573809eca6b6a893d8a775aeab3eaee04641a8352d90de0d4eddd62ff4e3dc0",
+          "file": "huellas-52304-2a3abcc1361.json",
+          "checks": [
+            {
+              "delta_m": -3,
+              "date": "2025-04-14",
+              "sensor": "LG02"
+            },
+            {
+              "delta_m": 0,
+              "date": "2025-04-14",
+              "sensor": "LG02"
+            },
+            {
+              "delta_m": 3,
+              "date": "2025-04-14",
+              "sensor": "LG02"
+            }
+          ]
+        }
+      ],
+      "sheet": "rojos-abril-2025.jpg"
+    },
+    {
+      "status": "corregir",
+      "year": 2025,
+      "release": 26334,
+      "profile": "SC-90-0-30",
+      "station": "GRID100-progreso-004-0026",
+      "reference_2011": {
+        "date": "2011-08-01",
+        "coord": [
+          -89.67164583003022,
+          21.285961527546398
+        ],
+        "capture": 40,
+        "sensor": "WV02",
+        "resolution_m": 0.5,
+        "release": 11019,
+        "offset_m": -57.5,
+        "method": "manual-progreso-apparent-water-sand-2011-20261105",
+        "offset": -57.5,
+        "metadata": {
+          "release": 11019,
+          "positionOffset": -57.5,
+          "url": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2014_r17/MapServer/6/query?f=json&where=MinMapLevel+%3C%3D+17+AND+MaxMapLevel+%3E%3D+17&geometryType=esriGeometryEnvelope&geometry=-89.67712607%2C21.28401516%2C-89.66702528%2C21.28738409&inSR=4326&outSR=4326&outFields=OBJECTID%2CSRC_DATE2%2CSRC_DESC%2CSAMP_RES%2CSRC_ACC%2CMinMapLevel%2CMaxMapLevel&returnGeometry=true",
+          "sha256": "167e7145a077c878fc7ec68a4bbd177eb7ca744117ea2eaf4d09068e84d35ed8",
+          "file": "huellas-11019-cc8a2c146ea.json",
+          "checks": [
+            {
+              "delta_m": -3,
+              "date": "2011-08-01",
+              "sensor": "WV02"
+            },
+            {
+              "delta_m": 0,
+              "date": "2011-08-01",
+              "sensor": "WV02"
+            },
+            {
+              "delta_m": 3,
+              "date": "2011-08-01",
+              "sensor": "WV02"
+            }
+          ]
+        }
+      },
+      "date_read": "2025-04-14",
+      "sensor": "LG02",
+      "reading_m": 2,
+      "metadata": {
+        "release": 26334,
+        "positionOffset": 2,
+        "url": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2026_r07/MapServer/6/query?f=json&where=MinMapLevel+%3C%3D+17+AND+MaxMapLevel+%3E%3D+17&geometryType=esriGeometryEnvelope&geometry=-89.67733746%2C21.28472496%2C-89.66707525%2C21.28756690&inSR=4326&outSR=4326&outFields=OBJECTID%2CSRC_DATE2%2CSRC_DESC%2CSAMP_RES%2CSRC_ACC%2CMinMapLevel%2CMaxMapLevel&returnGeometry=true",
+        "sha256": "5ce54a71e65170c04606609bfc36e6e150f9c65a2edf4234706d149f18a8b44c",
+        "file": "huellas-26334-7da6ef67d58.json",
+        "checks": [
+          {
+            "delta_m": -3,
+            "date": "2025-04-14",
+            "sensor": "LG02"
+          },
+          {
+            "delta_m": 0,
+            "date": "2025-04-14",
+            "sensor": "LG02"
+          },
+          {
+            "delta_m": 3,
+            "date": "2025-04-14",
+            "sensor": "LG02"
+          }
+        ]
+      },
+      "equivalent_metadata": [
+        {
+          "release": 22252,
+          "positionOffset": 2,
+          "url": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2026_r01/MapServer/6/query?f=json&where=MinMapLevel+%3C%3D+17+AND+MaxMapLevel+%3E%3D+17&geometryType=esriGeometryEnvelope&geometry=-89.67733746%2C21.28472496%2C-89.66707525%2C21.28756690&inSR=4326&outSR=4326&outFields=OBJECTID%2CSRC_DATE2%2CSRC_DESC%2CSAMP_RES%2CSRC_ACC%2CMinMapLevel%2CMaxMapLevel&returnGeometry=true",
+          "sha256": "ee67eb901834f4c5b0dea2d1258a7eb7c4997b177346887aa85197ae3fe7c18f",
+          "file": "huellas-22252-8383725f9bc.json",
+          "checks": [
+            {
+              "delta_m": -3,
+              "date": "2025-04-14",
+              "sensor": "LG02"
+            },
+            {
+              "delta_m": 0,
+              "date": "2025-04-14",
+              "sensor": "LG02"
+            },
+            {
+              "delta_m": 3,
+              "date": "2025-04-14",
+              "sensor": "LG02"
+            }
+          ]
+        },
+        {
+          "release": 52304,
+          "positionOffset": 2,
+          "url": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2025_r08/MapServer/6/query?f=json&where=MinMapLevel+%3C%3D+17+AND+MaxMapLevel+%3E%3D+17&geometryType=esriGeometryEnvelope&geometry=-89.67733746%2C21.28472496%2C-89.66707525%2C21.28756690&inSR=4326&outSR=4326&outFields=OBJECTID%2CSRC_DATE2%2CSRC_DESC%2CSAMP_RES%2CSRC_ACC%2CMinMapLevel%2CMaxMapLevel&returnGeometry=true",
+          "sha256": "f573809eca6b6a893d8a775aeab3eaee04641a8352d90de0d4eddd62ff4e3dc0",
+          "file": "huellas-52304-2a3abcc1361.json",
+          "checks": [
+            {
+              "delta_m": -3,
+              "date": "2025-04-14",
+              "sensor": "LG02"
+            },
+            {
+              "delta_m": 0,
+              "date": "2025-04-14",
+              "sensor": "LG02"
+            },
+            {
+              "delta_m": 3,
+              "date": "2025-04-14",
+              "sensor": "LG02"
+            }
+          ]
+        }
+      ],
+      "sheet": "rojos-abril-2025.jpg"
+    },
+    {
+      "status": "corregir",
+      "year": 2025,
+      "release": 26334,
+      "profile": "SC-90-0-31",
+      "station": "GRID100-progreso-004-0027",
+      "reference_2011": {
+        "date": "2011-08-01",
+        "coord": [
+          -89.67075700440506,
+          21.286280255071944
+        ],
+        "capture": 40,
+        "sensor": "WV02",
+        "resolution_m": 0.5,
+        "release": 11019,
+        "offset_m": -43,
+        "method": "manual-progreso-apparent-water-sand-2011-20261105",
+        "offset": -43,
+        "metadata": {
+          "release": 11019,
+          "positionOffset": -43,
+          "url": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2014_r17/MapServer/6/query?f=json&where=MinMapLevel+%3C%3D+17+AND+MaxMapLevel+%3E%3D+17&geometryType=esriGeometryEnvelope&geometry=-89.67712607%2C21.28401516%2C-89.66702528%2C21.28738409&inSR=4326&outSR=4326&outFields=OBJECTID%2CSRC_DATE2%2CSRC_DESC%2CSAMP_RES%2CSRC_ACC%2CMinMapLevel%2CMaxMapLevel&returnGeometry=true",
+          "sha256": "167e7145a077c878fc7ec68a4bbd177eb7ca744117ea2eaf4d09068e84d35ed8",
+          "file": "huellas-11019-cc8a2c146ea.json",
+          "checks": [
+            {
+              "delta_m": -3,
+              "date": "2011-08-01",
+              "sensor": "WV02"
+            },
+            {
+              "delta_m": 0,
+              "date": "2011-08-01",
+              "sensor": "WV02"
+            },
+            {
+              "delta_m": 3,
+              "date": "2011-08-01",
+              "sensor": "WV02"
+            }
+          ]
+        }
+      },
+      "date_read": "2025-04-14",
+      "sensor": "LG02",
+      "reading_m": 4.5,
+      "metadata": {
+        "release": 26334,
+        "positionOffset": 4.5,
+        "url": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2026_r07/MapServer/6/query?f=json&where=MinMapLevel+%3C%3D+17+AND+MaxMapLevel+%3E%3D+17&geometryType=esriGeometryEnvelope&geometry=-89.67733746%2C21.28472496%2C-89.66707525%2C21.28756690&inSR=4326&outSR=4326&outFields=OBJECTID%2CSRC_DATE2%2CSRC_DESC%2CSAMP_RES%2CSRC_ACC%2CMinMapLevel%2CMaxMapLevel&returnGeometry=true",
+        "sha256": "5ce54a71e65170c04606609bfc36e6e150f9c65a2edf4234706d149f18a8b44c",
+        "file": "huellas-26334-7da6ef67d58.json",
+        "checks": [
+          {
+            "delta_m": -3,
+            "date": "2025-04-14",
+            "sensor": "LG02"
+          },
+          {
+            "delta_m": 0,
+            "date": "2025-04-14",
+            "sensor": "LG02"
+          },
+          {
+            "delta_m": 3,
+            "date": "2025-04-14",
+            "sensor": "LG02"
+          }
+        ]
+      },
+      "equivalent_metadata": [
+        {
+          "release": 22252,
+          "positionOffset": 4.5,
+          "url": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2026_r01/MapServer/6/query?f=json&where=MinMapLevel+%3C%3D+17+AND+MaxMapLevel+%3E%3D+17&geometryType=esriGeometryEnvelope&geometry=-89.67733746%2C21.28472496%2C-89.66707525%2C21.28756690&inSR=4326&outSR=4326&outFields=OBJECTID%2CSRC_DATE2%2CSRC_DESC%2CSAMP_RES%2CSRC_ACC%2CMinMapLevel%2CMaxMapLevel&returnGeometry=true",
+          "sha256": "ee67eb901834f4c5b0dea2d1258a7eb7c4997b177346887aa85197ae3fe7c18f",
+          "file": "huellas-22252-8383725f9bc.json",
+          "checks": [
+            {
+              "delta_m": -3,
+              "date": "2025-04-14",
+              "sensor": "LG02"
+            },
+            {
+              "delta_m": 0,
+              "date": "2025-04-14",
+              "sensor": "LG02"
+            },
+            {
+              "delta_m": 3,
+              "date": "2025-04-14",
+              "sensor": "LG02"
+            }
+          ]
+        },
+        {
+          "release": 52304,
+          "positionOffset": 4.5,
+          "url": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2025_r08/MapServer/6/query?f=json&where=MinMapLevel+%3C%3D+17+AND+MaxMapLevel+%3E%3D+17&geometryType=esriGeometryEnvelope&geometry=-89.67733746%2C21.28472496%2C-89.66707525%2C21.28756690&inSR=4326&outSR=4326&outFields=OBJECTID%2CSRC_DATE2%2CSRC_DESC%2CSAMP_RES%2CSRC_ACC%2CMinMapLevel%2CMaxMapLevel&returnGeometry=true",
+          "sha256": "f573809eca6b6a893d8a775aeab3eaee04641a8352d90de0d4eddd62ff4e3dc0",
+          "file": "huellas-52304-2a3abcc1361.json",
+          "checks": [
+            {
+              "delta_m": -3,
+              "date": "2025-04-14",
+              "sensor": "LG02"
+            },
+            {
+              "delta_m": 0,
+              "date": "2025-04-14",
+              "sensor": "LG02"
+            },
+            {
+              "delta_m": 3,
+              "date": "2025-04-14",
+              "sensor": "LG02"
+            }
+          ]
+        }
+      ],
+      "sheet": "rojos-abril-2025.jpg"
+    },
+    {
+      "status": "corregir",
+      "year": 2025,
+      "release": 26334,
+      "profile": "SC-90-0-32",
+      "station": "GRID100-progreso-004-0028",
+      "reference_2011": {
+        "date": "2011-08-01",
+        "coord": [
+          -89.66981331889896,
+          21.286493923207534
+        ],
+        "capture": 40,
+        "sensor": "WV02",
+        "resolution_m": 0.5,
+        "release": 11019,
+        "offset_m": -51.5,
+        "method": "manual-progreso-apparent-water-sand-2011-20261105",
+        "offset": -51.5,
+        "metadata": {
+          "release": 11019,
+          "positionOffset": -51.5,
+          "url": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2014_r17/MapServer/6/query?f=json&where=MinMapLevel+%3C%3D+17+AND+MaxMapLevel+%3E%3D+17&geometryType=esriGeometryEnvelope&geometry=-89.67712607%2C21.28401516%2C-89.66702528%2C21.28738409&inSR=4326&outSR=4326&outFields=OBJECTID%2CSRC_DATE2%2CSRC_DESC%2CSAMP_RES%2CSRC_ACC%2CMinMapLevel%2CMaxMapLevel&returnGeometry=true",
+          "sha256": "167e7145a077c878fc7ec68a4bbd177eb7ca744117ea2eaf4d09068e84d35ed8",
+          "file": "huellas-11019-cc8a2c146ea.json",
+          "checks": [
+            {
+              "delta_m": -3,
+              "date": "2011-08-01",
+              "sensor": "WV02"
+            },
+            {
+              "delta_m": 0,
+              "date": "2011-08-01",
+              "sensor": "WV02"
+            },
+            {
+              "delta_m": 3,
+              "date": "2011-08-01",
+              "sensor": "WV02"
+            }
+          ]
+        }
+      },
+      "date_read": "2025-04-14",
+      "sensor": "LG02",
+      "reading_m": -5,
+      "metadata": {
+        "release": 26334,
+        "positionOffset": -5,
+        "url": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2026_r07/MapServer/6/query?f=json&where=MinMapLevel+%3C%3D+17+AND+MaxMapLevel+%3E%3D+17&geometryType=esriGeometryEnvelope&geometry=-89.67733746%2C21.28472496%2C-89.66707525%2C21.28756690&inSR=4326&outSR=4326&outFields=OBJECTID%2CSRC_DATE2%2CSRC_DESC%2CSAMP_RES%2CSRC_ACC%2CMinMapLevel%2CMaxMapLevel&returnGeometry=true",
+        "sha256": "5ce54a71e65170c04606609bfc36e6e150f9c65a2edf4234706d149f18a8b44c",
+        "file": "huellas-26334-7da6ef67d58.json",
+        "checks": [
+          {
+            "delta_m": -3,
+            "date": "2025-04-14",
+            "sensor": "LG02"
+          },
+          {
+            "delta_m": 0,
+            "date": "2025-04-14",
+            "sensor": "LG02"
+          },
+          {
+            "delta_m": 3,
+            "date": "2025-04-14",
+            "sensor": "LG02"
+          }
+        ]
+      },
+      "equivalent_metadata": [
+        {
+          "release": 22252,
+          "positionOffset": -5,
+          "url": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2026_r01/MapServer/6/query?f=json&where=MinMapLevel+%3C%3D+17+AND+MaxMapLevel+%3E%3D+17&geometryType=esriGeometryEnvelope&geometry=-89.67733746%2C21.28472496%2C-89.66707525%2C21.28756690&inSR=4326&outSR=4326&outFields=OBJECTID%2CSRC_DATE2%2CSRC_DESC%2CSAMP_RES%2CSRC_ACC%2CMinMapLevel%2CMaxMapLevel&returnGeometry=true",
+          "sha256": "ee67eb901834f4c5b0dea2d1258a7eb7c4997b177346887aa85197ae3fe7c18f",
+          "file": "huellas-22252-8383725f9bc.json",
+          "checks": [
+            {
+              "delta_m": -3,
+              "date": "2025-04-14",
+              "sensor": "LG02"
+            },
+            {
+              "delta_m": 0,
+              "date": "2025-04-14",
+              "sensor": "LG02"
+            },
+            {
+              "delta_m": 3,
+              "date": "2025-04-14",
+              "sensor": "LG02"
+            }
+          ]
+        },
+        {
+          "release": 52304,
+          "positionOffset": -5,
+          "url": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2025_r08/MapServer/6/query?f=json&where=MinMapLevel+%3C%3D+17+AND+MaxMapLevel+%3E%3D+17&geometryType=esriGeometryEnvelope&geometry=-89.67733746%2C21.28472496%2C-89.66707525%2C21.28756690&inSR=4326&outSR=4326&outFields=OBJECTID%2CSRC_DATE2%2CSRC_DESC%2CSAMP_RES%2CSRC_ACC%2CMinMapLevel%2CMaxMapLevel&returnGeometry=true",
+          "sha256": "f573809eca6b6a893d8a775aeab3eaee04641a8352d90de0d4eddd62ff4e3dc0",
+          "file": "huellas-52304-2a3abcc1361.json",
+          "checks": [
+            {
+              "delta_m": -3,
+              "date": "2025-04-14",
+              "sensor": "LG02"
+            },
+            {
+              "delta_m": 0,
+              "date": "2025-04-14",
+              "sensor": "LG02"
+            },
+            {
+              "delta_m": 3,
+              "date": "2025-04-14",
+              "sensor": "LG02"
+            }
+          ]
+        }
+      ],
+      "sheet": "rojos-abril-2025.jpg"
+    },
+    {
+      "status": "corregir",
+      "year": 2025,
+      "release": 26334,
+      "profile": "SC-90-0-33",
+      "station": "GRID100-progreso-004-0029",
+      "reference_2011": {
+        "date": "2011-08-01",
+        "coord": [
+          -89.6689347154208,
+          21.286875734187866
+        ],
+        "capture": 40,
+        "sensor": "WV02",
+        "resolution_m": 0.5,
+        "release": 11019,
+        "offset_m": -33,
+        "method": "manual-progreso-apparent-water-sand-2011-20261105",
+        "offset": -33,
+        "metadata": {
+          "release": 11019,
+          "positionOffset": -33,
+          "url": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2014_r17/MapServer/6/query?f=json&where=MinMapLevel+%3C%3D+17+AND+MaxMapLevel+%3E%3D+17&geometryType=esriGeometryEnvelope&geometry=-89.67712607%2C21.28401516%2C-89.66702528%2C21.28738409&inSR=4326&outSR=4326&outFields=OBJECTID%2CSRC_DATE2%2CSRC_DESC%2CSAMP_RES%2CSRC_ACC%2CMinMapLevel%2CMaxMapLevel&returnGeometry=true",
+          "sha256": "167e7145a077c878fc7ec68a4bbd177eb7ca744117ea2eaf4d09068e84d35ed8",
+          "file": "huellas-11019-cc8a2c146ea.json",
+          "checks": [
+            {
+              "delta_m": -3,
+              "date": "2011-08-01",
+              "sensor": "WV02"
+            },
+            {
+              "delta_m": 0,
+              "date": "2011-08-01",
+              "sensor": "WV02"
+            },
+            {
+              "delta_m": 3,
+              "date": "2011-08-01",
+              "sensor": "WV02"
+            }
+          ]
+        }
+      },
+      "date_read": "2025-04-14",
+      "sensor": "LG02",
+      "reading_m": -6.5,
+      "metadata": {
+        "release": 26334,
+        "positionOffset": -6.5,
+        "url": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2026_r07/MapServer/6/query?f=json&where=MinMapLevel+%3C%3D+17+AND+MaxMapLevel+%3E%3D+17&geometryType=esriGeometryEnvelope&geometry=-89.67733746%2C21.28472496%2C-89.66707525%2C21.28756690&inSR=4326&outSR=4326&outFields=OBJECTID%2CSRC_DATE2%2CSRC_DESC%2CSAMP_RES%2CSRC_ACC%2CMinMapLevel%2CMaxMapLevel&returnGeometry=true",
+        "sha256": "5ce54a71e65170c04606609bfc36e6e150f9c65a2edf4234706d149f18a8b44c",
+        "file": "huellas-26334-7da6ef67d58.json",
+        "checks": [
+          {
+            "delta_m": -3,
+            "date": "2025-04-14",
+            "sensor": "LG02"
+          },
+          {
+            "delta_m": 0,
+            "date": "2025-04-14",
+            "sensor": "LG02"
+          },
+          {
+            "delta_m": 3,
+            "date": "2025-04-14",
+            "sensor": "LG02"
+          }
+        ]
+      },
+      "equivalent_metadata": [
+        {
+          "release": 22252,
+          "positionOffset": -6.5,
+          "url": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2026_r01/MapServer/6/query?f=json&where=MinMapLevel+%3C%3D+17+AND+MaxMapLevel+%3E%3D+17&geometryType=esriGeometryEnvelope&geometry=-89.67733746%2C21.28472496%2C-89.66707525%2C21.28756690&inSR=4326&outSR=4326&outFields=OBJECTID%2CSRC_DATE2%2CSRC_DESC%2CSAMP_RES%2CSRC_ACC%2CMinMapLevel%2CMaxMapLevel&returnGeometry=true",
+          "sha256": "ee67eb901834f4c5b0dea2d1258a7eb7c4997b177346887aa85197ae3fe7c18f",
+          "file": "huellas-22252-8383725f9bc.json",
+          "checks": [
+            {
+              "delta_m": -3,
+              "date": "2025-04-14",
+              "sensor": "LG02"
+            },
+            {
+              "delta_m": 0,
+              "date": "2025-04-14",
+              "sensor": "LG02"
+            },
+            {
+              "delta_m": 3,
+              "date": "2025-04-14",
+              "sensor": "LG02"
+            }
+          ]
+        },
+        {
+          "release": 52304,
+          "positionOffset": -6.5,
+          "url": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2025_r08/MapServer/6/query?f=json&where=MinMapLevel+%3C%3D+17+AND+MaxMapLevel+%3E%3D+17&geometryType=esriGeometryEnvelope&geometry=-89.67733746%2C21.28472496%2C-89.66707525%2C21.28756690&inSR=4326&outSR=4326&outFields=OBJECTID%2CSRC_DATE2%2CSRC_DESC%2CSAMP_RES%2CSRC_ACC%2CMinMapLevel%2CMaxMapLevel&returnGeometry=true",
+          "sha256": "f573809eca6b6a893d8a775aeab3eaee04641a8352d90de0d4eddd62ff4e3dc0",
+          "file": "huellas-52304-2a3abcc1361.json",
+          "checks": [
+            {
+              "delta_m": -3,
+              "date": "2025-04-14",
+              "sensor": "LG02"
+            },
+            {
+              "delta_m": 0,
+              "date": "2025-04-14",
+              "sensor": "LG02"
+            },
+            {
+              "delta_m": 3,
+              "date": "2025-04-14",
+              "sensor": "LG02"
+            }
+          ]
+        }
+      ],
+      "sheet": "rojos-abril-2025.jpg"
+    },
+    {
+      "status": "corregir",
+      "year": 2025,
+      "release": 26334,
+      "profile": "SC-90-0-35",
+      "station": "GRID100-progreso-004-0031",
+      "reference_2011": {
+        "date": "2011-08-01",
+        "coord": [
+          -89.66709241788637,
+          21.28729797379926
+        ],
+        "capture": 40,
+        "sensor": "WV02",
+        "resolution_m": 0.5,
+        "release": 11019,
+        "offset_m": -50.5,
+        "method": "manual-progreso-apparent-water-sand-2011-20261105",
+        "offset": -50.5,
+        "metadata": {
+          "release": 11019,
+          "positionOffset": -50.5,
+          "url": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2014_r17/MapServer/6/query?f=json&where=MinMapLevel+%3C%3D+17+AND+MaxMapLevel+%3E%3D+17&geometryType=esriGeometryEnvelope&geometry=-89.67712607%2C21.28401516%2C-89.66702528%2C21.28738409&inSR=4326&outSR=4326&outFields=OBJECTID%2CSRC_DATE2%2CSRC_DESC%2CSAMP_RES%2CSRC_ACC%2CMinMapLevel%2CMaxMapLevel&returnGeometry=true",
+          "sha256": "167e7145a077c878fc7ec68a4bbd177eb7ca744117ea2eaf4d09068e84d35ed8",
+          "file": "huellas-11019-cc8a2c146ea.json",
+          "checks": [
+            {
+              "delta_m": -3,
+              "date": "2011-08-01",
+              "sensor": "WV02"
+            },
+            {
+              "delta_m": 0,
+              "date": "2011-08-01",
+              "sensor": "WV02"
+            },
+            {
+              "delta_m": 3,
+              "date": "2011-08-01",
+              "sensor": "WV02"
+            }
+          ]
+        }
+      },
+      "date_read": "2025-04-14",
+      "sensor": "LG02",
+      "reading_m": -29.5,
+      "metadata": {
+        "release": 26334,
+        "positionOffset": -29.5,
+        "url": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2026_r07/MapServer/6/query?f=json&where=MinMapLevel+%3C%3D+17+AND+MaxMapLevel+%3E%3D+17&geometryType=esriGeometryEnvelope&geometry=-89.67733746%2C21.28472496%2C-89.66707525%2C21.28756690&inSR=4326&outSR=4326&outFields=OBJECTID%2CSRC_DATE2%2CSRC_DESC%2CSAMP_RES%2CSRC_ACC%2CMinMapLevel%2CMaxMapLevel&returnGeometry=true",
+        "sha256": "5ce54a71e65170c04606609bfc36e6e150f9c65a2edf4234706d149f18a8b44c",
+        "file": "huellas-26334-7da6ef67d58.json",
+        "checks": [
+          {
+            "delta_m": -3,
+            "date": "2025-04-14",
+            "sensor": "LG02"
+          },
+          {
+            "delta_m": 0,
+            "date": "2025-04-14",
+            "sensor": "LG02"
+          },
+          {
+            "delta_m": 3,
+            "date": "2025-04-14",
+            "sensor": "LG02"
+          }
+        ]
+      },
+      "equivalent_metadata": [
+        {
+          "release": 22252,
+          "positionOffset": -29.5,
+          "url": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2026_r01/MapServer/6/query?f=json&where=MinMapLevel+%3C%3D+17+AND+MaxMapLevel+%3E%3D+17&geometryType=esriGeometryEnvelope&geometry=-89.67733746%2C21.28472496%2C-89.66707525%2C21.28756690&inSR=4326&outSR=4326&outFields=OBJECTID%2CSRC_DATE2%2CSRC_DESC%2CSAMP_RES%2CSRC_ACC%2CMinMapLevel%2CMaxMapLevel&returnGeometry=true",
+          "sha256": "ee67eb901834f4c5b0dea2d1258a7eb7c4997b177346887aa85197ae3fe7c18f",
+          "file": "huellas-22252-8383725f9bc.json",
+          "checks": [
+            {
+              "delta_m": -3,
+              "date": "2025-04-14",
+              "sensor": "LG02"
+            },
+            {
+              "delta_m": 0,
+              "date": "2025-04-14",
+              "sensor": "LG02"
+            },
+            {
+              "delta_m": 3,
+              "date": "2025-04-14",
+              "sensor": "LG02"
+            }
+          ]
+        },
+        {
+          "release": 52304,
+          "positionOffset": -29.5,
+          "url": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2025_r08/MapServer/6/query?f=json&where=MinMapLevel+%3C%3D+17+AND+MaxMapLevel+%3E%3D+17&geometryType=esriGeometryEnvelope&geometry=-89.67733746%2C21.28472496%2C-89.66707525%2C21.28756690&inSR=4326&outSR=4326&outFields=OBJECTID%2CSRC_DATE2%2CSRC_DESC%2CSAMP_RES%2CSRC_ACC%2CMinMapLevel%2CMaxMapLevel&returnGeometry=true",
+          "sha256": "f573809eca6b6a893d8a775aeab3eaee04641a8352d90de0d4eddd62ff4e3dc0",
+          "file": "huellas-52304-2a3abcc1361.json",
+          "checks": [
+            {
+              "delta_m": -3,
+              "date": "2025-04-14",
+              "sensor": "LG02"
+            },
+            {
+              "delta_m": 0,
+              "date": "2025-04-14",
+              "sensor": "LG02"
+            },
+            {
+              "delta_m": 3,
+              "date": "2025-04-14",
+              "sensor": "LG02"
+            }
+          ]
+        }
+      ],
+      "sheet": "rojos-abril-2025.jpg"
+    },
+    {
+      "status": "corregir",
+      "year": 2025,
+      "release": 26334,
+      "profile": "SC-90-0-36",
+      "station": "GRID100-progreso-004-0032",
+      "reference_2011": {
+        "date": "2011-08-01",
+        "coord": [
+          -89.6661264637642,
+          21.28763901420256
+        ],
+        "capture": 40,
+        "sensor": "WV02",
+        "resolution_m": 0.5,
+        "release": 11019,
+        "offset_m": -39,
+        "method": "manual-progreso-apparent-water-sand-2011-20261105",
+        "offset": -39,
+        "metadata": {
+          "release": 11019,
+          "positionOffset": -39,
+          "url": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2014_r17/MapServer/6/query?f=json&where=MinMapLevel+%3C%3D+17+AND+MaxMapLevel+%3E%3D+17&geometryType=esriGeometryEnvelope&geometry=-89.66619901%2C21.28755473%2C-89.65638433%2C21.28906514&inSR=4326&outSR=4326&outFields=OBJECTID%2CSRC_DATE2%2CSRC_DESC%2CSAMP_RES%2CSRC_ACC%2CMinMapLevel%2CMaxMapLevel&returnGeometry=true",
+          "sha256": "167e7145a077c878fc7ec68a4bbd177eb7ca744117ea2eaf4d09068e84d35ed8",
+          "file": "huellas-11019-b79fa8920cb.json",
+          "checks": [
+            {
+              "delta_m": -3,
+              "date": "2011-08-01",
+              "sensor": "WV02"
+            },
+            {
+              "delta_m": 0,
+              "date": "2011-08-01",
+              "sensor": "WV02"
+            },
+            {
+              "delta_m": 3,
+              "date": "2011-08-01",
+              "sensor": "WV02"
+            }
+          ]
+        }
+      },
+      "date_read": "2025-04-14",
+      "sensor": "LG02",
+      "reading_m": -16.5,
+      "metadata": {
+        "release": 26334,
+        "positionOffset": -16.5,
+        "url": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2026_r07/MapServer/6/query?f=json&where=MinMapLevel+%3C%3D+17+AND+MaxMapLevel+%3E%3D+17&geometryType=esriGeometryEnvelope&geometry=-89.66629308%2C21.28773686%2C-89.65638482%2C21.28908759&inSR=4326&outSR=4326&outFields=OBJECTID%2CSRC_DATE2%2CSRC_DESC%2CSAMP_RES%2CSRC_ACC%2CMinMapLevel%2CMaxMapLevel&returnGeometry=true",
+        "sha256": "5ce54a71e65170c04606609bfc36e6e150f9c65a2edf4234706d149f18a8b44c",
+        "file": "huellas-26334-9aedd88feb1.json",
+        "checks": [
+          {
+            "delta_m": -3,
+            "date": "2025-04-14",
+            "sensor": "LG02"
+          },
+          {
+            "delta_m": 0,
+            "date": "2025-04-14",
+            "sensor": "LG02"
+          },
+          {
+            "delta_m": 3,
+            "date": "2025-04-14",
+            "sensor": "LG02"
+          }
+        ]
+      },
+      "equivalent_metadata": [
+        {
+          "release": 22252,
+          "positionOffset": -16.5,
+          "url": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2026_r01/MapServer/6/query?f=json&where=MinMapLevel+%3C%3D+17+AND+MaxMapLevel+%3E%3D+17&geometryType=esriGeometryEnvelope&geometry=-89.66629308%2C21.28773686%2C-89.65638482%2C21.28908759&inSR=4326&outSR=4326&outFields=OBJECTID%2CSRC_DATE2%2CSRC_DESC%2CSAMP_RES%2CSRC_ACC%2CMinMapLevel%2CMaxMapLevel&returnGeometry=true",
+          "sha256": "ee67eb901834f4c5b0dea2d1258a7eb7c4997b177346887aa85197ae3fe7c18f",
+          "file": "huellas-22252-7e16e474a12.json",
+          "checks": [
+            {
+              "delta_m": -3,
+              "date": "2025-04-14",
+              "sensor": "LG02"
+            },
+            {
+              "delta_m": 0,
+              "date": "2025-04-14",
+              "sensor": "LG02"
+            },
+            {
+              "delta_m": 3,
+              "date": "2025-04-14",
+              "sensor": "LG02"
+            }
+          ]
+        },
+        {
+          "release": 52304,
+          "positionOffset": -16.5,
+          "url": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2025_r08/MapServer/6/query?f=json&where=MinMapLevel+%3C%3D+17+AND+MaxMapLevel+%3E%3D+17&geometryType=esriGeometryEnvelope&geometry=-89.66629308%2C21.28773686%2C-89.65638482%2C21.28908759&inSR=4326&outSR=4326&outFields=OBJECTID%2CSRC_DATE2%2CSRC_DESC%2CSAMP_RES%2CSRC_ACC%2CMinMapLevel%2CMaxMapLevel&returnGeometry=true",
+          "sha256": "f573809eca6b6a893d8a775aeab3eaee04641a8352d90de0d4eddd62ff4e3dc0",
+          "file": "huellas-52304-373093257b8.json",
+          "checks": [
+            {
+              "delta_m": -3,
+              "date": "2025-04-14",
+              "sensor": "LG02"
+            },
+            {
+              "delta_m": 0,
+              "date": "2025-04-14",
+              "sensor": "LG02"
+            },
+            {
+              "delta_m": 3,
+              "date": "2025-04-14",
+              "sensor": "LG02"
+            }
+          ]
+        }
+      ],
+      "sheet": "rojos-abril-2025.jpg"
+    },
+    {
+      "status": "corregir",
+      "year": 2025,
+      "release": 26334,
+      "profile": "SC-89-0-0",
+      "station": "GRID100-progreso-005-0000",
+      "reference_2011": {
+        "date": "2011-08-01",
+        "coord": [
+          -89.66404447078064,
+          21.28835367540254
+        ],
+        "capture": 40,
+        "sensor": "WV02",
+        "resolution_m": 0.5,
+        "release": 11019,
+        "offset_m": -39.5,
+        "method": "manual-progreso-apparent-water-sand-2011-20261105",
+        "offset": -39.5,
+        "metadata": {
+          "release": 11019,
+          "positionOffset": -39.5,
+          "url": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2014_r17/MapServer/6/query?f=json&where=MinMapLevel+%3C%3D+17+AND+MaxMapLevel+%3E%3D+17&geometryType=esriGeometryEnvelope&geometry=-89.66619901%2C21.28755473%2C-89.65638433%2C21.28906514&inSR=4326&outSR=4326&outFields=OBJECTID%2CSRC_DATE2%2CSRC_DESC%2CSAMP_RES%2CSRC_ACC%2CMinMapLevel%2CMaxMapLevel&returnGeometry=true",
+          "sha256": "167e7145a077c878fc7ec68a4bbd177eb7ca744117ea2eaf4d09068e84d35ed8",
+          "file": "huellas-11019-b79fa8920cb.json",
+          "checks": [
+            {
+              "delta_m": -3,
+              "date": "2011-08-01",
+              "sensor": "WV02"
+            },
+            {
+              "delta_m": 0,
+              "date": "2011-08-01",
+              "sensor": "WV02"
+            },
+            {
+              "delta_m": 3,
+              "date": "2011-08-01",
+              "sensor": "WV02"
+            }
+          ]
+        }
+      },
+      "date_read": "2025-04-14",
+      "sensor": "LG02",
+      "reading_m": -1,
+      "metadata": {
+        "release": 26334,
+        "positionOffset": -1,
+        "url": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2026_r07/MapServer/6/query?f=json&where=MinMapLevel+%3C%3D+17+AND+MaxMapLevel+%3E%3D+17&geometryType=esriGeometryEnvelope&geometry=-89.66629308%2C21.28773686%2C-89.65638482%2C21.28908759&inSR=4326&outSR=4326&outFields=OBJECTID%2CSRC_DATE2%2CSRC_DESC%2CSAMP_RES%2CSRC_ACC%2CMinMapLevel%2CMaxMapLevel&returnGeometry=true",
+        "sha256": "5ce54a71e65170c04606609bfc36e6e150f9c65a2edf4234706d149f18a8b44c",
+        "file": "huellas-26334-9aedd88feb1.json",
+        "checks": [
+          {
+            "delta_m": -3,
+            "date": "2025-04-14",
+            "sensor": "LG02"
+          },
+          {
+            "delta_m": 0,
+            "date": "2025-04-14",
+            "sensor": "LG02"
+          },
+          {
+            "delta_m": 3,
+            "date": "2025-04-14",
+            "sensor": "LG02"
+          }
+        ]
+      },
+      "equivalent_metadata": [],
+      "sheet": "rojos-abril-2025.jpg"
+    },
+    {
+      "status": "corregir",
+      "year": 2025,
+      "release": 26334,
+      "profile": "SC-89-0-1",
+      "station": "GRID100-progreso-005-0001",
+      "reference_2011": {
+        "date": "2011-08-01",
+        "coord": [
+          -89.66308527561064,
+          21.288428177003404
+        ],
+        "capture": 40,
+        "sensor": "WV02",
+        "resolution_m": 0.5,
+        "release": 11019,
+        "offset_m": -42,
+        "method": "manual-progreso-apparent-water-sand-2011-20261105",
+        "offset": -42,
+        "metadata": {
+          "release": 11019,
+          "positionOffset": -42,
+          "url": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2014_r17/MapServer/6/query?f=json&where=MinMapLevel+%3C%3D+17+AND+MaxMapLevel+%3E%3D+17&geometryType=esriGeometryEnvelope&geometry=-89.66619901%2C21.28755473%2C-89.65638433%2C21.28906514&inSR=4326&outSR=4326&outFields=OBJECTID%2CSRC_DATE2%2CSRC_DESC%2CSAMP_RES%2CSRC_ACC%2CMinMapLevel%2CMaxMapLevel&returnGeometry=true",
+          "sha256": "167e7145a077c878fc7ec68a4bbd177eb7ca744117ea2eaf4d09068e84d35ed8",
+          "file": "huellas-11019-b79fa8920cb.json",
+          "checks": [
+            {
+              "delta_m": -3,
+              "date": "2011-08-01",
+              "sensor": "WV02"
+            },
+            {
+              "delta_m": 0,
+              "date": "2011-08-01",
+              "sensor": "WV02"
+            },
+            {
+              "delta_m": 3,
+              "date": "2011-08-01",
+              "sensor": "WV02"
+            }
+          ]
+        }
+      },
+      "date_read": "2025-04-14",
+      "sensor": "LG02",
+      "reading_m": -4.5,
+      "metadata": {
+        "release": 26334,
+        "positionOffset": -4.5,
+        "url": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2026_r07/MapServer/6/query?f=json&where=MinMapLevel+%3C%3D+17+AND+MaxMapLevel+%3E%3D+17&geometryType=esriGeometryEnvelope&geometry=-89.66629308%2C21.28773686%2C-89.65638482%2C21.28908759&inSR=4326&outSR=4326&outFields=OBJECTID%2CSRC_DATE2%2CSRC_DESC%2CSAMP_RES%2CSRC_ACC%2CMinMapLevel%2CMaxMapLevel&returnGeometry=true",
+        "sha256": "5ce54a71e65170c04606609bfc36e6e150f9c65a2edf4234706d149f18a8b44c",
+        "file": "huellas-26334-9aedd88feb1.json",
+        "checks": [
+          {
+            "delta_m": -3,
+            "date": "2025-04-14",
+            "sensor": "LG02"
+          },
+          {
+            "delta_m": 0,
+            "date": "2025-04-14",
+            "sensor": "LG02"
+          },
+          {
+            "delta_m": 3,
+            "date": "2025-04-14",
+            "sensor": "LG02"
+          }
+        ]
+      },
+      "equivalent_metadata": [],
+      "sheet": "rojos-abril-2025.jpg"
+    },
+    {
+      "status": "corregir",
+      "year": 2025,
+      "release": 26334,
+      "profile": "SC-89-0-2",
+      "station": "GRID100-progreso-005-0002",
+      "reference_2011": {
+        "date": "2011-08-01",
+        "coord": [
+          -89.66214316794078,
+          21.288480795560318
+        ],
+        "capture": 40,
+        "sensor": "WV02",
+        "resolution_m": 0.5,
+        "release": 11019,
+        "offset_m": -41.5,
+        "method": "manual-progreso-apparent-water-sand-2011-20261105",
+        "offset": -41.5,
+        "metadata": {
+          "release": 11019,
+          "positionOffset": -41.5,
+          "url": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2014_r17/MapServer/6/query?f=json&where=MinMapLevel+%3C%3D+17+AND+MaxMapLevel+%3E%3D+17&geometryType=esriGeometryEnvelope&geometry=-89.66619901%2C21.28755473%2C-89.65638433%2C21.28906514&inSR=4326&outSR=4326&outFields=OBJECTID%2CSRC_DATE2%2CSRC_DESC%2CSAMP_RES%2CSRC_ACC%2CMinMapLevel%2CMaxMapLevel&returnGeometry=true",
+          "sha256": "167e7145a077c878fc7ec68a4bbd177eb7ca744117ea2eaf4d09068e84d35ed8",
+          "file": "huellas-11019-b79fa8920cb.json",
+          "checks": [
+            {
+              "delta_m": -3,
+              "date": "2011-08-01",
+              "sensor": "WV02"
+            },
+            {
+              "delta_m": 0,
+              "date": "2011-08-01",
+              "sensor": "WV02"
+            },
+            {
+              "delta_m": 3,
+              "date": "2011-08-01",
+              "sensor": "WV02"
+            }
+          ]
+        }
+      },
+      "date_read": "2025-04-14",
+      "sensor": "LG02",
+      "reading_m": -3.5,
+      "metadata": {
+        "release": 26334,
+        "positionOffset": -3.5,
+        "url": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2026_r07/MapServer/6/query?f=json&where=MinMapLevel+%3C%3D+17+AND+MaxMapLevel+%3E%3D+17&geometryType=esriGeometryEnvelope&geometry=-89.66629308%2C21.28773686%2C-89.65638482%2C21.28908759&inSR=4326&outSR=4326&outFields=OBJECTID%2CSRC_DATE2%2CSRC_DESC%2CSAMP_RES%2CSRC_ACC%2CMinMapLevel%2CMaxMapLevel&returnGeometry=true",
+        "sha256": "5ce54a71e65170c04606609bfc36e6e150f9c65a2edf4234706d149f18a8b44c",
+        "file": "huellas-26334-9aedd88feb1.json",
+        "checks": [
+          {
+            "delta_m": -3,
+            "date": "2025-04-14",
+            "sensor": "LG02"
+          },
+          {
+            "delta_m": 0,
+            "date": "2025-04-14",
+            "sensor": "LG02"
+          },
+          {
+            "delta_m": 3,
+            "date": "2025-04-14",
+            "sensor": "LG02"
+          }
+        ]
+      },
+      "equivalent_metadata": [],
+      "sheet": "rojos-abril-2025.jpg"
+    },
+    {
+      "status": "corregir",
+      "year": 2025,
+      "release": 26334,
+      "profile": "SC-89-0-3",
+      "station": "GRID100-progreso-005-0003",
+      "reference_2011": {
+        "date": "2011-08-01",
+        "coord": [
+          -89.66121448296492,
+          21.288588320823266
+        ],
+        "capture": 40,
+        "sensor": "WV02",
+        "resolution_m": 0.5,
+        "release": 11019,
+        "offset_m": -35,
+        "method": "manual-progreso-apparent-water-sand-2011-20261105",
+        "offset": -35,
+        "metadata": {
+          "release": 11019,
+          "positionOffset": -35,
+          "url": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2014_r17/MapServer/6/query?f=json&where=MinMapLevel+%3C%3D+17+AND+MaxMapLevel+%3E%3D+17&geometryType=esriGeometryEnvelope&geometry=-89.66619901%2C21.28755473%2C-89.65638433%2C21.28906514&inSR=4326&outSR=4326&outFields=OBJECTID%2CSRC_DATE2%2CSRC_DESC%2CSAMP_RES%2CSRC_ACC%2CMinMapLevel%2CMaxMapLevel&returnGeometry=true",
+          "sha256": "167e7145a077c878fc7ec68a4bbd177eb7ca744117ea2eaf4d09068e84d35ed8",
+          "file": "huellas-11019-b79fa8920cb.json",
+          "checks": [
+            {
+              "delta_m": -3,
+              "date": "2011-08-01",
+              "sensor": "WV02"
+            },
+            {
+              "delta_m": 0,
+              "date": "2011-08-01",
+              "sensor": "WV02"
+            },
+            {
+              "delta_m": 3,
+              "date": "2011-08-01",
+              "sensor": "WV02"
+            }
+          ]
+        }
+      },
+      "date_read": "2025-04-14",
+      "sensor": "LG02",
+      "reading_m": -1,
+      "metadata": {
+        "release": 26334,
+        "positionOffset": -1,
+        "url": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2026_r07/MapServer/6/query?f=json&where=MinMapLevel+%3C%3D+17+AND+MaxMapLevel+%3E%3D+17&geometryType=esriGeometryEnvelope&geometry=-89.66629308%2C21.28773686%2C-89.65638482%2C21.28908759&inSR=4326&outSR=4326&outFields=OBJECTID%2CSRC_DATE2%2CSRC_DESC%2CSAMP_RES%2CSRC_ACC%2CMinMapLevel%2CMaxMapLevel&returnGeometry=true",
+        "sha256": "5ce54a71e65170c04606609bfc36e6e150f9c65a2edf4234706d149f18a8b44c",
+        "file": "huellas-26334-9aedd88feb1.json",
+        "checks": [
+          {
+            "delta_m": -3,
+            "date": "2025-04-14",
+            "sensor": "LG02"
+          },
+          {
+            "delta_m": 0,
+            "date": "2025-04-14",
+            "sensor": "LG02"
+          },
+          {
+            "delta_m": 3,
+            "date": "2025-04-14",
+            "sensor": "LG02"
+          }
+        ]
+      },
+      "equivalent_metadata": [],
+      "sheet": "rojos-abril-2025.jpg"
+    },
+    {
+      "status": "corregir",
+      "year": 2025,
+      "release": 26334,
+      "profile": "SC-89-0-4",
+      "station": "GRID100-progreso-005-0004",
+      "reference_2011": {
+        "date": "2011-08-01",
+        "coord": [
+          -89.66025939680915,
+          21.28870546541416
+        ],
+        "capture": 40,
+        "sensor": "WV02",
+        "resolution_m": 0.5,
+        "release": 11019,
+        "offset_m": -23,
+        "method": "manual-progreso-apparent-water-sand-2011-20261105",
+        "offset": -23,
+        "metadata": {
+          "release": 11019,
+          "positionOffset": -23,
+          "url": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2014_r17/MapServer/6/query?f=json&where=MinMapLevel+%3C%3D+17+AND+MaxMapLevel+%3E%3D+17&geometryType=esriGeometryEnvelope&geometry=-89.66619901%2C21.28755473%2C-89.65638433%2C21.28906514&inSR=4326&outSR=4326&outFields=OBJECTID%2CSRC_DATE2%2CSRC_DESC%2CSAMP_RES%2CSRC_ACC%2CMinMapLevel%2CMaxMapLevel&returnGeometry=true",
+          "sha256": "167e7145a077c878fc7ec68a4bbd177eb7ca744117ea2eaf4d09068e84d35ed8",
+          "file": "huellas-11019-b79fa8920cb.json",
+          "checks": [
+            {
+              "delta_m": -3,
+              "date": "2011-08-01",
+              "sensor": "WV02"
+            },
+            {
+              "delta_m": 0,
+              "date": "2011-08-01",
+              "sensor": "WV02"
+            },
+            {
+              "delta_m": 3,
+              "date": "2011-08-01",
+              "sensor": "WV02"
+            }
+          ]
+        }
+      },
+      "date_read": "2025-04-14",
+      "sensor": "LG02",
+      "reading_m": 2,
+      "metadata": {
+        "release": 26334,
+        "positionOffset": 2,
+        "url": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2026_r07/MapServer/6/query?f=json&where=MinMapLevel+%3C%3D+17+AND+MaxMapLevel+%3E%3D+17&geometryType=esriGeometryEnvelope&geometry=-89.66629308%2C21.28773686%2C-89.65638482%2C21.28908759&inSR=4326&outSR=4326&outFields=OBJECTID%2CSRC_DATE2%2CSRC_DESC%2CSAMP_RES%2CSRC_ACC%2CMinMapLevel%2CMaxMapLevel&returnGeometry=true",
+        "sha256": "5ce54a71e65170c04606609bfc36e6e150f9c65a2edf4234706d149f18a8b44c",
+        "file": "huellas-26334-9aedd88feb1.json",
+        "checks": [
+          {
+            "delta_m": -3,
+            "date": "2025-04-14",
+            "sensor": "LG02"
+          },
+          {
+            "delta_m": 0,
+            "date": "2025-04-14",
+            "sensor": "LG02"
+          },
+          {
+            "delta_m": 3,
+            "date": "2025-04-14",
+            "sensor": "LG02"
+          }
+        ]
+      },
+      "equivalent_metadata": [],
+      "sheet": "rojos-abril-2025.jpg"
+    },
+    {
+      "status": "corregir",
+      "year": 2025,
+      "release": 26334,
+      "profile": "SC-89-0-5",
+      "station": "GRID100-progreso-005-0005",
+      "reference_2011": {
+        "date": "2011-08-01",
+        "coord": [
+          -89.6593040656482,
+          21.28876004973991
+        ],
+        "capture": 40,
+        "sensor": "WV02",
+        "resolution_m": 0.5,
+        "release": 11019,
+        "offset_m": -19.5,
+        "method": "manual-progreso-apparent-water-sand-2011-20261105",
+        "offset": -19.5,
+        "metadata": {
+          "release": 11019,
+          "positionOffset": -19.5,
+          "url": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2014_r17/MapServer/6/query?f=json&where=MinMapLevel+%3C%3D+17+AND+MaxMapLevel+%3E%3D+17&geometryType=esriGeometryEnvelope&geometry=-89.66619901%2C21.28755473%2C-89.65638433%2C21.28906514&inSR=4326&outSR=4326&outFields=OBJECTID%2CSRC_DATE2%2CSRC_DESC%2CSAMP_RES%2CSRC_ACC%2CMinMapLevel%2CMaxMapLevel&returnGeometry=true",
+          "sha256": "167e7145a077c878fc7ec68a4bbd177eb7ca744117ea2eaf4d09068e84d35ed8",
+          "file": "huellas-11019-b79fa8920cb.json",
+          "checks": [
+            {
+              "delta_m": -3,
+              "date": "2011-08-01",
+              "sensor": "WV02"
+            },
+            {
+              "delta_m": 0,
+              "date": "2011-08-01",
+              "sensor": "WV02"
+            },
+            {
+              "delta_m": 3,
+              "date": "2011-08-01",
+              "sensor": "WV02"
+            }
+          ]
+        }
+      },
+      "date_read": "2025-04-14",
+      "sensor": "LG02",
+      "reading_m": 1,
+      "metadata": {
+        "release": 26334,
+        "positionOffset": 1,
+        "url": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2026_r07/MapServer/6/query?f=json&where=MinMapLevel+%3C%3D+17+AND+MaxMapLevel+%3E%3D+17&geometryType=esriGeometryEnvelope&geometry=-89.66629308%2C21.28773686%2C-89.65638482%2C21.28908759&inSR=4326&outSR=4326&outFields=OBJECTID%2CSRC_DATE2%2CSRC_DESC%2CSAMP_RES%2CSRC_ACC%2CMinMapLevel%2CMaxMapLevel&returnGeometry=true",
+        "sha256": "5ce54a71e65170c04606609bfc36e6e150f9c65a2edf4234706d149f18a8b44c",
+        "file": "huellas-26334-9aedd88feb1.json",
+        "checks": [
+          {
+            "delta_m": -3,
+            "date": "2025-04-14",
+            "sensor": "LG02"
+          },
+          {
+            "delta_m": 0,
+            "date": "2025-04-14",
+            "sensor": "LG02"
+          },
+          {
+            "delta_m": 3,
+            "date": "2025-04-14",
+            "sensor": "LG02"
+          }
+        ]
+      },
+      "equivalent_metadata": [],
+      "sheet": "rojos-abril-2025.jpg"
+    },
+    {
+      "status": "corregir",
+      "year": 2025,
+      "release": 26334,
+      "profile": "SC-89-0-6",
+      "station": "GRID100-progreso-005-0006",
+      "reference_2011": {
+        "date": "2011-08-01",
+        "coord": [
+          -89.65835148627266,
+          21.28880928777759
+        ],
+        "capture": 40,
+        "sensor": "WV02",
+        "resolution_m": 0.5,
+        "release": 11019,
+        "offset_m": -16.5,
+        "method": "manual-progreso-apparent-water-sand-2011-20261105",
+        "offset": -16.5,
+        "metadata": {
+          "release": 11019,
+          "positionOffset": -16.5,
+          "url": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2014_r17/MapServer/6/query?f=json&where=MinMapLevel+%3C%3D+17+AND+MaxMapLevel+%3E%3D+17&geometryType=esriGeometryEnvelope&geometry=-89.66619901%2C21.28755473%2C-89.65638433%2C21.28906514&inSR=4326&outSR=4326&outFields=OBJECTID%2CSRC_DATE2%2CSRC_DESC%2CSAMP_RES%2CSRC_ACC%2CMinMapLevel%2CMaxMapLevel&returnGeometry=true",
+          "sha256": "167e7145a077c878fc7ec68a4bbd177eb7ca744117ea2eaf4d09068e84d35ed8",
+          "file": "huellas-11019-b79fa8920cb.json",
+          "checks": [
+            {
+              "delta_m": -3,
+              "date": "2011-08-01",
+              "sensor": "WV02"
+            },
+            {
+              "delta_m": 0,
+              "date": "2011-08-01",
+              "sensor": "WV02"
+            },
+            {
+              "delta_m": 3,
+              "date": "2011-08-01",
+              "sensor": "WV02"
+            }
+          ]
+        }
+      },
+      "date_read": "2025-04-14",
+      "sensor": "LG02",
+      "reading_m": -3,
+      "metadata": {
+        "release": 26334,
+        "positionOffset": -3,
+        "url": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2026_r07/MapServer/6/query?f=json&where=MinMapLevel+%3C%3D+17+AND+MaxMapLevel+%3E%3D+17&geometryType=esriGeometryEnvelope&geometry=-89.66629308%2C21.28773686%2C-89.65638482%2C21.28908759&inSR=4326&outSR=4326&outFields=OBJECTID%2CSRC_DATE2%2CSRC_DESC%2CSAMP_RES%2CSRC_ACC%2CMinMapLevel%2CMaxMapLevel&returnGeometry=true",
+        "sha256": "5ce54a71e65170c04606609bfc36e6e150f9c65a2edf4234706d149f18a8b44c",
+        "file": "huellas-26334-9aedd88feb1.json",
+        "checks": [
+          {
+            "delta_m": -3,
+            "date": "2025-04-14",
+            "sensor": "LG02"
+          },
+          {
+            "delta_m": 0,
+            "date": "2025-04-14",
+            "sensor": "LG02"
+          },
+          {
+            "delta_m": 3,
+            "date": "2025-04-14",
+            "sensor": "LG02"
+          }
+        ]
+      },
+      "equivalent_metadata": [],
+      "sheet": "rojos-abril-2025.jpg"
+    },
+    {
+      "status": "corregir",
+      "year": 2025,
+      "release": 26334,
+      "profile": "SC-89-0-8",
+      "station": "GRID100-progreso-005-0008",
+      "reference_2011": {
+        "date": "2011-08-01",
+        "coord": [
+          -89.65644492330055,
+          21.288978197495968
+        ],
+        "capture": 40,
+        "sensor": "WV02",
+        "resolution_m": 0.5,
+        "release": 11019,
+        "offset_m": -2,
+        "method": "manual-progreso-apparent-water-sand-2011-20261105",
+        "offset": -2,
+        "metadata": {
+          "release": 11019,
+          "positionOffset": -2,
+          "url": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2014_r17/MapServer/6/query?f=json&where=MinMapLevel+%3C%3D+17+AND+MaxMapLevel+%3E%3D+17&geometryType=esriGeometryEnvelope&geometry=-89.66619901%2C21.28755473%2C-89.65638433%2C21.28906514&inSR=4326&outSR=4326&outFields=OBJECTID%2CSRC_DATE2%2CSRC_DESC%2CSAMP_RES%2CSRC_ACC%2CMinMapLevel%2CMaxMapLevel&returnGeometry=true",
+          "sha256": "167e7145a077c878fc7ec68a4bbd177eb7ca744117ea2eaf4d09068e84d35ed8",
+          "file": "huellas-11019-b79fa8920cb.json",
+          "checks": [
+            {
+              "delta_m": -3,
+              "date": "2011-08-01",
+              "sensor": "WV02"
+            },
+            {
+              "delta_m": 0,
+              "date": "2011-08-01",
+              "sensor": "WV02"
+            },
+            {
+              "delta_m": 3,
+              "date": "2011-08-01",
+              "sensor": "WV02"
+            }
+          ]
+        }
+      },
+      "date_read": "2025-04-14",
+      "sensor": "LG02",
+      "reading_m": 0.5,
+      "metadata": {
+        "release": 26334,
+        "positionOffset": 0.5,
+        "url": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2026_r07/MapServer/6/query?f=json&where=MinMapLevel+%3C%3D+17+AND+MaxMapLevel+%3E%3D+17&geometryType=esriGeometryEnvelope&geometry=-89.66629308%2C21.28773686%2C-89.65638482%2C21.28908759&inSR=4326&outSR=4326&outFields=OBJECTID%2CSRC_DATE2%2CSRC_DESC%2CSAMP_RES%2CSRC_ACC%2CMinMapLevel%2CMaxMapLevel&returnGeometry=true",
+        "sha256": "5ce54a71e65170c04606609bfc36e6e150f9c65a2edf4234706d149f18a8b44c",
+        "file": "huellas-26334-9aedd88feb1.json",
+        "checks": [
+          {
+            "delta_m": -3,
+            "date": "2025-04-14",
+            "sensor": "LG02"
+          },
+          {
+            "delta_m": 0,
+            "date": "2025-04-14",
+            "sensor": "LG02"
+          },
+          {
+            "delta_m": 3,
+            "date": "2025-04-14",
+            "sensor": "LG02"
+          }
+        ]
+      },
+      "equivalent_metadata": [
+        {
+          "release": 22252,
+          "positionOffset": 0.5,
+          "url": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2026_r01/MapServer/6/query?f=json&where=MinMapLevel+%3C%3D+17+AND+MaxMapLevel+%3E%3D+17&geometryType=esriGeometryEnvelope&geometry=-89.66629308%2C21.28773686%2C-89.65638482%2C21.28908759&inSR=4326&outSR=4326&outFields=OBJECTID%2CSRC_DATE2%2CSRC_DESC%2CSAMP_RES%2CSRC_ACC%2CMinMapLevel%2CMaxMapLevel&returnGeometry=true",
+          "sha256": "ee67eb901834f4c5b0dea2d1258a7eb7c4997b177346887aa85197ae3fe7c18f",
+          "file": "huellas-22252-7e16e474a12.json",
+          "checks": [
+            {
+              "delta_m": -3,
+              "date": "2025-04-14",
+              "sensor": "LG02"
+            },
+            {
+              "delta_m": 0,
+              "date": "2025-04-14",
+              "sensor": "LG02"
+            },
+            {
+              "delta_m": 3,
+              "date": "2025-04-14",
+              "sensor": "LG02"
+            }
+          ]
+        },
+        {
+          "release": 52304,
+          "positionOffset": 0.5,
+          "url": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2025_r08/MapServer/6/query?f=json&where=MinMapLevel+%3C%3D+17+AND+MaxMapLevel+%3E%3D+17&geometryType=esriGeometryEnvelope&geometry=-89.66629308%2C21.28773686%2C-89.65638482%2C21.28908759&inSR=4326&outSR=4326&outFields=OBJECTID%2CSRC_DATE2%2CSRC_DESC%2CSAMP_RES%2CSRC_ACC%2CMinMapLevel%2CMaxMapLevel&returnGeometry=true",
+          "sha256": "f573809eca6b6a893d8a775aeab3eaee04641a8352d90de0d4eddd62ff4e3dc0",
+          "file": "huellas-52304-373093257b8.json",
+          "checks": [
+            {
+              "delta_m": -3,
+              "date": "2025-04-14",
+              "sensor": "LG02"
+            },
+            {
+              "delta_m": 0,
+              "date": "2025-04-14",
+              "sensor": "LG02"
+            },
+            {
+              "delta_m": 3,
+              "date": "2025-04-14",
+              "sensor": "LG02"
+            }
+          ]
+        }
+      ],
+      "sheet": "rojos-abril-2025.jpg"
+    }
+  ],
+  "status": [
+    {
+      "year": 2011,
+      "release": 11019,
+      "gained": [],
+      "lost": [],
+      "countBefore": 372,
+      "countAfter": 372
+    },
+    {
+      "year": 2012,
+      "release": 27946,
+      "gained": [],
+      "lost": [],
+      "countBefore": 258,
+      "countAfter": 258
+    },
+    {
+      "year": 2014,
+      "release": 18820,
+      "gained": [],
+      "lost": [],
+      "countBefore": 171,
+      "countAfter": 171
+    },
+    {
+      "year": 2015,
+      "release": 18820,
+      "gained": [],
+      "lost": [],
+      "countBefore": 194,
+      "countAfter": 194
+    },
+    {
+      "year": 2019,
+      "release": 15045,
+      "gained": [],
+      "lost": [],
+      "countBefore": 136,
+      "countAfter": 136
+    },
+    {
+      "year": 2019,
+      "release": 20753,
+      "gained": [],
+      "lost": [],
+      "countBefore": 201,
+      "countAfter": 201
+    },
+    {
+      "year": 2020,
+      "release": 17825,
+      "gained": [],
+      "lost": [],
+      "countBefore": 286,
+      "countAfter": 286
+    },
+    {
+      "year": 2022,
+      "release": 25285,
+      "gained": [],
+      "lost": [],
+      "countBefore": 33,
+      "countAfter": 33
+    },
+    {
+      "year": 2022,
+      "release": 64776,
+      "gained": [],
+      "lost": [],
+      "countBefore": 262,
+      "countAfter": 262
+    },
+    {
+      "year": 2023,
+      "release": 25285,
+      "gained": [],
+      "lost": [],
+      "countBefore": 238,
+      "countAfter": 238
+    },
+    {
+      "year": 2025,
+      "release": 22252,
+      "gained": [
+        "GRID100-progreso-004-0020",
+        "GRID100-progreso-004-0021",
+        "GRID100-progreso-004-0023",
+        "GRID100-progreso-004-0024",
+        "GRID100-progreso-004-0032"
+      ],
+      "lost": [],
+      "countBefore": 162,
+      "countAfter": 167
+    },
+    {
+      "year": 2025,
+      "release": 26334,
+      "gained": [],
+      "lost": [],
+      "countBefore": 279,
+      "countAfter": 279
+    },
+    {
+      "year": 2026,
+      "release": 26334,
+      "gained": [],
+      "lost": [],
+      "countBefore": 19,
+      "countAfter": 19
+    }
+  ]
+}

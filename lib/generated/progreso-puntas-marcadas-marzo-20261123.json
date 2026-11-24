@@ -1,0 +1,133 @@
+{
+  "comparisons": [
+    {
+      "profile": "SC-218-0-0",
+      "tip": [
+        -89.80086073279381,
+        21.257606459522858
+      ],
+      "referenceLatitude2011": 21.257686450247647,
+      "registrationProxyM": 12.920901052171244
+    },
+    {
+      "profile": "SC-217-0-0",
+      "tip": [
+        -89.8002478480339,
+        21.25777269019914
+      ],
+      "referenceLatitude2011": 21.257826433911482,
+      "registrationProxyM": 12.920901052171244
+    },
+    {
+      "profile": "SC-C211-0-0",
+      "tip": [
+        -89.79890540242195,
+        21.25818389159226
+      ],
+      "referenceLatitude2011": 21.258116399649044,
+      "registrationProxyM": 12.920901052171244
+    },
+    {
+      "profile": "SC-C205-0-0",
+      "tip": [
+        -89.7985178232193,
+        21.258190140844697
+      ],
+      "referenceLatitude2011": 21.258176392488984,
+      "registrationProxyM": 12.920901052171244
+    },
+    {
+      "profile": "SC-206-0-0",
+      "tip": [
+        -89.79732692241669,
+        21.258468857233726
+      ],
+      "referenceLatitude2011": 21.25849635388926,
+      "registrationProxyM": 12.920901052171244
+    },
+    {
+      "profile": "SC-206-0-1",
+      "tip": [
+        -89.79647263884544,
+        21.25855759642177
+      ],
+      "referenceLatitude2011": 21.258726325716335,
+      "registrationProxyM": 12.74183072599852
+    },
+    {
+      "profile": "SC-C363-0-0",
+      "tip": [
+        -89.79559756815434,
+        21.258823188742536
+      ],
+      "referenceLatitude2011": 21.25888630590597,
+      "registrationProxyM": 12.920901052171244
+    },
+    {
+      "profile": "SC-C189-0-1",
+      "tip": [
+        -89.79274651408194,
+        21.259449484784547
+      ],
+      "referenceLatitude2011": 21.259566219773088,
+      "registrationProxyM": 16.584329835993035,
+      "supplemental": true
+    },
+    {
+      "profile": "SC-C323-0-1",
+      "tip": [
+        -89.79153254628183,
+        21.260111648407594
+      ],
+      "referenceLatitude2011": 21.26011114847392,
+      "registrationProxyM": 16.584329835993035
+    },
+    {
+      "profile": "SC-C152-0-1",
+      "tip": [
+        -89.78696957230568,
+        21.26158844503759
+      ],
+      "referenceLatitude2011": 21.261665933957556,
+      "registrationProxyM": 12.584575519261662
+    },
+    {
+      "profile": "SC-C160-0-1",
+      "tip": [
+        -89.78580012917519,
+        21.261790916000603
+      ],
+      "referenceLatitude2011": 21.26187590372928,
+      "registrationProxyM": 12.920901052171244,
+      "supplemental": true
+    },
+    {
+      "profile": "SC-C161-0-1",
+      "tip": [
+        -89.78535488247871,
+        21.261912148481002
+      ],
+      "referenceLatitude2011": 21.26194089431223,
+      "registrationProxyM": 12.584575519261662
+    },
+    {
+      "profile": "SC-C166-0-1",
+      "tip": [
+        -89.78409692645073,
+        21.262039629950664
+      ],
+      "referenceLatitude2011": 21.262105870278578,
+      "registrationProxyM": 13.340866725966494
+    }
+  ],
+  "pending": [
+    {
+      "profile": "SC-C182-0-0",
+      "tip": [
+        -89.79092824459076,
+        21.260459601824717
+      ],
+      "reason": "La obra y su sombra impiden distinguir el borde continuo entre la arena y el agua en las fotos revisadas."
+    }
+  ]
+}

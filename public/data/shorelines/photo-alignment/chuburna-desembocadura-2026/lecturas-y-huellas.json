@@ -1,0 +1,2613 @@
+{
+  "records": [
+    {
+      "i": 1,
+      "profile": "001-0001",
+      "station": "GRID100-progreso-001-0001",
+      "origin": [
+        -89.863531871323,
+        21.242486939250238
+      ],
+      "axis": [
+        -0.2821996841743683,
+        0.9593556891225937
+      ],
+      "before": {
+        "date": "2011-08-01",
+        "sensor": "WV02",
+        "release": 11019,
+        "coord": [
+          -89.863531871323,
+          21.24248693925024
+        ],
+        "offset": 0.0,
+        "candidate_pixels": [
+          [
+            5.87,
+            71
+          ],
+          [
+            -0.06,
+            45
+          ],
+          [
+            -1.12,
+            76
+          ]
+        ],
+        "metadata": {
+          "release": 11019,
+          "positionOffset": 0.0,
+          "url": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2014_r17/MapServer/6/query?f=json&where=MinMapLevel+%3C%3D+17+AND+MaxMapLevel+%3E%3D+17&geometryType=esriGeometryEnvelope&geometry=-89.86360003%2C21.24240109%2C-89.86346371%2C21.24257279&inSR=4326&outSR=4326&outFields=OBJECTID%2CSRC_DATE2%2CSRC_DESC%2CSAMP_RES%2CSRC_ACC%2CMinMapLevel%2CMaxMapLevel&returnGeometry=true",
+          "sha256": "167e7145a077c878fc7ec68a4bbd177eb7ca744117ea2eaf4d09068e84d35ed8",
+          "file": "huellas-11019-ddefcc7589b.json",
+          "checks": [
+            {
+              "delta_m": -3,
+              "date": "2011-08-01",
+              "sensor": "WV02"
+            },
+            {
+              "delta_m": 0,
+              "date": "2011-08-01",
+              "sensor": "WV02"
+            },
+            {
+              "delta_m": 3,
+              "date": "2011-08-01",
+              "sensor": "WV02"
+            }
+          ]
+        },
+        "verified": true
+      },
+      "after": {
+        "date": "2026-02-07",
+        "sensor": "LG05",
+        "release": 26334,
+        "coord": [
+          -89.86345707568255,
+          21.242249942993137
+        ],
+        "offset": -27.5,
+        "candidate_pixels": [
+          [
+            7.99,
+            103
+          ],
+          [
+            6.63,
+            96
+          ],
+          [
+            6.03,
+            66
+          ]
+        ],
+        "metadata": {
+          "release": 26334,
+          "positionOffset": -27.5,
+          "url": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2026_r07/MapServer/6/query?f=json&where=MinMapLevel+%3C%3D+17+AND+MaxMapLevel+%3E%3D+17&geometryType=esriGeometryEnvelope&geometry=-89.86352524%2C21.24216409%2C-89.85496577%2C21.24421627&inSR=4326&outSR=4326&outFields=OBJECTID%2CSRC_DATE2%2CSRC_DESC%2CSAMP_RES%2CSRC_ACC%2CMinMapLevel%2CMaxMapLevel&returnGeometry=true",
+          "sha256": "bde50d5155a20bad6d1e0b8f3b5210abd59bca7a9924da4f0ed3b4abf011a35e",
+          "file": "huellas-26334-3c3a740bec4.json",
+          "checks": [
+            {
+              "delta_m": -3,
+              "date": "2026-02-07",
+              "sensor": "LG05"
+            },
+            {
+              "delta_m": 0,
+              "date": "2026-02-07",
+              "sensor": "LG05"
+            },
+            {
+              "delta_m": 3,
+              "date": "2026-02-07",
+              "sensor": "LG05"
+            }
+          ]
+        },
+        "verified": true
+      },
+      "alternative": {
+        "date": "2025-02-13",
+        "sensor": "WV03",
+        "release": 22252,
+        "coord": [
+          -89.863531871323,
+          21.242486939250238
+        ],
+        "offset": 0
+      },
+      "sheet": "pares-2011-2026-1.jpg",
+      "uncertainty_before_m": 4,
+      "uncertainty_after_m": 5
+    },
+    {
+      "i": 2,
+      "profile": "001-0002",
+      "station": "GRID100-progreso-001-0002",
+      "origin": [
+        -89.86261447449256,
+        21.242762634267294
+      ],
+      "axis": [
+        -0.26500769115285655,
+        0.9642462982194084
+      ],
+      "before": {
+        "date": "2011-08-01",
+        "sensor": "WV02",
+        "release": 11019,
+        "coord": [
+          -89.8626119203428,
+          21.242753972295162
+        ],
+        "offset": -1.0,
+        "candidate_pixels": [
+          [
+            6.25,
+            75
+          ],
+          [
+            5.35,
+            64
+          ],
+          [
+            2.6,
+            30
+          ]
+        ],
+        "metadata": {
+          "release": 11019,
+          "positionOffset": -1.0,
+          "url": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2014_r17/MapServer/6/query?f=json&where=MinMapLevel+%3C%3D+17+AND+MaxMapLevel+%3E%3D+17&geometryType=esriGeometryEnvelope&geometry=-89.86267958%2C21.24266799%2C-89.86254426%2C21.24283996&inSR=4326&outSR=4326&outFields=OBJECTID%2CSRC_DATE2%2CSRC_DESC%2CSAMP_RES%2CSRC_ACC%2CMinMapLevel%2CMaxMapLevel&returnGeometry=true",
+          "sha256": "167e7145a077c878fc7ec68a4bbd177eb7ca744117ea2eaf4d09068e84d35ed8",
+          "file": "huellas-11019-451a106a072.json",
+          "checks": [
+            {
+              "delta_m": -3,
+              "date": "2011-08-01",
+              "sensor": "WV02"
+            },
+            {
+              "delta_m": 0,
+              "date": "2011-08-01",
+              "sensor": "WV02"
+            },
+            {
+              "delta_m": 3,
+              "date": "2011-08-01",
+              "sensor": "WV02"
+            }
+          ]
+        },
+        "verified": true
+      },
+      "after": {
+        "date": "2026-02-07",
+        "sensor": "LG05",
+        "release": 26334,
+        "coord": [
+          -89.86254678952382,
+          21.242533091833902
+        ],
+        "offset": -26.5,
+        "candidate_pixels": [
+          [
+            19.59,
+            99
+          ],
+          [
+            10.2,
+            74
+          ],
+          [
+            7.63,
+            79
+          ]
+        ],
+        "metadata": {
+          "release": 26334,
+          "positionOffset": -26.5,
+          "url": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2026_r07/MapServer/6/query?f=json&where=MinMapLevel+%3C%3D+17+AND+MaxMapLevel+%3E%3D+17&geometryType=esriGeometryEnvelope&geometry=-89.86352524%2C21.24216409%2C-89.85496577%2C21.24421627&inSR=4326&outSR=4326&outFields=OBJECTID%2CSRC_DATE2%2CSRC_DESC%2CSAMP_RES%2CSRC_ACC%2CMinMapLevel%2CMaxMapLevel&returnGeometry=true",
+          "sha256": "bde50d5155a20bad6d1e0b8f3b5210abd59bca7a9924da4f0ed3b4abf011a35e",
+          "file": "huellas-26334-3c3a740bec4.json",
+          "checks": [
+            {
+              "delta_m": -3,
+              "date": "2026-02-07",
+              "sensor": "LG05"
+            },
+            {
+              "delta_m": 0,
+              "date": "2026-02-07",
+              "sensor": "LG05"
+            },
+            {
+              "delta_m": 3,
+              "date": "2026-02-07",
+              "sensor": "LG05"
+            }
+          ]
+        },
+        "verified": true
+      },
+      "alternative": {
+        "date": "2025-02-13",
+        "sensor": "WV03",
+        "release": 22252,
+        "coord": [
+          -89.86261447449256,
+          21.242762634267294
+        ],
+        "offset": 0
+      },
+      "sheet": "pares-2011-2026-1.jpg",
+      "uncertainty_before_m": 4,
+      "uncertainty_after_m": 5
+    },
+    {
+      "i": 8,
+      "profile": "001-0008",
+      "station": "GRID100-progreso-001-0008",
+      "origin": [
+        -89.85698041789648,
+        21.243931453568443
+      ],
+      "axis": [
+        -0.22154941467789033,
+        0.9751491459545478
+      ],
+      "before": {
+        "date": "2011-08-01",
+        "sensor": "WV02",
+        "release": 11019,
+        "coord": [
+          -89.85698041789648,
+          21.243931453568443
+        ],
+        "offset": 0.0,
+        "candidate_pixels": [
+          [
+            13.47,
+            57
+          ],
+          [
+            5.78,
+            62
+          ],
+          [
+            -0.1,
+            52
+          ]
+        ],
+        "metadata": {
+          "release": 11019,
+          "positionOffset": 0.0,
+          "url": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2014_r17/MapServer/6/query?f=json&where=MinMapLevel+%3C%3D+17+AND+MaxMapLevel+%3E%3D+17&geometryType=esriGeometryEnvelope&geometry=-89.85704682%2C21.24384517%2C-89.85691401%2C21.24401773&inSR=4326&outSR=4326&outFields=OBJECTID%2CSRC_DATE2%2CSRC_DESC%2CSAMP_RES%2CSRC_ACC%2CMinMapLevel%2CMaxMapLevel&returnGeometry=true",
+          "sha256": "167e7145a077c878fc7ec68a4bbd177eb7ca744117ea2eaf4d09068e84d35ed8",
+          "file": "huellas-11019-7f2fdb56067.json",
+          "checks": [
+            {
+              "delta_m": -3,
+              "date": "2011-08-01",
+              "sensor": "WV02"
+            },
+            {
+              "delta_m": 0,
+              "date": "2011-08-01",
+              "sensor": "WV02"
+            },
+            {
+              "delta_m": 3,
+              "date": "2011-08-01",
+              "sensor": "WV02"
+            }
+          ]
+        },
+        "verified": true
+      },
+      "after": {
+        "date": "2026-02-07",
+        "sensor": "LG05",
+        "release": 26334,
+        "coord": [
+          -89.85689714061519,
+          21.24358981653346
+        ],
+        "offset": -39.0,
+        "candidate_pixels": [
+          [
+            15.9,
+            121
+          ],
+          [
+            5.41,
+            64
+          ],
+          [
+            4.47,
+            99
+          ]
+        ],
+        "metadata": {
+          "release": 26334,
+          "positionOffset": -39.0,
+          "url": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2026_r07/MapServer/6/query?f=json&where=MinMapLevel+%3C%3D+17+AND+MaxMapLevel+%3E%3D+17&geometryType=esriGeometryEnvelope&geometry=-89.86352524%2C21.24216409%2C-89.85496577%2C21.24421627&inSR=4326&outSR=4326&outFields=OBJECTID%2CSRC_DATE2%2CSRC_DESC%2CSAMP_RES%2CSRC_ACC%2CMinMapLevel%2CMaxMapLevel&returnGeometry=true",
+          "sha256": "bde50d5155a20bad6d1e0b8f3b5210abd59bca7a9924da4f0ed3b4abf011a35e",
+          "file": "huellas-26334-3c3a740bec4.json",
+          "checks": [
+            {
+              "delta_m": -3,
+              "date": "2026-02-07",
+              "sensor": "LG05"
+            },
+            {
+              "delta_m": 0,
+              "date": "2026-02-07",
+              "sensor": "LG05"
+            },
+            {
+              "delta_m": 3,
+              "date": "2026-02-07",
+              "sensor": "LG05"
+            }
+          ]
+        },
+        "verified": true
+      },
+      "alternative": {
+        "date": "2025-02-13",
+        "sensor": "WV03",
+        "release": 22252,
+        "coord": [
+          -89.85698041789648,
+          21.243931453568443
+        ],
+        "offset": 0
+      },
+      "sheet": "pares-2011-2026-1.jpg",
+      "uncertainty_before_m": 4,
+      "uncertainty_after_m": 5
+    },
+    {
+      "i": 9,
+      "profile": "001-0009",
+      "station": "GRID100-progreso-001-0009",
+      "origin": [
+        -89.85605327507827,
+        21.244176412514477
+      ],
+      "axis": [
+        -0.23157292935470247,
+        0.9728175463004777
+      ],
+      "before": {
+        "date": "2011-08-01",
+        "sensor": "WV02",
+        "release": 11019,
+        "coord": [
+          -89.85607001452499,
+          21.244241954765194
+        ],
+        "offset": 7.5,
+        "candidate_pixels": [
+          [
+            8.6,
+            64
+          ],
+          [
+            2.71,
+            48
+          ],
+          [
+            -0.01,
+            33
+          ]
+        ],
+        "metadata": {
+          "release": 11019,
+          "positionOffset": 7.5,
+          "url": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2014_r17/MapServer/6/query?f=json&where=MinMapLevel+%3C%3D+17+AND+MaxMapLevel+%3E%3D+17&geometryType=esriGeometryEnvelope&geometry=-89.85613671%2C21.24415574%2C-89.85600332%2C21.24432817&inSR=4326&outSR=4326&outFields=OBJECTID%2CSRC_DATE2%2CSRC_DESC%2CSAMP_RES%2CSRC_ACC%2CMinMapLevel%2CMaxMapLevel&returnGeometry=true",
+          "sha256": "167e7145a077c878fc7ec68a4bbd177eb7ca744117ea2eaf4d09068e84d35ed8",
+          "file": "huellas-11019-eea654da2b6.json",
+          "checks": [
+            {
+              "delta_m": -3,
+              "date": "2011-08-01",
+              "sensor": "WV02"
+            },
+            {
+              "delta_m": 0,
+              "date": "2011-08-01",
+              "sensor": "WV02"
+            },
+            {
+              "delta_m": 3,
+              "date": "2011-08-01",
+              "sensor": "WV02"
+            }
+          ]
+        },
+        "verified": true
+      },
+      "after": {
+        "date": "2026-02-07",
+        "sensor": "LG05",
+        "release": 26334,
+        "coord": [
+          -89.85595953417669,
+          21.243809375371836
+        ],
+        "offset": -42.0,
+        "candidate_pixels": [
+          [
+            16.12,
+            116
+          ],
+          [
+            11.33,
+            71
+          ],
+          [
+            9.1,
+            84
+          ]
+        ],
+        "metadata": {
+          "release": 26334,
+          "positionOffset": -42.0,
+          "url": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2026_r07/MapServer/6/query?f=json&where=MinMapLevel+%3C%3D+17+AND+MaxMapLevel+%3E%3D+17&geometryType=esriGeometryEnvelope&geometry=-89.86352524%2C21.24216409%2C-89.85496577%2C21.24421627&inSR=4326&outSR=4326&outFields=OBJECTID%2CSRC_DATE2%2CSRC_DESC%2CSAMP_RES%2CSRC_ACC%2CMinMapLevel%2CMaxMapLevel&returnGeometry=true",
+          "sha256": "bde50d5155a20bad6d1e0b8f3b5210abd59bca7a9924da4f0ed3b4abf011a35e",
+          "file": "huellas-26334-3c3a740bec4.json",
+          "checks": [
+            {
+              "delta_m": -3,
+              "date": "2026-02-07",
+              "sensor": "LG05"
+            },
+            {
+              "delta_m": 0,
+              "date": "2026-02-07",
+              "sensor": "LG05"
+            },
+            {
+              "delta_m": 3,
+              "date": "2026-02-07",
+              "sensor": "LG05"
+            }
+          ]
+        },
+        "verified": true
+      },
+      "alternative": {
+        "date": "2025-02-13",
+        "sensor": "WV03",
+        "release": 22252,
+        "coord": [
+          -89.85605327507827,
+          21.244176412514477
+        ],
+        "offset": 0
+      },
+      "sheet": "pares-2011-2026-1.jpg",
+      "uncertainty_before_m": 4,
+      "uncertainty_after_m": 5
+    },
+    {
+      "i": 10,
+      "profile": "001-0010",
+      "station": "GRID100-progreso-001-0010",
+      "origin": [
+        -89.85510986353388,
+        21.24435793266154
+      ],
+      "axis": [
+        -0.29577344231101493,
+        0.9552581173816282
+      ],
+      "before": {
+        "date": "2011-08-01",
+        "sensor": "WV02",
+        "release": 11019,
+        "coord": [
+          -89.85514834800527,
+          21.244473779216566
+        ],
+        "offset": 13.5,
+        "candidate_pixels": [
+          [
+            5.62,
+            49
+          ],
+          [
+            4.51,
+            59
+          ],
+          [
+            1.62,
+            69
+          ]
+        ],
+        "metadata": {
+          "release": 11019,
+          "positionOffset": 13.5,
+          "url": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2014_r17/MapServer/6/query?f=json&where=MinMapLevel+%3C%3D+17+AND+MaxMapLevel+%3E%3D+17&geometryType=esriGeometryEnvelope&geometry=-89.85521690%2C21.24438804%2C-89.85507980%2C21.24455952&inSR=4326&outSR=4326&outFields=OBJECTID%2CSRC_DATE2%2CSRC_DESC%2CSAMP_RES%2CSRC_ACC%2CMinMapLevel%2CMaxMapLevel&returnGeometry=true",
+          "sha256": "167e7145a077c878fc7ec68a4bbd177eb7ca744117ea2eaf4d09068e84d35ed8",
+          "file": "huellas-11019-d841129bdea.json",
+          "checks": [
+            {
+              "delta_m": -3,
+              "date": "2011-08-01",
+              "sensor": "WV02"
+            },
+            {
+              "delta_m": 0,
+              "date": "2011-08-01",
+              "sensor": "WV02"
+            },
+            {
+              "delta_m": 3,
+              "date": "2011-08-01",
+              "sensor": "WV02"
+            }
+          ]
+        },
+        "verified": true
+      },
+      "after": {
+        "date": "2026-02-07",
+        "sensor": "LG05",
+        "release": 26334,
+        "coord": [
+          -89.85503431994191,
+          21.244130529899813
+        ],
+        "offset": -26.5,
+        "candidate_pixels": [
+          [
+            10.34,
+            77
+          ],
+          [
+            8.89,
+            114
+          ],
+          [
+            7.71,
+            92
+          ]
+        ],
+        "metadata": {
+          "release": 26334,
+          "positionOffset": -26.5,
+          "url": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2026_r07/MapServer/6/query?f=json&where=MinMapLevel+%3C%3D+17+AND+MaxMapLevel+%3E%3D+17&geometryType=esriGeometryEnvelope&geometry=-89.86352524%2C21.24216409%2C-89.85496577%2C21.24421627&inSR=4326&outSR=4326&outFields=OBJECTID%2CSRC_DATE2%2CSRC_DESC%2CSAMP_RES%2CSRC_ACC%2CMinMapLevel%2CMaxMapLevel&returnGeometry=true",
+          "sha256": "bde50d5155a20bad6d1e0b8f3b5210abd59bca7a9924da4f0ed3b4abf011a35e",
+          "file": "huellas-26334-3c3a740bec4.json",
+          "checks": [
+            {
+              "delta_m": -3,
+              "date": "2026-02-07",
+              "sensor": "LG05"
+            },
+            {
+              "delta_m": 0,
+              "date": "2026-02-07",
+              "sensor": "LG05"
+            },
+            {
+              "delta_m": 3,
+              "date": "2026-02-07",
+              "sensor": "LG05"
+            }
+          ]
+        },
+        "verified": true
+      },
+      "alternative": {
+        "date": "2025-02-13",
+        "sensor": "WV03",
+        "release": 22252,
+        "coord": [
+          -89.85510986353388,
+          21.24435793266154
+        ],
+        "offset": 0
+      },
+      "sheet": "pares-2011-2026-1.jpg",
+      "uncertainty_before_m": 4,
+      "uncertainty_after_m": 5
+    },
+    {
+      "i": 11,
+      "profile": "001-0011",
+      "station": "GRID100-progreso-001-0011",
+      "origin": [
+        -89.85415602134036,
+        21.244481663749823
+      ],
+      "axis": [
+        -0.14455068894717746,
+        0.98949739682573
+      ],
+      "before": {
+        "date": "2011-08-01",
+        "sensor": "WV02",
+        "release": 11019,
+        "coord": [
+          -89.85415741453922,
+          21.244490552555913
+        ],
+        "offset": 1.0,
+        "candidate_pixels": [
+          [
+            6.54,
+            103
+          ],
+          [
+            3.49,
+            45
+          ],
+          [
+            2.87,
+            72
+          ]
+        ],
+        "metadata": {
+          "release": 11019,
+          "positionOffset": 1.0,
+          "url": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2014_r17/MapServer/6/query?f=json&where=MinMapLevel+%3C%3D+17+AND+MaxMapLevel+%3E%3D+17&geometryType=esriGeometryEnvelope&geometry=-89.85422159%2C21.24440389%2C-89.84675702%2C21.24671174&inSR=4326&outSR=4326&outFields=OBJECTID%2CSRC_DATE2%2CSRC_DESC%2CSAMP_RES%2CSRC_ACC%2CMinMapLevel%2CMaxMapLevel&returnGeometry=true",
+          "sha256": "167e7145a077c878fc7ec68a4bbd177eb7ca744117ea2eaf4d09068e84d35ed8",
+          "file": "huellas-11019-855ac223529.json",
+          "checks": [
+            {
+              "delta_m": -3,
+              "date": "2011-08-01",
+              "sensor": "WV02"
+            },
+            {
+              "delta_m": 0,
+              "date": "2011-08-01",
+              "sensor": "WV02"
+            },
+            {
+              "delta_m": 3,
+              "date": "2011-08-01",
+              "sensor": "WV02"
+            }
+          ]
+        },
+        "verified": true
+      },
+      "after": {
+        "date": "2026-02-07",
+        "sensor": "LG05",
+        "release": 26334,
+        "coord": [
+          -89.85411770837159,
+          21.24423722137244
+        ],
+        "offset": -27.5,
+        "candidate_pixels": [
+          [
+            18.63,
+            103
+          ],
+          [
+            16.71,
+            93
+          ],
+          [
+            15.58,
+            98
+          ]
+        ],
+        "metadata": {
+          "release": 26334,
+          "positionOffset": -27.5,
+          "url": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2026_r07/MapServer/6/query?f=json&where=MinMapLevel+%3C%3D+17+AND+MaxMapLevel+%3E%3D+17&geometryType=esriGeometryEnvelope&geometry=-89.85418189%2C21.24415055%2C-89.84662045%2C21.24647931&inSR=4326&outSR=4326&outFields=OBJECTID%2CSRC_DATE2%2CSRC_DESC%2CSAMP_RES%2CSRC_ACC%2CMinMapLevel%2CMaxMapLevel&returnGeometry=true",
+          "sha256": "bde50d5155a20bad6d1e0b8f3b5210abd59bca7a9924da4f0ed3b4abf011a35e",
+          "file": "huellas-26334-6e1d62bc2ad.json",
+          "checks": [
+            {
+              "delta_m": -3,
+              "date": "2026-02-07",
+              "sensor": "LG05"
+            },
+            {
+              "delta_m": 0,
+              "date": "2026-02-07",
+              "sensor": "LG05"
+            },
+            {
+              "delta_m": 3,
+              "date": "2026-02-07",
+              "sensor": "LG05"
+            }
+          ]
+        },
+        "verified": true
+      },
+      "alternative": {
+        "date": "2025-02-13",
+        "sensor": "WV03",
+        "release": 22252,
+        "coord": [
+          -89.85415602134036,
+          21.244481663749823
+        ],
+        "offset": 0
+      },
+      "sheet": "pares-2011-2026-1.jpg",
+      "uncertainty_before_m": 4,
+      "uncertainty_after_m": 5
+    },
+    {
+      "i": 17,
+      "profile": "001-0017",
+      "station": "GRID100-progreso-001-0017",
+      "origin": [
+        -89.84857440046217,
+        21.24586419639628
+      ],
+      "axis": [
+        -0.4107064473327169,
+        0.9117676316470871
+      ],
+      "before": {
+        "date": "2011-08-01",
+        "sensor": "WV02",
+        "release": 11019,
+        "coord": [
+          -89.84857440046217,
+          21.24586419639628
+        ],
+        "offset": 0.0,
+        "candidate_pixels": [
+          [
+            7.36,
+            66
+          ],
+          [
+            1.99,
+            71
+          ],
+          [
+            1.72,
+            52
+          ]
+        ],
+        "metadata": {
+          "release": 11019,
+          "positionOffset": 0.0,
+          "url": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2014_r17/MapServer/6/query?f=json&where=MinMapLevel+%3C%3D+17+AND+MaxMapLevel+%3E%3D+17&geometryType=esriGeometryEnvelope&geometry=-89.85422159%2C21.24440389%2C-89.84675702%2C21.24671174&inSR=4326&outSR=4326&outFields=OBJECTID%2CSRC_DATE2%2CSRC_DESC%2CSAMP_RES%2CSRC_ACC%2CMinMapLevel%2CMaxMapLevel&returnGeometry=true",
+          "sha256": "167e7145a077c878fc7ec68a4bbd177eb7ca744117ea2eaf4d09068e84d35ed8",
+          "file": "huellas-11019-855ac223529.json",
+          "checks": [
+            {
+              "delta_m": -3,
+              "date": "2011-08-01",
+              "sensor": "WV02"
+            },
+            {
+              "delta_m": 0,
+              "date": "2011-08-01",
+              "sensor": "WV02"
+            },
+            {
+              "delta_m": 3,
+              "date": "2011-08-01",
+              "sensor": "WV02"
+            }
+          ]
+        },
+        "verified": true
+      },
+      "after": {
+        "date": "2026-02-07",
+        "sensor": "LG05",
+        "release": 26334,
+        "coord": [
+          -89.84846158375996,
+          21.245630765593667
+        ],
+        "offset": -28.5,
+        "candidate_pixels": [
+          [
+            16.23,
+            99
+          ],
+          [
+            9.62,
+            94
+          ],
+          [
+            4.41,
+            61
+          ]
+        ],
+        "metadata": {
+          "release": 26334,
+          "positionOffset": -28.5,
+          "url": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2026_r07/MapServer/6/query?f=json&where=MinMapLevel+%3C%3D+17+AND+MaxMapLevel+%3E%3D+17&geometryType=esriGeometryEnvelope&geometry=-89.85418189%2C21.24415055%2C-89.84662045%2C21.24647931&inSR=4326&outSR=4326&outFields=OBJECTID%2CSRC_DATE2%2CSRC_DESC%2CSAMP_RES%2CSRC_ACC%2CMinMapLevel%2CMaxMapLevel&returnGeometry=true",
+          "sha256": "bde50d5155a20bad6d1e0b8f3b5210abd59bca7a9924da4f0ed3b4abf011a35e",
+          "file": "huellas-26334-6e1d62bc2ad.json",
+          "checks": [
+            {
+              "delta_m": -3,
+              "date": "2026-02-07",
+              "sensor": "LG05"
+            },
+            {
+              "delta_m": 0,
+              "date": "2026-02-07",
+              "sensor": "LG05"
+            },
+            {
+              "delta_m": 3,
+              "date": "2026-02-07",
+              "sensor": "LG05"
+            }
+          ]
+        },
+        "verified": true
+      },
+      "alternative": {
+        "date": "2025-02-13",
+        "sensor": "WV03",
+        "release": 22252,
+        "coord": [
+          -89.84857440046217,
+          21.24586419639628
+        ],
+        "offset": 0
+      },
+      "sheet": "pares-2011-2026-2.jpg",
+      "uncertainty_before_m": 4,
+      "uncertainty_after_m": 5
+    },
+    {
+      "i": 18,
+      "profile": "001-0018",
+      "station": "GRID100-progreso-001-0018",
+      "origin": [
+        -89.84769416665358,
+        21.246230130507335
+      ],
+      "axis": [
+        -0.5037558107305689,
+        0.8638460992301739
+      ],
+      "before": {
+        "date": "2011-08-01",
+        "sensor": "WV02",
+        "release": 11019,
+        "coord": [
+          -89.84769902197704,
+          21.246237890568672
+        ],
+        "offset": 1.0,
+        "candidate_pixels": [
+          [
+            8.39,
+            69
+          ],
+          [
+            3.95,
+            81
+          ],
+          [
+            3.94,
+            64
+          ]
+        ],
+        "metadata": {
+          "release": 11019,
+          "positionOffset": 1.0,
+          "url": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2014_r17/MapServer/6/query?f=json&where=MinMapLevel+%3C%3D+17+AND+MaxMapLevel+%3E%3D+17&geometryType=esriGeometryEnvelope&geometry=-89.85422159%2C21.24440389%2C-89.84675702%2C21.24671174&inSR=4326&outSR=4326&outFields=OBJECTID%2CSRC_DATE2%2CSRC_DESC%2CSAMP_RES%2CSRC_ACC%2CMinMapLevel%2CMaxMapLevel&returnGeometry=true",
+          "sha256": "167e7145a077c878fc7ec68a4bbd177eb7ca744117ea2eaf4d09068e84d35ed8",
+          "file": "huellas-11019-855ac223529.json",
+          "checks": [
+            {
+              "delta_m": -3,
+              "date": "2011-08-01",
+              "sensor": "WV02"
+            },
+            {
+              "delta_m": 0,
+              "date": "2011-08-01",
+              "sensor": "WV02"
+            },
+            {
+              "delta_m": 3,
+              "date": "2011-08-01",
+              "sensor": "WV02"
+            }
+          ]
+        },
+        "verified": true
+      },
+      "after": {
+        "date": "2026-02-07",
+        "sensor": "LG05",
+        "release": 26334,
+        "coord": [
+          -89.84756550058206,
+          21.246024488733024
+        ],
+        "offset": -26.5,
+        "candidate_pixels": [
+          [
+            13.46,
+            113
+          ],
+          [
+            12.14,
+            108
+          ],
+          [
+            5.89,
+            91
+          ]
+        ],
+        "metadata": {
+          "release": 26334,
+          "positionOffset": -26.5,
+          "url": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2026_r07/MapServer/6/query?f=json&where=MinMapLevel+%3C%3D+17+AND+MaxMapLevel+%3E%3D+17&geometryType=esriGeometryEnvelope&geometry=-89.85418189%2C21.24415055%2C-89.84662045%2C21.24647931&inSR=4326&outSR=4326&outFields=OBJECTID%2CSRC_DATE2%2CSRC_DESC%2CSAMP_RES%2CSRC_ACC%2CMinMapLevel%2CMaxMapLevel&returnGeometry=true",
+          "sha256": "bde50d5155a20bad6d1e0b8f3b5210abd59bca7a9924da4f0ed3b4abf011a35e",
+          "file": "huellas-26334-6e1d62bc2ad.json",
+          "checks": [
+            {
+              "delta_m": -3,
+              "date": "2026-02-07",
+              "sensor": "LG05"
+            },
+            {
+              "delta_m": 0,
+              "date": "2026-02-07",
+              "sensor": "LG05"
+            },
+            {
+              "delta_m": 3,
+              "date": "2026-02-07",
+              "sensor": "LG05"
+            }
+          ]
+        },
+        "verified": true
+      },
+      "alternative": {
+        "date": "2025-02-13",
+        "sensor": "WV03",
+        "release": 22252,
+        "coord": [
+          -89.84769416665358,
+          21.246230130507335
+        ],
+        "offset": 0
+      },
+      "sheet": "pares-2011-2026-2.jpg",
+      "uncertainty_before_m": 4,
+      "uncertainty_after_m": 5
+    },
+    {
+      "i": 19,
+      "profile": "001-0019",
+      "station": "GRID100-progreso-001-0019",
+      "origin": [
+        -89.84683090349395,
+        21.246628106921694
+      ],
+      "axis": [
+        -0.48030047807300846,
+        0.8771040136510833
+      ],
+      "before": {
+        "date": "2011-08-01",
+        "sensor": "WV02",
+        "release": 11019,
+        "coord": [
+          -89.84683090349395,
+          21.246628106921698
+        ],
+        "offset": 0.0,
+        "candidate_pixels": [
+          [
+            5.82,
+            36
+          ],
+          [
+            2.87,
+            77
+          ],
+          [
+            2.8,
+            104
+          ]
+        ],
+        "metadata": {
+          "release": 11019,
+          "positionOffset": 0.0,
+          "url": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2014_r17/MapServer/6/query?f=json&where=MinMapLevel+%3C%3D+17+AND+MaxMapLevel+%3E%3D+17&geometryType=esriGeometryEnvelope&geometry=-89.85422159%2C21.24440389%2C-89.84675702%2C21.24671174&inSR=4326&outSR=4326&outFields=OBJECTID%2CSRC_DATE2%2CSRC_DESC%2CSAMP_RES%2CSRC_ACC%2CMinMapLevel%2CMaxMapLevel&returnGeometry=true",
+          "sha256": "167e7145a077c878fc7ec68a4bbd177eb7ca744117ea2eaf4d09068e84d35ed8",
+          "file": "huellas-11019-855ac223529.json",
+          "checks": [
+            {
+              "delta_m": -3,
+              "date": "2011-08-01",
+              "sensor": "WV02"
+            },
+            {
+              "delta_m": 0,
+              "date": "2011-08-01",
+              "sensor": "WV02"
+            },
+            {
+              "delta_m": 3,
+              "date": "2011-08-01",
+              "sensor": "WV02"
+            }
+          ]
+        },
+        "verified": true
+      },
+      "after": {
+        "date": "2026-02-07",
+        "sensor": "LG05",
+        "release": 26334,
+        "coord": [
+          -89.84669434009854,
+          21.246395671535726
+        ],
+        "offset": -29.5,
+        "candidate_pixels": [
+          [
+            4.48,
+            99
+          ],
+          [
+            3.09,
+            42
+          ],
+          [
+            1.65,
+            55
+          ]
+        ],
+        "metadata": {
+          "release": 26334,
+          "positionOffset": -29.5,
+          "url": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2026_r07/MapServer/6/query?f=json&where=MinMapLevel+%3C%3D+17+AND+MaxMapLevel+%3E%3D+17&geometryType=esriGeometryEnvelope&geometry=-89.85418189%2C21.24415055%2C-89.84662045%2C21.24647931&inSR=4326&outSR=4326&outFields=OBJECTID%2CSRC_DATE2%2CSRC_DESC%2CSAMP_RES%2CSRC_ACC%2CMinMapLevel%2CMaxMapLevel&returnGeometry=true",
+          "sha256": "bde50d5155a20bad6d1e0b8f3b5210abd59bca7a9924da4f0ed3b4abf011a35e",
+          "file": "huellas-26334-6e1d62bc2ad.json",
+          "checks": [
+            {
+              "delta_m": -3,
+              "date": "2026-02-07",
+              "sensor": "LG05"
+            },
+            {
+              "delta_m": 0,
+              "date": "2026-02-07",
+              "sensor": "LG05"
+            },
+            {
+              "delta_m": 3,
+              "date": "2026-02-07",
+              "sensor": "LG05"
+            }
+          ]
+        },
+        "verified": true
+      },
+      "alternative": {
+        "date": "2025-02-13",
+        "sensor": "WV03",
+        "release": 22252,
+        "coord": [
+          -89.84683090349395,
+          21.246628106921694
+        ],
+        "offset": 0
+      },
+      "sheet": "pares-2011-2026-2.jpg",
+      "uncertainty_before_m": 4,
+      "uncertainty_after_m": 5
+    },
+    {
+      "i": 23,
+      "profile": "002-0002",
+      "station": "GRID100-progreso-002-0002",
+      "origin": [
+        -89.84262306014107,
+        21.25055261030355
+      ],
+      "axis": [
+        -0.06243552315625697,
+        0.998048999522671
+      ],
+      "before": {
+        "date": "2011-08-01",
+        "sensor": "WV02",
+        "release": 11019,
+        "coord": [
+          -89.84262065299423,
+          21.250516747792364
+        ],
+        "offset": -4.0,
+        "candidate_pixels": [
+          [
+            7.87,
+            93
+          ],
+          [
+            6.26,
+            72
+          ],
+          [
+            4.33,
+            78
+          ]
+        ],
+        "metadata": {
+          "release": 11019,
+          "positionOffset": -4.0,
+          "url": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2014_r17/MapServer/6/query?f=json&where=MinMapLevel+%3C%3D+17+AND+MaxMapLevel+%3E%3D+17&geometryType=esriGeometryEnvelope&geometry=-89.84268246%2C21.25042985%2C-89.84063673%2C21.25069825&inSR=4326&outSR=4326&outFields=OBJECTID%2CSRC_DATE2%2CSRC_DESC%2CSAMP_RES%2CSRC_ACC%2CMinMapLevel%2CMaxMapLevel&returnGeometry=true",
+          "sha256": "167e7145a077c878fc7ec68a4bbd177eb7ca744117ea2eaf4d09068e84d35ed8",
+          "file": "huellas-11019-697083e96e5.json",
+          "checks": [
+            {
+              "delta_m": -3,
+              "date": "2011-08-01",
+              "sensor": "WV02"
+            },
+            {
+              "delta_m": 0,
+              "date": "2011-08-01",
+              "sensor": "WV02"
+            },
+            {
+              "delta_m": 3,
+              "date": "2011-08-01",
+              "sensor": "WV02"
+            }
+          ]
+        },
+        "verified": true
+      },
+      "after": {
+        "date": "2026-02-07",
+        "sensor": "LG05",
+        "release": 26334,
+        "coord": [
+          -89.84264472446269,
+          21.250875372511413
+        ],
+        "offset": 36.0,
+        "candidate_pixels": [
+          [
+            16.47,
+            32
+          ],
+          [
+            9.12,
+            27
+          ],
+          [
+            4.94,
+            51
+          ]
+        ],
+        "metadata": {
+          "release": 26334,
+          "positionOffset": 36.0,
+          "url": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2026_r07/MapServer/6/query?f=json&where=MinMapLevel+%3C%3D+17+AND+MaxMapLevel+%3E%3D+17&geometryType=esriGeometryEnvelope&geometry=-89.84270653%2C21.25078848%2C-89.84258292%2C21.25096227&inSR=4326&outSR=4326&outFields=OBJECTID%2CSRC_DATE2%2CSRC_DESC%2CSAMP_RES%2CSRC_ACC%2CMinMapLevel%2CMaxMapLevel&returnGeometry=true",
+          "sha256": "bde50d5155a20bad6d1e0b8f3b5210abd59bca7a9924da4f0ed3b4abf011a35e",
+          "file": "huellas-26334-6ab672b9dd3.json",
+          "checks": [
+            {
+              "delta_m": -3,
+              "date": "2026-02-07",
+              "sensor": "LG05"
+            },
+            {
+              "delta_m": 0,
+              "date": "2026-02-07",
+              "sensor": "LG05"
+            },
+            {
+              "delta_m": 3,
+              "date": "2026-02-07",
+              "sensor": "LG05"
+            }
+          ]
+        },
+        "verified": true
+      },
+      "alternative": {
+        "date": "2025-02-13",
+        "sensor": "WV03",
+        "release": 22252,
+        "coord": [
+          -89.84262306014107,
+          21.25055261030355
+        ],
+        "offset": 0
+      },
+      "sheet": "pares-2011-2026-2.jpg",
+      "uncertainty_before_m": 4,
+      "uncertainty_after_m": 5
+    },
+    {
+      "i": 25,
+      "profile": "002-0004",
+      "station": "GRID100-progreso-002-0004",
+      "origin": [
+        -89.84069802670825,
+        21.250593736207353
+      ],
+      "axis": [
+        -0.13406879586923157,
+        0.9909720268373746
+      ],
+      "before": {
+        "date": "2011-08-01",
+        "sensor": "WV02",
+        "release": 11019,
+        "coord": [
+          -89.84070061116141,
+          21.250611540312633
+        ],
+        "offset": 2.0,
+        "candidate_pixels": [
+          [
+            8.36,
+            120
+          ],
+          [
+            7.01,
+            65
+          ],
+          [
+            5.59,
+            70
+          ]
+        ],
+        "metadata": {
+          "release": 11019,
+          "positionOffset": 2.0,
+          "url": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2014_r17/MapServer/6/query?f=json&where=MinMapLevel+%3C%3D+17+AND+MaxMapLevel+%3E%3D+17&geometryType=esriGeometryEnvelope&geometry=-89.84268246%2C21.25042985%2C-89.84063673%2C21.25069825&inSR=4326&outSR=4326&outFields=OBJECTID%2CSRC_DATE2%2CSRC_DESC%2CSAMP_RES%2CSRC_ACC%2CMinMapLevel%2CMaxMapLevel&returnGeometry=true",
+          "sha256": "167e7145a077c878fc7ec68a4bbd177eb7ca744117ea2eaf4d09068e84d35ed8",
+          "file": "huellas-11019-697083e96e5.json",
+          "checks": [
+            {
+              "delta_m": -3,
+              "date": "2011-08-01",
+              "sensor": "WV02"
+            },
+            {
+              "delta_m": 0,
+              "date": "2011-08-01",
+              "sensor": "WV02"
+            },
+            {
+              "delta_m": 3,
+              "date": "2011-08-01",
+              "sensor": "WV02"
+            }
+          ]
+        },
+        "verified": true
+      },
+      "after": {
+        "date": "2026-02-07",
+        "sensor": "LG05",
+        "release": 26334,
+        "coord": [
+          -89.84075359245104,
+          21.25097652399675
+        ],
+        "offset": 43.0,
+        "candidate_pixels": [
+          [
+            17.96,
+            120
+          ],
+          [
+            15.22,
+            19
+          ],
+          [
+            8.05,
+            36
+          ]
+        ],
+        "metadata": {
+          "release": 26334,
+          "positionOffset": 43.0,
+          "url": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2026_r07/MapServer/6/query?f=json&where=MinMapLevel+%3C%3D+17+AND+MaxMapLevel+%3E%3D+17&geometryType=esriGeometryEnvelope&geometry=-89.84081747%2C21.25088982%2C-89.84068972%2C21.25106323&inSR=4326&outSR=4326&outFields=OBJECTID%2CSRC_DATE2%2CSRC_DESC%2CSAMP_RES%2CSRC_ACC%2CMinMapLevel%2CMaxMapLevel&returnGeometry=true",
+          "sha256": "bde50d5155a20bad6d1e0b8f3b5210abd59bca7a9924da4f0ed3b4abf011a35e",
+          "file": "huellas-26334-ba804409d4a.json",
+          "checks": [
+            {
+              "delta_m": -3,
+              "date": "2026-02-07",
+              "sensor": "LG05"
+            },
+            {
+              "delta_m": 0,
+              "date": "2026-02-07",
+              "sensor": "LG05"
+            },
+            {
+              "delta_m": 3,
+              "date": "2026-02-07",
+              "sensor": "LG05"
+            }
+          ]
+        },
+        "verified": true
+      },
+      "alternative": {
+        "date": "2025-02-13",
+        "sensor": "WV03",
+        "release": 22252,
+        "coord": [
+          -89.84069802670825,
+          21.250593736207353
+        ],
+        "offset": 0
+      },
+      "sheet": "pares-2011-2026-2.jpg",
+      "uncertainty_before_m": 4,
+      "uncertainty_after_m": 5
+    },
+    {
+      "i": 30,
+      "profile": "002-0009",
+      "station": "GRID100-progreso-002-0009",
+      "origin": [
+        -89.83596515458187,
+        21.251426480111977
+      ],
+      "axis": [
+        -0.1688462218397707,
+        0.985642406438783
+      ],
+      "before": {
+        "date": "2011-08-01",
+        "sensor": "WV02",
+        "release": 11019,
+        "coord": [
+          -89.83598387013221,
+          21.251528303105207
+        ],
+        "offset": 11.5,
+        "candidate_pixels": [
+          [
+            11.95,
+            57
+          ],
+          [
+            11.55,
+            70
+          ],
+          [
+            9.25,
+            104
+          ]
+        ],
+        "metadata": {
+          "release": 11019,
+          "positionOffset": 11.5,
+          "url": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2014_r17/MapServer/6/query?f=json&where=MinMapLevel+%3C%3D+17+AND+MaxMapLevel+%3E%3D+17&geometryType=esriGeometryEnvelope&geometry=-89.83604875%2C21.25144174%2C-89.82742972%2C21.25319925&inSR=4326&outSR=4326&outFields=OBJECTID%2CSRC_DATE2%2CSRC_DESC%2CSAMP_RES%2CSRC_ACC%2CMinMapLevel%2CMaxMapLevel&returnGeometry=true",
+          "sha256": "167e7145a077c878fc7ec68a4bbd177eb7ca744117ea2eaf4d09068e84d35ed8",
+          "file": "huellas-11019-015312d2986.json",
+          "checks": [
+            {
+              "delta_m": -3,
+              "date": "2011-08-01",
+              "sensor": "WV02"
+            },
+            {
+              "delta_m": 0,
+              "date": "2011-08-01",
+              "sensor": "WV02"
+            },
+            {
+              "delta_m": 3,
+              "date": "2011-08-01",
+              "sensor": "WV02"
+            }
+          ]
+        },
+        "verified": true
+      },
+      "after": {
+        "date": "2026-02-07",
+        "sensor": "LG05",
+        "release": 26334,
+        "coord": [
+          -89.83597736037557,
+          21.25149288641989
+        ],
+        "offset": 7.5,
+        "candidate_pixels": [
+          [
+            20.73,
+            62
+          ],
+          [
+            19.64,
+            104
+          ],
+          [
+            15.28,
+            70
+          ]
+        ],
+        "metadata": {
+          "release": 26334,
+          "positionOffset": 7.5,
+          "url": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2026_r07/MapServer/6/query?f=json&where=MinMapLevel+%3C%3D+17+AND+MaxMapLevel+%3E%3D+17&geometryType=esriGeometryEnvelope&geometry=-89.83604224%2C21.25140632%2C-89.83591248%2C21.25157945&inSR=4326&outSR=4326&outFields=OBJECTID%2CSRC_DATE2%2CSRC_DESC%2CSAMP_RES%2CSRC_ACC%2CMinMapLevel%2CMaxMapLevel&returnGeometry=true",
+          "sha256": "bde50d5155a20bad6d1e0b8f3b5210abd59bca7a9924da4f0ed3b4abf011a35e",
+          "file": "huellas-26334-3f983498e7d.json",
+          "checks": [
+            {
+              "delta_m": -3,
+              "date": "2026-02-07",
+              "sensor": "LG05"
+            },
+            {
+              "delta_m": 0,
+              "date": "2026-02-07",
+              "sensor": "LG05"
+            },
+            {
+              "delta_m": 3,
+              "date": "2026-02-07",
+              "sensor": "LG05"
+            }
+          ]
+        },
+        "verified": true
+      },
+      "alternative": {
+        "date": "2025-02-13",
+        "sensor": "WV03",
+        "release": 22252,
+        "coord": [
+          -89.83596515458187,
+          21.251426480111977
+        ],
+        "offset": 0
+      },
+      "sheet": "pares-2011-2026-2.jpg",
+      "uncertainty_before_m": 4,
+      "uncertainty_after_m": 5
+    },
+    {
+      "i": 31,
+      "profile": "002-0010",
+      "station": "GRID100-progreso-002-0010",
+      "origin": [
+        -89.83504278409411,
+        21.25168661083356
+      ],
+      "axis": [
+        -0.1787067905675526,
+        0.9839023747329024
+      ],
+      "before": {
+        "date": "2011-08-01",
+        "sensor": "WV02",
+        "release": 11019,
+        "coord": [
+          -89.83505398024116,
+          21.251744061367546
+        ],
+        "offset": 6.5,
+        "candidate_pixels": [
+          [
+            14.68,
+            60
+          ],
+          [
+            9.16,
+            54
+          ],
+          [
+            8.84,
+            40
+          ]
+        ],
+        "metadata": {
+          "release": 11019,
+          "positionOffset": 6.5,
+          "url": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2014_r17/MapServer/6/query?f=json&where=MinMapLevel+%3C%3D+17+AND+MaxMapLevel+%3E%3D+17&geometryType=esriGeometryEnvelope&geometry=-89.83604875%2C21.25144174%2C-89.82742972%2C21.25319925&inSR=4326&outSR=4326&outFields=OBJECTID%2CSRC_DATE2%2CSRC_DESC%2CSAMP_RES%2CSRC_ACC%2CMinMapLevel%2CMaxMapLevel&returnGeometry=true",
+          "sha256": "167e7145a077c878fc7ec68a4bbd177eb7ca744117ea2eaf4d09068e84d35ed8",
+          "file": "huellas-11019-015312d2986.json",
+          "checks": [
+            {
+              "delta_m": -3,
+              "date": "2011-08-01",
+              "sensor": "WV02"
+            },
+            {
+              "delta_m": 0,
+              "date": "2011-08-01",
+              "sensor": "WV02"
+            },
+            {
+              "delta_m": 3,
+              "date": "2011-08-01",
+              "sensor": "WV02"
+            }
+          ]
+        },
+        "verified": true
+      },
+      "after": {
+        "date": "2026-02-07",
+        "sensor": "LG05",
+        "release": 26334,
+        "coord": [
+          -89.83503158794707,
+          21.25162916027717
+        ],
+        "offset": -6.5,
+        "candidate_pixels": [
+          [
+            22.75,
+            76
+          ],
+          [
+            8.98,
+            61
+          ],
+          [
+            7.59,
+            85
+          ]
+        ],
+        "metadata": {
+          "release": 26334,
+          "positionOffset": -6.5,
+          "url": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2026_r07/MapServer/6/query?f=json&where=MinMapLevel+%3C%3D+17+AND+MaxMapLevel+%3E%3D+17&geometryType=esriGeometryEnvelope&geometry=-89.83509676%2C21.25154264%2C-89.83496642%2C21.25171568&inSR=4326&outSR=4326&outFields=OBJECTID%2CSRC_DATE2%2CSRC_DESC%2CSAMP_RES%2CSRC_ACC%2CMinMapLevel%2CMaxMapLevel&returnGeometry=true",
+          "sha256": "bde50d5155a20bad6d1e0b8f3b5210abd59bca7a9924da4f0ed3b4abf011a35e",
+          "file": "huellas-26334-325e75f0686.json",
+          "checks": [
+            {
+              "delta_m": -3,
+              "date": "2026-02-07",
+              "sensor": "LG05"
+            },
+            {
+              "delta_m": 0,
+              "date": "2026-02-07",
+              "sensor": "LG05"
+            },
+            {
+              "delta_m": 3,
+              "date": "2026-02-07",
+              "sensor": "LG05"
+            }
+          ]
+        },
+        "verified": true
+      },
+      "alternative": {
+        "date": "2025-02-13",
+        "sensor": "WV03",
+        "release": 22252,
+        "coord": [
+          -89.83504278409411,
+          21.25168661083356
+        ],
+        "offset": 0
+      },
+      "sheet": "pares-2011-2026-2.jpg",
+      "uncertainty_before_m": 4,
+      "uncertainty_after_m": 5
+    },
+    {
+      "i": 32,
+      "profile": "002-0011",
+      "station": "GRID100-progreso-002-0011",
+      "origin": [
+        -89.83410932336433,
+        21.25190988008093
+      ],
+      "axis": [
+        -0.1532160697145082,
+        0.9881927119652517
+      ],
+      "before": {
+        "date": "2011-08-01",
+        "sensor": "WV02",
+        "release": 11019,
+        "coord": [
+          -89.8341203992999,
+          21.251976458212155
+        ],
+        "offset": 7.5,
+        "candidate_pixels": [
+          [
+            19.68,
+            59
+          ],
+          [
+            8.35,
+            75
+          ],
+          [
+            5.85,
+            50
+          ]
+        ],
+        "metadata": {
+          "release": 11019,
+          "positionOffset": 7.5,
+          "url": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2014_r17/MapServer/6/query?f=json&where=MinMapLevel+%3C%3D+17+AND+MaxMapLevel+%3E%3D+17&geometryType=esriGeometryEnvelope&geometry=-89.83604875%2C21.25144174%2C-89.82742972%2C21.25319925&inSR=4326&outSR=4326&outFields=OBJECTID%2CSRC_DATE2%2CSRC_DESC%2CSAMP_RES%2CSRC_ACC%2CMinMapLevel%2CMaxMapLevel&returnGeometry=true",
+          "sha256": "167e7145a077c878fc7ec68a4bbd177eb7ca744117ea2eaf4d09068e84d35ed8",
+          "file": "huellas-11019-015312d2986.json",
+          "checks": [
+            {
+              "delta_m": -3,
+              "date": "2011-08-01",
+              "sensor": "WV02"
+            },
+            {
+              "delta_m": 0,
+              "date": "2011-08-01",
+              "sensor": "WV02"
+            },
+            {
+              "delta_m": 3,
+              "date": "2011-08-01",
+              "sensor": "WV02"
+            }
+          ]
+        },
+        "verified": true
+      },
+      "after": {
+        "date": "2026-02-07",
+        "sensor": "LG05",
+        "release": 26334,
+        "coord": [
+          -89.83407831074474,
+          21.25172346115346
+        ],
+        "offset": -21.0,
+        "candidate_pixels": [
+          [
+            15.76,
+            91
+          ],
+          [
+            7.6,
+            86
+          ],
+          [
+            6.41,
+            99
+          ]
+        ],
+        "metadata": {
+          "release": 26334,
+          "positionOffset": -21.0,
+          "url": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2026_r07/MapServer/6/query?f=json&where=MinMapLevel+%3C%3D+17+AND+MaxMapLevel+%3E%3D+17&geometryType=esriGeometryEnvelope&geometry=-89.83414274%2C21.25163683%2C-89.83401388%2C21.25181009&inSR=4326&outSR=4326&outFields=OBJECTID%2CSRC_DATE2%2CSRC_DESC%2CSAMP_RES%2CSRC_ACC%2CMinMapLevel%2CMaxMapLevel&returnGeometry=true",
+          "sha256": "bde50d5155a20bad6d1e0b8f3b5210abd59bca7a9924da4f0ed3b4abf011a35e",
+          "file": "huellas-26334-821d6598f0d.json",
+          "checks": [
+            {
+              "delta_m": -3,
+              "date": "2026-02-07",
+              "sensor": "LG05"
+            },
+            {
+              "delta_m": 0,
+              "date": "2026-02-07",
+              "sensor": "LG05"
+            },
+            {
+              "delta_m": 3,
+              "date": "2026-02-07",
+              "sensor": "LG05"
+            }
+          ]
+        },
+        "verified": true
+      },
+      "alternative": {
+        "date": "2025-02-13",
+        "sensor": "WV03",
+        "release": 22252,
+        "coord": [
+          -89.83410932336433,
+          21.25190988008093
+        ],
+        "offset": 0
+      },
+      "sheet": "pares-2011-2026-3.jpg",
+      "uncertainty_before_m": 4,
+      "uncertainty_after_m": 5
+    },
+    {
+      "i": 33,
+      "profile": "002-0012",
+      "station": "GRID100-progreso-002-0012",
+      "origin": [
+        -89.83317843540942,
+        21.252140907428448
+      ],
+      "axis": [
+        -0.10997687067206394,
+        0.9939341466702812
+      ],
+      "before": {
+        "date": "2011-08-01",
+        "sensor": "WV02",
+        "release": 11019,
+        "coord": [
+          -89.8331874456379,
+          21.25221680103891
+        ],
+        "offset": 8.5,
+        "candidate_pixels": [
+          [
+            14.23,
+            59
+          ],
+          [
+            9.9,
+            53
+          ],
+          [
+            8.3,
+            75
+          ]
+        ],
+        "metadata": {
+          "release": 11019,
+          "positionOffset": 8.5,
+          "url": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2014_r17/MapServer/6/query?f=json&where=MinMapLevel+%3C%3D+17+AND+MaxMapLevel+%3E%3D+17&geometryType=esriGeometryEnvelope&geometry=-89.83604875%2C21.25144174%2C-89.82742972%2C21.25319925&inSR=4326&outSR=4326&outFields=OBJECTID%2CSRC_DATE2%2CSRC_DESC%2CSAMP_RES%2CSRC_ACC%2CMinMapLevel%2CMaxMapLevel&returnGeometry=true",
+          "sha256": "167e7145a077c878fc7ec68a4bbd177eb7ca744117ea2eaf4d09068e84d35ed8",
+          "file": "huellas-11019-015312d2986.json",
+          "checks": [
+            {
+              "delta_m": -3,
+              "date": "2011-08-01",
+              "sensor": "WV02"
+            },
+            {
+              "delta_m": 0,
+              "date": "2011-08-01",
+              "sensor": "WV02"
+            },
+            {
+              "delta_m": 3,
+              "date": "2011-08-01",
+              "sensor": "WV02"
+            }
+          ]
+        },
+        "verified": true
+      },
+      "after": {
+        "date": "2026-02-07",
+        "sensor": "LG05",
+        "release": 26334,
+        "coord": [
+          -89.8331402744417,
+          21.25181947523306
+        ],
+        "offset": -36.0,
+        "candidate_pixels": [
+          [
+            20.06,
+            115
+          ],
+          [
+            5.74,
+            122
+          ],
+          [
+            5.74,
+            70
+          ]
+        ],
+        "metadata": {
+          "release": 26334,
+          "positionOffset": -36.0,
+          "url": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2026_r07/MapServer/6/query?f=json&where=MinMapLevel+%3C%3D+17+AND+MaxMapLevel+%3E%3D+17&geometryType=esriGeometryEnvelope&geometry=-89.83320345%2C21.25173269%2C-89.83307709%2C21.25190626&inSR=4326&outSR=4326&outFields=OBJECTID%2CSRC_DATE2%2CSRC_DESC%2CSAMP_RES%2CSRC_ACC%2CMinMapLevel%2CMaxMapLevel&returnGeometry=true",
+          "sha256": "bde50d5155a20bad6d1e0b8f3b5210abd59bca7a9924da4f0ed3b4abf011a35e",
+          "file": "huellas-26334-a78536baa5f.json",
+          "checks": [
+            {
+              "delta_m": -3,
+              "date": "2026-02-07",
+              "sensor": "LG05"
+            },
+            {
+              "delta_m": 0,
+              "date": "2026-02-07",
+              "sensor": "LG05"
+            },
+            {
+              "delta_m": 3,
+              "date": "2026-02-07",
+              "sensor": "LG05"
+            }
+          ]
+        },
+        "verified": true
+      },
+      "alternative": {
+        "date": "2025-02-13",
+        "sensor": "WV03",
+        "release": 22252,
+        "coord": [
+          -89.83317843540942,
+          21.252140907428448
+        ],
+        "offset": 0
+      },
+      "sheet": "pares-2011-2026-3.jpg",
+      "uncertainty_before_m": 4,
+      "uncertainty_after_m": 5
+    },
+    {
+      "i": 34,
+      "profile": "002-0013",
+      "station": "GRID100-progreso-002-0013",
+      "origin": [
+        -89.83223704152549,
+        21.25233129945348
+      ],
+      "axis": [
+        -0.11341063743833028,
+        0.9935482008014667
+      ],
+      "before": {
+        "date": "2011-08-01",
+        "sensor": "WV02",
+        "release": 11019,
+        "coord": [
+          -89.8322474262141,
+          21.252416088784837
+        ],
+        "offset": 9.5,
+        "candidate_pixels": [
+          [
+            19.54,
+            57
+          ],
+          [
+            6.95,
+            68
+          ],
+          [
+            5.64,
+            31
+          ]
+        ],
+        "metadata": {
+          "release": 11019,
+          "positionOffset": 9.5,
+          "url": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2014_r17/MapServer/6/query?f=json&where=MinMapLevel+%3C%3D+17+AND+MaxMapLevel+%3E%3D+17&geometryType=esriGeometryEnvelope&geometry=-89.83604875%2C21.25144174%2C-89.82742972%2C21.25319925&inSR=4326&outSR=4326&outFields=OBJECTID%2CSRC_DATE2%2CSRC_DESC%2CSAMP_RES%2CSRC_ACC%2CMinMapLevel%2CMaxMapLevel&returnGeometry=true",
+          "sha256": "167e7145a077c878fc7ec68a4bbd177eb7ca744117ea2eaf4d09068e84d35ed8",
+          "file": "huellas-11019-015312d2986.json",
+          "checks": [
+            {
+              "delta_m": -3,
+              "date": "2011-08-01",
+              "sensor": "WV02"
+            },
+            {
+              "delta_m": 0,
+              "date": "2011-08-01",
+              "sensor": "WV02"
+            },
+            {
+              "delta_m": 3,
+              "date": "2011-08-01",
+              "sensor": "WV02"
+            }
+          ]
+        },
+        "verified": true
+      },
+      "after": {
+        "date": "2026-02-07",
+        "sensor": "LG05",
+        "release": 26334,
+        "coord": [
+          -89.83219003714545,
+          21.251947515553834
+        ],
+        "offset": -43.0,
+        "candidate_pixels": [
+          [
+            18.23,
+            120
+          ],
+          [
+            9.27,
+            125
+          ],
+          [
+            7.2,
+            72
+          ]
+        ],
+        "metadata": {
+          "release": 26334,
+          "positionOffset": -43.0,
+          "url": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2026_r07/MapServer/6/query?f=json&where=MinMapLevel+%3C%3D+17+AND+MaxMapLevel+%3E%3D+17&geometryType=esriGeometryEnvelope&geometry=-89.83225332%2C21.25186074%2C-89.83212676%2C21.25203429&inSR=4326&outSR=4326&outFields=OBJECTID%2CSRC_DATE2%2CSRC_DESC%2CSAMP_RES%2CSRC_ACC%2CMinMapLevel%2CMaxMapLevel&returnGeometry=true",
+          "sha256": "bde50d5155a20bad6d1e0b8f3b5210abd59bca7a9924da4f0ed3b4abf011a35e",
+          "file": "huellas-26334-12486d50cc7.json",
+          "checks": [
+            {
+              "delta_m": -3,
+              "date": "2026-02-07",
+              "sensor": "LG05"
+            },
+            {
+              "delta_m": 0,
+              "date": "2026-02-07",
+              "sensor": "LG05"
+            },
+            {
+              "delta_m": 3,
+              "date": "2026-02-07",
+              "sensor": "LG05"
+            }
+          ]
+        },
+        "verified": true
+      },
+      "alternative": {
+        "date": "2025-02-13",
+        "sensor": "WV03",
+        "release": 22252,
+        "coord": [
+          -89.83223704152549,
+          21.25233129945348
+        ],
+        "offset": 0
+      },
+      "sheet": "pares-2011-2026-3.jpg",
+      "uncertainty_before_m": 4,
+      "uncertainty_after_m": 5
+    },
+    {
+      "i": 39,
+      "profile": "002-0018",
+      "station": "GRID100-progreso-002-0018",
+      "origin": [
+        -89.82750725845511,
+        21.253170113335695
+      ],
+      "axis": [
+        -0.19155268607038564,
+        0.9814823322195975
+      ],
+      "before": {
+        "date": "2011-08-01",
+        "sensor": "WV02",
+        "release": 11019,
+        "coord": [
+          -89.82749525737991,
+          21.25311280408684
+        ],
+        "offset": -6.5,
+        "candidate_pixels": [
+          [
+            31.2,
+            113
+          ],
+          [
+            15.7,
+            80
+          ],
+          [
+            8.98,
+            85
+          ]
+        ],
+        "metadata": {
+          "release": 11019,
+          "positionOffset": -6.5,
+          "url": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2014_r17/MapServer/6/query?f=json&where=MinMapLevel+%3C%3D+17+AND+MaxMapLevel+%3E%3D+17&geometryType=esriGeometryEnvelope&geometry=-89.83604875%2C21.25144174%2C-89.82742972%2C21.25319925&inSR=4326&outSR=4326&outFields=OBJECTID%2CSRC_DATE2%2CSRC_DESC%2CSAMP_RES%2CSRC_ACC%2CMinMapLevel%2CMaxMapLevel&returnGeometry=true",
+          "sha256": "167e7145a077c878fc7ec68a4bbd177eb7ca744117ea2eaf4d09068e84d35ed8",
+          "file": "huellas-11019-015312d2986.json",
+          "checks": [
+            {
+              "delta_m": -3,
+              "date": "2011-08-01",
+              "sensor": "WV02"
+            },
+            {
+              "delta_m": 0,
+              "date": "2011-08-01",
+              "sensor": "WV02"
+            },
+            {
+              "delta_m": 3,
+              "date": "2011-08-01",
+              "sensor": "WV02"
+            }
+          ]
+        },
+        "verified": true
+      },
+      "after": {
+        "date": "2026-02-07",
+        "sensor": "LG05",
+        "release": 26334,
+        "coord": [
+          -89.82744725307903,
+          21.25288356686847
+        ],
+        "offset": -32.5,
+        "candidate_pixels": [
+          [
+            20.64,
+            103
+          ],
+          [
+            9.67,
+            98
+          ],
+          [
+            6.54,
+            72
+          ]
+        ],
+        "metadata": {
+          "release": 26334,
+          "positionOffset": -32.5,
+          "url": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2026_r07/MapServer/6/query?f=json&where=MinMapLevel+%3C%3D+17+AND+MaxMapLevel+%3E%3D+17&geometryType=esriGeometryEnvelope&geometry=-89.82751279%2C21.25279712%2C-89.82738171%2C21.25297002&inSR=4326&outSR=4326&outFields=OBJECTID%2CSRC_DATE2%2CSRC_DESC%2CSAMP_RES%2CSRC_ACC%2CMinMapLevel%2CMaxMapLevel&returnGeometry=true",
+          "sha256": "bde50d5155a20bad6d1e0b8f3b5210abd59bca7a9924da4f0ed3b4abf011a35e",
+          "file": "huellas-26334-4ff7509d173.json",
+          "checks": [
+            {
+              "delta_m": -3,
+              "date": "2026-02-07",
+              "sensor": "LG05"
+            },
+            {
+              "delta_m": 0,
+              "date": "2026-02-07",
+              "sensor": "LG05"
+            },
+            {
+              "delta_m": 3,
+              "date": "2026-02-07",
+              "sensor": "LG05"
+            }
+          ]
+        },
+        "verified": true
+      },
+      "alternative": {
+        "date": "2025-02-13",
+        "sensor": "WV03",
+        "release": 22252,
+        "coord": [
+          -89.82750725845511,
+          21.253170113335695
+        ],
+        "offset": 0
+      },
+      "sheet": "pares-2011-2026-3.jpg",
+      "uncertainty_before_m": 4,
+      "uncertainty_after_m": 5
+    },
+    {
+      "i": 42,
+      "profile": "002-0021",
+      "station": "GRID100-progreso-002-0021",
+      "origin": [
+        -89.82464937060253,
+        21.25356193848772
+      ],
+      "axis": [
+        -0.36960374869984164,
+        0.9291894688097925
+      ],
+      "before": {
+        "date": "2011-08-01",
+        "sensor": "WV02",
+        "release": 11019,
+        "coord": [
+          -89.82464224558277,
+          21.253545244384743
+        ],
+        "offset": -2.0,
+        "candidate_pixels": [
+          [
+            15.54,
+            77
+          ],
+          [
+            7.66,
+            55
+          ],
+          [
+            6.77,
+            72
+          ]
+        ],
+        "metadata": {
+          "release": 11019,
+          "positionOffset": -2.0,
+          "url": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2014_r17/MapServer/6/query?f=json&where=MinMapLevel+%3C%3D+17+AND+MaxMapLevel+%3E%3D+17&geometryType=esriGeometryEnvelope&geometry=-89.82471293%2C21.25346020%2C-89.82082765%2C21.25437060&inSR=4326&outSR=4326&outFields=OBJECTID%2CSRC_DATE2%2CSRC_DESC%2CSAMP_RES%2CSRC_ACC%2CMinMapLevel%2CMaxMapLevel&returnGeometry=true",
+          "sha256": "167e7145a077c878fc7ec68a4bbd177eb7ca744117ea2eaf4d09068e84d35ed8",
+          "file": "huellas-11019-1d65674f485.json",
+          "checks": [
+            {
+              "delta_m": -3,
+              "date": "2011-08-01",
+              "sensor": "WV02"
+            },
+            {
+              "delta_m": 0,
+              "date": "2011-08-01",
+              "sensor": "WV02"
+            },
+            {
+              "delta_m": 3,
+              "date": "2011-08-01",
+              "sensor": "WV02"
+            }
+          ]
+        },
+        "verified": true
+      },
+      "after": {
+        "date": "2026-02-07",
+        "sensor": "LG05",
+        "release": 26334,
+        "coord": [
+          -89.82446590134376,
+          21.25313206473314
+        ],
+        "offset": -51.5,
+        "candidate_pixels": [
+          [
+            7.81,
+            126
+          ],
+          [
+            5.43,
+            79
+          ],
+          [
+            3.94,
+            74
+          ]
+        ],
+        "metadata": {
+          "release": 26334,
+          "positionOffset": -51.5,
+          "url": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2026_r07/MapServer/6/query?f=json&where=MinMapLevel+%3C%3D+17+AND+MaxMapLevel+%3E%3D+17&geometryType=esriGeometryEnvelope&geometry=-89.82453659%2C21.25304702%2C-89.82075191%2C21.25418121&inSR=4326&outSR=4326&outFields=OBJECTID%2CSRC_DATE2%2CSRC_DESC%2CSAMP_RES%2CSRC_ACC%2CMinMapLevel%2CMaxMapLevel&returnGeometry=true",
+          "sha256": "bde50d5155a20bad6d1e0b8f3b5210abd59bca7a9924da4f0ed3b4abf011a35e",
+          "file": "huellas-26334-4b9fc138ec9.json",
+          "checks": [
+            {
+              "delta_m": -3,
+              "date": "2026-02-07",
+              "sensor": "LG05"
+            },
+            {
+              "delta_m": 0,
+              "date": "2026-02-07",
+              "sensor": "LG05"
+            },
+            {
+              "delta_m": 3,
+              "date": "2026-02-07",
+              "sensor": "LG05"
+            }
+          ]
+        },
+        "verified": true
+      },
+      "alternative": {
+        "date": "2025-02-13",
+        "sensor": "WV03",
+        "release": 22252,
+        "coord": [
+          -89.82464937060253,
+          21.25356193848772
+        ],
+        "offset": 0
+      },
+      "sheet": "pares-2011-2026-3.jpg",
+      "uncertainty_before_m": 4,
+      "uncertainty_after_m": 5
+    },
+    {
+      "i": 44,
+      "profile": "002-0023",
+      "station": "GRID100-progreso-002-0023",
+      "origin": [
+        -89.82274237207318,
+        21.25380347774959
+      ],
+      "axis": [
+        -0.058884493846062896,
+        0.9982648027374765
+      ],
+      "before": {
+        "date": "2011-08-01",
+        "sensor": "WV02",
+        "release": 11019,
+        "coord": [
+          -89.82274180450065,
+          21.25379451018402
+        ],
+        "offset": -1.0,
+        "candidate_pixels": [
+          [
+            16.58,
+            69
+          ],
+          [
+            12.59,
+            114
+          ],
+          [
+            7.38,
+            96
+          ]
+        ],
+        "metadata": {
+          "release": 11019,
+          "positionOffset": -1.0,
+          "url": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2014_r17/MapServer/6/query?f=json&where=MinMapLevel+%3C%3D+17+AND+MaxMapLevel+%3E%3D+17&geometryType=esriGeometryEnvelope&geometry=-89.82471293%2C21.25346020%2C-89.82082765%2C21.25437060&inSR=4326&outSR=4326&outFields=OBJECTID%2CSRC_DATE2%2CSRC_DESC%2CSAMP_RES%2CSRC_ACC%2CMinMapLevel%2CMaxMapLevel&returnGeometry=true",
+          "sha256": "167e7145a077c878fc7ec68a4bbd177eb7ca744117ea2eaf4d09068e84d35ed8",
+          "file": "huellas-11019-1d65674f485.json",
+          "checks": [
+            {
+              "delta_m": -3,
+              "date": "2011-08-01",
+              "sensor": "WV02"
+            },
+            {
+              "delta_m": 0,
+              "date": "2011-08-01",
+              "sensor": "WV02"
+            },
+            {
+              "delta_m": 3,
+              "date": "2011-08-01",
+              "sensor": "WV02"
+            }
+          ]
+        },
+        "verified": true
+      },
+      "after": {
+        "date": "2026-02-07",
+        "sensor": "LG05",
+        "release": 26334,
+        "coord": [
+          -89.82274123692811,
+          21.253785542617898
+        ],
+        "offset": -2.0,
+        "candidate_pixels": [
+          [
+            39.05,
+            104
+          ],
+          [
+            21.54,
+            66
+          ],
+          [
+            12.68,
+            61
+          ]
+        ],
+        "metadata": {
+          "release": 26334,
+          "positionOffset": -2.0,
+          "url": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2026_r07/MapServer/6/query?f=json&where=MinMapLevel+%3C%3D+17+AND+MaxMapLevel+%3E%3D+17&geometryType=esriGeometryEnvelope&geometry=-89.82453659%2C21.25304702%2C-89.82075191%2C21.25418121&inSR=4326&outSR=4326&outFields=OBJECTID%2CSRC_DATE2%2CSRC_DESC%2CSAMP_RES%2CSRC_ACC%2CMinMapLevel%2CMaxMapLevel&returnGeometry=true",
+          "sha256": "bde50d5155a20bad6d1e0b8f3b5210abd59bca7a9924da4f0ed3b4abf011a35e",
+          "file": "huellas-26334-4b9fc138ec9.json",
+          "checks": [
+            {
+              "delta_m": -3,
+              "date": "2026-02-07",
+              "sensor": "LG05"
+            },
+            {
+              "delta_m": 0,
+              "date": "2026-02-07",
+              "sensor": "LG05"
+            },
+            {
+              "delta_m": 3,
+              "date": "2026-02-07",
+              "sensor": "LG05"
+            }
+          ]
+        },
+        "verified": true
+      },
+      "alternative": {
+        "date": "2025-02-13",
+        "sensor": "WV03",
+        "release": 22252,
+        "coord": [
+          -89.82274237207318,
+          21.25380347774959
+        ],
+        "offset": 0
+      },
+      "sheet": "pares-2011-2026-3.jpg",
+      "uncertainty_before_m": 4,
+      "uncertainty_after_m": 5
+    },
+    {
+      "i": 45,
+      "profile": "002-0024",
+      "station": "GRID100-progreso-002-0024",
+      "origin": [
+        -89.8218037789514,
+        21.253990847152345
+      ],
+      "axis": [
+        -0.21715236255800027,
+        0.9761377215513592
+      ],
+      "before": {
+        "date": "2011-08-01",
+        "sensor": "WV02",
+        "release": 11019,
+        "coord": [
+          -89.82182994243365,
+          21.2541004570409
+        ],
+        "offset": 12.5,
+        "candidate_pixels": [
+          [
+            14.32,
+            56
+          ],
+          [
+            8.77,
+            45
+          ],
+          [
+            7.96,
+            25
+          ]
+        ],
+        "metadata": {
+          "release": 11019,
+          "positionOffset": 12.5,
+          "url": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2014_r17/MapServer/6/query?f=json&where=MinMapLevel+%3C%3D+17+AND+MaxMapLevel+%3E%3D+17&geometryType=esriGeometryEnvelope&geometry=-89.82471293%2C21.25346020%2C-89.82082765%2C21.25437060&inSR=4326&outSR=4326&outFields=OBJECTID%2CSRC_DATE2%2CSRC_DESC%2CSAMP_RES%2CSRC_ACC%2CMinMapLevel%2CMaxMapLevel&returnGeometry=true",
+          "sha256": "167e7145a077c878fc7ec68a4bbd177eb7ca744117ea2eaf4d09068e84d35ed8",
+          "file": "huellas-11019-1d65674f485.json",
+          "checks": [
+            {
+              "delta_m": -3,
+              "date": "2011-08-01",
+              "sensor": "WV02"
+            },
+            {
+              "delta_m": 0,
+              "date": "2011-08-01",
+              "sensor": "WV02"
+            },
+            {
+              "delta_m": 3,
+              "date": "2011-08-01",
+              "sensor": "WV02"
+            }
+          ]
+        },
+        "verified": true
+      },
+      "after": {
+        "date": "2026-02-07",
+        "sensor": "LG05",
+        "release": 26334,
+        "coord": [
+          -89.82175563814408,
+          21.253789164744305
+        ],
+        "offset": -23.0,
+        "candidate_pixels": [
+          [
+            20.01,
+            109
+          ],
+          [
+            15.23,
+            72
+          ],
+          [
+            13.19,
+            82
+          ]
+        ],
+        "metadata": {
+          "release": 26334,
+          "positionOffset": -23.0,
+          "url": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2026_r07/MapServer/6/query?f=json&where=MinMapLevel+%3C%3D+17+AND+MaxMapLevel+%3E%3D+17&geometryType=esriGeometryEnvelope&geometry=-89.82453659%2C21.25304702%2C-89.82075191%2C21.25418121&inSR=4326&outSR=4326&outFields=OBJECTID%2CSRC_DATE2%2CSRC_DESC%2CSAMP_RES%2CSRC_ACC%2CMinMapLevel%2CMaxMapLevel&returnGeometry=true",
+          "sha256": "bde50d5155a20bad6d1e0b8f3b5210abd59bca7a9924da4f0ed3b4abf011a35e",
+          "file": "huellas-26334-4b9fc138ec9.json",
+          "checks": [
+            {
+              "delta_m": -3,
+              "date": "2026-02-07",
+              "sensor": "LG05"
+            },
+            {
+              "delta_m": 0,
+              "date": "2026-02-07",
+              "sensor": "LG05"
+            },
+            {
+              "delta_m": 3,
+              "date": "2026-02-07",
+              "sensor": "LG05"
+            }
+          ]
+        },
+        "verified": true
+      },
+      "alternative": {
+        "date": "2025-02-13",
+        "sensor": "WV03",
+        "release": 22252,
+        "coord": [
+          -89.8218037789514,
+          21.253990847152345
+        ],
+        "offset": 0
+      },
+      "sheet": "pares-2011-2026-3.jpg",
+      "uncertainty_before_m": 4,
+      "uncertainty_after_m": 5
+    },
+    {
+      "i": 46,
+      "profile": "002-0025",
+      "station": "GRID100-progreso-002-0025",
+      "origin": [
+        -89.82087249894175,
+        21.254222216999032
+      ],
+      "axis": [
+        -0.3492299395519669,
+        0.9370370586697889
+      ],
+      "before": {
+        "date": "2011-08-01",
+        "sensor": "WV02",
+        "release": 11019,
+        "coord": [
+          -89.82089774504703,
+          21.254285348588873
+        ],
+        "offset": 7.5,
+        "candidate_pixels": [
+          [
+            20.15,
+            62
+          ],
+          [
+            9.47,
+            77
+          ],
+          [
+            7.76,
+            38
+          ]
+        ],
+        "metadata": {
+          "release": 11019,
+          "positionOffset": 7.5,
+          "url": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2014_r17/MapServer/6/query?f=json&where=MinMapLevel+%3C%3D+17+AND+MaxMapLevel+%3E%3D+17&geometryType=esriGeometryEnvelope&geometry=-89.82471293%2C21.25346020%2C-89.82082765%2C21.25437060&inSR=4326&outSR=4326&outFields=OBJECTID%2CSRC_DATE2%2CSRC_DESC%2CSAMP_RES%2CSRC_ACC%2CMinMapLevel%2CMaxMapLevel&returnGeometry=true",
+          "sha256": "167e7145a077c878fc7ec68a4bbd177eb7ca744117ea2eaf4d09068e84d35ed8",
+          "file": "huellas-11019-1d65674f485.json",
+          "checks": [
+            {
+              "delta_m": -3,
+              "date": "2011-08-01",
+              "sensor": "WV02"
+            },
+            {
+              "delta_m": 0,
+              "date": "2011-08-01",
+              "sensor": "WV02"
+            },
+            {
+              "delta_m": 3,
+              "date": "2011-08-01",
+              "sensor": "WV02"
+            }
+          ]
+        },
+        "verified": true
+      },
+      "after": {
+        "date": "2026-02-07",
+        "sensor": "LG05",
+        "release": 26334,
+        "coord": [
+          -89.82082200673122,
+          21.25409595373818
+        ],
+        "offset": -15.0,
+        "candidate_pixels": [
+          [
+            20.98,
+            106
+          ],
+          [
+            15.75,
+            77
+          ],
+          [
+            10.01,
+            101
+          ]
+        ],
+        "metadata": {
+          "release": 26334,
+          "positionOffset": -15.0,
+          "url": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2026_r07/MapServer/6/query?f=json&where=MinMapLevel+%3C%3D+17+AND+MaxMapLevel+%3E%3D+17&geometryType=esriGeometryEnvelope&geometry=-89.82453659%2C21.25304702%2C-89.82075191%2C21.25418121&inSR=4326&outSR=4326&outFields=OBJECTID%2CSRC_DATE2%2CSRC_DESC%2CSAMP_RES%2CSRC_ACC%2CMinMapLevel%2CMaxMapLevel&returnGeometry=true",
+          "sha256": "bde50d5155a20bad6d1e0b8f3b5210abd59bca7a9924da4f0ed3b4abf011a35e",
+          "file": "huellas-26334-4b9fc138ec9.json",
+          "checks": [
+            {
+              "delta_m": -3,
+              "date": "2026-02-07",
+              "sensor": "LG05"
+            },
+            {
+              "delta_m": 0,
+              "date": "2026-02-07",
+              "sensor": "LG05"
+            },
+            {
+              "delta_m": 3,
+              "date": "2026-02-07",
+              "sensor": "LG05"
+            }
+          ]
+        },
+        "verified": true
+      },
+      "alternative": {
+        "date": "2025-02-13",
+        "sensor": "WV03",
+        "release": 22252,
+        "coord": [
+          -89.82087249894175,
+          21.254222216999032
+        ],
+        "offset": 0
+      },
+      "sheet": "pares-2011-2026-3.jpg",
+      "uncertainty_before_m": 4,
+      "uncertainty_after_m": 5
+    }
+  ],
+  "pending": [
+    "GRID100-progreso-001-0000",
+    "GRID100-progreso-001-0005",
+    "GRID100-progreso-001-0006"
+  ]
+}

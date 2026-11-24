@@ -59,25 +59,29 @@ for name in sorted({x['road'] for x in road_results}):
    remaining-=distance
   if coordinate:road_results.append({'id':a['id']+'-half','road':name,'km':a['km']+.5,'coordinate':coordinate,'kind':'interpolated','sources':[a['id'],b['id']],'method':'half of received road-network distance between consecutive numbered posts'})
 model=read('shorelines/scenario/model.json');photos=read('shorelines/photo-alignment/revised-data.json');original_photo_sha=hashlib.sha256((PUB/'shorelines/photo-alignment/revised-data.json').read_bytes()).hexdigest()
-visual=read('shorelines/photo-alignment/revised-visual-review.json');manual=read('shorelines/photo-alignment/manual-digitization-20261103.json');assert visual['data_sha256']==manual['data_sha256']==original_photo_sha
-exclude={(e['profile_id'],e['capture']):e for e in visual['exclusions']};corrections={(e['profile_id'],e['capture']):e for e in manual['corrections']}
-for t in photos['targets']:
- for r in t['readings']:
-  key=(t['id'],r['capture'])
-  if key in exclude:
-   assert r['offset_m']==exclude[key]['original_offset_m'];r['accepted']=False;r['reasons']=list(set(r['reasons']+['manual_visual_discrepancy']))
-  if key in corrections:
-   c=corrections[key];assert r['offset_m']==c['original_offset_m'] and r['accepted']==c['original_accepted'];r.update(offset_m=c['offset_m'],accepted=True,reasons=[],manual_review={'id':manual['method'],'source':c['source'],'uncertainty_m':c['manual_uncertainty_m']})
+import subprocess,tempfile
+review_versions=[json.loads((ROOT/f'lib/generated/{slug}-review-version.json').read_text()) for slug in ['celestun','ixil']]
+reviewed_paths=[ROOT/'public'/v['url'].lstrip('/') for v in review_versions]
+with tempfile.NamedTemporaryFile(suffix='.json') as compiled:
+ subprocess.run(['node',str(ROOT/'scripts/compile-integrated-photo-reviews.mjs'),compiled.name],check=True)
+ photos=json.loads(Path(compiled.name).read_text())
 catalogue=json.loads((ROOT/'lib/generated/municipal-photo-refined-catalogue.json').read_text());overview=[];reports=[]
 # Geometry-bearing datasets are partitioned ahead of time, not after a global download.
 names=['road-kilometres.geojson','problems/s34-inventory.geojson','problems/structures-yucatan.geojson','problems/structure-outlines.geojson','problems/geotube-historical-axes.geojson','problems/disturbed-mangrove-2020.geojson','context.geojson','localities.geojson','coast.geojson','mangrove.geojson','wetlands.geojson','water.geojson']
 names+=sorted(k for k in assets if k.startswith('problems/gmw/map/years/') and k.endswith('.geojson'))
 collections={k:read(k) for k in names}
 config=read('config.json');places=read('coastal-places.json')
+neighbours=json.loads((ROOT/'lib/generated/municipal-neighbours.json').read_text(encoding='utf-8'))
 for view in sorted(catalogue['coastal_views'],key=lambda v:v['bounds'][0]):
  name=view['name'];key=slug(name);folder=OUT/key;bounds=view['bounds'];nav=[bounds[0]-.012,bounds[1]-.012,bounds[2]+.012,bounds[3]+.012];window=box(*nav)
  info={'name':name,'slug':key,'bounds':bounds,'navigation_bounds':nav,'coordinates':view['coordinates']};overview.append(info);index={'municipality':info,'assets':{},'original_photo_sha256':original_photo_sha,'reviews_applied':True}
- targets=[t for t in model['targets'] if t['m']==name];ids={t['id'] for t in targets};source_ids=sorted({i for t in targets for row in t['support'] for i in row});remap={old:new for new,old in enumerate(source_ids)}
+ context_ids=set(next((r.get('profile_ids',[]) for r in review_versions if r['municipality']==name),[])) if name=='Ixil' else set()
+ targets=[t for t in model['targets'] if t['m']==name or t['id'] in context_ids];ids={t['id'] for t in targets};source_ids=sorted({i for t in targets for row in t['support'] for i in row});remap={old:new for new,old in enumerate(source_ids)}
+ if context_ids:
+  context_neighbours=[t for t in targets if t['m']!=name]
+  index['reviewed_context']={'profile_ids':[t['id'] for t in context_neighbours],'municipalities':sorted({t['m'] for t in context_neighbours}),'bounds':[-89.54,21.300,-89.402,21.338]}
+ for version in review_versions:
+  if ids.intersection(version.get('profile_ids',[])) or version['municipality']==name:index['dated_image_review']=version['method']
  subset={**model,'targets':[{**t,'support':[[remap[i] for i in row] for row in t['support']]} for t in targets],'sources':[model['sources'][i] for i in source_ids],'anchors':[[row[i] for i in source_ids] for row in model['anchors']],'view_scope':name}
  index['model']=write(folder,'scenario',subset);index['photos']=write(folder,'photos',{**photos,'targets':[t for t in photos['targets'] if t['id'] in ids],'view_scope':name})
  counts={}
@@ -94,7 +98,7 @@ for view in sorted(catalogue['coastal_views'],key=lambda v:v['bounds'][0]):
      if clipped.geom_type!='GeometryCollection' and not clipped.is_empty:selected.append({**f,'geometry':mapping(clipped)})
   index['assets'][path]=write(folder,'layers/'+path,{**collection,'features':selected});counts[path]=len(selected)
  local_places=[p for p in places['places'] if p.get('municipality')==name]
- index['assets']['config.json']=write(folder,'config',{**config,'focus_bounds':bounds,'operational_bounds':bounds,'overview_bounds':bounds,'navigation_bounds':nav,'places':local_places,'municipality_scope':name})
+ index['assets']['config.json']=write(folder,'config',{**config,'focus_bounds':bounds,'operational_bounds':bounds,'overview_bounds':bounds,'navigation_bounds':nav,'places':local_places,'municipality_scope':name,**({'neighbour_places':neighbours[name]} if name in neighbours else {})})
  local_roads=[r for r in road_results if window.covers(Point(r['coordinate']))]
  index['road_search']=write(folder,'road-search',{'version':1,'records':local_roads})
  (folder/'index.json').write_bytes(encode(index));reports.append({'municipality':name,'profiles':len(targets),'beach_profiles':sum(t['type'].startswith('Playa') for t in targets),'model_bytes':index['model']['bytes'],'photo_bytes':index['photos']['bytes'],'layers':counts,'road_search_results':len(local_roads)})
@@ -102,3 +106,8 @@ for view in sorted(catalogue['coastal_views'],key=lambda v:v['bounds'][0]):
 (ROOT/'lib/generated/municipality-pages.json').write_bytes(encode(overview))
 (OUT/'partition-report.json').write_bytes(encode({'original_model_sha256':photos['model_sha256'],'original_photo_sha256':original_photo_sha,'municipalities':reports,'purpose':'view windows, not legal municipal/property delimitations; original source assets unchanged'}))
 print(json.dumps({'municipalities':len(overview),'profiles':sum(r['profiles'] for r in reports),'road_results':len(road_results),'half_kilometres':sum(r['kind']=='interpolated' for r in road_results),'generated_folder':str(OUT)},ensure_ascii=False))
+
+if reviewed_paths:
+ import subprocess,sys
+ for slug in ['celestun','ixil']:
+  subprocess.run([sys.executable,str(ROOT/'scripts/build-celestun-photo-ledger.py'),slug],check=True)

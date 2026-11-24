@@ -1,0 +1,276 @@
+[
+  {
+    "profile": "SC-251-0-0",
+    "tip": [
+      -89.82339531183243,
+      21.253776852747485
+    ],
+    "referenceLatitude2011": 21.253736856328903
+  },
+  {
+    "profile": "SC-251-0-1",
+    "tip": [
+      -89.8230654001236,
+      21.25384184690451
+    ],
+    "supplemental": true,
+    "referenceLatitude2011": 21.253766853643857
+  },
+  {
+    "profile": "SC-251-0-2",
+    "tip": [
+      -89.82229024171829,
+      21.25387684374642
+    ],
+    "referenceLatitude2011": 21.25387684374642
+  },
+  {
+    "profile": "SC-251-0-3",
+    "tip": [
+      -89.82188522815704,
+      21.25397933444989
+    ],
+    "referenceLatitude2011": 21.25399683285555
+  },
+  {
+    "profile": "SC-251-0-4",
+    "tip": [
+      -89.8211020231247,
+      21.254119321636978
+    ],
+    "supplemental": true,
+    "referenceLatitude2011": 21.254166817259513
+  },
+  {
+    "profile": "SC-251-0-5",
+    "tip": [
+      -89.8207238316536,
+      21.25425180938793
+    ],
+    "referenceLatitude2011": 21.254246809852326
+  },
+  {
+    "profile": "SC-251-0-6",
+    "tip": [
+      -89.82017770090675,
+      21.25425076694748
+    ],
+    "referenceLatitude2011": 21.254316803335403,
+    "registrationProxyM": 12.920901052171244
+  },
+  {
+    "profile": "SC-251-0-8",
+    "tip": [
+      -89.81891491690254,
+      21.25454773906032
+    ],
+    "referenceLatitude2011": 21.254596776935124,
+    "registrationProxyM": 12.920901052171244
+  },
+  {
+    "profile": "SC-251-0-10",
+    "tip": [
+      -89.81757542172049,
+      21.254593734687568
+    ],
+    "referenceLatitude2011": 21.25471676545782,
+    "registrationProxyM": 12.920901052171244
+  },
+  {
+    "profile": "SC-251-0-11",
+    "tip": [
+      -89.81715833821868,
+      21.25469322517994
+    ],
+    "referenceLatitude2011": 21.254776759682517,
+    "supplemental": true,
+    "registrationProxyM": 12.920901052171244
+  },
+  {
+    "profile": "SC-251-0-12",
+    "tip": [
+      -89.81632616313743,
+      21.25487152059034
+    ],
+    "referenceLatitude2011": 21.2548967480586,
+    "registrationProxyM": 12.920901052171244
+  },
+  {
+    "profile": "SC-614-0-0",
+    "tip": [
+      -89.81545015367318,
+      21.25488076969186
+    ],
+    "referenceLatitude2011": 21.255026735355727,
+    "registrationProxyM": 12.920901052171244
+  },
+  {
+    "profile": "SC-244-0-0",
+    "tip": [
+      -89.81443064602662,
+      21.255096748545927
+    ],
+    "referenceLatitude2011": 21.255146723528178,
+    "registrationProxyM": 12.920901052171244
+  },
+  {
+    "profile": "SC-231-0-0",
+    "tip": [
+      -89.81275230646133,
+      21.25530170810627
+    ],
+    "referenceLatitude2011": 21.255386699579862,
+    "registrationProxyM": 12.338731539343904
+  },
+  {
+    "profile": "SC-231-0-1",
+    "tip": [
+      -89.81231242418289,
+      21.255299208356305
+    ],
+    "referenceLatitude2011": 21.25545669252129,
+    "registrationProxyM": 12.338731539343904
+  },
+  {
+    "profile": "SC-231-0-3",
+    "tip": [
+      -89.81092840433121,
+      21.2555766803435
+    ],
+    "referenceLatitude2011": 21.25567667012067,
+    "registrationProxyM": 12.338731539343904
+  },
+  {
+    "profile": "SC-231-0-4",
+    "tip": [
+      -89.8106387257576,
+      21.255679169864234
+    ],
+    "referenceLatitude2011": 21.25571666601254,
+    "registrationProxyM": 12.338731539343904
+  },
+  {
+    "profile": "SC-231-0-6",
+    "tip": [
+      -89.80918765068054,
+      21.255896647391523
+    ],
+    "referenceLatitude2011": 21.255946642179993,
+    "registrationProxyM": 12.920901052171244
+  },
+  {
+    "profile": "SC-231-0-8",
+    "tip": [
+      -89.80809062719345,
+      21.256089127234024
+    ],
+    "referenceLatitude2011": 21.25617661798837,
+    "supplemental": true,
+    "registrationProxyM": 12.920901052171244
+  },
+  {
+    "profile": "SC-C320-0-1",
+    "tip": [
+      -89.80750992894173,
+      21.256159119841655
+    ],
+    "referenceLatitude2011": 21.25630660415601,
+    "supplemental": true,
+    "registrationProxyM": 13.340866725966494
+  },
+  {
+    "profile": "SC-243-0-1",
+    "tip": [
+      -89.80633243918419,
+      21.256465337108985
+    ],
+    "referenceLatitude2011": 21.256546578317952,
+    "supplemental": true,
+    "registrationProxyM": 12.449962098335881
+  },
+  {
+    "profile": "SC-240-0-1",
+    "tip": [
+      -89.80551168322563,
+      21.25658532410952
+    ],
+    "referenceLatitude2011": 21.256696561970614,
+    "supplemental": true,
+    "registrationProxyM": 12.74183072599852
+  },
+  {
+    "profile": "SC-C238-0-0",
+    "tip": [
+      -89.80475261807442,
+      21.256747806350266
+    ],
+    "referenceLatitude2011": 21.256926536608063,
+    "registrationProxyM": 13.120893348015597
+  },
+  {
+    "profile": "SC-C221-0-0",
+    "tip": [
+      -89.80281338095665,
+      21.25719025708183
+    ],
+    "referenceLatitude2011": 21.257306493917962,
+    "registrationProxyM": 12.920901052171244
+  },
+  {
+    "profile": "SC-218-0-0",
+    "tip": [
+      -89.80094388127327,
+      21.257612708799794
+    ],
+    "referenceLatitude2011": 21.25766645257052,
+    "registrationProxyM": 12.920901052171244
+  },
+  {
+    "profile": "PROGRESO-MARCA-218-E",
+    "tip": [
+      -89.80057910084724,
+      21.2576901998118
+    ],
+    "referenceLatitude2011": 21.257756442096195,
+    "supplemental": true,
+    "direct": true,
+    "registrationProxyM": 12.920901052171244
+  },
+  {
+    "profile": "SC-217-0-0",
+    "tip": [
+      -89.799994379282,
+      21.257815185229127
+    ],
+    "referenceLatitude2011": 21.257886426869543,
+    "registrationProxyM": 13.340866725966494
+  },
+  {
+    "profile": "SC-C241-0-0",
+    "tip": [
+      -89.80713844299316,
+      21.256206614806466
+    ],
+    "referenceLatitude2011": 21.256376596660296,
+    "registrationProxyM": 12.584575519261662,
+    "supplemental": true
+  },
+  {
+    "profile": "SC-243-0-0",
+    "tip": [
+      -89.80671465396881,
+      21.256366597733148
+    ],
+    "referenceLatitude2011": 21.256476585894436,
+    "registrationProxyM": 12.584575519261662
+  },
+  {
+    "profile": "SC-240-0-0",
+    "tip": [
+      -89.80595827102661,
+      21.256536579402344
+    ],
+    "referenceLatitude2011": 21.256586573973593,
+    "registrationProxyM": 12.920901052171244
+  }
+]

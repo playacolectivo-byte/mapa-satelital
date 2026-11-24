@@ -12,6 +12,7 @@ type Entry = {
   ready: boolean;
   failed: boolean;
   timedOut:boolean;
+  tileZoom?: number;
   used: number;
 };
 
@@ -23,6 +24,7 @@ export class RasterFrameCache {
   private entries = new Map<string, Entry>();
   private requested: string | null = null;
   private displayed: string | null = null;
+  private displayedTileZoom: number | undefined;
   private nearby: RasterFrame[] = [];
   private tick = 0;
   private timer: ReturnType<typeof setTimeout> | undefined;
@@ -36,7 +38,7 @@ export class RasterFrameCache {
   private delay: number;
   private warmDelay: number;
   private loadTimeout: number;
-  private onDisplayed?: (key:string)=>void;
+  private onDisplayed?: (key: string, tileZoom?: number) => void;
   private preserveReadyOnFailure:()=>boolean;
   private onMoveStart = () => {
     this.failedWarm.clear();
@@ -47,7 +49,19 @@ export class RasterFrameCache {
       entry.layer.remove();entry.layer.off();this.entries.delete(key);
     }
   };
-  private onMoveEnd = () => this.warm();
+  private onMoveEnd = () => {
+    const visible = this.entries.get(this.displayed ?? '');
+    if (visible?.ready && !visible.layer.isLoading()) {
+      // Leaflet can reuse decoded tiles at the new zoom without a load event.
+      const tileZoom = this.tileZoom(visible.layer.options);
+      if (tileZoom !== this.displayedTileZoom) {
+        visible.tileZoom = tileZoom;
+        this.displayedTileZoom = tileZoom;
+        this.onDisplayed?.(visible.frame.key, tileZoom);
+      }
+    }
+    this.warm();
+  };
   constructor(
     map: Leaflet.Map,
     create: (frame: RasterFrame) => Leaflet.TileLayer,
@@ -55,7 +69,7 @@ export class RasterFrameCache {
     delay = 60,
     warmDelay = 600,
     loadTimeout = 12000,
-    onDisplayed?: (key:string) => void,
+    onDisplayed?: (key: string, tileZoom?: number) => void,
     preserveReadyOnFailure:()=>boolean = ()=>false,
   ) {
     this.map = map;
@@ -121,6 +135,7 @@ export class RasterFrameCache {
         else { entry.layer.remove(); entry.layer.off(); this.entries.delete(key); }
       }
       this.displayed = null;
+      this.displayedTileZoom = undefined;
       return;
     }
     const old = this.entries.get(frame.key);
@@ -174,6 +189,12 @@ export class RasterFrameCache {
     this.entries.set(frame.key, entry);
     layer.setOpacity(0).setZIndex(1);
     layer.on('loading', () => {
+      entry.tileZoom = this.tileZoom(layer.options);
+      if (this.displayed === frame.key && this.displayedTileZoom !== undefined && this.displayedTileZoom !== entry.tileZoom) {
+        // A visible layer can change source pixels without changing editions.
+        this.displayedTileZoom = undefined;
+        this.onDisplayed?.(frame.key);
+      }
       entry.ready = false;
       entry.failed = false;
       entry.timedOut=false;
@@ -205,24 +226,31 @@ export class RasterFrameCache {
     this.trim();
     return entry;
   }
-  private display(entry: Entry) {
+  private tileZoom(options: Leaflet.TileLayerOptions) {
+    const zoom = Math.round(this.map.getZoom());
+    const clamped = Math.max(options.minNativeZoom ?? -Infinity, Math.min(options.maxNativeZoom ?? Infinity, zoom));
+    const sourceZoom = options.zoomReverse && options.maxZoom !== undefined ? options.maxZoom - clamped : clamped;
+    return sourceZoom + (options.zoomOffset ?? 0);
+  }
+  private display(entry: Entry, confirmed: boolean) {
     this.displayed = entry.frame.key;
-    this.onDisplayed?.(entry.frame.key);
+    this.displayedTileZoom = confirmed ? entry.tileZoom ?? this.tileZoom(entry.layer.options) : undefined;
     for (const other of this.entries.values()) {
       const selected = other === entry;
       other.layer.setOpacity(selected ? 1 : 0).setZIndex(selected ? 2 : 1);
     }
+    this.onDisplayed?.(entry.frame.key, this.displayedTileZoom);
   }
   private showFailure(entry:Entry){
     const previous=this.entries.get(this.displayed??'');
     if(this.preserveReadyOnFailure()&&previous&&previous!==entry&&previous.ready&&!previous.failed){entry.layer.setOpacity(0);return;}
-    this.display(entry);
+    this.display(entry, false);
   }
   private activate(entry: Entry) {
     if (this.requested !== entry.frame.key) return;
     entry.used = ++this.tick;
     entry.timedOut=false;
-    this.display(entry);
+    this.display(entry, true);
     clearTimeout(this.loadTimer);
     this.status('ready');
     this.trim();

@@ -3,7 +3,7 @@ import assert from 'node:assert/strict';
 import {readFileSync} from 'node:fs';
 import {createHash} from 'node:crypto';
 import {validateCoastalScenario} from '../lib/coastal-scenario.ts';
-import {validatePhotoCoast,photoCoastBaselineYear,photoCoastPosition,photoCoastCoordinate} from '../lib/photo-coast.ts';
+import {validatePhotoCoast,photoCoastBaselineYear,photoCoastPosition,photoCoastCoordinate,photoCoastDistance} from '../lib/photo-coast.ts';
 import {applyPhotoVisualReview} from '../lib/photo-visual-review.ts';
 import {createCoastalImageAlignment} from '../lib/coastal-image-alignment.ts';
 import {municipalDatedOptions,municipalComparisonOptions} from '../lib/coastal-photo-scopes.ts';
@@ -42,7 +42,7 @@ void test('all 17 years and 22 editions keep photographic endpoints separate fro
     const a=photoCoastPosition(photos,usable,b,null)!;
     assert.ok(r.accepted);assert.equal(Number(photos.captures[r.capture].date.slice(0,4)),year);
     const end=b===year?a.offset:r.offset_m!;
-    assert.equal(f.properties.delta_m,end-a.offset);
+    assert.equal(f.properties.delta_m,Math.sign(end-a.offset)*photoCoastDistance(photoCoastCoordinate(t,a.offset),photoCoastCoordinate(t,end)));
     assert.deepEqual(f.geometry,{type:'LineString',coordinates:[photoCoastCoordinate(t,a.offset),photoCoastCoordinate(t,end)]});
     if(b===year)assert.equal(f.properties.delta_m,0);
    }else{

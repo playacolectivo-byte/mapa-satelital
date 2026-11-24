@@ -1,0 +1,599 @@
+{
+  "version": 1,
+  "field_validated": false,
+  "review_id": "coastal-audit-progreso-yucalpeten-20261116",
+  "timestamp": "2026-11-16T21:57:43.197292+00:00",
+  "data_sha256": "250fa694f9c3829ac0d41598454e28988a6c681fc36c6330c0f950eb08aa76e5",
+  "model_sha256": "21ed574a9c464cab785197f95568e242da2358cae23b08a420afde98aa294513",
+  "method_url": "/data/shorelines/photo-alignment/coastal-audit-progreso-yucalpeten-20261116-method.md",
+  "decisions": [
+    {
+      "profileId": "SC-90-0-10",
+      "capture": 219,
+      "oldOffset": -16,
+      "oldAccepted": true,
+      "newOffset": -17.0,
+      "newAccepted": true,
+      "sourceRelease": 26334,
+      "date": "2023-09-21",
+      "positionVisualInterval": [
+        -21.0,
+        -14.0
+      ],
+      "uncertaintyM": 4.0,
+      "evidence": [
+        {
+          "path": "/data/shorelines/photo-alignment/coastal-audit-progreso-yucalpeten-20261116/yucalpeten-2011-2023.jpg",
+          "sha256": "0f14ea60073a8bd8e4e8b04a83bff8b0573dceaf5258e83e2ce1bc3c5eb93c3d"
+        },
+        {
+          "path": "/data/shorelines/photo-alignment/coastal-audit-progreso-yucalpeten-20261116/yucalpeten-mosaicos-2023.jpg",
+          "sha256": "cb71ff7980e82ba2577fc8fe6a3678fcebf72ad1d9b57b9e06db4c2e7fa004c0"
+        }
+      ],
+      "metadata": {
+        "release": 26334,
+        "positionOffset": -17.0,
+        "url": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2026_r07/MapServer/6/query?f=json&where=MinMapLevel+%3C%3D+17+AND+MaxMapLevel+%3E%3D+17&geometryType=esriGeometryEnvelope&geometry=-89.69045033%2C21.28211476%2C-89.69032392%2C21.28228832&inSR=4326&outSR=4326&outFields=OBJECTID%2CSRC_DATE2%2CSRC_DESC%2CSAMP_RES%2CSRC_ACC%2CMinMapLevel%2CMaxMapLevel&returnGeometry=true",
+        "sha256": "8e4f9e29d6aef6f189b864062bda5134392c20fc227e8027c7ceb8baacaa436f",
+        "file": "huellas-26334-ffb5c1796b0.json",
+        "checks": [
+          {
+            "delta_m": -3,
+            "date": "2023-09-21",
+            "sensor": "WV02"
+          },
+          {
+            "delta_m": 0,
+            "date": "2023-09-21",
+            "sensor": "WV02"
+          },
+          {
+            "delta_m": 3,
+            "date": "2023-09-21",
+            "sensor": "WV02"
+          }
+        ]
+      },
+      "equivalentMetadata": [
+        {
+          "release": 25285,
+          "positionOffset": -17.0,
+          "url": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2025_r05/MapServer/6/query?f=json&where=MinMapLevel+%3C%3D+17+AND+MaxMapLevel+%3E%3D+17&geometryType=esriGeometryEnvelope&geometry=-89.69045033%2C21.28211476%2C-89.69032392%2C21.28228832&inSR=4326&outSR=4326&outFields=OBJECTID%2CSRC_DATE2%2CSRC_DESC%2CSAMP_RES%2CSRC_ACC%2CMinMapLevel%2CMaxMapLevel&returnGeometry=true",
+          "sha256": "a346212826186b88b941f1259ba5019098f6e520f722cabaea032f4ae0cc6d88",
+          "file": "huellas-25285-854ce0e25d7.json",
+          "checks": [
+            {
+              "delta_m": -3,
+              "date": "2023-09-21",
+              "sensor": "WV02"
+            },
+            {
+              "delta_m": 0,
+              "date": "2023-09-21",
+              "sensor": "WV02"
+            },
+            {
+              "delta_m": 3,
+              "date": "2023-09-21",
+              "sensor": "WV02"
+            }
+          ],
+          "imagery_match": {
+            "evidence": {
+              "path": "/data/shorelines/photo-alignment/coastal-audit-progreso-yucalpeten-20261116/yucalpeten-mosaicos-2023.jpg",
+              "sha256": "cb71ff7980e82ba2577fc8fe6a3678fcebf72ad1d9b57b9e06db4c2e7fa004c0"
+            },
+            "correlation": 0.9991707801818848,
+            "mean_rgb_error": 1.2297008037567139
+          }
+        }
+      ],
+      "reason": "Se cotejan el borde marino de la arena continua en las imágenes de 2011 y 2023 y la misma toma de 2023 en las dos ediciones. En la toma reciente, las franjas verdes anteriores al contacto corresponden a agua somera."
+    },
+    {
+      "profileId": "SC-90-0-11",
+      "capture": 219,
+      "oldOffset": -15,
+      "oldAccepted": true,
+      "newOffset": -18.0,
+      "newAccepted": true,
+      "sourceRelease": 26334,
+      "date": "2023-09-21",
+      "positionVisualInterval": [
+        -21.5,
+        -14.0
+      ],
+      "uncertaintyM": 4.0,
+      "evidence": [
+        {
+          "path": "/data/shorelines/photo-alignment/coastal-audit-progreso-yucalpeten-20261116/yucalpeten-2011-2023.jpg",
+          "sha256": "0f14ea60073a8bd8e4e8b04a83bff8b0573dceaf5258e83e2ce1bc3c5eb93c3d"
+        },
+        {
+          "path": "/data/shorelines/photo-alignment/coastal-audit-progreso-yucalpeten-20261116/yucalpeten-mosaicos-2023.jpg",
+          "sha256": "cb71ff7980e82ba2577fc8fe6a3678fcebf72ad1d9b57b9e06db4c2e7fa004c0"
+        }
+      ],
+      "metadata": {
+        "release": 26334,
+        "positionOffset": -18.0,
+        "url": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2026_r07/MapServer/6/query?f=json&where=MinMapLevel+%3C%3D+17+AND+MaxMapLevel+%3E%3D+17&geometryType=esriGeometryEnvelope&geometry=-89.68949401%2C21.28223333%2C-89.68936520%2C21.28240660&inSR=4326&outSR=4326&outFields=OBJECTID%2CSRC_DATE2%2CSRC_DESC%2CSAMP_RES%2CSRC_ACC%2CMinMapLevel%2CMaxMapLevel&returnGeometry=true",
+        "sha256": "8e4f9e29d6aef6f189b864062bda5134392c20fc227e8027c7ceb8baacaa436f",
+        "file": "huellas-26334-6cfc18a5d52.json",
+        "checks": [
+          {
+            "delta_m": -3,
+            "date": "2023-09-21",
+            "sensor": "WV02"
+          },
+          {
+            "delta_m": 0,
+            "date": "2023-09-21",
+            "sensor": "WV02"
+          },
+          {
+            "delta_m": 3,
+            "date": "2023-09-21",
+            "sensor": "WV02"
+          }
+        ]
+      },
+      "equivalentMetadata": [
+        {
+          "release": 25285,
+          "positionOffset": -18.0,
+          "url": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2025_r05/MapServer/6/query?f=json&where=MinMapLevel+%3C%3D+17+AND+MaxMapLevel+%3E%3D+17&geometryType=esriGeometryEnvelope&geometry=-89.68949401%2C21.28223333%2C-89.68936520%2C21.28240660&inSR=4326&outSR=4326&outFields=OBJECTID%2CSRC_DATE2%2CSRC_DESC%2CSAMP_RES%2CSRC_ACC%2CMinMapLevel%2CMaxMapLevel&returnGeometry=true",
+          "sha256": "a346212826186b88b941f1259ba5019098f6e520f722cabaea032f4ae0cc6d88",
+          "file": "huellas-25285-6f88acc52ff.json",
+          "checks": [
+            {
+              "delta_m": -3,
+              "date": "2023-09-21",
+              "sensor": "WV02"
+            },
+            {
+              "delta_m": 0,
+              "date": "2023-09-21",
+              "sensor": "WV02"
+            },
+            {
+              "delta_m": 3,
+              "date": "2023-09-21",
+              "sensor": "WV02"
+            }
+          ],
+          "imagery_match": {
+            "evidence": {
+              "path": "/data/shorelines/photo-alignment/coastal-audit-progreso-yucalpeten-20261116/yucalpeten-mosaicos-2023.jpg",
+              "sha256": "cb71ff7980e82ba2577fc8fe6a3678fcebf72ad1d9b57b9e06db4c2e7fa004c0"
+            },
+            "correlation": 0.9992461800575256,
+            "mean_rgb_error": 1.390075922012329
+          }
+        }
+      ],
+      "reason": "Se cotejan el borde marino de la arena continua en las imágenes de 2011 y 2023 y la misma toma de 2023 en las dos ediciones. En la toma reciente, las franjas verdes anteriores al contacto corresponden a agua somera."
+    },
+    {
+      "profileId": "SC-90-0-13",
+      "capture": 219,
+      "oldOffset": -13,
+      "oldAccepted": true,
+      "newOffset": -17.0,
+      "newAccepted": true,
+      "sourceRelease": 26334,
+      "date": "2023-09-21",
+      "positionVisualInterval": [
+        -20.5,
+        -13.0
+      ],
+      "uncertaintyM": 4.0,
+      "evidence": [
+        {
+          "path": "/data/shorelines/photo-alignment/coastal-audit-progreso-yucalpeten-20261116/yucalpeten-2011-2023.jpg",
+          "sha256": "0f14ea60073a8bd8e4e8b04a83bff8b0573dceaf5258e83e2ce1bc3c5eb93c3d"
+        },
+        {
+          "path": "/data/shorelines/photo-alignment/coastal-audit-progreso-yucalpeten-20261116/yucalpeten-mosaicos-2023.jpg",
+          "sha256": "cb71ff7980e82ba2577fc8fe6a3678fcebf72ad1d9b57b9e06db4c2e7fa004c0"
+        }
+      ],
+      "metadata": {
+        "release": 26334,
+        "positionOffset": -17.0,
+        "url": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2026_r07/MapServer/6/query?f=json&where=MinMapLevel+%3C%3D+17+AND+MaxMapLevel+%3E%3D+17&geometryType=esriGeometryEnvelope&geometry=-89.68760475%2C21.28250287%2C-89.68747826%2C21.28267643&inSR=4326&outSR=4326&outFields=OBJECTID%2CSRC_DATE2%2CSRC_DESC%2CSAMP_RES%2CSRC_ACC%2CMinMapLevel%2CMaxMapLevel&returnGeometry=true",
+        "sha256": "8e4f9e29d6aef6f189b864062bda5134392c20fc227e8027c7ceb8baacaa436f",
+        "file": "huellas-26334-00e0606473f.json",
+        "checks": [
+          {
+            "delta_m": -3,
+            "date": "2023-09-21",
+            "sensor": "WV02"
+          },
+          {
+            "delta_m": 0,
+            "date": "2023-09-21",
+            "sensor": "WV02"
+          },
+          {
+            "delta_m": 3,
+            "date": "2023-09-21",
+            "sensor": "WV02"
+          }
+        ]
+      },
+      "equivalentMetadata": [
+        {
+          "release": 25285,
+          "positionOffset": -17.0,
+          "url": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2025_r05/MapServer/6/query?f=json&where=MinMapLevel+%3C%3D+17+AND+MaxMapLevel+%3E%3D+17&geometryType=esriGeometryEnvelope&geometry=-89.68760475%2C21.28250287%2C-89.68747826%2C21.28267643&inSR=4326&outSR=4326&outFields=OBJECTID%2CSRC_DATE2%2CSRC_DESC%2CSAMP_RES%2CSRC_ACC%2CMinMapLevel%2CMaxMapLevel&returnGeometry=true",
+          "sha256": "a346212826186b88b941f1259ba5019098f6e520f722cabaea032f4ae0cc6d88",
+          "file": "huellas-25285-d22cda0d188.json",
+          "checks": [
+            {
+              "delta_m": -3,
+              "date": "2023-09-21",
+              "sensor": "WV02"
+            },
+            {
+              "delta_m": 0,
+              "date": "2023-09-21",
+              "sensor": "WV02"
+            },
+            {
+              "delta_m": 3,
+              "date": "2023-09-21",
+              "sensor": "WV02"
+            }
+          ],
+          "imagery_match": {
+            "evidence": {
+              "path": "/data/shorelines/photo-alignment/coastal-audit-progreso-yucalpeten-20261116/yucalpeten-mosaicos-2023.jpg",
+              "sha256": "cb71ff7980e82ba2577fc8fe6a3678fcebf72ad1d9b57b9e06db4c2e7fa004c0"
+            },
+            "correlation": 0.9960536956787109,
+            "mean_rgb_error": 1.4899097681045532
+          }
+        }
+      ],
+      "reason": "Se cotejan el borde marino de la arena continua en las imágenes de 2011 y 2023 y la misma toma de 2023 en las dos ediciones. En la toma reciente, las franjas verdes anteriores al contacto corresponden a agua somera."
+    },
+    {
+      "profileId": "SC-90-0-5",
+      "capture": 219,
+      "oldOffset": -5.5,
+      "oldAccepted": true,
+      "newOffset": -9.5,
+      "newAccepted": true,
+      "sourceRelease": 26334,
+      "date": "2023-09-21",
+      "positionVisualInterval": [
+        -13.0,
+        -5.5
+      ],
+      "uncertaintyM": 4.0,
+      "evidence": [
+        {
+          "path": "/data/shorelines/photo-alignment/coastal-audit-progreso-yucalpeten-20261116/yucalpeten-2011-2023.jpg",
+          "sha256": "0f14ea60073a8bd8e4e8b04a83bff8b0573dceaf5258e83e2ce1bc3c5eb93c3d"
+        },
+        {
+          "path": "/data/shorelines/photo-alignment/coastal-audit-progreso-yucalpeten-20261116/yucalpeten-mosaicos-2023.jpg",
+          "sha256": "cb71ff7980e82ba2577fc8fe6a3678fcebf72ad1d9b57b9e06db4c2e7fa004c0"
+        }
+      ],
+      "metadata": {
+        "release": 26334,
+        "positionOffset": -9.5,
+        "url": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2026_r07/MapServer/6/query?f=json&where=MinMapLevel+%3C%3D+17+AND+MaxMapLevel+%3E%3D+17&geometryType=esriGeometryEnvelope&geometry=-89.69522755%2C21.28171967%2C-89.69510511%2C21.28189352&inSR=4326&outSR=4326&outFields=OBJECTID%2CSRC_DATE2%2CSRC_DESC%2CSAMP_RES%2CSRC_ACC%2CMinMapLevel%2CMaxMapLevel&returnGeometry=true",
+        "sha256": "8e4f9e29d6aef6f189b864062bda5134392c20fc227e8027c7ceb8baacaa436f",
+        "file": "huellas-26334-5eea86189ea.json",
+        "checks": [
+          {
+            "delta_m": -3,
+            "date": "2023-09-21",
+            "sensor": "WV02"
+          },
+          {
+            "delta_m": 0,
+            "date": "2023-09-21",
+            "sensor": "WV02"
+          },
+          {
+            "delta_m": 3,
+            "date": "2023-09-21",
+            "sensor": "WV02"
+          }
+        ]
+      },
+      "equivalentMetadata": [
+        {
+          "release": 25285,
+          "positionOffset": -9.5,
+          "url": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2025_r05/MapServer/6/query?f=json&where=MinMapLevel+%3C%3D+17+AND+MaxMapLevel+%3E%3D+17&geometryType=esriGeometryEnvelope&geometry=-89.69522755%2C21.28171967%2C-89.69510511%2C21.28189352&inSR=4326&outSR=4326&outFields=OBJECTID%2CSRC_DATE2%2CSRC_DESC%2CSAMP_RES%2CSRC_ACC%2CMinMapLevel%2CMaxMapLevel&returnGeometry=true",
+          "sha256": "a346212826186b88b941f1259ba5019098f6e520f722cabaea032f4ae0cc6d88",
+          "file": "huellas-25285-085b57c058d.json",
+          "checks": [
+            {
+              "delta_m": -3,
+              "date": "2023-09-21",
+              "sensor": "WV02"
+            },
+            {
+              "delta_m": 0,
+              "date": "2023-09-21",
+              "sensor": "WV02"
+            },
+            {
+              "delta_m": 3,
+              "date": "2023-09-21",
+              "sensor": "WV02"
+            }
+          ],
+          "imagery_match": {
+            "evidence": {
+              "path": "/data/shorelines/photo-alignment/coastal-audit-progreso-yucalpeten-20261116/yucalpeten-mosaicos-2023.jpg",
+              "sha256": "cb71ff7980e82ba2577fc8fe6a3678fcebf72ad1d9b57b9e06db4c2e7fa004c0"
+            },
+            "correlation": 0.9984954595565796,
+            "mean_rgb_error": 1.4584519863128662
+          }
+        }
+      ],
+      "reason": "Se cotejan el borde marino de la arena continua en las imágenes de 2011 y 2023 y la misma toma de 2023 en las dos ediciones. En la toma reciente, las franjas verdes anteriores al contacto corresponden a agua somera."
+    },
+    {
+      "profileId": "SC-90-0-6",
+      "capture": 219,
+      "oldOffset": -7,
+      "oldAccepted": true,
+      "newOffset": -10.0,
+      "newAccepted": true,
+      "sourceRelease": 26334,
+      "date": "2023-09-21",
+      "positionVisualInterval": [
+        -13.5,
+        -6.0
+      ],
+      "uncertaintyM": 4.0,
+      "evidence": [
+        {
+          "path": "/data/shorelines/photo-alignment/coastal-audit-progreso-yucalpeten-20261116/yucalpeten-2011-2023.jpg",
+          "sha256": "0f14ea60073a8bd8e4e8b04a83bff8b0573dceaf5258e83e2ce1bc3c5eb93c3d"
+        },
+        {
+          "path": "/data/shorelines/photo-alignment/coastal-audit-progreso-yucalpeten-20261116/yucalpeten-mosaicos-2023.jpg",
+          "sha256": "cb71ff7980e82ba2577fc8fe6a3678fcebf72ad1d9b57b9e06db4c2e7fa004c0"
+        }
+      ],
+      "metadata": {
+        "release": 26334,
+        "positionOffset": -10.0,
+        "url": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2026_r07/MapServer/6/query?f=json&where=MinMapLevel+%3C%3D+17+AND+MaxMapLevel+%3E%3D+17&geometryType=esriGeometryEnvelope&geometry=-89.69427074%2C21.28177019%2C-89.69414800%2C21.28194403&inSR=4326&outSR=4326&outFields=OBJECTID%2CSRC_DATE2%2CSRC_DESC%2CSAMP_RES%2CSRC_ACC%2CMinMapLevel%2CMaxMapLevel&returnGeometry=true",
+        "sha256": "8e4f9e29d6aef6f189b864062bda5134392c20fc227e8027c7ceb8baacaa436f",
+        "file": "huellas-26334-b3f3e77ffb1.json",
+        "checks": [
+          {
+            "delta_m": -3,
+            "date": "2023-09-21",
+            "sensor": "WV02"
+          },
+          {
+            "delta_m": 0,
+            "date": "2023-09-21",
+            "sensor": "WV02"
+          },
+          {
+            "delta_m": 3,
+            "date": "2023-09-21",
+            "sensor": "WV02"
+          }
+        ]
+      },
+      "equivalentMetadata": [
+        {
+          "release": 25285,
+          "positionOffset": -10.0,
+          "url": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2025_r05/MapServer/6/query?f=json&where=MinMapLevel+%3C%3D+17+AND+MaxMapLevel+%3E%3D+17&geometryType=esriGeometryEnvelope&geometry=-89.69427074%2C21.28177019%2C-89.69414800%2C21.28194403&inSR=4326&outSR=4326&outFields=OBJECTID%2CSRC_DATE2%2CSRC_DESC%2CSAMP_RES%2CSRC_ACC%2CMinMapLevel%2CMaxMapLevel&returnGeometry=true",
+          "sha256": "a346212826186b88b941f1259ba5019098f6e520f722cabaea032f4ae0cc6d88",
+          "file": "huellas-25285-4e1b9b1ca2c.json",
+          "checks": [
+            {
+              "delta_m": -3,
+              "date": "2023-09-21",
+              "sensor": "WV02"
+            },
+            {
+              "delta_m": 0,
+              "date": "2023-09-21",
+              "sensor": "WV02"
+            },
+            {
+              "delta_m": 3,
+              "date": "2023-09-21",
+              "sensor": "WV02"
+            }
+          ],
+          "imagery_match": {
+            "evidence": {
+              "path": "/data/shorelines/photo-alignment/coastal-audit-progreso-yucalpeten-20261116/yucalpeten-mosaicos-2023.jpg",
+              "sha256": "cb71ff7980e82ba2577fc8fe6a3678fcebf72ad1d9b57b9e06db4c2e7fa004c0"
+            },
+            "correlation": 0.9982515573501587,
+            "mean_rgb_error": 1.578703761100769
+          }
+        }
+      ],
+      "reason": "Se cotejan el borde marino de la arena continua en las imágenes de 2011 y 2023 y la misma toma de 2023 en las dos ediciones. En la toma reciente, las franjas verdes anteriores al contacto corresponden a agua somera."
+    },
+    {
+      "profileId": "SC-90-0-8",
+      "capture": 219,
+      "oldOffset": -11.5,
+      "oldAccepted": true,
+      "newOffset": -15.5,
+      "newAccepted": true,
+      "sourceRelease": 26334,
+      "date": "2023-09-21",
+      "positionVisualInterval": [
+        -19.0,
+        -11.5
+      ],
+      "uncertaintyM": 4.0,
+      "evidence": [
+        {
+          "path": "/data/shorelines/photo-alignment/coastal-audit-progreso-yucalpeten-20261116/yucalpeten-2011-2023.jpg",
+          "sha256": "0f14ea60073a8bd8e4e8b04a83bff8b0573dceaf5258e83e2ce1bc3c5eb93c3d"
+        },
+        {
+          "path": "/data/shorelines/photo-alignment/coastal-audit-progreso-yucalpeten-20261116/yucalpeten-mosaicos-2023.jpg",
+          "sha256": "cb71ff7980e82ba2577fc8fe6a3678fcebf72ad1d9b57b9e06db4c2e7fa004c0"
+        }
+      ],
+      "metadata": {
+        "release": 26334,
+        "positionOffset": -15.5,
+        "url": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2026_r07/MapServer/6/query?f=json&where=MinMapLevel+%3C%3D+17+AND+MaxMapLevel+%3E%3D+17&geometryType=esriGeometryEnvelope&geometry=-89.69235236%2C21.28190857%2C-89.69222488%2C21.28208201&inSR=4326&outSR=4326&outFields=OBJECTID%2CSRC_DATE2%2CSRC_DESC%2CSAMP_RES%2CSRC_ACC%2CMinMapLevel%2CMaxMapLevel&returnGeometry=true",
+        "sha256": "8e4f9e29d6aef6f189b864062bda5134392c20fc227e8027c7ceb8baacaa436f",
+        "file": "huellas-26334-e26de1dc88e.json",
+        "checks": [
+          {
+            "delta_m": -3,
+            "date": "2023-09-21",
+            "sensor": "WV02"
+          },
+          {
+            "delta_m": 0,
+            "date": "2023-09-21",
+            "sensor": "WV02"
+          },
+          {
+            "delta_m": 3,
+            "date": "2023-09-21",
+            "sensor": "WV02"
+          }
+        ]
+      },
+      "equivalentMetadata": [
+        {
+          "release": 25285,
+          "positionOffset": -15.5,
+          "url": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2025_r05/MapServer/6/query?f=json&where=MinMapLevel+%3C%3D+17+AND+MaxMapLevel+%3E%3D+17&geometryType=esriGeometryEnvelope&geometry=-89.69235236%2C21.28190857%2C-89.69222488%2C21.28208201&inSR=4326&outSR=4326&outFields=OBJECTID%2CSRC_DATE2%2CSRC_DESC%2CSAMP_RES%2CSRC_ACC%2CMinMapLevel%2CMaxMapLevel&returnGeometry=true",
+          "sha256": "a346212826186b88b941f1259ba5019098f6e520f722cabaea032f4ae0cc6d88",
+          "file": "huellas-25285-b534213a416.json",
+          "checks": [
+            {
+              "delta_m": -3,
+              "date": "2023-09-21",
+              "sensor": "WV02"
+            },
+            {
+              "delta_m": 0,
+              "date": "2023-09-21",
+              "sensor": "WV02"
+            },
+            {
+              "delta_m": 3,
+              "date": "2023-09-21",
+              "sensor": "WV02"
+            }
+          ],
+          "imagery_match": {
+            "evidence": {
+              "path": "/data/shorelines/photo-alignment/coastal-audit-progreso-yucalpeten-20261116/yucalpeten-mosaicos-2023.jpg",
+              "sha256": "cb71ff7980e82ba2577fc8fe6a3678fcebf72ad1d9b57b9e06db4c2e7fa004c0"
+            },
+            "correlation": 0.9984890222549438,
+            "mean_rgb_error": 1.4234330654144287
+          }
+        }
+      ],
+      "reason": "Se cotejan el borde marino de la arena continua en las imágenes de 2011 y 2023 y la misma toma de 2023 en las dos ediciones. En la toma reciente, las franjas verdes anteriores al contacto corresponden a agua somera."
+    },
+    {
+      "profileId": "SC-90-0-9",
+      "capture": 219,
+      "oldOffset": -13,
+      "oldAccepted": true,
+      "newOffset": -16.0,
+      "newAccepted": true,
+      "sourceRelease": 26334,
+      "date": "2023-09-21",
+      "positionVisualInterval": [
+        -19.5,
+        -12.0
+      ],
+      "uncertaintyM": 4.0,
+      "evidence": [
+        {
+          "path": "/data/shorelines/photo-alignment/coastal-audit-progreso-yucalpeten-20261116/yucalpeten-2011-2023.jpg",
+          "sha256": "0f14ea60073a8bd8e4e8b04a83bff8b0573dceaf5258e83e2ce1bc3c5eb93c3d"
+        },
+        {
+          "path": "/data/shorelines/photo-alignment/coastal-audit-progreso-yucalpeten-20261116/yucalpeten-mosaicos-2023.jpg",
+          "sha256": "cb71ff7980e82ba2577fc8fe6a3678fcebf72ad1d9b57b9e06db4c2e7fa004c0"
+        }
+      ],
+      "metadata": {
+        "release": 26334,
+        "positionOffset": -16.0,
+        "url": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2026_r07/MapServer/6/query?f=json&where=MinMapLevel+%3C%3D+17+AND+MaxMapLevel+%3E%3D+17&geometryType=esriGeometryEnvelope&geometry=-89.69140239%2C21.28202986%2C-89.69127479%2C21.28220329&inSR=4326&outSR=4326&outFields=OBJECTID%2CSRC_DATE2%2CSRC_DESC%2CSAMP_RES%2CSRC_ACC%2CMinMapLevel%2CMaxMapLevel&returnGeometry=true",
+        "sha256": "8e4f9e29d6aef6f189b864062bda5134392c20fc227e8027c7ceb8baacaa436f",
+        "file": "huellas-26334-4e3560abd93.json",
+        "checks": [
+          {
+            "delta_m": -3,
+            "date": "2023-09-21",
+            "sensor": "WV02"
+          },
+          {
+            "delta_m": 0,
+            "date": "2023-09-21",
+            "sensor": "WV02"
+          },
+          {
+            "delta_m": 3,
+            "date": "2023-09-21",
+            "sensor": "WV02"
+          }
+        ]
+      },
+      "equivalentMetadata": [
+        {
+          "release": 25285,
+          "positionOffset": -16.0,
+          "url": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2025_r05/MapServer/6/query?f=json&where=MinMapLevel+%3C%3D+17+AND+MaxMapLevel+%3E%3D+17&geometryType=esriGeometryEnvelope&geometry=-89.69140239%2C21.28202986%2C-89.69127479%2C21.28220329&inSR=4326&outSR=4326&outFields=OBJECTID%2CSRC_DATE2%2CSRC_DESC%2CSAMP_RES%2CSRC_ACC%2CMinMapLevel%2CMaxMapLevel&returnGeometry=true",
+          "sha256": "a346212826186b88b941f1259ba5019098f6e520f722cabaea032f4ae0cc6d88",
+          "file": "huellas-25285-4a485b03c26.json",
+          "checks": [
+            {
+              "delta_m": -3,
+              "date": "2023-09-21",
+              "sensor": "WV02"
+            },
+            {
+              "delta_m": 0,
+              "date": "2023-09-21",
+              "sensor": "WV02"
+            },
+            {
+              "delta_m": 3,
+              "date": "2023-09-21",
+              "sensor": "WV02"
+            }
+          ],
+          "imagery_match": {
+            "evidence": {
+              "path": "/data/shorelines/photo-alignment/coastal-audit-progreso-yucalpeten-20261116/yucalpeten-mosaicos-2023.jpg",
+              "sha256": "cb71ff7980e82ba2577fc8fe6a3678fcebf72ad1d9b57b9e06db4c2e7fa004c0"
+            },
+            "correlation": 0.9989506006240845,
+            "mean_rgb_error": 1.3852089643478394
+          }
+        }
+      ],
+      "reason": "Se cotejan el borde marino de la arena continua en las imágenes de 2011 y 2023 y la misma toma de 2023 en las dos ediciones. En la toma reciente, las franjas verdes anteriores al contacto corresponden a agua somera."
+    }
+  ]
+}

@@ -11,10 +11,11 @@ import {
 } from 'react';
 import type * as Leaflet from 'leaflet';
 import { themes, type TerritoryFeature } from '@/lib/territory';
+import {projectPlaceLabel,hasProjectCoastLabel,PROJECT_COAST_LABEL_NOTE} from '@/lib/project-coast-labels';
 import { geometryBounds, type Bounds } from '@/lib/view';
 import { coastalPopup, SHORELINE_COLORS, type CoastalAnalysisData } from '@/lib/coastal-analysis';
-import {coastalDirectionUnresolved} from '@/lib/coastal-direction';
-import {coastalSpacingLinks} from '@/lib/coastal-spacing';
+import {coastalApparentDirection} from '@/lib/coastal-direction';
+import {coastalSpacingLinks,coastalGridSpacingLinks} from '@/lib/coastal-spacing';
 import {esriPhotoMetadataZoom} from '@/lib/esri-photo-options';
 import {cachedEsriNativeZoom,cachedRenderedEsriMetadata} from '@/lib/esri-catalogue';
 import { imageryService } from '@/lib/imagery';
@@ -26,7 +27,7 @@ import { createBarLabelElement, createBarExplanationElement } from '@/lib/bar-la
 import { createRoadKilometreButton, createRoadKilometreExplanation, visibleRoadKilometres } from '@/lib/road-kilometres';
 import { isMangroveChange, mangroveChangeColor } from '@/lib/mangrove-history';
 import { coastalCases } from '@/lib/coastal-issues';
-import { satellitePixelRatio } from '@/lib/satellite-detail';
+import { satellitePixelRatio,esriEditionNativeZoom } from '@/lib/satellite-detail';
 import type { StructureFeature } from '@/lib/coastal-structures';
 import {
   batchOutlines,
@@ -37,10 +38,11 @@ import {
 import { RasterFrameCache, type RasterFrame } from '@/lib/raster-frame-cache';
 import { resilientTileLayer } from '@/lib/resilient-tile-layer';
 import { onMapSettled } from '@/lib/map-settled';
+import { guardMapDragRelease } from '@/lib/map-drag-release';
 import {keepMapPopupsVisible} from '@/lib/popup-viewport';
 import {
   evidenceColors,
-  evidenceViews,
+  geotubeBounds,
   type EvidenceData,
   type EvidenceKind,
   type EvidenceFeature,
@@ -69,13 +71,14 @@ function useEvidencePaths(
     const m = map.current,
       L = api.current;
     if (!loaded || !m || !L || !visible || !data) return;
-    const pane = kind === 'geotubes' ? 'coastal-geotubes' : 'coastal-evidence';
+    const pane = kind === 'geotubes' ? 'coastal-geotubes'
+      : kind === 'groynes' ? 'coastal-groynes' : 'coastal-evidence';
     const halo = L.geoJSON(undefined, {
       pane,
       interactive: false,
       style: {
         color: '#142b30',
-        weight: kind === 'geotubes' ? 9 : 5.5,
+        weight: kind === 'geotubes' ? 9 : kind === 'groynes' ? 7 : 5.5,
         opacity: 0.85,
         fill: false,
       },
@@ -87,15 +90,17 @@ function useEvidencePaths(
           feature && isMangroveChange(feature as EvidenceFeature)
             ? mangroveChangeColor(feature as EvidenceFeature)
             : evidenceColors[kind];
+        const groyneReference = kind === 'groynes' && feature?.properties.temporal_state === 'reference';
         return {
           color,
           fillColor: color,
-          weight: kind === 'geotubes' ? 5 : 2.5,
+          weight: kind === 'geotubes' ? 5 : kind === 'groynes' ? 4 : 2.5,
           opacity: 1,
           dashArray:
-            feature?.properties.temporal_state === 'deflated' ||
+            groyneReference ? '4 6' : feature?.properties.temporal_state === 'deflated' ||
             (kind === 'geotubes' &&
-              feature?.properties.temporal_state === 'reference')
+              (feature?.properties.temporal_state === 'reference' ||
+                feature?.properties.type === 'geotube_probable_axis'))
               ? kind === 'geotubes'
                 ? '6 10'
                 : '5 5'
@@ -105,16 +110,26 @@ function useEvidencePaths(
         };
       },
       onEachFeature: (feature, shape) => {
-        shape.on('click', () =>
-          latest.current.onEvidenceSelect({
-            kind,
-            feature: feature as EvidenceFeature,
-          }),
-        );
+        const select = () => latest.current.onEvidenceSelect({ kind, feature: feature as EvidenceFeature });
+        shape.on('click', select);
         shape.on('add', () => {
           const element = (shape as Leaflet.Path).getElement?.();
           element?.setAttribute('data-evidence-id', String(feature.id ?? ''));
           element?.setAttribute('data-evidence-kind', kind);
+          if (kind !== 'groynes' || !element) return;
+          element.setAttribute('tabindex', '0');
+          element.setAttribute('role', 'button');
+          const label = String(feature.properties?.label ?? 'Ver espolón');
+          element.setAttribute('aria-label', feature.properties?.temporal_state === 'reference'
+            ? label + ' · referencia de otra toma'
+            : label);
+          (element as HTMLElement | SVGElement).onkeydown = (event) => {
+            if (event.key === 'Enter' || event.key === ' ') {
+              event.preventDefault();
+              event.stopPropagation();
+              select();
+            }
+          };
         });
       },
     });
@@ -156,27 +171,43 @@ function useEvidencePaths(
   }, [kind, data, visible, loaded, map, api, latest, selection]);
 }
 
-function mountCoastalLayer(m:Leaflet.Map,L:typeof Leaflet,data:CoastalAnalysisData,color:string,bars:boolean){
+// Draw the bar on the vertical through its reference. This is presentation
+// geometry; the source positions used by the calculation stay in the layer.
+function displayCoastalBar(feature: CoastalAnalysisData['features'][number]){
+  if(feature.geometry.type!=='LineString'||feature.geometry.coordinates.length!==2)return feature;
+  if(feature.properties.marked_shoreline_comparison===true)return feature;
+  const [start,end]=feature.geometry.coordinates;
+  const shorelineLatitude=feature.properties.display_shoreline_latitude;
+  const displayLatitude=typeof shorelineLatitude==='number'&&Number.isFinite(shorelineLatitude)?shorelineLatitude:end[1];
+  if(start[0]===end[0]&&displayLatitude===end[1])return feature;
+  return {...feature,geometry:{type:'LineString' as const,coordinates:[start,[start[0],displayLatitude]]}};
+}
+
+function mountCoastalLayer(m:Leaflet.Map,L:typeof Leaflet,data:CoastalAnalysisData,color:string,bars:boolean,continuousBars=false,onStationEdition?:TerritoryMapProps['onStationEdition']){
   const pane=m.getPane('coastal-observed')??m.createPane('coastal-observed');pane.style.zIndex='645';
   const linesPane=m.getPane('coastal-observed-lines')??m.createPane('coastal-observed-lines');linesPane.style.zIndex='644';
   const locator=(feature:GeoJSON.Feature):GeoJSON.Position|null=>feature.geometry.type==='Point'?feature.geometry.coordinates:feature.geometry.type==='LineString'?feature.geometry.coordinates.at(-1)??null:null;
 
-        const indexed=data.features.map((feature,index)=>({feature,index,bounds:geometryBounds(feature.geometry)}));
+        const indexed=data.features.map((record,index)=>{
+          const feature=bars?displayCoastalBar(record):record;
+          return {feature,index,bounds:geometryBounds(feature.geometry)};
+        });
         const live=new Map<number,{shape:Leaflet.Layer;kind:string}>();
         let addingIndex=-1;
         const overview=L.layerGroup().addTo(m);
         const referencePane=m.getPane('coastal-fixed-reference')??m.createPane('coastal-fixed-reference');referencePane.style.zIndex='647';referencePane.style.pointerEvents='none';
         const referenceMarks=L.layerGroup().addTo(m);
-        const spacingLinks=bars?coastalSpacingLinks(data.features.flatMap(feature=>{
+        const spacingLinks=bars?[...coastalGridSpacingLinks(data),...coastalSpacingLinks(data.features.flatMap(feature=>{
+          if(feature.properties.grid_spacing_m===100)return [];
           if((feature.properties?.scenario_unvalidated!==true&&feature.properties?.photo_interpretation!==true)||feature.properties.spacing_eligible===false)return [];
           const p=feature.geometry.type==='LineString'?feature.geometry.coordinates[0]:locator(feature);if(!p)return [];
           return [{id:String(feature.properties.profile_id),coordinate:[p[0],p[1]] as [number,number]}];
-        }),150):[];
+        }),150)]:[];
         const spacing=spacingLinks.length?document.createElement('canvas'):null;
         if(spacing){
           const pane=m.getPane('coastal-spacing')??m.createPane('coastal-spacing');pane.style.zIndex='646';pane.style.pointerEvents='none';
           spacing.className='coastal-spacing-canvas leaflet-zoom-hide';spacing.setAttribute('role','img');
-          spacing.setAttribute('aria-label','Píldoras de 100 metros: intervalo nominal del muestreo, no distancia exacta entre resultados ni metros de erosión.');
+          spacing.setAttribute('aria-label','Estaciones separadas 100 metros sobre la línea de muestreo. Los intervalos sin una comparación disponible aparecen discontinuos.');
           spacing.dataset.pointCount=String(new Set(spacingLinks.flatMap(link=>[link.from.id,link.to.id])).size);
           spacing.dataset.linkCount=String(spacingLinks.length);pane.appendChild(spacing);
         }
@@ -201,43 +232,46 @@ function mountCoastalLayer(m:Leaflet.Map,L:typeof Leaflet,data:CoastalAnalysisDa
             context.save();context.translate(x,y);context.rotate(angle);
             context.beginPath();context.roundRect(-width/2,-height/2,width,height,height/2);
             context.fillStyle='rgba(255,255,255,0.035)';context.fill();
-            context.strokeStyle='rgba(255,255,255,0.10)';context.lineWidth=.6;context.stroke();pills++;
+            context.strokeStyle='rgba(255,255,255,0.10)';context.lineWidth=.6;if(link.pending)context.setLineDash([2,3]);context.stroke();pills++;
             // At overview scale there is physically no room for type. Keep
             // every pill; show its nominal label as soon as the gap can fit it.
-            if(width>=30){context.fillStyle='rgba(255,255,255,0.36)';context.font='500 '+Math.min(10,width/3.4)+'px system-ui, sans-serif';context.textAlign='center';context.textBaseline='middle';context.fillText('100 m',0,.5);labels++;}
+            if(width>=30&&!link.pending){context.fillStyle='rgba(255,255,255,0.36)';context.font='500 '+Math.min(10,width/3.4)+'px system-ui, sans-serif';context.textAlign='center';context.textBaseline='middle';context.fillText(Math.round(link.chainage_m??link.distance_m)+' m',0,.5);labels++;}
             context.restore();
           }
           spacing.dataset.pillCount=String(pills);spacing.dataset.labelCount=String(labels);
         };
         const paint = (feature: GeoJSON.Feature | undefined) => {
-          const p=feature?.properties, delta=p?.delta_m ?? p?.apparent_change_toward_water_m;
-          if(bars&&p?.context_review===true)return '#becdd4';
-          if(bars&&p?.scenario_unvalidated===true)return typeof delta==='number'?(delta<0?'#ff695b':delta>0?'#67d793':'#c8cbc0'):'#c8cbc0';
-          return bars && p?.context_review===true ? '#f2bd53' : bars && coastalDirectionUnresolved(p??{}) ? '#becdd4' : bars ? typeof delta === 'number' ? delta < 0 ? '#ff695b' : delta > 0 ? '#67d793' : '#c8cbc0' : '#c8cbc0' : color;
+          if(!bars)return color;
+          const direction=coastalApparentDirection(feature?.properties??{});
+          return direction==='toward-land'?'#ff695b':direction==='toward-water'?'#67d793':direction==='unchanged'?'#c8cbc0':'#becdd4';
         };
         const layer = L.geoJSON(undefined, {
           pane: bars?'coastal-observed':'coastal-observed-lines',
           style: feature => {
             const estimated = feature?.properties?.estimated === true || feature?.properties?.spatial_estimate === true || feature?.properties?.quality === 'spatial_estimate';
             const review = feature?.properties?.context_review === true;
-            return { color:paint(feature), weight: bars ? 4 : 2.5, opacity: .96, dashArray: estimated || review ? '4 4' : undefined, bubblingMouseEvents:false };
+            return { color:paint(feature), weight: bars ? 4 : 2.5, opacity: .96, dashArray: !continuousBars && (estimated || review) ? '4 4' : undefined, bubblingMouseEvents:false };
           },
-          pointToLayer: (feature, latlng) => L.circleMarker(latlng, { pane:bars?'coastal-observed':'coastal-observed-lines', radius:2.5, color:bars ? paint(feature) : '#193d40', weight:1.25, fillColor:paint(feature), fillOpacity:feature.properties?.spatial_estimate ? .25 : .9, bubblingMouseEvents:false }),
+          pointToLayer: (feature, latlng) => L.circleMarker(latlng, { pane:bars?'coastal-observed':'coastal-observed-lines', radius:2.5, color:bars ? paint(feature) : '#193d40', weight:1.25, fillColor:paint(feature), fillOpacity:feature.properties?.sampling_gap ? 0 : feature.properties?.spatial_estimate ? .25 : .9, bubblingMouseEvents:false }),
           onEachFeature: (feature, shape) => {
             live.set(addingIndex,{shape,kind:feature.geometry.type});
-            shape.bindPopup(() => coastalPopup(feature), { minWidth:280, maxWidth:320, maxHeight:340, autoPan:false });
+            shape.bindPopup(() => coastalPopup(feature,onStationEdition), { minWidth:280, maxWidth:320, maxHeight:340, autoPan:false });
             shape.on('add', () => {
               const path = (shape as Leaflet.Path).getElement?.();
               if (!path) return;
               path.setAttribute('role','button'); path.setAttribute('tabindex','0');
-              path.setAttribute('aria-label', bars ? 'Ver cálculo y fuentes de la barra ' + String(feature.properties?.profile_id ?? '') : 'Ver fecha y fuente del borde del agua ' + String(feature.properties?.date ?? feature.properties?.year ?? ''));
+              const label = feature.properties?.sampling_gap
+                ? 'Ver estación de muestreo sin comparación'
+                : bars ? 'Ver cálculo y fuentes de la barra ' + String(feature.properties?.profile_id ?? '')
+                : 'Ver fecha y fuente del borde del agua ' + String(feature.properties?.date ?? feature.properties?.year ?? '');
+              path.setAttribute('aria-label', label);
               path.addEventListener('keydown', event => { if (['Enter',' '].includes((event as KeyboardEvent).key)) { event.preventDefault(); event.stopPropagation(); shape.openPopup(); } });
             });
           },
         }).addTo(m);
         const draw = () => {
           const bounds=m.getBounds().pad(.2),window:Bounds=[bounds.getWest(),bounds.getSouth(),bounds.getEast(),bounds.getNorth()];
-          const entries=indexed.filter(entry=>entry.bounds && boundsIntersect(entry.bounds,window) && (bars || entry.feature.geometry.type!=='Point' || m.getZoom()>=14));
+          const entries=indexed.filter(entry=>entry.bounds && boundsIntersect(entry.bounds,window) && (bars || entry.feature.geometry.type!=='Point' || m.getZoom()>=14) && (entry.feature.properties.sampling_gap!==true || m.getZoom()>=13));
           drawSpacing();
           const overviewMode=bars && m.getZoom()<13;
           const features=entries.map(({feature}) => {
@@ -247,7 +281,7 @@ function mountCoastalLayer(m:Leaflet.Map,L:typeof Leaflet,data:CoastalAnalysisDa
             const pa=m.latLngToLayerPoint([a[1],a[0]]),pb=m.latLngToLayerPoint([b[1],b[0]]);
             // A locator keeps a sub-pixel/zero-length measurement clickable.
             // It never stretches the distance or changes the source geometry.
-            return pa.distanceTo(pb)>=.75 ? feature : {...feature,properties:{...feature.properties,display_symbol:'profile_locator'},geometry:{type:'Point' as const,coordinates:a}};
+            return pa.distanceTo(pb)>=.75 ? feature : {...feature,properties:{...feature.properties,display_symbol:'profile_locator'},geometry:{type:'Point' as const,coordinates:b}};
           });
           const next=(overviewMode?'overview:':'detail:')+entries.map((entry,index)=>entry.index+':'+features[index].geometry.type).join('|');
           if(next===signature)return;
@@ -265,9 +299,8 @@ function mountCoastalLayer(m:Leaflet.Map,L:typeof Leaflet,data:CoastalAnalysisDa
             for(const entry of entries){const key=paint(entry.feature)+(entry.feature.properties?.estimated||entry.feature.properties?.spatial_estimate?':estimate':'');const group=groups.get(key)??[];group.push(entry);groups.set(key,group);}
             for(const group of groups.values()){
               const pairs=group.flatMap(({feature})=>feature.geometry.type==='LineString'?[feature.geometry.coordinates.map(p=>[p[1],p[0]] as Leaflet.LatLngTuple)]:feature.geometry.type==='Point'?[[[feature.geometry.coordinates[1],feature.geometry.coordinates[0]],[feature.geometry.coordinates[1],feature.geometry.coordinates[0]]] as Leaflet.LatLngTuple[]]:[]);
-              // Keep the actual reference/end geometry even at overview scale.
-              // Batching changes node count, never the distance or anchor.
-              const batch=L.polyline(pairs,{pane:'coastal-observed',color:paint(group[0].feature),weight:5,lineCap:'round',dashArray:group[0].feature.properties?.estimated===true?'4 4':undefined,opacity:group[0].feature.properties?.spatial_estimate===true ? .65 : .95,bubblingMouseEvents:false}).addTo(overview);
+              // Use the same vertical drawing at overview and detail scales.
+              const batch=L.polyline(pairs,{pane:'coastal-observed',color:paint(group[0].feature),weight:5,lineCap:'round',dashArray:!continuousBars && group[0].feature.properties?.estimated===true?'4 4':undefined,opacity:group[0].feature.properties?.spatial_estimate===true ? .65 : .95,bubblingMouseEvents:false}).addTo(overview);
               const nearest=(point:Leaflet.Point,candidates=group)=>{
                 let chosen:typeof group[number]|null=null,best=Infinity;
                 for(const entry of candidates){const p=locator(entry.feature);if(!p)continue;const distance=m.latLngToLayerPoint([p[1],p[0]]).distanceTo(point);if(distance<best){chosen=entry;best=distance;}}
@@ -357,9 +390,9 @@ export const RasterTerritoryMap = forwardRef<MapHandle, TerritoryMapProps>(
         offset = ratio === 2 ? 1 : 0;
       const camera=map.current;
       const center=camera?.getCenter();
-      const editionNativeZoom=(item:NonNullable<TerritoryMapProps['satellite']>)=>center&&camera
-        ? cachedRenderedEsriMetadata(item,center.lng,center.lat,esriPhotoMetadataZoom(camera.getZoom(),ratio))?.nativeZoom??cachedEsriNativeZoom(item,center.lng,center.lat)??(item.releaseNum===props.satellite?.releaseNum?props.satelliteDetail.nativeZoom:18)??18
-        :props.satelliteDetail.nativeZoom??18;
+      const editionNativeZoom=(item:NonNullable<TerritoryMapProps['satellite']>)=>props.satelliteTileZoomLimits?.[item.releaseNum]??esriEditionNativeZoom({release:item.releaseNum,selectedRelease:props.satellite?.releaseNum,
+        renderedNativeZoom:center&&camera?cachedRenderedEsriMetadata(item,center.lng,center.lat,esriPhotoMetadataZoom(camera.getZoom(),ratio))?.nativeZoom:undefined,
+        cachedNativeZoom:center?cachedEsriNativeZoom(item,center.lng,center.lat):undefined,selectedNativeZoom:props.satelliteDetail.nativeZoom});
       const esri = (
         item: NonNullable<TerritoryMapProps['satellite']>,
       ): RasterFrame => ({
@@ -418,6 +451,7 @@ export const RasterTerritoryMap = forwardRef<MapHandle, TerritoryMapProps>(
       props.satelliteWarm,
       props.sentinelWarm,
       props.satelliteDetail.nativeZoom,
+      props.satelliteTileZoomLimits,
       props.studyFlight,
       props.history,
       props.epoch,
@@ -435,6 +469,13 @@ export const RasterTerritoryMap = forwardRef<MapHandle, TerritoryMapProps>(
       'geotubes',
       props.evidence.geotubes,
       props.issueVisibility.geotubes,
+      loaded,
+      { map, api, latest, selection },
+    );
+    useEvidencePaths(
+      'groynes',
+      props.evidence.groynes,
+      props.issueVisibility.groynes,
       loaded,
       { map, api, latest, selection },
     );
@@ -518,6 +559,7 @@ export const RasterTerritoryMap = forwardRef<MapHandle, TerritoryMapProps>(
       let observer: ResizeObserver | undefined;
       let surface: Element | null=null;
       let disposeMovement:(()=>void)|undefined;
+      let disposeDrag:(()=>void)|undefined;
       let disposePopups:(()=>void)|undefined;
       import('leaflet')
         .then((L) => {
@@ -539,12 +581,14 @@ export const RasterTerritoryMap = forwardRef<MapHandle, TerritoryMapProps>(
               [n, e],
             ],
             maxBoundsViscosity: 1,
+            inertia: false,
             fadeAnimation: false,
             zoomAnimation: !window.matchMedia(
               '(prefers-reduced-motion: reduce)',
             ).matches,
           });
           map.current = m;
+          disposeDrag = guardMapDragRelease(m);
           disposePopups=keepMapPopupsVisible(m);
           surface=host.current.closest('.minimal-explorer');
           m.on('movestart zoomstart',()=>surface?.classList.add('is-map-moving'));
@@ -552,6 +596,7 @@ export const RasterTerritoryMap = forwardRef<MapHandle, TerritoryMapProps>(
           m.createPane('coastal-research').style.zIndex = '640';
           m.createPane('coastal-evidence').style.zIndex = '650';
           m.createPane('coastal-geotubes').style.zIndex = '655';
+          m.createPane('coastal-groynes').style.zIndex = '657';
           m.createPane('coastal-geotube-labels').style.zIndex = '665';
           m.createPane('coastal-towns').style.zIndex = '670';
           m.createPane('coastal-annotations').style.zIndex = '668';
@@ -686,10 +731,19 @@ export const RasterTerritoryMap = forwardRef<MapHandle, TerritoryMapProps>(
           };
           disposeMovement=onMapSettled(m,view);
           m.on('click', () => latest.current.onSelect(null));
-          if(p.config.municipality_scope)m.setMinZoom(Math.max(8,Math.floor(m.getBoundsZoom(latLngBounds(p.config.navigation_bounds)))));
+          const updateNavigationZoom=()=>{
+            if(!latest.current.config.municipality_scope)return;
+            const minimum=Math.max(8,Math.min(m.getMaxZoom(),Math.ceil(m.getBoundsZoom(latLngBounds(latest.current.config.navigation_bounds),true))));
+            m.setMinZoom(minimum);
+            if(Number.isFinite(m.getZoom())){
+              if(m.getZoom()<minimum)m.setZoom(minimum,{animate:false});
+              m.panInsideBounds(latLngBounds(latest.current.config.navigation_bounds),{animate:false});
+            }
+          };
+          updateNavigationZoom();
           fit(p.config.focus_bounds);
           view();
-          observer = new ResizeObserver(() => m.invalidateSize({ pan: false }));
+          observer = new ResizeObserver(() => {m.invalidateSize({pan:false});updateNavigationZoom();});
           observer.observe(host.current);
           setLoaded(generation=>generation+1);
           latest.current.onReady();
@@ -703,6 +757,7 @@ export const RasterTerritoryMap = forwardRef<MapHandle, TerritoryMapProps>(
         cancelled = true;
         observer?.disconnect();
         disposeMovement?.();
+        disposeDrag?.();
         disposePopups?.();
         surface?.classList.remove('is-map-moving');
         frameCache.current?.dispose();
@@ -882,20 +937,21 @@ export const RasterTerritoryMap = forwardRef<MapHandle, TerritoryMapProps>(
           b = coords[coords.length - 1];
         const id = String(feature.id).match(/(\d+)$/)?.[1];
         const number = id ? Number(id) : tags.getLayers().length + 1;
+        const probable = feature.properties.type === 'geotube_probable_axis';
+        const code = probable ? String(feature.properties.display_code) : 'G' + number;
         const button = document.createElement('button');
         button.className =
           'geotube-axis-tag' + (number % 2 ? ' is-above' : ' is-below');
-        button.textContent = 'G' + number;
+        button.textContent = code;
         button.setAttribute(
           'aria-label',
-          'Geotubo G' +
-            number +
-            (feature.properties.temporal_state === 'deflated'
-              ? ', desinflado'
-              : feature.properties.temporal_state === 'reference'
-                ? ', disposición documentada de 2017–2018'
-                : ', presencia cotejada') +
-            '. Ver evidencia',
+          (probable ? 'Geotubo probable ' + code :
+            'Geotubo ' + code +
+              (feature.properties.temporal_state === 'deflated'
+                ? ', desinflado'
+                : feature.properties.temporal_state === 'reference'
+                  ? ', disposición documentada de 2017–2018'
+                  : ', presencia cotejada')) + '. Ver evidencia',
         );
         button.addEventListener('click', (event) => {
           event.stopPropagation();
@@ -918,9 +974,10 @@ export const RasterTerritoryMap = forwardRef<MapHandle, TerritoryMapProps>(
       button.textContent = 'Ver geotubos';
       button.addEventListener('click', (event) => {
         event.stopPropagation();
-        fit(evidenceViews.geotubes);
+        const bounds = geotubeBounds(data);
+        if (bounds) fit(bounds);
       });
-      const first = data.features[0];
+      const first = data.features.find(({ properties }) => properties.type === 'geotube_probable_axis') ?? data.features[0];
       if (first?.geometry.type === 'LineString')
         overview.addLayer(
           L.marker(
@@ -1012,7 +1069,7 @@ export const RasterTerritoryMap = forwardRef<MapHandle, TerritoryMapProps>(
           ? latest.current.onHistoryStatus(status)
           : latest.current.onSatelliteStatus(status),
         60,600,12000,
-        key=>latest.current.onRasterFrameDisplayed?.(key),
+        (key, tileZoom) => latest.current.onRasterFrameDisplayed?.(key, tileZoom),
         ()=>latest.current.keepRasterReference!==false&&!latest.current.epoch,
       );
       frameCache.current = cache;
@@ -1042,10 +1099,12 @@ export const RasterTerritoryMap = forwardRef<MapHandle, TerritoryMapProps>(
       const m=map.current,L=api.current;if(!m||!L||!loaded)return;
       labels.current?.remove();
       const entries=[...props.config.places].sort((a,b)=>Number(['Progreso','Chelem'].includes(b.name))-Number(['Progreso','Chelem'].includes(a.name))).map(place=>{
-        const button=document.createElement('button');button.type='button';button.className='map-town-label';button.textContent=place.name;
-        if(place.municipality&&place.municipality!==place.name){const subtitle=document.createElement('small');subtitle.textContent='Mun. '+place.municipality;button.appendChild(subtitle);}
-        button.title=place.municipality?`Municipio de ${place.municipality} · INEGI · referencia de orientación actual`:place.name;
-        button.setAttribute('aria-label','Explorar '+place.name+(place.municipality?' · municipio de '+place.municipality:''));
+        const projectLabel=hasProjectCoastLabel(place.name),displayName=projectPlaceLabel(place.name,place.cvegeo);
+        const button=document.createElement('button');button.type='button';button.className='map-town-label';button.textContent=displayName;
+        const municipalityLink=place.id.startsWith('municipality:');
+        if(municipalityLink||projectLabel||place.municipality&&place.municipality!==place.name){const subtitle=document.createElement('small');subtitle.textContent=municipalityLink?'Ver mapa →':projectLabel?'Rótulo del proyecto':'Mun. '+place.municipality;button.appendChild(subtitle);}
+        button.title=projectLabel?PROJECT_COAST_LABEL_NOTE:municipalityLink?'Abrir mapa de '+displayName:place.municipality?`Municipio de ${place.municipality} · INEGI · referencia de orientación actual`:displayName;
+        button.setAttribute('aria-label',municipalityLink?'Ir al mapa de '+displayName:'Explorar '+displayName+(projectLabel?' · rótulo del proyecto':place.municipality?' · municipio de '+place.municipality:''));
         button.onclick=event=>{event.stopPropagation();latest.current.onPlaceSelect(place.id);};
         const marker=L.marker([place.coordinates[1],place.coordinates[0]],{pane:'coastal-towns',icon:L.divIcon({html:button,className:'raster-place',iconSize:[0,0]}),keyboard:false});
         return {place,button,marker};
@@ -1429,8 +1488,8 @@ export const RasterTerritoryMap = forwardRef<MapHandle, TerritoryMapProps>(
     useEffect(()=>{
       const m=map.current,L=api.current;
       if(!loaded || !m || !L || !props.coastalAnalysis)return;
-      return mountCoastalLayer(m,L,props.coastalAnalysis,'#f0c975',true);
-    },[props.coastalAnalysis,loaded]);
+      return mountCoastalLayer(m,L,props.coastalAnalysis,'#f0c975',true,props.continuousCoastalBars,(year,release,date)=>latest.current.onStationEdition?.(year,release,date));
+    },[props.coastalAnalysis,props.continuousCoastalBars,loaded]);
     useEffect(()=>{
       const m=map.current,L=api.current,data=props.coastalCoverage;
       if(!loaded||!m||!L||!data)return;

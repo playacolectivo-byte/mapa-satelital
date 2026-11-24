@@ -13,7 +13,7 @@ export function LittoralTimeline({ series, cut, year, status, onYearChange, sour
     <output className="littoral-current-cut" aria-live="polite" data-cut-id={cut.id}>
       {cut.origin === 'alec' ? 'Alec · ' + cut.period_label + ' · m/año' : cut.origin === 'sentinel' ? 'Sentinel · ' + shortLittoralDate(cut.datetime) + ' · m' : cut.period_label + ' · sin mediciones'}
     </output>
-    <TimelinePill source={source} year={String(year)} value={year - firstYear} count={lastYear - firstYear + 1} rangeLabel="Corte temporal de mediciones" infoLabel="Información del corte de medición" label={'Año ' + year + '. Dato: ' + cut.period_label + '. ' + (cut.origin === 'alec' ? 'Alec, promedio del intervalo completo' : cut.origin === 'sentinel' ? 'Sentinel, posición del agua' : 'Sin mediciones')} status={status} onChange={(value) => onYearChange(firstYear + value)} onSource={onSource} onInfo={onInfo} onRetry={onRetry} />
+    <TimelinePill source={source} sourceAvailability={{sentinel:{hidden:true,disabled:true,reason:'Esri es la fuente de este estudio'},archive:{hidden:true,disabled:true,reason:'Esri es la fuente de este estudio'}}} year={String(year)} value={year - firstYear} count={lastYear - firstYear + 1} rangeLabel="Corte temporal de mediciones" infoLabel="Información del corte de medición" label={'Año ' + year + '. Dato: ' + cut.period_label + '. ' + (cut.origin === 'alec' ? 'Alec, promedio del intervalo completo' : cut.origin === 'sentinel' ? 'Sentinel, posición del agua' : 'Sin mediciones')} status={status} onChange={(value) => onYearChange(firstYear + value)} onSource={onSource} onInfo={onInfo} onRetry={onRetry} />
   </div>;
 }
 

@@ -7,5 +7,5 @@ export function compatibleSourceLayer(layer:CoastalAnalysisData,release:number|n
  if(release===null)return layer;
  const blocked=new Set(review.blocked.filter(r=>r.release===release&&r.kind==='photo').map(r=>r.profile_id));
  if(!blocked.size)return layer;
- return {...layer,features:layer.features.filter(f=>!blocked.has(String(f.id)))};
+ return {...layer,features:layer.features.filter(f=>!blocked.has(String(f.id))||Array.isArray(f.properties.photo_verified_endpoint_releases)&&f.properties.photo_verified_endpoint_releases.includes(release))};
 }

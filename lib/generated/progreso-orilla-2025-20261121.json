@@ -1,0 +1,120 @@
+[
+  {
+    "station": "GRID100-progreso-001-0010",
+    "profile": "SC-258-0-40",
+    "reference": [
+      -89.85520953263068,
+      21.244335892223607
+    ],
+    "detailZoom": 18,
+    "shoreline": [
+      -89.85509982472442,
+      21.2440236260332
+    ],
+    "displayLatitude": 21.244000860981647
+  },
+  {
+    "station": "GRID100-progreso-001-0011",
+    "profile": "SC-258-0-41",
+    "reference": [
+      -89.8542157471578,
+      21.2444365031548
+    ],
+    "detailZoom": 18,
+    "shoreline": [
+      -89.85418511759075,
+      21.244239693263527
+    ],
+    "displayLatitude": 21.244235263019824
+  },
+  {
+    "station": "GRID100-progreso-001-0012",
+    "profile": "SC-258-0-42",
+    "reference": [
+      -89.85329127301799,
+      21.244720398212
+    ],
+    "detailZoom": 18,
+    "shoreline": [
+      -89.85323569269208,
+      21.24436960502341
+    ],
+    "displayLatitude": 21.24436014170363
+  },
+  {
+    "station": "GRID100-progreso-001-0013",
+    "profile": "SC-258-0-43",
+    "reference": [
+      -89.85236748056707,
+      21.24488715593916
+    ],
+    "detailZoom": 18,
+    "shoreline": [
+      -89.85229396404463,
+      21.244539359778795
+    ],
+    "displayLatitude": 21.244514831934083
+  },
+  {
+    "station": "GRID100-progreso-001-0014",
+    "profile": "SC-258-0-44",
+    "reference": [
+      -89.85143913393478,
+      21.24504873606417
+    ],
+    "detailZoom": 18,
+    "shoreline": [
+      -89.85135950822917,
+      21.244738366902702
+    ],
+    "displayLatitude": 21.244699464720554
+  },
+  {
+    "station": "GRID100-progreso-001-0015",
+    "profile": "SC-258-0-45",
+    "reference": [
+      -89.85056134301936,
+      21.24526762178423
+    ],
+    "detailZoom": 18,
+    "displayLatitude": 21.244944959795838
+  },
+  {
+    "station": "GRID100-progreso-001-0016",
+    "profile": "SC-258-0-46",
+    "reference": [
+      -89.84963672847864,
+      21.24552061654013
+    ],
+    "detailZoom": 18,
+    "displayLatitude": 21.245203003630518
+  },
+  {
+    "station": "GRID100-progreso-001-0017",
+    "profile": "SC-258-0-47",
+    "reference": [
+      -89.84873374370451,
+      21.245822502766547
+    ],
+    "detailZoom": 18,
+    "displayLatitude": 21.24565635946605
+  },
+  {
+    "station": "GRID100-progreso-002-0017",
+    "profile": "SC-256-0-17",
+    "reference": [
+      -89.82883678942311,
+      21.25291205280588
+    ],
+    "displayLatitude": 21.25240655397611
+  },
+  {
+    "station": "GRID100-progreso-002-0020",
+    "profile": "SC-256-0-21",
+    "reference": [
+      -89.82523048887423,
+      21.253424218345863
+    ],
+    "displayLatitude": 21.25296005518488
+  }
+]

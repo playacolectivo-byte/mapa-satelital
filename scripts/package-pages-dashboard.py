@@ -60,7 +60,7 @@ export default {async fetch(request,env,ctx) {
 '''
 
 def selected(name):
-    return name.startswith(('data/shorelines/map/','data/shorelines/series-2015/','data/municipalities/','data/shorelines/annual/')) or re.match(r'data/history/\d+/',name)
+    return name.startswith(('data/shorelines/map/','data/shorelines/series-2015/','data/municipalities/','data/shorelines/annual/','data/shorelines/photo-alignment/')) or re.match(r'data/history/\d+/',name)
 
 def main():
     parser=argparse.ArgumentParser();parser.add_argument('output');parser.add_argument('--source',default='dist/cloudflare-map');parser.add_argument('--report',required=True);parser.add_argument('--date',default='2026-11-02');args=parser.parse_args()
@@ -86,7 +86,7 @@ def main():
             pending.extend(encoded)
         flush()
         worker=WORKER.replace('__INDEX__',json.dumps(index,separators=(',',':'))).encode()
-        routes={'version':1,'include':['/data/shorelines/map/*','/data/shorelines/series-2015/*','/data/municipalities/*','/data/shorelines/annual/*',*[f'/data/history/{x}/*' for x in sorted({n.split('/')[3] for n in index if re.match(r'/data/history/\d+/',n)})]],'exclude':[]}
+        routes={'version':1,'include':['/data/shorelines/map/*','/data/shorelines/series-2015/*','/data/municipalities/*','/data/shorelines/annual/*','/data/shorelines/photo-alignment/*',*[f'/data/history/{x}/*' for x in sorted({n.split('/')[3] for n in index if re.match(r'/data/history/\d+/',n)})]],'exclude':[]}
         for name,data in [('_worker.js',worker),('_routes.json',json.dumps(routes,separators=(',',':')).encode())]:archive.writestr(name,data);record(name,data)
         manifest={'version':1,'date':args.date,'purpose':'Existing mapa-satelital.pages.dev dashboard deployment; exact decoded source bytes','original_files':len(paths),'packed_files':len(index),'deployed_files':len(files)+1,'worker_only_for_packed_trees':True,'maximum_pack_bytes':MAX_PACK,'assets':files}
         data=(json.dumps(manifest,ensure_ascii=False,indent=2)+'\n').encode();archive.writestr('MANIFIESTO_ENTREGA.json',data);record('MANIFIESTO_ENTREGA.json',data)

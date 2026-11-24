@@ -1,0 +1,2153 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "PROGRESO-GT-2025-02-01",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -89.65027753,
+            21.2893344
+          ],
+          [
+            -89.65013806,
+            21.2893369
+          ],
+          [
+            -89.64999322,
+            21.28934439
+          ]
+        ]
+      },
+      "properties": {
+        "label": "Progreso · geotubo probable",
+        "type": "geotube_probable_axis",
+        "municipality_slug": "progreso",
+        "capture_date": "2025-04-14",
+        "capture_release": 26334,
+        "capture_native_zoom": 17,
+        "capture_sensor": "LG02",
+        "source_resolution_m": 0.6,
+        "source_accuracy_m_reported": 5,
+        "source_url": "https://wayback.maptiles.arcgis.com/arcgis/rest/services/World_Imagery/WMTS/1.0.0/default028mm/MapServer/tile/26334/17/57600/32895",
+        "source_tiles": [
+          {
+            "url": "https://wayback.maptiles.arcgis.com/arcgis/rest/services/World_Imagery/WMTS/1.0.0/default028mm/MapServer/tile/26334/17/57600/32895",
+            "sha256": "99251477dc022dbaf6da2aaf19f35db25c471acee0b1a00c2c36c574596422b1"
+          }
+        ],
+        "metadata_url": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2026_r07/MapServer/6/query?f=json&where=1%3D1&inSR=4326&outSR=4326&geometry=-89.650577531%2C21.288966919%2C-89.646568443%2C21.289859322&geometryType=esriGeometryEnvelope&spatialRel=esriSpatialRelIntersects&outFields=OBJECTID%2CSRC_DATE2%2CSRC_DESC%2CSAMP_RES%2CSRC_ACC%2CMinMapLevel%2CMaxMapLevel&returnGeometry=true",
+        "metadata_sha256": "b7ddfb947d991b12851aa26caa3b1eee4f40f60d5553c36f629b4c6466164235",
+        "metadata_receipt": [
+          {
+            "coordinate": [
+              -89.6502775308125,
+              21.289334396883426
+            ],
+            "records": [
+              1151599
+            ]
+          },
+          {
+            "coordinate": [
+              -89.65020779337812,
+              21.289335646469382
+            ],
+            "records": [
+              1151599
+            ]
+          },
+          {
+            "coordinate": [
+              -89.65013805594373,
+              21.289336896055342
+            ],
+            "records": [
+              1151599
+            ]
+          },
+          {
+            "coordinate": [
+              -89.65006563630033,
+              21.289340644813088
+            ],
+            "records": [
+              1151599
+            ]
+          },
+          {
+            "coordinate": [
+              -89.64999321665692,
+              21.28934439357083
+            ],
+            "records": [
+              1151599
+            ]
+          }
+        ],
+        "reference_capture_sha256": "2a969741c4e8582d5d267ebbf65711eb59fab4a48daeecb85355bc6ed40de0a1",
+        "classification": "marked_by_user_on_registered_capture_and_visible_in_native_raster",
+        "field_verified": false,
+        "display_code": "P1"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "PROGRESO-GT-2025-02-02",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -89.64988325,
+            21.2893344
+          ],
+          [
+            -89.64975986,
+            21.28934189
+          ],
+          [
+            -89.64965526,
+            21.28934439
+          ]
+        ]
+      },
+      "properties": {
+        "label": "Progreso · geotubo probable",
+        "type": "geotube_probable_axis",
+        "municipality_slug": "progreso",
+        "capture_date": "2025-04-14",
+        "capture_release": 26334,
+        "capture_native_zoom": 17,
+        "capture_sensor": "LG02",
+        "source_resolution_m": 0.6,
+        "source_accuracy_m_reported": 5,
+        "source_url": "https://wayback.maptiles.arcgis.com/arcgis/rest/services/World_Imagery/WMTS/1.0.0/default028mm/MapServer/tile/26334/17/57600/32895",
+        "source_tiles": [
+          {
+            "url": "https://wayback.maptiles.arcgis.com/arcgis/rest/services/World_Imagery/WMTS/1.0.0/default028mm/MapServer/tile/26334/17/57600/32895",
+            "sha256": "99251477dc022dbaf6da2aaf19f35db25c471acee0b1a00c2c36c574596422b1"
+          }
+        ],
+        "metadata_url": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2026_r07/MapServer/6/query?f=json&where=1%3D1&inSR=4326&outSR=4326&geometry=-89.650577531%2C21.288966919%2C-89.646568443%2C21.289859322&geometryType=esriGeometryEnvelope&spatialRel=esriSpatialRelIntersects&outFields=OBJECTID%2CSRC_DATE2%2CSRC_DESC%2CSAMP_RES%2CSRC_ACC%2CMinMapLevel%2CMaxMapLevel&returnGeometry=true",
+        "metadata_sha256": "b7ddfb947d991b12851aa26caa3b1eee4f40f60d5553c36f629b4c6466164235",
+        "metadata_receipt": [
+          {
+            "coordinate": [
+              -89.64988324608731,
+              21.289334396883426
+            ],
+            "records": [
+              1151599
+            ]
+          },
+          {
+            "coordinate": [
+              -89.64982155527997,
+              21.289338145641235
+            ],
+            "records": [
+              1151599
+            ]
+          },
+          {
+            "coordinate": [
+              -89.64975986447263,
+              21.289341894399044
+            ],
+            "records": [
+              1151599
+            ]
+          },
+          {
+            "coordinate": [
+              -89.64970756139684,
+              21.289343143984937
+            ],
+            "records": [
+              1151599
+            ]
+          },
+          {
+            "coordinate": [
+              -89.64965525832105,
+              21.28934439357083
+            ],
+            "records": [
+              1151599
+            ]
+          }
+        ],
+        "reference_capture_sha256": "2a969741c4e8582d5d267ebbf65711eb59fab4a48daeecb85355bc6ed40de0a1",
+        "classification": "marked_by_user_on_registered_capture_and_visible_in_native_raster",
+        "field_verified": false,
+        "display_code": "P2"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "PROGRESO-GT-2025-02-03",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -89.64937631,
+            21.28926692
+          ],
+          [
+            -89.64914296,
+            21.2893119
+          ],
+          [
+            -89.64899275,
+            21.28934189
+          ],
+          [
+            -89.64881304,
+            21.28939188
+          ],
+          [
+            -89.64849654,
+            21.28939438
+          ]
+        ]
+      },
+      "properties": {
+        "label": "Progreso · geotubo probable",
+        "type": "geotube_probable_axis",
+        "municipality_slug": "progreso",
+        "capture_date": "2025-04-14",
+        "capture_release": 26334,
+        "capture_native_zoom": 17,
+        "capture_sensor": "LG02",
+        "source_resolution_m": 0.6,
+        "source_accuracy_m_reported": 5,
+        "source_url": "https://wayback.maptiles.arcgis.com/arcgis/rest/services/World_Imagery/WMTS/1.0.0/default028mm/MapServer/tile/26334/17/57599/32895",
+        "source_tiles": [
+          {
+            "url": "https://wayback.maptiles.arcgis.com/arcgis/rest/services/World_Imagery/WMTS/1.0.0/default028mm/MapServer/tile/26334/17/57599/32895",
+            "sha256": "19fffd94c953fc64695e7a4ceb2f79eab09e030d47956b9268ab10a5fd58e52f"
+          },
+          {
+            "url": "https://wayback.maptiles.arcgis.com/arcgis/rest/services/World_Imagery/WMTS/1.0.0/default028mm/MapServer/tile/26334/17/57600/32895",
+            "sha256": "99251477dc022dbaf6da2aaf19f35db25c471acee0b1a00c2c36c574596422b1"
+          }
+        ],
+        "metadata_url": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2026_r07/MapServer/6/query?f=json&where=1%3D1&inSR=4326&outSR=4326&geometry=-89.650577531%2C21.288966919%2C-89.646568443%2C21.289859322&geometryType=esriGeometryEnvelope&spatialRel=esriSpatialRelIntersects&outFields=OBJECTID%2CSRC_DATE2%2CSRC_DESC%2CSAMP_RES%2CSRC_ACC%2CMinMapLevel%2CMaxMapLevel&returnGeometry=true",
+        "metadata_sha256": "b7ddfb947d991b12851aa26caa3b1eee4f40f60d5553c36f629b4c6466164235",
+        "metadata_receipt": [
+          {
+            "coordinate": [
+              -89.6493763085835,
+              21.289266919225692
+            ],
+            "records": [
+              1151599
+            ]
+          },
+          {
+            "coordinate": [
+              -89.64931797053742,
+              21.289278165502843
+            ],
+            "records": [
+              1151599
+            ]
+          },
+          {
+            "coordinate": [
+              -89.64925963249135,
+              21.28928941177999
+            ],
+            "records": [
+              1151599
+            ]
+          },
+          {
+            "coordinate": [
+              -89.64920129444528,
+              21.28930065805714
+            ],
+            "records": [
+              1151599
+            ]
+          },
+          {
+            "coordinate": [
+              -89.6491429563992,
+              21.28931190433429
+            ],
+            "records": [
+              1151599
+            ]
+          },
+          {
+            "coordinate": [
+              -89.64906785454679,
+              21.289326899366667
+            ],
+            "records": [
+              1151599
+            ]
+          },
+          {
+            "coordinate": [
+              -89.64899275269437,
+              21.289341894399044
+            ],
+            "records": [
+              1151599
+            ]
+          },
+          {
+            "coordinate": [
+              -89.64893285002637,
+              21.289358555541597
+            ],
+            "records": [
+              1151599
+            ]
+          },
+          {
+            "coordinate": [
+              -89.64887294735837,
+              21.289375216684153
+            ],
+            "records": [
+              1211132
+            ]
+          },
+          {
+            "coordinate": [
+              -89.64881304469037,
+              21.289391877826706
+            ],
+            "records": [
+              1211132
+            ]
+          },
+          {
+            "coordinate": [
+              -89.64874974455762,
+              21.289392377660892
+            ],
+            "records": [
+              1211132
+            ]
+          },
+          {
+            "coordinate": [
+              -89.64868644442487,
+              21.28939287749508
+            ],
+            "records": [
+              1211132
+            ]
+          },
+          {
+            "coordinate": [
+              -89.64862314429212,
+              21.28939337732927
+            ],
+            "records": [
+              1211132
+            ]
+          },
+          {
+            "coordinate": [
+              -89.64855984415937,
+              21.289393877163455
+            ],
+            "records": [
+              1211132
+            ]
+          },
+          {
+            "coordinate": [
+              -89.64849654402661,
+              21.28939437699764
+            ],
+            "records": [
+              1211132
+            ]
+          }
+        ],
+        "reference_capture_sha256": "2a969741c4e8582d5d267ebbf65711eb59fab4a48daeecb85355bc6ed40de0a1",
+        "classification": "marked_by_user_on_registered_capture_and_visible_in_native_raster",
+        "field_verified": false,
+        "display_code": "P3"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "PROGRESO-GT-2025-02-04",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -89.64822296,
+            21.28944436
+          ],
+          [
+            -89.64802448,
+            21.28947185
+          ],
+          [
+            -89.64771334,
+            21.28950184
+          ],
+          [
+            -89.64746658,
+            21.28951934
+          ],
+          [
+            -89.64716617,
+            21.28952183
+          ],
+          [
+            -89.64692745,
+            21.28955932
+          ],
+          [
+            -89.64686844,
+            21.28955182
+          ]
+        ]
+      },
+      "properties": {
+        "label": "Progreso · geotubo probable",
+        "type": "geotube_probable_axis",
+        "municipality_slug": "progreso",
+        "capture_date": "2025-04-14",
+        "capture_release": 26334,
+        "capture_native_zoom": 17,
+        "capture_sensor": "LG02",
+        "source_resolution_m": 0.6,
+        "source_accuracy_m_reported": 5,
+        "source_url": "https://wayback.maptiles.arcgis.com/arcgis/rest/services/World_Imagery/WMTS/1.0.0/default028mm/MapServer/tile/26334/17/57599/32896",
+        "source_tiles": [
+          {
+            "url": "https://wayback.maptiles.arcgis.com/arcgis/rest/services/World_Imagery/WMTS/1.0.0/default028mm/MapServer/tile/26334/17/57599/32896",
+            "sha256": "d46a8f966d8b8fba2971c98ffa05d077937e0c577ab5302f188802e4a56f0367"
+          }
+        ],
+        "metadata_url": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2026_r07/MapServer/6/query?f=json&where=1%3D1&inSR=4326&outSR=4326&geometry=-89.650577531%2C21.288966919%2C-89.646568443%2C21.289859322&geometryType=esriGeometryEnvelope&spatialRel=esriSpatialRelIntersects&outFields=OBJECTID%2CSRC_DATE2%2CSRC_DESC%2CSAMP_RES%2CSRC_ACC%2CMinMapLevel%2CMaxMapLevel&returnGeometry=true",
+        "metadata_sha256": "b7ddfb947d991b12851aa26caa3b1eee4f40f60d5553c36f629b4c6466164235",
+        "metadata_receipt": [
+          {
+            "coordinate": [
+              -89.6482229587071,
+              21.289444360407458
+            ],
+            "records": [
+              1211132
+            ]
+          },
+          {
+            "coordinate": [
+              -89.6481567975514,
+              21.28945352403018
+            ],
+            "records": [
+              1211132
+            ]
+          },
+          {
+            "coordinate": [
+              -89.6480906363957,
+              21.289462687652897
+            ],
+            "records": [
+              1211132
+            ]
+          },
+          {
+            "coordinate": [
+              -89.64802447523999,
+              21.289471851275618
+            ],
+            "records": [
+              1211132
+            ]
+          },
+          {
+            "coordinate": [
+              -89.64796224799085,
+              21.289477849282044
+            ],
+            "records": [
+              1211132
+            ]
+          },
+          {
+            "coordinate": [
+              -89.6479000207417,
+              21.28948384728847
+            ],
+            "records": [
+              1211132
+            ]
+          },
+          {
+            "coordinate": [
+              -89.64783779349256,
+              21.28948984529489
+            ],
+            "records": [
+              1211132
+            ]
+          },
+          {
+            "coordinate": [
+              -89.64777556624341,
+              21.289495843301317
+            ],
+            "records": [
+              1211132
+            ]
+          },
+          {
+            "coordinate": [
+              -89.64771333899427,
+              21.289501841307743
+            ],
+            "records": [
+              1211132
+            ]
+          },
+          {
+            "coordinate": [
+              -89.64765164818692,
+              21.28950621485339
+            ],
+            "records": [
+              1211132
+            ]
+          },
+          {
+            "coordinate": [
+              -89.64758995737958,
+              21.289510588399036
+            ],
+            "records": [
+              1211132
+            ]
+          },
+          {
+            "coordinate": [
+              -89.64752826657224,
+              21.289514961944683
+            ],
+            "records": [
+              1211132
+            ]
+          },
+          {
+            "coordinate": [
+              -89.6474665757649,
+              21.28951933549033
+            ],
+            "records": [
+              1211132
+            ]
+          },
+          {
+            "coordinate": [
+              -89.64739147391248,
+              21.28951996028252
+            ],
+            "records": [
+              1211132
+            ]
+          },
+          {
+            "coordinate": [
+              -89.64731637206006,
+              21.289520585074712
+            ],
+            "records": [
+              1211132
+            ]
+          },
+          {
+            "coordinate": [
+              -89.64724127020764,
+              21.289521209866905
+            ],
+            "records": [
+              1211132
+            ]
+          },
+          {
+            "coordinate": [
+              -89.64716616835523,
+              21.289521834659094
+            ],
+            "records": [
+              1211132
+            ]
+          },
+          {
+            "coordinate": [
+              -89.64710648920465,
+              21.289531206540712
+            ],
+            "records": [
+              1211132
+            ]
+          },
+          {
+            "coordinate": [
+              -89.64704681005406,
+              21.289540578422326
+            ],
+            "records": [
+              1211132
+            ]
+          },
+          {
+            "coordinate": [
+              -89.64698713090348,
+              21.289549950303943
+            ],
+            "records": [
+              1211132
+            ]
+          },
+          {
+            "coordinate": [
+              -89.6469274517529,
+              21.28955932218556
+            ],
+            "records": [
+              1211132
+            ]
+          },
+          {
+            "coordinate": [
+              -89.64686844315457,
+              21.28955182468103
+            ],
+            "records": [
+              1211132
+            ]
+          }
+        ],
+        "reference_capture_sha256": "2a969741c4e8582d5d267ebbf65711eb59fab4a48daeecb85355bc6ed40de0a1",
+        "classification": "marked_by_user_on_registered_capture_and_visible_in_native_raster",
+        "field_verified": false,
+        "display_code": "P4"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "PROGRESO-GT-2025-03-01",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -89.64094543,
+            21.29029444
+          ],
+          [
+            -89.64077377,
+            21.29033192
+          ],
+          [
+            -89.6406343,
+            21.29034942
+          ],
+          [
+            -89.64045995,
+            21.29036441
+          ],
+          [
+            -89.64029097,
+            21.29037191
+          ]
+        ]
+      },
+      "properties": {
+        "label": "Progreso · geotubo probable",
+        "type": "geotube_probable_axis",
+        "municipality_slug": "progreso",
+        "capture_date": "2025-04-14",
+        "capture_release": 26334,
+        "capture_native_zoom": 17,
+        "capture_sensor": "LG02",
+        "source_resolution_m": 0.6,
+        "source_accuracy_m_reported": 5,
+        "source_url": "https://wayback.maptiles.arcgis.com/arcgis/rest/services/World_Imagery/WMTS/1.0.0/default028mm/MapServer/tile/26334/17/57599/32898",
+        "source_tiles": [
+          {
+            "url": "https://wayback.maptiles.arcgis.com/arcgis/rest/services/World_Imagery/WMTS/1.0.0/default028mm/MapServer/tile/26334/17/57599/32898",
+            "sha256": "7f5a2ef9773150105508b8e8af2a57d08a85eb09f5755b2292afe4ae49a51b9b"
+          }
+        ],
+        "metadata_url": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2026_r07/MapServer/6/query?f=json&where=1%3D1&inSR=4326&outSR=4326&geometry=-89.641245432%2C21.289994437%2C-89.639990973%2C21.290671911&geometryType=esriGeometryEnvelope&spatialRel=esriSpatialRelIntersects&outFields=OBJECTID%2CSRC_DATE2%2CSRC_DESC%2CSAMP_RES%2CSRC_ACC%2CMinMapLevel%2CMaxMapLevel&returnGeometry=true",
+        "metadata_sha256": "0a18bbd1034e2b9ab92018e7e32d68f36fb00869fa35e8618c567af1cc27412f",
+        "metadata_receipt": [
+          {
+            "coordinate": [
+              -89.64094543153834,
+              21.290294437109765
+            ],
+            "records": [
+              1211132
+            ]
+          },
+          {
+            "coordinate": [
+              -89.64088821107936,
+              21.290306932886256
+            ],
+            "records": [
+              1211132
+            ]
+          },
+          {
+            "coordinate": [
+              -89.64083099062037,
+              21.290319428662748
+            ],
+            "records": [
+              1211132
+            ]
+          },
+          {
+            "coordinate": [
+              -89.64077377016139,
+              21.29033192443924
+            ],
+            "records": [
+              1211132
+            ]
+          },
+          {
+            "coordinate": [
+              -89.640704032727,
+              21.29034067148115
+            ],
+            "records": [
+              1211132
+            ]
+          },
+          {
+            "coordinate": [
+              -89.64063429529261,
+              21.29034941852306
+            ],
+            "records": [
+              1211132
+            ]
+          },
+          {
+            "coordinate": [
+              -89.64057618076396,
+              21.290354416832173
+            ],
+            "records": [
+              1211132
+            ]
+          },
+          {
+            "coordinate": [
+              -89.6405180662353,
+              21.290359415141282
+            ],
+            "records": [
+              1211132
+            ]
+          },
+          {
+            "coordinate": [
+              -89.64045995170665,
+              21.290364413450394
+            ],
+            "records": [
+              1211132
+            ]
+          },
+          {
+            "coordinate": [
+              -89.64040362531733,
+              21.290366912604757
+            ],
+            "records": [
+              1211132
+            ]
+          },
+          {
+            "coordinate": [
+              -89.64034729892802,
+              21.290369411759123
+            ],
+            "records": [
+              1211132
+            ]
+          },
+          {
+            "coordinate": [
+              -89.64029097253871,
+              21.290371910913485
+            ],
+            "records": [
+              1211132
+            ]
+          }
+        ],
+        "reference_capture_sha256": "abcca525a4e19ff819cd5dcab009c18c2e9a9895f91ad455c32bac70d8bedec7",
+        "classification": "marked_by_user_on_registered_capture_and_visible_in_native_raster",
+        "field_verified": false,
+        "display_code": "P5"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "IXIL-GT-2025-04-02",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -89.45014818,
+            21.32272788
+          ],
+          [
+            -89.45006235,
+            21.32274787
+          ],
+          [
+            -89.449888,
+            21.32276786
+          ],
+          [
+            -89.44974048,
+            21.32277035
+          ],
+          [
+            -89.44955005,
+            21.32275037
+          ]
+        ]
+      },
+      "properties": {
+        "label": "Ixil · geotubo probable",
+        "type": "geotube_probable_axis",
+        "municipality_slug": "ixil",
+        "capture_date": "2025-10-11",
+        "capture_release": 26334,
+        "capture_native_zoom": 17,
+        "capture_sensor": "WV03",
+        "source_resolution_m": 0.6,
+        "source_accuracy_m_reported": 5,
+        "source_url": "https://wayback.maptiles.arcgis.com/arcgis/rest/services/World_Imagery/WMTS/1.0.0/default028mm/MapServer/tile/26334/17/57586/32968",
+        "source_tiles": [
+          {
+            "url": "https://wayback.maptiles.arcgis.com/arcgis/rest/services/World_Imagery/WMTS/1.0.0/default028mm/MapServer/tile/26334/17/57586/32968",
+            "sha256": "59bc4ec9b706bb920d3db2956b69c67f912eb2ffd083f60f205de6d4c16c5e66"
+          }
+        ],
+        "metadata_url": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2026_r07/MapServer/6/query?f=json&where=1%3D1&inSR=4326&outSR=4326&geometry=-89.452626132%2C21.321840705%2C-89.449250046%2C21.323070354&geometryType=esriGeometryEnvelope&spatialRel=esriSpatialRelIntersects&outFields=OBJECTID%2CSRC_DATE2%2CSRC_DESC%2CSAMP_RES%2CSRC_ACC%2CMinMapLevel%2CMaxMapLevel&returnGeometry=true",
+        "metadata_sha256": "7102dd6a634146c3c6f9cbbc2deb18988443383af7f53c4eed4a032406321b31",
+        "metadata_receipt": [
+          {
+            "coordinate": [
+              -89.45014817845109,
+              21.322727877895325
+            ],
+            "records": [
+              1211144
+            ]
+          },
+          {
+            "coordinate": [
+              -89.45010526310685,
+              21.32273787231035
+            ],
+            "records": [
+              1211144
+            ]
+          },
+          {
+            "coordinate": [
+              -89.45006234776261,
+              21.32274786672537
+            ],
+            "records": [
+              1211144
+            ]
+          },
+          {
+            "coordinate": [
+              -89.45000423323395,
+              21.322754529667808
+            ],
+            "records": [
+              1211144
+            ]
+          },
+          {
+            "coordinate": [
+              -89.4499461187053,
+              21.322761192610248
+            ],
+            "records": [
+              1211144
+            ]
+          },
+          {
+            "coordinate": [
+              -89.44988800417664,
+              21.322767855552687
+            ],
+            "records": [
+              1211144
+            ]
+          },
+          {
+            "coordinate": [
+              -89.44981424342873,
+              21.322769104854295
+            ],
+            "records": [
+              1211144
+            ]
+          },
+          {
+            "coordinate": [
+              -89.44974048268082,
+              21.322770354155903
+            ],
+            "records": [
+              1211144
+            ]
+          },
+          {
+            "coordinate": [
+              -89.44967700373414,
+              21.322763691213577
+            ],
+            "records": [
+              1211144
+            ]
+          },
+          {
+            "coordinate": [
+              -89.44961352478745,
+              21.322757028271255
+            ],
+            "records": [
+              1211144
+            ]
+          },
+          {
+            "coordinate": [
+              -89.44955004584077,
+              21.32275036532893
+            ],
+            "records": [
+              1211144
+            ]
+          }
+        ],
+        "reference_capture_sha256": "9159d272797d90f6fb102545fc105ec4f85fb162c16db14e7ed180c888d4000c",
+        "classification": "marked_by_user_on_registered_capture_and_visible_in_native_raster",
+        "field_verified": false,
+        "display_code": "I1"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "IXIL-GT-2025-08-01",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -89.49009651,
+            21.31711973
+          ],
+          [
+            -89.48982829,
+            21.31715472
+          ],
+          [
+            -89.48956007,
+            21.3171872
+          ],
+          [
+            -89.48926503,
+            21.31720469
+          ],
+          [
+            -89.48913628,
+            21.31722968
+          ],
+          [
+            -89.48881442,
+            21.31729464
+          ],
+          [
+            -89.4885462,
+            21.31734462
+          ],
+          [
+            -89.48837185,
+            21.3173796
+          ]
+        ]
+      },
+      "properties": {
+        "label": "Ixil · geotubo probable",
+        "type": "geotube_probable_axis",
+        "municipality_slug": "ixil",
+        "capture_date": "2025-11-25",
+        "capture_release": 26334,
+        "capture_native_zoom": 17,
+        "capture_sensor": "LG02",
+        "source_resolution_m": 0.6,
+        "source_accuracy_m_reported": 5,
+        "source_url": "https://wayback.maptiles.arcgis.com/arcgis/rest/services/World_Imagery/WMTS/1.0.0/default028mm/MapServer/tile/26334/17/57589/32953",
+        "source_tiles": [
+          {
+            "url": "https://wayback.maptiles.arcgis.com/arcgis/rest/services/World_Imagery/WMTS/1.0.0/default028mm/MapServer/tile/26334/17/57589/32953",
+            "sha256": "cbe98193c15915be4d446e0ba1a29ab455e6b5cd393f1ca64379c0af0cf7b6b1"
+          },
+          {
+            "url": "https://wayback.maptiles.arcgis.com/arcgis/rest/services/World_Imagery/WMTS/1.0.0/default028mm/MapServer/tile/26334/17/57589/32954",
+            "sha256": "36996c854f1832093f9baf32953600380be06fdd10730f065ca32cac2dd30cda"
+          }
+        ],
+        "metadata_url": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2026_r07/MapServer/6/query?f=json&where=1%3D1&inSR=4326&outSR=4326&geometry=-89.490396514%2C21.316819734%2C-89.488071854%2C21.317679599&geometryType=esriGeometryEnvelope&spatialRel=esriSpatialRelIntersects&outFields=OBJECTID%2CSRC_DATE2%2CSRC_DESC%2CSAMP_RES%2CSRC_ACC%2CMinMapLevel%2CMaxMapLevel&returnGeometry=true",
+        "metadata_sha256": "272303b97d1f552e89a9e3603eb3e69309b32b48f2120eebf3436756d25cb39d",
+        "metadata_receipt": [
+          {
+            "coordinate": [
+              -89.49009651395127,
+              21.317119734173556
+            ],
+            "records": [
+              1211146
+            ]
+          },
+          {
+            "coordinate": [
+              -89.4900294587259,
+              21.317128479620333
+            ],
+            "records": [
+              1211146
+            ]
+          },
+          {
+            "coordinate": [
+              -89.48996240350053,
+              21.317137225067107
+            ],
+            "records": [
+              1211146
+            ]
+          },
+          {
+            "coordinate": [
+              -89.48989534827516,
+              21.317145970513884
+            ],
+            "records": [
+              1211146
+            ]
+          },
+          {
+            "coordinate": [
+              -89.48982829304978,
+              21.317154715960662
+            ],
+            "records": [
+              1211146
+            ]
+          },
+          {
+            "coordinate": [
+              -89.48976123782441,
+              21.3171628367308
+            ],
+            "records": [
+              1211146
+            ]
+          },
+          {
+            "coordinate": [
+              -89.48969418259904,
+              21.317170957500945
+            ],
+            "records": [
+              1211146
+            ]
+          },
+          {
+            "coordinate": [
+              -89.48962712737367,
+              21.31717907827109
+            ],
+            "records": [
+              1211146
+            ]
+          },
+          {
+            "coordinate": [
+              -89.4895600721483,
+              21.31718719904123
+            ],
+            "records": [
+              1211146
+            ]
+          },
+          {
+            "coordinate": [
+              -89.48948631140038,
+              21.31719157176287
+            ],
+            "records": [
+              1211146
+            ]
+          },
+          {
+            "coordinate": [
+              -89.48941255065247,
+              21.31719594448451
+            ],
+            "records": [
+              1211146
+            ]
+          },
+          {
+            "coordinate": [
+              -89.48933878990456,
+              21.317200317206147
+            ],
+            "records": [
+              1211146
+            ]
+          },
+          {
+            "coordinate": [
+              -89.48926502915666,
+              21.317204689927788
+            ],
+            "records": [
+              1211146
+            ]
+          },
+          {
+            "coordinate": [
+              -89.4892006561403,
+              21.317217183416382
+            ],
+            "records": [
+              1211146
+            ]
+          },
+          {
+            "coordinate": [
+              -89.48913628312394,
+              21.317229676904976
+            ],
+            "records": [
+              1211146
+            ]
+          },
+          {
+            "coordinate": [
+              -89.48907191010758,
+              21.31724267012913
+            ],
+            "records": [
+              1211146
+            ]
+          },
+          {
+            "coordinate": [
+              -89.48900753709123,
+              21.317255663353286
+            ],
+            "records": [
+              1211146
+            ]
+          },
+          {
+            "coordinate": [
+              -89.48894316407487,
+              21.31726865657744
+            ],
+            "records": [
+              1211146
+            ]
+          },
+          {
+            "coordinate": [
+              -89.48887879105851,
+              21.317281649801597
+            ],
+            "records": [
+              1211146
+            ]
+          },
+          {
+            "coordinate": [
+              -89.48881441804215,
+              21.31729464302575
+            ],
+            "records": [
+              1211146
+            ]
+          },
+          {
+            "coordinate": [
+              -89.48874736281678,
+              21.317307136505626
+            ],
+            "records": [
+              1211146
+            ]
+          },
+          {
+            "coordinate": [
+              -89.48868030759141,
+              21.317319629985498
+            ],
+            "records": [
+              1211146
+            ]
+          },
+          {
+            "coordinate": [
+              -89.48861325236604,
+              21.317332123465373
+            ],
+            "records": [
+              1211146
+            ]
+          },
+          {
+            "coordinate": [
+              -89.48854619714066,
+              21.31734461694525
+            ],
+            "records": [
+              1211146
+            ]
+          },
+          {
+            "coordinate": [
+              -89.48848808261201,
+              21.317356277523093
+            ],
+            "records": [
+              1211146
+            ]
+          },
+          {
+            "coordinate": [
+              -89.48842996808335,
+              21.317367938100933
+            ],
+            "records": [
+              1211146
+            ]
+          },
+          {
+            "coordinate": [
+              -89.4883718535547,
+              21.317379598678777
+            ],
+            "records": [
+              1211146
+            ]
+          }
+        ],
+        "reference_capture_sha256": "af22b410ad0233df411efa867c988689c15968e96a37c5b1ad547f3406e596dc",
+        "classification": "marked_by_user_on_registered_capture_and_visible_in_native_raster",
+        "field_verified": false,
+        "display_code": "I2"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "PROGRESO-GT-2025-02-06",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -89.83320951461792,
+            21.252121991858296
+          ],
+          [
+            -89.83304858207703,
+            21.252136990680956
+          ],
+          [
+            -89.83295202255249,
+            21.252149489698674
+          ],
+          [
+            -89.83285546302795,
+            21.252166988321687
+          ],
+          [
+            -89.83272671699524,
+            21.252179487336857
+          ],
+          [
+            -89.8326301574707,
+            21.25219198635097
+          ],
+          [
+            -89.83253628015518,
+            21.252199485758926
+          ]
+        ]
+      },
+      "properties": {
+        "label": "Progreso · geotubo señalado en el poniente",
+        "type": "geotube_probable_axis",
+        "municipality_slug": "progreso",
+        "capture_date": "2025-02-13",
+        "capture_release": 22252,
+        "capture_native_zoom": 17,
+        "capture_sensor": "WV03",
+        "source_resolution_m": 0.6,
+        "source_accuracy_m_reported": 5,
+        "metadata_sha256": "c3184333daea847dec63171678fd9dd844ba095c9ca30e659ea680347481f184",
+        "reference_capture_sha256": "9e2fb767b78b61a47d349dbc0126550c0b00fc9c755dfdc07753e325cf91fe26",
+        "classification": "identified_by_user_and_aligned_to_native_raster",
+        "field_verified": false,
+        "source_url": "https://wayback.maptiles.arcgis.com/arcgis/rest/services/World_Imagery/WMTS/1.0.0/default028mm/MapServer/tile/22252/17/57614/32828",
+        "source_tiles": [
+          {
+            "url": "https://wayback.maptiles.arcgis.com/arcgis/rest/services/World_Imagery/WMTS/1.0.0/default028mm/MapServer/tile/22252/17/57614/32828",
+            "sha256": "7558f4eb7593d4b100b8d5c8c40c09eb8b1d3090a62b77feca52f6d3a45415fe"
+          }
+        ],
+        "metadata_url": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2026_r01/MapServer/6/query?f=json&where=MinMapLevel+%3C%3D+17+AND+MaxMapLevel+%3E%3D+17&inSR=4326&outSR=4326&geometry=-89.843820333%2C21.248422236%2C-89.832082987%2C21.253541874&geometryType=esriGeometryEnvelope&spatialRel=esriSpatialRelIntersects&outFields=OBJECTID%2CSRC_DATE2%2CSRC_DESC%2CSAMP_RES%2CSRC_ACC%2CMinMapLevel%2CMaxMapLevel&returnGeometry=true",
+        "metadata_receipt": [
+          {
+            "coordinate": [
+              -89.83320951461792,
+              21.252121991858296
+            ],
+            "records": [
+              3456715
+            ]
+          },
+          {
+            "coordinate": [
+              -89.83304858207703,
+              21.252136990680956
+            ],
+            "records": [
+              3456715
+            ]
+          },
+          {
+            "coordinate": [
+              -89.83295202255249,
+              21.252149489698674
+            ],
+            "records": [
+              3456715
+            ]
+          },
+          {
+            "coordinate": [
+              -89.83285546302795,
+              21.252166988321687
+            ],
+            "records": [
+              3456715
+            ]
+          },
+          {
+            "coordinate": [
+              -89.83272671699524,
+              21.252179487336857
+            ],
+            "records": [
+              3456715
+            ]
+          },
+          {
+            "coordinate": [
+              -89.8326301574707,
+              21.25219198635097
+            ],
+            "records": [
+              3456715
+            ]
+          },
+          {
+            "coordinate": [
+              -89.83253628015518,
+              21.252199485758926
+            ],
+            "records": [
+              3456715
+            ]
+          },
+          {
+            "coordinate": [
+              -89.83312904834747,
+              21.25212949126982
+            ],
+            "records": [
+              3456715
+            ]
+          },
+          {
+            "coordinate": [
+              -89.83300030231476,
+              21.252143240189945
+            ],
+            "records": [
+              3456715
+            ]
+          },
+          {
+            "coordinate": [
+              -89.83290374279022,
+              21.25215823901044
+            ],
+            "records": [
+              3456715
+            ]
+          },
+          {
+            "coordinate": [
+              -89.8327910900116,
+              21.252173237829407
+            ],
+            "records": [
+              3456715
+            ]
+          },
+          {
+            "coordinate": [
+              -89.83267843723297,
+              21.252185736844048
+            ],
+            "records": [
+              3456715
+            ]
+          },
+          {
+            "coordinate": [
+              -89.83258321881294,
+              21.252195736054993
+            ],
+            "records": [
+              3456715
+            ]
+          }
+        ],
+        "display_code": "P6"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "PROGRESO-GT-2025-02-07",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -89.83208298683167,
+            21.252256981207243
+          ],
+          [
+            -89.83198642730713,
+            21.25225948100883
+          ],
+          [
+            -89.83188986778259,
+            21.252269480214775
+          ],
+          [
+            -89.83179330825806,
+            21.252269480214775
+          ],
+          [
+            -89.83169674873352,
+            21.252276979618788
+          ],
+          [
+            -89.8315680027008,
+            21.25228697882354
+          ],
+          [
+            -89.83143925666809,
+            21.252289478624625
+          ],
+          [
+            -89.83134269714355,
+            21.252299477828533
+          ],
+          [
+            -89.8312783241272,
+            21.252306977231015
+          ],
+          [
+            -89.83120322227478,
+            21.252311976832456
+          ]
+        ]
+      },
+      "properties": {
+        "label": "Progreso · geotubo señalado en el poniente",
+        "type": "geotube_probable_axis",
+        "municipality_slug": "progreso",
+        "capture_date": "2025-02-13",
+        "capture_release": 22252,
+        "capture_native_zoom": 17,
+        "capture_sensor": "WV03",
+        "source_resolution_m": 0.6,
+        "source_accuracy_m_reported": 5,
+        "metadata_sha256": "c3184333daea847dec63171678fd9dd844ba095c9ca30e659ea680347481f184",
+        "reference_capture_sha256": "9e2fb767b78b61a47d349dbc0126550c0b00fc9c755dfdc07753e325cf91fe26",
+        "classification": "identified_by_user_and_aligned_to_native_raster",
+        "field_verified": false,
+        "source_url": "https://wayback.maptiles.arcgis.com/arcgis/rest/services/World_Imagery/WMTS/1.0.0/default028mm/MapServer/tile/22252/17/57614/32829",
+        "source_tiles": [
+          {
+            "url": "https://wayback.maptiles.arcgis.com/arcgis/rest/services/World_Imagery/WMTS/1.0.0/default028mm/MapServer/tile/22252/17/57614/32829",
+            "sha256": "3933973a71b10719ab6c27ac914e5003ffbc9f02f1d9af7e4a35b52667f11cd6"
+          }
+        ],
+        "metadata_url": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2026_r01/MapServer/6/query?f=json&where=MinMapLevel+%3C%3D+17+AND+MaxMapLevel+%3E%3D+17&inSR=4326&outSR=4326&geometry=-89.832834005%2C21.250982077%2C-89.821096659%2C21.256101626&geometryType=esriGeometryEnvelope&spatialRel=esriSpatialRelIntersects&outFields=OBJECTID%2CSRC_DATE2%2CSRC_DESC%2CSAMP_RES%2CSRC_ACC%2CMinMapLevel%2CMaxMapLevel&returnGeometry=true",
+        "metadata_receipt": [
+          {
+            "coordinate": [
+              -89.83208298683167,
+              21.252256981207243
+            ],
+            "records": [
+              3456715
+            ]
+          },
+          {
+            "coordinate": [
+              -89.83198642730713,
+              21.25225948100883
+            ],
+            "records": [
+              3456715
+            ]
+          },
+          {
+            "coordinate": [
+              -89.83188986778259,
+              21.252269480214775
+            ],
+            "records": [
+              3456715
+            ]
+          },
+          {
+            "coordinate": [
+              -89.83179330825806,
+              21.252269480214775
+            ],
+            "records": [
+              3456715
+            ]
+          },
+          {
+            "coordinate": [
+              -89.83169674873352,
+              21.252276979618788
+            ],
+            "records": [
+              3456715
+            ]
+          },
+          {
+            "coordinate": [
+              -89.8315680027008,
+              21.25228697882354
+            ],
+            "records": [
+              3456715
+            ]
+          },
+          {
+            "coordinate": [
+              -89.83143925666809,
+              21.252289478624625
+            ],
+            "records": [
+              3456715
+            ]
+          },
+          {
+            "coordinate": [
+              -89.83134269714355,
+              21.252299477828533
+            ],
+            "records": [
+              3456715
+            ]
+          },
+          {
+            "coordinate": [
+              -89.8312783241272,
+              21.252306977231015
+            ],
+            "records": [
+              3456715
+            ]
+          },
+          {
+            "coordinate": [
+              -89.83120322227478,
+              21.252311976832456
+            ],
+            "records": [
+              3456715
+            ]
+          },
+          {
+            "coordinate": [
+              -89.8320347070694,
+              21.25225823110804
+            ],
+            "records": [
+              3456715
+            ]
+          },
+          {
+            "coordinate": [
+              -89.83193814754486,
+              21.25226448061189
+            ],
+            "records": [
+              3456715
+            ]
+          },
+          {
+            "coordinate": [
+              -89.83184158802032,
+              21.252269480214775
+            ],
+            "records": [
+              3456715
+            ]
+          },
+          {
+            "coordinate": [
+              -89.83174502849579,
+              21.252273229916828
+            ],
+            "records": [
+              3456715
+            ]
+          },
+          {
+            "coordinate": [
+              -89.83163237571716,
+              21.252281979221248
+            ],
+            "records": [
+              3456715
+            ]
+          },
+          {
+            "coordinate": [
+              -89.83150362968445,
+              21.252288228724087
+            ],
+            "records": [
+              3456715
+            ]
+          },
+          {
+            "coordinate": [
+              -89.83139097690582,
+              21.252294478226663
+            ],
+            "records": [
+              3456715
+            ]
+          },
+          {
+            "coordinate": [
+              -89.83131051063538,
+              21.252303227529822
+            ],
+            "records": [
+              3456715
+            ]
+          },
+          {
+            "coordinate": [
+              -89.83124077320099,
+              21.25230947703176
+            ],
+            "records": [
+              3456715
+            ]
+          }
+        ],
+        "display_code": "P7"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "PROGRESO-GT-2025-02-08",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -89.83065873384476,
+            21.252374471836195
+          ],
+          [
+            -89.8306131362915,
+            21.252376971635794
+          ],
+          [
+            -89.83054876327515,
+            21.25237947143535
+          ],
+          [
+            -89.83048439025879,
+            21.25239197043249
+          ],
+          [
+            -89.83046293258667,
+            21.252396970031054
+          ]
+        ]
+      },
+      "properties": {
+        "label": "Progreso · geotubo señalado en el poniente",
+        "type": "geotube_probable_axis",
+        "municipality_slug": "progreso",
+        "capture_date": "2025-02-13",
+        "capture_release": 22252,
+        "capture_native_zoom": 17,
+        "capture_sensor": "WV03",
+        "source_resolution_m": 0.6,
+        "source_accuracy_m_reported": 5,
+        "metadata_sha256": "c3184333daea847dec63171678fd9dd844ba095c9ca30e659ea680347481f184",
+        "reference_capture_sha256": "9e2fb767b78b61a47d349dbc0126550c0b00fc9c755dfdc07753e325cf91fe26",
+        "classification": "identified_by_user_and_aligned_to_native_raster",
+        "field_verified": false,
+        "source_url": "https://wayback.maptiles.arcgis.com/arcgis/rest/services/World_Imagery/WMTS/1.0.0/default028mm/MapServer/tile/22252/17/57614/32829",
+        "source_tiles": [
+          {
+            "url": "https://wayback.maptiles.arcgis.com/arcgis/rest/services/World_Imagery/WMTS/1.0.0/default028mm/MapServer/tile/22252/17/57614/32829",
+            "sha256": "3933973a71b10719ab6c27ac914e5003ffbc9f02f1d9af7e4a35b52667f11cd6"
+          }
+        ],
+        "metadata_url": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2026_r01/MapServer/6/query?f=json&where=MinMapLevel+%3C%3D+17+AND+MaxMapLevel+%3E%3D+17&inSR=4326&outSR=4326&geometry=-89.832834005%2C21.250982077%2C-89.821096659%2C21.256101626&geometryType=esriGeometryEnvelope&spatialRel=esriSpatialRelIntersects&outFields=OBJECTID%2CSRC_DATE2%2CSRC_DESC%2CSAMP_RES%2CSRC_ACC%2CMinMapLevel%2CMaxMapLevel&returnGeometry=true",
+        "metadata_receipt": [
+          {
+            "coordinate": [
+              -89.83065873384476,
+              21.252374471836195
+            ],
+            "records": [
+              3456715
+            ]
+          },
+          {
+            "coordinate": [
+              -89.8306131362915,
+              21.252376971635794
+            ],
+            "records": [
+              3456715
+            ]
+          },
+          {
+            "coordinate": [
+              -89.83054876327515,
+              21.25237947143535
+            ],
+            "records": [
+              3456715
+            ]
+          },
+          {
+            "coordinate": [
+              -89.83048439025879,
+              21.25239197043249
+            ],
+            "records": [
+              3456715
+            ]
+          },
+          {
+            "coordinate": [
+              -89.83046293258667,
+              21.252396970031054
+            ],
+            "records": [
+              3456715
+            ]
+          },
+          {
+            "coordinate": [
+              -89.83063593506813,
+              21.252375721736
+            ],
+            "records": [
+              3456715
+            ]
+          },
+          {
+            "coordinate": [
+              -89.83058094978333,
+              21.252378221535583
+            ],
+            "records": [
+              3456715
+            ]
+          },
+          {
+            "coordinate": [
+              -89.83051657676697,
+              21.252385720934054
+            ],
+            "records": [
+              3456715
+            ]
+          },
+          {
+            "coordinate": [
+              -89.83047366142273,
+              21.252394470231792
+            ],
+            "records": [
+              3456715
+            ]
+          }
+        ],
+        "display_code": "P8"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "PROGRESO-GT-2025-02-09",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -89.83027517795563,
+            21.252414468624675
+          ],
+          [
+            -89.83024835586548,
+            21.252421968021306
+          ],
+          [
+            -89.83022689819336,
+            21.25242696761885
+          ],
+          [
+            -89.83018398284912,
+            21.25244446620891
+          ]
+        ]
+      },
+      "properties": {
+        "label": "Progreso · geotubo señalado en el poniente",
+        "type": "geotube_probable_axis",
+        "municipality_slug": "progreso",
+        "capture_date": "2025-02-13",
+        "capture_release": 22252,
+        "capture_native_zoom": 17,
+        "capture_sensor": "WV03",
+        "source_resolution_m": 0.6,
+        "source_accuracy_m_reported": 5,
+        "metadata_sha256": "c3184333daea847dec63171678fd9dd844ba095c9ca30e659ea680347481f184",
+        "reference_capture_sha256": "9e2fb767b78b61a47d349dbc0126550c0b00fc9c755dfdc07753e325cf91fe26",
+        "classification": "identified_by_user_and_aligned_to_native_raster",
+        "field_verified": false,
+        "source_url": "https://wayback.maptiles.arcgis.com/arcgis/rest/services/World_Imagery/WMTS/1.0.0/default028mm/MapServer/tile/22252/17/57614/32829",
+        "source_tiles": [
+          {
+            "url": "https://wayback.maptiles.arcgis.com/arcgis/rest/services/World_Imagery/WMTS/1.0.0/default028mm/MapServer/tile/22252/17/57614/32829",
+            "sha256": "3933973a71b10719ab6c27ac914e5003ffbc9f02f1d9af7e4a35b52667f11cd6"
+          }
+        ],
+        "metadata_url": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2026_r01/MapServer/6/query?f=json&where=MinMapLevel+%3C%3D+17+AND+MaxMapLevel+%3E%3D+17&inSR=4326&outSR=4326&geometry=-89.832834005%2C21.250982077%2C-89.821096659%2C21.256101626&geometryType=esriGeometryEnvelope&spatialRel=esriSpatialRelIntersects&outFields=OBJECTID%2CSRC_DATE2%2CSRC_DESC%2CSAMP_RES%2CSRC_ACC%2CMinMapLevel%2CMaxMapLevel&returnGeometry=true",
+        "metadata_receipt": [
+          {
+            "coordinate": [
+              -89.83027517795563,
+              21.252414468624675
+            ],
+            "records": [
+              3456715
+            ]
+          },
+          {
+            "coordinate": [
+              -89.83024835586548,
+              21.252421968021306
+            ],
+            "records": [
+              3456715
+            ]
+          },
+          {
+            "coordinate": [
+              -89.83022689819336,
+              21.25242696761885
+            ],
+            "records": [
+              3456715
+            ]
+          },
+          {
+            "coordinate": [
+              -89.83018398284912,
+              21.25244446620891
+            ],
+            "records": [
+              3456715
+            ]
+          },
+          {
+            "coordinate": [
+              -89.83026176691055,
+              21.252418218323037
+            ],
+            "records": [
+              3456715
+            ]
+          },
+          {
+            "coordinate": [
+              -89.83023762702942,
+              21.2524244678201
+            ],
+            "records": [
+              3456715
+            ]
+          },
+          {
+            "coordinate": [
+              -89.83020544052124,
+              21.252435716914135
+            ],
+            "records": [
+              3456715
+            ]
+          }
+        ],
+        "display_code": "P9"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "PROGRESO-GT-2025-02-10",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -89.82672393321991,
+            21.253134408960356
+          ],
+          [
+            -89.82642620801926,
+            21.25313940853372
+          ],
+          [
+            -89.82605069875717,
+            21.253141908320337
+          ],
+          [
+            -89.82566446065903,
+            21.253141908320337
+          ],
+          [
+            -89.82535868883133,
+            21.253151907466382
+          ],
+          [
+            -89.82521653175354,
+            21.253166906184184
+          ],
+          [
+            -89.82502073049545,
+            21.253216901899144
+          ],
+          [
+            -89.8248678445816,
+            21.25324939910477
+          ]
+        ]
+      },
+      "properties": {
+        "label": "Progreso · geotubo señalado en el poniente",
+        "type": "geotube_probable_axis",
+        "municipality_slug": "progreso",
+        "capture_date": "2025-02-13",
+        "capture_release": 22252,
+        "capture_native_zoom": 17,
+        "capture_sensor": "WV03",
+        "source_resolution_m": 0.6,
+        "source_accuracy_m_reported": 5,
+        "source_url": "https://wayback.maptiles.arcgis.com/arcgis/rest/services/World_Imagery/WMTS/1.0.0/default028mm/MapServer/tile/22252/17/57614/32831",
+        "source_tiles": [
+          {
+            "url": "https://wayback.maptiles.arcgis.com/arcgis/rest/services/World_Imagery/WMTS/1.0.0/default028mm/MapServer/tile/22252/17/57614/32831",
+            "sha256": "31e6956eb6c33fefbd453404c531eba17e102202fed4b666ebeeead23110fd4f"
+          }
+        ],
+        "metadata_url": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2026_r01/MapServer/6/query?f=json&where=MinMapLevel+%3C%3D+17+AND+MaxMapLevel+%3E%3D+17&inSR=4326&outSR=4326&geometry=-89.832834005%2C21.250982077%2C-89.821096659%2C21.256101626&geometryType=esriGeometryEnvelope&spatialRel=esriSpatialRelIntersects&outFields=OBJECTID%2CSRC_DATE2%2CSRC_DESC%2CSAMP_RES%2CSRC_ACC%2CMinMapLevel%2CMaxMapLevel&returnGeometry=true",
+        "metadata_sha256": "c3184333daea847dec63171678fd9dd844ba095c9ca30e659ea680347481f184",
+        "metadata_receipt": [
+          {
+            "coordinate": [
+              -89.82672393321991,
+              21.253134408960356
+            ],
+            "records": [
+              3456715
+            ]
+          },
+          {
+            "coordinate": [
+              -89.82642620801926,
+              21.25313940853372
+            ],
+            "records": [
+              3456715
+            ]
+          },
+          {
+            "coordinate": [
+              -89.82605069875717,
+              21.253141908320337
+            ],
+            "records": [
+              3456715
+            ]
+          },
+          {
+            "coordinate": [
+              -89.82566446065903,
+              21.253141908320337
+            ],
+            "records": [
+              3456715
+            ]
+          },
+          {
+            "coordinate": [
+              -89.82535868883133,
+              21.253151907466382
+            ],
+            "records": [
+              3456715
+            ]
+          },
+          {
+            "coordinate": [
+              -89.82521653175354,
+              21.253166906184184
+            ],
+            "records": [
+              3456715
+            ]
+          },
+          {
+            "coordinate": [
+              -89.82502073049545,
+              21.253216901899144
+            ],
+            "records": [
+              3456715
+            ]
+          },
+          {
+            "coordinate": [
+              -89.8248678445816,
+              21.25324939910477
+            ],
+            "records": [
+              3456715
+            ]
+          },
+          {
+            "coordinate": [
+              -89.82657507061958,
+              21.253136908747056
+            ],
+            "records": [
+              3456715
+            ]
+          },
+          {
+            "coordinate": [
+              -89.82623845338821,
+              21.253140658427036
+            ],
+            "records": [
+              3456715
+            ]
+          },
+          {
+            "coordinate": [
+              -89.8258575797081,
+              21.253141908320337
+            ],
+            "records": [
+              3456715
+            ]
+          },
+          {
+            "coordinate": [
+              -89.82551157474518,
+              21.253146907893445
+            ],
+            "records": [
+              3456715
+            ]
+          },
+          {
+            "coordinate": [
+              -89.82528761029243,
+              21.253159406825475
+            ],
+            "records": [
+              3456715
+            ]
+          },
+          {
+            "coordinate": [
+              -89.8251186311245,
+              21.253191904043785
+            ],
+            "records": [
+              3456715
+            ]
+          },
+          {
+            "coordinate": [
+              -89.82494428753853,
+              21.253233150502854
+            ],
+            "records": [
+              3456715
+            ]
+          }
+        ],
+        "reference_capture_sha256": "f3325cc3d6b212f116691a8f1df1db37796c1eed18683a1bbabb4e934d437edd",
+        "classification": "identified_by_user_and_aligned_to_native_raster",
+        "field_verified": false,
+        "display_code": "P10"
+      }
+    }
+  ]
+}

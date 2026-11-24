@@ -13,7 +13,8 @@
     "build:public": "node scripts/build-repository-map.mjs",
     "preview": "vite preview --config vite.public.config.ts --host 127.0.0.1 --port 4174 --strictPort",
     "typecheck": "tsc --noEmit",
-    "test": "node --test tests/municipal-pages.test.ts tests/coastal-fixed-reference.test.ts tests/coastal-direction.test.ts tests/coastal-chapters.test.ts tests/coastal-image-alignment.test.ts tests/photo-coast.test.ts tests/photo-visual-review.test.ts tests/coastal-refined-photos.test.ts"
+    "audit:shorelines": "node scripts/audit-municipal-shoreline-reviews.mjs",
+    "test": "node --test tests/*.test.ts"
   },
   "dependencies": {
     "@base-ui/react": "1.7.0",

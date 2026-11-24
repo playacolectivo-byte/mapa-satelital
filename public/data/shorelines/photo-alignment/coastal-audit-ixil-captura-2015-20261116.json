@@ -1,0 +1,179 @@
+{
+  "version": 1,
+  "field_validated": false,
+  "review_id": "coastal-audit-ixil-captura-2015-20261116",
+  "timestamp": "2026-11-17T00:32:07.690Z",
+  "data_sha256": "250fa694f9c3829ac0d41598454e28988a6c681fc36c6330c0f950eb08aa76e5",
+  "model_sha256": "21ed574a9c464cab785197f95568e242da2358cae23b08a420afde98aa294513",
+  "method_url": "/data/shorelines/photo-alignment/coastal-audit-ixil-captura-2015-20261116-method.md",
+  "decisions": [
+    {
+      "profileId": "SC-88-0-167",
+      "capture": 206,
+      "oldOffset": 12,
+      "oldAccepted": true,
+      "newOffset": 12,
+      "newAccepted": true,
+      "sourceRelease": 10768,
+      "date": "2015-02-16",
+      "positionVisualInterval": [
+        9.5,
+        14.5
+      ],
+      "uncertaintyM": 2.5,
+      "evidence": [
+        {
+          "path": "/data/shorelines/photo-alignment/coastal-audit-ixil-captura-2015-20261116/ixil-perfiles-2011-2015.jpg",
+          "sha256": "ccdbf2b650465e59b6380b782dc6358eb9d00493ac6aaa1493c1d1ac2f5bd54c"
+        },
+        {
+          "path": "/data/shorelines/photo-alignment/coastal-audit-ixil-captura-2015-20261116/ixil-167-dos-ediciones.jpg",
+          "sha256": "e2c432d9c3710f8a85debf90eb1c70077b2071f8db749fde6dd9b9138604b445"
+        }
+      ],
+      "metadata": {
+        "release": 10768,
+        "positionOffset": 12,
+        "url": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2018_r01/MapServer/6/query?f=json&where=MinMapLevel+%3C%3D+17+AND+MaxMapLevel+%3E%3D+17&geometryType=esriGeometryEnvelope&geometry=-89.45029951%2C21.32264366%2C-89.45017025%2C21.32281686&inSR=4326&outSR=4326&outFields=OBJECTID%2CSRC_DATE2%2CSRC_DESC%2CSAMP_RES%2CSRC_ACC%2CMinMapLevel%2CMaxMapLevel&returnGeometry=true",
+        "sha256": "5afcec179d255364b6e350ae676cb461c27e0ee88eac3c5813ed72ef069cf108",
+        "file": "huellas-10768-a8b1b4bf9dd.json",
+        "checks": [
+          {
+            "delta_m": -3,
+            "date": "2015-02-16",
+            "sensor": "WV03_VNIR"
+          },
+          {
+            "delta_m": 0,
+            "date": "2015-02-16",
+            "sensor": "WV03_VNIR"
+          },
+          {
+            "delta_m": 3,
+            "date": "2015-02-16",
+            "sensor": "WV03_VNIR"
+          }
+        ]
+      },
+      "equivalentMetadata": [
+        {
+          "release": 18820,
+          "positionOffset": 12,
+          "url": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2018_r14/MapServer/6/query?f=json&where=MinMapLevel+%3C%3D+17+AND+MaxMapLevel+%3E%3D+17&geometryType=esriGeometryEnvelope&geometry=-89.45029951%2C21.32264366%2C-89.45017025%2C21.32281686&inSR=4326&outSR=4326&outFields=OBJECTID%2CSRC_DATE2%2CSRC_DESC%2CSAMP_RES%2CSRC_ACC%2CMinMapLevel%2CMaxMapLevel&returnGeometry=true",
+          "sha256": "5c117d1bed70a9e516b9c450d9e03005f4dcbe2a3e06b6b862a1973041bb1d7d",
+          "file": "huellas-18820-5bba20c9139.json",
+          "checks": [
+            {
+              "delta_m": -3,
+              "date": "2015-02-16",
+              "sensor": "WV03_VNIR"
+            },
+            {
+              "delta_m": 0,
+              "date": "2015-02-16",
+              "sensor": "WV03_VNIR"
+            },
+            {
+              "delta_m": 3,
+              "date": "2015-02-16",
+              "sensor": "WV03_VNIR"
+            }
+          ],
+          "imagery_match": {
+            "evidence": {
+              "path": "/data/shorelines/photo-alignment/coastal-audit-ixil-captura-2015-20261116/ixil-167-dos-ediciones.jpg",
+              "sha256": "e2c432d9c3710f8a85debf90eb1c70077b2071f8db749fde6dd9b9138604b445"
+            },
+            "correlation": 1,
+            "mean_rgb_error": 0
+          }
+        }
+      ],
+      "reason": "La misma toma de 2015 contiene una orilla continua en ambas ediciones. El cruce ya aceptado se cotejó en las dos imágenes."
+    },
+    {
+      "profileId": "SC-88-0-166",
+      "capture": 206,
+      "oldOffset": null,
+      "oldAccepted": false,
+      "newOffset": 12,
+      "newAccepted": true,
+      "sourceRelease": 10768,
+      "date": "2015-02-16",
+      "positionVisualInterval": [
+        10,
+        21
+      ],
+      "uncertaintyM": 9,
+      "evidence": [
+        {
+          "path": "/data/shorelines/photo-alignment/coastal-audit-ixil-captura-2015-20261116/ixil-perfiles-2011-2015.jpg",
+          "sha256": "ccdbf2b650465e59b6380b782dc6358eb9d00493ac6aaa1493c1d1ac2f5bd54c"
+        },
+        {
+          "path": "/data/shorelines/photo-alignment/coastal-audit-ixil-captura-2015-20261116/ixil-166-dos-ediciones.jpg",
+          "sha256": "eebab0479b1d7233ebb29ada6c1a44fa1ad109da18d0126a5646e0f8c1f2c300"
+        }
+      ],
+      "metadata": {
+        "release": 10768,
+        "positionOffset": 12,
+        "url": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2018_r01/MapServer/6/query?f=json&where=MinMapLevel+%3C%3D+17+AND+MaxMapLevel+%3E%3D+17&geometryType=esriGeometryEnvelope&geometry=-89.45124252%2C21.32243494%2C-89.45110459%2C21.32260619&inSR=4326&outSR=4326&outFields=OBJECTID%2CSRC_DATE2%2CSRC_DESC%2CSAMP_RES%2CSRC_ACC%2CMinMapLevel%2CMaxMapLevel&returnGeometry=true",
+        "sha256": "5afcec179d255364b6e350ae676cb461c27e0ee88eac3c5813ed72ef069cf108",
+        "file": "huellas-10768-d63a0468e76.json",
+        "checks": [
+          {
+            "delta_m": -3,
+            "date": "2015-02-16",
+            "sensor": "WV03_VNIR"
+          },
+          {
+            "delta_m": 0,
+            "date": "2015-02-16",
+            "sensor": "WV03_VNIR"
+          },
+          {
+            "delta_m": 3,
+            "date": "2015-02-16",
+            "sensor": "WV03_VNIR"
+          }
+        ]
+      },
+      "equivalentMetadata": [
+        {
+          "release": 18820,
+          "positionOffset": 12,
+          "url": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2018_r14/MapServer/6/query?f=json&where=MinMapLevel+%3C%3D+17+AND+MaxMapLevel+%3E%3D+17&geometryType=esriGeometryEnvelope&geometry=-89.45124252%2C21.32243494%2C-89.45110459%2C21.32260619&inSR=4326&outSR=4326&outFields=OBJECTID%2CSRC_DATE2%2CSRC_DESC%2CSAMP_RES%2CSRC_ACC%2CMinMapLevel%2CMaxMapLevel&returnGeometry=true",
+          "sha256": "5c117d1bed70a9e516b9c450d9e03005f4dcbe2a3e06b6b862a1973041bb1d7d",
+          "file": "huellas-18820-ed48537a161.json",
+          "checks": [
+            {
+              "delta_m": -3,
+              "date": "2015-02-16",
+              "sensor": "WV03_VNIR"
+            },
+            {
+              "delta_m": 0,
+              "date": "2015-02-16",
+              "sensor": "WV03_VNIR"
+            },
+            {
+              "delta_m": 3,
+              "date": "2015-02-16",
+              "sensor": "WV03_VNIR"
+            }
+          ],
+          "imagery_match": {
+            "evidence": {
+              "path": "/data/shorelines/photo-alignment/coastal-audit-ixil-captura-2015-20261116/ixil-166-dos-ediciones.jpg",
+              "sha256": "eebab0479b1d7233ebb29ada6c1a44fa1ad109da18d0126a5646e0f8c1f2c300"
+            },
+            "correlation": 0.9999995827674866,
+            "mean_rgb_error": 0
+          }
+        }
+      ],
+      "reason": "En la toma de 2015 el contacto queda dentro de una franja oscura. Se marca el borde de arena continua visible hacia tierra y se conserva el intervalo de ambigüedad de la franja."
+    }
+  ]
+}

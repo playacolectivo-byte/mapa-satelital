@@ -1,0 +1,6639 @@
+[
+  {
+    "station": "GRID100-progreso-001-0000",
+    "profile": "SC-258-0-30",
+    "original": [
+      -89.86447261491351,
+      21.24229271363876
+    ],
+    "corrected": [
+      -89.8644671360385,
+      21.242267699880145
+    ],
+    "note": "Contacto entre arena continua, incluida la húmeda, y agua conectada; la banda de espuma separada queda fuera.",
+    "axis": [
+      -0.2000267,
+      0.97979045
+    ]
+  },
+  {
+    "station": "GRID100-progreso-001-0001",
+    "profile": "SC-258-0-31",
+    "original": [
+      -89.86355121037711,
+      21.242481123322325
+    ],
+    "corrected": [
+      -89.86354963948271,
+      21.24247612335953
+    ],
+    "note": "Contacto entre arena continua, incluida la húmeda, y agua conectada; la banda de espuma separada queda fuera.",
+    "axis": [
+      -0.28103257,
+      0.95969823
+    ]
+  },
+  {
+    "station": "GRID100-progreso-001-0002",
+    "profile": "SC-258-0-32",
+    "original": [
+      -89.86263493152845,
+      21.242756677380413
+    ],
+    "corrected": [
+      -89.86263139983645,
+      21.242744680983403
+    ],
+    "note": "unión de teselas en la vecindad",
+    "axis": [
+      -0.26461218,
+      0.96435491
+    ]
+  },
+  {
+    "station": "GRID100-progreso-001-0003",
+    "profile": "SC-258-0-33",
+    "original": [
+      -89.86170685534793,
+      21.243026921018014
+    ],
+    "corrected": [
+      -89.86169850111293,
+      21.242991917217587
+    ],
+    "note": "banda húmeda estrecha",
+    "axis": [
+      -0.21714198,
+      0.97614003
+    ]
+  },
+  {
+    "station": "GRID100-progreso-001-0004",
+    "profile": "SC-258-0-34",
+    "original": [
+      -89.86076926441257,
+      21.243240122717857
+    ],
+    "corrected": [
+      -89.86076297722174,
+      21.243210701159303
+    ],
+    "note": "Contacto entre arena continua, incluida la húmeda, y agua conectada; la banda de espuma separada queda fuera.",
+    "axis": [
+      -0.19533622,
+      0.98073634
+    ]
+  },
+  {
+    "station": "GRID100-progreso-001-0005",
+    "profile": "SC-258-0-35",
+    "original": [
+      -89.85984457340369,
+      21.243487907593337
+    ],
+    "corrected": [
+      -89.85984041550078,
+      21.2434682870509
+    ],
+    "note": "Contacto entre arena continua, incluida la húmeda, y agua conectada; la banda de espuma separada queda fuera.",
+    "axis": [
+      -0.19377232,
+      0.98104653
+    ]
+  },
+  {
+    "station": "GRID100-progreso-001-0006",
+    "profile": "SC-258-0-36",
+    "original": [
+      -89.858904929073,
+      21.24362620857852
+    ],
+    "corrected": [
+      -89.85890276763331,
+      21.243616413815964
+    ],
+    "note": "Contacto entre arena continua, incluida la húmeda, y agua conectada; la banda de espuma separada queda fuera.",
+    "axis": [
+      -0.20146078,
+      0.97949658
+    ]
+  },
+  {
+    "station": "GRID100-progreso-001-0007",
+    "profile": "SC-258-0-37",
+    "original": [
+      -89.85792211894419,
+      21.243771137348993
+    ],
+    "corrected": [
+      -89.85792470283072,
+      21.24380103986906
+    ],
+    "note": "Contacto entre arena continua, incluida la húmeda, y agua conectada; la banda de espuma separada queda fuera.",
+    "axis": [
+      -0.08027856,
+      0.99677247
+    ]
+  },
+  {
+    "station": "GRID100-progreso-001-0008",
+    "profile": "SC-258-0-38",
+    "original": [
+      -89.85702835443738,
+      21.243918583006096
+    ],
+    "corrected": [
+      -89.85704252216965,
+      21.243977110462325
+    ],
+    "note": "Contacto entre arena continua, incluida la húmeda, y agua conectada; la banda de espuma separada queda fuera.",
+    "axis": [
+      -0.22008806,
+      0.97548001
+    ]
+  },
+  {
+    "station": "GRID100-progreso-001-0009",
+    "profile": "SC-258-0-39",
+    "original": [
+      -89.85611214065705,
+      21.244164576033885
+    ],
+    "corrected": [
+      -89.8561145500248,
+      21.24417432037653
+    ],
+    "note": "Contacto entre arena continua, incluida la húmeda, y agua conectada; la banda de espuma separada queda fuera.",
+    "axis": [
+      -0.22456935,
+      0.97445811
+    ]
+  },
+  {
+    "station": "GRID100-progreso-001-0010",
+    "profile": "SC-258-0-40",
+    "original": [
+      -89.85521287138297,
+      21.2443453954432
+    ],
+    "corrected": [
+      -89.85520953263068,
+      21.244335892223607
+    ],
+    "note": "Contacto entre arena continua, incluida la húmeda, y agua conectada; la banda de espuma separada queda fuera.",
+    "axis": [
+      -0.31119427,
+      0.95034632
+    ]
+  },
+  {
+    "station": "GRID100-progreso-001-0011",
+    "profile": "SC-258-0-41",
+    "original": [
+      -89.85422036758932,
+      21.244466191655597
+    ],
+    "corrected": [
+      -89.8542157471578,
+      21.2444365031548
+    ],
+    "note": "Contacto entre arena continua, incluida la húmeda, y agua conectada; la banda de espuma separada queda fuera.",
+    "axis": [
+      -0.14355181,
+      0.9896428
+    ]
+  },
+  {
+    "station": "GRID100-progreso-001-0012",
+    "profile": "SC-258-0-42",
+    "original": [
+      -89.85328657088554,
+      21.24469072090786
+    ],
+    "corrected": [
+      -89.85329127301799,
+      21.244720398212
+    ],
+    "note": "Contacto entre arena continua, incluida la húmeda, y agua conectada; la banda de espuma separada queda fuera.",
+    "axis": [
+      -0.14609017,
+      0.98927128
+    ]
+  },
+  {
+    "station": "GRID100-progreso-001-0013",
+    "profile": "SC-258-0-43",
+    "original": [
+      -89.85237162828294,
+      21.24490677816567
+    ],
+    "corrected": [
+      -89.85236748056707,
+      21.24488715593916
+    ],
+    "note": "Contacto entre arena continua, incluida la húmeda, y agua conectada; la banda de espuma separada queda fuera.",
+    "axis": [
+      -0.19329757,
+      0.98114018
+    ]
+  },
+  {
+    "station": "GRID100-progreso-001-0014",
+    "profile": "SC-258-0-44",
+    "original": [
+      -89.8514416290361,
+      21.245058461587618
+    ],
+    "corrected": [
+      -89.85143913393478,
+      21.24504873606417
+    ],
+    "note": "Contacto entre arena continua, incluida la húmeda, y agua conectada; la banda de espuma separada queda fuera.",
+    "axis": [
+      -0.2325603,
+      0.97258198
+    ]
+  },
+  {
+    "station": "GRID100-progreso-001-0015",
+    "profile": "SC-258-0-45",
+    "original": [
+      -89.8505653258151,
+      21.24527690692309
+    ],
+    "corrected": [
+      -89.85056134301936,
+      21.24526762178423
+    ],
+    "note": "Contacto entre arena continua, incluida la húmeda, y agua conectada; la banda de espuma separada queda fuera.",
+    "axis": [
+      -0.37122347,
+      0.92854356
+    ]
+  },
+  {
+    "station": "GRID100-progreso-001-0016",
+    "profile": "SC-258-0-46",
+    "original": [
+      -89.84963672847864,
+      21.24552061654013
+    ],
+    "corrected": [
+      -89.84963672847864,
+      21.24552061654013
+    ],
+    "note": "Contacto entre arena continua, incluida la húmeda, y agua conectada; la banda de espuma separada queda fuera.",
+    "axis": [
+      -0.37385442,
+      0.9274874
+    ]
+  },
+  {
+    "station": "GRID100-progreso-001-0017",
+    "profile": "SC-258-0-47",
+    "original": [
+      -89.84872543938346,
+      21.24580406190824
+    ],
+    "corrected": [
+      -89.84873374370451,
+      21.245822502766547
+    ],
+    "note": "Contacto entre arena continua, incluida la húmeda, y agua conectada; la banda de espuma separada queda fuera.",
+    "axis": [
+      -0.38700941,
+      0.92207576
+    ]
+  },
+  {
+    "station": "GRID100-progreso-001-0018",
+    "profile": "SC-258-0-48",
+    "original": [
+      -89.84785889735602,
+      21.246149063594515
+    ],
+    "corrected": [
+      -89.84786435220614,
+      21.246157674307717
+    ],
+    "note": "Contacto entre arena continua, incluida la húmeda, y agua conectada; la banda de espuma separada queda fuera.",
+    "axis": [
+      -0.50842888,
+      0.86110398
+    ]
+  },
+  {
+    "station": "GRID100-progreso-001-0019",
+    "profile": "SC-258-0-49",
+    "original": [
+      -89.84700540168807,
+      21.24656908130333
+    ],
+    "corrected": [
+      -89.84698005418426,
+      21.246525016873218
+    ],
+    "note": "Contacto entre arena continua, incluida la húmeda, y agua conectada; la banda de espuma separada queda fuera.",
+    "axis": [
+      -0.47251172,
+      0.88132439
+    ]
+  },
+  {
+    "station": "GRID100-progreso-001-0020",
+    "profile": "SC-258-0-50",
+    "original": [
+      -89.84608881187475,
+      21.246879123687837
+    ],
+    "corrected": [
+      -89.84607265793686,
+      21.24685317677343
+    ],
+    "note": "Contacto entre arena continua, incluida la húmeda, y agua conectada; la banda de espuma separada queda fuera.",
+    "axis": [
+      -0.50188538,
+      0.86493414
+    ]
+  },
+  {
+    "station": "GRID100-progreso-002-0000",
+    "profile": "SC-256-0-0",
+    "original": [
+      -89.84454573950492,
+      21.250542429406867
+    ],
+    "corrected": [
+      -89.84454064718733,
+      21.25050271469139
+    ],
+    "note": "Contacto entre arena continua, incluida la húmeda, y agua conectada; la banda de espuma separada queda fuera.",
+    "axis": [
+      -0.1186596,
+      0.99293499
+    ]
+  },
+  {
+    "station": "GRID100-progreso-002-0001",
+    "profile": "SC-256-0-1",
+    "original": [
+      -89.84360933603645,
+      21.25048825397956
+    ],
+    "corrected": [
+      -89.84361009940312,
+      21.25049822796303
+    ],
+    "note": "Contacto entre arena continua, incluida la húmeda, y agua conectada; la banda de espuma separada queda fuera.",
+    "axis": [
+      -0.07115093,
+      0.99746556
+    ]
+  },
+  {
+    "station": "GRID100-progreso-002-0002",
+    "profile": "SC-256-0-2",
+    "original": [
+      -89.84267478426305,
+      21.25055019840344
+    ],
+    "corrected": [
+      -89.8426741487724,
+      21.250540216637187
+    ],
+    "note": "Contacto entre arena continua, incluida la húmeda, y agua conectada; la banda de espuma separada queda fuera.",
+    "axis": [
+      -0.05923202,
+      0.99824424
+    ]
+  },
+  {
+    "station": "GRID100-progreso-002-0003",
+    "profile": "SC-256-0-3",
+    "original": [
+      -89.84171443650439,
+      21.250594976899126
+    ],
+    "corrected": [
+      -89.84171083458305,
+      21.250565167367697
+    ],
+    "note": "sombra sobre la franja",
+    "axis": [
+      -0.1119078,
+      0.99371859
+    ]
+  },
+  {
+    "station": "GRID100-progreso-002-0004",
+    "profile": "SC-256-0-4",
+    "original": [
+      -89.8407539296508,
+      21.250585713477737
+    ],
+    "corrected": [
+      -89.84075536786287,
+      21.250595622547657
+    ],
+    "note": "Contacto entre arena continua, incluida la húmeda, y agua conectada; la banda de espuma separada queda fuera.",
+    "axis": [
+      -0.13405108,
+      0.99097442
+    ]
+  },
+  {
+    "station": "GRID100-progreso-002-0005",
+    "profile": "SC-256-0-5",
+    "original": [
+      -89.83982907587425,
+      21.250718438374463
+    ],
+    "corrected": [
+      -89.8398264654328,
+      21.25069858829316
+    ],
+    "note": "Contacto entre arena continua, incluida la húmeda, y agua conectada; la banda de espuma separada queda fuera.",
+    "axis": [
+      -0.12165539,
+      0.9925724
+    ]
+  },
+  {
+    "station": "GRID100-progreso-002-0006",
+    "profile": "SC-256-0-6",
+    "original": [
+      -89.83889811627253,
+      21.250892359987436
+    ],
+    "corrected": [
+      -89.83889096402751,
+      21.250842809850788
+    ],
+    "note": "Contacto entre arena continua, incluida la húmeda, y agua conectada; la banda de espuma separada queda fuera.",
+    "axis": [
+      -0.13332751,
+      0.99107203
+    ]
+  },
+  {
+    "station": "GRID100-progreso-002-0007",
+    "profile": "SC-256-0-7",
+    "original": [
+      -89.83797686998341,
+      21.251057954876426
+    ],
+    "corrected": [
+      -89.83797041177392,
+      21.25100832206781
+    ],
+    "note": "Contacto entre arena continua, incluida la húmeda, y agua conectada; la banda de espuma separada queda fuera.",
+    "axis": [
+      -0.12038975,
+      0.9927267
+    ]
+  },
+  {
+    "station": "GRID100-progreso-002-0008",
+    "profile": "SC-256-0-8",
+    "original": [
+      -89.83705120171622,
+      21.25122626151537
+    ],
+    "corrected": [
+      -89.83704868288162,
+      21.251206401224394
+    ],
+    "note": "Contacto entre arena continua, incluida la húmeda, y agua conectada; la banda de espuma separada queda fuera.",
+    "axis": [
+      -0.1173862,
+      0.99308634
+    ]
+  },
+  {
+    "station": "GRID100-progreso-002-0009",
+    "profile": "SC-256-0-9",
+    "original": [
+      -89.83611050707675,
+      21.251384018440188
+    ],
+    "corrected": [
+      -89.83611583251061,
+      21.25141360278254
+    ],
+    "note": "Contacto entre arena continua, incluida la húmeda, y agua conectada; la banda de espuma separada queda fuera.",
+    "axis": [
+      -0.16545547,
+      0.98621726
+    ]
+  },
+  {
+    "station": "GRID100-progreso-002-0010",
+    "profile": "SC-256-0-10",
+    "original": [
+      -89.83520101155847,
+      21.251649705946974
+    ],
+    "corrected": [
+      -89.83518938063611,
+      21.251590697859747
+    ],
+    "note": "Contacto entre arena continua, incluida la húmeda, y agua conectada; la banda de espuma separada queda fuera.",
+    "axis": [
+      -0.18068009,
+      0.98354192
+    ]
+  },
+  {
+    "station": "GRID100-progreso-002-0011",
+    "profile": "SC-256-0-11",
+    "original": [
+      -89.83428700941151,
+      21.25186288499986
+    ],
+    "corrected": [
+      -89.83428174881287,
+      21.25183329067359
+    ],
+    "note": "Contacto entre arena continua, incluida la húmeda, y agua conectada; la banda de espuma separada queda fuera.",
+    "axis": [
+      -0.16344111,
+      0.98655309
+    ]
+  },
+  {
+    "station": "GRID100-progreso-002-0012",
+    "profile": "SC-256-0-12",
+    "original": [
+      -89.83337450679456,
+      21.252104224852392
+    ],
+    "corrected": [
+      -89.8333688069078,
+      21.25205451178453
+    ],
+    "note": "Contacto entre arena continua, incluida la húmeda, y agua conectada; la banda de espuma separada queda fuera.",
+    "axis": [
+      -0.10625359,
+      0.99433906
+    ]
+  },
+  {
+    "station": "GRID100-progreso-002-0013",
+    "profile": "SC-256-0-13",
+    "original": [
+      -89.83245106011911,
+      21.252276988363892
+    ],
+    "corrected": [
+      -89.83245235618054,
+      21.252286914341088
+    ],
+    "note": "Contacto entre arena continua, incluida la húmeda, y agua conectada; la banda de espuma separada queda fuera.",
+    "axis": [
+      -0.12080168,
+      0.99267666
+    ]
+  },
+  {
+    "station": "GRID100-progreso-002-0014",
+    "profile": "SC-256-0-14",
+    "original": [
+      -89.83152382131976,
+      21.25251228973138
+    ],
+    "corrected": [
+      -89.83152013474792,
+      21.252472440818515
+    ],
+    "note": "Contacto entre arena continua, incluida la húmeda, y agua conectada; la banda de espuma separada queda fuera.",
+    "axis": [
+      -0.08590335,
+      0.99630347
+    ]
+  },
+  {
+    "station": "GRID100-progreso-002-0015",
+    "profile": "SC-256-0-15",
+    "original": [
+      -89.83059595677958,
+      21.25269027552329
+    ],
+    "corrected": [
+      -89.83059405657482,
+      21.25267035573732
+    ],
+    "note": "Contacto entre arena continua, incluida la húmeda, y agua conectada; la banda de espuma separada queda fuera.",
+    "axis": [
+      -0.08855596,
+      0.9960712
+    ]
+  },
+  {
+    "station": "GRID100-progreso-002-0016",
+    "profile": "SC-256-0-16",
+    "original": [
+      -89.8296397739876,
+      21.25282796575917
+    ],
+    "corrected": [
+      -89.82963820179639,
+      21.252787995931794
+    ],
+    "note": "Contacto entre arena continua, incluida la húmeda, y agua conectada; la banda de espuma separada queda fuera.",
+    "axis": [
+      -0.03663471,
+      0.99932872
+    ]
+  },
+  {
+    "station": "GRID100-progreso-002-0017",
+    "profile": "SC-256-0-17",
+    "original": [
+      -89.82884647575256,
+      21.252940659662084
+    ],
+    "corrected": [
+      -89.82883678942311,
+      21.25291205280588
+    ],
+    "note": "Contacto entre arena continua, incluida la húmeda, y agua conectada; la banda de espuma separada queda fuera.",
+    "axis": [
+      -0.30094378,
+      0.95364188
+    ]
+  },
+  {
+    "station": "GRID100-progreso-002-0018",
+    "profile": "GRID100-progreso-002-0018",
+    "original": [
+      -89.82750356581658,
+      21.25315247972304
+    ],
+    "corrected": [
+      -89.82749534526712,
+      21.253113223778566
+    ],
+    "note": "control directo",
+    "axis": [
+      -0.19155268607038564,
+      0.9814823322195975
+    ]
+  },
+  {
+    "station": "GRID100-progreso-002-0019",
+    "profile": "SC-256-0-19",
+    "original": [
+      -89.82699242315425,
+      21.25325092796254
+    ],
+    "corrected": [
+      -89.82699123248133,
+      21.253210946798166
+    ],
+    "note": "Contacto entre arena continua, incluida la húmeda, y agua conectada; la banda de espuma separada queda fuera.",
+    "axis": [
+      -0.02774469,
+      0.99961504
+    ]
+  },
+  {
+    "station": "GRID100-progreso-002-0020",
+    "profile": "SC-256-0-21",
+    "original": [
+      -89.825264235074,
+      21.2535191345393
+    ],
+    "corrected": [
+      -89.82523048887423,
+      21.253424218345863
+    ],
+    "note": "runup oblicuo y franja ancha",
+    "axis": [
+      -0.31453738,
+      0.94924509
+    ]
+  },
+  {
+    "station": "GRID100-progreso-002-0021",
+    "profile": "SC-252-0-0",
+    "original": [
+      -89.8244472850862,
+      21.25357600622792
+    ],
+    "corrected": [
+      -89.82443076377426,
+      21.253539092394504
+    ],
+    "note": "Contacto entre arena continua, incluida la húmeda, y agua conectada; la banda de espuma separada queda fuera.",
+    "axis": [
+      -0.38497447,
+      0.92292722
+    ]
+  },
+  {
+    "station": "GRID100-progreso-002-0022",
+    "profile": "SC-251-0-0",
+    "original": [
+      -89.82365686115165,
+      21.25371321635169
+    ],
+    "corrected": [
+      -89.82364418677803,
+      21.253675003998126
+    ],
+    "note": "sombra lateral",
+    "axis": [
+      -0.29533431,
+      0.95539397
+    ]
+  },
+  {
+    "station": "GRID100-progreso-002-0023",
+    "profile": "SC-251-0-2",
+    "original": [
+      -89.82250591613631,
+      21.253815398032835
+    ],
+    "corrected": [
+      -89.82250611274053,
+      21.253845394772164
+    ],
+    "note": "Contacto entre arena continua, incluida la húmeda, y agua conectada; la banda de espuma separada queda fuera.",
+    "axis": [
+      -0.00610828,
+      0.99998134
+    ]
+  },
+  {
+    "station": "GRID100-progreso-002-0024",
+    "profile": "SC-251-0-3",
+    "original": [
+      -89.82181555053752,
+      21.253987855279533
+    ],
+    "corrected": [
+      -89.82180624869244,
+      21.253948809734556
+    ],
+    "note": "Contacto entre arena continua, incluida la húmeda, y agua conectada; la banda de espuma separada queda fuera.",
+    "axis": [
+      -0.2167487,
+      0.97622743
+    ]
+  },
+  {
+    "station": "GRID100-progreso-002-0025",
+    "profile": "SC-251-0-5",
+    "original": [
+      -89.82074439690521,
+      21.254253017624002
+    ],
+    "corrected": [
+      -89.82072719704206,
+      21.254216374153643
+    ],
+    "note": "Contacto entre arena continua, incluida la húmeda, y agua conectada; la banda de espuma separada queda fuera.",
+    "axis": [
+      -0.40078586,
+      0.91617176
+    ]
+  },
+  {
+    "station": "GRID100-progreso-002-0026",
+    "profile": "SC-251-0-6",
+    "original": [
+      -89.82006522667338,
+      21.254377542220933
+    ],
+    "corrected": [
+      -89.82006728503748,
+      21.25433759199732
+    ],
+    "note": "Contacto entre arena continua, incluida la húmeda, y agua conectada; la banda de espuma separada queda fuera.",
+    "axis": [
+      0.04796336,
+      0.9988491
+    ]
+  },
+  {
+    "station": "GRID100-progreso-002-0027",
+    "profile": "SC-251-0-8",
+    "original": [
+      -89.81875390820271,
+      21.254599233329678
+    ],
+    "corrected": [
+      -89.81875213361782,
+      21.25457930373986
+    ],
+    "note": "Contacto entre arena continua, incluida la húmeda, y agua conectada; la banda de espuma separada queda fuera.",
+    "axis": [
+      -0.08270165,
+      0.99657435
+    ]
+  },
+  {
+    "station": "GRID100-progreso-002-0028",
+    "profile": "SC-251-0-9",
+    "original": [
+      -89.81817844723967,
+      21.254670936207933
+    ],
+    "corrected": [
+      -89.81817765417162,
+      21.254660964520113
+    ],
+    "note": "Contacto entre arena continua, incluida la húmeda, y agua conectada; la banda de espuma separada queda fuera.",
+    "axis": [
+      -0.0739193,
+      0.99726423
+    ]
+  },
+  {
+    "station": "GRID100-progreso-002-0029",
+    "profile": "SC-251-0-10",
+    "original": [
+      -89.8173573236472,
+      21.254769290381358
+    ],
+    "corrected": [
+      -89.81735109854799,
+      21.25475015236315
+    ],
+    "note": "Contacto entre arena continua, incluida la húmeda, y agua conectada; la banda de espuma separada queda fuera.",
+    "axis": [
+      -0.29011065,
+      0.95699311
+    ]
+  },
+  {
+    "station": "GRID100-progreso-002-0030",
+    "profile": "SC-251-0-12",
+    "original": [
+      -89.81613753125988,
+      21.25494772953185
+    ],
+    "corrected": [
+      -89.8161302526531,
+      21.254918509526494
+    ],
+    "note": "Contacto entre arena continua, incluida la húmeda, y agua conectada; la banda de espuma separada queda fuera.",
+    "axis": [
+      -0.22613844,
+      0.97409517
+    ]
+  },
+  {
+    "station": "GRID100-progreso-002-0031",
+    "profile": "SC-614-0-0",
+    "original": [
+      -89.81530855051668,
+      21.255062893573477
+    ],
+    "corrected": [
+      -89.81530042430487,
+      21.25502362108114
+    ],
+    "note": "Contacto entre arena continua, incluida la húmeda, y agua conectada; la banda de espuma separada queda fuera.",
+    "axis": [
+      -0.18935446,
+      0.9819088
+    ]
+  },
+  {
+    "station": "GRID100-progreso-002-0032",
+    "profile": "SC-244-0-0",
+    "original": [
+      -89.81423454850648,
+      21.25521737031639
+    ],
+    "corrected": [
+      -89.81423355394553,
+      21.255167383873513
+    ],
+    "note": "Contacto entre arena continua, incluida la húmeda, y agua conectada; la banda de espuma separada queda fuera.",
+    "axis": [
+      -0.01853996,
+      0.99982812
+    ]
+  },
+  {
+    "station": "GRID100-progreso-002-0033",
+    "profile": "SC-231-0-0",
+    "original": [
+      -89.81293322697776,
+      21.25537287405728
+    ],
+    "corrected": [
+      -89.81293278064639,
+      21.255352880392692
+    ],
+    "note": "Contacto entre arena continua, incluida la húmeda, y agua conectada; la banda de espuma separada queda fuera.",
+    "axis": [
+      -0.02080055,
+      0.99978365
+    ]
+  },
+  {
+    "station": "GRID100-progreso-002-0034",
+    "profile": "SC-231-0-1",
+    "original": [
+      -89.81213611103426,
+      21.25549630934174
+    ],
+    "corrected": [
+      -89.81213180066246,
+      21.255487152800963
+    ],
+    "note": "Contacto entre arena continua, incluida la húmeda, y agua conectada; la banda de espuma separada queda fuera.",
+    "axis": [
+      -0.40175577,
+      0.91574685
+    ]
+  },
+  {
+    "station": "GRID100-progreso-002-0035",
+    "profile": "SC-231-0-3",
+    "original": [
+      -89.81120607811441,
+      21.25564229007092
+    ],
+    "corrected": [
+      -89.81119963929336,
+      21.255623213683464
+    ],
+    "note": "Contacto entre arena continua, incluida la húmeda, y agua conectada; la banda de espuma separada queda fuera.",
+    "axis": [
+      -0.30007081,
+      0.95391693
+    ]
+  },
+  {
+    "station": "GRID100-progreso-002-0036",
+    "profile": "SC-231-0-4",
+    "original": [
+      -89.8104763891252,
+      21.255757633367082
+    ],
+    "corrected": [
+      -89.81046938239177,
+      21.255728355855517
+    ],
+    "note": "Contacto entre arena continua, incluida la húmeda, y agua conectada; la banda de espuma separada queda fuera.",
+    "axis": [
+      -0.21769163,
+      0.9760176
+    ]
+  },
+  {
+    "station": "GRID100-progreso-002-0037",
+    "profile": "SC-231-0-6",
+    "original": [
+      -89.80946212075658,
+      21.2559442485977
+    ],
+    "corrected": [
+      -89.80946085646022,
+      21.255914274876847
+    ],
+    "note": "Contacto entre arena continua, incluida la húmeda, y agua conectada; la banda de espuma separada queda fuera.",
+    "axis": [
+      -0.03928032,
+      0.99922823
+    ]
+  },
+  {
+    "station": "GRID100-progreso-002-0038",
+    "profile": "SC-231-0-7",
+    "original": [
+      -89.8087356067996,
+      21.2561230102162
+    ],
+    "corrected": [
+      -89.8087244022107,
+      21.25606393231119
+    ],
+    "note": "Contacto entre arena continua, incluida la húmeda, y agua conectada; la banda de espuma separada queda fuera.",
+    "axis": [
+      -0.17405723,
+      0.98473554
+    ]
+  },
+  {
+    "station": "GRID100-progreso-002-0039",
+    "profile": "SC-C320-0-0",
+    "original": [
+      -89.80770187320311,
+      21.256276521415657
+    ],
+    "corrected": [
+      -89.80769104663551,
+      21.256315223482122
+    ],
+    "note": "Contacto entre arena continua, incluida la húmeda, y agua conectada; la banda de espuma separada queda fuera.",
+    "axis": [
+      0.25227731,
+      0.96765498
+    ]
+  },
+  {
+    "station": "GRID100-progreso-002-0040",
+    "profile": "SC-243-0-0",
+    "original": [
+      -89.80660994868603,
+      21.256494343842345
+    ],
+    "corrected": [
+      -89.80660865525854,
+      21.25648441785026
+    ],
+    "note": "Contacto entre arena continua, incluida la húmeda, y agua conectada; la banda de espuma separada queda fuera.",
+    "axis": [
+      -0.12055618,
+      0.99270651
+    ]
+  },
+  {
+    "station": "GRID100-progreso-002-0041",
+    "profile": "SC-240-0-0",
+    "original": [
+      -89.80582161561874,
+      21.256618270820788
+    ],
+    "corrected": [
+      -89.8058236652382,
+      21.25662808557661
+    ],
+    "note": "Contacto entre arena continua, incluida la húmeda, y agua conectada; la banda de espuma separada queda fuera.",
+    "axis": [
+      -0.19103838,
+      0.98158257
+    ]
+  },
+  {
+    "station": "GRID100-progreso-002-0042",
+    "profile": "SC-C238-0-0",
+    "original": [
+      -89.80463121147619,
+      21.256952435234506
+    ],
+    "corrected": [
+      -89.80461971303025,
+      21.256913902016393
+    ],
+    "note": "Contacto entre arena continua, incluida la húmeda, y agua conectada; la banda de espuma separada queda fuera.",
+    "axis": [
+      -0.26793321,
+      0.96343749
+    ]
+  },
+  {
+    "station": "GRID100-progreso-002-0043",
+    "profile": "SC-234-0-0",
+    "original": [
+      -89.80367666794588,
+      21.257148189157967
+    ],
+    "corrected": [
+      -89.80367384410123,
+      21.257108280332762
+    ],
+    "note": "Contacto entre arena continua, incluida la húmeda, y agua conectada; la banda de espuma separada queda fuera.",
+    "axis": [
+      -0.06580035,
+      0.99783281
+    ]
+  },
+  {
+    "station": "GRID100-progreso-002-0044",
+    "profile": "SC-C221-0-0",
+    "original": [
+      -89.80298753259218,
+      21.257312239123575
+    ],
+    "corrected": [
+      -89.80298692208494,
+      21.25727224771223
+    ],
+    "note": "Contacto entre arena continua, incluida la húmeda, y agua conectada; la banda de espuma separada queda fuera.",
+    "axis": [
+      -0.01422585,
+      0.99989881
+    ]
+  },
+  {
+    "station": "GRID100-progreso-002-0045",
+    "profile": "SC-C223-0-0",
+    "original": [
+      -89.80185524356845,
+      21.257547825798046
+    ],
+    "corrected": [
+      -89.80185594728195,
+      21.257497835854927
+    ],
+    "note": "Contacto entre arena continua, incluida la húmeda, y agua conectada; la banda de espuma separada queda fuera.",
+    "axis": [
+      0.01311817,
+      0.99991395
+    ]
+  },
+  {
+    "station": "GRID100-progreso-002-0046",
+    "profile": "SC-218-0-0",
+    "original": [
+      -89.80078283641791,
+      21.25774556523308
+    ],
+    "corrected": [
+      -89.80077703772751,
+      21.257705936675894
+    ],
+    "note": "Contacto entre arena continua, incluida la húmeda, y agua conectada; la banda de espuma separada queda fuera.",
+    "axis": [
+      -0.13511928,
+      0.99082934
+    ]
+  },
+  {
+    "station": "GRID100-progreso-002-0047",
+    "profile": "SC-217-0-0",
+    "original": [
+      -89.80015377755709,
+      21.257859175766303
+    ],
+    "corrected": [
+      -89.80015083940695,
+      21.25783936646971
+    ],
+    "note": "Contacto entre arena continua, incluida la húmeda, y agua conectada; la banda de espuma separada queda fuera.",
+    "axis": [
+      -0.13692772,
+      0.99058104
+    ]
+  },
+  {
+    "station": "GRID100-progreso-002-0048",
+    "profile": "SC-210-0-0",
+    "original": [
+      -89.79924128944447,
+      21.258059004322405
+    ],
+    "corrected": [
+      -89.79923715256119,
+      21.258029256677574
+    ],
+    "note": "Contacto entre arena continua, incluida la húmeda, y agua conectada; la banda de espuma separada queda fuera.",
+    "axis": [
+      -0.12852849,
+      0.99170582
+    ]
+  },
+  {
+    "station": "GRID100-progreso-002-0049",
+    "profile": "SC-C205-0-0",
+    "original": [
+      -89.79825354877912,
+      21.258277029961803
+    ],
+    "corrected": [
+      -89.79825718725164,
+      21.258257321950353
+    ],
+    "note": "Contacto entre arena continua, incluida la húmeda, y agua conectada; la banda de espuma separada queda fuera.",
+    "axis": [
+      0.16956511,
+      0.98551899
+    ]
+  },
+  {
+    "station": "GRID100-progreso-002-0050",
+    "profile": "SC-206-0-0",
+    "original": [
+      -89.79714930237209,
+      21.258585111796
+    ],
+    "corrected": [
+      -89.79714963211687,
+      21.258565116602263
+    ],
+    "note": "Contacto entre arena continua, incluida la húmeda, y agua conectada; la banda de espuma separada queda fuera.",
+    "axis": [
+      0.01536722,
+      0.99988192
+    ]
+  },
+  {
+    "station": "GRID100-progreso-002-0051",
+    "profile": "SC-206-0-1",
+    "original": [
+      -89.7966087827772,
+      21.258693634863388
+    ],
+    "corrected": [
+      -89.7966070925365,
+      21.25868376095507
+    ],
+    "note": "Contacto entre arena continua, incluida la húmeda, y agua conectada; la banda de espuma separada queda fuera.",
+    "axis": [
+      -0.15754185,
+      0.98751231
+    ]
+  },
+  {
+    "station": "GRID100-progreso-002-0052",
+    "profile": "SC-C363-0-0",
+    "original": [
+      -89.79546284009254,
+      21.258921841336583
+    ],
+    "corrected": [
+      -89.7954606179225,
+      21.258901951350982
+    ],
+    "note": "Contacto entre arena continua, incluida la húmeda, y agua conectada; la banda de espuma separada queda fuera.",
+    "axis": [
+      -0.10356063,
+      0.99462314
+    ]
+  },
+  {
+    "station": "GRID100-progreso-002-0053",
+    "profile": "SC-198-0-0",
+    "original": [
+      -89.79412031932928,
+      21.259205668172985
+    ],
+    "corrected": [
+      -89.79411575633975,
+      21.259175974926457
+    ],
+    "note": "Contacto entre arena continua, incluida la húmeda, y agua conectada; la banda de espuma separada queda fuera.",
+    "axis": [
+      -0.14176715,
+      0.98990003
+    ]
+  },
+  {
+    "station": "GRID100-progreso-002-0054",
+    "profile": "SC-187-0-0",
+    "original": [
+      -89.79354315180807,
+      21.25936341625349
+    ],
+    "corrected": [
+      -89.79354315180807,
+      21.25936341625349
+    ],
+    "note": "Contacto entre arena continua, incluida la húmeda, y agua conectada; la banda de espuma separada queda fuera.",
+    "axis": [
+      -0.18398664,
+      0.98292875
+    ]
+  },
+  {
+    "station": "GRID100-progreso-002-0055",
+    "profile": "SC-C364-0-0",
+    "original": [
+      -89.79257690423437,
+      21.25961814756301
+    ],
+    "corrected": [
+      -89.79257548367413,
+      21.259608236888642
+    ],
+    "note": "Contacto entre arena continua, incluida la húmeda, y agua conectada; la banda de espuma separada queda fuera.",
+    "axis": [
+      -0.13240581,
+      0.99119559
+    ]
+  },
+  {
+    "station": "GRID100-progreso-002-0056",
+    "profile": "SC-C323-0-1",
+    "original": [
+      -89.7917132531101,
+      21.26004516909513
+    ],
+    "corrected": [
+      -89.79170734241815,
+      21.26003682459418
+    ],
+    "note": "Contacto entre arena continua, incluida la húmeda, y agua conectada; la banda de espuma separada queda fuera.",
+    "axis": [
+      -0.55091642,
+      0.83456042
+    ]
+  },
+  {
+    "station": "GRID100-progreso-002-0057",
+    "profile": "SC-C366-0-1",
+    "original": [
+      -89.79088193327142,
+      21.26053311723126
+    ],
+    "corrected": null,
+    "note": "estructura y sombra coinciden con el cruce; no se distingue arena continua en el eje",
+    "axis": [
+      -0.38498123,
+      0.9229244
+    ]
+  },
+  {
+    "station": "GRID100-progreso-002-0058",
+    "profile": "SC-C180-0-0",
+    "original": [
+      -89.79011526144305,
+      21.260940944819524
+    ],
+    "corrected": [
+      -89.7901142051208,
+      21.260910965123934
+    ],
+    "note": "Contacto entre arena continua, incluida la húmeda, y agua conectada; la banda de espuma separada queda fuera.",
+    "axis": [
+      -0.03281879,
+      0.99946132
+    ]
+  },
+  {
+    "station": "GRID100-progreso-002-0059",
+    "profile": "SC-C170-0-0",
+    "original": [
+      -89.78942684281108,
+      21.261196147124018
+    ],
+    "corrected": [
+      -89.78942329609136,
+      21.261176424981883
+    ],
+    "note": "estructura próxima al eje",
+    "axis": [
+      -0.16528912,
+      0.98624516
+    ]
+  },
+  {
+    "station": "GRID100-progreso-002-0060",
+    "profile": "SC-C370-0-0",
+    "original": [
+      -89.78824008676223,
+      21.261417703818278
+    ],
+    "corrected": [
+      -89.78823804566187,
+      21.261407887839816
+    ],
+    "note": "Contacto entre arena continua, incluida la húmeda, y agua conectada; la banda de espuma separada queda fuera.",
+    "axis": [
+      -0.19024434,
+      0.98173677
+    ]
+  },
+  {
+    "station": "GRID100-progreso-002-0061",
+    "profile": "SC-C152-0-1",
+    "original": [
+      -89.78713842157502,
+      21.26163796179462
+    ],
+    "corrected": [
+      -89.78713565485903,
+      21.261628301397796
+    ],
+    "note": "Contacto entre arena continua, incluida la húmeda, y agua conectada; la banda de espuma separada queda fuera.",
+    "axis": [
+      -0.25787662,
+      0.96617785
+    ]
+  },
+  {
+    "station": "GRID100-progreso-002-0062",
+    "profile": "SC-C159-0-1",
+    "original": [
+      -89.78628953437811,
+      21.261783068241698
+    ],
+    "corrected": [
+      -89.7862894737016,
+      21.261773069841524
+    ],
+    "note": "Contacto entre arena continua, incluida la húmeda, y agua conectada; la banda de espuma separada queda fuera.",
+    "axis": [
+      -0.00565546,
+      0.99998401
+    ]
+  },
+  {
+    "station": "GRID100-progreso-002-0063",
+    "profile": "SC-C161-0-1",
+    "original": [
+      -89.78520284150089,
+      21.26196964328002
+    ],
+    "corrected": [
+      -89.7851977868797,
+      21.261960823895905
+    ],
+    "note": "Contacto entre arena continua, incluida la húmeda, y agua conectada; la banda de espuma separada queda fuera.",
+    "axis": [
+      -0.47112484,
+      0.88206654
+    ]
+  },
+  {
+    "station": "GRID100-progreso-002-0064",
+    "profile": "SC-C166-0-1",
+    "original": [
+      -89.78438601204036,
+      21.262096224254
+    ],
+    "corrected": [
+      -89.78437983383627,
+      21.262077073993883
+    ],
+    "note": "Contacto entre arena continua, incluida la húmeda, y agua conectada; la banda de espuma separada queda fuera.",
+    "axis": [
+      -0.28792518,
+      0.95765291
+    ]
+  },
+  {
+    "station": "GRID100-progreso-002-0065",
+    "profile": "SC-121-0-0",
+    "original": [
+      -89.78334689008555,
+      21.262263583670105
+    ],
+    "corrected": [
+      -89.78334271609945,
+      21.262213742588607
+    ],
+    "note": "Contacto entre arena continua, incluida la húmeda, y agua conectada; la banda de espuma separada queda fuera.",
+    "axis": [
+      -0.07780874,
+      0.9969683
+    ]
+  },
+  {
+    "station": "GRID100-progreso-002-0066",
+    "profile": "SC-C125-0-0",
+    "original": [
+      -89.78255640289616,
+      21.26237131567713
+    ],
+    "corrected": [
+      -89.78255758978052,
+      21.26235134925018
+    ],
+    "note": "lengua de espuma lateral",
+    "axis": [
+      0.05531282,
+      0.99846907
+    ]
+  },
+  {
+    "station": "GRID100-progreso-002-0067",
+    "profile": "SC-126-0-1",
+    "original": [
+      -89.78129254831798,
+      21.262641234126956
+    ],
+    "corrected": [
+      -89.78129000928656,
+      21.262611332093766
+    ],
+    "note": "Contacto entre arena continua, incluida la húmeda, y agua conectada; la banda de espuma separada queda fuera.",
+    "axis": [
+      -0.07888496,
+      0.99688373
+    ]
+  },
+  {
+    "station": "GRID100-progreso-002-0068",
+    "profile": "SC-129-0-0",
+    "original": [
+      -89.78039199068138,
+      21.262877555965876
+    ],
+    "corrected": [
+      -89.78039115450551,
+      21.262837569611126
+    ],
+    "note": "Contacto entre arena continua, incluida la húmeda, y agua conectada; la banda de espuma separada queda fuera.",
+    "axis": [
+      -0.01948431,
+      0.99981016
+    ]
+  },
+  {
+    "station": "GRID100-progreso-002-0069",
+    "profile": "SC-C130-0-1",
+    "original": [
+      -89.77961321262347,
+      21.262956296968962
+    ],
+    "corrected": [
+      -89.77959754239538,
+      21.26291906456301
+    ],
+    "note": "Contacto entre arena continua, incluida la húmeda, y agua conectada; la banda de espuma separada queda fuera.",
+    "axis": [
+      -0.36514278,
+      0.93095153
+    ]
+  },
+  {
+    "station": "GRID100-progreso-002-0070",
+    "profile": "SC-137-0-0",
+    "original": [
+      -89.77844009123856,
+      21.263176390095534
+    ],
+    "corrected": [
+      -89.77843943125453,
+      21.263146401003624
+    ],
+    "note": "franja oscura difusa de arena húmeda",
+    "axis": [
+      -0.02050499,
+      0.99978975
+    ]
+  },
+  {
+    "station": "GRID100-progreso-002-0071",
+    "profile": "SC-C139-0-0",
+    "original": [
+      -89.77770550251843,
+      21.26322607120734
+    ],
+    "corrected": [
+      -89.7776983767206,
+      21.263207209127543
+    ],
+    "note": "Contacto entre arena continua, incluida la húmeda, y agua conectada; la banda de espuma separada queda fuera.",
+    "axis": [
+      -0.33208625,
+      0.94324903
+    ]
+  },
+  {
+    "station": "GRID100-progreso-002-0072",
+    "profile": "SC-144-0-0",
+    "original": [
+      -89.77657030236031,
+      21.26356669236787
+    ],
+    "corrected": [
+      -89.7765702089557,
+      21.263546695678734
+    ],
+    "note": "Contacto entre arena continua, incluida la húmeda, y agua conectada; la banda de espuma separada queda fuera.",
+    "axis": [
+      -0.00435297,
+      0.99999053
+    ]
+  },
+  {
+    "station": "GRID100-progreso-002-0073",
+    "profile": "SC-329-0-0",
+    "original": [
+      -89.77573057147983,
+      21.263771609203033
+    ],
+    "corrected": [
+      -89.77573058367088,
+      21.26376161078446
+    ],
+    "note": "Contacto entre arena continua, incluida la húmeda, y agua conectada; la banda de espuma separada queda fuera.",
+    "axis": [
+      0.00113629,
+      0.99999935
+    ]
+  },
+  {
+    "station": "GRID100-progreso-002-0074",
+    "profile": "SC-331-0-0",
+    "original": [
+      -89.77521643982783,
+      21.26386541718486
+    ],
+    "corrected": [
+      -89.77521614284034,
+      21.263845422262257
+    ],
+    "note": "Contacto entre arena continua, incluida la húmeda, y agua conectada; la banda de espuma separada queda fuera.",
+    "axis": [
+      -0.01384062,
+      0.99990421
+    ]
+  },
+  {
+    "station": "GRID100-progreso-002-0075",
+    "profile": "SC-C337-0-0",
+    "original": [
+      -89.77413937396133,
+      21.264216941001788
+    ],
+    "corrected": [
+      -89.7741322873817,
+      21.26423693778934
+    ],
+    "note": "Contacto visible de mar conectado con arena continua, incluida la arena húmeda.",
+    "axis": [
+      0.31359884,
+      0.94955556
+    ]
+  },
+  {
+    "station": "GRID100-progreso-002-0076",
+    "profile": "SC-148-0-0",
+    "original": [
+      -89.7730419258116,
+      21.26467581980604
+    ],
+    "corrected": [
+      -89.7730419258116,
+      21.26467581980604
+    ],
+    "note": "Contacto visible de mar conectado con arena continua, incluida la arena húmeda.",
+    "axis": [
+      -0.17029451,
+      0.98539321
+    ]
+  },
+  {
+    "station": "GRID100-progreso-002-0077",
+    "profile": "SC-112-0-0",
+    "original": [
+      -89.77205976134067,
+      21.265059564665545
+    ],
+    "corrected": [
+      -89.77205976134067,
+      21.265059564665545
+    ],
+    "note": "Contacto visible de mar conectado con arena continua, incluida la arena húmeda.",
+    "axis": [
+      -0.45620105,
+      0.88987673
+    ]
+  },
+  {
+    "station": "GRID100-progreso-002-0078",
+    "profile": "SC-C343-0-0",
+    "original": [
+      -89.77143377053669,
+      21.265302640170173
+    ],
+    "corrected": [
+      -89.77144273679706,
+      21.26532263681025
+    ],
+    "note": "Contacto visible de mar conectado con arena continua, incluida la arena húmeda.",
+    "axis": [
+      -0.38555182,
+      0.92268618
+    ]
+  },
+  {
+    "station": "GRID100-progreso-002-0079",
+    "profile": "SC-C347-0-0",
+    "original": [
+      -89.77034886963261,
+      21.26581909324009
+    ],
+    "corrected": [
+      -89.77035863252975,
+      21.265849088093972
+    ],
+    "note": "Contacto visible de mar conectado con arena continua, incluida la arena húmeda.",
+    "axis": [
+      -0.29026362,
+      0.95694672
+    ]
+  },
+  {
+    "station": "GRID100-progreso-002-0080",
+    "profile": "SC-C349-0-0",
+    "original": [
+      -89.76971106831844,
+      21.266009574396154
+    ],
+    "corrected": [
+      -89.76970897127124,
+      21.266029570940216
+    ],
+    "note": "Contacto visible de mar conectado con arena continua, incluida la arena húmeda.",
+    "axis": [
+      0.09726609,
+      0.99525841
+    ]
+  },
+  {
+    "station": "GRID100-progreso-002-0081",
+    "profile": "SC-C105-0-0",
+    "original": [
+      -89.7684247299402,
+      21.26631456305112
+    ],
+    "corrected": [
+      -89.76843449461259,
+      21.266334559553766
+    ],
+    "note": "Contacto visible de mar conectado con arena continua, incluida la arena húmeda.",
+    "axis": [
+      -0.41419611,
+      0.91018766
+    ]
+  },
+  {
+    "station": "GRID100-progreso-002-0082",
+    "profile": "SC-383-0-0",
+    "original": [
+      -89.76767451868162,
+      21.266462406863937
+    ],
+    "corrected": [
+      -89.76767829201503,
+      21.266492401586756
+    ],
+    "note": "Contacto visible de mar conectado con arena continua, incluida la arena húmeda.",
+    "axis": [
+      -0.11643599,
+      0.9931982
+    ]
+  },
+  {
+    "station": "GRID100-progreso-002-0083",
+    "profile": "SC-C380-0-1",
+    "original": [
+      -89.76682975442522,
+      21.266626473200972
+    ],
+    "corrected": [
+      -89.76684037619906,
+      21.26665646789034
+    ],
+    "note": "Contacto visible de mar conectado con arena continua, incluida la arena húmeda.",
+    "axis": [
+      -0.31338347,
+      0.94962666
+    ]
+  },
+  {
+    "station": "GRID100-progreso-002-0084",
+    "profile": "SC-C378-0-1",
+    "original": [
+      -89.76612815417896,
+      21.266751146945943
+    ],
+    "corrected": [
+      -89.7661326298008,
+      21.266761145167944
+    ],
+    "note": "Contacto visible de mar conectado con arena continua, incluida la arena húmeda.",
+    "axis": [
+      -0.38500188,
+      0.92291579
+    ]
+  },
+  {
+    "station": "GRID100-progreso-002-0085",
+    "profile": "SC-398-0-0",
+    "original": [
+      -89.76496633539566,
+      21.266951175954915
+    ],
+    "corrected": [
+      -89.76496906698804,
+      21.266971172371075
+    ],
+    "note": "Contacto visible de mar conectado con arena continua, incluida la arena húmeda.",
+    "axis": [
+      -0.1262823,
+      0.99199434
+    ]
+  },
+  {
+    "station": "GRID100-progreso-002-0086",
+    "profile": "SC-C400-0-1",
+    "original": [
+      -89.76399373573534,
+      21.26716291633448
+    ],
+    "corrected": [
+      -89.76399981691112,
+      21.267192910914567
+    ],
+    "note": "Contacto visible de mar conectado con arena continua, incluida la arena húmeda.",
+    "axis": [
+      -0.18565105,
+      0.98261574
+    ]
+  },
+  {
+    "station": "GRID100-progreso-002-0087",
+    "profile": "SC-C412-0-0",
+    "original": [
+      -89.76323634055927,
+      21.267305150488642
+    ],
+    "corrected": [
+      -89.763247185695,
+      21.26732514685673
+    ],
+    "note": "Contacto visible de mar conectado con arena continua, incluida la arena húmeda.",
+    "axis": [
+      -0.45107919,
+      0.89248393
+    ]
+  },
+  {
+    "station": "GRID100-progreso-002-0088",
+    "profile": "SC-410-0-0",
+    "original": [
+      -89.76230032416332,
+      21.26747991407013
+    ],
+    "corrected": [
+      -89.76230183492078,
+      21.267489912242638
+    ],
+    "note": "Contacto visible de mar conectado con arena continua, incluida la arena húmeda.",
+    "axis": [
+      -0.13943719,
+      0.99023092
+    ]
+  },
+  {
+    "station": "GRID100-progreso-002-0089",
+    "profile": "SC-418-0-0",
+    "original": [
+      -89.76107931911264,
+      21.267691999112838
+    ],
+    "corrected": [
+      -89.76108232572656,
+      21.267711995428357
+    ],
+    "note": "Contacto visible de mar conectado con arena continua, incluida la arena húmeda.",
+    "axis": [
+      -0.13876281,
+      0.99032564
+    ]
+  },
+  {
+    "station": "GRID100-progreso-002-0090",
+    "profile": "SC-419-0-0",
+    "original": [
+      -89.76010826120057,
+      21.267906785117702
+    ],
+    "corrected": [
+      -89.76011102178565,
+      21.267926781404046
+    ],
+    "note": "Contacto visible de mar conectado con arena continua, incluida la arena húmeda.",
+    "axis": [
+      -0.12760093,
+      0.99182559
+    ]
+  },
+  {
+    "station": "GRID100-progreso-002-0091",
+    "profile": "SC-421-0-0",
+    "original": [
+      -89.75911618014912,
+      21.268121468627694
+    ],
+    "corrected": [
+      -89.75911897624034,
+      21.26814146488488
+    ],
+    "note": "Contacto visible de mar conectado con arena continua, incluida la arena húmeda.",
+    "axis": [
+      -0.12921488,
+      0.99161662
+    ]
+  },
+  {
+    "station": "GRID100-progreso-002-0092",
+    "profile": "SC-421-0-1",
+    "original": [
+      -89.75858846192654,
+      21.268204624551228
+    ],
+    "corrected": [
+      -89.75859081422732,
+      21.268224620797117
+    ],
+    "note": "Contacto visible de mar conectado con arena continua, incluida la arena húmeda.",
+    "axis": [
+      -0.10897232,
+      0.99404478
+    ]
+  },
+  {
+    "station": "GRID100-progreso-002-0093",
+    "profile": "SC-426-0-1",
+    "original": [
+      -89.75756289107044,
+      21.2683630172168
+    ],
+    "corrected": [
+      -89.75756481009036,
+      21.26838301344117
+    ],
+    "note": "Contacto visible de mar conectado con arena continua, incluida la arena húmeda.",
+    "axis": [
+      -0.08907729,
+      0.99602472
+    ]
+  },
+  {
+    "station": "GRID100-progreso-002-0094",
+    "profile": "SC-C431-0-0",
+    "original": [
+      -89.75649648742738,
+      21.268532486694603
+    ],
+    "corrected": [
+      -89.75649836085253,
+      21.26855248289596
+    ],
+    "note": "Contacto visible de mar conectado con arena continua, incluida la arena húmeda.",
+    "axis": [
+      -0.08697707,
+      0.99621031
+    ]
+  },
+  {
+    "station": "GRID100-progreso-002-0095",
+    "profile": "SC-432-0-0",
+    "original": [
+      -89.7558200340939,
+      21.268659778993733
+    ],
+    "corrected": [
+      -89.7558200340939,
+      21.268659778993733
+    ],
+    "note": "Contacto visible de mar conectado con arena continua, incluida la arena húmeda.",
+    "axis": [
+      -0.10243144,
+      0.99474007
+    ]
+  },
+  {
+    "station": "GRID100-progreso-002-0096",
+    "profile": "SC-C438-0-1",
+    "original": [
+      -89.75459504028544,
+      21.268903439903728
+    ],
+    "corrected": [
+      -89.75459959242436,
+      21.26891343797955
+    ],
+    "note": "Contacto visible de mar conectado con arena continua, incluida la arena húmeda.",
+    "axis": [
+      -0.39058704,
+      0.920566
+    ]
+  },
+  {
+    "station": "GRID100-progreso-002-0097",
+    "profile": "SC-C453-0-1",
+    "original": [
+      -89.75361875268052,
+      21.26910580403273
+    ],
+    "corrected": [
+      -89.75361875268052,
+      21.26910580403273
+    ],
+    "note": "Contacto visible de mar conectado con arena continua, incluida la arena húmeda.",
+    "axis": [
+      -0.1261215,
+      0.9920148
+    ]
+  },
+  {
+    "station": "GRID100-progreso-002-0098",
+    "profile": "SC-C449-0-1",
+    "original": [
+      -89.75268864745772,
+      21.269316596581724
+    ],
+    "corrected": [
+      -89.7526861701364,
+      21.2693065985333
+    ],
+    "note": "Contacto visible de mar conectado con arena continua, incluida la arena húmeda.",
+    "axis": [
+      -0.22498333,
+      0.97436261
+    ]
+  },
+  {
+    "station": "GRID100-progreso-002-0099",
+    "profile": "SC-C445-0-1",
+    "original": [
+      -89.7516822191649,
+      21.269534462680596
+    ],
+    "corrected": [
+      -89.7516822191649,
+      21.269534462680596
+    ],
+    "note": "Contacto visible de mar conectado con arena continua, incluida la arena húmeda.",
+    "axis": [
+      -0.40998536,
+      0.9120921
+    ]
+  },
+  {
+    "station": "GRID100-progreso-002-0100",
+    "profile": "SC-C458-0-1",
+    "original": [
+      -89.75071483971098,
+      21.26974008859757
+    ],
+    "corrected": [
+      -89.75070574836998,
+      21.26973009057791
+    ],
+    "note": "Contacto visible de mar conectado con arena continua, incluida la arena húmeda.",
+    "axis": [
+      -0.64648474,
+      0.76292692
+    ]
+  },
+  {
+    "station": "GRID100-progreso-002-0101",
+    "profile": "SC-C461-0-1",
+    "original": [
+      -89.74976013180952,
+      21.269974155874788
+    ],
+    "corrected": [
+      -89.74976013180952,
+      21.269974155874788
+    ],
+    "note": "Contacto visible de mar conectado con arena continua, incluida la arena húmeda.",
+    "axis": [
+      -0.20333886,
+      0.97910842
+    ]
+  },
+  {
+    "station": "GRID100-progreso-002-0102",
+    "profile": "SC-C468-0-0",
+    "original": [
+      -89.74905782233677,
+      21.270152876921987
+    ],
+    "corrected": [
+      -89.74905782233677,
+      21.270152876921987
+    ],
+    "note": "Contacto visible de mar conectado con arena continua, incluida la arena húmeda.",
+    "axis": [
+      -0.12713359,
+      0.9918856
+    ]
+  },
+  {
+    "station": "GRID100-progreso-002-0103",
+    "profile": "SC-469-0-0",
+    "original": [
+      -89.7481522485505,
+      21.27036138257978
+    ],
+    "corrected": [
+      -89.74816059265042,
+      21.270391376508083
+    ],
+    "note": "Contacto visible de mar conectado con arena continua, incluida la arena húmeda.",
+    "axis": [
+      -0.25094665,
+      0.96800092
+    ]
+  },
+  {
+    "station": "GRID100-progreso-002-0104",
+    "profile": "SC-C474-0-0",
+    "original": [
+      -89.74717782277536,
+      21.270566106899516
+    ],
+    "corrected": [
+      -89.74717782277536,
+      21.270566106899516
+    ],
+    "note": "Contacto visible de mar conectado con arena continua, incluida la arena húmeda.",
+    "axis": [
+      -0.10625265,
+      0.99433916
+    ]
+  },
+  {
+    "station": "GRID100-progreso-002-0105",
+    "profile": "SC-C476-0-0",
+    "original": [
+      -89.74629743239424,
+      21.27067799160688
+    ],
+    "corrected": [
+      -89.74629813432982,
+      21.270687989562163
+    ],
+    "note": "Contacto visible de mar conectado con arena continua, incluida la arena húmeda.",
+    "axis": [
+      -0.06528556,
+      0.99786662
+    ]
+  },
+  {
+    "station": "GRID100-progreso-002-0106",
+    "profile": "SC-C481-0-0",
+    "original": [
+      -89.74533598030344,
+      21.270865616313408
+    ],
+    "corrected": [
+      -89.74533425622246,
+      21.27083562248175
+    ],
+    "note": "Contacto visible de mar conectado con arena continua, incluida la arena húmeda.",
+    "axis": [
+      -0.05348865,
+      0.99856846
+    ]
+  },
+  {
+    "station": "GRID100-progreso-002-0107",
+    "profile": "SC-C483-0-0",
+    "original": [
+      -89.74437619656901,
+      21.271025503920722
+    ],
+    "corrected": [
+      -89.74437619656901,
+      21.271025503920722
+    ],
+    "note": "Contacto visible de mar conectado con arena continua, incluida la arena húmeda.",
+    "axis": [
+      -0.00257446,
+      0.99999669
+    ]
+  },
+  {
+    "station": "GRID100-progreso-002-0108",
+    "profile": "SC-488-0-0",
+    "original": [
+      -89.74357808170055,
+      21.27118470017491
+    ],
+    "corrected": [
+      -89.74357808170055,
+      21.27118470017491
+    ],
+    "note": "Contacto visible de mar conectado con arena continua, incluida la arena húmeda.",
+    "axis": [
+      -0.10732007,
+      0.99422452
+    ]
+  },
+  {
+    "station": "GRID100-progreso-002-0109",
+    "profile": "SC-C494-0-0",
+    "original": [
+      -89.74212531956564,
+      21.271537057402366
+    ],
+    "corrected": [
+      -89.74212531956564,
+      21.271537057402366
+    ],
+    "note": "Contacto visible de mar conectado con arena continua, incluida la arena húmeda.",
+    "axis": [
+      -0.41591213,
+      0.90940481
+    ]
+  },
+  {
+    "station": "GRID100-progreso-002-0110",
+    "profile": "SC-C497-0-0",
+    "original": [
+      -89.74148817911653,
+      21.271664841761723
+    ],
+    "corrected": [
+      -89.74148817911653,
+      21.271664841761723
+    ],
+    "note": "Contacto visible de mar conectado con arena continua, incluida la arena húmeda.",
+    "axis": [
+      0.01601341,
+      0.99987178
+    ]
+  },
+  {
+    "station": "GRID100-progreso-002-0111",
+    "profile": "SC-C493-0-1",
+    "original": [
+      -89.7405456622584,
+      21.271973832388127
+    ],
+    "corrected": [
+      -89.7405477696823,
+      21.27198383025537
+    ],
+    "note": "Contacto visible de mar conectado con arena continua, incluida la arena húmeda.",
+    "axis": [
+      -0.19274301,
+      0.98124927
+    ]
+  },
+  {
+    "station": "GRID100-progreso-002-0112",
+    "profile": "SC-C490-0-0",
+    "original": [
+      -89.73926245308131,
+      21.272291560527446
+    ],
+    "corrected": [
+      -89.73927169433314,
+      21.27231155621809
+    ],
+    "note": "Contacto visible de mar conectado con arena continua, incluida la arena húmeda.",
+    "axis": [
+      -0.39554977,
+      0.91844454
+    ]
+  },
+  {
+    "station": "GRID100-progreso-002-0113",
+    "profile": "SC-508-0-0",
+    "original": [
+      -89.73876183541766,
+      21.272367690792485
+    ],
+    "corrected": [
+      -89.7387659463211,
+      21.27238768647278
+    ],
+    "note": "Contacto visible de mar conectado con arena continua, incluida la arena húmeda.",
+    "axis": [
+      -0.18816002,
+      0.98213838
+    ]
+  },
+  {
+    "station": "GRID100-progreso-002-0114",
+    "profile": "SC-508-0-1",
+    "original": [
+      -89.73798190104577,
+      21.27256203197428
+    ],
+    "corrected": [
+      -89.73798551992014,
+      21.27257202980157
+    ],
+    "note": "Contacto visible de mar conectado con arena continua, incluida la arena húmeda.",
+    "axis": [
+      -0.31961152,
+      0.94754867
+    ]
+  },
+  {
+    "station": "GRID100-progreso-002-0115",
+    "profile": "SC-510-0-0",
+    "original": [
+      -89.73711006237757,
+      21.27293098703407
+    ],
+    "corrected": [
+      -89.73711308918963,
+      21.272940984836282
+    ],
+    "note": "Contacto visible de mar conectado con arena continua, incluida la arena húmeda.",
+    "axis": [
+      -0.27152083,
+      0.96243256
+    ]
+  },
+  {
+    "station": "GRID100-progreso-002-0116",
+    "profile": "SC-510-0-1",
+    "original": [
+      -89.73620047805665,
+      21.273121462065188
+    ],
+    "corrected": [
+      -89.73620047805665,
+      21.273121462065188
+    ],
+    "note": "Contacto visible de mar conectado con arena continua, incluida la arena húmeda.",
+    "axis": [
+      -0.2613098,
+      0.96525499
+    ]
+  },
+  {
+    "station": "GRID100-progreso-002-0117",
+    "profile": "SC-510-0-2",
+    "original": [
+      -89.73539460256634,
+      21.27339342288175
+    ],
+    "corrected": [
+      -89.73539730140087,
+      21.273403420652553
+    ],
+    "note": "Contacto visible de mar conectado con arena continua, incluida la arena húmeda.",
+    "axis": [
+      -0.24394976,
+      0.96978787
+    ]
+  },
+  {
+    "station": "GRID100-progreso-002-0118",
+    "profile": "SC-511-0-0",
+    "original": [
+      -89.73442853409348,
+      21.273567158749035
+    ],
+    "corrected": [
+      -89.73443225229717,
+      21.273587154266348
+    ],
+    "note": "Contacto visible de mar conectado con arena continua, incluida la arena húmeda.",
+    "axis": [
+      -0.17073652,
+      0.98531672
+    ]
+  },
+  {
+    "station": "GRID100-progreso-002-0119",
+    "profile": "SC-C515-0-0",
+    "original": [
+      -89.73287251000002,
+      21.27382044000001
+    ],
+    "corrected": null,
+    "note": "La sombra de una estructura y la espuma se superponen al cruce del perfil con la playa.",
+    "axis": [
+      -0.3248468,
+      0.94576665
+    ]
+  },
+  {
+    "station": "GRID100-progreso-002-0120",
+    "profile": "GRID100-progreso-002-0120",
+    "original": [
+      -89.73219033566556,
+      21.274039234537316
+    ],
+    "corrected": [
+      -89.73219637994427,
+      21.274059229990485
+    ],
+    "note": "Contacto visible de mar conectado con arena continua, incluida la arena húmeda.",
+    "axis": [
+      -0.27113250228789615,
+      0.962542033473398
+    ]
+  },
+  {
+    "station": "GRID100-progreso-002-0121",
+    "profile": "SC-522-0-1",
+    "original": [
+      -89.73091061761608,
+      21.274187620104726
+    ],
+    "corrected": [
+      -89.73091225597825,
+      21.274197617821567
+    ],
+    "note": "Contacto visible de mar conectado con arena continua, incluida la arena húmeda.",
+    "axis": [
+      -0.15095647,
+      0.98854041
+    ]
+  },
+  {
+    "station": "GRID100-progreso-002-0122",
+    "profile": "GRID100-progreso-002-0122",
+    "original": [
+      -89.7302785828778,
+      21.27431724595215
+    ],
+    "corrected": [
+      -89.7302785828778,
+      21.27431724595215
+    ],
+    "note": "Contacto visible de mar conectado con arena continua, incluida la arena húmeda.",
+    "axis": [
+      -0.148005693461275,
+      0.9889865088579556
+    ]
+  },
+  {
+    "station": "GRID100-progreso-002-0123",
+    "profile": "SC-524-0-0",
+    "original": [
+      -89.72969350855904,
+      21.274454950020385
+    ],
+    "corrected": [
+      -89.72969039422715,
+      21.274434954620993
+    ],
+    "note": "Contacto visible de mar conectado con arena continua, incluida la arena húmeda.",
+    "axis": [
+      -0.14363344,
+      0.98963096
+    ]
+  },
+  {
+    "station": "GRID100-progreso-002-0124",
+    "profile": "SC-102-0-0",
+    "original": [
+      -89.72816828491474,
+      21.274683839952097
+    ],
+    "corrected": [
+      -89.72817007925438,
+      21.274693837635233
+    ],
+    "note": "Contacto visible de mar conectado con arena continua, incluida la arena húmeda.",
+    "axis": [
+      -0.16495355,
+      0.98630134
+    ]
+  },
+  {
+    "station": "GRID100-progreso-002-0125",
+    "profile": "SC-C531-0-1",
+    "original": [
+      -89.72724144310999,
+      21.27488812014149
+    ],
+    "corrected": [
+      -89.72724144310999,
+      21.27488812014149
+    ],
+    "note": "Contacto visible de mar conectado con arena continua, incluida la arena húmeda.",
+    "axis": [
+      -0.45914556,
+      0.88836105
+    ]
+  },
+  {
+    "station": "GRID100-progreso-002-0126",
+    "profile": "SC-C533-0-1",
+    "original": [
+      -89.72629449215766,
+      21.275064774846598
+    ],
+    "corrected": [
+      -89.72629644817349,
+      21.275084770160422
+    ],
+    "note": "Contacto visible de mar conectado con arena continua, incluida la arena húmeda.",
+    "axis": [
+      -0.09078055,
+      0.99587092
+    ]
+  },
+  {
+    "station": "GRID100-progreso-002-0127",
+    "profile": "SC-C537-0-1",
+    "original": [
+      -89.72535310999999,
+      21.275228140000003
+    ],
+    "corrected": [
+      -89.72535310999999,
+      21.275228140000003
+    ],
+    "note": "Contacto visible de mar conectado con arena continua, incluida la arena húmeda.",
+    "axis": [
+      -0.31943886,
+      0.94760689
+    ]
+  },
+  {
+    "station": "GRID100-progreso-002-0128",
+    "profile": "SC-542-0-0",
+    "original": [
+      -89.72461387960084,
+      21.27538945210668
+    ],
+    "corrected": [
+      -89.72461494792992,
+      21.275399449741876
+    ],
+    "note": "Contacto visible de mar conectado con arena continua, incluida la arena húmeda.",
+    "axis": [
+      -0.09908547,
+      0.99507893
+    ]
+  },
+  {
+    "station": "GRID100-progreso-002-0129",
+    "profile": "SC-544-0-0",
+    "original": [
+      -89.72395102719564,
+      21.27548529686952
+    ],
+    "corrected": [
+      -89.723955309108,
+      21.275505292126205
+    ],
+    "note": "Contacto visible de mar conectado con arena continua, incluida la arena húmeda.",
+    "axis": [
+      -0.19569328,
+      0.98066515
+    ]
+  },
+  {
+    "station": "GRID100-progreso-002-0130",
+    "profile": "SC-546-0-0",
+    "original": [
+      -89.72246769727326,
+      21.27586496149795
+    ],
+    "corrected": [
+      -89.72246769727326,
+      21.27586496149795
+    ],
+    "note": "Contacto visible de mar conectado con arena continua, incluida la arena húmeda.",
+    "axis": [
+      -0.3358102,
+      0.94192967
+    ]
+  },
+  {
+    "station": "GRID100-progreso-002-0131",
+    "profile": "SC-548-0-0",
+    "original": [
+      -89.72179050776518,
+      21.276048025450383
+    ],
+    "corrected": [
+      -89.72179351830081,
+      21.276058023040836
+    ],
+    "note": "Contacto visible de mar conectado con arena continua, incluida la arena húmeda.",
+    "axis": [
+      -0.27016759,
+      0.96281331
+    ]
+  },
+  {
+    "station": "GRID100-progreso-002-0132",
+    "profile": "SC-550-0-0",
+    "original": [
+      -89.72110031898981,
+      21.276289205135214
+    ],
+    "corrected": [
+      -89.72110031898981,
+      21.276289205135214
+    ],
+    "note": "Contacto visible de mar conectado con arena continua, incluida la arena húmeda.",
+    "axis": [
+      -0.24596342,
+      0.96927911
+    ]
+  },
+  {
+    "station": "GRID100-progreso-002-0133",
+    "profile": "SC-552-0-1",
+    "original": [
+      -89.71994751379302,
+      21.2764476054294
+    ],
+    "corrected": [
+      -89.71995751936234,
+      21.276497593239053
+    ],
+    "note": "Contacto visible de mar conectado con arena continua, incluida la arena húmeda.",
+    "axis": [
+      -0.18335525,
+      0.98304672
+    ]
+  },
+  {
+    "station": "GRID100-progreso-002-0134",
+    "profile": "SC-556-0-0",
+    "original": [
+      -89.71889444561606,
+      21.276726627979297
+    ],
+    "corrected": [
+      -89.71890245517166,
+      21.27674662306727
+    ],
+    "note": "Contacto visible de mar conectado con arena continua, incluida la arena húmeda.",
+    "axis": [
+      -0.34970402,
+      0.93686024
+    ]
+  },
+  {
+    "station": "GRID100-progreso-002-0135",
+    "profile": "SC-556-0-1",
+    "original": [
+      -89.71814932000001,
+      21.27693298
+    ],
+    "corrected": [
+      -89.71814932000001,
+      21.27693298
+    ],
+    "note": "Contacto visible de mar conectado con arena continua, incluida la arena húmeda.",
+    "axis": [
+      -0.18507457,
+      0.98272448
+    ]
+  },
+  {
+    "station": "GRID100-progreso-002-0136",
+    "profile": "SC-93-0-0",
+    "original": [
+      -89.71702322837287,
+      21.27721134104837
+    ],
+    "corrected": [
+      -89.71702322837287,
+      21.27721134104837
+    ],
+    "note": "Contacto visible de mar conectado con arena continua, incluida la arena húmeda.",
+    "axis": [
+      -0.14032788,
+      0.99010509
+    ]
+  },
+  {
+    "station": "GRID100-progreso-002-0137",
+    "profile": "SC-C101-0-0",
+    "original": [
+      -89.71625727422877,
+      21.277282842698813
+    ],
+    "corrected": [
+      -89.71626225686063,
+      21.277302837711208
+    ],
+    "note": "Contacto visible de mar conectado con arena continua, incluida la arena húmeda.",
+    "axis": [
+      -0.22618943,
+      0.97408333
+    ]
+  },
+  {
+    "station": "GRID100-progreso-002-0138",
+    "profile": "GRID100-progreso-002-0138",
+    "original": [
+      -89.71527868554055,
+      21.27751846375862
+    ],
+    "corrected": [
+      -89.71528087534404,
+      21.27752846124914
+    ],
+    "note": "Contacto visible de mar conectado con arena continua, incluida la arena húmeda.",
+    "axis": [
+      -0.1999815002575172,
+      0.9797996731754673
+    ]
+  },
+  {
+    "station": "GRID100-progreso-002-0139",
+    "profile": "GRID100-progreso-002-0139",
+    "original": [
+      -89.71433339433423,
+      21.277696183978044
+    ],
+    "corrected": [
+      -89.71433339433423,
+      21.277696183978044
+    ],
+    "note": "Contacto visible de mar conectado con arena continua, incluida la arena húmeda.",
+    "axis": [
+      -0.1763738058123773,
+      0.9843232602266686
+    ]
+  },
+  {
+    "station": "GRID100-progreso-002-0140",
+    "profile": "GRID100-progreso-002-0140",
+    "original": [
+      -89.71337650385658,
+      21.277809816996065
+    ],
+    "corrected": [
+      -89.71337650385658,
+      21.277809816996065
+    ],
+    "note": "Contacto visible de mar conectado con arena continua, incluida la arena húmeda.",
+    "axis": [
+      -0.2033040971648902,
+      0.9791156438725556
+    ]
+  },
+  {
+    "station": "GRID100-progreso-002-0141",
+    "profile": "SC-96-0-4",
+    "original": [
+      -89.71209133,
+      21.27813805
+    ],
+    "corrected": [
+      -89.71208743595612,
+      21.278128052550905
+    ],
+    "note": "Contacto visible de mar conectado con arena continua, incluida la arena húmeda.",
+    "axis": [
+      -0.34117416,
+      0.9400001
+    ]
+  },
+  {
+    "station": "GRID100-progreso-002-0142",
+    "profile": "SC-95-0-0",
+    "original": [
+      -89.71129727587393,
+      21.278538479062384
+    ],
+    "corrected": [
+      -89.71129408659874,
+      21.278508486794678
+    ],
+    "note": "Contacto visible de mar conectado con arena continua, incluida la arena húmeda.",
+    "axis": [
+      -0.09860445,
+      0.99512671
+    ]
+  },
+  {
+    "station": "GRID100-progreso-002-0143",
+    "profile": "SC-95-0-1",
+    "original": [
+      -89.71044542428915,
+      21.278635129310207
+    ],
+    "corrected": [
+      -89.71044542428915,
+      21.278635129310207
+    ],
+    "note": "Contacto visible de mar conectado con arena continua, incluida la arena húmeda.",
+    "axis": [
+      -0.13917681,
+      0.99026755
+    ]
+  },
+  {
+    "station": "GRID100-progreso-002-0144",
+    "profile": "SC-95-0-2",
+    "original": [
+      -89.70959631568616,
+      21.278758727080756
+    ],
+    "corrected": [
+      -89.70959631568616,
+      21.278758727080756
+    ],
+    "note": "Contacto visible de mar conectado con arena continua, incluida la arena húmeda.",
+    "axis": [
+      -0.14438186,
+      0.98952204
+    ]
+  },
+  {
+    "station": "GRID100-progreso-002-0145",
+    "profile": "SC-95-0-3",
+    "original": [
+      -89.70874586769624,
+      21.278872317156896
+    ],
+    "corrected": [
+      -89.70874756829821,
+      21.278882314555418
+    ],
+    "note": "Contacto visible de mar conectado con arena continua, incluida la arena húmeda.",
+    "axis": [
+      -0.15655312,
+      0.98766954
+    ]
+  },
+  {
+    "station": "GRID100-progreso-002-0146",
+    "profile": "SC-95-0-4",
+    "original": [
+      -89.70790150308407,
+      21.27901965096441
+    ],
+    "corrected": [
+      -89.70790490428799,
+      21.279039645740767
+    ],
+    "note": "Contacto visible de mar conectado con arena continua, incluida la arena húmeda.",
+    "axis": [
+      -0.15655312,
+      0.98766954
+    ]
+  },
+  {
+    "station": "GRID100-progreso-002-0147",
+    "profile": "SC-94-0-0",
+    "original": [
+      -89.7069666673814,
+      21.279181362160976
+    ],
+    "corrected": [
+      -89.70696896956466,
+      21.27920135691535
+    ],
+    "note": "Contacto visible de mar conectado con arena continua, incluida la arena húmeda.",
+    "axis": [
+      -0.10667729,
+      0.9942937
+    ]
+  },
+  {
+    "station": "GRID100-progreso-002-0148",
+    "profile": "SC-94-0-1",
+    "original": [
+      -89.7062052561949,
+      21.279317233554547
+    ],
+    "corrected": [
+      -89.7062052561949,
+      21.279317233554547
+    ],
+    "note": "Contacto visible de mar conectado con arena continua, incluida la arena húmeda.",
+    "axis": [
+      -0.23274985,
+      0.97253663
+    ]
+  },
+  {
+    "station": "GRID100-progreso-002-0149",
+    "profile": "SC-94-0-3",
+    "original": [
+      -89.7046643761585,
+      21.27951192429131
+    ],
+    "corrected": null,
+    "note": "El contacto queda difuso en una franja oscura junto a la zona de abrigo de Yucalpetén.",
+    "axis": [
+      -0.20542482,
+      0.9786729
+    ]
+  },
+  {
+    "station": "GRID100-progreso-002-0150",
+    "profile": "SC-94-0-4",
+    "original": [
+      -89.70389382429012,
+      21.279696790490057
+    ],
+    "corrected": [
+      -89.70389382429012,
+      21.279696790490057
+    ],
+    "note": "Contacto visible de mar conectado con arena continua, incluida la arena húmeda.",
+    "axis": [
+      -0.39733841,
+      0.91767216
+    ]
+  },
+  {
+    "station": "GRID100-progreso-003-0000",
+    "profile": "SC-90-0-0",
+    "original": [
+      -89.69904892113885,
+      21.2822115728222
+    ],
+    "corrected": [
+      -89.69904553477313,
+      21.28222156999378
+    ],
+    "note": "Contacto visible de mar conectado con arena continua, incluida la arena húmeda.",
+    "axis": [
+      0.30099495,
+      0.95362573
+    ]
+  },
+  {
+    "station": "GRID100-progreso-003-0001",
+    "profile": "SC-90-0-1",
+    "original": [
+      -89.69812916513321,
+      21.28199598392491
+    ],
+    "corrected": [
+      -89.69812427170238,
+      21.282035972665785
+    ],
+    "note": "Contacto visible de mar conectado con arena continua, incluida la arena húmeda.",
+    "axis": [
+      0.11329109,
+      0.99356184
+    ]
+  },
+  {
+    "station": "GRID100-progreso-004-0000",
+    "profile": "SC-90-0-4",
+    "original": [
+      -89.69613116416318,
+      21.281877338680136
+    ],
+    "corrected": [
+      -89.69613116416318,
+      21.281877338680136
+    ],
+    "note": "Contacto visible de mar conectado con arena continua, incluida la arena húmeda.",
+    "axis": [
+      0.29349285,
+      0.95596127
+    ]
+  },
+  {
+    "station": "GRID100-progreso-004-0001",
+    "profile": "SC-90-0-5",
+    "original": [
+      -89.6951710029547,
+      21.281909810327882
+    ],
+    "corrected": [
+      -89.69517145571885,
+      21.28191980751999
+    ],
+    "note": "Contacto visible de mar conectado con arena continua, incluida la arena húmeda.",
+    "axis": [
+      -0.04216315,
+      0.99911074
+    ]
+  },
+  {
+    "station": "GRID100-progreso-004-0002",
+    "profile": "SC-90-0-6",
+    "original": [
+      -89.69421324612648,
+      21.281933380346455
+    ],
+    "corrected": [
+      -89.69421476997262,
+      21.281963371915896
+    ],
+    "note": "Contacto visible de mar conectado con arena continua, incluida la arena húmeda.",
+    "axis": [
+      -0.04729128,
+      0.99888114
+    ]
+  },
+  {
+    "station": "GRID100-progreso-004-0003",
+    "profile": "SC-90-0-7",
+    "original": [
+      -89.69325476623558,
+      21.28198724689644
+    ],
+    "corrected": [
+      -89.69325712294734,
+      21.28200724126943
+    ],
+    "note": "Contacto visible de mar conectado con arena continua, incluida la arena húmeda.",
+    "axis": [
+      -0.10917423,
+      0.99402263
+    ]
+  },
+  {
+    "station": "GRID100-progreso-004-0004",
+    "profile": "SC-90-0-8",
+    "original": [
+      -89.69229922651112,
+      21.282071006724923
+    ],
+    "corrected": [
+      -89.69230342726503,
+      21.282100998266305
+    ],
+    "note": "Contacto visible de mar conectado con arena continua, incluida la arena húmeda.",
+    "axis": [
+      -0.12941533,
+      0.99159048
+    ]
+  },
+  {
+    "station": "GRID100-progreso-004-0005",
+    "profile": "SC-90-0-9",
+    "original": [
+      -89.69134112102947,
+      21.28213438552725
+    ],
+    "corrected": [
+      -89.69134538588612,
+      21.282164377055725
+    ],
+    "note": "Contacto visible de mar conectado con arena continua, incluida la arena húmeda.",
+    "axis": [
+      -0.13135636,
+      0.99133521
+    ]
+  },
+  {
+    "station": "GRID100-progreso-004-0006",
+    "profile": "SC-90-0-10",
+    "original": [
+      -89.69038979589395,
+      21.282223857857716
+    ],
+    "corrected": [
+      -89.69039338788858,
+      21.282253849367926
+    ],
+    "note": "Contacto visible de mar conectado con arena continua, incluida la arena húmeda.",
+    "axis": [
+      -0.11091086,
+      0.99383036
+    ]
+  },
+  {
+    "station": "GRID100-progreso-004-0007",
+    "profile": "SC-90-0-11",
+    "original": [
+      -89.68943474838632,
+      21.28235104400036
+    ],
+    "corrected": [
+      -89.68943640181372,
+      21.28236104116247
+    ],
+    "note": "Contacto visible de mar conectado con arena continua, incluida la arena húmeda.",
+    "axis": [
+      -0.1523125,
+      0.98833239
+    ]
+  },
+  {
+    "station": "GRID100-progreso-004-0008",
+    "profile": "SC-90-0-12",
+    "original": [
+      -89.6884798533874,
+      21.28246351460521
+    ],
+    "corrected": [
+      -89.6884798533874,
+      21.28246351460521
+    ],
+    "note": "Contacto visible de mar conectado con arena continua, incluida la arena húmeda.",
+    "axis": [
+      -0.16992095,
+      0.9854577
+    ]
+  },
+  {
+    "station": "GRID100-progreso-004-0009",
+    "profile": "SC-90-0-13",
+    "original": [
+      -89.68753879996096,
+      21.28256733633066
+    ],
+    "corrected": [
+      -89.68753879996096,
+      21.28256733633066
+    ],
+    "note": "Contacto visible de mar conectado con arena continua, incluida la arena húmeda.",
+    "axis": [
+      -0.11229195,
+      0.99367526
+    ]
+  },
+  {
+    "station": "GRID100-progreso-004-0010",
+    "profile": "SC-90-0-14",
+    "original": [
+      -89.68658693019465,
+      21.28266259093882
+    ],
+    "corrected": [
+      -89.68658693019465,
+      21.28266259093882
+    ],
+    "note": "Contacto visible de mar conectado con arena continua, incluida la arena húmeda.",
+    "axis": [
+      -0.10539627,
+      0.9944303
+    ]
+  },
+  {
+    "station": "GRID100-progreso-004-0011",
+    "profile": "SC-90-0-15",
+    "original": [
+      -89.68562438347557,
+      21.282778660808454
+    ],
+    "corrected": [
+      -89.68562260631849,
+      21.28276866367473
+    ],
+    "note": "Contacto visible de mar conectado con arena continua, incluida la arena húmeda.",
+    "axis": [
+      -0.16341634,
+      0.9865572
+    ]
+  },
+  {
+    "station": "GRID100-progreso-004-0012",
+    "profile": "SC-90-0-16",
+    "original": [
+      -89.68467091729312,
+      21.282885191232463
+    ],
+    "corrected": [
+      -89.68466364784393,
+      21.282845202722463
+    ],
+    "note": "Contacto visible de mar conectado con arena continua, incluida la arena húmeda.",
+    "axis": [
+      -0.16701135,
+      0.98595497
+    ]
+  },
+  {
+    "station": "GRID100-progreso-004-0013",
+    "profile": "SC-90-0-17",
+    "original": [
+      -89.68371577924862,
+      21.282968600031865
+    ],
+    "corrected": [
+      -89.68370883876445,
+      21.28292861154453
+    ],
+    "note": "Contacto visible de mar conectado con arena continua, incluida la arena húmeda.",
+    "axis": [
+      -0.15965065,
+      0.98717358
+    ]
+  },
+  {
+    "station": "GRID100-progreso-004-0014",
+    "profile": "SC-90-0-18",
+    "original": [
+      -89.6827411178561,
+      21.283063557197213
+    ],
+    "corrected": [
+      -89.68273427991878,
+      21.283033565852083
+    ],
+    "note": "Contacto visible de mar conectado con arena continua, incluida la arena húmeda.",
+    "axis": [
+      -0.20780945,
+      0.97816933
+    ]
+  },
+  {
+    "station": "GRID100-progreso-004-0015",
+    "profile": "SC-90-0-19",
+    "original": [
+      -89.6817843648096,
+      21.283148636946933
+    ],
+    "corrected": [
+      -89.68177997880574,
+      21.28312864272911
+    ],
+    "note": "Contacto visible de mar conectado con arena continua, incluida la arena húmeda.",
+    "axis": [
+      -0.20026189,
+      0.9797424
+    ]
+  },
+  {
+    "station": "GRID100-progreso-004-0016",
+    "profile": "SC-90-0-20",
+    "original": [
+      -89.68078757659124,
+      21.28329294174959
+    ],
+    "corrected": [
+      -89.68079072148,
+      21.283302938847687
+    ],
+    "note": "Contacto visible de mar conectado con arena continua, incluida la arena húmeda.",
+    "axis": [
+      -0.28128937,
+      0.95962299
+    ]
+  },
+  {
+    "station": "GRID100-progreso-004-0017",
+    "profile": "SC-90-0-21",
+    "original": [
+      -89.67983257796686,
+      21.283438719497205
+    ],
+    "corrected": [
+      -89.67983257796686,
+      21.283438719497205
+    ],
+    "note": "Contacto visible de mar conectado con arena continua, incluida la arena húmeda.",
+    "axis": [
+      -0.28364177,
+      0.95893031
+    ]
+  },
+  {
+    "station": "GRID100-progreso-004-0018",
+    "profile": "SC-90-0-22",
+    "original": [
+      -89.67890840775364,
+      21.283649449591387
+    ],
+    "corrected": [
+      -89.67890534984583,
+      21.283639452516844
+    ],
+    "note": "Contacto visible de mar conectado con arena continua, incluida la arena húmeda.",
+    "axis": [
+      -0.27410169,
+      0.96170071
+    ]
+  },
+  {
+    "station": "GRID100-progreso-004-0019",
+    "profile": "SC-90-0-23",
+    "original": [
+      -89.67796792510697,
+      21.283844150002935
+    ],
+    "corrected": [
+      -89.6779710195791,
+      21.283854147063558
+    ],
+    "note": "Contacto visible de mar conectado con arena continua, incluida la arena húmeda.",
+    "axis": [
+      -0.27712887,
+      0.96083276
+    ]
+  },
+  {
+    "station": "GRID100-progreso-004-0020",
+    "profile": "SC-90-0-24",
+    "original": [
+      -89.67705833936846,
+      21.284101132376424
+    ],
+    "corrected": [
+      -89.67706429371475,
+      21.28412112646206
+    ],
+    "note": "Contacto visible de mar conectado con arena continua, incluida la arena húmeda.",
+    "axis": [
+      -0.26738879,
+      0.96358873
+    ]
+  },
+  {
+    "station": "GRID100-progreso-004-0021",
+    "profile": "SC-90-0-25",
+    "original": [
+      -89.6761181540844,
+      21.284348125310853
+    ],
+    "corrected": [
+      -89.6761181540844,
+      21.284348125310853
+    ],
+    "note": "Contacto visible de mar conectado con arena continua, incluida la arena húmeda.",
+    "axis": [
+      -0.28918777,
+      0.95727239
+    ]
+  },
+  {
+    "station": "GRID100-progreso-004-0022",
+    "profile": "SC-90-0-26",
+    "original": [
+      -89.67517820170919,
+      21.284653894849136
+    ],
+    "corrected": [
+      -89.6751744344752,
+      21.284643897842884
+    ],
+    "note": "Contacto visible de mar conectado con arena continua, incluida la arena húmeda.",
+    "axis": [
+      -0.33130148,
+      0.94352495
+    ]
+  },
+  {
+    "station": "GRID100-progreso-004-0023",
+    "profile": "SC-90-0-27",
+    "original": [
+      -89.67426704624587,
+      21.284937273019896
+    ],
+    "corrected": [
+      -89.67427083030276,
+      21.28494727000622
+    ],
+    "note": "Contacto visible de mar conectado con arena continua, incluida la arena húmeda.",
+    "axis": [
+      -0.33261758,
+      0.94306179
+    ]
+  },
+  {
+    "station": "GRID100-progreso-004-0024",
+    "profile": "SC-90-0-28",
+    "original": [
+      -89.67340092574656,
+      21.28518912071887
+    ],
+    "corrected": [
+      -89.67340092574656,
+      21.28518912071887
+    ],
+    "note": "Contacto visible de mar conectado con arena continua, incluida la arena húmeda.",
+    "axis": [
+      -0.27425476,
+      0.96165707
+    ]
+  },
+  {
+    "station": "GRID100-progreso-004-0025",
+    "profile": "SC-90-0-29",
+    "original": [
+      -89.6725072777013,
+      21.285538507170152
+    ],
+    "corrected": [
+      -89.67251038907368,
+      21.28554850411561
+    ],
+    "note": "Contacto visible de mar conectado con arena continua, incluida la arena húmeda.",
+    "axis": [
+      -0.27852527,
+      0.9604289
+    ]
+  },
+  {
+    "station": "GRID100-progreso-004-0026",
+    "profile": "SC-90-0-30",
+    "original": [
+      -89.67164583003023,
+      21.285961527546398
+    ],
+    "corrected": [
+      -89.67165489433039,
+      21.285991518294463
+    ],
+    "note": "Contacto visible de mar conectado con arena continua, incluida la arena húmeda.",
+    "axis": [
+      -0.27107382,
+      0.96255856
+    ]
+  },
+  {
+    "station": "GRID100-progreso-004-0027",
+    "profile": "SC-90-0-31",
+    "original": [
+      -89.67075700440508,
+      21.28628025507194
+    ],
+    "corrected": [
+      -89.67075985021235,
+      21.286290251966975
+    ],
+    "note": "Contacto visible de mar conectado con arena continua, incluida la arena húmeda.",
+    "axis": [
+      -0.25638263,
+      0.96657537
+    ]
+  },
+  {
+    "station": "GRID100-progreso-004-0028",
+    "profile": "SC-90-0-32",
+    "original": [
+      -89.66981331889897,
+      21.286493923207527
+    ],
+    "corrected": [
+      -89.66981331889897,
+      21.286493923207527
+    ],
+    "note": "Contacto visible de mar conectado con arena continua, incluida la arena húmeda.",
+    "axis": [
+      -0.28229428,
+      0.95932786
+    ]
+  },
+  {
+    "station": "GRID100-progreso-004-0029",
+    "profile": "SC-90-0-33",
+    "original": [
+      -89.6689347154208,
+      21.286875734187866
+    ],
+    "corrected": [
+      -89.6689347154208,
+      21.286875734187866
+    ],
+    "note": "Contacto visible de mar conectado con arena continua, incluida la arena húmeda.",
+    "axis": [
+      -0.28208204,
+      0.95939029
+    ]
+  },
+  {
+    "station": "GRID100-progreso-004-0030",
+    "profile": "SC-90-0-34",
+    "original": [
+      -89.66800058468303,
+      21.287117474524553
+    ],
+    "corrected": [
+      -89.66799698386497,
+      21.287107477685762
+    ],
+    "note": "Contacto visible de mar conectado con arena continua, incluida la arena húmeda.",
+    "axis": [
+      -0.31817863,
+      0.94803078
+    ]
+  },
+  {
+    "station": "GRID100-progreso-004-0031",
+    "profile": "SC-90-0-35",
+    "original": [
+      -89.66709241788638,
+      21.287297973799262
+    ],
+    "corrected": [
+      -89.66709241788638,
+      21.287297973799262
+    ],
+    "note": "Contacto visible de mar conectado con arena continua, incluida la arena húmeda.",
+    "axis": [
+      -0.24680595,
+      0.96906492
+    ]
+  },
+  {
+    "station": "GRID100-progreso-004-0032",
+    "profile": "SC-90-0-36",
+    "original": [
+      -89.66612646376423,
+      21.28763901420256
+    ],
+    "corrected": [
+      -89.66613679073701,
+      21.28765900780721
+    ],
+    "note": "Contacto visible de mar conectado con arena continua, incluida la arena húmeda.",
+    "axis": [
+      -0.43366224,
+      0.9010755
+    ]
+  },
+  {
+    "station": "GRID100-progreso-005-0000",
+    "profile": "SC-89-0-0",
+    "original": [
+      -89.66404447078065,
+      21.28835367540254
+    ],
+    "corrected": [
+      -89.66404598512662,
+      21.288373668910026
+    ],
+    "note": "Contacto visible de mar conectado con arena continua, incluida la arena húmeda.",
+    "axis": [
+      -0.07039854,
+      0.99751894
+    ]
+  },
+  {
+    "station": "GRID100-progreso-005-0001",
+    "profile": "SC-89-0-1",
+    "original": [
+      -89.66308527561065,
+      21.288428177003404
+    ],
+    "corrected": [
+      -89.66308725176049,
+      21.28844817050075
+    ],
+    "note": "Contacto visible de mar conectado con arena continua, incluida la arena húmeda.",
+    "axis": [
+      -0.09170717,
+      0.99578602
+    ]
+  },
+  {
+    "station": "GRID100-progreso-005-0002",
+    "profile": "SC-89-0-2",
+    "original": [
+      -89.66214316794081,
+      21.288480795560314
+    ],
+    "corrected": [
+      -89.66214245652904,
+      21.288470798814206
+    ],
+    "note": "Contacto visible de mar conectado con arena continua, incluida la arena húmeda.",
+    "axis": [
+      -0.06616309,
+      0.99780882
+    ]
+  },
+  {
+    "station": "GRID100-progreso-005-0003",
+    "profile": "SC-89-0-3",
+    "original": [
+      -89.66121448296494,
+      21.288588320823276
+    ],
+    "corrected": [
+      -89.66121398094467,
+      21.288548333863986
+    ],
+    "note": "Contacto visible de mar conectado con arena continua, incluida la arena húmeda.",
+    "axis": [
+      -0.01169712,
+      0.99993159
+    ]
+  },
+  {
+    "station": "GRID100-progreso-005-0004",
+    "profile": "SC-89-0-4",
+    "original": [
+      -89.66025939680914,
+      21.288705465414154
+    ],
+    "corrected": [
+      -89.6602589338427,
+      21.288685471951798
+    ],
+    "note": "Contacto visible de mar conectado con arena continua, incluida la arena húmeda.",
+    "axis": [
+      -0.02157078,
+      0.99976732
+    ]
+  },
+  {
+    "station": "GRID100-progreso-005-0005",
+    "profile": "SC-89-0-5",
+    "original": [
+      -89.65930406564817,
+      21.288760049739917
+    ],
+    "corrected": [
+      -89.65930314687294,
+      21.288730059556492
+    ],
+    "note": "Contacto visible de mar conectado con arena continua, incluida la arena húmeda.",
+    "axis": [
+      -0.02853373,
+      0.99959283
+    ]
+  },
+  {
+    "station": "GRID100-progreso-005-0006",
+    "profile": "SC-89-0-6",
+    "original": [
+      -89.65835148627265,
+      21.2888092877776
+    ],
+    "corrected": [
+      -89.65835127083088,
+      21.288799291053827
+    ],
+    "note": "Contacto visible de mar conectado con arena continua, incluida la arena húmeda.",
+    "axis": [
+      -0.02007658,
+      0.99979845
+    ]
+  },
+  {
+    "station": "GRID100-progreso-005-0007",
+    "profile": "SC-89-0-7",
+    "original": [
+      -89.65739641328909,
+      21.288884487302667
+    ],
+    "corrected": [
+      -89.65739565270698,
+      21.288864493864654
+    ],
+    "note": "Contacto visible de mar conectado con arena continua, incluida la arena húmeda.",
+    "axis": [
+      -0.03542345,
+      0.99937239
+    ]
+  },
+  {
+    "station": "GRID100-progreso-005-0008",
+    "profile": "SC-89-0-8",
+    "original": [
+      -89.65644492330055,
+      21.288978197495968
+    ],
+    "corrected": [
+      -89.65644448174854,
+      21.2889582040707
+    ],
+    "note": "Contacto visible de mar conectado con arena continua, incluida la arena húmeda.",
+    "axis": [
+      -0.02057346,
+      0.99978834
+    ]
+  },
+  {
+    "station": "GRID100-progreso-005-0009",
+    "profile": "SC-89-0-9",
+    "original": [
+      -89.65549268203837,
+      21.28905743600834
+    ],
+    "corrected": [
+      -89.65549154977477,
+      21.289037442593838
+    ],
+    "note": "Contacto visible de mar conectado con arena continua, incluida la arena húmeda.",
+    "axis": [
+      -0.052694,
+      0.99861071
+    ]
+  },
+  {
+    "station": "GRID100-progreso-005-0010",
+    "profile": "SC-89-0-10",
+    "original": [
+      -89.65453921750517,
+      21.289101121334497
+    ],
+    "corrected": [
+      -89.65453921750517,
+      21.289101121334497
+    ],
+    "note": "Contacto visible de mar conectado con arena continua, incluida la arena húmeda.",
+    "axis": [
+      -0.07035919,
+      0.99752172
+    ]
+  },
+  {
+    "station": "GRID100-progreso-005-0011",
+    "profile": "SC-89-0-11",
+    "original": [
+      -89.65358525524316,
+      21.289130655589116
+    ],
+    "corrected": [
+      -89.65358525524316,
+      21.289130655589116
+    ],
+    "note": "Contacto visible de mar conectado con arena continua, incluida la arena húmeda.",
+    "axis": [
+      -0.03463341,
+      0.99940008
+    ]
+  },
+  {
+    "station": "GRID100-progreso-005-0012",
+    "profile": "SC-89-0-12",
+    "original": [
+      -89.65263336441531,
+      21.2892384393854
+    ],
+    "corrected": [
+      -89.65263278744888,
+      21.289218445995512
+    ],
+    "note": "Contacto visible de mar conectado con arena continua, incluida la arena húmeda.",
+    "axis": [
+      -0.02687887,
+      0.9996387
+    ]
+  },
+  {
+    "station": "GRID100-progreso-005-0013",
+    "profile": "SC-89-0-13",
+    "original": [
+      -89.65168983745502,
+      21.289312790304056
+    ],
+    "corrected": [
+      -89.65168796813587,
+      21.28929279692428
+    ],
+    "note": "Contacto visible de mar conectado con arena continua, incluida la arena húmeda.",
+    "axis": [
+      -0.08678788,
+      0.99622681
+    ]
+  },
+  {
+    "station": "GRID100-progreso-005-0014",
+    "profile": "SC-89-0-14",
+    "original": [
+      -89.6507442351811,
+      21.289359388600655
+    ],
+    "corrected": [
+      -89.6507442351811,
+      21.289359388600655
+    ],
+    "note": "Contacto visible de mar conectado con arena continua, incluida la arena húmeda.",
+    "axis": [
+      0.04698128,
+      0.99889577
+    ]
+  },
+  {
+    "station": "GRID100-progreso-005-0015",
+    "profile": "SC-89-0-15",
+    "original": [
+      -89.64981448895526,
+      21.289428418425803
+    ],
+    "corrected": [
+      -89.64981448895526,
+      21.289428418425803
+    ],
+    "note": "Contacto visible de mar conectado con arena continua, incluida la arena húmeda.",
+    "axis": [
+      -0.08247762,
+      0.99659292
+    ]
+  },
+  {
+    "station": "GRID100-progreso-005-0016",
+    "profile": "SC-89-0-16",
+    "original": [
+      -89.64887604361935,
+      21.289476298949538
+    ],
+    "corrected": [
+      -89.64887429776257,
+      21.289466302271105
+    ],
+    "note": "Contacto visible de mar conectado con arena continua, incluida la arena húmeda.",
+    "axis": [
+      -0.16061305,
+      0.98701745
+    ]
+  },
+  {
+    "station": "GRID100-progreso-005-0017",
+    "profile": "SC-89-0-17",
+    "original": [
+      -89.64792834069921,
+      21.28956256785049
+    ],
+    "corrected": [
+      -89.64792834069921,
+      21.28956256785049
+    ],
+    "note": "Contacto visible de mar conectado con arena continua, incluida la arena húmeda.",
+    "axis": [
+      -0.13467885,
+      0.9908893
+    ]
+  },
+  {
+    "station": "GRID100-progreso-005-0018",
+    "profile": "SC-89-0-18",
+    "original": [
+      -89.64696948050654,
+      21.289619560687157
+    ],
+    "corrected": [
+      -89.64696948050654,
+      21.289619560687157
+    ],
+    "note": "Contacto visible de mar conectado con arena continua, incluida la arena húmeda.",
+    "axis": [
+      -0.01314989,
+      0.99991354
+    ]
+  },
+  {
+    "station": "GRID100-progreso-005-0019",
+    "profile": "SC-89-0-19",
+    "original": [
+      -89.64603841514015,
+      21.28972383105647
+    ],
+    "corrected": [
+      -89.64603841514015,
+      21.28972383105647
+    ],
+    "note": "Contacto visible de mar conectado con arena continua, incluida la arena húmeda.",
+    "axis": [
+      -0.15431243,
+      0.9880221
+    ]
+  },
+  {
+    "station": "GRID100-progreso-005-0020",
+    "profile": "SC-89-0-20",
+    "original": [
+      -89.64508203858993,
+      21.289838797045103
+    ],
+    "corrected": [
+      -89.64508203858993,
+      21.289838797045103
+    ],
+    "note": "Contacto visible de mar conectado con arena continua, incluida la arena húmeda.",
+    "axis": [
+      -0.04740213,
+      0.99887589
+    ]
+  },
+  {
+    "station": "GRID100-progreso-005-0021",
+    "profile": "SC-89-0-21",
+    "original": [
+      -89.64415804890977,
+      21.290000262925634
+    ],
+    "corrected": [
+      -89.64415804890977,
+      21.290000262925634
+    ],
+    "note": "Contacto visible de mar conectado con arena continua, incluida la arena húmeda.",
+    "axis": [
+      -0.14352691,
+      0.98964641
+    ]
+  },
+  {
+    "station": "GRID100-progreso-005-0022",
+    "profile": "SC-89-0-22",
+    "original": [
+      -89.64320247732175,
+      21.29008274111439
+    ],
+    "corrected": [
+      -89.64320247732175,
+      21.29008274111439
+    ],
+    "note": "Contacto visible de mar conectado con arena continua, incluida la arena húmeda.",
+    "axis": [
+      -0.11273846,
+      0.9936247
+    ]
+  },
+  {
+    "station": "GRID100-progreso-005-0023",
+    "profile": "SC-89-0-23",
+    "original": [
+      -89.64225385395726,
+      21.290184323823443
+    ],
+    "corrected": [
+      -89.6422516283143,
+      21.290164330562177
+    ],
+    "note": "Contacto visible de mar conectado con arena continua, incluida la arena húmeda.",
+    "axis": [
+      -0.103169,
+      0.99466384
+    ]
+  },
+  {
+    "station": "GRID100-progreso-005-0024",
+    "profile": "SC-89-0-24",
+    "original": [
+      -89.64130484754634,
+      21.290286939642723
+    ],
+    "corrected": [
+      -89.64130484754634,
+      21.290286939642723
+    ],
+    "note": "Contacto visible de mar conectado con arena continua, incluida la arena húmeda.",
+    "axis": [
+      -0.08638151,
+      0.99626213
+    ]
+  },
+  {
+    "station": "GRID100-progreso-005-0025",
+    "profile": "SC-89-0-25",
+    "original": [
+      -89.64037565500863,
+      21.290398746380813
+    ],
+    "corrected": [
+      -89.64037265796193,
+      21.2903787531487
+    ],
+    "note": "Contacto visible de mar conectado con arena continua, incluida la arena húmeda.",
+    "axis": [
+      -0.13832972,
+      0.99038623
+    ]
+  },
+  {
+    "station": "GRID100-progreso-005-0026",
+    "profile": "SC-89-0-26",
+    "original": [
+      -89.63944213821681,
+      21.290468864931043
+    ],
+    "corrected": [
+      -89.6394399758123,
+      21.290458868320083
+    ],
+    "note": "Contacto visible de mar conectado con arena continua, incluida la arena húmeda.",
+    "axis": [
+      -0.19757759,
+      0.98028725
+    ]
+  },
+  {
+    "station": "GRID100-progreso-005-0027",
+    "profile": "SC-89-0-27",
+    "original": [
+      -89.63849115564386,
+      21.29057969929408
+    ],
+    "corrected": [
+      -89.63849115564386,
+      21.29057969929408
+    ],
+    "note": "Contacto visible de mar conectado con arena continua, incluida la arena húmeda.",
+    "axis": [
+      -0.16026016,
+      0.98707481
+    ]
+  },
+  {
+    "station": "GRID100-progreso-005-0028",
+    "profile": "SC-89-0-28",
+    "original": [
+      -89.63753248433211,
+      21.290669186636855
+    ],
+    "corrected": [
+      -89.63753248433211,
+      21.290669186636855
+    ],
+    "note": "Contacto visible de mar conectado con arena continua, incluida la arena húmeda.",
+    "axis": [
+      0.01629861,
+      0.99986717
+    ]
+  },
+  {
+    "station": "GRID100-progreso-005-0029",
+    "profile": "SC-89-0-29",
+    "original": [
+      -89.63663334195233,
+      21.290839186725872
+    ],
+    "corrected": [
+      -89.63663334195233,
+      21.290839186725872
+    ],
+    "note": "Contacto visible de mar conectado con arena continua, incluida la arena húmeda.",
+    "axis": [
+      -0.22390096,
+      0.9746119
+    ]
+  },
+  {
+    "station": "GRID100-progreso-005-0030",
+    "profile": "SC-89-0-30",
+    "original": [
+      -89.63569106032617,
+      21.290950307111352
+    ],
+    "corrected": [
+      -89.63569106032617,
+      21.290950307111352
+    ],
+    "note": "Contacto visible de mar conectado con arena continua, incluida la arena húmeda.",
+    "axis": [
+      -0.28710652,
+      0.95789866
+    ]
+  },
+  {
+    "station": "GRID100-progreso-005-0031",
+    "profile": "SC-89-0-31",
+    "original": [
+      -89.63477465810524,
+      21.291171651771187
+    ],
+    "corrected": [
+      -89.63477119118019,
+      21.291161655208022
+    ],
+    "note": "Contacto visible de mar conectado con arena continua, incluida la arena húmeda.",
+    "axis": [
+      -0.30748555,
+      0.95155275
+    ]
+  },
+  {
+    "station": "GRID100-progreso-005-0032",
+    "profile": "SC-89-0-32",
+    "original": [
+      -89.63384466803707,
+      21.291251944478212
+    ],
+    "corrected": [
+      -89.63384466803707,
+      21.291251944478212
+    ],
+    "note": "Contacto visible de mar conectado con arena continua, incluida la arena húmeda.",
+    "axis": [
+      -0.09581382,
+      0.99539927
+    ]
+  },
+  {
+    "station": "GRID100-progreso-005-0033",
+    "profile": "SC-89-0-33",
+    "original": [
+      -89.63291321721864,
+      21.291478135251214
+    ],
+    "corrected": [
+      -89.63291023344884,
+      21.29145814216588
+    ],
+    "note": "Contacto visible de mar conectado con arena continua, incluida la arena húmeda.",
+    "axis": [
+      -0.13772857,
+      0.99047001
+    ]
+  },
+  {
+    "station": "GRID100-progreso-005-0034",
+    "profile": "SC-89-0-34",
+    "original": [
+      -89.63198202480586,
+      21.291667783974926
+    ],
+    "corrected": [
+      -89.6319790490993,
+      21.291647790915384
+    ],
+    "note": "Contacto visible de mar conectado con arena continua, incluida la arena húmeda.",
+    "axis": [
+      -0.13736341,
+      0.99052072
+    ]
+  },
+  {
+    "station": "GRID100-progreso-005-0035",
+    "profile": "SC-89-0-35",
+    "original": [
+      -89.63103720187196,
+      21.291774204365552
+    ],
+    "corrected": [
+      -89.63103566207347,
+      21.291764207843364
+    ],
+    "note": "Contacto visible de mar conectado con arena continua, incluida la arena húmeda.",
+    "axis": [
+      -0.14206397,
+      0.98985748
+    ]
+  },
+  {
+    "station": "GRID100-progreso-005-0036",
+    "profile": "SC-89-0-36",
+    "original": [
+      -89.6301138995619,
+      21.29193424956084
+    ],
+    "corrected": [
+      -89.6301184465412,
+      21.291944246071466
+    ],
+    "note": "Contacto visible de mar conectado con arena continua, incluida la arena húmeda.",
+    "axis": [
+      -0.39021177,
+      0.92072513
+    ]
+  },
+  {
+    "station": "GRID100-progreso-005-0037",
+    "profile": "SC-89-0-37",
+    "original": [
+      -89.62923744006555,
+      21.29222430988558
+    ],
+    "corrected": [
+      -89.62923744006555,
+      21.29222430988558
+    ],
+    "note": "Contacto visible de mar conectado con arena continua, incluida la arena húmeda.",
+    "axis": [
+      -0.25480994,
+      0.96699115
+    ]
+  },
+  {
+    "station": "GRID100-progreso-005-0038",
+    "profile": "SC-89-0-38",
+    "original": [
+      -89.62831765923485,
+      21.29242879350111
+    ],
+    "corrected": [
+      -89.62831517401273,
+      21.292408800545065
+    ],
+    "note": "Contacto visible de mar conectado con arena continua, incluida la arena húmeda.",
+    "axis": [
+      -0.11505066,
+      0.99335963
+    ]
+  },
+  {
+    "station": "GRID100-progreso-005-0039",
+    "profile": "SC-89-0-39",
+    "original": [
+      -89.62737266619082,
+      21.292527951667328
+    ],
+    "corrected": [
+      -89.62737266619082,
+      21.292527951667328
+    ],
+    "note": "Contacto visible de mar conectado con arena continua, incluida la arena húmeda.",
+    "axis": [
+      -0.10062556,
+      0.99492437
+    ]
+  },
+  {
+    "station": "GRID100-progreso-005-0040",
+    "profile": "SC-89-0-40",
+    "original": [
+      -89.6264392454886,
+      21.292664463497136
+    ],
+    "corrected": [
+      -89.6264392454886,
+      21.292664463497136
+    ],
+    "note": "Contacto visible de mar conectado con arena continua, incluida la arena húmeda.",
+    "axis": [
+      -0.37500939,
+      0.92702101
+    ]
+  },
+  {
+    "station": "GRID100-progreso-005-0041",
+    "profile": "SC-89-0-41",
+    "original": [
+      -89.62556395941024,
+      21.292803951136285
+    ],
+    "corrected": null,
+    "note": "El perfil atraviesa una zona de roca y oleaje. No se identifica un cruce único de arena continua.",
+    "axis": [
+      -0.04490476,
+      0.99899127
+    ]
+  },
+  {
+    "station": "GRID100-progreso-005-0042",
+    "profile": null,
+    "original": null,
+    "corrected": null,
+    "note": "La estación estaba sin referencia. Las zonas de arena y roca forman una franja irregular sin un cruce único verificable.",
+    "axis": [
+      -0.18386046529490224,
+      0.9829523535256133
+    ]
+  },
+  {
+    "station": "GRID100-progreso-005-0043",
+    "profile": "SC-89-0-43",
+    "original": [
+      -89.6237173687528,
+      21.293116162586838
+    ],
+    "corrected": [
+      -89.62371552578699,
+      21.293106166155894
+    ],
+    "note": "Contacto visible de mar conectado con arena continua, incluida la arena húmeda.",
+    "axis": [
+      -0.16929727,
+      0.98556503
+    ]
+  },
+  {
+    "station": "GRID100-progreso-005-0044",
+    "profile": "SC-89-0-44",
+    "original": [
+      -89.62278292253988,
+      21.293289276487602
+    ],
+    "corrected": [
+      -89.62278292253988,
+      21.293289276487602
+    ],
+    "note": "Contacto visible de mar conectado con arena continua, incluida la arena húmeda.",
+    "axis": [
+      -0.22256469,
+      0.97491792
+    ]
+  },
+  {
+    "station": "GRID100-progreso-005-0045",
+    "profile": "SC-89-0-45",
+    "original": [
+      -89.62185895598464,
+      21.293494646223603
+    ],
+    "corrected": [
+      -89.62185793202144,
+      21.2934846498184
+    ],
+    "note": "Contacto visible de mar conectado con arena continua, incluida la arena húmeda.",
+    "axis": [
+      -0.09500856,
+      0.99547646
+    ]
+  },
+  {
+    "station": "GRID100-progreso-005-0046",
+    "profile": "SC-89-0-46",
+    "original": [
+      -89.62091485543294,
+      21.293598208373833
+    ],
+    "corrected": [
+      -89.62091485543294,
+      21.293598208373833
+    ],
+    "note": "Contacto visible de mar conectado con arena continua, incluida la arena húmeda.",
+    "axis": [
+      -0.16907632,
+      0.98560296
+    ]
+  },
+  {
+    "station": "GRID100-progreso-005-0047",
+    "profile": "SC-89-0-47",
+    "original": [
+      -89.61997539988714,
+      21.29373141862337
+    ],
+    "corrected": [
+      -89.61997227379196,
+      21.29371142584447
+    ],
+    "note": "Contacto visible de mar conectado con arena continua, incluida la arena húmeda.",
+    "axis": [
+      -0.14416471,
+      0.98955371
+    ]
+  },
+  {
+    "station": "GRID100-progreso-005-0048",
+    "profile": "SC-89-0-48",
+    "original": [
+      -89.61903087999103,
+      21.293792125739444
+    ],
+    "corrected": [
+      -89.61903087999103,
+      21.293792125739444
+    ],
+    "note": "Contacto visible de mar conectado con arena continua, incluida la arena húmeda.",
+    "axis": [
+      -0.07744471,
+      0.99699665
+    ]
+  },
+  {
+    "station": "GRID100-progreso-005-0049",
+    "profile": "SC-89-0-49",
+    "original": [
+      -89.61808955124255,
+      21.293949455452097
+    ],
+    "corrected": [
+      -89.6180860156124,
+      21.293929462702838
+    ],
+    "note": "Contacto visible de mar conectado con arena continua, incluida la arena húmeda.",
+    "axis": [
+      -0.16258007,
+      0.98669535
+    ]
+  },
+  {
+    "station": "GRID100-progreso-005-0050",
+    "profile": "SC-89-0-50",
+    "original": [
+      -89.61715097546028,
+      21.29409773656001
+    ],
+    "corrected": [
+      -89.61714947490866,
+      21.294087740195817
+    ],
+    "note": "Contacto visible de mar conectado con arena continua, incluida la arena húmeda.",
+    "axis": [
+      -0.13851336,
+      0.99036056
+    ]
+  },
+  {
+    "station": "GRID100-progreso-006-0000",
+    "profile": "SC-89-0-54",
+    "original": [
+      -89.61341711358558,
+      21.294698918512456
+    ],
+    "corrected": [
+      -89.61341711358558,
+      21.294698918512456
+    ],
+    "note": "Contacto visible de mar conectado con arena continua, incluida la arena húmeda.",
+    "axis": [
+      -0.14808106,
+      0.98897523
+    ]
+  },
+  {
+    "station": "GRID100-progreso-006-0001",
+    "profile": "SC-89-0-55",
+    "original": [
+      -89.61248083418454,
+      21.294874407848145
+    ],
+    "corrected": [
+      -89.61248083418454,
+      21.294874407848145
+    ],
+    "note": "Contacto visible de mar conectado con arena continua, incluida la arena húmeda.",
+    "axis": [
+      -0.22191287,
+      0.9750665
+    ]
+  },
+  {
+    "station": "GRID100-progreso-006-0002",
+    "profile": "SC-89-0-56",
+    "original": [
+      -89.61155948828807,
+      21.295095645664098
+    ],
+    "corrected": [
+      -89.6115622292314,
+      21.295105641959744
+    ],
+    "note": "Contacto visible de mar conectado con arena continua, incluida la arena húmeda.",
+    "axis": [
+      -0.24752449,
+      0.96888164
+    ]
+  },
+  {
+    "station": "GRID100-progreso-006-0003",
+    "profile": "SC-89-0-57",
+    "original": [
+      -89.61065464862695,
+      21.29536885371085
+    ],
+    "corrected": [
+      -89.61065285727528,
+      21.295358857433097
+    ],
+    "note": "Contacto visible de mar conectado con arena continua, incluida la arena húmeda.",
+    "axis": [
+      -0.16468632,
+      0.98634599
+    ]
+  },
+  {
+    "station": "GRID100-progreso-006-0004",
+    "profile": "SC-89-0-58",
+    "original": [
+      -89.60971569019374,
+      21.295507231609584
+    ],
+    "corrected": [
+      -89.60971327145226,
+      21.29549723534124
+    ],
+    "note": "Contacto visible de mar conectado con arena continua, incluida la arena húmeda.",
+    "axis": [
+      -0.21992355,
+      0.97551711
+    ]
+  },
+  {
+    "station": "GRID100-progreso-006-0005",
+    "profile": "SC-89-0-59",
+    "original": [
+      -89.60877138241588,
+      21.295628976962323
+    ],
+    "corrected": [
+      -89.60877138241588,
+      21.295628976962323
+    ],
+    "note": "Contacto visible de mar conectado con arena continua, incluida la arena húmeda.",
+    "axis": [
+      -0.1894726,
+      0.98188601
+    ]
+  },
+  {
+    "station": "GRID100-progreso-006-0006",
+    "profile": "SC-89-0-60",
+    "original": [
+      -89.6078470642977,
+      21.295854868481282
+    ],
+    "corrected": [
+      -89.6078470642977,
+      21.295854868481282
+    ],
+    "note": "Contacto visible de mar conectado con arena continua, incluida la arena húmeda.",
+    "axis": [
+      -0.16298344,
+      0.9866288
+    ]
+  },
+  {
+    "station": "GRID100-progreso-007-0000",
+    "profile": "SC-88-0-0",
+    "original": [
+      -89.60679360828108,
+      21.296035294469362
+    ],
+    "corrected": [
+      -89.60679360828108,
+      21.296035294469362
+    ],
+    "note": "Se leyó en el eje el borde continuo entre agua y arena húmeda, excluyendo espuma separada. El intervalo incluye la posición original.",
+    "axis": [
+      -0.1459996,
+      0.98928465
+    ]
+  },
+  {
+    "station": "GRID100-progreso-007-0001",
+    "profile": "SC-88-0-1",
+    "original": [
+      -89.60584181324022,
+      21.29623183177422
+    ],
+    "corrected": [
+      -89.60584181324022,
+      21.29623183177422
+    ],
+    "note": "Se leyó en el eje el borde continuo entre agua y arena húmeda, excluyendo espuma separada. El intervalo incluye la posición original.",
+    "axis": [
+      -0.0901561,
+      0.99592765
+    ]
+  },
+  {
+    "station": "GRID100-progreso-007-0002",
+    "profile": "SC-88-0-2",
+    "original": [
+      -89.6048963051992,
+      21.29631554213864
+    ],
+    "corrected": [
+      -89.6048963051992,
+      21.29631554213864
+    ],
+    "note": "Se leyó en el eje el borde continuo entre agua y arena húmeda, excluyendo espuma separada. El intervalo incluye la posición original.",
+    "axis": [
+      -0.21862036,
+      0.97580999
+    ]
+  },
+  {
+    "station": "GRID100-progreso-007-0003",
+    "profile": "SC-88-0-3",
+    "original": [
+      -89.6039655190571,
+      21.29658151663413
+    ],
+    "corrected": [
+      -89.6039655190571,
+      21.29658151663413
+    ],
+    "note": "Se leyó en el eje el borde continuo entre agua y arena húmeda, excluyendo espuma separada. El intervalo incluye la posición original.",
+    "axis": [
+      -0.17845715,
+      0.98394768
+    ]
+  },
+  {
+    "station": "GRID100-progreso-007-0004",
+    "profile": "SC-88-0-4",
+    "original": [
+      -89.60300978386338,
+      21.29672844257583
+    ],
+    "corrected": [
+      -89.60300978386338,
+      21.29672844257583
+    ],
+    "note": "Se leyó en el eje el borde continuo entre agua y arena húmeda, excluyendo espuma separada. El intervalo incluye la posición original.",
+    "axis": [
+      -0.16968147,
+      0.98549896
+    ]
+  },
+  {
+    "station": "GRID100-progreso-007-0005",
+    "profile": "SC-88-0-5",
+    "original": [
+      -89.60203710347344,
+      21.29679131967854
+    ],
+    "corrected": [
+      -89.60203710347344,
+      21.29679131967854
+    ],
+    "note": "Se leyó en el eje el borde continuo entre agua y arena húmeda, excluyendo espuma separada. El intervalo incluye la posición original.",
+    "axis": [
+      -0.12477743,
+      0.99218476
+    ]
+  },
+  {
+    "station": "GRID100-progreso-007-0006",
+    "profile": "SC-88-0-6",
+    "original": [
+      -89.6011041934842,
+      21.296954966784774
+    ],
+    "corrected": [
+      -89.6011041934842,
+      21.296954966784774
+    ],
+    "note": "Se leyó en el eje el borde continuo entre agua y arena húmeda, excluyendo espuma separada. El intervalo incluye la posición original.",
+    "axis": [
+      -0.27846147,
+      0.9604474
+    ]
+  },
+  {
+    "station": "GRID100-progreso-007-0007",
+    "profile": "SC-88-0-7",
+    "original": [
+      -89.60017805646744,
+      21.2971112787387
+    ],
+    "corrected": [
+      -89.60017805646744,
+      21.2971112787387
+    ],
+    "note": "Se leyó en el eje el borde continuo entre agua y arena húmeda, excluyendo espuma separada. El intervalo incluye la posición original.",
+    "axis": [
+      -0.14124807,
+      0.98997423
+    ]
+  },
+  {
+    "station": "GRID100-progreso-007-0008",
+    "profile": "SC-88-0-8",
+    "original": [
+      -89.59925527497951,
+      21.29732462572018
+    ],
+    "corrected": [
+      -89.59925527497951,
+      21.29732462572018
+    ],
+    "note": "Se leyó en el eje el borde continuo entre agua y arena húmeda, excluyendo espuma separada. El intervalo incluye la posición original.",
+    "axis": [
+      -0.22304608,
+      0.9748079
+    ]
+  },
+  {
+    "station": "GRID100-progreso-007-0009",
+    "profile": "SC-88-0-9",
+    "original": [
+      -89.59830744893895,
+      21.297444865647666
+    ],
+    "corrected": [
+      -89.59830744893895,
+      21.297444865647666
+    ],
+    "note": "Se leyó en el eje el borde continuo entre agua y arena húmeda, excluyendo espuma separada. El intervalo incluye la posición original.",
+    "axis": [
+      -0.18946442,
+      0.98188759
+    ]
+  },
+  {
+    "station": "GRID100-progreso-007-0010",
+    "profile": "SC-88-0-10",
+    "original": [
+      -89.59736545667509,
+      21.297558181774374
+    ],
+    "corrected": [
+      -89.59736545667509,
+      21.297558181774374
+    ],
+    "note": "Variación de textura cerca de una junta de tesela; el cruce local está a la derecha de la junta y admite el punto original.",
+    "axis": [
+      -0.18311205,
+      0.98309205
+    ]
+  },
+  {
+    "station": "GRID100-progreso-007-0011",
+    "profile": "SC-88-0-11",
+    "original": [
+      -89.59644579233908,
+      21.297674928930356
+    ],
+    "corrected": [
+      -89.59644579233908,
+      21.297674928930356
+    ],
+    "note": "Se leyó en el eje el borde continuo entre agua y arena húmeda, excluyendo espuma separada. El intervalo incluye la posición original.",
+    "axis": [
+      -0.11571581,
+      0.99328236
+    ]
+  },
+  {
+    "station": "GRID100-progreso-007-0012",
+    "profile": "SC-88-0-12",
+    "original": [
+      -89.59550336115089,
+      21.297864600054005
+    ],
+    "corrected": [
+      -89.59550336115089,
+      21.297864600054005
+    ],
+    "note": "Se leyó en el eje el borde continuo entre agua y arena húmeda, excluyendo espuma separada. El intervalo incluye la posición original.",
+    "axis": [
+      -0.15118794,
+      0.98850504
+    ]
+  },
+  {
+    "station": "GRID100-progreso-007-0013",
+    "profile": "SC-88-0-13",
+    "original": [
+      -89.59456573414445,
+      21.297984291980434
+    ],
+    "corrected": [
+      -89.59456573414445,
+      21.297984291980434
+    ],
+    "note": "Se leyó en el eje el borde continuo entre agua y arena húmeda, excluyendo espuma separada. El intervalo incluye la posición original.",
+    "axis": [
+      -0.15569664,
+      0.98780492
+    ]
+  },
+  {
+    "station": "GRID100-progreso-007-0014",
+    "profile": "SC-88-0-14",
+    "original": [
+      -89.59360943688799,
+      21.298074143253316
+    ],
+    "corrected": null,
+    "note": "La imagen presenta un escalón de varios píxeles en el límite de teselas casi sobre el eje. El punto cae en la transición entre dos posiciones posibles del borde y no hay un cruce continuo inequívoco.",
+    "axis": [
+      -0.13511044,
+      0.99083054
+    ]
+  },
+  {
+    "station": "GRID100-progreso-007-0015",
+    "profile": "SC-88-0-15",
+    "original": [
+      -89.59266443978146,
+      21.298251122531266
+    ],
+    "corrected": [
+      -89.59265581325522,
+      21.29821113820026
+    ],
+    "note": "El punto original aún está sobre agua con textura. El borde húmedo continuo empieza varios píxeles hacia tierra.",
+    "axis": [
+      -0.19707063,
+      0.98038929
+    ]
+  },
+  {
+    "station": "GRID100-progreso-007-0016",
+    "profile": "SC-88-0-16",
+    "original": [
+      -89.59171819925047,
+      21.298436756908337
+    ],
+    "corrected": [
+      -89.59171819925047,
+      21.298436756908337
+    ],
+    "note": "Se leyó en el eje el borde continuo entre agua y arena húmeda, excluyendo espuma separada. El intervalo incluye la posición original.",
+    "axis": [
+      -0.22862222,
+      0.97351522
+    ]
+  },
+  {
+    "station": "GRID100-progreso-007-0017",
+    "profile": "SC-88-0-17",
+    "original": [
+      -89.59076661990687,
+      21.29857448360519
+    ],
+    "corrected": [
+      -89.59076661990687,
+      21.29857448360519
+    ],
+    "note": "Manchas de espuma dispersas delante del borde. Leí la transición sostenida y el intervalo aún abarca el original.",
+    "axis": [
+      -0.18817214,
+      0.98213606
+    ]
+  },
+  {
+    "station": "GRID100-progreso-007-0018",
+    "profile": "SC-88-0-18",
+    "original": [
+      -89.58982219381954,
+      21.298758159909035
+    ],
+    "corrected": [
+      -89.58982219381954,
+      21.298758159909035
+    ],
+    "note": "Se leyó en el eje el borde continuo entre agua y arena húmeda, excluyendo espuma separada. El intervalo incluye la posición original.",
+    "axis": [
+      -0.15757665,
+      0.98750676
+    ]
+  },
+  {
+    "station": "GRID100-progreso-007-0019",
+    "profile": "SC-88-0-19",
+    "original": [
+      -89.58885505074784,
+      21.29883407292784
+    ],
+    "corrected": [
+      -89.58885505074784,
+      21.29883407292784
+    ],
+    "note": "Se leyó en el eje el borde continuo entre agua y arena húmeda, excluyendo espuma separada. El intervalo incluye la posición original.",
+    "axis": [
+      -0.1652588,
+      0.98625024
+    ]
+  },
+  {
+    "station": "GRID100-progreso-007-0020",
+    "profile": "SC-88-0-20",
+    "original": [
+      -89.5879304613562,
+      21.299164307588335
+    ],
+    "corrected": [
+      -89.5879304613562,
+      21.299164307588335
+    ],
+    "note": "Se leyó en el eje el borde continuo entre agua y arena húmeda, excluyendo espuma separada. El intervalo incluye la posición original.",
+    "axis": [
+      -0.12221035,
+      0.99250422
+    ]
+  },
+  {
+    "station": "GRID100-progreso-007-0021",
+    "profile": "SC-88-0-21",
+    "original": [
+      -89.58696795013805,
+      21.299245105988334
+    ],
+    "corrected": [
+      -89.58696795013805,
+      21.299245105988334
+    ],
+    "note": "Se leyó en el eje el borde continuo entre agua y arena húmeda, excluyendo espuma separada. El intervalo incluye la posición original.",
+    "axis": [
+      -0.14067916,
+      0.99005524
+    ]
+  },
+  {
+    "station": "GRID100-progreso-007-0022",
+    "profile": "SC-88-0-22",
+    "original": [
+      -89.58603848394758,
+      21.299467719674904
+    ],
+    "corrected": [
+      -89.58603848394758,
+      21.299467719674904
+    ],
+    "note": "Se leyó en el eje el borde continuo entre agua y arena húmeda, excluyendo espuma separada. El intervalo incluye la posición original.",
+    "axis": [
+      -0.23707653,
+      0.97149098
+    ]
+  },
+  {
+    "station": "GRID100-progreso-007-0023",
+    "profile": "SC-88-0-23",
+    "original": [
+      -89.58506499981674,
+      21.29954059641156
+    ],
+    "corrected": [
+      -89.58505837247364,
+      21.299510608427433
+    ],
+    "note": "El cruce del lado oeste queda al sur del punto original. No prolongué el saliente visible al otro lado de la junta vertical.",
+    "axis": [
+      -0.20167362,
+      0.97945278
+    ]
+  },
+  {
+    "station": "GRID100-progreso-007-0024",
+    "profile": "SC-88-0-24",
+    "original": [
+      -89.58415105456069,
+      21.299844867547733
+    ],
+    "corrected": [
+      -89.58415105456069,
+      21.299844867547733
+    ],
+    "note": "Se leyó en el eje el borde continuo entre agua y arena húmeda, excluyendo espuma separada. El intervalo incluye la posición original.",
+    "axis": [
+      -0.26544545,
+      0.96412588
+    ]
+  },
+  {
+    "station": "GRID100-progreso-007-0025",
+    "profile": "SC-88-0-25",
+    "original": [
+      -89.58319862621629,
+      21.30005075415075
+    ],
+    "corrected": [
+      -89.58319862621629,
+      21.30005075415075
+    ],
+    "note": "Se leyó en el eje el borde continuo entre agua y arena húmeda, excluyendo espuma separada. El intervalo incluye la posición original.",
+    "axis": [
+      -0.09427533,
+      0.99554616
+    ]
+  },
+  {
+    "station": "GRID100-progreso-007-0026",
+    "profile": "SC-88-0-26",
+    "original": [
+      -89.58225712254155,
+      21.300170312080482
+    ],
+    "corrected": [
+      -89.58224420567532,
+      21.30012033231771
+    ],
+    "note": "El eje pasa al oeste del saliente de arena; el límite local cruza más hacia tierra que el extremo del saliente.",
+    "axis": [
+      -0.23409712,
+      0.97221322
+    ]
+  },
+  {
+    "station": "GRID100-progreso-007-0027",
+    "profile": "SC-88-0-27",
+    "original": [
+      -89.58136012964991,
+      21.300298396562127
+    ],
+    "corrected": [
+      -89.58136012964991,
+      21.300298396562127
+    ],
+    "note": "Se leyó en el eje el borde continuo entre agua y arena húmeda, excluyendo espuma separada. El intervalo incluye la posición original.",
+    "axis": [
+      -0.11641581,
+      0.99320056
+    ]
+  },
+  {
+    "station": "GRID100-progreso-007-0028",
+    "profile": "SC-88-0-28",
+    "original": [
+      -89.58040105766446,
+      21.300383690009088
+    ],
+    "corrected": [
+      -89.58040105766446,
+      21.300383690009088
+    ],
+    "note": "Se leyó en el eje el borde continuo entre agua y arena húmeda, excluyendo espuma separada. El intervalo incluye la posición original.",
+    "axis": [
+      -0.17781092,
+      0.98406467
+    ]
+  },
+  {
+    "station": "GRID100-progreso-007-0029",
+    "profile": "SC-88-0-29",
+    "original": [
+      -89.579452827891,
+      21.30053046884164
+    ],
+    "corrected": [
+      -89.57944764661023,
+      21.300495483095236
+    ],
+    "note": "Continuidad del borde húmedo por detrás del agua con manchas de espuma aislada.",
+    "axis": [
+      -0.1366851,
+      0.99061455
+    ]
+  },
+  {
+    "station": "GRID100-progreso-007-0030",
+    "profile": "SC-88-0-30",
+    "original": [
+      -89.57850722651843,
+      21.300743561445955
+    ],
+    "corrected": [
+      -89.57850722651843,
+      21.300743561445955
+    ],
+    "note": "Se leyó en el eje el borde continuo entre agua y arena húmeda, excluyendo espuma separada. El intervalo incluye la posición original.",
+    "axis": [
+      -0.11553368,
+      0.99330356
+    ]
+  },
+  {
+    "station": "GRID100-progreso-007-0031",
+    "profile": "SC-88-0-31",
+    "original": [
+      -89.57754515313663,
+      21.30081506534044
+    ],
+    "corrected": [
+      -89.57754515313663,
+      21.30081506534044
+    ],
+    "note": "Se leyó en el eje el borde continuo entre agua y arena húmeda, excluyendo espuma separada. El intervalo incluye la posición original.",
+    "axis": [
+      -0.13442689,
+      0.99092351
+    ]
+  },
+  {
+    "station": "GRID100-progreso-007-0032",
+    "profile": "SC-88-0-32",
+    "original": [
+      -89.5765783316572,
+      21.30086349921528
+    ],
+    "corrected": [
+      -89.5765854457588,
+      21.300908480775053
+    ],
+    "note": "El punto original está en arena más clara. La arena húmeda continua empieza varios píxeles hacia el agua.",
+    "axis": [
+      -0.14577753,
+      0.9893174
+    ]
+  },
+  {
+    "station": "GRID100-progreso-007-0033",
+    "profile": "SC-88-0-33",
+    "original": [
+      -89.5756445028005,
+      21.301091683226232
+    ],
+    "corrected": [
+      -89.5756445028005,
+      21.301091683226232
+    ],
+    "note": "Se leyó en el eje el borde continuo entre agua y arena húmeda, excluyendo espuma separada. El intervalo incluye la posición original.",
+    "axis": [
+      -0.23595972,
+      0.97176284
+    ]
+  },
+  {
+    "station": "GRID100-progreso-007-0034",
+    "profile": "SC-88-0-34",
+    "original": [
+      -89.57468918647123,
+      21.301233114408053
+    ],
+    "corrected": [
+      -89.57468918647123,
+      21.301233114408053
+    ],
+    "note": "Se leyó en el eje el borde continuo entre agua y arena húmeda, excluyendo espuma separada. El intervalo incluye la posición original.",
+    "axis": [
+      -0.11940597,
+      0.99284551
+    ]
+  },
+  {
+    "station": "GRID100-progreso-007-0035",
+    "profile": "SC-88-0-35",
+    "original": [
+      -89.57375483089528,
+      21.30142438150808
+    ],
+    "corrected": [
+      -89.57375483089528,
+      21.30142438150808
+    ],
+    "note": "Se leyó en el eje el borde continuo entre agua y arena húmeda, excluyendo espuma separada. El intervalo incluye la posición original.",
+    "axis": [
+      -0.24488504,
+      0.96955212
+    ]
+  },
+  {
+    "station": "GRID100-progreso-007-0036",
+    "profile": "GRID100-progreso-007-0036",
+    "original": [
+      -89.57327429191278,
+      21.301554061076377
+    ],
+    "corrected": [
+      -89.57327429191278,
+      21.301554061076377
+    ],
+    "note": "Estación de lectura directa. Confirmé el eje fijo y la transición de arena húmeda, sin sumar las manchas de espuma cercanas.",
+    "axis": [
+      -0.22616390535305256,
+      0.9740892607535798
+    ]
+  },
+  {
+    "station": "GRID100-progreso-007-0037",
+    "profile": "GRID100-progreso-007-0037",
+    "original": [
+      -89.5723256564869,
+      21.301690820495132
+    ],
+    "corrected": [
+      -89.5723256564869,
+      21.301690820495132
+    ],
+    "note": "Estación de lectura directa. La posición original cae en el borde aparente continuo.",
+    "axis": [
+      -0.1956420149869022,
+      0.9806753805270451
+    ]
+  },
+  {
+    "station": "GRID100-progreso-007-0038",
+    "profile": "GRID100-progreso-007-0038",
+    "original": [
+      -89.57137437966685,
+      21.301818037607514
+    ],
+    "corrected": [
+      -89.57137437966685,
+      21.301818037607514
+    ],
+    "note": "Estación de lectura directa. Se conserva la posición porque el cambio pequeño no supera el intervalo de lectura.",
+    "axis": [
+      -0.2116662409417171,
+      0.9773420089434419
+    ]
+  },
+  {
+    "station": "GRID100-progreso-007-0039",
+    "profile": "SC-88-0-39",
+    "original": [
+      -89.57011075284525,
+      21.30206392113081
+    ],
+    "corrected": [
+      -89.57011075284525,
+      21.30206392113081
+    ],
+    "note": "Se leyó en el eje el borde continuo entre agua y arena húmeda, excluyendo espuma separada. El intervalo incluye la posición original.",
+    "axis": [
+      -0.21981982,
+      0.97554049
+    ]
+  },
+  {
+    "station": "GRID100-progreso-007-0040",
+    "profile": "SC-88-0-40",
+    "original": [
+      -89.56915942720052,
+      21.302233025589313
+    ],
+    "corrected": [
+      -89.56915942720052,
+      21.302233025589313
+    ],
+    "note": "Entrada oblicua del borde. Las bandas de agua y arena húmeda se distinguen, pero el intervalo abarca la posición original.",
+    "axis": [
+      -0.23136683,
+      0.97286658
+    ]
+  },
+  {
+    "station": "GRID100-progreso-007-0041",
+    "profile": "SC-88-0-41",
+    "original": [
+      -89.56823212677142,
+      21.302498217979572
+    ],
+    "corrected": [
+      -89.56823212677142,
+      21.302498217979572
+    ],
+    "note": "Se leyó en el eje el borde continuo entre agua y arena húmeda, excluyendo espuma separada. El intervalo incluye la posición original.",
+    "axis": [
+      -0.25422959,
+      0.9671439
+    ]
+  },
+  {
+    "station": "GRID100-progreso-007-0042",
+    "profile": "SC-88-0-42",
+    "original": [
+      -89.56732181841458,
+      21.302804768586327
+    ],
+    "corrected": [
+      -89.56732181841458,
+      21.302804768586327
+    ],
+    "note": "Espuma inmediata al eje. El intervalo incluye el contacto real en la arena húmeda detrás de esa espuma.",
+    "axis": [
+      -0.35693855,
+      0.93412787
+    ]
+  },
+  {
+    "station": "GRID100-progreso-007-0043",
+    "profile": "SC-88-0-43",
+    "original": [
+      -89.5664395835815,
+      21.303042320013965
+    ],
+    "corrected": [
+      -89.5664395835815,
+      21.303042320013965
+    ],
+    "note": "Cruce oblicuo junto a un cambio de forma en la orilla; al distinguir el borde húmedo el original sigue siendo admisible.",
+    "axis": [
+      -0.27531376,
+      0.96135443
+    ]
+  },
+  {
+    "station": "GRID100-progreso-007-0044",
+    "profile": "SC-88-0-44",
+    "original": [
+      -89.56563745052203,
+      21.30334346063191
+    ],
+    "corrected": [
+      -89.56563745052203,
+      21.30334346063191
+    ],
+    "note": "Se leyó en el eje el borde continuo entre agua y arena húmeda, excluyendo espuma separada. El intervalo incluye la posición original.",
+    "axis": [
+      -0.26574794,
+      0.96404255
+    ]
+  },
+  {
+    "station": "GRID100-progreso-007-0045",
+    "profile": "SC-88-0-45",
+    "original": [
+      -89.56498808516402,
+      21.303558113779044
+    ],
+    "corrected": [
+      -89.56498808516402,
+      21.303558113779044
+    ],
+    "note": "Se leyó en el eje el borde continuo entre agua y arena húmeda, excluyendo espuma separada. El intervalo incluye la posición original.",
+    "axis": [
+      -0.2976587,
+      0.95467235
+    ]
+  },
+  {
+    "station": "GRID100-progreso-007-0046",
+    "profile": "SC-88-0-46",
+    "original": [
+      -89.56408848822379,
+      21.30374472687038
+    ],
+    "corrected": [
+      -89.56408848822379,
+      21.30374472687038
+    ],
+    "note": "La curvatura y las manchas de agua somera hacen incierto un ajuste pequeño.",
+    "axis": [
+      -0.30967463,
+      0.95084259
+    ]
+  },
+  {
+    "station": "GRID100-progreso-007-0047",
+    "profile": "SC-88-0-47",
+    "original": [
+      -89.56324440975078,
+      21.304126335541593
+    ],
+    "corrected": [
+      -89.56323443773339,
+      21.304091350651344
+    ],
+    "note": "El agua con textura todavía llega más allá del punto original. Se siguió la transición húmeda, antes de la franja de arena clara.",
+    "axis": [
+      -0.25666377,
+      0.96650075
+    ]
+  },
+  {
+    "station": "GRID100-progreso-007-0048",
+    "profile": "SC-88-0-48",
+    "original": [
+      -89.56231627774551,
+      21.3043816777975
+    ],
+    "corrected": [
+      -89.56231627774551,
+      21.3043816777975
+    ],
+    "note": "El borde aparente se encuentra cerca del punto, con diferencias en la curvatura a cada lado.",
+    "axis": [
+      -0.24267475,
+      0.97010771
+    ]
+  },
+  {
+    "station": "GRID100-progreso-007-0049",
+    "profile": "SC-88-0-49",
+    "original": [
+      -89.56139867856946,
+      21.30469309780446
+    ],
+    "corrected": [
+      -89.56139867856946,
+      21.30469309780446
+    ],
+    "note": "Se leyó en el eje el borde continuo entre agua y arena húmeda, excluyendo espuma separada. El intervalo incluye la posición original.",
+    "axis": [
+      -0.19078821,
+      0.98163122
+    ]
+  },
+  {
+    "station": "GRID100-progreso-007-0050",
+    "profile": "SC-88-0-50",
+    "original": [
+      -89.56053136018726,
+      21.304866881417603
+    ],
+    "corrected": [
+      -89.56054718880978,
+      21.304906863937582
+    ],
+    "note": "La posición original está claramente dentro de la banda de arena. El contacto visible está varios píxeles al norte.",
+    "axis": [
+      -0.34604617,
+      0.93821749
+    ]
+  },
+  {
+    "station": "GRID100-progreso-007-0051",
+    "profile": "SC-88-0-51",
+    "original": [
+      -89.55965033841686,
+      21.305213874181234
+    ],
+    "corrected": [
+      -89.55965033841686,
+      21.305213874181234
+    ],
+    "note": "Desembocadura oblicua de un entrante pequeño sin una separación precisa entre la línea húmeda y los píxeles mixtos.",
+    "axis": [
+      -0.32631202,
+      0.94526211
+    ]
+  },
+  {
+    "station": "GRID100-progreso-007-0052",
+    "profile": "SC-88-0-52",
+    "original": [
+      -89.5587799567568,
+      21.305493835541416
+    ],
+    "corrected": [
+      -89.5587799567568,
+      21.305493835541416
+    ],
+    "note": "Se leyó en el eje el borde continuo entre agua y arena húmeda, excluyendo espuma separada. El intervalo incluye la posición original.",
+    "axis": [
+      -0.44468682,
+      0.89568612
+    ]
+  },
+  {
+    "station": "GRID100-progreso-007-0053",
+    "profile": "SC-88-0-53",
+    "original": [
+      -89.55786556473015,
+      21.30580022583891
+    ],
+    "corrected": [
+      -89.55786556473015,
+      21.30580022583891
+    ],
+    "note": "Se leyó en el eje el borde continuo entre agua y arena húmeda, excluyendo espuma separada. El intervalo incluye la posición original.",
+    "axis": [
+      -0.34128695,
+      0.93995916
+    ]
+  },
+  {
+    "station": "GRID100-progreso-007-0054",
+    "profile": "SC-88-0-54",
+    "original": [
+      -89.55696755653207,
+      21.306170637470643
+    ],
+    "corrected": [
+      -89.55696755653207,
+      21.306170637470643
+    ],
+    "note": "Se leyó en el eje el borde continuo entre agua y arena húmeda, excluyendo espuma separada. El intervalo incluye la posición original.",
+    "axis": [
+      -0.23971816,
+      0.97084252
+    ]
+  },
+  {
+    "station": "GRID100-progreso-007-0055",
+    "profile": "SC-88-0-55",
+    "original": [
+      -89.55600650155873,
+      21.306225217941506
+    ],
+    "corrected": [
+      -89.55600650155873,
+      21.306225217941506
+    ],
+    "note": "La sombra oscura visible tierra adentro no se usó como orilla. El borde de arena húmeda admite el original en el extremo del intervalo.",
+    "axis": [
+      -0.42322175,
+      0.90602613
+    ]
+  },
+  {
+    "station": "GRID100-progreso-007-0056",
+    "profile": "SC-88-0-56",
+    "original": [
+      -89.55526918409579,
+      21.306744708903693
+    ],
+    "corrected": [
+      -89.55526918409579,
+      21.306744708903693
+    ],
+    "note": "El eje existente es muy oblicuo. Se leyó la transición en ese mismo eje y se mantuvo la posición.",
+    "axis": [
+      -0.78014778,
+      0.62559527
+    ]
+  },
+  {
+    "station": "GRID100-progreso-007-0057",
+    "profile": "SC-88-0-57",
+    "original": [
+      -89.55455563570736,
+      21.307185241592865
+    ],
+    "corrected": [
+      -89.55455563570736,
+      21.307185241592865
+    ],
+    "note": "Franja oscura inmediata al agua. La textura acuática y la arena seca se distinguen; la posición original sigue dentro del intervalo.",
+    "axis": [
+      -0.22330306,
+      0.97474907
+    ]
+  },
+  {
+    "station": "GRID100-progreso-007-0058",
+    "profile": "SC-88-0-58",
+    "original": [
+      -89.55362271540436,
+      21.307337080761627
+    ],
+    "corrected": [
+      -89.55362638819994,
+      21.307375063517217
+    ],
+    "note": "La línea oscura de arena húmeda al contacto con el agua queda mar afuera del original; se excluyó la segunda franja oscura tierra adentro.",
+    "axis": [
+      -0.08972333,
+      0.99596673
+    ]
+  },
+  {
+    "station": "GRID100-progreso-007-0059",
+    "profile": "SC-88-0-59",
+    "original": [
+      -89.55270657402079,
+      21.307489178803646
+    ],
+    "corrected": [
+      -89.55270657402079,
+      21.307489178803646
+    ],
+    "note": "Se leyó en el eje el borde continuo entre agua y arena húmeda, excluyendo espuma separada. El intervalo incluye la posición original.",
+    "axis": [
+      -0.31105752,
+      0.95039109
+    ]
+  },
+  {
+    "station": "GRID100-progreso-007-0060",
+    "profile": "SC-88-0-60",
+    "original": [
+      -89.55187238183302,
+      21.307673670772633
+    ],
+    "corrected": [
+      -89.55187238183302,
+      21.307673670772633
+    ],
+    "note": "Se leyó en el eje el borde continuo entre agua y arena húmeda, excluyendo espuma separada. El intervalo incluye la posición original.",
+    "axis": [
+      -0.17797206,
+      0.98403554
+    ]
+  },
+  {
+    "station": "GRID100-progreso-007-0061",
+    "profile": "SC-88-0-61",
+    "original": [
+      -89.55092257581647,
+      21.307837195564133
+    ],
+    "corrected": [
+      -89.55092257581647,
+      21.307837195564133
+    ],
+    "note": "Saliente curvo de arena húmeda; el intervalo del cruce incluye el original.",
+    "axis": [
+      -0.21464551,
+      0.97669202
+    ]
+  },
+  {
+    "station": "GRID100-progreso-007-0062",
+    "profile": "SC-88-0-62",
+    "original": [
+      -89.54996154403055,
+      21.307924314347677
+    ],
+    "corrected": [
+      -89.54996154403055,
+      21.307924314347677
+    ],
+    "note": "Se leyó en el eje el borde continuo entre agua y arena húmeda, excluyendo espuma separada. El intervalo incluye la posición original.",
+    "axis": [
+      -0.15818611,
+      0.98740932
+    ]
+  },
+  {
+    "station": "GRID100-progreso-007-0063",
+    "profile": "SC-88-0-63",
+    "original": [
+      -89.54901975658274,
+      21.308126848221466
+    ],
+    "corrected": [
+      -89.54901975658274,
+      21.308126848221466
+    ],
+    "note": "Se leyó en el eje el borde continuo entre agua y arena húmeda, excluyendo espuma separada. El intervalo incluye la posición original.",
+    "axis": [
+      -0.12710335,
+      0.99188948
+    ]
+  },
+  {
+    "station": "GRID100-progreso-007-0064",
+    "profile": "SC-88-0-64",
+    "original": [
+      -89.54807235938628,
+      21.308314599150137
+    ],
+    "corrected": [
+      -89.54805189968586,
+      21.308216479434115
+    ],
+    "note": "Arena continua al sur de la transición ancha de agua verdosa a arena húmeda.",
+    "axis": [
+      -0.19069823,
+      0.98164871
+    ]
+  },
+  {
+    "station": "GRID100-progreso-007-0065",
+    "profile": "SC-88-0-65",
+    "original": [
+      -89.54711862565824,
+      21.30846330976488
+    ],
+    "corrected": [
+      -89.54710379818701,
+      21.30838454887528
+    ],
+    "note": "Transición arenosa continua pese al pequeño entrante del lado occidental; punto anterior sobre agua.",
+    "axis": [
+      -0.17275256,
+      0.98496525
+    ]
+  },
+  {
+    "station": "GRID100-progreso-007-0066",
+    "profile": "SC-88-0-67",
+    "original": [
+      -89.54527511210063,
+      21.308660721518955
+    ],
+    "corrected": [
+      -89.54529426259165,
+      21.308728376178593
+    ],
+    "note": "Contacto oblicuo entre agua y franja arenosa húmeda; se excluyen la textura oscura tierra adentro y las manchas aisladas.",
+    "axis": [
+      -0.25499359,
+      0.96694274
+    ]
+  },
+  {
+    "station": "GRID100-progreso-007-0067",
+    "profile": "SC-88-0-68",
+    "original": [
+      -89.54436517868791,
+      21.308820831927523
+    ],
+    "corrected": null,
+    "note": "Eje muy próximo al contacto de un saliente rígido con la playa; el píxel no separa con confianza agua–arena de agua–estructura.",
+    "axis": [
+      -0.19247982,
+      0.98130093
+    ]
+  },
+  {
+    "station": "GRID100-progreso-007-0068",
+    "profile": "SC-88-0-69",
+    "original": [
+      -89.54343539194014,
+      21.30897179204696
+    ],
+    "corrected": [
+      -89.54344547684444,
+      21.30904112580101
+    ],
+    "note": "Borde superior continuo de la franja de arena junto a una obra al este del eje; el punto previo cae detrás.",
+    "axis": [
+      -0.13428303,
+      0.99094302
+    ]
+  },
+  {
+    "station": "GRID100-progreso-007-0069",
+    "profile": "SC-88-0-70",
+    "original": [
+      -89.54252264237398,
+      21.309280508036395
+    ],
+    "corrected": [
+      -89.54252264237398,
+      21.309280508036395
+    ],
+    "note": "Franja húmeda oscura con marrón difuso; la transición visible incluye la posición publicada.",
+    "axis": [
+      -0.18656301,
+      0.982443
+    ]
+  },
+  {
+    "station": "GRID100-progreso-007-0070",
+    "profile": "SC-88-0-71",
+    "original": [
+      -89.54157495314975,
+      21.30938643568267
+    ],
+    "corrected": [
+      -89.54156120590754,
+      21.309297394105
+    ],
+    "note": "El punto previo está sobre agua; el contacto arena–agua es visible entre salientes, al oeste de la obra.",
+    "axis": [
+      -0.14237065,
+      0.98981342
+    ]
+  },
+  {
+    "station": "GRID100-progreso-007-0071",
+    "profile": "SC-88-0-72",
+    "original": [
+      -89.54063537624359,
+      21.309481804701498
+    ],
+    "corrected": null,
+    "note": "El eje recorre una obra angosta o su sombra en el borde de la playa y las dos orillas laterales no coinciden; se conserva el historial y no se propone cruce nuevo.",
+    "axis": [
+      -0.12493178,
+      0.99216533
+    ]
+  },
+  {
+    "station": "GRID100-progreso-007-0072",
+    "profile": "SC-88-0-73",
+    "original": [
+      -89.53967958839911,
+      21.309604026935038
+    ],
+    "corrected": [
+      -89.53967958839911,
+      21.309604026935038
+    ],
+    "note": "El contacto visible de agua con la franja de arena contiene la posición previa dentro del intervalo.",
+    "axis": [
+      -0.19453664,
+      0.98089525
+    ]
+  },
+  {
+    "station": "GRID100-progreso-007-0073",
+    "profile": "SC-88-0-74",
+    "original": [
+      -89.53873328181932,
+      21.309783523864706
+    ],
+    "corrected": [
+      -89.53873328181932,
+      21.309783523864706
+    ],
+    "note": "El contacto visible de agua con la franja de arena contiene la posición previa dentro del intervalo.",
+    "axis": [
+      -0.20240117,
+      0.97930269
+    ]
+  },
+  {
+    "station": "GRID100-progreso-007-0074",
+    "profile": "SC-88-0-75",
+    "original": [
+      -89.53779064226082,
+      21.309973068474903
+    ],
+    "corrected": [
+      -89.53779064226082,
+      21.309973068474903
+    ],
+    "note": "El contacto visible de agua con la franja de arena contiene la posición previa dentro del intervalo.",
+    "axis": [
+      -0.14887109,
+      0.98885661
+    ]
+  },
+  {
+    "station": "GRID100-progreso-007-0075",
+    "profile": "SC-88-0-76",
+    "original": [
+      -89.53683813238708,
+      21.31010742876388
+    ],
+    "corrected": [
+      -89.53683813238708,
+      21.31010742876388
+    ],
+    "note": "El contacto visible de agua con la franja de arena contiene la posición previa dentro del intervalo.",
+    "axis": [
+      -0.16336392,
+      0.98656588
+    ]
+  },
+  {
+    "station": "GRID100-progreso-007-0076",
+    "profile": "SC-88-0-77",
+    "original": [
+      -89.53589623942483,
+      21.310300233241094
+    ],
+    "corrected": [
+      -89.53589623942483,
+      21.310300233241094
+    ],
+    "note": "El contacto visible de agua con la franja de arena contiene la posición previa dentro del intervalo.",
+    "axis": [
+      -0.23199289,
+      0.97271748
+    ]
+  },
+  {
+    "station": "GRID100-progreso-007-0077",
+    "profile": "SC-88-0-78",
+    "original": [
+      -89.53495058588871,
+      21.310459218894188
+    ],
+    "corrected": [
+      -89.53495058588871,
+      21.310459218894188
+    ],
+    "note": "El contacto visible de agua con la franja de arena contiene la posición previa dentro del intervalo.",
+    "axis": [
+      -0.11802354,
+      0.9930108
+    ]
+  },
+  {
+    "station": "GRID100-progreso-007-0078",
+    "profile": "SC-88-0-79",
+    "original": [
+      -89.53398925570477,
+      21.31054331030807
+    ],
+    "corrected": [
+      -89.53398925570477,
+      21.31054331030807
+    ],
+    "note": "El contacto visible de agua con la franja de arena contiene la posición previa dentro del intervalo.",
+    "axis": [
+      -0.10538768,
+      0.99443121
+    ]
+  },
+  {
+    "station": "GRID100-progreso-007-0079",
+    "profile": "SC-88-0-80",
+    "original": [
+      -89.53302989493034,
+      21.310658160612515
+    ],
+    "corrected": [
+      -89.53302989493034,
+      21.310658160612515
+    ],
+    "note": "Transición difusa junto a acumulación oscura; el original sigue dentro del intervalo.",
+    "axis": [
+      -0.10474014,
+      0.99449962
+    ]
+  },
+  {
+    "station": "GRID100-progreso-007-0080",
+    "profile": "SC-88-0-81",
+    "original": [
+      -89.53211668302495,
+      21.31091464072033
+    ],
+    "corrected": [
+      -89.53210332252263,
+      21.310876646710007
+    ],
+    "note": "Se identifica la franja húmeda continua debajo del punto previo; se excluye espuma/brillo discontinuo.",
+    "axis": [
+      -0.31132227,
+      0.9503044
+    ]
+  },
+  {
+    "station": "GRID100-progreso-007-0081",
+    "profile": "SC-88-0-82",
+    "original": [
+      -89.53116499613296,
+      21.311085467476953
+    ],
+    "corrected": [
+      -89.53116499613296,
+      21.311085467476953
+    ],
+    "note": "El contacto visible de agua con la franja de arena contiene la posición previa dentro del intervalo.",
+    "axis": [
+      -0.2410256,
+      0.97051876
+    ]
+  },
+  {
+    "station": "GRID100-progreso-007-0082",
+    "profile": "SC-88-0-83",
+    "original": [
+      -89.53022254721378,
+      21.311278216818632
+    ],
+    "corrected": [
+      -89.53022254721378,
+      21.311278216818632
+    ],
+    "note": "El contacto visible de agua con la franja de arena contiene la posición previa dentro del intervalo.",
+    "axis": [
+      -0.18429995,
+      0.98287005
+    ]
+  },
+  {
+    "station": "GRID100-progreso-007-0083",
+    "profile": "SC-88-0-84",
+    "original": [
+      -89.52926670490132,
+      21.311407145882356
+    ],
+    "corrected": [
+      -89.52926670490132,
+      21.311407145882356
+    ],
+    "note": "Eje entre dos salientes; el borde continuo pasa por la banda de la referencia previa.",
+    "axis": [
+      -0.17063997,
+      0.98533345
+    ]
+  },
+  {
+    "station": "GRID100-progreso-007-0084",
+    "profile": "SC-88-0-85",
+    "original": [
+      -89.52831052599332,
+      21.311526159992813
+    ],
+    "corrected": [
+      -89.52831052599332,
+      21.311526159992813
+    ],
+    "note": "El contacto visible de agua con la franja de arena contiene la posición previa dentro del intervalo.",
+    "axis": [
+      -0.13458243,
+      0.9909024
+    ]
+  },
+  {
+    "station": "GRID100-progreso-007-0085",
+    "profile": "SC-88-0-86",
+    "original": [
+      -89.52736325699493,
+      21.311721897120833
+    ],
+    "corrected": [
+      -89.52736325699493,
+      21.311721897120833
+    ],
+    "note": "Agua turbia y manchas sobre la playa; intervalo amplio que contiene la lectura previa.",
+    "axis": [
+      -0.12102569,
+      0.99264938
+    ]
+  },
+  {
+    "station": "GRID100-progreso-007-0086",
+    "profile": "SC-88-0-87",
+    "original": [
+      -89.52641240847764,
+      21.31188620415785
+    ],
+    "corrected": [
+      -89.52641240847764,
+      21.31188620415785
+    ],
+    "note": "El contacto visible de agua con la franja de arena contiene la posición previa dentro del intervalo.",
+    "axis": [
+      -0.12102569,
+      0.99264938
+    ]
+  },
+  {
+    "station": "GRID100-progreso-007-0087",
+    "profile": "SC-88-0-88",
+    "original": [
+      -89.52545544194483,
+      21.312006666449665
+    ],
+    "corrected": [
+      -89.52543272756061,
+      21.311858240064407
+    ],
+    "note": "Punto anterior mar adentro sobre agua homogénea; borde arenoso continuo y claro unos 15 píxeles al sur.",
+    "axis": [
+      -0.14114227,
+      0.98998932
+    ]
+  },
+  {
+    "station": "GRID100-progreso-007-0088",
+    "profile": "SC-88-0-89",
+    "original": [
+      -89.5244937170827,
+      21.312101644995877
+    ],
+    "corrected": [
+      -89.5244937170827,
+      21.312101644995877
+    ],
+    "note": "El contacto visible de agua con la franja de arena contiene la posición previa dentro del intervalo.",
+    "axis": [
+      -0.16830763,
+      0.98573452
+    ]
+  },
+  {
+    "station": "GRID100-progreso-007-0089",
+    "profile": "SC-88-0-90",
+    "original": [
+      -89.5235368863367,
+      21.31220686296502
+    ],
+    "corrected": [
+      -89.5235368863367,
+      21.31220686296502
+    ],
+    "note": "El contacto visible de agua con la franja de arena contiene la posición previa dentro del intervalo.",
+    "axis": [
+      -0.08477668,
+      0.99639998
+    ]
+  },
+  {
+    "station": "GRID100-progreso-007-0090",
+    "profile": "SC-88-0-91",
+    "original": [
+      -89.52256762788518,
+      21.312265215883283
+    ],
+    "corrected": [
+      -89.52255937545436,
+      21.312215835129226
+    ],
+    "note": "Contacto continuo de agua verdosa con arena húmeda; se excluye el borde posterior del sedimento.",
+    "axis": [
+      -0.15383646,
+      0.98809632
+    ]
+  },
+  {
+    "station": "GRID100-progreso-007-0091",
+    "profile": "SC-88-0-92",
+    "original": [
+      -89.52160970806067,
+      21.31231285459188
+    ],
+    "corrected": [
+      -89.5216148582734,
+      21.31237263308563
+    ],
+    "note": "El punto previo cae ya dentro de la arena; se verifica la transición más al norte siguiendo la misma playa.",
+    "axis": [
+      -0.08000577,
+      0.9967944
+    ]
+  },
+  {
+    "station": "GRID100-progreso-007-0092",
+    "profile": "SC-88-0-93",
+    "original": [
+      -89.52067343657815,
+      21.312586658753204
+    ],
+    "corrected": [
+      -89.52065472252959,
+      21.312518899951872
+    ],
+    "note": "Entrante de la orilla; se marca el cruce en la banda de arena continua, no en el brillo más al sur.",
+    "axis": [
+      -0.24918225,
+      0.96845661
+    ]
+  },
+  {
+    "station": "GRID100-progreso-007-0093",
+    "profile": "SC-88-0-94",
+    "original": [
+      -89.51975491062086,
+      21.312804901431136
+    ],
+    "corrected": [
+      -89.5197388700078,
+      21.31274682254678
+    ],
+    "note": "Borde húmedo continuo e irregular; se evita tomar la franja seca de tono más claro como contacto.",
+    "axis": [
+      -0.24918225,
+      0.96845661
+    ]
+  },
+  {
+    "station": "GRID100-progreso-007-0094",
+    "profile": "SC-88-0-95",
+    "original": [
+      -89.5187982176313,
+      21.31283576416313
+    ],
+    "corrected": [
+      -89.5187982176313,
+      21.31283576416313
+    ],
+    "note": "El contacto visible de agua con la franja de arena contiene la posición previa dentro del intervalo.",
+    "axis": [
+      -0.10658891,
+      0.99430318
+    ]
+  },
+  {
+    "station": "GRID100-progreso-007-0095",
+    "profile": "SC-88-0-96",
+    "original": [
+      -89.5178430210705,
+      21.31299407456572
+    ],
+    "corrected": [
+      -89.5178430210705,
+      21.31299407456572
+    ],
+    "note": "El contacto visible de agua con la franja de arena contiene la posición previa dentro del intervalo.",
+    "axis": [
+      -0.16694476,
+      0.98596625
+    ]
+  },
+  {
+    "station": "GRID100-progreso-007-0096",
+    "profile": "SC-88-0-97",
+    "original": [
+      -89.51689447048422,
+      21.313139683659365
+    ],
+    "corrected": [
+      -89.5168921010876,
+      21.313109779807977
+    ],
+    "note": "Se toma el contacto somero al comienzo de la franja arenosa, junto a una mancha oscura discontinua.",
+    "axis": [
+      -0.07361459,
+      0.99728676
+    ]
+  },
+  {
+    "station": "GRID100-progreso-007-0097",
+    "profile": "SC-88-0-98",
+    "original": [
+      -89.5159225031037,
+      21.31312516043454
+    ],
+    "corrected": [
+      -89.5159225031037,
+      21.31312516043454
+    ],
+    "note": "El contacto visible de agua con la franja de arena contiene la posición previa dentro del intervalo.",
+    "axis": [
+      -0.08741919,
+      0.99617161
+    ]
+  },
+  {
+    "station": "GRID100-progreso-007-0098",
+    "profile": "SC-88-0-99",
+    "original": [
+      -89.51495783159271,
+      21.31320878822421
+    ],
+    "corrected": [
+      -89.51495783159271,
+      21.31320878822421
+    ],
+    "note": "El contacto visible de agua con la franja de arena contiene la posición previa dentro del intervalo.",
+    "axis": [
+      -0.10346329,
+      0.99463327
+    ]
+  },
+  {
+    "station": "GRID100-progreso-007-0099",
+    "profile": "GRID100-progreso-007-0099",
+    "original": [
+      -89.51440034954801,
+      21.313133948282864
+    ],
+    "corrected": [
+      -89.51442732533096,
+      21.313281752996282
+    ],
+    "note": "El punto blanco de la lectura directa cae en playa seca; el borde húmedo oscuro continuo está unos 15 píxeles hacia el agua.",
+    "axis": [
+      -0.16762168047779488,
+      0.9858513945995107
+    ]
+  },
+  {
+    "station": "GRID100-progreso-007-0100",
+    "profile": "SC-88-0-101",
+    "original": [
+      -89.51306804622365,
+      21.313598849545784
+    ],
+    "corrected": [
+      -89.51306804622365,
+      21.313598849545784
+    ],
+    "note": "El contacto visible de agua con la franja de arena contiene la posición previa dentro del intervalo.",
+    "axis": [
+      -0.15103653,
+      0.98852818
+    ]
+  },
+  {
+    "station": "GRID100-progreso-007-0101",
+    "profile": "SC-88-0-102",
+    "original": [
+      -89.51210207662699,
+      21.313663493047873
+    ],
+    "corrected": [
+      -89.51210207662699,
+      21.313663493047873
+    ],
+    "note": "El contacto visible de agua con la franja de arena contiene la posición previa dentro del intervalo.",
+    "axis": [
+      -0.13527863,
+      0.9908076
+    ]
+  },
+  {
+    "station": "GRID100-progreso-007-0102",
+    "profile": "GRID100-progreso-007-0102",
+    "original": [
+      -89.5116022933251,
+      21.31371326184432
+    ],
+    "corrected": [
+      -89.5116022933251,
+      21.31371326184432
+    ],
+    "note": "El contacto visible de agua con la franja de arena contiene la posición previa dentro del intervalo.",
+    "axis": [
+      -0.17411461882154267,
+      0.9847253929459873
+    ]
+  },
+  {
+    "station": "GRID100-progreso-007-0103",
+    "profile": "GRID100-progreso-007-0103",
+    "original": [
+      -89.51067339227936,
+      21.31395089759197
+    ],
+    "corrected": [
+      -89.51067339227936,
+      21.31395089759197
+    ],
+    "note": "El contacto visible de agua con la franja de arena contiene la posición previa dentro del intervalo.",
+    "axis": [
+      -0.2504215810121773,
+      0.9681368868932541
+    ]
+  },
+  {
+    "station": "GRID100-progreso-007-0104",
+    "profile": "GRID100-progreso-007-0104",
+    "original": [
+      -89.5097554537011,
+      21.31422559806058
+    ],
+    "corrected": [
+      -89.5097554537011,
+      21.31422559806058
+    ],
+    "note": "El contacto visible de agua con la franja de arena contiene la posición previa dentro del intervalo.",
+    "axis": [
+      -0.24328832633501127,
+      0.9699540145126
+    ]
+  },
+  {
+    "station": "GRID100-progreso-007-0105",
+    "profile": "GRID100-progreso-007-0105",
+    "original": [
+      -89.50881780288763,
+      21.31443106823908
+    ],
+    "corrected": [
+      -89.50881780288763,
+      21.31443106823908
+    ],
+    "note": "El contacto visible de agua con la franja de arena contiene la posición previa dentro del intervalo.",
+    "axis": [
+      -0.25360268738465347,
+      0.9673084704225854
+    ]
+  },
+  {
+    "station": "GRID100-progreso-007-0106",
+    "profile": "GRID100-progreso-007-0106",
+    "original": [
+      -89.50789948123294,
+      21.31469205803914
+    ],
+    "corrected": [
+      -89.50788652791032,
+      21.31465394282729
+    ],
+    "note": "El punto directo queda al norte del borde curvo de una ensenada pequeña; se corrige sobre el mismo eje.",
+    "axis": [
+      -0.301834294113144,
+      0.9533604034661919
+    ]
+  },
+  {
+    "station": "GRID100-progreso-007-0107",
+    "profile": "GRID100-progreso-007-0107",
+    "original": [
+      -89.5069933923368,
+      21.314989940439187
+    ],
+    "corrected": [
+      -89.5069933923368,
+      21.314989940439187
+    ],
+    "note": "El contacto visible de agua con la franja de arena contiene la posición previa dentro del intervalo.",
+    "axis": [
+      -0.2502407471508408,
+      0.9681836439774166
+    ]
+  },
+  {
+    "station": "GRID100-progreso-007-0108",
+    "profile": "GRID100-progreso-007-0108",
+    "original": [
+      -89.50605244758631,
+      21.315148783535257
+    ],
+    "corrected": [
+      -89.50605244758631,
+      21.315148783535257
+    ],
+    "note": "El contacto visible de agua con la franja de arena contiene la posición previa dentro del intervalo.",
+    "axis": [
+      -0.1906277694629398,
+      0.9816623928365517
+    ]
+  },
+  {
+    "station": "GRID100-progreso-007-0109",
+    "profile": "GRID100-progreso-007-0109",
+    "original": [
+      -89.50511324505771,
+      21.315345259790323
+    ],
+    "corrected": [
+      -89.50511324505771,
+      21.315345259790323
+    ],
+    "note": "El contacto visible de agua con la franja de arena contiene la posición previa dentro del intervalo.",
+    "axis": [
+      -0.18802576073146113,
+      0.9821640969315439
+    ]
+  },
+  {
+    "station": "GRID100-progreso-007-0110",
+    "profile": "GRID100-progreso-007-0110",
+    "original": [
+      -89.50416008555976,
+      21.315472870846882
+    ],
+    "corrected": [
+      -89.50416008555976,
+      21.315472870846882
+    ],
+    "note": "El contacto visible de agua con la franja de arena contiene la posición previa dentro del intervalo.",
+    "axis": [
+      -0.19514228703530523,
+      0.9807749424871287
+    ]
+  },
+  {
+    "station": "GRID100-progreso-007-0111",
+    "profile": "SC-88-0-111",
+    "original": [
+      -89.50365861835012,
+      21.31553528330785
+    ],
+    "corrected": [
+      -89.5036505176905,
+      21.315496022377538
+    ],
+    "note": "Se toma la primera transición continua desde el agua verdosa hacia la franja húmeda.",
+    "axis": [
+      -0.18875905,
+      0.98202343
+    ]
+  },
+  {
+    "station": "GRID100-progreso-007-0112",
+    "profile": "SC-88-0-112",
+    "original": [
+      -89.50269742908607,
+      21.315651321405884
+    ],
+    "corrected": [
+      -89.50269742908607,
+      21.315651321405884
+    ],
+    "note": "El contacto visible de agua con la franja de arena contiene la posición previa dentro del intervalo.",
+    "axis": [
+      -0.1916248,
+      0.98146826
+    ]
+  },
+  {
+    "station": "GRID100-progreso-007-0113",
+    "profile": "SC-88-0-113",
+    "original": [
+      -89.50175026242458,
+      21.315814803027013
+    ],
+    "corrected": [
+      -89.50175026242458,
+      21.315814803027013
+    ],
+    "note": "El contacto visible de agua con la franja de arena contiene la posición previa dentro del intervalo.",
+    "axis": [
+      -0.16698208,
+      0.98595993
+    ]
+  },
+  {
+    "station": "GRID100-progreso-007-0114",
+    "profile": "SC-88-0-114",
+    "original": [
+      -89.50079949813289,
+      21.315930449557083
+    ],
+    "corrected": [
+      -89.50079949813289,
+      21.315930449557083
+    ],
+    "note": "El contacto visible de agua con la franja de arena contiene la posición previa dentro del intervalo.",
+    "axis": [
+      -0.12202627,
+      0.99252687
+    ]
+  },
+  {
+    "station": "GRID100-progreso-007-0115",
+    "profile": "SC-88-0-115",
+    "original": [
+      -89.49984274889124,
+      21.316079040441018
+    ],
+    "corrected": [
+      -89.49984274889124,
+      21.316079040441018
+    ],
+    "note": "El contacto visible de agua con la franja de arena contiene la posición previa dentro del intervalo.",
+    "axis": [
+      -0.1382542,
+      0.99039678
+    ]
+  },
+  {
+    "station": "GRID100-progreso-007-0116",
+    "profile": "SC-88-0-116",
+    "original": [
+      -89.49889169753878,
+      21.316204158653942
+    ],
+    "corrected": [
+      -89.49889169753878,
+      21.316204158653942
+    ],
+    "note": "El contacto visible de agua con la franja de arena contiene la posición previa dentro del intervalo.",
+    "axis": [
+      -0.08449473,
+      0.99642393
+    ]
+  },
+  {
+    "station": "GRID100-progreso-007-0117",
+    "profile": "SC-88-0-117",
+    "original": [
+      -89.49792785523721,
+      21.31629898581371
+    ],
+    "corrected": [
+      -89.49792785523721,
+      21.31629898581371
+    ],
+    "note": "El contacto visible de agua con la franja de arena contiene la posición previa dentro del intervalo.",
+    "axis": [
+      -0.11132165,
+      0.99378443
+    ]
+  },
+  {
+    "station": "GRID100-progreso-007-0118",
+    "profile": "SC-88-0-118",
+    "original": [
+      -89.49697145127891,
+      21.316441159963635
+    ],
+    "corrected": [
+      -89.49697145127891,
+      21.316441159963635
+    ],
+    "note": "El contacto visible de agua con la franja de arena contiene la posición previa dentro del intervalo.",
+    "axis": [
+      -0.12677742,
+      0.99193119
+    ]
+  },
+  {
+    "station": "GRID100-progreso-007-0119",
+    "profile": "SC-88-0-119",
+    "original": [
+      -89.49601790184697,
+      21.316592398198285
+    ],
+    "corrected": [
+      -89.49601128225808,
+      21.316512677664385
+    ],
+    "note": "El punto previo está al norte de una banda de arena continua pese a una franja estrecha verde grisácea de transición.",
+    "axis": [
+      -0.0771238,
+      0.99702152
+    ]
+  },
+  {
+    "station": "GRID100-progreso-007-0120",
+    "profile": "SC-88-0-120",
+    "original": [
+      -89.49505287886828,
+      21.316652431308107
+    ],
+    "corrected": [
+      -89.49505287886828,
+      21.316652431308107
+    ],
+    "note": "El contacto visible de agua con la franja de arena contiene la posición previa dentro del intervalo.",
+    "axis": [
+      -0.07374694,
+      0.99727699
+    ]
+  },
+  {
+    "station": "GRID100-progreso-007-0121",
+    "profile": "SC-88-0-121",
+    "original": [
+      -89.49408932816335,
+      21.316731181160385
+    ],
+    "corrected": [
+      -89.49408932816335,
+      21.316731181160385
+    ],
+    "note": "El contacto visible de agua con la franja de arena contiene la posición previa dentro del intervalo.",
+    "axis": [
+      -0.06806343,
+      0.997681
+    ]
+  },
+  {
+    "station": "GRID100-progreso-007-0122",
+    "profile": "SC-88-0-122",
+    "original": [
+      -89.49312965743954,
+      21.316827677894505
+    ],
+    "corrected": [
+      -89.49312965743954,
+      21.316827677894505
+    ],
+    "note": "El contacto visible de agua con la franja de arena contiene la posición previa dentro del intervalo.",
+    "axis": [
+      -0.10777581,
+      0.99417522
+    ]
+  },
+  {
+    "station": "GRID100-progreso-007-0123",
+    "profile": "SC-88-0-123",
+    "original": [
+      -89.4921702972856,
+      21.3169411556789
+    ],
+    "corrected": [
+      -89.4921702972856,
+      21.3169411556789
+    ],
+    "note": "El contacto visible de agua con la franja de arena contiene la posición previa dentro del intervalo.",
+    "axis": [
+      -0.10617588,
+      0.99434736
+    ]
+  },
+  {
+    "station": "GRID100-progreso-007-0124",
+    "profile": "SC-88-0-124",
+    "original": [
+      -89.49121875343103,
+      21.317108077798675
+    ],
+    "corrected": [
+      -89.4912135673649,
+      21.31706839158771
+    ],
+    "note": "El punto anterior queda en agua; corregido al contacto con arena continua.",
+    "axis": [
+      -0.1208441,
+      0.9926715
+    ]
+  },
+  {
+    "station": "GRID100-progreso-007-0125",
+    "profile": "SC-88-0-125",
+    "original": [
+      -89.49025476428315,
+      21.317214684719175
+    ],
+    "corrected": [
+      -89.49024905568146,
+      21.31715495222778
+    ],
+    "note": "El punto anterior queda en agua verde translúcida; corregido al borde de playa, sin intentar usar el límite de arena seca.",
+    "axis": [
+      -0.08868004,
+      0.99606016
+    ]
+  },
+  {
+    "station": "GRID100-progreso-007-0126",
+    "profile": "SC-88-0-126",
+    "original": [
+      -89.48931729153993,
+      21.31743714096774
+    ],
+    "corrected": [
+      -89.48930310503823,
+      21.317338070780885
+    ],
+    "note": "La lectura anterior cae en agua homogénea; el borde de la arena se cruza de 7 a 14 píxeles más al sur, sobre el mismo eje.",
+    "axis": [
+      -0.13222778,
+      0.99121936
+    ]
+  }
+]

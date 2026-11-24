@@ -1,0 +1,161 @@
+{
+  "scope": "Tramos de Progreso revisados en la edición municipal.",
+  "interpretation": "Croces leídos en las teselas de la imagen nativa z17, más metadatos del centro y a tres metros de cada lado.",
+  "sha256_inventario": "53c84977c2a2e5bc42b2752ca20fc4b0b52e94fd65de5f697906348bcf7950f5",
+  "verified": {
+    "SC-C180-0-0": {
+      "2011_reference": {
+        "date": "2011-08-01",
+        "coord": [
+          -89.79011526144305,
+          21.260940944819524
+        ],
+        "capture": 40,
+        "sensor": "WV02",
+        "resolution_m": 0.5,
+        "release": 11019,
+        "offset_m": 0.7,
+        "method": "manual-progreso-apparent-water-sand-2011-20261105"
+      },
+      "source_before_review": {
+        "date": "2014-09-18",
+        "coord": [
+          -89.79011937395686,
+          21.261057662847637
+        ],
+        "capture": 48,
+        "sensor": "GE01",
+        "resolution_m": 0.46,
+        "release": 18820,
+        "offset_m": 13.7,
+        "method": "manual-progreso-apparent-water-sand-2011-20261105"
+      },
+      "new_coord": [
+        -89.79011589413747,
+        21.260958901445253
+      ],
+      "coordinates_metadata_check": [
+        [
+          -89.79011494509584,
+          21.260931966505836
+        ],
+        [
+          -89.79011589413747,
+          21.260958901445253
+        ],
+        [
+          -89.79011684317913,
+          21.260985836379742
+        ]
+      ],
+      "equivalent_z17_tiles": true,
+      "tile_receipts": {
+        "18820": [
+          {
+            "tile": [
+              32844,
+              57611
+            ],
+            "url": "https://wayback.maptiles.arcgis.com/arcgis/rest/services/World_Imagery/WMTS/1.0.0/default028mm/MapServer/tile/18820/17/57611/32844",
+            "sha256": "bbce162982652de85a477638681f16550301534d2e259307e975643256eb0f43",
+            "source_file": ".runtime/revision-progreso-anual-20261116/teselas/18820-17-32844-57611.jpg"
+          }
+        ],
+        "10768": [
+          {
+            "tile": [
+              32844,
+              57611
+            ],
+            "url": "https://wayback.maptiles.arcgis.com/arcgis/rest/services/World_Imagery/WMTS/1.0.0/default028mm/MapServer/tile/10768/17/57611/32844",
+            "sha256": "bbce162982652de85a477638681f16550301534d2e259307e975643256eb0f43",
+            "source_file": ".runtime/revision-progreso-anual-20261116/revision-2012-2014/10768-17-32844-57611.jpg"
+          }
+        ]
+      },
+      "sheet": {
+        "name": "2014-resto-03.jpg",
+        "panel": 40,
+        "sha256": "8f646cfc06eaefba44c057cf2d991346a428f50a6086f76158625820aea9766b"
+      },
+      "aligned_evidence": "La lectura anterior estaba sobre agua verde. El nuevo cruce coincide con el borde de arena unido a la playa. Se distingue la estructura transversal al este."
+    },
+    "SC-C101-0-0": {
+      "2011_reference": {
+        "date": "2011-08-01",
+        "coord": [
+          -89.71625727422877,
+          21.277282842698813
+        ],
+        "capture": 40,
+        "sensor": "WV02",
+        "resolution_m": 0.5,
+        "release": 11019,
+        "offset_m": 8,
+        "method": "manual-progreso-apparent-water-sand-2011-20261105"
+      },
+      "source_before_review": {
+        "date": "2014-09-18",
+        "coord": [
+          -89.7162856211005,
+          21.27739659701335
+        ],
+        "capture": 48,
+        "sensor": "GE01",
+        "resolution_m": 0.46,
+        "release": 18820,
+        "offset_m": 21,
+        "method": "manual-progreso-apparent-water-sand-2011-20261105"
+      },
+      "new_coord": [
+        -89.71627253792893,
+        21.277344095032955
+      ],
+      "coordinates_metadata_check": [
+        [
+          -89.71626599634314,
+          21.277317844035732
+        ],
+        [
+          -89.71627253792893,
+          21.277344095032955
+        ],
+        [
+          -89.7162790795147,
+          21.277370346025496
+        ]
+      ],
+      "equivalent_z17_tiles": true,
+      "tile_receipts": {
+        "18820": [
+          {
+            "tile": [
+              32871,
+              57604
+            ],
+            "url": "https://wayback.maptiles.arcgis.com/arcgis/rest/services/World_Imagery/WMTS/1.0.0/default028mm/MapServer/tile/18820/17/57604/32871",
+            "sha256": "85d67d3d03b8d606e0f9df2dbc6784eb3c85f9ee77d629aa2920e2ccb8d40a41",
+            "source_file": ".runtime/revision-progreso-anual-20261116/teselas/18820-17-32871-57604.jpg"
+          }
+        ],
+        "10768": [
+          {
+            "tile": [
+              32871,
+              57604
+            ],
+            "url": "https://wayback.maptiles.arcgis.com/arcgis/rest/services/World_Imagery/WMTS/1.0.0/default028mm/MapServer/tile/10768/17/57604/32871",
+            "sha256": "85d67d3d03b8d606e0f9df2dbc6784eb3c85f9ee77d629aa2920e2ccb8d40a41",
+            "source_file": ".runtime/revision-progreso-anual-20261116/revision-2012-2014/10768-17-32871-57604.jpg"
+          }
+        ]
+      },
+      "sheet": {
+        "name": "2014-resto-06.jpg",
+        "panel": 80,
+        "sha256": "5fcc03621d969ed552c942d72126d8c85f7a6d1b0c1cd15a7e3688196c1c0170"
+      },
+      "aligned_evidence": "La lectura anterior queda en agua cerca del eje de una estructura. La franja húmeda conectada a tierra se sigue a ambos lados y cruza el perfil más hacia la playa."
+    }
+  }
+}

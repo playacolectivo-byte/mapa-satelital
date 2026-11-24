@@ -71,4 +71,5 @@ if((await stat(regional)).size>25*1024*1024){
 
 // Real static municipality entry points support refresh/deep links on Pages.
 const pages=JSON.parse(await readFile(new URL('../lib/generated/municipality-pages.json',import.meta.url),'utf8'));
-for(const page of pages){const dir=resolve(targetPublic,'municipio',page.slug);await mkdir(dir,{recursive:true});await copyFile(resolve(targetPublic,'index.html'),resolve(dir,'index.html'));}
+const reviewedSlugs=new Set(JSON.parse(await readFile(new URL('../lib/generated/reviewed-municipality-slugs.json',import.meta.url),'utf8')));
+for(const page of pages.filter(page=>reviewedSlugs.has(page.slug))){const dir=resolve(targetPublic,'municipio',page.slug);await mkdir(dir,{recursive:true});await copyFile(resolve(targetPublic,'index.html'),resolve(dir,'index.html'));}

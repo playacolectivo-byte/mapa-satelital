@@ -1,0 +1,4023 @@
+{
+  "version": 1,
+  "field_validated": false,
+  "review_id": "coastal-audit-progreso-comparacion-fotografica-20261116",
+  "timestamp": "2026-11-16T21:55:04.522Z",
+  "data_sha256": "250fa694f9c3829ac0d41598454e28988a6c681fc36c6330c0f950eb08aa76e5",
+  "model_sha256": "21ed574a9c464cab785197f95568e242da2358cae23b08a420afde98aa294513",
+  "method_url": "/data/shorelines/photo-alignment/coastal-audit-progreso-comparacion-fotografica-20261116-method.md",
+  "decisions": [
+    {
+      "profileId": "SC-488-0-0",
+      "capture": 177,
+      "oldOffset": 1.0999999999999996,
+      "oldAccepted": true,
+      "newOffset": -6.5,
+      "newAccepted": true,
+      "sourceRelease": 27946,
+      "date": "2012-12-15",
+      "positionVisualInterval": [
+        -9.5,
+        -3.5
+      ],
+      "uncertaintyM": 3,
+      "evidence": [
+        {
+          "path": "/data/shorelines/photo-alignment/coastal-audit-progreso-comparacion-fotografica-20261116/correcciones-2012.jpg",
+          "sha256": "a49425ab855726d4f07b3f98e868a134c2db55dbffde0ef92b22a4cba6efabd4"
+        }
+      ],
+      "metadata": {
+        "release": 27946,
+        "positionOffset": -6.5,
+        "url": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2017_r03/MapServer/6/query?f=json&where=MinMapLevel+%3C%3D+17+AND+MaxMapLevel+%3E%3D+17&geometryType=esriGeometryEnvelope&geometry=-89.74362453%2C21.27095411%2C-89.74349832%2C21.27112770&inSR=4326&outSR=4326&outFields=OBJECTID%2CSRC_DATE2%2CSRC_DESC%2CSAMP_RES%2CSRC_ACC%2CMinMapLevel%2CMaxMapLevel&returnGeometry=true",
+        "sha256": "05f23e3605b9a90ae718b23f8c9b67527f1d71760b3520392a9cc7a5aba58516",
+        "file": "huellas-27946-3188f058821.json",
+        "checks": [
+          {
+            "delta_m": -3,
+            "date": "2012-12-15",
+            "sensor": "WV02"
+          },
+          {
+            "delta_m": 0,
+            "date": "2012-12-15",
+            "sensor": "WV02"
+          },
+          {
+            "delta_m": 3,
+            "date": "2012-12-15",
+            "sensor": "WV02"
+          }
+        ]
+      },
+      "reason": "La franja verde oliva continúa por debajo del cruce previo. El perfil encuentra arena continua unos píxeles más hacia tierra."
+    },
+    {
+      "profileId": "SC-90-0-5",
+      "capture": 48,
+      "oldOffset": -1.5,
+      "oldAccepted": true,
+      "newOffset": -11,
+      "newAccepted": true,
+      "sourceRelease": 18820,
+      "date": "2014-09-18",
+      "positionVisualInterval": [
+        -14,
+        -7
+      ],
+      "uncertaintyM": 4,
+      "evidence": [
+        {
+          "path": "/data/shorelines/photo-alignment/coastal-audit-progreso-comparacion-fotografica-20261116/correcciones-2014.jpg",
+          "sha256": "b876c02813fdf0e41df32bea0071f3f793c4c32115ff73a7e5a4aaeb2a649682"
+        }
+      ],
+      "metadata": {
+        "release": 18820,
+        "positionOffset": -11,
+        "url": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2018_r14/MapServer/6/query?f=json&where=MinMapLevel+%3C%3D+17+AND+MaxMapLevel+%3E%3D+17&geometryType=esriGeometryEnvelope&geometry=-89.69522694%2C21.28170621%2C-89.69510450%2C21.28188006&inSR=4326&outSR=4326&outFields=OBJECTID%2CSRC_DATE2%2CSRC_DESC%2CSAMP_RES%2CSRC_ACC%2CMinMapLevel%2CMaxMapLevel&returnGeometry=true",
+        "sha256": "2c8efdc8d41ef43c834da47876c91603f33cae10ecde61755506de547330641a",
+        "file": "huellas-18820-5be54e599f9.json",
+        "checks": [
+          {
+            "delta_m": -3,
+            "date": "2014-09-18",
+            "sensor": "GE01"
+          },
+          {
+            "delta_m": 0,
+            "date": "2014-09-18",
+            "sensor": "GE01"
+          },
+          {
+            "delta_m": 3,
+            "date": "2014-09-18",
+            "sensor": "GE01"
+          }
+        ]
+      },
+      "equivalentMetadata": [
+        {
+          "release": 10768,
+          "positionOffset": -11,
+          "url": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2018_r01/MapServer/6/query?f=json&where=MinMapLevel+%3C%3D+17+AND+MaxMapLevel+%3E%3D+17&geometryType=esriGeometryEnvelope&geometry=-89.69522694%2C21.28170621%2C-89.69510450%2C21.28188006&inSR=4326&outSR=4326&outFields=OBJECTID%2CSRC_DATE2%2CSRC_DESC%2CSAMP_RES%2CSRC_ACC%2CMinMapLevel%2CMaxMapLevel&returnGeometry=true",
+          "sha256": "6f8f2db055652bf9c084cef013e2605938a6c52526d8bbf8174ffe7044094c30",
+          "file": "huellas-10768-3fff0d08260.json",
+          "checks": [
+            {
+              "delta_m": -3,
+              "date": "2014-09-18",
+              "sensor": "GE01"
+            },
+            {
+              "delta_m": 0,
+              "date": "2014-09-18",
+              "sensor": "GE01"
+            },
+            {
+              "delta_m": 3,
+              "date": "2014-09-18",
+              "sensor": "GE01"
+            }
+          ]
+        }
+      ],
+      "reason": "El cruce anterior cae en el verde del agua. La arena continua comienza al pie de la franja verde y se distingue a ambos lados del eje."
+    },
+    {
+      "profileId": "SC-89-0-27",
+      "capture": 203,
+      "oldOffset": 8,
+      "oldAccepted": true,
+      "newOffset": 1.5,
+      "newAccepted": true,
+      "sourceRelease": 18820,
+      "date": "2015-03-26",
+      "positionVisualInterval": [
+        -1.5,
+        4
+      ],
+      "uncertaintyM": 3,
+      "evidence": [
+        {
+          "path": "/data/shorelines/photo-alignment/coastal-audit-progreso-comparacion-fotografica-20261116/correcciones-2015.jpg",
+          "sha256": "bcd2329dced904f11976784d20b3e08c1100b5bf53fcf87fd3bc0c8cd2104ac3"
+        }
+      ],
+      "metadata": {
+        "release": 18820,
+        "positionOffset": 1.5,
+        "url": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2018_r14/MapServer/6/query?f=json&where=MinMapLevel+%3C%3D+17+AND+MaxMapLevel+%3E%3D+17&geometryType=esriGeometryEnvelope&geometry=-89.63854729%2C21.29044433%2C-89.63841802%2C21.29061753&inSR=4326&outSR=4326&outFields=OBJECTID%2CSRC_DATE2%2CSRC_DESC%2CSAMP_RES%2CSRC_ACC%2CMinMapLevel%2CMaxMapLevel&returnGeometry=true",
+        "sha256": "5be8a1f719e9c7a1c3e30e82f5fbf3d9d4ca2fb1f751ebfa1820523e90a13e75",
+        "file": "huellas-18820-c84d390b9a4.json",
+        "checks": [
+          {
+            "delta_m": -3,
+            "date": "2015-03-26",
+            "sensor": "WV02"
+          },
+          {
+            "delta_m": 0,
+            "date": "2015-03-26",
+            "sensor": "WV02"
+          },
+          {
+            "delta_m": 3,
+            "date": "2015-03-26",
+            "sensor": "WV02"
+          }
+        ]
+      },
+      "equivalentMetadata": [
+        {
+          "release": 10768,
+          "positionOffset": 1.5,
+          "url": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2018_r01/MapServer/6/query?f=json&where=MinMapLevel+%3C%3D+17+AND+MaxMapLevel+%3E%3D+17&geometryType=esriGeometryEnvelope&geometry=-89.63854729%2C21.29044433%2C-89.63841802%2C21.29061753&inSR=4326&outSR=4326&outFields=OBJECTID%2CSRC_DATE2%2CSRC_DESC%2CSAMP_RES%2CSRC_ACC%2CMinMapLevel%2CMaxMapLevel&returnGeometry=true",
+          "sha256": "1b70dd4fc72d5b05ccb6a4ff0759ba41d4030a1ceeab7baf2cefd25d1b1aea83",
+          "file": "huellas-10768-c91d6bc38d1.json",
+          "checks": [
+            {
+              "delta_m": -3,
+              "date": "2015-03-26",
+              "sensor": "WV02"
+            },
+            {
+              "delta_m": 0,
+              "date": "2015-03-26",
+              "sensor": "WV02"
+            },
+            {
+              "delta_m": 3,
+              "date": "2015-03-26",
+              "sensor": "WV02"
+            }
+          ]
+        }
+      ],
+      "reason": "La línea anterior queda en el agua oscura. La orilla es el borde continuo de la franja clara, antes de las casas."
+    },
+    {
+      "profileId": "SC-88-0-16",
+      "capture": 203,
+      "oldOffset": -2,
+      "oldAccepted": true,
+      "newOffset": -9.5,
+      "newAccepted": true,
+      "sourceRelease": 18820,
+      "date": "2015-03-26",
+      "positionVisualInterval": [
+        -13.5,
+        -7
+      ],
+      "uncertaintyM": 4,
+      "evidence": [
+        {
+          "path": "/data/shorelines/photo-alignment/coastal-audit-progreso-comparacion-fotografica-20261116/correcciones-2015.jpg",
+          "sha256": "bcd2329dced904f11976784d20b3e08c1100b5bf53fcf87fd3bc0c8cd2104ac3"
+        }
+      ],
+      "metadata": {
+        "release": 18820,
+        "positionOffset": -9.5,
+        "url": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2018_r14/MapServer/6/query?f=json&where=MinMapLevel+%3C%3D+17+AND+MaxMapLevel+%3E%3D+17&geometryType=esriGeometryEnvelope&geometry=-89.59176938%2C21.29828930%2C-89.59163616%2C21.29846178&inSR=4326&outSR=4326&outFields=OBJECTID%2CSRC_DATE2%2CSRC_DESC%2CSAMP_RES%2CSRC_ACC%2CMinMapLevel%2CMaxMapLevel&returnGeometry=true",
+        "sha256": "5be8a1f719e9c7a1c3e30e82f5fbf3d9d4ca2fb1f751ebfa1820523e90a13e75",
+        "file": "huellas-18820-52fb04f00a8.json",
+        "checks": [
+          {
+            "delta_m": -3,
+            "date": "2015-03-26",
+            "sensor": "WV02"
+          },
+          {
+            "delta_m": 0,
+            "date": "2015-03-26",
+            "sensor": "WV02"
+          },
+          {
+            "delta_m": 3,
+            "date": "2015-03-26",
+            "sensor": "WV02"
+          }
+        ]
+      },
+      "equivalentMetadata": [
+        {
+          "release": 10768,
+          "positionOffset": -9.5,
+          "url": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2018_r01/MapServer/6/query?f=json&where=MinMapLevel+%3C%3D+17+AND+MaxMapLevel+%3E%3D+17&geometryType=esriGeometryEnvelope&geometry=-89.59176938%2C21.29828930%2C-89.59163616%2C21.29846178&inSR=4326&outSR=4326&outFields=OBJECTID%2CSRC_DATE2%2CSRC_DESC%2CSAMP_RES%2CSRC_ACC%2CMinMapLevel%2CMaxMapLevel&returnGeometry=true",
+          "sha256": "1b70dd4fc72d5b05ccb6a4ff0759ba41d4030a1ceeab7baf2cefd25d1b1aea83",
+          "file": "huellas-10768-f31e77aace6.json",
+          "checks": [
+            {
+              "delta_m": -3,
+              "date": "2015-03-26",
+              "sensor": "WV02"
+            },
+            {
+              "delta_m": 0,
+              "date": "2015-03-26",
+              "sensor": "WV02"
+            },
+            {
+              "delta_m": 3,
+              "date": "2015-03-26",
+              "sensor": "WV02"
+            }
+          ]
+        }
+      ],
+      "reason": "La franja oscura superior sigue conectada con el agua. El punto nuevo cae en el borde claro continuo, antes de las construcciones."
+    },
+    {
+      "profileId": "SC-C412-0-0",
+      "capture": 52,
+      "oldOffset": -5,
+      "oldAccepted": true,
+      "newOffset": -11.5,
+      "newAccepted": true,
+      "sourceRelease": 20753,
+      "date": "2019-11-22",
+      "positionVisualInterval": [
+        -14.5,
+        -8
+      ],
+      "uncertaintyM": 3.5,
+      "evidence": [
+        {
+          "path": "/data/shorelines/photo-alignment/coastal-audit-progreso-comparacion-fotografica-20261116/correcciones-2019.jpg",
+          "sha256": "a606c8793c4795878c8c5c428a5cbf6738589c246cd7f039a4763bb921216285"
+        }
+      ],
+      "metadata": {
+        "release": 20753,
+        "positionOffset": -11.5,
+        "url": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2020_r15/MapServer/6/query?f=json&where=MinMapLevel+%3C%3D+17+AND+MaxMapLevel+%3E%3D+17&geometryType=esriGeometryEnvelope&geometry=-89.76321155%2C21.26704071%2C-89.76306546%2C21.26720881&inSR=4326&outSR=4326&outFields=OBJECTID%2CSRC_DATE2%2CSRC_DESC%2CSAMP_RES%2CSRC_ACC%2CMinMapLevel%2CMaxMapLevel&returnGeometry=true",
+        "sha256": "67e6bedf7e2cddff04e55ba4194d5b200d4772661bc174d385f7e414bf1d0f21",
+        "file": "huellas-20753-07186c0223b.json",
+        "checks": [
+          {
+            "delta_m": -3,
+            "date": "2019-11-22",
+            "sensor": "WV02"
+          },
+          {
+            "delta_m": 0,
+            "date": "2019-11-22",
+            "sensor": "WV02"
+          },
+          {
+            "delta_m": 3,
+            "date": "2019-11-22",
+            "sensor": "WV02"
+          }
+        ]
+      },
+      "reason": "El contacto con arena es oblicuo y queda por debajo de la marca previa. La lectura sigue el borde de playa a ambos lados del perfil."
+    },
+    {
+      "profileId": "SC-C496-0-1",
+      "capture": 226,
+      "oldOffset": -4.1,
+      "oldAccepted": true,
+      "newOffset": -11,
+      "newAccepted": true,
+      "sourceRelease": 17825,
+      "date": "2020-12-20",
+      "positionVisualInterval": [
+        -13.5,
+        -8
+      ],
+      "uncertaintyM": 3,
+      "evidence": [
+        {
+          "path": "/data/shorelines/photo-alignment/coastal-audit-progreso-comparacion-fotografica-20261116/correcciones-2020.jpg",
+          "sha256": "282d72e13acfd5a827ede5493d5bdba29341a184dfa861838837017c7be81fb4"
+        }
+      ],
+      "metadata": {
+        "release": 17825,
+        "positionOffset": -11,
+        "url": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2022_r10/MapServer/6/query?f=json&where=MinMapLevel+%3C%3D+17+AND+MaxMapLevel+%3E%3D+17&geometryType=esriGeometryEnvelope&geometry=-89.75917232%2C21.26798041%2C-89.74145826%2C21.27174583&inSR=4326&outSR=4326&outFields=OBJECTID%2CSRC_DATE2%2CSRC_DESC%2CSAMP_RES%2CSRC_ACC%2CMinMapLevel%2CMaxMapLevel&returnGeometry=true",
+        "sha256": "901317feb708d39cf235f7ce0af57b94e841f178c7d9179cc8ba796f9a60fff4",
+        "file": "huellas-17825-90d71de0e8c.json",
+        "checks": [
+          {
+            "delta_m": -3,
+            "date": "2020-12-20",
+            "sensor": "GE01"
+          },
+          {
+            "delta_m": 0,
+            "date": "2020-12-20",
+            "sensor": "GE01"
+          },
+          {
+            "delta_m": 3,
+            "date": "2020-12-20",
+            "sensor": "GE01"
+          }
+        ]
+      },
+      "reason": "El verde turquesa de la toma continúa entre el extremo anterior y la primera franja continua de playa."
+    },
+    {
+      "profileId": "SC-421-0-0",
+      "capture": 13,
+      "oldOffset": 1.6,
+      "oldAccepted": true,
+      "newOffset": -5,
+      "newAccepted": true,
+      "sourceRelease": 17825,
+      "date": "2020-12-30",
+      "positionVisualInterval": [
+        -8,
+        -2
+      ],
+      "uncertaintyM": 3,
+      "evidence": [
+        {
+          "path": "/data/shorelines/photo-alignment/coastal-audit-progreso-comparacion-fotografica-20261116/correcciones-2020.jpg",
+          "sha256": "282d72e13acfd5a827ede5493d5bdba29341a184dfa861838837017c7be81fb4"
+        }
+      ],
+      "metadata": {
+        "release": 17825,
+        "positionOffset": -5,
+        "url": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2022_r10/MapServer/6/query?f=json&where=MinMapLevel+%3C%3D+17+AND+MaxMapLevel+%3E%3D+17&geometryType=esriGeometryEnvelope&geometry=-89.75917232%2C21.26798041%2C-89.74145826%2C21.27174583&inSR=4326&outSR=4326&outFields=OBJECTID%2CSRC_DATE2%2CSRC_DESC%2CSAMP_RES%2CSRC_ACC%2CMinMapLevel%2CMaxMapLevel&returnGeometry=true",
+        "sha256": "901317feb708d39cf235f7ce0af57b94e841f178c7d9179cc8ba796f9a60fff4",
+        "file": "huellas-17825-90d71de0e8c.json",
+        "checks": [
+          {
+            "delta_m": -3,
+            "date": "2020-12-30",
+            "sensor": "WV02"
+          },
+          {
+            "delta_m": 0,
+            "date": "2020-12-30",
+            "sensor": "WV02"
+          },
+          {
+            "delta_m": 3,
+            "date": "2020-12-30",
+            "sensor": "WV02"
+          }
+        ]
+      },
+      "equivalentMetadata": [
+        {
+          "release": 10321,
+          "positionOffset": -5,
+          "url": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2022_r03/MapServer/6/query?f=json&where=MinMapLevel+%3C%3D+17+AND+MaxMapLevel+%3E%3D+17&geometryType=esriGeometryEnvelope&geometry=-89.75917232%2C21.26798041%2C-89.75904485%2C21.26815385&inSR=4326&outSR=4326&outFields=OBJECTID%2CSRC_DATE2%2CSRC_DESC%2CSAMP_RES%2CSRC_ACC%2CMinMapLevel%2CMaxMapLevel&returnGeometry=true",
+          "sha256": "ac23fa73ed9e02d43e66f0ec130eae04cb55e6f4bc4fde468f2539b7d59c3197",
+          "file": "huellas-10321-7af6d284fe7.json",
+          "checks": [
+            {
+              "delta_m": -3,
+              "date": "2020-12-30",
+              "sensor": "WV02"
+            },
+            {
+              "delta_m": 0,
+              "date": "2020-12-30",
+              "sensor": "WV02"
+            },
+            {
+              "delta_m": 3,
+              "date": "2020-12-30",
+              "sensor": "WV02"
+            }
+          ]
+        },
+        {
+          "release": 16749,
+          "positionOffset": -5,
+          "url": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2021_r14/MapServer/6/query?f=json&where=MinMapLevel+%3C%3D+17+AND+MaxMapLevel+%3E%3D+17&geometryType=esriGeometryEnvelope&geometry=-89.75917232%2C21.26798041%2C-89.75904485%2C21.26815385&inSR=4326&outSR=4326&outFields=OBJECTID%2CSRC_DATE2%2CSRC_DESC%2CSAMP_RES%2CSRC_ACC%2CMinMapLevel%2CMaxMapLevel&returnGeometry=true",
+          "sha256": "de63e27a030b6bcd679e03ba6e6a08c485903605fcd6514a63d6ecbccea7635c",
+          "file": "huellas-16749-70b05268f7e.json",
+          "checks": [
+            {
+              "delta_m": -3,
+              "date": "2020-12-30",
+              "sensor": "WV02"
+            },
+            {
+              "delta_m": 0,
+              "date": "2020-12-30",
+              "sensor": "WV02"
+            },
+            {
+              "delta_m": 3,
+              "date": "2020-12-30",
+              "sensor": "WV02"
+            }
+          ]
+        }
+      ],
+      "reason": "El fondo claro bajo el agua conserva continuidad con el verde. La arena continua comienza más hacia tierra, entre múltiples estructuras."
+    },
+    {
+      "profileId": "SC-88-0-84",
+      "capture": 201,
+      "oldOffset": -18,
+      "oldAccepted": true,
+      "newOffset": -23.5,
+      "newAccepted": true,
+      "sourceRelease": 64776,
+      "date": "2022-03-31",
+      "positionVisualInterval": [
+        -26.5,
+        -21
+      ],
+      "uncertaintyM": 3,
+      "evidence": [
+        {
+          "path": "/data/shorelines/photo-alignment/coastal-audit-progreso-comparacion-fotografica-20261116/correcciones-2022.jpg",
+          "sha256": "2b267275a8107e1104b14b3087f3ad162dfacea2be3bd59bcd7b23096809dc71"
+        }
+      ],
+      "metadata": {
+        "release": 64776,
+        "positionOffset": -23.5,
+        "url": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2023_r08/MapServer/6/query?f=json&where=MinMapLevel+%3C%3D+17+AND+MaxMapLevel+%3E%3D+17&geometryType=esriGeometryEnvelope&geometry=-89.53879816%2C21.30969273%2C-89.52917380%2C21.31134323&inSR=4326&outSR=4326&outFields=OBJECTID%2CSRC_DATE2%2CSRC_DESC%2CSAMP_RES%2CSRC_ACC%2CMinMapLevel%2CMaxMapLevel&returnGeometry=true",
+        "sha256": "def7e321012f29535144e6bf15eeaf31b228f0d48e9b22c960c48b47dff07513",
+        "file": "huellas-64776-1e74a56f43d.json",
+        "checks": [
+          {
+            "delta_m": -3,
+            "date": "2022-03-31",
+            "sensor": "WV02"
+          },
+          {
+            "delta_m": 0,
+            "date": "2022-03-31",
+            "sensor": "WV02"
+          },
+          {
+            "delta_m": 3,
+            "date": "2022-03-31",
+            "sensor": "WV02"
+          }
+        ]
+      },
+      "equivalentMetadata": [
+        {
+          "release": 25982,
+          "positionOffset": -23.5,
+          "url": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2023_r05/MapServer/6/query?f=json&where=MinMapLevel+%3C%3D+17+AND+MaxMapLevel+%3E%3D+17&geometryType=esriGeometryEnvelope&geometry=-89.53879816%2C21.30969273%2C-89.52917380%2C21.31134323&inSR=4326&outSR=4326&outFields=OBJECTID%2CSRC_DATE2%2CSRC_DESC%2CSAMP_RES%2CSRC_ACC%2CMinMapLevel%2CMaxMapLevel&returnGeometry=true",
+          "sha256": "a5995d8ea192108c994927ecd2d90c6e371da1684a5639863be41784372d425b",
+          "file": "huellas-25982-dd2969f3e53.json",
+          "checks": [
+            {
+              "delta_m": -3,
+              "date": "2022-03-31",
+              "sensor": "WV02"
+            },
+            {
+              "delta_m": 0,
+              "date": "2022-03-31",
+              "sensor": "WV02"
+            },
+            {
+              "delta_m": 3,
+              "date": "2022-03-31",
+              "sensor": "WV02"
+            }
+          ]
+        },
+        {
+          "release": 45441,
+          "positionOffset": -23.5,
+          "url": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2022_r11/MapServer/6/query?f=json&where=MinMapLevel+%3C%3D+17+AND+MaxMapLevel+%3E%3D+17&geometryType=esriGeometryEnvelope&geometry=-89.53879816%2C21.30969273%2C-89.52917380%2C21.31134323&inSR=4326&outSR=4326&outFields=OBJECTID%2CSRC_DATE2%2CSRC_DESC%2CSAMP_RES%2CSRC_ACC%2CMinMapLevel%2CMaxMapLevel&returnGeometry=true",
+          "sha256": "8b4dee17b470229494156c589032944e049f0e82a715ebfe01e04296ffcbb5de",
+          "file": "huellas-45441-3ad5c485003.json",
+          "checks": [
+            {
+              "delta_m": -3,
+              "date": "2022-03-31",
+              "sensor": "WV02"
+            },
+            {
+              "delta_m": 0,
+              "date": "2022-03-31",
+              "sensor": "WV02"
+            },
+            {
+              "delta_m": 3,
+              "date": "2022-03-31",
+              "sensor": "WV02"
+            }
+          ]
+        }
+      ],
+      "reason": "El borde continuo de arena se distingue de la franja verde clara hacia el mar, justo por debajo del punto previo."
+    },
+    {
+      "profileId": "SC-88-0-74",
+      "capture": 201,
+      "oldOffset": 0,
+      "oldAccepted": true,
+      "newOffset": -5.5,
+      "newAccepted": true,
+      "sourceRelease": 64776,
+      "date": "2022-03-31",
+      "positionVisualInterval": [
+        -8.5,
+        -3
+      ],
+      "uncertaintyM": 3,
+      "evidence": [
+        {
+          "path": "/data/shorelines/photo-alignment/coastal-audit-progreso-comparacion-fotografica-20261116/correcciones-2022.jpg",
+          "sha256": "2b267275a8107e1104b14b3087f3ad162dfacea2be3bd59bcd7b23096809dc71"
+        }
+      ],
+      "metadata": {
+        "release": 64776,
+        "positionOffset": -5.5,
+        "url": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2023_r08/MapServer/6/query?f=json&where=MinMapLevel+%3C%3D+17+AND+MaxMapLevel+%3E%3D+17&geometryType=esriGeometryEnvelope&geometry=-89.53879816%2C21.30969273%2C-89.52917380%2C21.31134323&inSR=4326&outSR=4326&outFields=OBJECTID%2CSRC_DATE2%2CSRC_DESC%2CSAMP_RES%2CSRC_ACC%2CMinMapLevel%2CMaxMapLevel&returnGeometry=true",
+        "sha256": "def7e321012f29535144e6bf15eeaf31b228f0d48e9b22c960c48b47dff07513",
+        "file": "huellas-64776-1e74a56f43d.json",
+        "checks": [
+          {
+            "delta_m": -3,
+            "date": "2022-03-31",
+            "sensor": "WV02"
+          },
+          {
+            "delta_m": 0,
+            "date": "2022-03-31",
+            "sensor": "WV02"
+          },
+          {
+            "delta_m": 3,
+            "date": "2022-03-31",
+            "sensor": "WV02"
+          }
+        ]
+      },
+      "equivalentMetadata": [
+        {
+          "release": 25982,
+          "positionOffset": -5.5,
+          "url": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2023_r05/MapServer/6/query?f=json&where=MinMapLevel+%3C%3D+17+AND+MaxMapLevel+%3E%3D+17&geometryType=esriGeometryEnvelope&geometry=-89.53879816%2C21.30969273%2C-89.52917380%2C21.31134323&inSR=4326&outSR=4326&outFields=OBJECTID%2CSRC_DATE2%2CSRC_DESC%2CSAMP_RES%2CSRC_ACC%2CMinMapLevel%2CMaxMapLevel&returnGeometry=true",
+          "sha256": "a5995d8ea192108c994927ecd2d90c6e371da1684a5639863be41784372d425b",
+          "file": "huellas-25982-dd2969f3e53.json",
+          "checks": [
+            {
+              "delta_m": -3,
+              "date": "2022-03-31",
+              "sensor": "WV02"
+            },
+            {
+              "delta_m": 0,
+              "date": "2022-03-31",
+              "sensor": "WV02"
+            },
+            {
+              "delta_m": 3,
+              "date": "2022-03-31",
+              "sensor": "WV02"
+            }
+          ]
+        },
+        {
+          "release": 45441,
+          "positionOffset": -5.5,
+          "url": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2022_r11/MapServer/6/query?f=json&where=MinMapLevel+%3C%3D+17+AND+MaxMapLevel+%3E%3D+17&geometryType=esriGeometryEnvelope&geometry=-89.53879816%2C21.30969273%2C-89.52917380%2C21.31134323&inSR=4326&outSR=4326&outFields=OBJECTID%2CSRC_DATE2%2CSRC_DESC%2CSAMP_RES%2CSRC_ACC%2CMinMapLevel%2CMaxMapLevel&returnGeometry=true",
+          "sha256": "8b4dee17b470229494156c589032944e049f0e82a715ebfe01e04296ffcbb5de",
+          "file": "huellas-45441-3ad5c485003.json",
+          "checks": [
+            {
+              "delta_m": -3,
+              "date": "2022-03-31",
+              "sensor": "WV02"
+            },
+            {
+              "delta_m": 0,
+              "date": "2022-03-31",
+              "sensor": "WV02"
+            },
+            {
+              "delta_m": 3,
+              "date": "2022-03-31",
+              "sensor": "WV02"
+            }
+          ]
+        }
+      ],
+      "reason": "La lectura sigue el contacto de la playa clara con la franja verde del agua, visible de forma continua alrededor del perfil."
+    },
+    {
+      "profileId": "SC-426-0-1",
+      "capture": 221,
+      "oldOffset": 10,
+      "oldAccepted": true,
+      "newOffset": 0.5,
+      "newAccepted": true,
+      "sourceRelease": 25285,
+      "date": "2023-09-21",
+      "positionVisualInterval": [
+        -4,
+        4.5
+      ],
+      "uncertaintyM": 4.5,
+      "evidence": [
+        {
+          "path": "/data/shorelines/photo-alignment/coastal-audit-progreso-comparacion-fotografica-20261116/correcciones-2023.jpg",
+          "sha256": "2e3d55c9b1f2eee23e4e4b932258c9d2439d3f89d259cce22d3b379e6ab133cd"
+        }
+      ],
+      "metadata": {
+        "release": 25285,
+        "positionOffset": 0.5,
+        "url": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2025_r05/MapServer/6/query?f=json&where=MinMapLevel+%3C%3D+17+AND+MaxMapLevel+%3E%3D+17&geometryType=esriGeometryEnvelope&geometry=-89.75761491%2C21.26816612%2C-89.75748975%2C21.26833981&inSR=4326&outSR=4326&outFields=OBJECTID%2CSRC_DATE2%2CSRC_DESC%2CSAMP_RES%2CSRC_ACC%2CMinMapLevel%2CMaxMapLevel&returnGeometry=true",
+        "sha256": "a346212826186b88b941f1259ba5019098f6e520f722cabaea032f4ae0cc6d88",
+        "file": "huellas-25285-33122c55dbe.json",
+        "checks": [
+          {
+            "delta_m": -3,
+            "date": "2023-09-21",
+            "sensor": "WV02"
+          },
+          {
+            "delta_m": 0,
+            "date": "2023-09-21",
+            "sensor": "WV02"
+          },
+          {
+            "delta_m": 3,
+            "date": "2023-09-21",
+            "sensor": "WV02"
+          }
+        ]
+      },
+      "equivalentMetadata": [
+        {
+          "release": 32553,
+          "positionOffset": 0.5,
+          "url": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2024_r08/MapServer/6/query?f=json&where=MinMapLevel+%3C%3D+17+AND+MaxMapLevel+%3E%3D+17&geometryType=esriGeometryEnvelope&geometry=-89.75761491%2C21.26816612%2C-89.75748975%2C21.26833981&inSR=4326&outSR=4326&outFields=OBJECTID%2CSRC_DATE2%2CSRC_DESC%2CSAMP_RES%2CSRC_ACC%2CMinMapLevel%2CMaxMapLevel&returnGeometry=true",
+          "sha256": "aa94bec84920cbfffc6d445a9feb9500085b4693c8b92ec231d0cb1582600736",
+          "file": "huellas-32553-523af23b9cc.json",
+          "checks": [
+            {
+              "delta_m": -3,
+              "date": "2023-09-21",
+              "sensor": "WV02"
+            },
+            {
+              "delta_m": 0,
+              "date": "2023-09-21",
+              "sensor": "WV02"
+            },
+            {
+              "delta_m": 3,
+              "date": "2023-09-21",
+              "sensor": "WV02"
+            }
+          ]
+        }
+      ],
+      "reason": "La transición a arena continua queda por debajo del cruce previo y antes de las sombras de estructuras y construcciones."
+    },
+    {
+      "profileId": "SC-C378-0-1",
+      "capture": 49,
+      "oldOffset": 5,
+      "oldAccepted": true,
+      "newOffset": -3.5,
+      "newAccepted": true,
+      "sourceRelease": 26334,
+      "date": "2025-03-23",
+      "positionVisualInterval": [
+        -7.5,
+        0
+      ],
+      "uncertaintyM": 4,
+      "evidence": [
+        {
+          "path": "/data/shorelines/photo-alignment/coastal-audit-progreso-comparacion-fotografica-20261116/correcciones-2025.jpg",
+          "sha256": "7728eebc4129c1cfd9c52fd1e68e314323327ed7f66bc45656f0ef0af0c07217"
+        }
+      ],
+      "metadata": {
+        "release": 26334,
+        "positionOffset": -3.5,
+        "url": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2026_r07/MapServer/6/query?f=json&where=MinMapLevel+%3C%3D+17+AND+MaxMapLevel+%3E%3D+17&geometryType=esriGeometryEnvelope&geometry=-89.76616514%2C21.26659000%2C-89.76602288%2C21.26675974&inSR=4326&outSR=4326&outFields=OBJECTID%2CSRC_DATE2%2CSRC_DESC%2CSAMP_RES%2CSRC_ACC%2CMinMapLevel%2CMaxMapLevel&returnGeometry=true",
+        "sha256": "bf2bc8423014cce3778ee27ef4f05a0ff4e481b435241f991b73bd1c21edb967",
+        "file": "huellas-26334-fb0cc7f1998.json",
+        "checks": [
+          {
+            "delta_m": -3,
+            "date": "2025-03-23",
+            "sensor": "WV03"
+          },
+          {
+            "delta_m": 0,
+            "date": "2025-03-23",
+            "sensor": "WV03"
+          },
+          {
+            "delta_m": 3,
+            "date": "2025-03-23",
+            "sensor": "WV03"
+          }
+        ]
+      },
+      "reason": "El agua somera cubre el extremo anterior. El perfil toca la arena continua en el borde diagonal, sin seguir los espolones a ambos lados."
+    },
+    {
+      "profileId": "SC-398-0-0",
+      "capture": 10,
+      "oldOffset": 7,
+      "oldAccepted": true,
+      "newOffset": 6,
+      "newAccepted": true,
+      "sourceRelease": 22252,
+      "date": "2025-02-13",
+      "positionVisualInterval": [
+        3,
+        9
+      ],
+      "uncertaintyM": 3,
+      "evidence": [
+        {
+          "path": "/data/shorelines/photo-alignment/coastal-audit-progreso-comparacion-fotografica-20261116/pares-2025-22252-01.jpg",
+          "sha256": "0a59b3cb260db230ce6900293e7a8545f3521a45081783b38b1f8b80721d94cf"
+        }
+      ],
+      "metadata": {
+        "release": 22252,
+        "positionOffset": 6,
+        "url": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2026_r01/MapServer/6/query?f=json&where=MinMapLevel+%3C%3D+17+AND+MaxMapLevel+%3E%3D+17&geometryType=esriGeometryEnvelope&geometry=-89.76503340%2C21.26688939%2C-89.76101945%2C21.26780627&inSR=4326&outSR=4326&outFields=OBJECTID%2CSRC_DATE2%2CSRC_DESC%2CSAMP_RES%2CSRC_ACC%2CMinMapLevel%2CMaxMapLevel&returnGeometry=true",
+        "sha256": "c3184333daea847dec63171678fd9dd844ba095c9ca30e659ea680347481f184",
+        "file": "huellas-22252-f22a2c5b40c.json",
+        "checks": [
+          {
+            "delta_m": -3,
+            "date": "2025-02-13",
+            "sensor": "WV03"
+          },
+          {
+            "delta_m": 0,
+            "date": "2025-02-13",
+            "sensor": "WV03"
+          },
+          {
+            "delta_m": 3,
+            "date": "2025-02-13",
+            "sensor": "WV03"
+          }
+        ]
+      },
+      "equivalentMetadata": [
+        {
+          "release": 26334,
+          "positionOffset": 6,
+          "url": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2026_r07/MapServer/6/query?f=json&where=MinMapLevel+%3C%3D+17+AND+MaxMapLevel+%3E%3D+17&geometryType=esriGeometryEnvelope&geometry=-89.76503340%2C21.26688939%2C-89.76101945%2C21.26780627&inSR=4326&outSR=4326&outFields=OBJECTID%2CSRC_DATE2%2CSRC_DESC%2CSAMP_RES%2CSRC_ACC%2CMinMapLevel%2CMaxMapLevel&returnGeometry=true",
+          "sha256": "e910ac003ef46f03bc4cc7610ec72988724f3302867b1a3890e93e5bf3f3c15f",
+          "file": "huellas-26334-fd7c7759807.json",
+          "checks": [
+            {
+              "delta_m": -3,
+              "date": "2025-02-13",
+              "sensor": "WV03"
+            },
+            {
+              "delta_m": 0,
+              "date": "2025-02-13",
+              "sensor": "WV03"
+            },
+            {
+              "delta_m": 3,
+              "date": "2025-02-13",
+              "sensor": "WV03"
+            }
+          ]
+        },
+        {
+          "release": 52304,
+          "positionOffset": 6,
+          "url": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2025_r08/MapServer/6/query?f=json&where=MinMapLevel+%3C%3D+17+AND+MaxMapLevel+%3E%3D+17&geometryType=esriGeometryEnvelope&geometry=-89.76503340%2C21.26688939%2C-89.76101945%2C21.26780627&inSR=4326&outSR=4326&outFields=OBJECTID%2CSRC_DATE2%2CSRC_DESC%2CSAMP_RES%2CSRC_ACC%2CMinMapLevel%2CMaxMapLevel&returnGeometry=true",
+          "sha256": "d67f60bc1372c41f6ee7e1016b10062c13c3aea5f0bc715669ee7180c9f1f874",
+          "file": "huellas-52304-cd82ccab38f.json",
+          "checks": [
+            {
+              "delta_m": -3,
+              "date": "2025-02-13",
+              "sensor": "WV03"
+            },
+            {
+              "delta_m": 0,
+              "date": "2025-02-13",
+              "sensor": "WV03"
+            },
+            {
+              "delta_m": 3,
+              "date": "2025-02-13",
+              "sensor": "WV03"
+            }
+          ]
+        }
+      ],
+      "reason": "En ambas fotos hay una transición de arena a agua que cruza el eje. Se excluyen las estructuras perpendiculares a los lados."
+    },
+    {
+      "profileId": "SC-410-0-0",
+      "capture": 10,
+      "oldOffset": 2,
+      "oldAccepted": true,
+      "newOffset": 2,
+      "newAccepted": true,
+      "sourceRelease": 22252,
+      "date": "2025-02-13",
+      "positionVisualInterval": [
+        -2,
+        5
+      ],
+      "uncertaintyM": 4,
+      "evidence": [
+        {
+          "path": "/data/shorelines/photo-alignment/coastal-audit-progreso-comparacion-fotografica-20261116/pares-2025-22252-01.jpg",
+          "sha256": "0a59b3cb260db230ce6900293e7a8545f3521a45081783b38b1f8b80721d94cf"
+        }
+      ],
+      "metadata": {
+        "release": 22252,
+        "positionOffset": 2,
+        "url": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2026_r01/MapServer/6/query?f=json&where=MinMapLevel+%3C%3D+17+AND+MaxMapLevel+%3E%3D+17&geometryType=esriGeometryEnvelope&geometry=-89.76503340%2C21.26688939%2C-89.76101945%2C21.26780627&inSR=4326&outSR=4326&outFields=OBJECTID%2CSRC_DATE2%2CSRC_DESC%2CSAMP_RES%2CSRC_ACC%2CMinMapLevel%2CMaxMapLevel&returnGeometry=true",
+        "sha256": "c3184333daea847dec63171678fd9dd844ba095c9ca30e659ea680347481f184",
+        "file": "huellas-22252-f22a2c5b40c.json",
+        "checks": [
+          {
+            "delta_m": -3,
+            "date": "2025-02-13",
+            "sensor": "WV03"
+          },
+          {
+            "delta_m": 0,
+            "date": "2025-02-13",
+            "sensor": "WV03"
+          },
+          {
+            "delta_m": 3,
+            "date": "2025-02-13",
+            "sensor": "WV03"
+          }
+        ]
+      },
+      "equivalentMetadata": [
+        {
+          "release": 26334,
+          "positionOffset": 2,
+          "url": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2026_r07/MapServer/6/query?f=json&where=MinMapLevel+%3C%3D+17+AND+MaxMapLevel+%3E%3D+17&geometryType=esriGeometryEnvelope&geometry=-89.76503340%2C21.26688939%2C-89.76101945%2C21.26780627&inSR=4326&outSR=4326&outFields=OBJECTID%2CSRC_DATE2%2CSRC_DESC%2CSAMP_RES%2CSRC_ACC%2CMinMapLevel%2CMaxMapLevel&returnGeometry=true",
+          "sha256": "e910ac003ef46f03bc4cc7610ec72988724f3302867b1a3890e93e5bf3f3c15f",
+          "file": "huellas-26334-fd7c7759807.json",
+          "checks": [
+            {
+              "delta_m": -3,
+              "date": "2025-02-13",
+              "sensor": "WV03"
+            },
+            {
+              "delta_m": 0,
+              "date": "2025-02-13",
+              "sensor": "WV03"
+            },
+            {
+              "delta_m": 3,
+              "date": "2025-02-13",
+              "sensor": "WV03"
+            }
+          ]
+        },
+        {
+          "release": 52304,
+          "positionOffset": 2,
+          "url": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2025_r08/MapServer/6/query?f=json&where=MinMapLevel+%3C%3D+17+AND+MaxMapLevel+%3E%3D+17&geometryType=esriGeometryEnvelope&geometry=-89.76503340%2C21.26688939%2C-89.76101945%2C21.26780627&inSR=4326&outSR=4326&outFields=OBJECTID%2CSRC_DATE2%2CSRC_DESC%2CSAMP_RES%2CSRC_ACC%2CMinMapLevel%2CMaxMapLevel&returnGeometry=true",
+          "sha256": "d67f60bc1372c41f6ee7e1016b10062c13c3aea5f0bc715669ee7180c9f1f874",
+          "file": "huellas-52304-cd82ccab38f.json",
+          "checks": [
+            {
+              "delta_m": -3,
+              "date": "2025-02-13",
+              "sensor": "WV03"
+            },
+            {
+              "delta_m": 0,
+              "date": "2025-02-13",
+              "sensor": "WV03"
+            },
+            {
+              "delta_m": 3,
+              "date": "2025-02-13",
+              "sensor": "WV03"
+            }
+          ]
+        }
+      ],
+      "reason": "La banda de arena se distingue a ambos lados del eje, entre dos estructuras perpendiculares."
+    },
+    {
+      "profileId": "SC-418-0-0",
+      "capture": 10,
+      "oldOffset": 8,
+      "oldAccepted": true,
+      "newOffset": 6,
+      "newAccepted": true,
+      "sourceRelease": 22252,
+      "date": "2025-02-13",
+      "positionVisualInterval": [
+        3,
+        10
+      ],
+      "uncertaintyM": 4,
+      "evidence": [
+        {
+          "path": "/data/shorelines/photo-alignment/coastal-audit-progreso-comparacion-fotografica-20261116/pares-2025-22252-01.jpg",
+          "sha256": "0a59b3cb260db230ce6900293e7a8545f3521a45081783b38b1f8b80721d94cf"
+        }
+      ],
+      "metadata": {
+        "release": 22252,
+        "positionOffset": 6,
+        "url": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2026_r01/MapServer/6/query?f=json&where=MinMapLevel+%3C%3D+17+AND+MaxMapLevel+%3E%3D+17&geometryType=esriGeometryEnvelope&geometry=-89.76503340%2C21.26688939%2C-89.76101945%2C21.26780627&inSR=4326&outSR=4326&outFields=OBJECTID%2CSRC_DATE2%2CSRC_DESC%2CSAMP_RES%2CSRC_ACC%2CMinMapLevel%2CMaxMapLevel&returnGeometry=true",
+        "sha256": "c3184333daea847dec63171678fd9dd844ba095c9ca30e659ea680347481f184",
+        "file": "huellas-22252-f22a2c5b40c.json",
+        "checks": [
+          {
+            "delta_m": -3,
+            "date": "2025-02-13",
+            "sensor": "WV03"
+          },
+          {
+            "delta_m": 0,
+            "date": "2025-02-13",
+            "sensor": "WV03"
+          },
+          {
+            "delta_m": 3,
+            "date": "2025-02-13",
+            "sensor": "WV03"
+          }
+        ]
+      },
+      "equivalentMetadata": [
+        {
+          "release": 26334,
+          "positionOffset": 6,
+          "url": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2026_r07/MapServer/6/query?f=json&where=MinMapLevel+%3C%3D+17+AND+MaxMapLevel+%3E%3D+17&geometryType=esriGeometryEnvelope&geometry=-89.76503340%2C21.26688939%2C-89.76101945%2C21.26780627&inSR=4326&outSR=4326&outFields=OBJECTID%2CSRC_DATE2%2CSRC_DESC%2CSAMP_RES%2CSRC_ACC%2CMinMapLevel%2CMaxMapLevel&returnGeometry=true",
+          "sha256": "e910ac003ef46f03bc4cc7610ec72988724f3302867b1a3890e93e5bf3f3c15f",
+          "file": "huellas-26334-fd7c7759807.json",
+          "checks": [
+            {
+              "delta_m": -3,
+              "date": "2025-02-13",
+              "sensor": "WV03"
+            },
+            {
+              "delta_m": 0,
+              "date": "2025-02-13",
+              "sensor": "WV03"
+            },
+            {
+              "delta_m": 3,
+              "date": "2025-02-13",
+              "sensor": "WV03"
+            }
+          ]
+        },
+        {
+          "release": 52304,
+          "positionOffset": 6,
+          "url": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2025_r08/MapServer/6/query?f=json&where=MinMapLevel+%3C%3D+17+AND+MaxMapLevel+%3E%3D+17&geometryType=esriGeometryEnvelope&geometry=-89.76503340%2C21.26688939%2C-89.76101945%2C21.26780627&inSR=4326&outSR=4326&outFields=OBJECTID%2CSRC_DATE2%2CSRC_DESC%2CSAMP_RES%2CSRC_ACC%2CMinMapLevel%2CMaxMapLevel&returnGeometry=true",
+          "sha256": "d67f60bc1372c41f6ee7e1016b10062c13c3aea5f0bc715669ee7180c9f1f874",
+          "file": "huellas-52304-cd82ccab38f.json",
+          "checks": [
+            {
+              "delta_m": -3,
+              "date": "2025-02-13",
+              "sensor": "WV03"
+            },
+            {
+              "delta_m": 0,
+              "date": "2025-02-13",
+              "sensor": "WV03"
+            },
+            {
+              "delta_m": 3,
+              "date": "2025-02-13",
+              "sensor": "WV03"
+            }
+          ]
+        }
+      ],
+      "reason": "El punto cae en la primera banda continua de arena. La sombra vertical del espolón queda fuera del eje."
+    },
+    {
+      "profileId": "SC-C438-0-1",
+      "capture": 10,
+      "oldOffset": 5,
+      "oldAccepted": true,
+      "newOffset": 4,
+      "newAccepted": true,
+      "sourceRelease": 22252,
+      "date": "2025-02-13",
+      "positionVisualInterval": [
+        0,
+        7
+      ],
+      "uncertaintyM": 4,
+      "evidence": [
+        {
+          "path": "/data/shorelines/photo-alignment/coastal-audit-progreso-comparacion-fotografica-20261116/pares-2025-22252-01.jpg",
+          "sha256": "0a59b3cb260db230ce6900293e7a8545f3521a45081783b38b1f8b80721d94cf"
+        }
+      ],
+      "metadata": {
+        "release": 22252,
+        "positionOffset": 4,
+        "url": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2026_r01/MapServer/6/query?f=json&where=MinMapLevel+%3C%3D+17+AND+MaxMapLevel+%3E%3D+17&geometryType=esriGeometryEnvelope&geometry=-89.75469872%2C21.26888975%2C-89.74527160%2C21.27090319&inSR=4326&outSR=4326&outFields=OBJECTID%2CSRC_DATE2%2CSRC_DESC%2CSAMP_RES%2CSRC_ACC%2CMinMapLevel%2CMaxMapLevel&returnGeometry=true",
+        "sha256": "c3184333daea847dec63171678fd9dd844ba095c9ca30e659ea680347481f184",
+        "file": "huellas-22252-468311e56c4.json",
+        "checks": [
+          {
+            "delta_m": -3,
+            "date": "2025-02-13",
+            "sensor": "WV03"
+          },
+          {
+            "delta_m": 0,
+            "date": "2025-02-13",
+            "sensor": "WV03"
+          },
+          {
+            "delta_m": 3,
+            "date": "2025-02-13",
+            "sensor": "WV03"
+          }
+        ]
+      },
+      "equivalentMetadata": [
+        {
+          "release": 26334,
+          "positionOffset": 4,
+          "url": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2026_r07/MapServer/6/query?f=json&where=MinMapLevel+%3C%3D+17+AND+MaxMapLevel+%3E%3D+17&geometryType=esriGeometryEnvelope&geometry=-89.75469872%2C21.26888975%2C-89.74527160%2C21.27090319&inSR=4326&outSR=4326&outFields=OBJECTID%2CSRC_DATE2%2CSRC_DESC%2CSAMP_RES%2CSRC_ACC%2CMinMapLevel%2CMaxMapLevel&returnGeometry=true",
+          "sha256": "e910ac003ef46f03bc4cc7610ec72988724f3302867b1a3890e93e5bf3f3c15f",
+          "file": "huellas-26334-b70aad0ea17.json",
+          "checks": [
+            {
+              "delta_m": -3,
+              "date": "2025-02-13",
+              "sensor": "WV03"
+            },
+            {
+              "delta_m": 0,
+              "date": "2025-02-13",
+              "sensor": "WV03"
+            },
+            {
+              "delta_m": 3,
+              "date": "2025-02-13",
+              "sensor": "WV03"
+            }
+          ]
+        },
+        {
+          "release": 52304,
+          "positionOffset": 4,
+          "url": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2025_r08/MapServer/6/query?f=json&where=MinMapLevel+%3C%3D+17+AND+MaxMapLevel+%3E%3D+17&geometryType=esriGeometryEnvelope&geometry=-89.75469872%2C21.26888975%2C-89.74527160%2C21.27090319&inSR=4326&outSR=4326&outFields=OBJECTID%2CSRC_DATE2%2CSRC_DESC%2CSAMP_RES%2CSRC_ACC%2CMinMapLevel%2CMaxMapLevel&returnGeometry=true",
+          "sha256": "d67f60bc1372c41f6ee7e1016b10062c13c3aea5f0bc715669ee7180c9f1f874",
+          "file": "huellas-52304-40b8c816772.json",
+          "checks": [
+            {
+              "delta_m": -3,
+              "date": "2025-02-13",
+              "sensor": "WV03"
+            },
+            {
+              "delta_m": 0,
+              "date": "2025-02-13",
+              "sensor": "WV03"
+            },
+            {
+              "delta_m": 3,
+              "date": "2025-02-13",
+              "sensor": "WV03"
+            }
+          ]
+        }
+      ],
+      "reason": "El borde de la playa se lee entre espolones, con un contacto continuo por debajo del agua turquesa."
+    },
+    {
+      "profileId": "SC-C453-0-1",
+      "capture": 10,
+      "oldOffset": 0,
+      "oldAccepted": true,
+      "newOffset": -5,
+      "newAccepted": true,
+      "sourceRelease": 22252,
+      "date": "2025-02-13",
+      "positionVisualInterval": [
+        -8.5,
+        -1
+      ],
+      "uncertaintyM": 4,
+      "evidence": [
+        {
+          "path": "/data/shorelines/photo-alignment/coastal-audit-progreso-comparacion-fotografica-20261116/pares-2025-22252-01.jpg",
+          "sha256": "0a59b3cb260db230ce6900293e7a8545f3521a45081783b38b1f8b80721d94cf"
+        }
+      ],
+      "metadata": {
+        "release": 22252,
+        "positionOffset": -5,
+        "url": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2026_r01/MapServer/6/query?f=json&where=MinMapLevel+%3C%3D+17+AND+MaxMapLevel+%3E%3D+17&geometryType=esriGeometryEnvelope&geometry=-89.75469872%2C21.26888975%2C-89.74527160%2C21.27090319&inSR=4326&outSR=4326&outFields=OBJECTID%2CSRC_DATE2%2CSRC_DESC%2CSAMP_RES%2CSRC_ACC%2CMinMapLevel%2CMaxMapLevel&returnGeometry=true",
+        "sha256": "c3184333daea847dec63171678fd9dd844ba095c9ca30e659ea680347481f184",
+        "file": "huellas-22252-468311e56c4.json",
+        "checks": [
+          {
+            "delta_m": -3,
+            "date": "2025-02-13",
+            "sensor": "WV03"
+          },
+          {
+            "delta_m": 0,
+            "date": "2025-02-13",
+            "sensor": "WV03"
+          },
+          {
+            "delta_m": 3,
+            "date": "2025-02-13",
+            "sensor": "WV03"
+          }
+        ]
+      },
+      "equivalentMetadata": [
+        {
+          "release": 26334,
+          "positionOffset": -5,
+          "url": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2026_r07/MapServer/6/query?f=json&where=MinMapLevel+%3C%3D+17+AND+MaxMapLevel+%3E%3D+17&geometryType=esriGeometryEnvelope&geometry=-89.75469872%2C21.26888975%2C-89.74527160%2C21.27090319&inSR=4326&outSR=4326&outFields=OBJECTID%2CSRC_DATE2%2CSRC_DESC%2CSAMP_RES%2CSRC_ACC%2CMinMapLevel%2CMaxMapLevel&returnGeometry=true",
+          "sha256": "e910ac003ef46f03bc4cc7610ec72988724f3302867b1a3890e93e5bf3f3c15f",
+          "file": "huellas-26334-b70aad0ea17.json",
+          "checks": [
+            {
+              "delta_m": -3,
+              "date": "2025-02-13",
+              "sensor": "WV03"
+            },
+            {
+              "delta_m": 0,
+              "date": "2025-02-13",
+              "sensor": "WV03"
+            },
+            {
+              "delta_m": 3,
+              "date": "2025-02-13",
+              "sensor": "WV03"
+            }
+          ]
+        },
+        {
+          "release": 52304,
+          "positionOffset": -5,
+          "url": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2025_r08/MapServer/6/query?f=json&where=MinMapLevel+%3C%3D+17+AND+MaxMapLevel+%3E%3D+17&geometryType=esriGeometryEnvelope&geometry=-89.75469872%2C21.26888975%2C-89.74527160%2C21.27090319&inSR=4326&outSR=4326&outFields=OBJECTID%2CSRC_DATE2%2CSRC_DESC%2CSAMP_RES%2CSRC_ACC%2CMinMapLevel%2CMaxMapLevel&returnGeometry=true",
+          "sha256": "d67f60bc1372c41f6ee7e1016b10062c13c3aea5f0bc715669ee7180c9f1f874",
+          "file": "huellas-52304-40b8c816772.json",
+          "checks": [
+            {
+              "delta_m": -3,
+              "date": "2025-02-13",
+              "sensor": "WV03"
+            },
+            {
+              "delta_m": 0,
+              "date": "2025-02-13",
+              "sensor": "WV03"
+            },
+            {
+              "delta_m": 3,
+              "date": "2025-02-13",
+              "sensor": "WV03"
+            }
+          ]
+        }
+      ],
+      "reason": "Se identifica el final de la playa antes de la banda verdosa del agua somera. Los contrastes junto a edificios quedan tierra adentro."
+    },
+    {
+      "profileId": "SC-C468-0-0",
+      "capture": 10,
+      "oldOffset": 3,
+      "oldAccepted": true,
+      "newOffset": 2,
+      "newAccepted": true,
+      "sourceRelease": 22252,
+      "date": "2025-02-13",
+      "positionVisualInterval": [
+        -1,
+        6
+      ],
+      "uncertaintyM": 4,
+      "evidence": [
+        {
+          "path": "/data/shorelines/photo-alignment/coastal-audit-progreso-comparacion-fotografica-20261116/pares-2025-22252-01.jpg",
+          "sha256": "0a59b3cb260db230ce6900293e7a8545f3521a45081783b38b1f8b80721d94cf"
+        }
+      ],
+      "metadata": {
+        "release": 22252,
+        "positionOffset": 2,
+        "url": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2026_r01/MapServer/6/query?f=json&where=MinMapLevel+%3C%3D+17+AND+MaxMapLevel+%3E%3D+17&geometryType=esriGeometryEnvelope&geometry=-89.75469872%2C21.26888975%2C-89.74527160%2C21.27090319&inSR=4326&outSR=4326&outFields=OBJECTID%2CSRC_DATE2%2CSRC_DESC%2CSAMP_RES%2CSRC_ACC%2CMinMapLevel%2CMaxMapLevel&returnGeometry=true",
+        "sha256": "c3184333daea847dec63171678fd9dd844ba095c9ca30e659ea680347481f184",
+        "file": "huellas-22252-468311e56c4.json",
+        "checks": [
+          {
+            "delta_m": -3,
+            "date": "2025-02-13",
+            "sensor": "WV03"
+          },
+          {
+            "delta_m": 0,
+            "date": "2025-02-13",
+            "sensor": "WV03"
+          },
+          {
+            "delta_m": 3,
+            "date": "2025-02-13",
+            "sensor": "WV03"
+          }
+        ]
+      },
+      "equivalentMetadata": [
+        {
+          "release": 26334,
+          "positionOffset": 2,
+          "url": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2026_r07/MapServer/6/query?f=json&where=MinMapLevel+%3C%3D+17+AND+MaxMapLevel+%3E%3D+17&geometryType=esriGeometryEnvelope&geometry=-89.75469872%2C21.26888975%2C-89.74527160%2C21.27090319&inSR=4326&outSR=4326&outFields=OBJECTID%2CSRC_DATE2%2CSRC_DESC%2CSAMP_RES%2CSRC_ACC%2CMinMapLevel%2CMaxMapLevel&returnGeometry=true",
+          "sha256": "e910ac003ef46f03bc4cc7610ec72988724f3302867b1a3890e93e5bf3f3c15f",
+          "file": "huellas-26334-b70aad0ea17.json",
+          "checks": [
+            {
+              "delta_m": -3,
+              "date": "2025-02-13",
+              "sensor": "WV03"
+            },
+            {
+              "delta_m": 0,
+              "date": "2025-02-13",
+              "sensor": "WV03"
+            },
+            {
+              "delta_m": 3,
+              "date": "2025-02-13",
+              "sensor": "WV03"
+            }
+          ]
+        },
+        {
+          "release": 52304,
+          "positionOffset": 2,
+          "url": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2025_r08/MapServer/6/query?f=json&where=MinMapLevel+%3C%3D+17+AND+MaxMapLevel+%3E%3D+17&geometryType=esriGeometryEnvelope&geometry=-89.75469872%2C21.26888975%2C-89.74527160%2C21.27090319&inSR=4326&outSR=4326&outFields=OBJECTID%2CSRC_DATE2%2CSRC_DESC%2CSAMP_RES%2CSRC_ACC%2CMinMapLevel%2CMaxMapLevel&returnGeometry=true",
+          "sha256": "d67f60bc1372c41f6ee7e1016b10062c13c3aea5f0bc715669ee7180c9f1f874",
+          "file": "huellas-52304-40b8c816772.json",
+          "checks": [
+            {
+              "delta_m": -3,
+              "date": "2025-02-13",
+              "sensor": "WV03"
+            },
+            {
+              "delta_m": 0,
+              "date": "2025-02-13",
+              "sensor": "WV03"
+            },
+            {
+              "delta_m": 3,
+              "date": "2025-02-13",
+              "sensor": "WV03"
+            }
+          ]
+        }
+      ],
+      "reason": "Se distingue el primer borde de arena continua entre sombras de estructuras laterales."
+    },
+    {
+      "profileId": "SC-C481-0-0",
+      "capture": 10,
+      "oldOffset": 0,
+      "oldAccepted": true,
+      "newOffset": -1,
+      "newAccepted": true,
+      "sourceRelease": 22252,
+      "date": "2025-02-13",
+      "positionVisualInterval": [
+        -4,
+        2
+      ],
+      "uncertaintyM": 3,
+      "evidence": [
+        {
+          "path": "/data/shorelines/photo-alignment/coastal-audit-progreso-comparacion-fotografica-20261116/pares-2025-22252-02.jpg",
+          "sha256": "4034a0525f825f9ccac81fff42318d06938029df64424cc0a8f50058a3553256"
+        }
+      ],
+      "metadata": {
+        "release": 22252,
+        "positionOffset": -1,
+        "url": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2026_r01/MapServer/6/query?f=json&where=MinMapLevel+%3C%3D+17+AND+MaxMapLevel+%3E%3D+17&geometryType=esriGeometryEnvelope&geometry=-89.75469872%2C21.26888975%2C-89.74527160%2C21.27090319&inSR=4326&outSR=4326&outFields=OBJECTID%2CSRC_DATE2%2CSRC_DESC%2CSAMP_RES%2CSRC_ACC%2CMinMapLevel%2CMaxMapLevel&returnGeometry=true",
+        "sha256": "c3184333daea847dec63171678fd9dd844ba095c9ca30e659ea680347481f184",
+        "file": "huellas-22252-468311e56c4.json",
+        "checks": [
+          {
+            "delta_m": -3,
+            "date": "2025-02-13",
+            "sensor": "WV03"
+          },
+          {
+            "delta_m": 0,
+            "date": "2025-02-13",
+            "sensor": "WV03"
+          },
+          {
+            "delta_m": 3,
+            "date": "2025-02-13",
+            "sensor": "WV03"
+          }
+        ]
+      },
+      "equivalentMetadata": [
+        {
+          "release": 26334,
+          "positionOffset": -1,
+          "url": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2026_r07/MapServer/6/query?f=json&where=MinMapLevel+%3C%3D+17+AND+MaxMapLevel+%3E%3D+17&geometryType=esriGeometryEnvelope&geometry=-89.75469872%2C21.26888975%2C-89.74527160%2C21.27090319&inSR=4326&outSR=4326&outFields=OBJECTID%2CSRC_DATE2%2CSRC_DESC%2CSAMP_RES%2CSRC_ACC%2CMinMapLevel%2CMaxMapLevel&returnGeometry=true",
+          "sha256": "e910ac003ef46f03bc4cc7610ec72988724f3302867b1a3890e93e5bf3f3c15f",
+          "file": "huellas-26334-b70aad0ea17.json",
+          "checks": [
+            {
+              "delta_m": -3,
+              "date": "2025-02-13",
+              "sensor": "WV03"
+            },
+            {
+              "delta_m": 0,
+              "date": "2025-02-13",
+              "sensor": "WV03"
+            },
+            {
+              "delta_m": 3,
+              "date": "2025-02-13",
+              "sensor": "WV03"
+            }
+          ]
+        },
+        {
+          "release": 52304,
+          "positionOffset": -1,
+          "url": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2025_r08/MapServer/6/query?f=json&where=MinMapLevel+%3C%3D+17+AND+MaxMapLevel+%3E%3D+17&geometryType=esriGeometryEnvelope&geometry=-89.75469872%2C21.26888975%2C-89.74527160%2C21.27090319&inSR=4326&outSR=4326&outFields=OBJECTID%2CSRC_DATE2%2CSRC_DESC%2CSAMP_RES%2CSRC_ACC%2CMinMapLevel%2CMaxMapLevel&returnGeometry=true",
+          "sha256": "d67f60bc1372c41f6ee7e1016b10062c13c3aea5f0bc715669ee7180c9f1f874",
+          "file": "huellas-52304-40b8c816772.json",
+          "checks": [
+            {
+              "delta_m": -3,
+              "date": "2025-02-13",
+              "sensor": "WV03"
+            },
+            {
+              "delta_m": 0,
+              "date": "2025-02-13",
+              "sensor": "WV03"
+            },
+            {
+              "delta_m": 3,
+              "date": "2025-02-13",
+              "sensor": "WV03"
+            }
+          ]
+        }
+      ],
+      "reason": "Las dos imágenes permiten seguir la misma normal hasta el borde de la arena visible."
+    },
+    {
+      "profileId": "SC-90-0-30",
+      "capture": 198,
+      "oldOffset": 6,
+      "oldAccepted": true,
+      "newOffset": 1,
+      "newAccepted": true,
+      "sourceRelease": 22252,
+      "date": "2025-04-14",
+      "positionVisualInterval": [
+        -1.5,
+        4
+      ],
+      "uncertaintyM": 3,
+      "evidence": [
+        {
+          "path": "/data/shorelines/photo-alignment/coastal-audit-progreso-comparacion-fotografica-20261116/pares-2025-22252-03.jpg",
+          "sha256": "26faf001257f74b175f017d95465870df7ed715f90e3ba52de09c3df841d0db0"
+        }
+      ],
+      "metadata": {
+        "release": 22252,
+        "positionOffset": 1,
+        "url": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2026_r01/MapServer/6/query?f=json&where=MinMapLevel+%3C%3D+17+AND+MaxMapLevel+%3E%3D+17&geometryType=esriGeometryEnvelope&geometry=-89.67186655%2C21.28638143%2C-89.64312889%2C21.29008472&inSR=4326&outSR=4326&outFields=OBJECTID%2CSRC_DATE2%2CSRC_DESC%2CSAMP_RES%2CSRC_ACC%2CMinMapLevel%2CMaxMapLevel&returnGeometry=true",
+        "sha256": "36327e90a1290089176e37edf5dc424d52e8bee75ff94aa00511f5e63386c724",
+        "file": "huellas-22252-48613fc3fc7.json",
+        "checks": [
+          {
+            "delta_m": -3,
+            "date": "2025-04-14",
+            "sensor": "LG02"
+          },
+          {
+            "delta_m": 0,
+            "date": "2025-04-14",
+            "sensor": "LG02"
+          },
+          {
+            "delta_m": 3,
+            "date": "2025-04-14",
+            "sensor": "LG02"
+          }
+        ]
+      },
+      "equivalentMetadata": [
+        {
+          "release": 26334,
+          "positionOffset": 1,
+          "url": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2026_r07/MapServer/6/query?f=json&where=MinMapLevel+%3C%3D+17+AND+MaxMapLevel+%3E%3D+17&geometryType=esriGeometryEnvelope&geometry=-89.67186655%2C21.28638143%2C-89.64312889%2C21.29008472&inSR=4326&outSR=4326&outFields=OBJECTID%2CSRC_DATE2%2CSRC_DESC%2CSAMP_RES%2CSRC_ACC%2CMinMapLevel%2CMaxMapLevel&returnGeometry=true",
+          "sha256": "b7ddfb947d991b12851aa26caa3b1eee4f40f60d5553c36f629b4c6466164235",
+          "file": "huellas-26334-40d94f8525d.json",
+          "checks": [
+            {
+              "delta_m": -3,
+              "date": "2025-04-14",
+              "sensor": "LG02"
+            },
+            {
+              "delta_m": 0,
+              "date": "2025-04-14",
+              "sensor": "LG02"
+            },
+            {
+              "delta_m": 3,
+              "date": "2025-04-14",
+              "sensor": "LG02"
+            }
+          ]
+        },
+        {
+          "release": 52304,
+          "positionOffset": 1,
+          "url": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2025_r08/MapServer/6/query?f=json&where=MinMapLevel+%3C%3D+17+AND+MaxMapLevel+%3E%3D+17&geometryType=esriGeometryEnvelope&geometry=-89.67186655%2C21.28638143%2C-89.64312889%2C21.29008472&inSR=4326&outSR=4326&outFields=OBJECTID%2CSRC_DATE2%2CSRC_DESC%2CSAMP_RES%2CSRC_ACC%2CMinMapLevel%2CMaxMapLevel&returnGeometry=true",
+          "sha256": "c522d28aee5d3c378fb52f12296c8ed9fd84ceeaf56f3d9abdbd392ed7a7853c",
+          "file": "huellas-52304-3a6a99b19b4.json",
+          "checks": [
+            {
+              "delta_m": -3,
+              "date": "2025-04-14",
+              "sensor": "LG02"
+            },
+            {
+              "delta_m": 0,
+              "date": "2025-04-14",
+              "sensor": "LG02"
+            },
+            {
+              "delta_m": 3,
+              "date": "2025-04-14",
+              "sensor": "LG02"
+            }
+          ]
+        }
+      ],
+      "reason": "La transición verde a arena húmeda es continua en la toma de abril. El cruce está en el borde de la banda húmeda."
+    },
+    {
+      "profileId": "SC-90-0-31",
+      "capture": 198,
+      "oldOffset": 10,
+      "oldAccepted": true,
+      "newOffset": 5,
+      "newAccepted": true,
+      "sourceRelease": 22252,
+      "date": "2025-04-14",
+      "positionVisualInterval": [
+        1.5,
+        8
+      ],
+      "uncertaintyM": 3.5,
+      "evidence": [
+        {
+          "path": "/data/shorelines/photo-alignment/coastal-audit-progreso-comparacion-fotografica-20261116/pares-2025-22252-03.jpg",
+          "sha256": "26faf001257f74b175f017d95465870df7ed715f90e3ba52de09c3df841d0db0"
+        }
+      ],
+      "metadata": {
+        "release": 22252,
+        "positionOffset": 5,
+        "url": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2026_r01/MapServer/6/query?f=json&where=MinMapLevel+%3C%3D+17+AND+MaxMapLevel+%3E%3D+17&geometryType=esriGeometryEnvelope&geometry=-89.67186655%2C21.28638143%2C-89.64312889%2C21.29008472&inSR=4326&outSR=4326&outFields=OBJECTID%2CSRC_DATE2%2CSRC_DESC%2CSAMP_RES%2CSRC_ACC%2CMinMapLevel%2CMaxMapLevel&returnGeometry=true",
+        "sha256": "36327e90a1290089176e37edf5dc424d52e8bee75ff94aa00511f5e63386c724",
+        "file": "huellas-22252-48613fc3fc7.json",
+        "checks": [
+          {
+            "delta_m": -3,
+            "date": "2025-04-14",
+            "sensor": "LG02"
+          },
+          {
+            "delta_m": 0,
+            "date": "2025-04-14",
+            "sensor": "LG02"
+          },
+          {
+            "delta_m": 3,
+            "date": "2025-04-14",
+            "sensor": "LG02"
+          }
+        ]
+      },
+      "equivalentMetadata": [
+        {
+          "release": 26334,
+          "positionOffset": 5,
+          "url": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2026_r07/MapServer/6/query?f=json&where=MinMapLevel+%3C%3D+17+AND+MaxMapLevel+%3E%3D+17&geometryType=esriGeometryEnvelope&geometry=-89.67186655%2C21.28638143%2C-89.64312889%2C21.29008472&inSR=4326&outSR=4326&outFields=OBJECTID%2CSRC_DATE2%2CSRC_DESC%2CSAMP_RES%2CSRC_ACC%2CMinMapLevel%2CMaxMapLevel&returnGeometry=true",
+          "sha256": "b7ddfb947d991b12851aa26caa3b1eee4f40f60d5553c36f629b4c6466164235",
+          "file": "huellas-26334-40d94f8525d.json",
+          "checks": [
+            {
+              "delta_m": -3,
+              "date": "2025-04-14",
+              "sensor": "LG02"
+            },
+            {
+              "delta_m": 0,
+              "date": "2025-04-14",
+              "sensor": "LG02"
+            },
+            {
+              "delta_m": 3,
+              "date": "2025-04-14",
+              "sensor": "LG02"
+            }
+          ]
+        },
+        {
+          "release": 52304,
+          "positionOffset": 5,
+          "url": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2025_r08/MapServer/6/query?f=json&where=MinMapLevel+%3C%3D+17+AND+MaxMapLevel+%3E%3D+17&geometryType=esriGeometryEnvelope&geometry=-89.67186655%2C21.28638143%2C-89.64312889%2C21.29008472&inSR=4326&outSR=4326&outFields=OBJECTID%2CSRC_DATE2%2CSRC_DESC%2CSAMP_RES%2CSRC_ACC%2CMinMapLevel%2CMaxMapLevel&returnGeometry=true",
+          "sha256": "c522d28aee5d3c378fb52f12296c8ed9fd84ceeaf56f3d9abdbd392ed7a7853c",
+          "file": "huellas-52304-3a6a99b19b4.json",
+          "checks": [
+            {
+              "delta_m": -3,
+              "date": "2025-04-14",
+              "sensor": "LG02"
+            },
+            {
+              "delta_m": 0,
+              "date": "2025-04-14",
+              "sensor": "LG02"
+            },
+            {
+              "delta_m": 3,
+              "date": "2025-04-14",
+              "sensor": "LG02"
+            }
+          ]
+        }
+      ],
+      "reason": "Se confirma en las dos tomas una franja de playa continua, con arena húmeda junto al agua en la toma más reciente."
+    },
+    {
+      "profileId": "SC-90-0-32",
+      "capture": 198,
+      "oldOffset": 0,
+      "oldAccepted": true,
+      "newOffset": -5.5,
+      "newAccepted": true,
+      "sourceRelease": 22252,
+      "date": "2025-04-14",
+      "positionVisualInterval": [
+        -8.5,
+        -2
+      ],
+      "uncertaintyM": 3.5,
+      "evidence": [
+        {
+          "path": "/data/shorelines/photo-alignment/coastal-audit-progreso-comparacion-fotografica-20261116/pares-2025-22252-03.jpg",
+          "sha256": "26faf001257f74b175f017d95465870df7ed715f90e3ba52de09c3df841d0db0"
+        }
+      ],
+      "metadata": {
+        "release": 22252,
+        "positionOffset": -5.5,
+        "url": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2026_r01/MapServer/6/query?f=json&where=MinMapLevel+%3C%3D+17+AND+MaxMapLevel+%3E%3D+17&geometryType=esriGeometryEnvelope&geometry=-89.67186655%2C21.28638143%2C-89.64312889%2C21.29008472&inSR=4326&outSR=4326&outFields=OBJECTID%2CSRC_DATE2%2CSRC_DESC%2CSAMP_RES%2CSRC_ACC%2CMinMapLevel%2CMaxMapLevel&returnGeometry=true",
+        "sha256": "36327e90a1290089176e37edf5dc424d52e8bee75ff94aa00511f5e63386c724",
+        "file": "huellas-22252-48613fc3fc7.json",
+        "checks": [
+          {
+            "delta_m": -3,
+            "date": "2025-04-14",
+            "sensor": "LG02"
+          },
+          {
+            "delta_m": 0,
+            "date": "2025-04-14",
+            "sensor": "LG02"
+          },
+          {
+            "delta_m": 3,
+            "date": "2025-04-14",
+            "sensor": "LG02"
+          }
+        ]
+      },
+      "equivalentMetadata": [
+        {
+          "release": 26334,
+          "positionOffset": -5.5,
+          "url": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2026_r07/MapServer/6/query?f=json&where=MinMapLevel+%3C%3D+17+AND+MaxMapLevel+%3E%3D+17&geometryType=esriGeometryEnvelope&geometry=-89.67186655%2C21.28638143%2C-89.64312889%2C21.29008472&inSR=4326&outSR=4326&outFields=OBJECTID%2CSRC_DATE2%2CSRC_DESC%2CSAMP_RES%2CSRC_ACC%2CMinMapLevel%2CMaxMapLevel&returnGeometry=true",
+          "sha256": "b7ddfb947d991b12851aa26caa3b1eee4f40f60d5553c36f629b4c6466164235",
+          "file": "huellas-26334-40d94f8525d.json",
+          "checks": [
+            {
+              "delta_m": -3,
+              "date": "2025-04-14",
+              "sensor": "LG02"
+            },
+            {
+              "delta_m": 0,
+              "date": "2025-04-14",
+              "sensor": "LG02"
+            },
+            {
+              "delta_m": 3,
+              "date": "2025-04-14",
+              "sensor": "LG02"
+            }
+          ]
+        },
+        {
+          "release": 52304,
+          "positionOffset": -5.5,
+          "url": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2025_r08/MapServer/6/query?f=json&where=MinMapLevel+%3C%3D+17+AND+MaxMapLevel+%3E%3D+17&geometryType=esriGeometryEnvelope&geometry=-89.67186655%2C21.28638143%2C-89.64312889%2C21.29008472&inSR=4326&outSR=4326&outFields=OBJECTID%2CSRC_DATE2%2CSRC_DESC%2CSAMP_RES%2CSRC_ACC%2CMinMapLevel%2CMaxMapLevel&returnGeometry=true",
+          "sha256": "c522d28aee5d3c378fb52f12296c8ed9fd84ceeaf56f3d9abdbd392ed7a7853c",
+          "file": "huellas-52304-3a6a99b19b4.json",
+          "checks": [
+            {
+              "delta_m": -3,
+              "date": "2025-04-14",
+              "sensor": "LG02"
+            },
+            {
+              "delta_m": 0,
+              "date": "2025-04-14",
+              "sensor": "LG02"
+            },
+            {
+              "delta_m": 3,
+              "date": "2025-04-14",
+              "sensor": "LG02"
+            }
+          ]
+        }
+      ],
+      "reason": "En abril el agua llega hasta la banda húmeda que antecede a la arena clara. La referencia de 2011 sigue el borde natural de su toma."
+    },
+    {
+      "profileId": "SC-90-0-33",
+      "capture": 198,
+      "oldOffset": -2,
+      "oldAccepted": true,
+      "newOffset": -7.5,
+      "newAccepted": true,
+      "sourceRelease": 22252,
+      "date": "2025-04-14",
+      "positionVisualInterval": [
+        -11.5,
+        -5
+      ],
+      "uncertaintyM": 4,
+      "evidence": [
+        {
+          "path": "/data/shorelines/photo-alignment/coastal-audit-progreso-comparacion-fotografica-20261116/pares-2025-22252-03.jpg",
+          "sha256": "26faf001257f74b175f017d95465870df7ed715f90e3ba52de09c3df841d0db0"
+        }
+      ],
+      "metadata": {
+        "release": 22252,
+        "positionOffset": -7.5,
+        "url": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2026_r01/MapServer/6/query?f=json&where=MinMapLevel+%3C%3D+17+AND+MaxMapLevel+%3E%3D+17&geometryType=esriGeometryEnvelope&geometry=-89.67186655%2C21.28638143%2C-89.64312889%2C21.29008472&inSR=4326&outSR=4326&outFields=OBJECTID%2CSRC_DATE2%2CSRC_DESC%2CSAMP_RES%2CSRC_ACC%2CMinMapLevel%2CMaxMapLevel&returnGeometry=true",
+        "sha256": "36327e90a1290089176e37edf5dc424d52e8bee75ff94aa00511f5e63386c724",
+        "file": "huellas-22252-48613fc3fc7.json",
+        "checks": [
+          {
+            "delta_m": -3,
+            "date": "2025-04-14",
+            "sensor": "LG02"
+          },
+          {
+            "delta_m": 0,
+            "date": "2025-04-14",
+            "sensor": "LG02"
+          },
+          {
+            "delta_m": 3,
+            "date": "2025-04-14",
+            "sensor": "LG02"
+          }
+        ]
+      },
+      "equivalentMetadata": [
+        {
+          "release": 26334,
+          "positionOffset": -7.5,
+          "url": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2026_r07/MapServer/6/query?f=json&where=MinMapLevel+%3C%3D+17+AND+MaxMapLevel+%3E%3D+17&geometryType=esriGeometryEnvelope&geometry=-89.67186655%2C21.28638143%2C-89.64312889%2C21.29008472&inSR=4326&outSR=4326&outFields=OBJECTID%2CSRC_DATE2%2CSRC_DESC%2CSAMP_RES%2CSRC_ACC%2CMinMapLevel%2CMaxMapLevel&returnGeometry=true",
+          "sha256": "b7ddfb947d991b12851aa26caa3b1eee4f40f60d5553c36f629b4c6466164235",
+          "file": "huellas-26334-40d94f8525d.json",
+          "checks": [
+            {
+              "delta_m": -3,
+              "date": "2025-04-14",
+              "sensor": "LG02"
+            },
+            {
+              "delta_m": 0,
+              "date": "2025-04-14",
+              "sensor": "LG02"
+            },
+            {
+              "delta_m": 3,
+              "date": "2025-04-14",
+              "sensor": "LG02"
+            }
+          ]
+        },
+        {
+          "release": 52304,
+          "positionOffset": -7.5,
+          "url": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2025_r08/MapServer/6/query?f=json&where=MinMapLevel+%3C%3D+17+AND+MaxMapLevel+%3E%3D+17&geometryType=esriGeometryEnvelope&geometry=-89.67186655%2C21.28638143%2C-89.64312889%2C21.29008472&inSR=4326&outSR=4326&outFields=OBJECTID%2CSRC_DATE2%2CSRC_DESC%2CSAMP_RES%2CSRC_ACC%2CMinMapLevel%2CMaxMapLevel&returnGeometry=true",
+          "sha256": "c522d28aee5d3c378fb52f12296c8ed9fd84ceeaf56f3d9abdbd392ed7a7853c",
+          "file": "huellas-52304-3a6a99b19b4.json",
+          "checks": [
+            {
+              "delta_m": -3,
+              "date": "2025-04-14",
+              "sensor": "LG02"
+            },
+            {
+              "delta_m": 0,
+              "date": "2025-04-14",
+              "sensor": "LG02"
+            },
+            {
+              "delta_m": 3,
+              "date": "2025-04-14",
+              "sensor": "LG02"
+            }
+          ]
+        }
+      ],
+      "reason": "Se marca el contacto inmediatamente anterior a la arena húmeda, sin seguir el reflejo claro aislado en el agua."
+    },
+    {
+      "profileId": "SC-90-0-34",
+      "capture": 198,
+      "oldOffset": -16,
+      "oldAccepted": true,
+      "newOffset": -18,
+      "newAccepted": true,
+      "sourceRelease": 22252,
+      "date": "2025-04-14",
+      "positionVisualInterval": [
+        -21,
+        -15
+      ],
+      "uncertaintyM": 3,
+      "evidence": [
+        {
+          "path": "/data/shorelines/photo-alignment/coastal-audit-progreso-comparacion-fotografica-20261116/pares-2025-22252-03.jpg",
+          "sha256": "26faf001257f74b175f017d95465870df7ed715f90e3ba52de09c3df841d0db0"
+        }
+      ],
+      "metadata": {
+        "release": 22252,
+        "positionOffset": -18,
+        "url": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2026_r01/MapServer/6/query?f=json&where=MinMapLevel+%3C%3D+17+AND+MaxMapLevel+%3E%3D+17&geometryType=esriGeometryEnvelope&geometry=-89.67186655%2C21.28638143%2C-89.64312889%2C21.29008472&inSR=4326&outSR=4326&outFields=OBJECTID%2CSRC_DATE2%2CSRC_DESC%2CSAMP_RES%2CSRC_ACC%2CMinMapLevel%2CMaxMapLevel&returnGeometry=true",
+        "sha256": "36327e90a1290089176e37edf5dc424d52e8bee75ff94aa00511f5e63386c724",
+        "file": "huellas-22252-48613fc3fc7.json",
+        "checks": [
+          {
+            "delta_m": -3,
+            "date": "2025-04-14",
+            "sensor": "LG02"
+          },
+          {
+            "delta_m": 0,
+            "date": "2025-04-14",
+            "sensor": "LG02"
+          },
+          {
+            "delta_m": 3,
+            "date": "2025-04-14",
+            "sensor": "LG02"
+          }
+        ]
+      },
+      "equivalentMetadata": [
+        {
+          "release": 26334,
+          "positionOffset": -18,
+          "url": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2026_r07/MapServer/6/query?f=json&where=MinMapLevel+%3C%3D+17+AND+MaxMapLevel+%3E%3D+17&geometryType=esriGeometryEnvelope&geometry=-89.67186655%2C21.28638143%2C-89.64312889%2C21.29008472&inSR=4326&outSR=4326&outFields=OBJECTID%2CSRC_DATE2%2CSRC_DESC%2CSAMP_RES%2CSRC_ACC%2CMinMapLevel%2CMaxMapLevel&returnGeometry=true",
+          "sha256": "b7ddfb947d991b12851aa26caa3b1eee4f40f60d5553c36f629b4c6466164235",
+          "file": "huellas-26334-40d94f8525d.json",
+          "checks": [
+            {
+              "delta_m": -3,
+              "date": "2025-04-14",
+              "sensor": "LG02"
+            },
+            {
+              "delta_m": 0,
+              "date": "2025-04-14",
+              "sensor": "LG02"
+            },
+            {
+              "delta_m": 3,
+              "date": "2025-04-14",
+              "sensor": "LG02"
+            }
+          ]
+        },
+        {
+          "release": 52304,
+          "positionOffset": -18,
+          "url": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2025_r08/MapServer/6/query?f=json&where=MinMapLevel+%3C%3D+17+AND+MaxMapLevel+%3E%3D+17&geometryType=esriGeometryEnvelope&geometry=-89.67186655%2C21.28638143%2C-89.64312889%2C21.29008472&inSR=4326&outSR=4326&outFields=OBJECTID%2CSRC_DATE2%2CSRC_DESC%2CSAMP_RES%2CSRC_ACC%2CMinMapLevel%2CMaxMapLevel&returnGeometry=true",
+          "sha256": "c522d28aee5d3c378fb52f12296c8ed9fd84ceeaf56f3d9abdbd392ed7a7853c",
+          "file": "huellas-52304-3a6a99b19b4.json",
+          "checks": [
+            {
+              "delta_m": -3,
+              "date": "2025-04-14",
+              "sensor": "LG02"
+            },
+            {
+              "delta_m": 0,
+              "date": "2025-04-14",
+              "sensor": "LG02"
+            },
+            {
+              "delta_m": 3,
+              "date": "2025-04-14",
+              "sensor": "LG02"
+            }
+          ]
+        }
+      ],
+      "reason": "La estructura blanquecina a la izquierda queda fuera del cruce. Se observa el borde de arena en continuidad con ambos lados."
+    },
+    {
+      "profileId": "SC-90-0-35",
+      "capture": 198,
+      "oldOffset": -26,
+      "oldAccepted": true,
+      "newOffset": -30,
+      "newAccepted": true,
+      "sourceRelease": 22252,
+      "date": "2025-04-14",
+      "positionVisualInterval": [
+        -32.5,
+        -27
+      ],
+      "uncertaintyM": 3,
+      "evidence": [
+        {
+          "path": "/data/shorelines/photo-alignment/coastal-audit-progreso-comparacion-fotografica-20261116/pares-2025-22252-03.jpg",
+          "sha256": "26faf001257f74b175f017d95465870df7ed715f90e3ba52de09c3df841d0db0"
+        }
+      ],
+      "metadata": {
+        "release": 22252,
+        "positionOffset": -30,
+        "url": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2026_r01/MapServer/6/query?f=json&where=MinMapLevel+%3C%3D+17+AND+MaxMapLevel+%3E%3D+17&geometryType=esriGeometryEnvelope&geometry=-89.67186655%2C21.28638143%2C-89.64312889%2C21.29008472&inSR=4326&outSR=4326&outFields=OBJECTID%2CSRC_DATE2%2CSRC_DESC%2CSAMP_RES%2CSRC_ACC%2CMinMapLevel%2CMaxMapLevel&returnGeometry=true",
+        "sha256": "36327e90a1290089176e37edf5dc424d52e8bee75ff94aa00511f5e63386c724",
+        "file": "huellas-22252-48613fc3fc7.json",
+        "checks": [
+          {
+            "delta_m": -3,
+            "date": "2025-04-14",
+            "sensor": "LG02"
+          },
+          {
+            "delta_m": 0,
+            "date": "2025-04-14",
+            "sensor": "LG02"
+          },
+          {
+            "delta_m": 3,
+            "date": "2025-04-14",
+            "sensor": "LG02"
+          }
+        ]
+      },
+      "equivalentMetadata": [
+        {
+          "release": 26334,
+          "positionOffset": -30,
+          "url": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2026_r07/MapServer/6/query?f=json&where=MinMapLevel+%3C%3D+17+AND+MaxMapLevel+%3E%3D+17&geometryType=esriGeometryEnvelope&geometry=-89.67186655%2C21.28638143%2C-89.64312889%2C21.29008472&inSR=4326&outSR=4326&outFields=OBJECTID%2CSRC_DATE2%2CSRC_DESC%2CSAMP_RES%2CSRC_ACC%2CMinMapLevel%2CMaxMapLevel&returnGeometry=true",
+          "sha256": "b7ddfb947d991b12851aa26caa3b1eee4f40f60d5553c36f629b4c6466164235",
+          "file": "huellas-26334-40d94f8525d.json",
+          "checks": [
+            {
+              "delta_m": -3,
+              "date": "2025-04-14",
+              "sensor": "LG02"
+            },
+            {
+              "delta_m": 0,
+              "date": "2025-04-14",
+              "sensor": "LG02"
+            },
+            {
+              "delta_m": 3,
+              "date": "2025-04-14",
+              "sensor": "LG02"
+            }
+          ]
+        },
+        {
+          "release": 52304,
+          "positionOffset": -30,
+          "url": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2025_r08/MapServer/6/query?f=json&where=MinMapLevel+%3C%3D+17+AND+MaxMapLevel+%3E%3D+17&geometryType=esriGeometryEnvelope&geometry=-89.67186655%2C21.28638143%2C-89.64312889%2C21.29008472&inSR=4326&outSR=4326&outFields=OBJECTID%2CSRC_DATE2%2CSRC_DESC%2CSAMP_RES%2CSRC_ACC%2CMinMapLevel%2CMaxMapLevel&returnGeometry=true",
+          "sha256": "c522d28aee5d3c378fb52f12296c8ed9fd84ceeaf56f3d9abdbd392ed7a7853c",
+          "file": "huellas-52304-3a6a99b19b4.json",
+          "checks": [
+            {
+              "delta_m": -3,
+              "date": "2025-04-14",
+              "sensor": "LG02"
+            },
+            {
+              "delta_m": 0,
+              "date": "2025-04-14",
+              "sensor": "LG02"
+            },
+            {
+              "delta_m": 3,
+              "date": "2025-04-14",
+              "sensor": "LG02"
+            }
+          ]
+        }
+      ],
+      "reason": "El borde de arena húmeda sigue la playa entre pequeñas marcas de agua. La línea se corta en la orilla de abril."
+    },
+    {
+      "profileId": "SC-89-0-8",
+      "capture": 198,
+      "oldOffset": 4,
+      "oldAccepted": true,
+      "newOffset": 1,
+      "newAccepted": true,
+      "sourceRelease": 22252,
+      "date": "2025-04-14",
+      "positionVisualInterval": [
+        -1.5,
+        4
+      ],
+      "uncertaintyM": 3,
+      "evidence": [
+        {
+          "path": "/data/shorelines/photo-alignment/coastal-audit-progreso-comparacion-fotografica-20261116/pares-2025-22252-03.jpg",
+          "sha256": "26faf001257f74b175f017d95465870df7ed715f90e3ba52de09c3df841d0db0"
+        }
+      ],
+      "metadata": {
+        "release": 22252,
+        "positionOffset": 1,
+        "url": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2026_r01/MapServer/6/query?f=json&where=MinMapLevel+%3C%3D+17+AND+MaxMapLevel+%3E%3D+17&geometryType=esriGeometryEnvelope&geometry=-89.67186655%2C21.28638143%2C-89.64312889%2C21.29008472&inSR=4326&outSR=4326&outFields=OBJECTID%2CSRC_DATE2%2CSRC_DESC%2CSAMP_RES%2CSRC_ACC%2CMinMapLevel%2CMaxMapLevel&returnGeometry=true",
+        "sha256": "36327e90a1290089176e37edf5dc424d52e8bee75ff94aa00511f5e63386c724",
+        "file": "huellas-22252-48613fc3fc7.json",
+        "checks": [
+          {
+            "delta_m": -3,
+            "date": "2025-04-14",
+            "sensor": "LG02"
+          },
+          {
+            "delta_m": 0,
+            "date": "2025-04-14",
+            "sensor": "LG02"
+          },
+          {
+            "delta_m": 3,
+            "date": "2025-04-14",
+            "sensor": "LG02"
+          }
+        ]
+      },
+      "equivalentMetadata": [
+        {
+          "release": 26334,
+          "positionOffset": 1,
+          "url": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2026_r07/MapServer/6/query?f=json&where=MinMapLevel+%3C%3D+17+AND+MaxMapLevel+%3E%3D+17&geometryType=esriGeometryEnvelope&geometry=-89.67186655%2C21.28638143%2C-89.64312889%2C21.29008472&inSR=4326&outSR=4326&outFields=OBJECTID%2CSRC_DATE2%2CSRC_DESC%2CSAMP_RES%2CSRC_ACC%2CMinMapLevel%2CMaxMapLevel&returnGeometry=true",
+          "sha256": "b7ddfb947d991b12851aa26caa3b1eee4f40f60d5553c36f629b4c6466164235",
+          "file": "huellas-26334-40d94f8525d.json",
+          "checks": [
+            {
+              "delta_m": -3,
+              "date": "2025-04-14",
+              "sensor": "LG02"
+            },
+            {
+              "delta_m": 0,
+              "date": "2025-04-14",
+              "sensor": "LG02"
+            },
+            {
+              "delta_m": 3,
+              "date": "2025-04-14",
+              "sensor": "LG02"
+            }
+          ]
+        },
+        {
+          "release": 52304,
+          "positionOffset": 1,
+          "url": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2025_r08/MapServer/6/query?f=json&where=MinMapLevel+%3C%3D+17+AND+MaxMapLevel+%3E%3D+17&geometryType=esriGeometryEnvelope&geometry=-89.67186655%2C21.28638143%2C-89.64312889%2C21.29008472&inSR=4326&outSR=4326&outFields=OBJECTID%2CSRC_DATE2%2CSRC_DESC%2CSAMP_RES%2CSRC_ACC%2CMinMapLevel%2CMaxMapLevel&returnGeometry=true",
+          "sha256": "c522d28aee5d3c378fb52f12296c8ed9fd84ceeaf56f3d9abdbd392ed7a7853c",
+          "file": "huellas-52304-3a6a99b19b4.json",
+          "checks": [
+            {
+              "delta_m": -3,
+              "date": "2025-04-14",
+              "sensor": "LG02"
+            },
+            {
+              "delta_m": 0,
+              "date": "2025-04-14",
+              "sensor": "LG02"
+            },
+            {
+              "delta_m": 3,
+              "date": "2025-04-14",
+              "sensor": "LG02"
+            }
+          ]
+        }
+      ],
+      "reason": "El borde de arena húmeda alcanza el perfil inmediatamente debajo del agua verde de abril. El tono beige en tierra es continuo."
+    },
+    {
+      "profileId": "SC-89-0-9",
+      "capture": 198,
+      "oldOffset": 1,
+      "oldAccepted": true,
+      "newOffset": -2,
+      "newAccepted": true,
+      "sourceRelease": 22252,
+      "date": "2025-04-14",
+      "positionVisualInterval": [
+        -5.5,
+        1
+      ],
+      "uncertaintyM": 3.5,
+      "evidence": [
+        {
+          "path": "/data/shorelines/photo-alignment/coastal-audit-progreso-comparacion-fotografica-20261116/pares-2025-22252-03.jpg",
+          "sha256": "26faf001257f74b175f017d95465870df7ed715f90e3ba52de09c3df841d0db0"
+        }
+      ],
+      "metadata": {
+        "release": 22252,
+        "positionOffset": -2,
+        "url": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2026_r01/MapServer/6/query?f=json&where=MinMapLevel+%3C%3D+17+AND+MaxMapLevel+%3E%3D+17&geometryType=esriGeometryEnvelope&geometry=-89.67186655%2C21.28638143%2C-89.64312889%2C21.29008472&inSR=4326&outSR=4326&outFields=OBJECTID%2CSRC_DATE2%2CSRC_DESC%2CSAMP_RES%2CSRC_ACC%2CMinMapLevel%2CMaxMapLevel&returnGeometry=true",
+        "sha256": "36327e90a1290089176e37edf5dc424d52e8bee75ff94aa00511f5e63386c724",
+        "file": "huellas-22252-48613fc3fc7.json",
+        "checks": [
+          {
+            "delta_m": -3,
+            "date": "2025-04-14",
+            "sensor": "LG02"
+          },
+          {
+            "delta_m": 0,
+            "date": "2025-04-14",
+            "sensor": "LG02"
+          },
+          {
+            "delta_m": 3,
+            "date": "2025-04-14",
+            "sensor": "LG02"
+          }
+        ]
+      },
+      "equivalentMetadata": [
+        {
+          "release": 26334,
+          "positionOffset": -2,
+          "url": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2026_r07/MapServer/6/query?f=json&where=MinMapLevel+%3C%3D+17+AND+MaxMapLevel+%3E%3D+17&geometryType=esriGeometryEnvelope&geometry=-89.67186655%2C21.28638143%2C-89.64312889%2C21.29008472&inSR=4326&outSR=4326&outFields=OBJECTID%2CSRC_DATE2%2CSRC_DESC%2CSAMP_RES%2CSRC_ACC%2CMinMapLevel%2CMaxMapLevel&returnGeometry=true",
+          "sha256": "b7ddfb947d991b12851aa26caa3b1eee4f40f60d5553c36f629b4c6466164235",
+          "file": "huellas-26334-40d94f8525d.json",
+          "checks": [
+            {
+              "delta_m": -3,
+              "date": "2025-04-14",
+              "sensor": "LG02"
+            },
+            {
+              "delta_m": 0,
+              "date": "2025-04-14",
+              "sensor": "LG02"
+            },
+            {
+              "delta_m": 3,
+              "date": "2025-04-14",
+              "sensor": "LG02"
+            }
+          ]
+        },
+        {
+          "release": 52304,
+          "positionOffset": -2,
+          "url": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2025_r08/MapServer/6/query?f=json&where=MinMapLevel+%3C%3D+17+AND+MaxMapLevel+%3E%3D+17&geometryType=esriGeometryEnvelope&geometry=-89.67186655%2C21.28638143%2C-89.64312889%2C21.29008472&inSR=4326&outSR=4326&outFields=OBJECTID%2CSRC_DATE2%2CSRC_DESC%2CSAMP_RES%2CSRC_ACC%2CMinMapLevel%2CMaxMapLevel&returnGeometry=true",
+          "sha256": "c522d28aee5d3c378fb52f12296c8ed9fd84ceeaf56f3d9abdbd392ed7a7853c",
+          "file": "huellas-52304-3a6a99b19b4.json",
+          "checks": [
+            {
+              "delta_m": -3,
+              "date": "2025-04-14",
+              "sensor": "LG02"
+            },
+            {
+              "delta_m": 0,
+              "date": "2025-04-14",
+              "sensor": "LG02"
+            },
+            {
+              "delta_m": 3,
+              "date": "2025-04-14",
+              "sensor": "LG02"
+            }
+          ]
+        }
+      ],
+      "reason": "El perfil encuentra el contacto de agua con arena húmeda, paralelo a la playa continua."
+    },
+    {
+      "profileId": "SC-89-0-10",
+      "capture": 198,
+      "oldOffset": -2,
+      "oldAccepted": true,
+      "newOffset": -6,
+      "newAccepted": true,
+      "sourceRelease": 22252,
+      "date": "2025-04-14",
+      "positionVisualInterval": [
+        -8.5,
+        -3
+      ],
+      "uncertaintyM": 3,
+      "evidence": [
+        {
+          "path": "/data/shorelines/photo-alignment/coastal-audit-progreso-comparacion-fotografica-20261116/pares-2025-22252-03.jpg",
+          "sha256": "26faf001257f74b175f017d95465870df7ed715f90e3ba52de09c3df841d0db0"
+        }
+      ],
+      "metadata": {
+        "release": 22252,
+        "positionOffset": -6,
+        "url": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2026_r01/MapServer/6/query?f=json&where=MinMapLevel+%3C%3D+17+AND+MaxMapLevel+%3E%3D+17&geometryType=esriGeometryEnvelope&geometry=-89.67186655%2C21.28638143%2C-89.64312889%2C21.29008472&inSR=4326&outSR=4326&outFields=OBJECTID%2CSRC_DATE2%2CSRC_DESC%2CSAMP_RES%2CSRC_ACC%2CMinMapLevel%2CMaxMapLevel&returnGeometry=true",
+        "sha256": "36327e90a1290089176e37edf5dc424d52e8bee75ff94aa00511f5e63386c724",
+        "file": "huellas-22252-48613fc3fc7.json",
+        "checks": [
+          {
+            "delta_m": -3,
+            "date": "2025-04-14",
+            "sensor": "LG02"
+          },
+          {
+            "delta_m": 0,
+            "date": "2025-04-14",
+            "sensor": "LG02"
+          },
+          {
+            "delta_m": 3,
+            "date": "2025-04-14",
+            "sensor": "LG02"
+          }
+        ]
+      },
+      "equivalentMetadata": [
+        {
+          "release": 26334,
+          "positionOffset": -6,
+          "url": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2026_r07/MapServer/6/query?f=json&where=MinMapLevel+%3C%3D+17+AND+MaxMapLevel+%3E%3D+17&geometryType=esriGeometryEnvelope&geometry=-89.67186655%2C21.28638143%2C-89.64312889%2C21.29008472&inSR=4326&outSR=4326&outFields=OBJECTID%2CSRC_DATE2%2CSRC_DESC%2CSAMP_RES%2CSRC_ACC%2CMinMapLevel%2CMaxMapLevel&returnGeometry=true",
+          "sha256": "b7ddfb947d991b12851aa26caa3b1eee4f40f60d5553c36f629b4c6466164235",
+          "file": "huellas-26334-40d94f8525d.json",
+          "checks": [
+            {
+              "delta_m": -3,
+              "date": "2025-04-14",
+              "sensor": "LG02"
+            },
+            {
+              "delta_m": 0,
+              "date": "2025-04-14",
+              "sensor": "LG02"
+            },
+            {
+              "delta_m": 3,
+              "date": "2025-04-14",
+              "sensor": "LG02"
+            }
+          ]
+        },
+        {
+          "release": 52304,
+          "positionOffset": -6,
+          "url": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2025_r08/MapServer/6/query?f=json&where=MinMapLevel+%3C%3D+17+AND+MaxMapLevel+%3E%3D+17&geometryType=esriGeometryEnvelope&geometry=-89.67186655%2C21.28638143%2C-89.64312889%2C21.29008472&inSR=4326&outSR=4326&outFields=OBJECTID%2CSRC_DATE2%2CSRC_DESC%2CSAMP_RES%2CSRC_ACC%2CMinMapLevel%2CMaxMapLevel&returnGeometry=true",
+          "sha256": "c522d28aee5d3c378fb52f12296c8ed9fd84ceeaf56f3d9abdbd392ed7a7853c",
+          "file": "huellas-52304-3a6a99b19b4.json",
+          "checks": [
+            {
+              "delta_m": -3,
+              "date": "2025-04-14",
+              "sensor": "LG02"
+            },
+            {
+              "delta_m": 0,
+              "date": "2025-04-14",
+              "sensor": "LG02"
+            },
+            {
+              "delta_m": 3,
+              "date": "2025-04-14",
+              "sensor": "LG02"
+            }
+          ]
+        }
+      ],
+      "reason": "El contacto entre el agua verde de abril y la arena húmeda es nítido a ambos lados del perfil."
+    },
+    {
+      "profileId": "SC-89-0-11",
+      "capture": 198,
+      "oldOffset": -14,
+      "oldAccepted": true,
+      "newOffset": -17,
+      "newAccepted": true,
+      "sourceRelease": 22252,
+      "date": "2025-04-14",
+      "positionVisualInterval": [
+        -19.5,
+        -14
+      ],
+      "uncertaintyM": 3,
+      "evidence": [
+        {
+          "path": "/data/shorelines/photo-alignment/coastal-audit-progreso-comparacion-fotografica-20261116/pares-2025-22252-03.jpg",
+          "sha256": "26faf001257f74b175f017d95465870df7ed715f90e3ba52de09c3df841d0db0"
+        }
+      ],
+      "metadata": {
+        "release": 22252,
+        "positionOffset": -17,
+        "url": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2026_r01/MapServer/6/query?f=json&where=MinMapLevel+%3C%3D+17+AND+MaxMapLevel+%3E%3D+17&geometryType=esriGeometryEnvelope&geometry=-89.67186655%2C21.28638143%2C-89.64312889%2C21.29008472&inSR=4326&outSR=4326&outFields=OBJECTID%2CSRC_DATE2%2CSRC_DESC%2CSAMP_RES%2CSRC_ACC%2CMinMapLevel%2CMaxMapLevel&returnGeometry=true",
+        "sha256": "36327e90a1290089176e37edf5dc424d52e8bee75ff94aa00511f5e63386c724",
+        "file": "huellas-22252-48613fc3fc7.json",
+        "checks": [
+          {
+            "delta_m": -3,
+            "date": "2025-04-14",
+            "sensor": "LG02"
+          },
+          {
+            "delta_m": 0,
+            "date": "2025-04-14",
+            "sensor": "LG02"
+          },
+          {
+            "delta_m": 3,
+            "date": "2025-04-14",
+            "sensor": "LG02"
+          }
+        ]
+      },
+      "equivalentMetadata": [
+        {
+          "release": 26334,
+          "positionOffset": -17,
+          "url": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2026_r07/MapServer/6/query?f=json&where=MinMapLevel+%3C%3D+17+AND+MaxMapLevel+%3E%3D+17&geometryType=esriGeometryEnvelope&geometry=-89.67186655%2C21.28638143%2C-89.64312889%2C21.29008472&inSR=4326&outSR=4326&outFields=OBJECTID%2CSRC_DATE2%2CSRC_DESC%2CSAMP_RES%2CSRC_ACC%2CMinMapLevel%2CMaxMapLevel&returnGeometry=true",
+          "sha256": "b7ddfb947d991b12851aa26caa3b1eee4f40f60d5553c36f629b4c6466164235",
+          "file": "huellas-26334-40d94f8525d.json",
+          "checks": [
+            {
+              "delta_m": -3,
+              "date": "2025-04-14",
+              "sensor": "LG02"
+            },
+            {
+              "delta_m": 0,
+              "date": "2025-04-14",
+              "sensor": "LG02"
+            },
+            {
+              "delta_m": 3,
+              "date": "2025-04-14",
+              "sensor": "LG02"
+            }
+          ]
+        },
+        {
+          "release": 52304,
+          "positionOffset": -17,
+          "url": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2025_r08/MapServer/6/query?f=json&where=MinMapLevel+%3C%3D+17+AND+MaxMapLevel+%3E%3D+17&geometryType=esriGeometryEnvelope&geometry=-89.67186655%2C21.28638143%2C-89.64312889%2C21.29008472&inSR=4326&outSR=4326&outFields=OBJECTID%2CSRC_DATE2%2CSRC_DESC%2CSAMP_RES%2CSRC_ACC%2CMinMapLevel%2CMaxMapLevel&returnGeometry=true",
+          "sha256": "c522d28aee5d3c378fb52f12296c8ed9fd84ceeaf56f3d9abdbd392ed7a7853c",
+          "file": "huellas-52304-3a6a99b19b4.json",
+          "checks": [
+            {
+              "delta_m": -3,
+              "date": "2025-04-14",
+              "sensor": "LG02"
+            },
+            {
+              "delta_m": 0,
+              "date": "2025-04-14",
+              "sensor": "LG02"
+            },
+            {
+              "delta_m": 3,
+              "date": "2025-04-14",
+              "sensor": "LG02"
+            }
+          ]
+        }
+      ],
+      "reason": "Se sigue la línea continua de contacto junto a la playa. El fondo claro del agua queda mar afuera."
+    },
+    {
+      "profileId": "SC-89-0-12",
+      "capture": 198,
+      "oldOffset": -16,
+      "oldAccepted": true,
+      "newOffset": -19,
+      "newAccepted": true,
+      "sourceRelease": 22252,
+      "date": "2025-04-14",
+      "positionVisualInterval": [
+        -21.5,
+        -16
+      ],
+      "uncertaintyM": 3,
+      "evidence": [
+        {
+          "path": "/data/shorelines/photo-alignment/coastal-audit-progreso-comparacion-fotografica-20261116/pares-2025-22252-03.jpg",
+          "sha256": "26faf001257f74b175f017d95465870df7ed715f90e3ba52de09c3df841d0db0"
+        }
+      ],
+      "metadata": {
+        "release": 22252,
+        "positionOffset": -19,
+        "url": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2026_r01/MapServer/6/query?f=json&where=MinMapLevel+%3C%3D+17+AND+MaxMapLevel+%3E%3D+17&geometryType=esriGeometryEnvelope&geometry=-89.67186655%2C21.28638143%2C-89.64312889%2C21.29008472&inSR=4326&outSR=4326&outFields=OBJECTID%2CSRC_DATE2%2CSRC_DESC%2CSAMP_RES%2CSRC_ACC%2CMinMapLevel%2CMaxMapLevel&returnGeometry=true",
+        "sha256": "36327e90a1290089176e37edf5dc424d52e8bee75ff94aa00511f5e63386c724",
+        "file": "huellas-22252-48613fc3fc7.json",
+        "checks": [
+          {
+            "delta_m": -3,
+            "date": "2025-04-14",
+            "sensor": "LG02"
+          },
+          {
+            "delta_m": 0,
+            "date": "2025-04-14",
+            "sensor": "LG02"
+          },
+          {
+            "delta_m": 3,
+            "date": "2025-04-14",
+            "sensor": "LG02"
+          }
+        ]
+      },
+      "equivalentMetadata": [
+        {
+          "release": 26334,
+          "positionOffset": -19,
+          "url": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2026_r07/MapServer/6/query?f=json&where=MinMapLevel+%3C%3D+17+AND+MaxMapLevel+%3E%3D+17&geometryType=esriGeometryEnvelope&geometry=-89.67186655%2C21.28638143%2C-89.64312889%2C21.29008472&inSR=4326&outSR=4326&outFields=OBJECTID%2CSRC_DATE2%2CSRC_DESC%2CSAMP_RES%2CSRC_ACC%2CMinMapLevel%2CMaxMapLevel&returnGeometry=true",
+          "sha256": "b7ddfb947d991b12851aa26caa3b1eee4f40f60d5553c36f629b4c6466164235",
+          "file": "huellas-26334-40d94f8525d.json",
+          "checks": [
+            {
+              "delta_m": -3,
+              "date": "2025-04-14",
+              "sensor": "LG02"
+            },
+            {
+              "delta_m": 0,
+              "date": "2025-04-14",
+              "sensor": "LG02"
+            },
+            {
+              "delta_m": 3,
+              "date": "2025-04-14",
+              "sensor": "LG02"
+            }
+          ]
+        },
+        {
+          "release": 52304,
+          "positionOffset": -19,
+          "url": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2025_r08/MapServer/6/query?f=json&where=MinMapLevel+%3C%3D+17+AND+MaxMapLevel+%3E%3D+17&geometryType=esriGeometryEnvelope&geometry=-89.67186655%2C21.28638143%2C-89.64312889%2C21.29008472&inSR=4326&outSR=4326&outFields=OBJECTID%2CSRC_DATE2%2CSRC_DESC%2CSAMP_RES%2CSRC_ACC%2CMinMapLevel%2CMaxMapLevel&returnGeometry=true",
+          "sha256": "c522d28aee5d3c378fb52f12296c8ed9fd84ceeaf56f3d9abdbd392ed7a7853c",
+          "file": "huellas-52304-3a6a99b19b4.json",
+          "checks": [
+            {
+              "delta_m": -3,
+              "date": "2025-04-14",
+              "sensor": "LG02"
+            },
+            {
+              "delta_m": 0,
+              "date": "2025-04-14",
+              "sensor": "LG02"
+            },
+            {
+              "delta_m": 3,
+              "date": "2025-04-14",
+              "sensor": "LG02"
+            }
+          ]
+        }
+      ],
+      "reason": "En abril se ve el borde continuo de arena antes de las construcciones. Se conserva el cruce observado en 2011."
+    },
+    {
+      "profileId": "SC-89-0-13",
+      "capture": 198,
+      "oldOffset": -9,
+      "oldAccepted": true,
+      "newOffset": -11,
+      "newAccepted": true,
+      "sourceRelease": 22252,
+      "date": "2025-04-14",
+      "positionVisualInterval": [
+        -14,
+        -8
+      ],
+      "uncertaintyM": 3,
+      "evidence": [
+        {
+          "path": "/data/shorelines/photo-alignment/coastal-audit-progreso-comparacion-fotografica-20261116/pares-2025-22252-03.jpg",
+          "sha256": "26faf001257f74b175f017d95465870df7ed715f90e3ba52de09c3df841d0db0"
+        }
+      ],
+      "metadata": {
+        "release": 22252,
+        "positionOffset": -11,
+        "url": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2026_r01/MapServer/6/query?f=json&where=MinMapLevel+%3C%3D+17+AND+MaxMapLevel+%3E%3D+17&geometryType=esriGeometryEnvelope&geometry=-89.67186655%2C21.28638143%2C-89.64312889%2C21.29008472&inSR=4326&outSR=4326&outFields=OBJECTID%2CSRC_DATE2%2CSRC_DESC%2CSAMP_RES%2CSRC_ACC%2CMinMapLevel%2CMaxMapLevel&returnGeometry=true",
+        "sha256": "36327e90a1290089176e37edf5dc424d52e8bee75ff94aa00511f5e63386c724",
+        "file": "huellas-22252-48613fc3fc7.json",
+        "checks": [
+          {
+            "delta_m": -3,
+            "date": "2025-04-14",
+            "sensor": "LG02"
+          },
+          {
+            "delta_m": 0,
+            "date": "2025-04-14",
+            "sensor": "LG02"
+          },
+          {
+            "delta_m": 3,
+            "date": "2025-04-14",
+            "sensor": "LG02"
+          }
+        ]
+      },
+      "equivalentMetadata": [
+        {
+          "release": 26334,
+          "positionOffset": -11,
+          "url": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2026_r07/MapServer/6/query?f=json&where=MinMapLevel+%3C%3D+17+AND+MaxMapLevel+%3E%3D+17&geometryType=esriGeometryEnvelope&geometry=-89.67186655%2C21.28638143%2C-89.64312889%2C21.29008472&inSR=4326&outSR=4326&outFields=OBJECTID%2CSRC_DATE2%2CSRC_DESC%2CSAMP_RES%2CSRC_ACC%2CMinMapLevel%2CMaxMapLevel&returnGeometry=true",
+          "sha256": "b7ddfb947d991b12851aa26caa3b1eee4f40f60d5553c36f629b4c6466164235",
+          "file": "huellas-26334-40d94f8525d.json",
+          "checks": [
+            {
+              "delta_m": -3,
+              "date": "2025-04-14",
+              "sensor": "LG02"
+            },
+            {
+              "delta_m": 0,
+              "date": "2025-04-14",
+              "sensor": "LG02"
+            },
+            {
+              "delta_m": 3,
+              "date": "2025-04-14",
+              "sensor": "LG02"
+            }
+          ]
+        },
+        {
+          "release": 52304,
+          "positionOffset": -11,
+          "url": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2025_r08/MapServer/6/query?f=json&where=MinMapLevel+%3C%3D+17+AND+MaxMapLevel+%3E%3D+17&geometryType=esriGeometryEnvelope&geometry=-89.67186655%2C21.28638143%2C-89.64312889%2C21.29008472&inSR=4326&outSR=4326&outFields=OBJECTID%2CSRC_DATE2%2CSRC_DESC%2CSAMP_RES%2CSRC_ACC%2CMinMapLevel%2CMaxMapLevel&returnGeometry=true",
+          "sha256": "c522d28aee5d3c378fb52f12296c8ed9fd84ceeaf56f3d9abdbd392ed7a7853c",
+          "file": "huellas-52304-3a6a99b19b4.json",
+          "checks": [
+            {
+              "delta_m": -3,
+              "date": "2025-04-14",
+              "sensor": "LG02"
+            },
+            {
+              "delta_m": 0,
+              "date": "2025-04-14",
+              "sensor": "LG02"
+            },
+            {
+              "delta_m": 3,
+              "date": "2025-04-14",
+              "sensor": "LG02"
+            }
+          ]
+        }
+      ],
+      "reason": "El contacto verde con el borde de arena es reconocible a ambos lados del eje."
+    },
+    {
+      "profileId": "SC-89-0-17",
+      "capture": 198,
+      "oldOffset": -19,
+      "oldAccepted": true,
+      "newOffset": -20,
+      "newAccepted": true,
+      "sourceRelease": 22252,
+      "date": "2025-04-14",
+      "positionVisualInterval": [
+        -24,
+        -17
+      ],
+      "uncertaintyM": 4,
+      "evidence": [
+        {
+          "path": "/data/shorelines/photo-alignment/coastal-audit-progreso-comparacion-fotografica-20261116/pares-2025-22252-03.jpg",
+          "sha256": "26faf001257f74b175f017d95465870df7ed715f90e3ba52de09c3df841d0db0"
+        }
+      ],
+      "metadata": {
+        "release": 22252,
+        "positionOffset": -20,
+        "url": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2026_r01/MapServer/6/query?f=json&where=MinMapLevel+%3C%3D+17+AND+MaxMapLevel+%3E%3D+17&geometryType=esriGeometryEnvelope&geometry=-89.67186655%2C21.28638143%2C-89.64312889%2C21.29008472&inSR=4326&outSR=4326&outFields=OBJECTID%2CSRC_DATE2%2CSRC_DESC%2CSAMP_RES%2CSRC_ACC%2CMinMapLevel%2CMaxMapLevel&returnGeometry=true",
+        "sha256": "36327e90a1290089176e37edf5dc424d52e8bee75ff94aa00511f5e63386c724",
+        "file": "huellas-22252-48613fc3fc7.json",
+        "checks": [
+          {
+            "delta_m": -3,
+            "date": "2025-04-14",
+            "sensor": "LG02"
+          },
+          {
+            "delta_m": 0,
+            "date": "2025-04-14",
+            "sensor": "LG02"
+          },
+          {
+            "delta_m": 3,
+            "date": "2025-04-14",
+            "sensor": "LG02"
+          }
+        ]
+      },
+      "equivalentMetadata": [
+        {
+          "release": 26334,
+          "positionOffset": -20,
+          "url": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2026_r07/MapServer/6/query?f=json&where=MinMapLevel+%3C%3D+17+AND+MaxMapLevel+%3E%3D+17&geometryType=esriGeometryEnvelope&geometry=-89.67186655%2C21.28638143%2C-89.64312889%2C21.29008472&inSR=4326&outSR=4326&outFields=OBJECTID%2CSRC_DATE2%2CSRC_DESC%2CSAMP_RES%2CSRC_ACC%2CMinMapLevel%2CMaxMapLevel&returnGeometry=true",
+          "sha256": "b7ddfb947d991b12851aa26caa3b1eee4f40f60d5553c36f629b4c6466164235",
+          "file": "huellas-26334-40d94f8525d.json",
+          "checks": [
+            {
+              "delta_m": -3,
+              "date": "2025-04-14",
+              "sensor": "LG02"
+            },
+            {
+              "delta_m": 0,
+              "date": "2025-04-14",
+              "sensor": "LG02"
+            },
+            {
+              "delta_m": 3,
+              "date": "2025-04-14",
+              "sensor": "LG02"
+            }
+          ]
+        },
+        {
+          "release": 52304,
+          "positionOffset": -20,
+          "url": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2025_r08/MapServer/6/query?f=json&where=MinMapLevel+%3C%3D+17+AND+MaxMapLevel+%3E%3D+17&geometryType=esriGeometryEnvelope&geometry=-89.67186655%2C21.28638143%2C-89.64312889%2C21.29008472&inSR=4326&outSR=4326&outFields=OBJECTID%2CSRC_DATE2%2CSRC_DESC%2CSAMP_RES%2CSRC_ACC%2CMinMapLevel%2CMaxMapLevel&returnGeometry=true",
+          "sha256": "c522d28aee5d3c378fb52f12296c8ed9fd84ceeaf56f3d9abdbd392ed7a7853c",
+          "file": "huellas-52304-3a6a99b19b4.json",
+          "checks": [
+            {
+              "delta_m": -3,
+              "date": "2025-04-14",
+              "sensor": "LG02"
+            },
+            {
+              "delta_m": 0,
+              "date": "2025-04-14",
+              "sensor": "LG02"
+            },
+            {
+              "delta_m": 3,
+              "date": "2025-04-14",
+              "sensor": "LG02"
+            }
+          ]
+        }
+      ],
+      "reason": "La playa se identifica en el borde continuo de la arena y se distingue de las estructuras aisladas."
+    },
+    {
+      "profileId": "SC-89-0-20",
+      "capture": 198,
+      "oldOffset": -1,
+      "oldAccepted": true,
+      "newOffset": -3,
+      "newAccepted": true,
+      "sourceRelease": 22252,
+      "date": "2025-04-14",
+      "positionVisualInterval": [
+        -6,
+        1
+      ],
+      "uncertaintyM": 4,
+      "evidence": [
+        {
+          "path": "/data/shorelines/photo-alignment/coastal-audit-progreso-comparacion-fotografica-20261116/pares-2025-22252-03.jpg",
+          "sha256": "26faf001257f74b175f017d95465870df7ed715f90e3ba52de09c3df841d0db0"
+        }
+      ],
+      "metadata": {
+        "release": 22252,
+        "positionOffset": -3,
+        "url": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2026_r01/MapServer/6/query?f=json&where=MinMapLevel+%3C%3D+17+AND+MaxMapLevel+%3E%3D+17&geometryType=esriGeometryEnvelope&geometry=-89.67186655%2C21.28638143%2C-89.64312889%2C21.29008472&inSR=4326&outSR=4326&outFields=OBJECTID%2CSRC_DATE2%2CSRC_DESC%2CSAMP_RES%2CSRC_ACC%2CMinMapLevel%2CMaxMapLevel&returnGeometry=true",
+        "sha256": "36327e90a1290089176e37edf5dc424d52e8bee75ff94aa00511f5e63386c724",
+        "file": "huellas-22252-48613fc3fc7.json",
+        "checks": [
+          {
+            "delta_m": -3,
+            "date": "2025-04-14",
+            "sensor": "LG02"
+          },
+          {
+            "delta_m": 0,
+            "date": "2025-04-14",
+            "sensor": "LG02"
+          },
+          {
+            "delta_m": 3,
+            "date": "2025-04-14",
+            "sensor": "LG02"
+          }
+        ]
+      },
+      "equivalentMetadata": [
+        {
+          "release": 26334,
+          "positionOffset": -3,
+          "url": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2026_r07/MapServer/6/query?f=json&where=MinMapLevel+%3C%3D+17+AND+MaxMapLevel+%3E%3D+17&geometryType=esriGeometryEnvelope&geometry=-89.67186655%2C21.28638143%2C-89.64312889%2C21.29008472&inSR=4326&outSR=4326&outFields=OBJECTID%2CSRC_DATE2%2CSRC_DESC%2CSAMP_RES%2CSRC_ACC%2CMinMapLevel%2CMaxMapLevel&returnGeometry=true",
+          "sha256": "b7ddfb947d991b12851aa26caa3b1eee4f40f60d5553c36f629b4c6466164235",
+          "file": "huellas-26334-40d94f8525d.json",
+          "checks": [
+            {
+              "delta_m": -3,
+              "date": "2025-04-14",
+              "sensor": "LG02"
+            },
+            {
+              "delta_m": 0,
+              "date": "2025-04-14",
+              "sensor": "LG02"
+            },
+            {
+              "delta_m": 3,
+              "date": "2025-04-14",
+              "sensor": "LG02"
+            }
+          ]
+        },
+        {
+          "release": 52304,
+          "positionOffset": -3,
+          "url": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2025_r08/MapServer/6/query?f=json&where=MinMapLevel+%3C%3D+17+AND+MaxMapLevel+%3E%3D+17&geometryType=esriGeometryEnvelope&geometry=-89.67186655%2C21.28638143%2C-89.64312889%2C21.29008472&inSR=4326&outSR=4326&outFields=OBJECTID%2CSRC_DATE2%2CSRC_DESC%2CSAMP_RES%2CSRC_ACC%2CMinMapLevel%2CMaxMapLevel&returnGeometry=true",
+          "sha256": "c522d28aee5d3c378fb52f12296c8ed9fd84ceeaf56f3d9abdbd392ed7a7853c",
+          "file": "huellas-52304-3a6a99b19b4.json",
+          "checks": [
+            {
+              "delta_m": -3,
+              "date": "2025-04-14",
+              "sensor": "LG02"
+            },
+            {
+              "delta_m": 0,
+              "date": "2025-04-14",
+              "sensor": "LG02"
+            },
+            {
+              "delta_m": 3,
+              "date": "2025-04-14",
+              "sensor": "LG02"
+            }
+          ]
+        }
+      ],
+      "reason": "Se conserva la posición de 2011. En abril se observa una línea de arena continua inmediatamente al pie de la franja verde."
+    },
+    {
+      "profileId": "SC-89-0-22",
+      "capture": 198,
+      "oldOffset": 9,
+      "oldAccepted": true,
+      "newOffset": 6,
+      "newAccepted": true,
+      "sourceRelease": 22252,
+      "date": "2025-04-14",
+      "positionVisualInterval": [
+        2.5,
+        10
+      ],
+      "uncertaintyM": 4,
+      "evidence": [
+        {
+          "path": "/data/shorelines/photo-alignment/coastal-audit-progreso-comparacion-fotografica-20261116/pares-2025-22252-03.jpg",
+          "sha256": "26faf001257f74b175f017d95465870df7ed715f90e3ba52de09c3df841d0db0"
+        }
+      ],
+      "metadata": {
+        "release": 22252,
+        "positionOffset": 6,
+        "url": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2026_r01/MapServer/6/query?f=json&where=MinMapLevel+%3C%3D+17+AND+MaxMapLevel+%3E%3D+17&geometryType=esriGeometryEnvelope&geometry=-89.67186655%2C21.28638143%2C-89.64312889%2C21.29008472&inSR=4326&outSR=4326&outFields=OBJECTID%2CSRC_DATE2%2CSRC_DESC%2CSAMP_RES%2CSRC_ACC%2CMinMapLevel%2CMaxMapLevel&returnGeometry=true",
+        "sha256": "36327e90a1290089176e37edf5dc424d52e8bee75ff94aa00511f5e63386c724",
+        "file": "huellas-22252-48613fc3fc7.json",
+        "checks": [
+          {
+            "delta_m": -3,
+            "date": "2025-04-14",
+            "sensor": "LG02"
+          },
+          {
+            "delta_m": 0,
+            "date": "2025-04-14",
+            "sensor": "LG02"
+          },
+          {
+            "delta_m": 3,
+            "date": "2025-04-14",
+            "sensor": "LG02"
+          }
+        ]
+      },
+      "equivalentMetadata": [
+        {
+          "release": 26334,
+          "positionOffset": 6,
+          "url": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2026_r07/MapServer/6/query?f=json&where=MinMapLevel+%3C%3D+17+AND+MaxMapLevel+%3E%3D+17&geometryType=esriGeometryEnvelope&geometry=-89.67186655%2C21.28638143%2C-89.64312889%2C21.29008472&inSR=4326&outSR=4326&outFields=OBJECTID%2CSRC_DATE2%2CSRC_DESC%2CSAMP_RES%2CSRC_ACC%2CMinMapLevel%2CMaxMapLevel&returnGeometry=true",
+          "sha256": "b7ddfb947d991b12851aa26caa3b1eee4f40f60d5553c36f629b4c6466164235",
+          "file": "huellas-26334-40d94f8525d.json",
+          "checks": [
+            {
+              "delta_m": -3,
+              "date": "2025-04-14",
+              "sensor": "LG02"
+            },
+            {
+              "delta_m": 0,
+              "date": "2025-04-14",
+              "sensor": "LG02"
+            },
+            {
+              "delta_m": 3,
+              "date": "2025-04-14",
+              "sensor": "LG02"
+            }
+          ]
+        },
+        {
+          "release": 52304,
+          "positionOffset": 6,
+          "url": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2025_r08/MapServer/6/query?f=json&where=MinMapLevel+%3C%3D+17+AND+MaxMapLevel+%3E%3D+17&geometryType=esriGeometryEnvelope&geometry=-89.67186655%2C21.28638143%2C-89.64312889%2C21.29008472&inSR=4326&outSR=4326&outFields=OBJECTID%2CSRC_DATE2%2CSRC_DESC%2CSAMP_RES%2CSRC_ACC%2CMinMapLevel%2CMaxMapLevel&returnGeometry=true",
+          "sha256": "c522d28aee5d3c378fb52f12296c8ed9fd84ceeaf56f3d9abdbd392ed7a7853c",
+          "file": "huellas-52304-3a6a99b19b4.json",
+          "checks": [
+            {
+              "delta_m": -3,
+              "date": "2025-04-14",
+              "sensor": "LG02"
+            },
+            {
+              "delta_m": 0,
+              "date": "2025-04-14",
+              "sensor": "LG02"
+            },
+            {
+              "delta_m": 3,
+              "date": "2025-04-14",
+              "sensor": "LG02"
+            }
+          ]
+        }
+      ],
+      "reason": "La franja verde somera termina en arena continua antes de las viviendas. El punto queda en la misma normal."
+    },
+    {
+      "profileId": "SC-256-0-0",
+      "capture": 50,
+      "oldOffset": 5,
+      "oldAccepted": true,
+      "newOffset": 4,
+      "newAccepted": true,
+      "sourceRelease": 26334,
+      "date": "2026-02-07",
+      "positionVisualInterval": [
+        1,
+        7
+      ],
+      "uncertaintyM": 3,
+      "evidence": [
+        {
+          "path": "/data/shorelines/photo-alignment/coastal-audit-progreso-comparacion-fotografica-20261116/pares-2026-26334-01.jpg",
+          "sha256": "260cbc7e45792114bf3199d611dcf632ea12fa360af7d2ad83f8f1a58114d54f"
+        }
+      ],
+      "metadata": {
+        "release": 26334,
+        "positionOffset": 4,
+        "url": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2026_r07/MapServer/6/query?f=json&where=MinMapLevel+%3C%3D+17+AND+MaxMapLevel+%3E%3D+17&geometryType=esriGeometryEnvelope&geometry=-89.84464137%2C21.25070676%2C-89.84169581%2C21.25105097&inSR=4326&outSR=4326&outFields=OBJECTID%2CSRC_DATE2%2CSRC_DESC%2CSAMP_RES%2CSRC_ACC%2CMinMapLevel%2CMaxMapLevel&returnGeometry=true",
+        "sha256": "bde50d5155a20bad6d1e0b8f3b5210abd59bca7a9924da4f0ed3b4abf011a35e",
+        "file": "huellas-26334-573a671481d.json",
+        "checks": [
+          {
+            "delta_m": -3,
+            "date": "2026-02-07",
+            "sensor": "LG05"
+          },
+          {
+            "delta_m": 0,
+            "date": "2026-02-07",
+            "sensor": "LG05"
+          },
+          {
+            "delta_m": 3,
+            "date": "2026-02-07",
+            "sensor": "LG05"
+          }
+        ]
+      },
+      "reason": "La playa de Chuburná se reconoce como una banda continua en 2011 y 2026. El contacto se lee junto al extremo de la banda verde."
+    },
+    {
+      "profileId": "SC-256-0-1",
+      "capture": 50,
+      "oldOffset": 5,
+      "oldAccepted": true,
+      "newOffset": 4,
+      "newAccepted": true,
+      "sourceRelease": 26334,
+      "date": "2026-02-07",
+      "positionVisualInterval": [
+        0,
+        7
+      ],
+      "uncertaintyM": 4,
+      "evidence": [
+        {
+          "path": "/data/shorelines/photo-alignment/coastal-audit-progreso-comparacion-fotografica-20261116/pares-2026-26334-01.jpg",
+          "sha256": "260cbc7e45792114bf3199d611dcf632ea12fa360af7d2ad83f8f1a58114d54f"
+        }
+      ],
+      "metadata": {
+        "release": 26334,
+        "positionOffset": 4,
+        "url": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2026_r07/MapServer/6/query?f=json&where=MinMapLevel+%3C%3D+17+AND+MaxMapLevel+%3E%3D+17&geometryType=esriGeometryEnvelope&geometry=-89.84464137%2C21.25070676%2C-89.84169581%2C21.25105097&inSR=4326&outSR=4326&outFields=OBJECTID%2CSRC_DATE2%2CSRC_DESC%2CSAMP_RES%2CSRC_ACC%2CMinMapLevel%2CMaxMapLevel&returnGeometry=true",
+        "sha256": "bde50d5155a20bad6d1e0b8f3b5210abd59bca7a9924da4f0ed3b4abf011a35e",
+        "file": "huellas-26334-573a671481d.json",
+        "checks": [
+          {
+            "delta_m": -3,
+            "date": "2026-02-07",
+            "sensor": "LG05"
+          },
+          {
+            "delta_m": 0,
+            "date": "2026-02-07",
+            "sensor": "LG05"
+          },
+          {
+            "delta_m": 3,
+            "date": "2026-02-07",
+            "sensor": "LG05"
+          }
+        ]
+      },
+      "reason": "La orilla observada en la foto de 2026 se distingue de las bandas discontinuas en el agua. Se mantiene la referencia fotográfica de 2011."
+    },
+    {
+      "profileId": "SC-256-0-3",
+      "capture": 50,
+      "oldOffset": 2,
+      "oldAccepted": true,
+      "newOffset": 1,
+      "newAccepted": true,
+      "sourceRelease": 26334,
+      "date": "2026-02-07",
+      "positionVisualInterval": [
+        -3,
+        4
+      ],
+      "uncertaintyM": 4,
+      "evidence": [
+        {
+          "path": "/data/shorelines/photo-alignment/coastal-audit-progreso-comparacion-fotografica-20261116/pares-2026-26334-01.jpg",
+          "sha256": "260cbc7e45792114bf3199d611dcf632ea12fa360af7d2ad83f8f1a58114d54f"
+        }
+      ],
+      "metadata": {
+        "release": 26334,
+        "positionOffset": 1,
+        "url": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2026_r07/MapServer/6/query?f=json&where=MinMapLevel+%3C%3D+17+AND+MaxMapLevel+%3E%3D+17&geometryType=esriGeometryEnvelope&geometry=-89.84464137%2C21.25070676%2C-89.84169581%2C21.25105097&inSR=4326&outSR=4326&outFields=OBJECTID%2CSRC_DATE2%2CSRC_DESC%2CSAMP_RES%2CSRC_ACC%2CMinMapLevel%2CMaxMapLevel&returnGeometry=true",
+        "sha256": "bde50d5155a20bad6d1e0b8f3b5210abd59bca7a9924da4f0ed3b4abf011a35e",
+        "file": "huellas-26334-573a671481d.json",
+        "checks": [
+          {
+            "delta_m": -3,
+            "date": "2026-02-07",
+            "sensor": "LG05"
+          },
+          {
+            "delta_m": 0,
+            "date": "2026-02-07",
+            "sensor": "LG05"
+          },
+          {
+            "delta_m": 3,
+            "date": "2026-02-07",
+            "sensor": "LG05"
+          }
+        ]
+      },
+      "reason": "El borde claro de arena continúa lateralmente en la toma de 2026, con el contacto al pie de la banda verde."
+    },
+    {
+      "profileId": "SC-256-0-5",
+      "capture": 50,
+      "oldOffset": -5,
+      "oldAccepted": true,
+      "newOffset": -6,
+      "newAccepted": true,
+      "sourceRelease": 26334,
+      "date": "2026-02-07",
+      "positionVisualInterval": [
+        -9,
+        -3
+      ],
+      "uncertaintyM": 3,
+      "evidence": [
+        {
+          "path": "/data/shorelines/photo-alignment/coastal-audit-progreso-comparacion-fotografica-20261116/pares-2026-26334-01.jpg",
+          "sha256": "260cbc7e45792114bf3199d611dcf632ea12fa360af7d2ad83f8f1a58114d54f"
+        }
+      ],
+      "metadata": {
+        "release": 26334,
+        "positionOffset": -6,
+        "url": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2026_r07/MapServer/6/query?f=json&where=MinMapLevel+%3C%3D+17+AND+MaxMapLevel+%3E%3D+17&geometryType=esriGeometryEnvelope&geometry=-89.83994714%2C21.25104648%2C-89.82692118%2C21.25298721&inSR=4326&outSR=4326&outFields=OBJECTID%2CSRC_DATE2%2CSRC_DESC%2CSAMP_RES%2CSRC_ACC%2CMinMapLevel%2CMaxMapLevel&returnGeometry=true",
+        "sha256": "bde50d5155a20bad6d1e0b8f3b5210abd59bca7a9924da4f0ed3b4abf011a35e",
+        "file": "huellas-26334-0c1b01dfad0.json",
+        "checks": [
+          {
+            "delta_m": -3,
+            "date": "2026-02-07",
+            "sensor": "LG05"
+          },
+          {
+            "delta_m": 0,
+            "date": "2026-02-07",
+            "sensor": "LG05"
+          },
+          {
+            "delta_m": 3,
+            "date": "2026-02-07",
+            "sensor": "LG05"
+          }
+        ]
+      },
+      "reason": "La arena continua comienza junto al agua verdosa. El borde de 2011 se ve en la misma normal."
+    },
+    {
+      "profileId": "SC-256-0-6",
+      "capture": 50,
+      "oldOffset": -4,
+      "oldAccepted": true,
+      "newOffset": -5,
+      "newAccepted": true,
+      "sourceRelease": 26334,
+      "date": "2026-02-07",
+      "positionVisualInterval": [
+        -9,
+        -2
+      ],
+      "uncertaintyM": 4,
+      "evidence": [
+        {
+          "path": "/data/shorelines/photo-alignment/coastal-audit-progreso-comparacion-fotografica-20261116/pares-2026-26334-01.jpg",
+          "sha256": "260cbc7e45792114bf3199d611dcf632ea12fa360af7d2ad83f8f1a58114d54f"
+        }
+      ],
+      "metadata": {
+        "release": 26334,
+        "positionOffset": -5,
+        "url": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2026_r07/MapServer/6/query?f=json&where=MinMapLevel+%3C%3D+17+AND+MaxMapLevel+%3E%3D+17&geometryType=esriGeometryEnvelope&geometry=-89.83994714%2C21.25104648%2C-89.82692118%2C21.25298721&inSR=4326&outSR=4326&outFields=OBJECTID%2CSRC_DATE2%2CSRC_DESC%2CSAMP_RES%2CSRC_ACC%2CMinMapLevel%2CMaxMapLevel&returnGeometry=true",
+        "sha256": "bde50d5155a20bad6d1e0b8f3b5210abd59bca7a9924da4f0ed3b4abf011a35e",
+        "file": "huellas-26334-0c1b01dfad0.json",
+        "checks": [
+          {
+            "delta_m": -3,
+            "date": "2026-02-07",
+            "sensor": "LG05"
+          },
+          {
+            "delta_m": 0,
+            "date": "2026-02-07",
+            "sensor": "LG05"
+          },
+          {
+            "delta_m": 3,
+            "date": "2026-02-07",
+            "sensor": "LG05"
+          }
+        ]
+      },
+      "reason": "La comparación de 2011 y 2026 permite separar en el eje la playa continua de las tonalidades someras del mar."
+    },
+    {
+      "profileId": "SC-256-0-16",
+      "capture": 13,
+      "oldOffset": 32,
+      "oldAccepted": false,
+      "newOffset": 23.5,
+      "newAccepted": true,
+      "sourceRelease": 17825,
+      "date": "2020-12-30",
+      "positionVisualInterval": [
+        19.5,
+        27
+      ],
+      "uncertaintyM": 4,
+      "evidence": [
+        {
+          "path": "/data/shorelines/photo-alignment/coastal-audit-progreso-comparacion-fotografica-20261116/pares-2020-17825-01.jpg",
+          "sha256": "6b9d66657f3dc4755057966aaef1816e1dfb0a80f69e0921d6181bc692a267a4"
+        }
+      ],
+      "metadata": {
+        "release": 17825,
+        "positionOffset": 23.5,
+        "url": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2022_r10/MapServer/6/query?f=json&where=MinMapLevel+%3C%3D+17+AND+MaxMapLevel+%3E%3D+17&geometryType=esriGeometryEnvelope&geometry=-89.82969210%2C21.25251894%2C-89.82956998%2C21.25269280&inSR=4326&outSR=4326&outFields=OBJECTID%2CSRC_DATE2%2CSRC_DESC%2CSAMP_RES%2CSRC_ACC%2CMinMapLevel%2CMaxMapLevel&returnGeometry=true",
+        "sha256": "e047dd673feac830f4c9ad5b57f8cf6bf164ef65b02e1f42350f987f4de6d4d3",
+        "file": "huellas-17825-6c4082f3faa.json",
+        "checks": [
+          {
+            "delta_m": -3,
+            "date": "2020-12-30",
+            "sensor": "WV02"
+          },
+          {
+            "delta_m": 0,
+            "date": "2020-12-30",
+            "sensor": "WV02"
+          },
+          {
+            "delta_m": 3,
+            "date": "2020-12-30",
+            "sensor": "WV02"
+          }
+        ]
+      },
+      "equivalentMetadata": [
+        {
+          "release": 10321,
+          "positionOffset": 23.5,
+          "url": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2022_r03/MapServer/6/query?f=json&where=MinMapLevel+%3C%3D+17+AND+MaxMapLevel+%3E%3D+17&geometryType=esriGeometryEnvelope&geometry=-89.82969210%2C21.25251894%2C-89.82956998%2C21.25269280&inSR=4326&outSR=4326&outFields=OBJECTID%2CSRC_DATE2%2CSRC_DESC%2CSAMP_RES%2CSRC_ACC%2CMinMapLevel%2CMaxMapLevel&returnGeometry=true",
+          "sha256": "ac23fa73ed9e02d43e66f0ec130eae04cb55e6f4bc4fde468f2539b7d59c3197",
+          "file": "huellas-10321-d268b9436b8.json",
+          "checks": [
+            {
+              "delta_m": -3,
+              "date": "2020-12-30",
+              "sensor": "WV02"
+            },
+            {
+              "delta_m": 0,
+              "date": "2020-12-30",
+              "sensor": "WV02"
+            },
+            {
+              "delta_m": 3,
+              "date": "2020-12-30",
+              "sensor": "WV02"
+            }
+          ]
+        },
+        {
+          "release": 16749,
+          "positionOffset": 23.5,
+          "url": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2021_r14/MapServer/6/query?f=json&where=MinMapLevel+%3C%3D+17+AND+MaxMapLevel+%3E%3D+17&geometryType=esriGeometryEnvelope&geometry=-89.82969210%2C21.25251894%2C-89.82956998%2C21.25269280&inSR=4326&outSR=4326&outFields=OBJECTID%2CSRC_DATE2%2CSRC_DESC%2CSAMP_RES%2CSRC_ACC%2CMinMapLevel%2CMaxMapLevel&returnGeometry=true",
+          "sha256": "de63e27a030b6bcd679e03ba6e6a08c485903605fcd6514a63d6ecbccea7635c",
+          "file": "huellas-16749-b4f1eb7510d.json",
+          "checks": [
+            {
+              "delta_m": -3,
+              "date": "2020-12-30",
+              "sensor": "WV02"
+            },
+            {
+              "delta_m": 0,
+              "date": "2020-12-30",
+              "sensor": "WV02"
+            },
+            {
+              "delta_m": 3,
+              "date": "2020-12-30",
+              "sensor": "WV02"
+            }
+          ]
+        }
+      ],
+      "reason": "La franja clara situada más allá del borde anterior es agua somera; el cruce se ubica en el inicio de la arena continua."
+    },
+    {
+      "profileId": "SC-187-0-0",
+      "capture": 13,
+      "oldOffset": 12,
+      "oldAccepted": false,
+      "newOffset": 11,
+      "newAccepted": true,
+      "sourceRelease": 17825,
+      "date": "2020-12-30",
+      "positionVisualInterval": [
+        7,
+        14
+      ],
+      "uncertaintyM": 4,
+      "evidence": [
+        {
+          "path": "/data/shorelines/photo-alignment/coastal-audit-progreso-comparacion-fotografica-20261116/pares-2020-17825-01.jpg",
+          "sha256": "6b9d66657f3dc4755057966aaef1816e1dfb0a80f69e0921d6181bc692a267a4"
+        }
+      ],
+      "metadata": {
+        "release": 17825,
+        "positionOffset": 11,
+        "url": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2022_r10/MapServer/6/query?f=json&where=MinMapLevel+%3C%3D+17+AND+MaxMapLevel+%3E%3D+17&geometryType=esriGeometryEnvelope&geometry=-89.79361273%2C21.25929812%2C-89.79348209%2C21.25947110&inSR=4326&outSR=4326&outFields=OBJECTID%2CSRC_DATE2%2CSRC_DESC%2CSAMP_RES%2CSRC_ACC%2CMinMapLevel%2CMaxMapLevel&returnGeometry=true",
+        "sha256": "e047dd673feac830f4c9ad5b57f8cf6bf164ef65b02e1f42350f987f4de6d4d3",
+        "file": "huellas-17825-b1ff6695749.json",
+        "checks": [
+          {
+            "delta_m": -3,
+            "date": "2020-12-30",
+            "sensor": "WV02"
+          },
+          {
+            "delta_m": 0,
+            "date": "2020-12-30",
+            "sensor": "WV02"
+          },
+          {
+            "delta_m": 3,
+            "date": "2020-12-30",
+            "sensor": "WV02"
+          }
+        ]
+      },
+      "equivalentMetadata": [
+        {
+          "release": 10321,
+          "positionOffset": 11,
+          "url": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2022_r03/MapServer/6/query?f=json&where=MinMapLevel+%3C%3D+17+AND+MaxMapLevel+%3E%3D+17&geometryType=esriGeometryEnvelope&geometry=-89.79361273%2C21.25929812%2C-89.79348209%2C21.25947110&inSR=4326&outSR=4326&outFields=OBJECTID%2CSRC_DATE2%2CSRC_DESC%2CSAMP_RES%2CSRC_ACC%2CMinMapLevel%2CMaxMapLevel&returnGeometry=true",
+          "sha256": "ac23fa73ed9e02d43e66f0ec130eae04cb55e6f4bc4fde468f2539b7d59c3197",
+          "file": "huellas-10321-81e55040854.json",
+          "checks": [
+            {
+              "delta_m": -3,
+              "date": "2020-12-30",
+              "sensor": "WV02"
+            },
+            {
+              "delta_m": 0,
+              "date": "2020-12-30",
+              "sensor": "WV02"
+            },
+            {
+              "delta_m": 3,
+              "date": "2020-12-30",
+              "sensor": "WV02"
+            }
+          ]
+        },
+        {
+          "release": 16749,
+          "positionOffset": 11,
+          "url": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2021_r14/MapServer/6/query?f=json&where=MinMapLevel+%3C%3D+17+AND+MaxMapLevel+%3E%3D+17&geometryType=esriGeometryEnvelope&geometry=-89.79361273%2C21.25929812%2C-89.79348209%2C21.25947110&inSR=4326&outSR=4326&outFields=OBJECTID%2CSRC_DATE2%2CSRC_DESC%2CSAMP_RES%2CSRC_ACC%2CMinMapLevel%2CMaxMapLevel&returnGeometry=true",
+          "sha256": "de63e27a030b6bcd679e03ba6e6a08c485903605fcd6514a63d6ecbccea7635c",
+          "file": "huellas-16749-8f632d19949.json",
+          "checks": [
+            {
+              "delta_m": -3,
+              "date": "2020-12-30",
+              "sensor": "WV02"
+            },
+            {
+              "delta_m": 0,
+              "date": "2020-12-30",
+              "sensor": "WV02"
+            },
+            {
+              "delta_m": 3,
+              "date": "2020-12-30",
+              "sensor": "WV02"
+            }
+          ]
+        }
+      ],
+      "reason": "El borde continuo de la playa pasa entre estructuras. Se coteja con la franja visible en 2011."
+    },
+    {
+      "profileId": "SC-90-0-13",
+      "capture": 202,
+      "oldOffset": -28,
+      "oldAccepted": false,
+      "newOffset": -31,
+      "newAccepted": true,
+      "sourceRelease": 17825,
+      "date": "2020-06-07",
+      "positionVisualInterval": [
+        -34.5,
+        -27
+      ],
+      "uncertaintyM": 4,
+      "evidence": [
+        {
+          "path": "/data/shorelines/photo-alignment/coastal-audit-progreso-comparacion-fotografica-20261116/pares-2020-17825-01.jpg",
+          "sha256": "6b9d66657f3dc4755057966aaef1816e1dfb0a80f69e0921d6181bc692a267a4"
+        }
+      ],
+      "metadata": {
+        "release": 17825,
+        "positionOffset": -31,
+        "url": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2022_r10/MapServer/6/query?f=json&where=MinMapLevel+%3C%3D+17+AND+MaxMapLevel+%3E%3D+17&geometryType=esriGeometryEnvelope&geometry=-89.68758960%2C21.28237790%2C-89.68746310%2C21.28255146&inSR=4326&outSR=4326&outFields=OBJECTID%2CSRC_DATE2%2CSRC_DESC%2CSAMP_RES%2CSRC_ACC%2CMinMapLevel%2CMaxMapLevel&returnGeometry=true",
+        "sha256": "6751bb22320ceeea01fb666de1dfa55454365b68a1c9163b3abd683d2cbb590c",
+        "file": "huellas-17825-f20e66d3847.json",
+        "checks": [
+          {
+            "delta_m": -3,
+            "date": "2020-06-07",
+            "sensor": "WV02"
+          },
+          {
+            "delta_m": 0,
+            "date": "2020-06-07",
+            "sensor": "WV02"
+          },
+          {
+            "delta_m": 3,
+            "date": "2020-06-07",
+            "sensor": "WV02"
+          }
+        ]
+      },
+      "equivalentMetadata": [
+        {
+          "release": 10321,
+          "positionOffset": -31,
+          "url": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2022_r03/MapServer/6/query?f=json&where=MinMapLevel+%3C%3D+17+AND+MaxMapLevel+%3E%3D+17&geometryType=esriGeometryEnvelope&geometry=-89.68758960%2C21.28237790%2C-89.68746310%2C21.28255146&inSR=4326&outSR=4326&outFields=OBJECTID%2CSRC_DATE2%2CSRC_DESC%2CSAMP_RES%2CSRC_ACC%2CMinMapLevel%2CMaxMapLevel&returnGeometry=true",
+          "sha256": "36ffae3947a8687a67d3653b3d0c8d5d55e54049765f0d8dac664b5c05213bee",
+          "file": "huellas-10321-523dfc190dc.json",
+          "checks": [
+            {
+              "delta_m": -3,
+              "date": "2020-06-07",
+              "sensor": "WV02"
+            },
+            {
+              "delta_m": 0,
+              "date": "2020-06-07",
+              "sensor": "WV02"
+            },
+            {
+              "delta_m": 3,
+              "date": "2020-06-07",
+              "sensor": "WV02"
+            }
+          ]
+        },
+        {
+          "release": 16749,
+          "positionOffset": -31,
+          "url": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2021_r14/MapServer/6/query?f=json&where=MinMapLevel+%3C%3D+17+AND+MaxMapLevel+%3E%3D+17&geometryType=esriGeometryEnvelope&geometry=-89.68758960%2C21.28237790%2C-89.68746310%2C21.28255146&inSR=4326&outSR=4326&outFields=OBJECTID%2CSRC_DATE2%2CSRC_DESC%2CSAMP_RES%2CSRC_ACC%2CMinMapLevel%2CMaxMapLevel&returnGeometry=true",
+          "sha256": "9bb435082f879faeba1c4bf29e5235b06c6fec0bb08cba5274590a64a3bacdc6",
+          "file": "huellas-16749-76afe98089c.json",
+          "checks": [
+            {
+              "delta_m": -3,
+              "date": "2020-06-07",
+              "sensor": "WV02"
+            },
+            {
+              "delta_m": 0,
+              "date": "2020-06-07",
+              "sensor": "WV02"
+            },
+            {
+              "delta_m": 3,
+              "date": "2020-06-07",
+              "sensor": "WV02"
+            }
+          ]
+        }
+      ],
+      "reason": "La primera franja continua de arena húmeda en la toma de junio se separa del agua somera por una transición continua."
+    },
+    {
+      "profileId": "SC-95-0-2",
+      "capture": 219,
+      "oldOffset": -5,
+      "oldAccepted": true,
+      "newOffset": -7,
+      "newAccepted": true,
+      "sourceRelease": 25285,
+      "date": "2023-09-21",
+      "positionVisualInterval": [
+        -10.5,
+        -4
+      ],
+      "uncertaintyM": 3.5,
+      "evidence": [
+        {
+          "path": "/data/shorelines/photo-alignment/coastal-audit-progreso-comparacion-fotografica-20261116/pares-2023-25285-02.jpg",
+          "sha256": "c9bf148f4e2ff6f77b20eae9dd61d459a05d761cd0f200e959d65f0aa4694759"
+        }
+      ],
+      "metadata": {
+        "release": 25285,
+        "positionOffset": -7,
+        "url": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2025_r05/MapServer/6/query?f=json&where=MinMapLevel+%3C%3D+17+AND+MaxMapLevel+%3E%3D+17&geometryType=esriGeometryEnvelope&geometry=-89.70964657%2C21.27858317%2C-89.68653353%2C21.28283426&inSR=4326&outSR=4326&outFields=OBJECTID%2CSRC_DATE2%2CSRC_DESC%2CSAMP_RES%2CSRC_ACC%2CMinMapLevel%2CMaxMapLevel&returnGeometry=true",
+        "sha256": "a346212826186b88b941f1259ba5019098f6e520f722cabaea032f4ae0cc6d88",
+        "file": "huellas-25285-6a72ac821eb.json",
+        "checks": [
+          {
+            "delta_m": -3,
+            "date": "2023-09-21",
+            "sensor": "WV02"
+          },
+          {
+            "delta_m": 0,
+            "date": "2023-09-21",
+            "sensor": "WV02"
+          },
+          {
+            "delta_m": 3,
+            "date": "2023-09-21",
+            "sensor": "WV02"
+          }
+        ]
+      },
+      "equivalentMetadata": [
+        {
+          "release": 22252,
+          "positionOffset": -7,
+          "url": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2026_r01/MapServer/6/query?f=json&where=MinMapLevel+%3C%3D+17+AND+MaxMapLevel+%3E%3D+17&geometryType=esriGeometryEnvelope&geometry=-89.70964657%2C21.27858317%2C-89.68653353%2C21.28283426&inSR=4326&outSR=4326&outFields=OBJECTID%2CSRC_DATE2%2CSRC_DESC%2CSAMP_RES%2CSRC_ACC%2CMinMapLevel%2CMaxMapLevel&returnGeometry=true",
+          "sha256": "343de04c23175cdc306c6497600187ad07c0e377ec2053c95cbb663913e158cc",
+          "file": "huellas-22252-44c93a9d21e.json",
+          "checks": [
+            {
+              "delta_m": -3,
+              "date": "2023-09-21",
+              "sensor": "WV02"
+            },
+            {
+              "delta_m": 0,
+              "date": "2023-09-21",
+              "sensor": "WV02"
+            },
+            {
+              "delta_m": 3,
+              "date": "2023-09-21",
+              "sensor": "WV02"
+            }
+          ]
+        },
+        {
+          "release": 26334,
+          "positionOffset": -7,
+          "url": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2026_r07/MapServer/6/query?f=json&where=MinMapLevel+%3C%3D+17+AND+MaxMapLevel+%3E%3D+17&geometryType=esriGeometryEnvelope&geometry=-89.70964657%2C21.27858317%2C-89.68653353%2C21.28283426&inSR=4326&outSR=4326&outFields=OBJECTID%2CSRC_DATE2%2CSRC_DESC%2CSAMP_RES%2CSRC_ACC%2CMinMapLevel%2CMaxMapLevel&returnGeometry=true",
+          "sha256": "8e4f9e29d6aef6f189b864062bda5134392c20fc227e8027c7ceb8baacaa436f",
+          "file": "huellas-26334-15bb988e3a4.json",
+          "checks": [
+            {
+              "delta_m": -3,
+              "date": "2023-09-21",
+              "sensor": "WV02"
+            },
+            {
+              "delta_m": 0,
+              "date": "2023-09-21",
+              "sensor": "WV02"
+            },
+            {
+              "delta_m": 3,
+              "date": "2023-09-21",
+              "sensor": "WV02"
+            }
+          ]
+        }
+      ],
+      "reason": "El contacto con arena está en el pie de la franja somera. Se conservan únicamente los metros entre las dos orillas visibles."
+    },
+    {
+      "profileId": "SC-95-0-4",
+      "capture": 219,
+      "oldOffset": -10,
+      "oldAccepted": true,
+      "newOffset": -11,
+      "newAccepted": true,
+      "sourceRelease": 25285,
+      "date": "2023-09-21",
+      "positionVisualInterval": [
+        -15,
+        -8
+      ],
+      "uncertaintyM": 4,
+      "evidence": [
+        {
+          "path": "/data/shorelines/photo-alignment/coastal-audit-progreso-comparacion-fotografica-20261116/pares-2023-25285-02.jpg",
+          "sha256": "c9bf148f4e2ff6f77b20eae9dd61d459a05d761cd0f200e959d65f0aa4694759"
+        }
+      ],
+      "metadata": {
+        "release": 25285,
+        "positionOffset": -11,
+        "url": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2025_r05/MapServer/6/query?f=json&where=MinMapLevel+%3C%3D+17+AND+MaxMapLevel+%3E%3D+17&geometryType=esriGeometryEnvelope&geometry=-89.70964657%2C21.27858317%2C-89.68653353%2C21.28283426&inSR=4326&outSR=4326&outFields=OBJECTID%2CSRC_DATE2%2CSRC_DESC%2CSAMP_RES%2CSRC_ACC%2CMinMapLevel%2CMaxMapLevel&returnGeometry=true",
+        "sha256": "a346212826186b88b941f1259ba5019098f6e520f722cabaea032f4ae0cc6d88",
+        "file": "huellas-25285-6a72ac821eb.json",
+        "checks": [
+          {
+            "delta_m": -3,
+            "date": "2023-09-21",
+            "sensor": "WV02"
+          },
+          {
+            "delta_m": 0,
+            "date": "2023-09-21",
+            "sensor": "WV02"
+          },
+          {
+            "delta_m": 3,
+            "date": "2023-09-21",
+            "sensor": "WV02"
+          }
+        ]
+      },
+      "equivalentMetadata": [
+        {
+          "release": 22252,
+          "positionOffset": -11,
+          "url": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2026_r01/MapServer/6/query?f=json&where=MinMapLevel+%3C%3D+17+AND+MaxMapLevel+%3E%3D+17&geometryType=esriGeometryEnvelope&geometry=-89.70964657%2C21.27858317%2C-89.68653353%2C21.28283426&inSR=4326&outSR=4326&outFields=OBJECTID%2CSRC_DATE2%2CSRC_DESC%2CSAMP_RES%2CSRC_ACC%2CMinMapLevel%2CMaxMapLevel&returnGeometry=true",
+          "sha256": "343de04c23175cdc306c6497600187ad07c0e377ec2053c95cbb663913e158cc",
+          "file": "huellas-22252-44c93a9d21e.json",
+          "checks": [
+            {
+              "delta_m": -3,
+              "date": "2023-09-21",
+              "sensor": "WV02"
+            },
+            {
+              "delta_m": 0,
+              "date": "2023-09-21",
+              "sensor": "WV02"
+            },
+            {
+              "delta_m": 3,
+              "date": "2023-09-21",
+              "sensor": "WV02"
+            }
+          ]
+        },
+        {
+          "release": 26334,
+          "positionOffset": -11,
+          "url": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2026_r07/MapServer/6/query?f=json&where=MinMapLevel+%3C%3D+17+AND+MaxMapLevel+%3E%3D+17&geometryType=esriGeometryEnvelope&geometry=-89.70964657%2C21.27858317%2C-89.68653353%2C21.28283426&inSR=4326&outSR=4326&outFields=OBJECTID%2CSRC_DATE2%2CSRC_DESC%2CSAMP_RES%2CSRC_ACC%2CMinMapLevel%2CMaxMapLevel&returnGeometry=true",
+          "sha256": "8e4f9e29d6aef6f189b864062bda5134392c20fc227e8027c7ceb8baacaa436f",
+          "file": "huellas-26334-15bb988e3a4.json",
+          "checks": [
+            {
+              "delta_m": -3,
+              "date": "2023-09-21",
+              "sensor": "WV02"
+            },
+            {
+              "delta_m": 0,
+              "date": "2023-09-21",
+              "sensor": "WV02"
+            },
+            {
+              "delta_m": 3,
+              "date": "2023-09-21",
+              "sensor": "WV02"
+            }
+          ]
+        }
+      ],
+      "reason": "El límite entre agua somera y arena se distingue antes de la estructura lateral y el borde de las construcciones."
+    },
+    {
+      "profileId": "SC-94-0-1",
+      "capture": 219,
+      "oldOffset": 0,
+      "oldAccepted": true,
+      "newOffset": 0,
+      "newAccepted": true,
+      "sourceRelease": 25285,
+      "date": "2023-09-21",
+      "positionVisualInterval": [
+        -4,
+        3
+      ],
+      "uncertaintyM": 4,
+      "evidence": [
+        {
+          "path": "/data/shorelines/photo-alignment/coastal-audit-progreso-comparacion-fotografica-20261116/pares-2023-25285-02.jpg",
+          "sha256": "c9bf148f4e2ff6f77b20eae9dd61d459a05d761cd0f200e959d65f0aa4694759"
+        }
+      ],
+      "metadata": {
+        "release": 25285,
+        "positionOffset": 0,
+        "url": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2025_r05/MapServer/6/query?f=json&where=MinMapLevel+%3C%3D+17+AND+MaxMapLevel+%3E%3D+17&geometryType=esriGeometryEnvelope&geometry=-89.70964657%2C21.27858317%2C-89.68653353%2C21.28283426&inSR=4326&outSR=4326&outFields=OBJECTID%2CSRC_DATE2%2CSRC_DESC%2CSAMP_RES%2CSRC_ACC%2CMinMapLevel%2CMaxMapLevel&returnGeometry=true",
+        "sha256": "a346212826186b88b941f1259ba5019098f6e520f722cabaea032f4ae0cc6d88",
+        "file": "huellas-25285-6a72ac821eb.json",
+        "checks": [
+          {
+            "delta_m": -3,
+            "date": "2023-09-21",
+            "sensor": "WV02"
+          },
+          {
+            "delta_m": 0,
+            "date": "2023-09-21",
+            "sensor": "WV02"
+          },
+          {
+            "delta_m": 3,
+            "date": "2023-09-21",
+            "sensor": "WV02"
+          }
+        ]
+      },
+      "equivalentMetadata": [
+        {
+          "release": 22252,
+          "positionOffset": 0,
+          "url": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2026_r01/MapServer/6/query?f=json&where=MinMapLevel+%3C%3D+17+AND+MaxMapLevel+%3E%3D+17&geometryType=esriGeometryEnvelope&geometry=-89.70964657%2C21.27858317%2C-89.68653353%2C21.28283426&inSR=4326&outSR=4326&outFields=OBJECTID%2CSRC_DATE2%2CSRC_DESC%2CSAMP_RES%2CSRC_ACC%2CMinMapLevel%2CMaxMapLevel&returnGeometry=true",
+          "sha256": "343de04c23175cdc306c6497600187ad07c0e377ec2053c95cbb663913e158cc",
+          "file": "huellas-22252-44c93a9d21e.json",
+          "checks": [
+            {
+              "delta_m": -3,
+              "date": "2023-09-21",
+              "sensor": "WV02"
+            },
+            {
+              "delta_m": 0,
+              "date": "2023-09-21",
+              "sensor": "WV02"
+            },
+            {
+              "delta_m": 3,
+              "date": "2023-09-21",
+              "sensor": "WV02"
+            }
+          ]
+        },
+        {
+          "release": 26334,
+          "positionOffset": 0,
+          "url": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2026_r07/MapServer/6/query?f=json&where=MinMapLevel+%3C%3D+17+AND+MaxMapLevel+%3E%3D+17&geometryType=esriGeometryEnvelope&geometry=-89.70964657%2C21.27858317%2C-89.68653353%2C21.28283426&inSR=4326&outSR=4326&outFields=OBJECTID%2CSRC_DATE2%2CSRC_DESC%2CSAMP_RES%2CSRC_ACC%2CMinMapLevel%2CMaxMapLevel&returnGeometry=true",
+          "sha256": "8e4f9e29d6aef6f189b864062bda5134392c20fc227e8027c7ceb8baacaa436f",
+          "file": "huellas-26334-15bb988e3a4.json",
+          "checks": [
+            {
+              "delta_m": -3,
+              "date": "2023-09-21",
+              "sensor": "WV02"
+            },
+            {
+              "delta_m": 0,
+              "date": "2023-09-21",
+              "sensor": "WV02"
+            },
+            {
+              "delta_m": 3,
+              "date": "2023-09-21",
+              "sensor": "WV02"
+            }
+          ]
+        }
+      ],
+      "reason": "Hay arena continua debajo de la transición clara. El cruce sigue la línea de playa y no la estructura cercana."
+    },
+    {
+      "profileId": "SC-90-0-7",
+      "capture": 219,
+      "oldOffset": -4,
+      "oldAccepted": true,
+      "newOffset": -9,
+      "newAccepted": true,
+      "sourceRelease": 25285,
+      "date": "2023-09-21",
+      "positionVisualInterval": [
+        -12.5,
+        -6
+      ],
+      "uncertaintyM": 3.5,
+      "evidence": [
+        {
+          "path": "/data/shorelines/photo-alignment/coastal-audit-progreso-comparacion-fotografica-20261116/pares-2023-25285-02.jpg",
+          "sha256": "c9bf148f4e2ff6f77b20eae9dd61d459a05d761cd0f200e959d65f0aa4694759"
+        }
+      ],
+      "metadata": {
+        "release": 25285,
+        "positionOffset": -9,
+        "url": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2025_r05/MapServer/6/query?f=json&where=MinMapLevel+%3C%3D+17+AND+MaxMapLevel+%3E%3D+17&geometryType=esriGeometryEnvelope&geometry=-89.70964657%2C21.27858317%2C-89.68653353%2C21.28283426&inSR=4326&outSR=4326&outFields=OBJECTID%2CSRC_DATE2%2CSRC_DESC%2CSAMP_RES%2CSRC_ACC%2CMinMapLevel%2CMaxMapLevel&returnGeometry=true",
+        "sha256": "a346212826186b88b941f1259ba5019098f6e520f722cabaea032f4ae0cc6d88",
+        "file": "huellas-25285-6a72ac821eb.json",
+        "checks": [
+          {
+            "delta_m": -3,
+            "date": "2023-09-21",
+            "sensor": "WV02"
+          },
+          {
+            "delta_m": 0,
+            "date": "2023-09-21",
+            "sensor": "WV02"
+          },
+          {
+            "delta_m": 3,
+            "date": "2023-09-21",
+            "sensor": "WV02"
+          }
+        ]
+      },
+      "equivalentMetadata": [
+        {
+          "release": 22252,
+          "positionOffset": -9,
+          "url": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2026_r01/MapServer/6/query?f=json&where=MinMapLevel+%3C%3D+17+AND+MaxMapLevel+%3E%3D+17&geometryType=esriGeometryEnvelope&geometry=-89.70964657%2C21.27858317%2C-89.68653353%2C21.28283426&inSR=4326&outSR=4326&outFields=OBJECTID%2CSRC_DATE2%2CSRC_DESC%2CSAMP_RES%2CSRC_ACC%2CMinMapLevel%2CMaxMapLevel&returnGeometry=true",
+          "sha256": "343de04c23175cdc306c6497600187ad07c0e377ec2053c95cbb663913e158cc",
+          "file": "huellas-22252-44c93a9d21e.json",
+          "checks": [
+            {
+              "delta_m": -3,
+              "date": "2023-09-21",
+              "sensor": "WV02"
+            },
+            {
+              "delta_m": 0,
+              "date": "2023-09-21",
+              "sensor": "WV02"
+            },
+            {
+              "delta_m": 3,
+              "date": "2023-09-21",
+              "sensor": "WV02"
+            }
+          ]
+        },
+        {
+          "release": 26334,
+          "positionOffset": -9,
+          "url": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2026_r07/MapServer/6/query?f=json&where=MinMapLevel+%3C%3D+17+AND+MaxMapLevel+%3E%3D+17&geometryType=esriGeometryEnvelope&geometry=-89.70964657%2C21.27858317%2C-89.68653353%2C21.28283426&inSR=4326&outSR=4326&outFields=OBJECTID%2CSRC_DATE2%2CSRC_DESC%2CSAMP_RES%2CSRC_ACC%2CMinMapLevel%2CMaxMapLevel&returnGeometry=true",
+          "sha256": "8e4f9e29d6aef6f189b864062bda5134392c20fc227e8027c7ceb8baacaa436f",
+          "file": "huellas-26334-15bb988e3a4.json",
+          "checks": [
+            {
+              "delta_m": -3,
+              "date": "2023-09-21",
+              "sensor": "WV02"
+            },
+            {
+              "delta_m": 0,
+              "date": "2023-09-21",
+              "sensor": "WV02"
+            },
+            {
+              "delta_m": 3,
+              "date": "2023-09-21",
+              "sensor": "WV02"
+            }
+          ]
+        }
+      ],
+      "reason": "La orilla de 2023 es el borde marino de la franja clara continua hacia el este de Yucalpetén."
+    },
+    {
+      "profileId": "SC-90-0-12",
+      "capture": 219,
+      "oldOffset": -13,
+      "oldAccepted": true,
+      "newOffset": -18.5,
+      "newAccepted": true,
+      "sourceRelease": 25285,
+      "date": "2023-09-21",
+      "positionVisualInterval": [
+        -22.5,
+        -16
+      ],
+      "uncertaintyM": 4,
+      "evidence": [
+        {
+          "path": "/data/shorelines/photo-alignment/coastal-audit-progreso-comparacion-fotografica-20261116/pares-2023-25285-02.jpg",
+          "sha256": "c9bf148f4e2ff6f77b20eae9dd61d459a05d761cd0f200e959d65f0aa4694759"
+        }
+      ],
+      "metadata": {
+        "release": 25285,
+        "positionOffset": -18.5,
+        "url": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2025_r05/MapServer/6/query?f=json&where=MinMapLevel+%3C%3D+17+AND+MaxMapLevel+%3E%3D+17&geometryType=esriGeometryEnvelope&geometry=-89.70964657%2C21.27858317%2C-89.68653353%2C21.28283426&inSR=4326&outSR=4326&outFields=OBJECTID%2CSRC_DATE2%2CSRC_DESC%2CSAMP_RES%2CSRC_ACC%2CMinMapLevel%2CMaxMapLevel&returnGeometry=true",
+        "sha256": "a346212826186b88b941f1259ba5019098f6e520f722cabaea032f4ae0cc6d88",
+        "file": "huellas-25285-6a72ac821eb.json",
+        "checks": [
+          {
+            "delta_m": -3,
+            "date": "2023-09-21",
+            "sensor": "WV02"
+          },
+          {
+            "delta_m": 0,
+            "date": "2023-09-21",
+            "sensor": "WV02"
+          },
+          {
+            "delta_m": 3,
+            "date": "2023-09-21",
+            "sensor": "WV02"
+          }
+        ]
+      },
+      "equivalentMetadata": [
+        {
+          "release": 22252,
+          "positionOffset": -18.5,
+          "url": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2026_r01/MapServer/6/query?f=json&where=MinMapLevel+%3C%3D+17+AND+MaxMapLevel+%3E%3D+17&geometryType=esriGeometryEnvelope&geometry=-89.70964657%2C21.27858317%2C-89.68653353%2C21.28283426&inSR=4326&outSR=4326&outFields=OBJECTID%2CSRC_DATE2%2CSRC_DESC%2CSAMP_RES%2CSRC_ACC%2CMinMapLevel%2CMaxMapLevel&returnGeometry=true",
+          "sha256": "343de04c23175cdc306c6497600187ad07c0e377ec2053c95cbb663913e158cc",
+          "file": "huellas-22252-44c93a9d21e.json",
+          "checks": [
+            {
+              "delta_m": -3,
+              "date": "2023-09-21",
+              "sensor": "WV02"
+            },
+            {
+              "delta_m": 0,
+              "date": "2023-09-21",
+              "sensor": "WV02"
+            },
+            {
+              "delta_m": 3,
+              "date": "2023-09-21",
+              "sensor": "WV02"
+            }
+          ]
+        },
+        {
+          "release": 26334,
+          "positionOffset": -18.5,
+          "url": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2026_r07/MapServer/6/query?f=json&where=MinMapLevel+%3C%3D+17+AND+MaxMapLevel+%3E%3D+17&geometryType=esriGeometryEnvelope&geometry=-89.70964657%2C21.27858317%2C-89.68653353%2C21.28283426&inSR=4326&outSR=4326&outFields=OBJECTID%2CSRC_DATE2%2CSRC_DESC%2CSAMP_RES%2CSRC_ACC%2CMinMapLevel%2CMaxMapLevel&returnGeometry=true",
+          "sha256": "8e4f9e29d6aef6f189b864062bda5134392c20fc227e8027c7ceb8baacaa436f",
+          "file": "huellas-26334-15bb988e3a4.json",
+          "checks": [
+            {
+              "delta_m": -3,
+              "date": "2023-09-21",
+              "sensor": "WV02"
+            },
+            {
+              "delta_m": 0,
+              "date": "2023-09-21",
+              "sensor": "WV02"
+            },
+            {
+              "delta_m": 3,
+              "date": "2023-09-21",
+              "sensor": "WV02"
+            }
+          ]
+        }
+      ],
+      "reason": "El perfil alcanza la arena continua antes de los caminos y la vegetación, en la toma de septiembre de 2023."
+    },
+    {
+      "profileId": "SC-90-0-14",
+      "capture": 219,
+      "oldOffset": -7,
+      "oldAccepted": true,
+      "newOffset": -11,
+      "newAccepted": true,
+      "sourceRelease": 25285,
+      "date": "2023-09-21",
+      "positionVisualInterval": [
+        -14.5,
+        -8
+      ],
+      "uncertaintyM": 3.5,
+      "evidence": [
+        {
+          "path": "/data/shorelines/photo-alignment/coastal-audit-progreso-comparacion-fotografica-20261116/pares-2023-25285-02.jpg",
+          "sha256": "c9bf148f4e2ff6f77b20eae9dd61d459a05d761cd0f200e959d65f0aa4694759"
+        }
+      ],
+      "metadata": {
+        "release": 25285,
+        "positionOffset": -11,
+        "url": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2025_r05/MapServer/6/query?f=json&where=MinMapLevel+%3C%3D+17+AND+MaxMapLevel+%3E%3D+17&geometryType=esriGeometryEnvelope&geometry=-89.70964657%2C21.27858317%2C-89.68653353%2C21.28283426&inSR=4326&outSR=4326&outFields=OBJECTID%2CSRC_DATE2%2CSRC_DESC%2CSAMP_RES%2CSRC_ACC%2CMinMapLevel%2CMaxMapLevel&returnGeometry=true",
+        "sha256": "a346212826186b88b941f1259ba5019098f6e520f722cabaea032f4ae0cc6d88",
+        "file": "huellas-25285-6a72ac821eb.json",
+        "checks": [
+          {
+            "delta_m": -3,
+            "date": "2023-09-21",
+            "sensor": "WV02"
+          },
+          {
+            "delta_m": 0,
+            "date": "2023-09-21",
+            "sensor": "WV02"
+          },
+          {
+            "delta_m": 3,
+            "date": "2023-09-21",
+            "sensor": "WV02"
+          }
+        ]
+      },
+      "equivalentMetadata": [
+        {
+          "release": 22252,
+          "positionOffset": -11,
+          "url": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2026_r01/MapServer/6/query?f=json&where=MinMapLevel+%3C%3D+17+AND+MaxMapLevel+%3E%3D+17&geometryType=esriGeometryEnvelope&geometry=-89.70964657%2C21.27858317%2C-89.68653353%2C21.28283426&inSR=4326&outSR=4326&outFields=OBJECTID%2CSRC_DATE2%2CSRC_DESC%2CSAMP_RES%2CSRC_ACC%2CMinMapLevel%2CMaxMapLevel&returnGeometry=true",
+          "sha256": "343de04c23175cdc306c6497600187ad07c0e377ec2053c95cbb663913e158cc",
+          "file": "huellas-22252-44c93a9d21e.json",
+          "checks": [
+            {
+              "delta_m": -3,
+              "date": "2023-09-21",
+              "sensor": "WV02"
+            },
+            {
+              "delta_m": 0,
+              "date": "2023-09-21",
+              "sensor": "WV02"
+            },
+            {
+              "delta_m": 3,
+              "date": "2023-09-21",
+              "sensor": "WV02"
+            }
+          ]
+        },
+        {
+          "release": 26334,
+          "positionOffset": -11,
+          "url": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2026_r07/MapServer/6/query?f=json&where=MinMapLevel+%3C%3D+17+AND+MaxMapLevel+%3E%3D+17&geometryType=esriGeometryEnvelope&geometry=-89.70964657%2C21.27858317%2C-89.68653353%2C21.28283426&inSR=4326&outSR=4326&outFields=OBJECTID%2CSRC_DATE2%2CSRC_DESC%2CSAMP_RES%2CSRC_ACC%2CMinMapLevel%2CMaxMapLevel&returnGeometry=true",
+          "sha256": "8e4f9e29d6aef6f189b864062bda5134392c20fc227e8027c7ceb8baacaa436f",
+          "file": "huellas-26334-15bb988e3a4.json",
+          "checks": [
+            {
+              "delta_m": -3,
+              "date": "2023-09-21",
+              "sensor": "WV02"
+            },
+            {
+              "delta_m": 0,
+              "date": "2023-09-21",
+              "sensor": "WV02"
+            },
+            {
+              "delta_m": 3,
+              "date": "2023-09-21",
+              "sensor": "WV02"
+            }
+          ]
+        }
+      ],
+      "reason": "Se sigue la misma normal de 2011 hasta el primer borde continuo de arena visible en la foto de 2023."
+    },
+    {
+      "profileId": "SC-256-0-19",
+      "capture": 50,
+      "oldOffset": -3,
+      "oldAccepted": true,
+      "newOffset": -4,
+      "newAccepted": true,
+      "sourceRelease": 26334,
+      "date": "2026-02-07",
+      "positionVisualInterval": [
+        -8,
+        -1
+      ],
+      "uncertaintyM": 4,
+      "evidence": [
+        {
+          "path": "/data/shorelines/photo-alignment/coastal-audit-progreso-comparacion-fotografica-20261116/pares-2026-26334-02.jpg",
+          "sha256": "e7bd75f08322b8b26a76b3544f5c407844d8daf88be754fe6b8f95199c1072bf"
+        }
+      ],
+      "metadata": {
+        "release": 26334,
+        "positionOffset": -4,
+        "url": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2026_r07/MapServer/6/query?f=json&where=MinMapLevel+%3C%3D+17+AND+MaxMapLevel+%3E%3D+17&geometryType=esriGeometryEnvelope&geometry=-89.83994714%2C21.25104648%2C-89.82692118%2C21.25298721&inSR=4326&outSR=4326&outFields=OBJECTID%2CSRC_DATE2%2CSRC_DESC%2CSAMP_RES%2CSRC_ACC%2CMinMapLevel%2CMaxMapLevel&returnGeometry=true",
+        "sha256": "bde50d5155a20bad6d1e0b8f3b5210abd59bca7a9924da4f0ed3b4abf011a35e",
+        "file": "huellas-26334-0c1b01dfad0.json",
+        "checks": [
+          {
+            "delta_m": -3,
+            "date": "2026-02-07",
+            "sensor": "LG05"
+          },
+          {
+            "delta_m": 0,
+            "date": "2026-02-07",
+            "sensor": "LG05"
+          },
+          {
+            "delta_m": 3,
+            "date": "2026-02-07",
+            "sensor": "LG05"
+          }
+        ]
+      },
+      "reason": "Se cotejan las fotos de 2011 y 2026 en Chuburná. La arena continua queda entre el borde verde de la toma y la vegetación."
+    }
+  ]
+}

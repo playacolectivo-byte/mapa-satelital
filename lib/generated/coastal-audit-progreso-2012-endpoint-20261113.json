@@ -1,0 +1,63 @@
+{
+  "version": 1,
+  "field_validated": false,
+  "review_id": "coastal-audit-progreso-2012-endpoint-20261113",
+  "timestamp": "2026-11-14T01:02:48.177Z",
+  "data_sha256": "250fa694f9c3829ac0d41598454e28988a6c681fc36c6330c0f950eb08aa76e5",
+  "model_sha256": "21ed574a9c464cab785197f95568e242da2358cae23b08a420afde98aa294513",
+  "method_url": "/data/shorelines/photo-alignment/coastal-audit-progreso-2012-endpoint-20261113-method.md",
+  "decisions": [
+    {
+      "profileId": "SC-90-0-31",
+      "capture": 177,
+      "oldOffset": -18,
+      "oldAccepted": true,
+      "newOffset": null,
+      "newAccepted": false,
+      "sourceRelease": 27946,
+      "date": "2012-12-15",
+      "positionVisualInterval": null,
+      "uncertaintyM": null,
+      "metadata": null,
+      "reason": "La posición de 2012 está sobre agua abierta. Las dos ediciones fechadas reproducen los mismos píxeles en el recorte. El contacto arena–agua visible está separado de la marca por unos 18 m. La lectura queda pendiente de recolocación con metadatos de la posición nueva.",
+      "evidence": [
+        {
+          "path": "/data/shorelines/photo-alignment/coastal-audit-progreso-2012-endpoint-20261113-evidence.json",
+          "sha256": "701dff81180bcb3a604afeac4086beaa48f06405546ee239dc0223f34c40520f"
+        },
+        {
+          "path": "https://wayback.maptiles.arcgis.com/arcgis/rest/services/World_Imagery/WMTS/1.0.0/default028mm/MapServer/tile/27946/17/57600/32887",
+          "sha256": "2b4b28b3162f6d4b0ddb5bc8ec92cc4d1f24aabd169fdbccede0fea93593125d"
+        },
+        {
+          "path": "https://wayback.maptiles.arcgis.com/arcgis/rest/services/World_Imagery/WMTS/1.0.0/default028mm/MapServer/tile/27946/17/57601/32887",
+          "sha256": "31f91d9aaf3712819daef57850f755ca81176e9d423e83adf190966048cbb84a"
+        },
+        {
+          "path": "https://wayback.maptiles.arcgis.com/arcgis/rest/services/World_Imagery/WMTS/1.0.0/default028mm/MapServer/tile/27946/17/57600/32888",
+          "sha256": "2cfc0edb7e887dd7aff9a5aa457549c45b673eaa860f8f9594e1079bf86e88d9"
+        },
+        {
+          "path": "https://wayback.maptiles.arcgis.com/arcgis/rest/services/World_Imagery/WMTS/1.0.0/default028mm/MapServer/tile/27946/17/57601/32888",
+          "sha256": "31d2bd618c326653e8c4095492108a0dd11cb65384f9a56eea4dafd70bb9439d"
+        },
+        {
+          "path": "https://wayback.maptiles.arcgis.com/arcgis/rest/services/World_Imagery/WMTS/1.0.0/default028mm/MapServer/tile/6984/17/57600/32887",
+          "sha256": "2b4b28b3162f6d4b0ddb5bc8ec92cc4d1f24aabd169fdbccede0fea93593125d"
+        },
+        {
+          "path": "https://wayback.maptiles.arcgis.com/arcgis/rest/services/World_Imagery/WMTS/1.0.0/default028mm/MapServer/tile/6984/17/57601/32887",
+          "sha256": "31f91d9aaf3712819daef57850f755ca81176e9d423e83adf190966048cbb84a"
+        },
+        {
+          "path": "https://wayback.maptiles.arcgis.com/arcgis/rest/services/World_Imagery/WMTS/1.0.0/default028mm/MapServer/tile/6984/17/57600/32888",
+          "sha256": "2cfc0edb7e887dd7aff9a5aa457549c45b673eaa860f8f9594e1079bf86e88d9"
+        },
+        {
+          "path": "https://wayback.maptiles.arcgis.com/arcgis/rest/services/World_Imagery/WMTS/1.0.0/default028mm/MapServer/tile/6984/17/57601/32888",
+          "sha256": "31d2bd618c326653e8c4095492108a0dd11cb65384f9a56eea4dafd70bb9439d"
+        }
+      ]
+    }
+  ]
+}

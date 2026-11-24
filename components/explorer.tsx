@@ -14,7 +14,6 @@ import {
   useState,
 } from 'react';
 import {
-  BookOpen,
   Minus,
   Plus,
   LocateFixed,
@@ -25,13 +24,19 @@ import {
 import type { WaybackItem } from '@esri/wayback-core';
 import { Button } from '@/components/ui/button';
 import { fetchJsonAsset } from '@/lib/data-delivery';
-import {getMunicipalJson,scopeAsset,municipalityHref,type MunicipalityScope} from '@/lib/municipal-pages';
+import type { CoastalPhotoOption } from '@/lib/esri-coastal-photos';
+import {getMunicipalJson,scopeAsset,municipalityHref,municipalProfileAllowed,type MunicipalityScope} from '@/lib/municipal-pages';
 import {RoadKilometreSearch} from './road-kilometre-search';
 import type {RoadSearchRecord} from '@/lib/road-search';
-import municipalityPages from '@/lib/generated/municipality-pages.json';
+import {reviewedMunicipalityPages as municipalityPages} from '@/lib/municipal-pages';
 import {validateCoastalScenario,type CoastalScenario} from '@/lib/coastal-scenario';
-import {SCENARIO_YEARS,scenarioReferencePhoto,type CoastalResultView} from '@/lib/coastal-result-view';
-import {createCoastalImageAlignment} from '@/lib/coastal-image-alignment';
+import {scenarioReferencePhoto,type CoastalResultView} from '@/lib/coastal-result-view';
+import {createCoastalImageAlignment,type CoastalAlignedFrame} from '@/lib/coastal-image-alignment';
+import { applyMarkedShorelineReview } from '@/lib/marked-shoreline-review';
+import {applyCoastal100mGrid,ixilSamplingSegments,sampleObservedCoast,type Coastal100mGrid} from '@/lib/coastal-100m-grid';
+import {hasRegionalAlternativeYear} from '@/lib/regional-shoreline-alternatives';
+import previousCoastalGrid from '@/public/data/shorelines/photo-alignment/coastal-100m-grid-20261106.json';
+import regionalCoastalGrid from '@/public/data/shorelines/photo-alignment/coastal-100m-hunucma-yobain.json';
 import {photoCoastComparison,compatiblePhotoCoastLayer,displayedPhotoCoastPresentation,validatePhotoCoast,type PhotoCoastPresentation,type PhotoCoastData} from '@/lib/photo-coast';
 import photoCoastVersion from '@/lib/generated/photo-coast-revised-version.json';
 import photoVisualReview from '@/public/data/shorelines/photo-alignment/revised-visual-review.json';
@@ -39,7 +44,11 @@ import photoSourceReviewJson from '@/public/data/shorelines/photo-alignment/revi
 import {compatibleSourceLayer,type PhotoSourceReview} from '@/lib/photo-source-review';
 import {applyPhotoVisualReview} from '@/lib/photo-visual-review';
 import {applyPhotoDigitization,type PhotoDigitization} from '@/lib/photo-digitization';
+import {type DatedImageReview} from '@/lib/dated-image-review';
+import {datedReviewForMunicipality} from '@/lib/dated-image-reviews';
+import {reviewedEsriTileZoomLimits,reviewedEsriMetadataZoom} from '@/lib/coastal-reviewed-imagery';
 import photoDigitization from '@/public/data/shorelines/photo-alignment/manual-digitization-20261103.json';
+import {projectCoastLabel} from '@/lib/project-coast-labels';
 import scenarioVersion from '@/lib/generated/coastal-scenario-version.json';
 import { loadMangroveYear } from '@/lib/mangrove-map';
 import { validateRoadKilometres, type RoadKilometres } from '@/lib/road-kilometres';
@@ -59,14 +68,32 @@ import { CoastalAnalysisControls } from './coastal-analysis-controls';
 import {CoastalCoverageSummary} from './coastal-coverage-summary';
 import {assessmentCoverage,municipalCoverage,type SeriesManifest,type CoverageYears} from '@/lib/coastal-coverage';
 import {CoastalPeriodSections,type CoastalChapter} from './coastal-period-sections';
-import {municipalPhotoYears,municipalDatedOptions,municipalComparisonOptions,municipalComparisonYears,compatibleAnalysisYear,municipalPhotoLocation,type PhotoLocation,type MunicipalPhotoCatalogue} from '@/lib/coastal-photo-scopes';
-import municipalPhotoCatalogueJson from '@/lib/generated/municipal-photo-refined-catalogue.json';
+import {municipalPhotoYears,municipalDatedOptions,municipalComparisonOptions,progresoReviewedPhotoOptions,progresoStationPhoto,viewCentersOnChuburnaInlet,compatibleAnalysisYear,municipalPhotoLocation,type PhotoLocation,type MunicipalPhotoCatalogue} from '@/lib/coastal-photo-scopes';
+import reviewedMunicipalPhotoCatalogueJson from '@/lib/generated/municipal-photo-reviewed-catalogue.json';
 import {CoastalPlacePicker} from './coastal-place-picker';
 import receivedPhotoCatalogueJson from '@/public/data/history/esri-local-captures.json';
+import datedGeotubeObservations from '@/public/data/problems/geotube-dated-observations.json';
+import progresoLocalCaptures from '@/public/data/shorelines/photo-alignment/progreso-capturas-locales-20261116.json';
+import progresoGroyneVersion from '@/lib/generated/progreso-groynes-version.json';
+import progresoStationEditions from '@/lib/generated/progreso-estaciones-ediciones.json';
+import progresoPendingStations from '@/lib/generated/progreso-estaciones-pendientes.json';
+import progresoDirectStations from '@/public/data/shorelines/photo-alignment/progreso-estaciones-directas-20261116.json';
 import {chapterBounds,initialChapterYears,withChapterYear} from '@/lib/coastal-chapters';
+const municipalPhotoCatalogueJson=reviewedMunicipalPhotoCatalogueJson as unknown as MunicipalPhotoCatalogue;
+const currentPhotoOptions=(location:PhotoLocation,resultView:CoastalResultView,chuburnaInlet=false,sectorLongitude?:number)=>{
+  const items=receivedPhotoCatalogueJson.items as WaybackItem[];
+  const {municipality,coordinates}=location;
+  if(municipality==='Progreso')return progresoReviewedPhotoOptions(items,municipalPhotoCatalogueJson,coordinates,chuburnaInlet,sectorLongitude);
+  return (resultView==='scenario'?municipalDatedOptions:municipalComparisonOptions)(items,municipalPhotoCatalogueJson,municipality,coordinates,17,coordinates);
+};
+const regionalGridScopes=new Set(regionalCoastalGrid.segments.map(segment=>segment.municipality));
+const coastal100mGrid={
+ ...previousCoastalGrid,
+ segments:[...previousCoastalGrid.segments.filter(segment=>!regionalGridScopes.has(segment.municipality)),...regionalCoastalGrid.segments],
+} as unknown as Coastal100mGrid;
 const HistoricalDocumentViewer=lazy(()=>import('./historical-document-viewer').then(module=>({default:module.HistoricalDocumentViewer})));
 const HistoricalErosionSummary=lazy(()=>import('./historical-erosion-summary').then(module=>({default:module.HistoricalErosionSummary})));
-import { loadCoastalLayer, peekCoastalLayer, type CoastalAnalysisData, type ShorelinePair } from '@/lib/coastal-analysis';
+import { loadCoastalLayer, peekCoastalLayer, validateCoastalAnalysis, type CoastalAnalysisData, type ShorelinePair } from '@/lib/coastal-analysis';
 import { ArchiveControls } from './archive-controls';
 import { validateCoverageRegistry, qualifiedHistoricalManifest, completeYearReview, type HistoricalCoverageRegistry } from '@/lib/history-coverage';
 import { historicalContextForYear } from '@/lib/historical-context';
@@ -100,6 +127,7 @@ import type { SentinelManifest } from '@/lib/sentinel';
 import { coastalViews, CHELEM_PROGRESO_OVERVIEW } from '@/lib/coastal-views';
 import {
   createTemporalEvidenceResolver,
+  groynesForStudyYear,
   studyMatchesCapture,
   type CaptureFrame,
   type TemporalRegistry,
@@ -172,7 +200,11 @@ export default function Explorer({reviewMode=false,municipalityScope}:{reviewMod
   const [coastalResultView]=useState<CoastalResultView>('scenario');
   const [scenarioModel,setScenarioModel]=useState<CoastalScenario|null>(null);
   const [photoCoastData,setPhotoCoastData]=useState<PhotoCoastData|null>(null);
-  const [displayedRasterKey,setDisplayedRasterKey]=useState<string|null>(null);
+  const [displayedRaster,setDisplayedRaster]=useState<{key:string;tileZoom?:number}|null>(null);
+  const displayedRasterKey=displayedRaster?.key??null;
+  const onRasterFrameDisplayed=useCallback((key:string,tileZoom?:number)=>{
+    setDisplayedRaster(previous=>previous?.key===key&&previous.tileZoom===tileZoom?previous:{key,tileZoom});
+  },[]);
   const [scenarioStatus,setScenarioStatus]=useState<Status>('loading');
   const [photoComparisonStatus,setPhotoComparisonStatus]=useState<Status>('loading');
   const scenarioActive=coastalChapter==='current'&&coastalAnalysisMode!=='1993';
@@ -181,7 +213,7 @@ export default function Explorer({reviewMode=false,municipalityScope}:{reviewMod
     const controller=new AbortController();setScenarioStatus('loading');
     const timer=window.setTimeout(()=>{controller.abort();setScenarioStatus('error');},20000);
     void (municipalityScope?scopeAsset<unknown>(municipalityScope.model,controller.signal):fetchJsonAsset<unknown>('/data/shorelines/scenario/model.json?v='+scenarioVersion.sha256,controller.signal,'/data/shorelines/scenario/model.json.gz?v='+scenarioVersion.sha256)).then(validateCoastalScenario)
-      .then(model=>{if(municipalityScope&&model.targets.some(t=>t.m!==municipalityScope.municipality.name))throw new Error('Perfiles de otro municipio');return model;})
+      .then(model=>{if(municipalityScope&&model.targets.some(t=>!municipalProfileAllowed(municipalityScope,t)))throw new Error('Perfiles fuera del ámbito revisado');return model;})
       .then(model=>{if(!controller.signal.aborted){setScenarioModel(model);setScenarioStatus('ready');}}).catch(()=>{if(!controller.signal.aborted)setScenarioStatus('error');}).finally(()=>window.clearTimeout(timer));
     return()=>{window.clearTimeout(timer);controller.abort();};
   },[scenarioActive,scenarioModel,attempt]);
@@ -191,6 +223,7 @@ export default function Explorer({reviewMode=false,municipalityScope}:{reviewMod
     const timer=window.setTimeout(()=>{controller.abort();setPhotoComparisonStatus('error');},20000);
     void (municipalityScope?scopeAsset<unknown>(municipalityScope.photos,controller.signal):fetchJsonAsset<unknown>('/data/shorelines/photo-alignment/revised-data.json?v='+photoCoastVersion.sha256,controller.signal,'/data/shorelines/photo-alignment/revised-data.json.gz?v='+photoCoastVersion.sha256)).then(validatePhotoCoast).then(data=>{if(photoSourceReviewJson.data_sha256!==photoCoastVersion.sha256||municipalityScope&&municipalityScope.original_photo_sha256!==photoCoastVersion.sha256)throw new Error('Source review version mismatch');return municipalityScope?data:applyPhotoVisualReview(data,photoVisualReview,photoCoastVersion.sha256);})
       .then(photos=>municipalityScope?photos:applyPhotoDigitization(photos,photoDigitization as PhotoDigitization,photoCoastVersion.sha256))
+      .then(async photos=>municipalityScope?photos:(await import('@/lib/integrated-photo-reviews')).applyIntegratedPhotoReviews(photos,photoCoastVersion.sha256,(url,sha)=>fetchJsonAsset<DatedImageReview>(url+'?v='+sha,controller.signal,url+'.gz?v='+sha)))
       .then(photos=>{if(photos.model_sha256!==scenarioVersion.sha256)throw new Error('Photo inventory version mismatch');if(!controller.signal.aborted){setPhotoCoastData(photos);setPhotoComparisonStatus('ready');}}).catch(()=>{if(!controller.signal.aborted)setPhotoComparisonStatus('error');}).finally(()=>window.clearTimeout(timer));
     return()=>{window.clearTimeout(timer);controller.abort();};
   },[scenarioActive,coastalResultView,photoCoastData,attempt]);
@@ -277,26 +310,48 @@ export default function Explorer({reviewMode=false,municipalityScope}:{reviewMod
   const [pilotYear, setPilotYear] = useState<number | null>(null);
   const [activePlace, setActivePlace] = useState<string | null>(municipalityScope?'municipality:'+municipalityScope.municipality.name:null);
   const [coastPanorama,setCoastPanorama]=useState(false);
+  const [center, setCenter] = useState<[number, number] | null>(null);
+  const [viewZoom, setViewZoom] = useState(12);
   const photoLocation=useMemo<PhotoLocation|null>(()=>{
     if(coastPanorama)return null;
-    if(activePlace?.startsWith('municipality:'))return municipalPhotoLocation(municipalPhotoCatalogueJson as unknown as MunicipalPhotoCatalogue,activePlace.slice('municipality:'.length));
+    if(activePlace?.startsWith('municipality:')){
+      const location=municipalPhotoLocation(municipalPhotoCatalogueJson as unknown as MunicipalPhotoCatalogue,activePlace.slice('municipality:'.length));
+      return datedReviewForMunicipality(location?.municipality??null)&&location&&center?{...location,coordinates:center}:location;
+    }
     const place=coastalPlaces.find(p=>p.id===activePlace)??coastalPlaces.find(p=>p.name==='Progreso');
-    if(place?.municipality)return {name:place.name,municipality:place.municipality,coordinates:place.coordinates,bounds:coastalViews.find(p=>p.id===place.id)?.bounds??place.bounds};
+    if(place?.municipality)return {name:place.name,municipality:place.municipality,coordinates:datedReviewForMunicipality(place.municipality)&&center?center:place.coordinates,bounds:coastalViews.find(p=>p.id===place.id)?.bounds??place.bounds};
     const site=receivedPhotoCatalogueJson.sites.find(site=>site.name==='Progreso')!;
     return {name:'Progreso',municipality:'Progreso',coordinates:site.coordinates as [number,number]};
-  },[activePlace,coastalPlaces,coastPanorama]);
+  },[activePlace,coastalPlaces,coastPanorama,center]);
   const [chapterSources,setChapterSources]=useState<Record<CoastalChapter,ImageSource>>({current:'detail',alec:'detail',historical:'archive'});
-  const imageSource=chapterSources[coastalChapter];
+  const imageSource=coastalChapter==='historical'?chapterSources.historical:'detail';
   const [archiveKind, setArchiveKind] = useState<ArchiveKind>('geomedian');
   const [archiveManifests, setArchiveManifests] = useState<Record<ArchiveKind, HistoricalManifest | null>>({ landsat: null, inegi: null, nasa: null, geomedian: null });
   // Current studies offer only years with compatible dated photo pairs.
   const [chapterYears,setChapterYears]=useState(initialChapterYears);
   const activeYearBounds=chapterBounds(coastalChapter);
-  const availableAnalysisYears=useMemo(()=>{
-    if(coastalResultView==='scenario')return SCENARIO_YEARS;
-    const years=municipalComparisonYears(municipalPhotoCatalogueJson as unknown as MunicipalPhotoCatalogue,photoLocation?.municipality??null,activeYearBounds.first,activeYearBounds.last,photoLocation?.coordinates);
-    return imageSource==='sentinel'?years.filter(hasPcAnnualBackdrop):imageSource==='archive'?years.filter(year=>archiveManifests[archiveKind]?.epochs.some(epoch=>epoch.year===year)):years;
-  },[coastalResultView,photoLocation,activeYearBounds.first,activeYearBounds.last,imageSource,archiveManifests,archiveKind]);
+  const exactProgresoPhotos=coastalChapter==='current'&&photoLocation?.municipality==='Progreso';
+  const chuburnaInlet = exactProgresoPhotos && !pilotMode && viewCentersOnChuburnaInlet(center);
+  const sectorLongitude = exactProgresoPhotos && !pilotMode && viewZoom >= 14 ? center?.[0] : undefined;
+  const [stationPhoto,setStationPhoto]=useState<{photo:CoastalPhotoOption;longitude:number}|null>(null);
+  const localStationPhoto=stationPhoto&&exactProgresoPhotos&&stationPhoto.photo.year===chapterYears.current&&
+    center&&Math.abs(center[0]-stationPhoto.longitude)<.022?stationPhoto.photo:null;
+  useEffect(()=>{
+    if(stationPhoto&&!localStationPhoto)setStationPhoto(null);
+  },[stationPhoto,localStationPhoto]);
+  const onStationEdition=useCallback((year:number,release:number,date:string)=>{
+    const photo=progresoStationPhoto(receivedPhotoCatalogueJson.items as WaybackItem[],municipalPhotoCatalogueJson,year,release,date);
+    if(photo&&center)setStationPhoto({photo,longitude:center[0]});
+  },[center]);
+
+  const availableComparisonPhotos=useMemo(()=>{
+    if(!photoLocation)return [];
+    const options=currentPhotoOptions(photoLocation,coastalResultView,chuburnaInlet,sectorLongitude).filter(photo=>
+      photo.year>=activeYearBounds.first&&photo.year<=activeYearBounds.last&&
+      (coastalChapter!=='current'||!['Progreso','Ixil'].includes(photoLocation.municipality)||photo.year===2011||photo.year===2025));
+    return localStationPhoto?options.map(option=>option.year===localStationPhoto.year?localStationPhoto:option):options;
+  },[coastalChapter,coastalResultView,photoLocation,activeYearBounds.first,activeYearBounds.last,chuburnaInlet,sectorLongitude,localStationPhoto]);
+  const availableAnalysisYears=useMemo(()=>availableComparisonPhotos.map(photo=>photo.year),[availableComparisonPhotos]);
   const imageYear=coastalChapter==='current'?(compatibleAnalysisYear(availableAnalysisYears,chapterYears.current)??chapterYears.current):chapterYears[coastalChapter];
   useEffect(()=>{
     if(coastalChapter==='current'&&['2015','2020'].includes(coastalAnalysisMode)&&imageYear<Number(coastalAnalysisMode))setCoastalAnalysisMode('regional');
@@ -310,6 +365,12 @@ export default function Explorer({reviewMode=false,municipalityScope}:{reviewMod
   const selectedPilotYear = pilotYear ?? (pilotSeries ? littoralYearBounds(pilotSeries).lastYear : new Date().getUTCFullYear());
   const pilotCut = useMemo(() => pilotSeries ? (pilotSeries.cuts.find((cut) => cut.id === pilotCutId) ?? littoralCutForYear(pilotSeries, selectedPilotYear)) : null, [pilotSeries, pilotCutId, selectedPilotYear]);
   const backgroundYear = pilotMode ? selectedPilotYear : imageYear;
+  const progresoPhotoSector = backgroundYear === 2019
+    ? { name: 'Chicxulub Puerto', action: 'Ver resultados de Chicxulub Puerto' }
+    : null;
+  const alternateProgresoSector = exactProgresoPhotos && !pilotMode && progresoPhotoSector
+    ? coastalPlaces.find(place => place.municipality === 'Progreso' && place.name === progresoPhotoSector.name)
+    : undefined;
   const shorelineBefore = coastalAnalysisMode==='2015'?2015:coastalAnalysisMode==='2020'?2020:coastalAnalysisMode==='2010'?2010:backgroundYear - 1, shorelineAfter = backgroundYear;
   const comparisonManifest=useMemo(()=>coastalAnalysisMode==='2010'?referenceManifest:seriesManifest&&(coastalAnalysisMode==='2015'||coastalAnalysisMode==='2020'||backgroundYear>=2015)?{periods:seriesManifest.periods.map(period=>{const entry=(coastalAnalysisMode==='2015'?period.reference2015:coastalAnalysisMode==='2020'?period.reference2020:period.annual)??{features:0,map_path:'',counts:{}};return {year:period.year,before:coastalAnalysisMode==='2015'?2015:coastalAnalysisMode==='2020'?2020:period.before,features:entry.features,path:entry.map_path,status:'experimental_modelled'};})}:annualManifest,[coastalAnalysisMode,referenceManifest,seriesManifest,backgroundYear,annualManifest]);
   const regionalCoverage=useMemo(()=>coverageIndex&&coverageYears&&backgroundYear>=2015&&['regional','2015','2020'].includes(coastalAnalysisMode)?assessmentCoverage(coverageIndex,coverageYears,backgroundYear,coastalAnalysisMode==='2015'?'2015':coastalAnalysisMode==='2020'?'2020':false):null,[coverageIndex,coverageYears,backgroundYear,coastalAnalysisMode]);
@@ -320,15 +381,15 @@ export default function Explorer({reviewMode=false,municipalityScope}:{reviewMod
   const [chapterSatellites,setChapterSatellites]=useState<Record<CoastalChapter,WaybackItem|null>>({current:null,alec:null,historical:null});
   const currentComparisonPhoto=useMemo(()=>{
     if(coastalChapter!=='current'||!photoLocation)return null;
-    const options=(coastalResultView==='scenario'?municipalDatedOptions:municipalComparisonOptions)(receivedPhotoCatalogueJson.items as WaybackItem[],municipalPhotoCatalogueJson as unknown as MunicipalPhotoCatalogue,photoLocation.municipality,photoLocation.coordinates,17,photoLocation.coordinates);
-    return coastalResultView==='scenario'?scenarioReferencePhoto(options,imageYear,chapterSatellites.current?.releaseNum??null):options.find(photo=>photo.year===imageYear)??null;
-  },[coastalChapter,photoLocation,imageYear,coastalResultView,chapterSatellites.current]);
+    if(exactProgresoPhotos||coastalResultView==='photos')return availableComparisonPhotos.find(photo=>photo.year===imageYear)??null;
+    return scenarioReferencePhoto(availableComparisonPhotos,imageYear,chapterSatellites.current?.releaseNum??null);
+  },[coastalChapter,photoLocation,imageYear,coastalResultView,chapterSatellites.current,availableComparisonPhotos,exactProgresoPhotos]);
   useEffect(()=>{
     if(coastalChapter==='current'&&currentComparisonPhoto)setChapterSatellites(previous=>previous.current?.releaseNum===currentComparisonPhoto.item.releaseNum?previous:{...previous,current:currentComparisonPhoto.item});
   },[coastalChapter,currentComparisonPhoto]);
   // The current photo is derived in the same render as municipality and year.
   // Stored items only provide legacy choices, an explicit retry, or panorama.
-  const historicalSatellite=coastalChapter==='current'&&currentComparisonPhoto?(chapterSatellites.current?.releaseNum===currentComparisonPhoto.item.releaseNum?chapterSatellites.current:currentComparisonPhoto.item):chapterSatellites[coastalChapter];
+  const historicalSatellite=coastalChapter==='current'&&currentComparisonPhoto?(chapterSatellites.current?.releaseNum===currentComparisonPhoto.item.releaseNum?chapterSatellites.current:currentComparisonPhoto.item):exactProgresoPhotos?null:chapterSatellites[coastalChapter];
   const setHistoricalSatellite=useCallback((item:WaybackItem|null|((item:WaybackItem|null)=>WaybackItem|null))=>setChapterSatellites(previous=>({...previous,[coastalChapter]:typeof item==='function'?item(previous[coastalChapter]):item})),[coastalChapter]);
   const comparisonScope=photoLocation?photoLocation.municipality+':'+photoLocation.coordinates.join(','):'panorama';
   const comparisonRelease=imageSource==='detail'?historicalSatellite?.releaseNum??null:null;
@@ -336,7 +397,11 @@ export default function Explorer({reviewMode=false,municipalityScope}:{reviewMod
   const [retainedPhotoComparison,setRetainedPhotoComparison]=useState<PhotoCoastPresentation|null>(null);
   const photoComparisonCandidate=useMemo<PhotoCoastPresentation|null>(()=>{
     if(!scenarioActive||coastalResultView!=='photos'||!scenarioModel||!photoCoastData||shorelineBefore>backgroundYear||!eligibleComparisonYear||imageSource==='detail'&&comparisonRelease===null)return null;
-    return {scope:comparisonScope,year:backgroundYear,frameKey:imageSource==='detail'?'esri:'+comparisonRelease:imageSource,layer:compatibleSourceLayer(compatiblePhotoCoastLayer(photoCoastComparison(scenarioModel,photoCoastData,shorelineBefore,backgroundYear,comparisonRelease,photoLocation?.municipality??null),photoLocation?.municipality??null),comparisonRelease,photoSourceReviewJson as unknown as PhotoSourceReview)};
+    const observed=photoCoastComparison(scenarioModel,photoCoastData,shorelineBefore,backgroundYear,comparisonRelease,photoLocation?.municipality??null);
+    const compatible=new Set(compatiblePhotoCoastLayer(observed,photoLocation?.municipality??null).features.map(f=>f.id));
+    const griddedScopes=new Set(coastal100mGrid.segments.map(s=>s.municipality));
+    const retained={...observed,features:observed.features.filter(f=>griddedScopes.has(String(f.properties.municipality))||compatible.has(f.id))};
+    return {scope:comparisonScope,year:backgroundYear,frameKey:imageSource==='detail'?'esri:'+comparisonRelease:imageSource,layer:compatibleSourceLayer(retained,comparisonRelease,photoSourceReviewJson as unknown as PhotoSourceReview)};
   },[scenarioActive,coastalResultView,scenarioModel,photoCoastData,shorelineBefore,backgroundYear,eligibleComparisonYear,imageSource,comparisonRelease,comparisonScope,photoLocation?.municipality]);
   const photoComparisonPresentation=imageSource==='detail'?displayedPhotoCoastPresentation(comparisonScope,displayedRasterKey,photoComparisonCandidate,retainedPhotoComparison):photoComparisonCandidate;
   useEffect(()=>{
@@ -345,11 +410,75 @@ export default function Explorer({reviewMode=false,municipalityScope}:{reviewMod
   const alignedCoastCache=useMemo(()=>scenarioModel&&photoCoastData?createCoastalImageAlignment(scenarioModel,photoCoastData,photoSourceReviewJson as unknown as PhotoSourceReview):null,[scenarioModel,photoCoastData]);
   // Only the committed raster may place photographic results. A pending
   // requested edition must never move points onto the still-visible image.
-  const displayedAlignmentRelease=imageSource==='detail'&&displayedRasterKey?.startsWith('esri:')?Number(displayedRasterKey.slice(5)):null;
+  const displayedAlignmentRelease=imageSource==='detail'&&displayedRasterKey?.startsWith('esri:')&&displayedRaster?.tileZoom!==undefined?Number(displayedRasterKey.slice(5)):null;
+  const displayedAlignmentZoom=displayedRaster?.tileZoom;
   // On first load, wait for the first committed photo. Do not briefly paint
   // unbound results while the initial 2025 photograph is still arriving.
-  const alignedCoast=useMemo(()=>scenarioActive&&coastalResultView==='scenario'&&(imageSource!=='detail'||displayedAlignmentRelease!==null)?alignedCoastCache?.read(backgroundYear,displayedAlignmentRelease)??null:null,[scenarioActive,coastalResultView,alignedCoastCache,backgroundYear,displayedAlignmentRelease,imageSource]);
-  const scenarioLayer=coastalResultView==='scenario'?alignedCoast?.layer??null:photoComparisonPresentation?.layer??null;
+  const alternativeScope=photoLocation?.municipality;
+  const showAlternativeLocators=imageSource==='detail'&&displayedAlignmentRelease===null&&hasRegionalAlternativeYear(alternativeScope,backgroundYear);
+  const alignmentScope=municipalityScope?.municipality.slug??photoLocation?.municipality??'panorama';
+  const alignmentPending=imageSource==='detail'&&comparisonRelease!==displayedAlignmentRelease;
+  const alignedCoastCandidate=useMemo(()=>{
+    if(!scenarioActive||coastalResultView!=='scenario'||alignmentPending)return null;
+    if(imageSource==='detail'&&displayedAlignmentRelease===null&&!showAlternativeLocators)return null;
+    return alignedCoastCache?.read(backgroundYear,displayedAlignmentRelease,displayedAlignmentZoom)??null;
+  },[scenarioActive,coastalResultView,alignmentPending,alignedCoastCache,backgroundYear,displayedAlignmentRelease,displayedAlignmentZoom,imageSource,showAlternativeLocators]);
+  const [retainedAlignedCoast,setRetainedAlignedCoast]=useState<{scope:string;tileZoom:number|undefined;frame:CoastalAlignedFrame}|null>(null);
+  const retainedOnDisplayedImage=retainedAlignedCoast?.scope===alignmentScope&&
+    retainedAlignedCoast.frame.release===displayedAlignmentRelease&&retainedAlignedCoast.tileZoom===displayedAlignmentZoom;
+  const alignedCoast=alignmentPending&&scenarioActive&&coastalResultView==='scenario'&&retainedOnDisplayedImage
+    ?retainedAlignedCoast.frame:alignedCoastCandidate;
+  useEffect(()=>{
+    if(!alignedCoastCandidate)return;
+    setRetainedAlignedCoast(previous=>previous?.scope===alignmentScope&&previous.frame===alignedCoastCandidate&&previous.tileZoom===displayedAlignmentZoom
+      ?previous:{scope:alignmentScope,tileZoom:displayedAlignmentZoom,frame:alignedCoastCandidate});
+  },[alignedCoastCandidate,alignmentScope,displayedAlignmentZoom]);
+  const sourceScenarioLayer=coastalResultView==='scenario'?alignedCoast?.layer??null:photoComparisonPresentation?.layer??null;
+  const samplingMunicipality=coastalChapter==='current'?(municipalityScope?.municipality.name??photoLocation?.municipality):null;
+  const observedSampling=useMemo(()=>{
+    if(samplingMunicipality==='Progreso')return coastal100mGrid.segments.filter(segment=>segment.municipality==='Progreso');
+    if(samplingMunicipality==='Ixil'&&alignedCoastCache)return ixilSamplingSegments(alignedCoastCache.stationReferences());
+    return null;
+  },[samplingMunicipality,alignedCoastCache]);
+  const sampledYear=coastalResultView==='scenario'?alignedCoast?.year:photoComparisonPresentation?.year;
+  const progresoRecentEdition=exactProgresoPhotos?availableComparisonPhotos.find(photo=>photo.year===2025)?.item.releaseNum:undefined;
+  const scenarioLayer=useMemo(()=>{
+    if(!sourceScenarioLayer)return null;
+    if(observedSampling&&sampledYear!==undefined){
+      const sampled=sampleObservedCoast(sourceScenarioLayer,observedSampling,sampledYear,samplingMunicipality==='Progreso'?2011:undefined);
+      if(samplingMunicipality!=='Progreso')return sampled;
+      const stations:Record<string,{date:string;sensor:string;alternative_date?:string}>=
+        sampledYear===progresoLocalCaptures.year&&displayedAlignmentRelease===progresoLocalCaptures.release
+          ?progresoLocalCaptures.stations:{};
+      const pending = (progresoPendingStations as Record<string, Record<string, string>>)[sampledYear] ?? {};
+      const editions = (progresoStationEditions as unknown as Record<string, Record<string, [number,string]>>)[sampledYear] ?? {};
+      const measured=validateCoastalAnalysis(progresoDirectStations).features.filter(feature=>
+        feature.properties.year===sampledYear&&displayedAlignmentRelease!==null&&
+        (feature.properties.photo_verified_endpoint_releases as number[]).includes(displayedAlignmentRelease));
+      const byStation = new Map(measured.map(result => [result.id, result]));
+      const resolved = {...sampled,features:sampled.features.map(feature=>{
+        if(feature.properties.sampling_gap!==true)return feature;
+        const stationId=String(feature.properties.sampling_station_id);
+        const direct=byStation.get(stationId);
+        if(direct){
+          const {sampling_gap,photo_review_pending,...station}=feature.properties;
+          return {...direct,properties:{...station,...direct.properties,
+            photo_detail_review_pending:(displayedAlignmentZoom??17)>17}};
+        }
+        const capture=stations[stationId];
+        const alternative=editions[stationId];
+        return {...feature,properties:{...feature.properties,
+          sampling_study_reason:pending[stationId]??'La comparación de esta estación está en otra edición del año.',
+          ...(alternative && alternative[0]!==displayedAlignmentRelease && {
+            sampling_alternative_release:alternative[0],sampling_alternative_date:alternative[1]}),
+          ...(capture && {sampling_observed_date:capture.date,sampling_observed_sensor:capture.sensor})}};
+      })};
+      return applyMarkedShorelineReview(resolved, displayedAlignmentRelease, sourceScenarioLayer, progresoRecentEdition);
+    }
+    const frame=applyCoastal100mGrid(sourceScenarioLayer,coastal100mGrid);
+    return showAlternativeLocators&&coastalResultView==='scenario'
+      ?{...frame,features:frame.features.filter(f=>f.properties.municipality===alternativeScope&&f.properties.grid_spacing_m===100&&f.properties.photo_review_pending===true)}:frame;
+  },[sourceScenarioLayer,coastalResultView,showAlternativeLocators,alternativeScope,observedSampling,sampledYear,samplingMunicipality,displayedAlignmentRelease,displayedAlignmentZoom,progresoRecentEdition]);
   const activeRegional=scenarioActive?scenarioLayer:receivedRegional;
   const useComparisonEndpoints=['2010','2015','2020'].includes(coastalAnalysisMode)||(coastalAnalysisMode==='regional'&&backgroundYear>=2015);
   const referenceShorelines = useMemo<ShorelinePair|null>(()=>{
@@ -423,13 +552,17 @@ export default function Explorer({reviewMode=false,municipalityScope}:{reviewMod
   }, [pilotMode, pilotAttempt]);
   const [panel, setPanel] = useState<Panel>(null);
   const [zoomState, setZoomState] = useState({ min: false, max: false });
-  const [center, setCenter] = useState<[number, number] | null>(null);
-  const [viewZoom, setViewZoom] = useState(12);
   const [viewBounds, setViewBounds] = useState<Bounds>(CHELEM_PROGRESO_OVERVIEW);
-  const photoResultsInView=useMemo(()=>activeRegional?.features.filter(feature=>{
-    const b=geometryBounds(feature.geometry);
-    return b&&b[0]<=viewBounds[2]&&b[2]>=viewBounds[0]&&b[1]<=viewBounds[3]&&b[3]>=viewBounds[1];
-  }).length??0,[activeRegional,viewBounds]);
+  const viewResults=useMemo(()=>{
+    let profiles=0, pendingStations=0;
+    for(const feature of activeRegional?.features??[]){
+      const b=geometryBounds(feature.geometry);
+      if(!b||b[0]>viewBounds[2]||b[2]<viewBounds[0]||b[1]>viewBounds[3]||b[3]<viewBounds[1])continue;
+      if(feature.properties.sampling_gap===true)pendingStations++;
+      else profiles++;
+    }
+    return {profiles,pendingStations};
+  },[activeRegional,viewBounds]);
 
   const [satelliteWarm, setSatelliteWarm] = useState<WaybackItem[]>([]);
   const onWarmFrames = useCallback(
@@ -444,25 +577,33 @@ export default function Explorer({reviewMode=false,municipalityScope}:{reviewMod
   );
   const [satelliteStatus, setSatelliteStatus] = useState<Status>('loading');
   const satelliteDetail = useSatelliteDetail(imageSource === 'detail' ? historicalSatellite : null, center);
-  const selectedCaptureMetadata=historicalSatellite&&center?cachedRenderedEsriMetadata(historicalSatellite,center[0],center[1],esriPhotoMetadataZoom(viewZoom,satellitePixelRatio())):null;
+  const reviewedMunicipality=municipalityScope?.municipality.name??photoLocation?.municipality??null;
+  const satelliteTileZoomLimits=useMemo(()=>coastalChapter==='current'?reviewedEsriTileZoomLimits(scenarioModel,photoCoastData,reviewedMunicipality,datedReviewForMunicipality(reviewedMunicipality)?.tile_zoom_limits):undefined,[coastalChapter,scenarioModel,photoCoastData,reviewedMunicipality]);
+  const selectedEsriNativeZoom=historicalSatellite?satelliteTileZoomLimits?.[historicalSatellite.releaseNum]:undefined;
+  const requestedEsriMetadataZoom=reviewedEsriMetadataZoom(esriPhotoMetadataZoom(viewZoom,satellitePixelRatio()),selectedEsriNativeZoom);
+  const selectedCaptureMetadata=historicalSatellite&&center?cachedRenderedEsriMetadata(historicalSatellite,center[0],center[1],requestedEsriMetadataZoom):null;
   const resolvedSatelliteDetail=selectedCaptureMetadata?.nativeZoom!==undefined?{nativeZoom:selectedCaptureMetadata.nativeZoom,status:'ready' as const}:satelliteDetail;
   const [chapterPhotoYears,setChapterPhotoYears]=useState<Record<CoastalChapter,{archive:number;sentinel:number}>>({current:{archive:2025,sentinel:2025},alec:{archive:2021,sentinel:2021},historical:{archive:1951,sentinel:2021}});
   const photoYear=imageSource==='detail'?backgroundYear:chapterPhotoYears[coastalChapter][imageSource];
   const setPhotoYear=useCallback((year:number,source:'archive'|'sentinel')=>setChapterPhotoYears(previous=>({...previous,[coastalChapter]:{...previous[coastalChapter],[source]:year}})),[coastalChapter]);
-  const setImageSourceState=useCallback((source:ImageSource)=>setChapterSources(sources=>({...sources,[coastalChapter]:source})),[coastalChapter]);
+  const setImageSourceState=useCallback((source:ImageSource)=>{
+    if(coastalChapter!=='historical'&&source!=='detail')return;
+    setChapterSources(sources=>({...sources,[coastalChapter]:source}));
+  },[coastalChapter]);
   const [archiveManifestStatus, setArchiveManifestStatus] = useState<Record<ArchiveKind, Status>>({ landsat: 'loading', inegi: 'loading', nasa: 'loading', geomedian: 'loading' });
   const [archiveAttempt, setArchiveAttempt] = useState(0);
   const [sentinelAttempt, setSentinelAttempt] = useState(0);
   const setImageSource = useCallback((source: ImageSource) => {
+    if(coastalChapter!=='historical'&&source!=='detail')return;
     setPanel(null);
     if (source === imageSource) return;
     setImageSourceState(source);
     setSatelliteStatus('loading');
-  }, [imageSource,setImageSourceState]);
+  }, [imageSource,setImageSourceState,coastalChapter]);
   useEffect(() => {
     const controller = new AbortController();
     for (const [kind, path] of [['landsat', 'history/landsat-tiles.json'], ['inegi', 'history/manifest.json'], ['nasa', 'history/nasa-gweld.json'], ['geomedian', 'history/geomedian.json']] as const) {
-      if(imageSource!=='archive' && kind!=='geomedian')continue;
+      if(imageSource!=='archive')continue;
       setArchiveManifestStatus(current => ({ ...current, [kind]: 'loading' }));
       void getJson<unknown>(path, controller.signal).then(validateHistoricalManifest).then(manifest => {
         if (controller.signal.aborted) return;
@@ -513,7 +654,8 @@ export default function Explorer({reviewMode=false,municipalityScope}:{reviewMod
   const esriInfoByFrame=useRef(new Map<string,ImageInfo>());
   useEffect(()=>{if(esriImageInfo?.frameKey){esriInfoByFrame.current.set(esriImageInfo.frameKey,esriImageInfo);if(esriInfoByFrame.current.size>4)esriInfoByFrame.current.delete(esriInfoByFrame.current.keys().next().value!);}},[esriImageInfo]);
   const displayedEsriCandidate=esriImageInfo?.frameKey===displayedRasterKey?esriImageInfo:esriInfoByFrame.current.get(displayedRasterKey??'')??null;
-  const displayedEsriInfo=displayedEsriCandidate?.pointScope===((center?.join(',')??'')+':'+esriPhotoMetadataZoom(viewZoom,satellitePixelRatio()))?displayedEsriCandidate:null;
+  const selectedEsriTileZoom=displayedRasterKey==='esri:'+historicalSatellite?.releaseNum?displayedAlignmentZoom:undefined;
+  const displayedEsriInfo=displayedEsriCandidate?.pointScope===((center?.join(',')??'')+':'+(displayedAlignmentZoom??requestedEsriMetadataZoom))?displayedEsriCandidate:null;
   const [sentinelImageInfo, setSentinelImageInfo] = useState<ImageInfo | null>(null);
   const [captureFrames, setCaptureFrames] = useState<Partial<Record<CaptureFrame['source'], CaptureFrame>>>({});
   const [historyDisplayState,setHistoryDisplayState]=useState<{epoch:string|null;status:Status}|null>(null);
@@ -576,18 +718,16 @@ export default function Explorer({reviewMode=false,municipalityScope}:{reviewMod
     useState<SentinelManifest | null>(null);
   const [sentinelError, setSentinelError] = useState(false);
   const [sentinelId, setSentinelId] = useState<string | null>(null);
-  const [issueVisibility, setIssueVisibility] = useState<IssueVisibility>({
-    ...initialIssues,
-    vegetation: true,
-  });
+  const [issueVisibility, setIssueVisibility] = useState<IssueVisibility>(initialIssues);
   const [evidence, setEvidence] = useState<EvidenceLayers>({
     barriers: null,
     geotubes: null,
+    groynes: null,
     vegetation: null,
   });
   const [evidenceStatus, setEvidenceStatus] = useState<
     Record<EvidenceKind, Status>
-  >({ barriers: 'loading', geotubes: 'loading', vegetation: 'loading' });
+  >({ barriers: 'loading', geotubes: 'loading', groynes: 'loading', vegetation: 'loading' });
   const [evidenceAttempt, setEvidenceAttempt] = useState(0);
   const [evidenceSelected, setEvidenceSelected] =
     useState<EvidenceSelection | null>(null);
@@ -630,14 +770,30 @@ export default function Explorer({reviewMode=false,municipalityScope}:{reviewMod
       )?.captureDates ?? null
     );
   }, [center, temporalRegistry]);
+  const municipalitySlug = municipalityScope?.municipality.slug;
+  const geotubeScope = municipalitySlug === 'progreso' || municipalitySlug === 'ixil';
+  const geotubeEvidence = useMemo<EvidenceData | null>(() => {
+    if (!geotubeScope) return null;
+    const historical = municipalitySlug === 'progreso' ? evidence.geotubes?.features ?? [] : [];
+    const dated = backgroundYear === 2025
+      ? datedGeotubeObservations.features.filter(
+          ({ properties }) => properties.municipality_slug === municipalitySlug,
+        ) as EvidenceData['features']
+      : [];
+    return { type: 'FeatureCollection', features: [...historical, ...dated] };
+  }, [geotubeScope, municipalitySlug, evidence.geotubes, backgroundYear]);
+  const groynesEvidence = useMemo<EvidenceData | null>(() => {
+    if (municipalitySlug !== 'progreso' || !evidence.groynes) return null;
+    return groynesForStudyYear(evidence.groynes,backgroundYear);
+  }, [municipalitySlug, evidence.groynes, backgroundYear]);
   const resolveTemporal = useMemo(
     () =>
       createTemporalEvidenceResolver(
-        evidence,
+        { ...evidence, geotubes: geotubeEvidence, groynes: groynesEvidence },
         temporalRegistry,
         allowUndatedReferences,
       ),
-    [evidence, temporalRegistry, allowUndatedReferences],
+    [evidence, geotubeEvidence, groynesEvidence, temporalRegistry, allowUndatedReferences],
   );
   const temporal = useMemo(
     () => resolveTemporal(captureFrame),
@@ -661,10 +817,22 @@ export default function Explorer({reviewMode=false,municipalityScope}:{reviewMod
     mangrove2020Visible,
     historicalReferences,
   ]);
+  const showGeotubeControl = geotubeScope && coastalChapter === 'current' && !pilotMode &&
+    (municipalitySlug === 'ixil' ? backgroundYear === 2025 : backgroundYear >= 2017);
+  const showGroynesControl = municipalitySlug === 'progreso' && coastalChapter === 'current' && !pilotMode;
   const displayedEvidence = useMemo<EvidenceLayers>(
-    () => ({ ...temporal.layers, vegetation: vegetationEvidence }),
-    [temporal.layers, vegetationEvidence],
+    () => ({
+      ...temporal.layers,
+      geotubes: showGeotubeControl ? temporal.layers.geotubes : null,
+      groynes: showGroynesControl ? temporal.layers.groynes : null,
+      vegetation: null,
+    }),
+    [showGeotubeControl, showGroynesControl, temporal.layers],
   );
+  const visibleEvidenceSelection = evidenceSelected &&
+    (evidenceSelected.kind === 'geotubes' || evidenceSelected.kind === 'groynes') &&
+    !displayedEvidence[evidenceSelected.kind]?.features.some(({ id }) => id === evidenceSelected.feature.id)
+      ? null : evidenceSelected;
   const [referencesVisible, setReferencesVisible] = useState(false);
   const [structureData, setStructureData] = useState<StructureData | null>(
     null,
@@ -764,19 +932,23 @@ export default function Explorer({reviewMode=false,municipalityScope}:{reviewMod
       config
         ? {
             ...config,
+            navigation_bounds: municipalityScope?.municipality.bounds??config.navigation_bounds,
             focus_bounds: municipalityScope?.municipality.bounds??CHELEM_PROGRESO_OVERVIEW,
+            neighbour_places:config.neighbour_places?.filter(place=>municipalityPages.some(page=>page.name===place.municipality)),
             places:municipalityScope?coastalPlaces.filter(p=>p.municipality===municipalityScope.municipality.name):coastalPlaces.length?coastalPlaces:config.places,
           }
         : null,
-    [config,coastalPlaces],
+    [config,coastalPlaces,municipalityScope],
   );
   const municipalPhotoGroups=useMemo(()=>{
     const catalogue=municipalPhotoCatalogueJson as unknown as MunicipalPhotoCatalogue;
-    return [...new Set(coastalPlaces.map(place=>place.municipality).filter((m):m is string=>!!m))].map(municipality=>{
+    return municipalityPages.map(({name:municipality})=>{
       const scope=municipalPhotoLocation(catalogue,municipality);
-      const options=scope?(coastalResultView==='scenario'?municipalDatedOptions:municipalComparisonOptions)(receivedPhotoCatalogueJson.items as WaybackItem[],catalogue,municipality,scope.coordinates,17,scope.coordinates):[];
+      const options=scope?currentPhotoOptions(scope,coastalResultView):[];
       const years=coastalChapter==='current'?options.map(o=>o.year).filter(year=>year>=activeYearBounds.first&&year<=activeYearBounds.last):municipalPhotoYears(catalogue,municipality,activeYearBounds.first,activeYearBounds.last);
-      return {municipality,places:coastalPlaces.filter(place=>place.municipality===municipality),years};
+      return {municipality,places:coastalPlaces.filter(place=>place.municipality===municipality),
+        years:coastalChapter==='current'&&['Progreso','Ixil'].includes(municipality)
+          ?years.filter(year=>year===2011||year===2025):years};
     });
   },[coastalPlaces,coastalChapter,coastalResultView,activeYearBounds.first,activeYearBounds.last]);
 
@@ -865,14 +1037,20 @@ export default function Explorer({reviewMode=false,municipalityScope}:{reviewMod
     const c = new AbortController();
     let stopped = false;
     const t = window.setTimeout(() => c.abort(), 20000);
-    const files: Record<EvidenceKind, string> = {
+    const files = {
       barriers: 'structure-outlines.geojson',
       geotubes: 'geotube-historical-axes.geojson',
-      vegetation: 'disturbed-mangrove-2020.geojson',
+      groynes: 'groyne-dated-observations.json',
     };
-    for (const kind of Object.keys(files) as EvidenceKind[]) {
-      void getJson<unknown>('problems/' + files[kind], c.signal)
-        .then((d) => {
+    const kinds: (keyof typeof files)[] = municipalitySlug === 'progreso' ? ['barriers', 'geotubes', 'groynes'] : ['barriers'];
+    for (const kind of kinds) {
+      const path = 'problems/' + files[kind];
+      const url = '/data/' + path;
+      const version = '?v=' + progresoGroyneVersion.sha256;
+      const asset = kind === 'groynes'
+        ? fetchJsonAsset<unknown>(url + version, c.signal, url + '.gz' + version)
+        : getJson<unknown>(path, c.signal);
+      void asset.then((d) => {
           if (!isEvidenceData(d)) throw new Error('Geometrías inválidas');
           if (!stopped) {
             setEvidence((v) => ({ ...v, [kind]: d }));
@@ -888,8 +1066,9 @@ export default function Explorer({reviewMode=false,municipalityScope}:{reviewMod
       c.abort();
       window.clearTimeout(t);
     };
-  }, [evidenceAttempt]);
+  }, [evidenceAttempt, municipalitySlug]);
   useEffect(() => {
+    if(!issueVisibility.vegetation)return;
     const c = new AbortController();
     let stopped = false;
     const timeout = window.setTimeout(() => c.abort(), 30000);
@@ -916,9 +1095,9 @@ export default function Explorer({reviewMode=false,municipalityScope}:{reviewMod
       c.abort();
       window.clearTimeout(timeout);
     };
-  }, [evidenceAttempt]);
+  }, [evidenceAttempt,issueVisibility.vegetation]);
   useEffect(() => {
-    if(!mangroveManifest)return;
+    if(!issueVisibility.vegetation||!mangroveManifest)return;
     const year=mangroveComparison?.year;
     setMangroveChanges(null);
     if(year===undefined){setMangroveStatus('ready');return;}
@@ -928,7 +1107,7 @@ export default function Explorer({reviewMode=false,municipalityScope}:{reviewMod
       if(!controller.signal.aborted){setMangroveChanges(changes);setMangroveStatus('ready');}
     }).catch(()=>{if(!controller.signal.aborted)setMangroveStatus('error');});
     return()=>controller.abort();
-  }, [mangroveManifest,mangroveComparison?.year,evidenceAttempt]);
+  }, [mangroveManifest,mangroveComparison?.year,evidenceAttempt,issueVisibility.vegetation,municipalityScope]);
   useEffect(() => {
     if (!referencesVisible && panel !== 'problems') return;
     const c = new AbortController();
@@ -1028,7 +1207,7 @@ export default function Explorer({reviewMode=false,municipalityScope}:{reviewMod
     setCoastPanorama(false);
     setPanel(null);
     setHistoricalReferences(true);
-    setIssueVisibility({ ...initialIssues, vegetation: true });
+    setIssueVisibility(initialIssues);
     setEvidenceSelected(null);
     setStructureSelected(null);
     setResearchSelected(null);
@@ -1068,9 +1247,12 @@ export default function Explorer({reviewMode=false,municipalityScope}:{reviewMod
         Ir a los controles
       </a>
       {reviewMode&&<form aria-label="Recorrido local de revisión" style={{position:'absolute',right:12,top:72,zIndex:1100,background:'rgba(13,38,43,.94)',border:'1px solid #78908c',borderRadius:12,padding:10,color:'#fff',fontSize:11,maxWidth:290}} onSubmit={event=>{
-        event.preventDefault();const target=scenarioModel?.targets.find(t=>t.id===reviewProfile.trim());
-        if(!target){setReviewError('Perfil no encontrado');return;}
-        setReviewError('');map.current?.restore({center:target.p,zoom:reviewZoom,bearing:0});
+        event.preventDefault();const id=reviewProfile.trim();
+        const target=scenarioModel?.targets.find(t=>t.id===id);
+        const direct=activeRegional?.features.find(f=>f.properties.profile_id===id&&f.properties.direct_marked_profile===true);
+        const location=target?.p??(direct?.geometry.type==='LineString'?direct.geometry.coordinates[0] as [number,number]:undefined);
+        if(!location){setReviewError('Perfil no encontrado');return;}
+        setReviewError('');map.current?.restore({center:location,zoom:reviewZoom,bearing:0});
       }}>
         <label>Perfil de revisión <input aria-label="Perfil de revisión" value={reviewProfile} onChange={e=>setReviewProfile(e.target.value)} style={{color:'#183c41',width:140,background:'#fff',padding:4,margin:4}}/></label>
         <label>Zoom <select aria-label="Zoom de revisión" value={reviewZoom} onChange={e=>setReviewZoom(Number(e.target.value))} style={{background:'#183c41',padding:4}}>{[11,13,15,16,17,18,19].map(z=><option key={z}>{z}</option>)}</select></label>
@@ -1081,12 +1263,14 @@ export default function Explorer({reviewMode=false,municipalityScope}:{reviewMod
         <TerritoryMap
           key={attempt}
           ref={map}
-          onRasterFrameDisplayed={setDisplayedRasterKey}
+          onRasterFrameDisplayed={onRasterFrameDisplayed}
+          onStationEdition={onStationEdition}
           referenceUnderlay={referenceEsriFallback||!displayedRasterKey?.startsWith('esri:')} keepRasterReference={!referenceEsriFallback}
           fallbackFrame={annualFallback?.frame}
           fallbackRetryToken={fallbackAttempt}
           coastalCoverage={researchVisible&&!scenarioActive&&coastalChapter==='current'&&coverageVisible&&['regional','2015','2020'].includes(coastalAnalysisMode)?completeAssessment:null}
           shorelinePair={researchVisible&&coastalChapter==='current'&&shorelineVisible ? activeShorelines : null}
+          continuousCoastalBars={exactProgresoPhotos}
           coastalAnalysis={researchVisible&&coastalChapter==='current'&&coastalAnalysisMode !== '1993' ? activeRegional : null}
           config={mapConfig}
           data={data}
@@ -1102,8 +1286,8 @@ export default function Explorer({reviewMode=false,municipalityScope}:{reviewMod
             issueVisibility.barriers &&
             structureStatus === 'ready'
           }
-          evidence={coastalChapter==='current'?displayedEvidence:{barriers:null,geotubes:null,vegetation:null}}
-          evidenceSelected={evidenceSelected}
+          evidence={coastalChapter==='current'?displayedEvidence:{barriers:null,geotubes:null,groynes:null,vegetation:null}}
+          evidenceSelected={visibleEvidenceSelection}
           onEvidenceSelect={(selection) => {
             setEvidenceSelected(selection);
             setStructureSelected(null);
@@ -1112,13 +1296,14 @@ export default function Explorer({reviewMode=false,municipalityScope}:{reviewMod
           }}
           structureSelected={structureSelected}
           onStructureSelect={selectStructure}
-          issueVisibility={coastalChapter!=='current'||pilotMode||backgroundYear<2011 ? { ...issueVisibility, geotubes: false, barriers: false, vegetation: false } : issueVisibility}
+          issueVisibility={coastalChapter!=='current'||pilotMode||backgroundYear<2011 ? { ...issueVisibility, geotubes: false, groynes: false, barriers: false, vegetation: false } : issueVisibility}
           onCaseSelect={noop}
           studyFlight={null}
           satellite={imageSource === 'detail' && !annualFallback && !backgroundUnavailable ? historicalSatellite : null}
           satelliteWarm={imageSource === 'detail' && !annualFallback && !backgroundUnavailable ? satelliteWarm : []}
           sentinelWarm={imageSource === 'sentinel' && !annualFallback && !backgroundUnavailable ? sentinelWarm : []}
           satelliteDetail={resolvedSatelliteDetail}
+          satelliteTileZoomLimits={satelliteTileZoomLimits}
           onSatelliteStatus={onSatelliteStatus}
           sentinel={imageSource === 'sentinel' && !annualFallback && !backgroundUnavailable ? sentinelScene : null}
           sentinelMode={!referenceEsriFallback&&(imageSource !== 'detail' || backgroundUnavailable)}
@@ -1169,14 +1354,6 @@ export default function Explorer({reviewMode=false,municipalityScope}:{reviewMod
             <Waves />
             <span>Problemas</span>
           </button>}
-          <button
-            className="minimal-info"
-            aria-label="Fuentes"
-            title="Fuentes"
-            onClick={() => openPanel('sources')}
-          >
-            <BookOpen />
-          </button>
         </div>
       </header>
       <nav
@@ -1186,21 +1363,21 @@ export default function Explorer({reviewMode=false,municipalityScope}:{reviewMod
         aria-label="Exploración"
       >
         {municipalityScope&&<a className="municipal-home-link" href="/">← Menú principal</a>}
-        <CoastalPlacePicker label={municipalityScope?.municipality.name} groups={municipalPhotoGroups} value={activePlace??''} title={photoLocation?'Costa de '+photoLocation.municipality:'Selecciona un municipio'} disabled={!ready&&placesStatus!=='error'} loading={placesStatus==='loading'&&!coastalPlaces.length} error={placesStatus==='error'} showYears={coastalChapter!=='historical'&&imageSource==='detail'} onSelect={navigatePlace} onRetry={()=>setPlacesAttempt(n=>n+1)}/>
+        <CoastalPlacePicker label={municipalityScope?.municipality.name} groups={municipalPhotoGroups} value={activePlace??''} title={photoLocation?'Costa de '+projectCoastLabel(photoLocation.municipality):'Selecciona un municipio'} disabled={!ready&&placesStatus!=='error'} loading={placesStatus==='loading'&&!coastalPlaces.length} error={placesStatus==='error'} showYears={coastalChapter!=='historical'&&imageSource==='detail'} onSelect={navigatePlace} onRetry={()=>setPlacesAttempt(n=>n+1)}/>
         <Button variant="ghost" disabled={!ready} aria-label={municipalityScope?"Vista completa del municipio":"Vista panorámica de Celestún a El Cuyo"} onClick={() => { if(municipalityScope){map.current?.coverage(municipalityScope.municipality.bounds);return;} if(coastalChapter==='current'){setHistoricalSatellite(historicalSatellite);setChapterYears(years=>withChapterYear(years,'current',backgroundYear));}setActivePlace(null);setCoastPanorama(true); map.current?.coverage([-90.55,20.65,-87.15,22]); }}>{municipalityScope?'Ver municipio':'Vista panorámica'}</Button>
         {municipalityScope&&<RoadKilometreSearch records={roadSearchRecords} onSelect={record=>{setRoadSearchSelection(record);map.current?.restore({center:record.coordinate,zoom:17,bearing:0});}}/>}
       </nav>
       {coastalChapter==='current' && evolutionMode && coastalAnalysisMode === '1993' && researchVisible && <CoastalEvolutionLegend index={evolutionIndex} year={backgroundYear} status={evolutionStatus} historicalContext={!!historicalContext?.features.length} trendStatus={trendStatus} />}
       {!evolutionMode && pilotMode && pilotCut && pilotSeries && <LittoralLegend cut={pilotCut} count={pilotSeries.pilot.transects.features.length} />}
       <CoastalPeriodSections historicalEvidence={<Suspense fallback={<p>Cargando cálculo histórico…</p>}><HistoricalErosionSummary year={backgroundYear} onYear={setImageYear}/></Suspense>} onPartialYear={year=>{setImageYear(year);setPhotoYear(year,'archive');setImageSourceState('archive');setArchiveKind('inegi');setPanel(null);setSatelliteStatus('loading');const epoch=historicalEpochForYear(archiveManifests.inegi,year);const bounds=historicalEpochBounds(archiveManifests.inegi,epoch?.id??null);if(bounds)map.current?.coverage(bounds);}} chapter={coastalChapter} onChapter={chapter=>{setCoastalChapter(chapter);setPanel(null);setEvidenceSelected(null);setResearchSelectedId(null);setPilotMode(false);setEvolutionMode(chapter!=='alec');if(chapter==='alec'){setResearchFollowsTime(false);}}} series={researchSeriesId} onSeries={series=>{setManualResearchSeries(series);setImageYear(series==='L5'?2011:2021);setResearchFollowsTime(false);setResearchSelectedId(null);}} count={researchData?.features.length??0} status={researchStatus} onRetry={()=>setResearchAttempt(n=>n+1)}>
-        <CoastalAnalysisControls scopeLabel={municipalityScope?.municipality.name} resultView={coastalResultView} alignmentSummary={alignedCoast?.summary} visibleCount={photoResultsInView} displayedYear={coastalResultView==='scenario'?backgroundYear:photoComparisonPresentation?.year??null} year={backgroundYear} years={availableAnalysisYears} municipality={photoLocation?.municipality??null} onYearChange={setImageYear} comparableCount={activeRegional?.features.filter(f=>f.properties.reference_only!==true).length??0} referenceCount={activeRegional?.features.filter(f=>f.properties.reference_only===true).length??0} status={scenarioStatus!=='ready'?scenarioStatus:photoComparisonStatus==='ready'&&coastalResultView==='photos'&&imageSource==='detail'&&photoComparisonCandidate!==photoComparisonPresentation?'loading':photoComparisonStatus} onRetry={()=>setAttempt(n=>n+1)}/>
+        <CoastalAnalysisControls reviewedMunicipality={['Progreso','Hunucmá','Dzemul','Yobaín'].includes(municipalityScope?.municipality.name??photoLocation?.municipality??'')} scopeLabel={municipalityScope?.municipality.name} resultView={coastalResultView} alignmentSummary={alignedCoast?.summary} visibleCount={viewResults.profiles} pendingStations={observedSampling?viewResults.pendingStations:undefined} displayedYear={coastalResultView==='scenario'?alignedCoast?.year??null:photoComparisonPresentation?.year??null} year={backgroundYear} years={availableAnalysisYears} referenceYear={exactProgresoPhotos?availableComparisonPhotos.find(photo=>photo.referenceOnly)?.year:undefined} municipality={photoLocation?.municipality??null} onYearChange={setImageYear} comparableCount={activeRegional?.features.filter(f=>f.properties.reference_only!==true).length??0} referenceCount={activeRegional?.features.filter(f=>f.properties.reference_only===true).length??0} status={alignmentPending?'loading':scenarioStatus!=='ready'?scenarioStatus:photoComparisonStatus==='ready'&&coastalResultView==='photos'&&imageSource==='detail'&&photoComparisonCandidate!==photoComparisonPresentation?'loading':photoComparisonStatus} onRetry={()=>setAttempt(n=>n+1)}/>
         {!scenarioActive&&coverageRows.length>0&&['regional','2015','2020'].includes(coastalAnalysisMode)&&<CoastalCoverageSummary rows={coverageRows} year={backgroundYear} visible={coverageVisible} onVisible={setCoverageVisible}/>}
         {seriesError&&<button className="coastal-popup-retry" onClick={()=>setAttempt(n=>n+1)}>Reintentar inventario regional</button>}
       </CoastalPeriodSections>
       {coastalChapter!=='historical'&&<LittoralBackgroundDate compact source={imageSource} info={imageInfo} year={backgroundYear} status={imageSource==='detail'&&backgroundUnavailable?'ready':satelliteStatus}
         backgroundLabel={visibleBackgroundLabel}
         unavailable={false}
-        note={'Análisis '+backgroundYear+' · '+(imageInfo?'imagen visible: '+imageInfo.capture+'. ':'fecha visible en consulta. ')+(!displayedDatedInView?'El centro está fuera de la cobertura de esta imagen; el fondo es una referencia Esri sin fecha local confirmada. ':requestedDatedRaster&&requestedDatedRaster.key!==displayedRasterKey?'La selección solicitada todavía no sustituye el fondo visible. ':multiArchive&&!multiArchiveReady?'El archivo se está preparando; todavía no se confirma su fecha visible. ':'')+(verifyingEsri?'Se está comprobando la fecha local. ':'')+'La foto conserva su fecha propia, distinta del año del análisis.'} />}
+        note={'Análisis '+backgroundYear+' · '+(imageInfo?'imagen visible: '+imageInfo.capture+'. ':'fecha visible en consulta. ')+(!displayedDatedInView?'El centro está fuera de la cobertura de esta imagen; el fondo es una referencia Esri sin fecha local confirmada. ':requestedDatedRaster&&requestedDatedRaster.key!==displayedRasterKey?'La selección solicitada todavía no sustituye el fondo visible. ':multiArchive&&!multiArchiveReady?'El archivo se está preparando; todavía no se confirma su fecha visible. ':'')+(verifyingEsri?'Se está comprobando la fecha local. ':'')+'La fotografía conserva su fecha de captura.'} />}
       {coastalChapter!=='historical'&&imageSource === 'archive' && <ArchiveControls partial={archiveKind==='inegi'||archiveKind==='landsat'} kind={archiveKind} manifest={archiveManifest} epoch={archiveEpoch} year={photoYear} covered={archiveCovered} status={coverageStatus !== 'ready' ? coverageStatus : archiveManifestStatus[archiveKind]}
         availableKinds={availableArchiveKinds} excludedCount={archiveManifests[archiveKind]?.epochs.filter(entry => entry.year === photoYear).length ?? 0}
         onKind={setArchiveKind}
@@ -1242,29 +1419,6 @@ export default function Explorer({reviewMode=false,municipalityScope}:{reviewMod
           </div>
         </div>
       )}
-      {coastalChapter==='current' && !pilotMode && issueVisibility.vegetation &&
-        mangroveComparison &&
-        mangroveStatus === 'ready' && (
-          <div
-            className="mangrove-map-legend"
-            aria-label="Cambio de cobertura de manglar"
-          >
-            <p>
-              Manglar · {mangroveComparison.previous_year} →{' '}
-              {mangroveComparison.year}
-              {mangroveComparison.reference ? ' · referencia' : ''}
-            </p>
-            <span>
-              <i style={{ background: '#f46c55' }} />
-              Pérdida
-            </span>
-            <span>
-              <i style={{ background: '#4fc4ad' }} />
-              Ganancia
-            </span>
-            <small>Estimación anual · 30 m</small>
-          </div>
-        )}
       <fieldset
         className="map-tools"
         aria-label="Controles del mapa"
@@ -1293,7 +1447,7 @@ export default function Explorer({reviewMode=false,municipalityScope}:{reviewMod
           size="icon"
           aria-label={municipalityScope?"Ver municipio":"Ver Chelem y Progreso"}
           onClick={() => {
-            setActivePlace(null);setCoastPanorama(false);
+            setActivePlace(municipalityScope?'municipality:'+municipalityScope.municipality.name:null);setCoastPanorama(false);
             map.current?.home();
           }}
         >
@@ -1302,8 +1456,16 @@ export default function Explorer({reviewMode=false,municipalityScope}:{reviewMod
       </fieldset>
       {coastalChapter==='historical'&&<Suspense fallback={<output className="minimal-loading">Cargando archivo histórico…</output>}><HistoricalDocumentViewer year={backgroundYear} onYear={setImageYear}/></Suspense>}
       <div hidden={coastalChapter==='historical'||imageSource !== 'detail' || pilotMode}>
-        <SatelliteTimeline scenarioReference={coastalChapter==='current'&&coastalResultView==='scenario'} selectedPhotoYear={currentComparisonPhoto?.year} compatibleComparison={coastalChapter==='current'} displayedInfo={imageInfo} firstYear={activeYearBounds.first} lastYear={activeYearBounds.last} scopeKey={coastalChapter+':'+(photoLocation?.municipality??'panorama')} sourceAvailability={{sentinel:{disabled:backgroundYear<2015,reason:backgroundYear<2015?'Sentinel-2 no tiene imágenes de estos años.':'Consulta Sentinel del año elegido'}}} onFallbackRetry={()=>setFallbackAttempt(n=>n+1)} fallbackInfo={annualFallback?.info} fallbackLabel={annualFallback?.label} comparisonPeriod={coastalChapter==='alec'?activeResearch.period:coastalChapter==='historical'?'archivo 1910–1985':undefined} referenceYear={coastalChapter==='current'&&coastalAnalysisMode==='2010'?2010:undefined}
+        <SatelliteTimeline comparisonPhotos={coastalChapter==='current'?availableComparisonPhotos:undefined} reviewedOnly={coastalChapter==='current'&&['Progreso','Hunucmá','Dzemul'].includes(municipalityScope?.municipality.name??photoLocation?.municipality??'')} scenarioReference={coastalChapter==='current'&&coastalResultView==='scenario'&&!exactProgresoPhotos} selectedPhotoYear={currentComparisonPhoto?.year} compatibleComparison={coastalChapter==='current'} displayedInfo={imageInfo} firstYear={activeYearBounds.first} lastYear={activeYearBounds.last} photoCatalogue={municipalPhotoCatalogueJson} scopeKey={coastalChapter+':'+(photoLocation?.municipality??'panorama')} sourceAvailability={{sentinel:{hidden:true,disabled:true,reason:'Esri es la fuente de este estudio'},archive:{hidden:true,disabled:true,reason:'Esri es la fuente de este estudio'}}} comparisonPeriod={coastalChapter==='alec'?activeResearch.period:coastalChapter==='historical'?'archivo 1910–1985':undefined} referenceYear={exactProgresoPhotos?availableComparisonPhotos.find(photo=>photo.referenceOnly)?.year:undefined}
           year={backgroundYear}
+          sectorAction={alternateProgresoSector && progresoPhotoSector ? (
+            activePlace === alternateProgresoSector.id
+              ? {label:'Ver todo Progreso', onSelect:() => navigatePlace('municipality:Progreso')}
+              : {label:progresoPhotoSector.action, onSelect:() => navigatePlace(alternateProgresoSector.id)}
+          ) : exactProgresoPhotos && backgroundYear===2025 && !pilotMode && center &&
+            center[0]>=-89.700 && center[0]<=-89.685 && availableAnalysisYears.includes(2023)
+            ? {label:'Ver foto de Yucalpetén de 2023',onSelect:()=>setImageYear(2023)}
+            : undefined}
           onYearChange={setImageYear}
           active={coastalChapter!=='historical'&&imageSource === 'detail'}
           onSource={(s) => {
@@ -1313,6 +1475,8 @@ export default function Explorer({reviewMode=false,municipalityScope}:{reviewMod
           }}
           center={center}
           viewZoom={viewZoom}
+          renderedTileZoom={selectedEsriTileZoom}
+          verifiedNativeZoom={selectedEsriNativeZoom}
           detail={resolvedSatelliteDetail}
           selected={historicalSatellite}
           flightSelected={null}
@@ -1423,16 +1587,20 @@ export default function Explorer({reviewMode=false,municipalityScope}:{reviewMod
                   reference2020: mangrove2020Visible,
                   onReference2020: setMangrove2020Visible,
                 }}
-                evidence={evidence}
+                evidence={{ ...evidence, geotubes: displayedEvidence.geotubes, groynes: displayedEvidence.groynes }}
+                showGeotubeControl={showGeotubeControl}
+                showGroynesControl={showGroynesControl}
                 evidenceStatus={{
                   ...evidenceStatus,
+                  geotubes: municipalitySlug === 'ixil' ? 'ready' : evidenceStatus.geotubes,
                   vegetation: mangroveStatus,
                 }}
-                evidenceSelected={evidenceSelected}
+                evidenceSelected={visibleEvidenceSelection}
                 onEvidenceRetry={() => {
                   setEvidenceStatus({
                     barriers: 'loading',
                     geotubes: 'loading',
+                    groynes: 'loading',
                     vegetation: 'loading',
                   });
                   setEvidenceAttempt((n) => n + 1);
@@ -1471,6 +1639,7 @@ export default function Explorer({reviewMode=false,municipalityScope}:{reviewMod
                 issueVisibility={issueVisibility}
                 onIssueVisibility={(id, value) => {
                   setIssueVisibility((v) => ({ ...v, [id]: value }));
+                  if (value && id === 'geotubes') setHistoricalReferences(true);
                   if (!value && id === 'barriers') setStructureSelected(null);
                   if (!value && evidenceSelected?.kind === id)
                     setEvidenceSelected(null);

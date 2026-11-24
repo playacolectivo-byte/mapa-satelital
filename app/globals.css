@@ -1145,7 +1145,6 @@ output.time-note, output.research-status { display: block; }
 .map-date-caption small{font-size:10px;color:#d2e4df}.map-date-info,.map-date-retry{color:#f4faf7;background:#ffffff12;border:1px solid #bddedb70;border-radius:50%;min-width:32px;height:32px;font:600 15px var(--sans);cursor:pointer}.map-date-retry{border-radius:16px;font-size:11px;padding:0 10px}
 .map-date-notice{position:absolute;bottom:calc(100% + 8px);left:50%;transform:translateX(-50%);border-radius:16px;background:#17383eee;border:1px solid #bddedb55;color:#e5f2ed;padding:8px 13px;font:11px/1.4 var(--sans);text-align:center;max-width:85%;width:max-content}
 .map-date-notice button{border:1px solid #bddedb60;background:#ffffff12;color:#fff;border-radius:9px;margin-left:8px;padding:4px 7px;cursor:pointer}
-.coastal-analysis-controls .analysis-year-select{display:flex;align-items:center;gap:12px;margin:12px 0 8px;font-size:12px}.analysis-year-select select{width:100px!important;min-height:36px;font-weight:700;font-size:18px!important}
 .coastal-coverage-summary{border-top:1px solid #bddedb50;padding-top:10px;margin-top:12px;color:#f4faf7;font-size:11px}.coastal-coverage-summary table{width:100%;border-collapse:collapse;font-size:10px}.coastal-coverage-summary td,.coastal-coverage-summary th{padding:5px 3px;border-bottom:1px solid #bddedb25;text-align:right}.coastal-coverage-summary td:first-child,.coastal-coverage-summary th:first-child{text-align:left}.coastal-coverage-summary a{color:#bceee2}.coastal-analysis-controls details p{font-size:11px;line-height:1.5}
 @media(max-width:850px){.map-date-picker{width:calc(100% - 28px);gap:9px;padding:10px 13px;bottom:30px}.map-date-picker .imagery-choice{flex-shrink:0}.map-date-caption{max-width:220px}.map-date-field{min-width:150px;max-width:220px}.map-date-field select{font-size:14px}}
 @media(max-width:600px){.map-date-picker{justify-content:center;min-height:100px}.map-date-picker .timeline-divider{display:none}.map-date-caption{flex-basis:100%;max-width:none;text-align:center;font-size:10px}.map-date-field{min-width:145px;flex:1}.map-date-info{min-width:28px;height:28px}}
@@ -1156,23 +1155,81 @@ output.time-note, output.research-status { display: block; }
 
 /* Compact reading controls: methods remain available without covering the coast. */
 .coastal-analysis-controls,.coastal-coverage-summary,.map-date-picker{font-family:ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;text-shadow:none}
-.coastal-analysis-controls .coastal-analysis-title{font-size:15px;font-weight:600;letter-spacing:-.02em;margin:0 0 12px}
+.coastal-analysis-controls .coastal-analysis-title{font-size:15px;font-weight:600;letter-spacing:-.02em;margin:0 0 8px}
 .coastal-result-view{display:flex;gap:3px;padding:3px;margin:0 0 12px;border:1px solid #e4f5ef24;border-radius:12px;background:#102e3326}
 .coastal-result-view button{flex:1;min-height:32px;padding:5px 6px;border:1px solid transparent;border-radius:9px;color:var(--coast-glass-muted,#c1d3d1);font-size:10px;line-height:1.2}
 .coastal-result-view button[aria-pressed=true]{background:#d8f1eb21;border-color:#d9f3ec32;color:#f2faf7}
-.coastal-estimate-label{display:block;margin:0 0 10px;color:#d9eee7;font-size:10px;line-height:1.4}
-.coastal-analysis-controls .coastal-analysis-selects{display:grid;grid-template-columns:86px minmax(0,1fr);gap:9px;align-items:end;margin-bottom:12px}
-.coastal-analysis-controls .analysis-year-select,.coastal-analysis-controls .coastal-bar-mode{display:flex;flex-direction:column;align-items:stretch;gap:5px;margin:0;font-size:10px;line-height:1.3;color:var(--coast-glass-muted)}
-.coastal-analysis-controls .analysis-year-select select{width:100%!important;min-height:36px;margin:0;padding:6px 8px;border-radius:9px;font-size:17px!important;font-weight:600;letter-spacing:-.02em}
+.coastal-analysis-controls .analysis-year-select{
+ display:grid;
+ gap:5px;
+ margin:0 0 8px;
+ color:var(--coast-glass-muted);
+ font-size:11px;
+ line-height:1.3;
+ text-align:center;
+}
+.coastal-analysis-controls .analysis-year-field{position:relative;display:block;min-width:0}
+.coastal-analysis-controls .analysis-year-field::after{
+ content:"";
+ position:absolute;
+ top:50%;
+ right:14px;
+ width:6px;
+ height:6px;
+ border-right:1.5px solid currentColor;
+ border-bottom:1.5px solid currentColor;
+ transform:translateY(-70%) rotate(45deg);
+ pointer-events:none;
+}
+.coastal-analysis-controls .analysis-year-field select{
+ appearance:none;
+ display:block;
+ width:100%;
+ min-height:38px;
+ margin:0;
+ padding:6px 27px;
+ border:1px solid #d9f3ec3b;
+ border-radius:11px;
+ background:#ffffff0e;
+ color:#f4faf7;
+ font-size:15px;
+ font-weight:600;
+ font-variant-numeric:tabular-nums;
+ letter-spacing:-.02em;
+ text-align:center;
+ text-align-last:center;
+ cursor:pointer;
+}
+.coastal-analysis-controls .analysis-year-field select:enabled:hover{background:#ffffff18;border-color:#d9f3ec61}
+.coastal-analysis-controls .analysis-year-field select:disabled{cursor:default}
+@media(pointer:coarse){.coastal-analysis-controls .analysis-year-field select{min-height:44px;font-size:16px}}
+@media(forced-colors:active){
+ .coastal-analysis-controls .analysis-year-field select{appearance:auto}
+ .coastal-analysis-controls .analysis-year-field::after{display:none}
+}
+.coastal-analysis-controls .coastal-estimate-label{
+ display:table;
+ max-width:100%;
+ margin:0 auto 9px;
+ padding:3px 8px;
+ border:1px solid #d9f3ec24;
+ border-radius:999px;
+ background:#ffffff0a;
+ color:#d9eee7;
+ font-size:10px;
+ line-height:1.35;
+ text-align:center;
+}
+.coastal-analysis-controls .coastal-bar-mode{display:flex;flex-direction:column;align-items:stretch;gap:5px;margin:0;font-size:10px;line-height:1.3;color:var(--coast-glass-muted)}
 .coastal-analysis-controls .coastal-bar-mode select{width:100%;height:36px;margin:0;padding:6px 7px;border-radius:9px;font-size:11px;line-height:1.3}
 .coastal-analysis-controls .coastal-analysis-overview{display:flex;align-items:center;justify-content:space-between;gap:8px;margin-bottom:10px}
 .coastal-analysis-controls .coastal-analysis-overview strong{font-size:16px;font-weight:600;letter-spacing:-.035em;white-space:nowrap;margin:0}
 .coastal-analysis-controls .coastal-result{display:inline-block;margin:0;padding:4px 7px;border-radius:7px;background:#ffffff0d;color:var(--coast-glass-muted);font-size:9px;line-height:1.3;text-align:right}
 .coastal-analysis-controls .coastal-result[data-state=error]{color:#ffcfb6}
-.coastal-analysis-controls .coastal-change-key.is-compact{display:flex;flex-wrap:wrap;gap:6px 16px;margin:0;font-size:10px;line-height:1.4}
+.coastal-analysis-controls .coastal-change-key.is-compact{display:flex;flex-wrap:wrap;justify-content:center;gap:6px 11px;margin:0;font-size:10px;line-height:1.4}
 .coastal-analysis-controls .coastal-change-key.is-compact i{width:14px;border-top-width:2px}
 .coastal-analysis-controls .coastal-inline-status{margin:8px 0 0;font-size:10px;line-height:1.4;color:var(--coast-glass-muted)}
-.coastal-analysis-controls .coastal-reading-details{margin:12px 0 0;font-size:11px}
+.coastal-analysis-controls .coastal-reading-details{margin:6px 0 0;font-size:11px}
 .coastal-analysis-controls .coastal-reading-details>summary,.coastal-coverage-summary>details>summary{display:flex;align-items:center;justify-content:space-between;gap:10px;min-height:30px;cursor:pointer;list-style:none;color:var(--coast-glass-muted);font-size:11px}
 .coastal-analysis-controls .coastal-reading-details>summary::marker,.coastal-coverage-summary>details>summary::marker{content:""}
 .coastal-analysis-controls .coastal-reading-details>summary::-webkit-details-marker,.coastal-coverage-summary>details>summary::-webkit-details-marker{display:none}
@@ -1194,14 +1251,14 @@ output.time-note, output.research-status { display: block; }
 .coastal-coverage-summary .coastal-coverage-detail table{margin:0 0 12px;font-size:10px;font-variant-numeric:tabular-nums}
 .coastal-coverage-summary .coastal-coverage-links{display:flex;flex-wrap:wrap;gap:6px 12px;margin-top:8px;font-size:10px}
 .coastal-coverage-summary :is(input,summary,a):focus-visible{outline:2px solid #a9f0de;outline-offset:3px}
-.minimal-explorer .timeline-pill.map-date-picker{width:min(920px,calc(100% - 48px));min-height:64px;gap:10px;padding:10px 15px;border-radius:22px;bottom:26px}
+.minimal-explorer .timeline-pill.map-date-picker{width:max-content;max-width:calc(100% - 48px);min-height:58px;gap:10px;padding:10px 15px;border-radius:22px;bottom:26px}
 .map-date-picker .imagery-choice{flex:0 0 auto}
 .map-date-picker .imagery-choice button{width:auto;flex:0 0 auto;white-space:nowrap;font-size:12px;padding:8px 12px;min-height:34px}
 .map-date-picker .timeline-divider{height:28px;align-self:center}
 .map-date-picker .map-date-field{display:flex;flex-direction:row;align-items:center;gap:7px;flex:0 1 272px;min-width:230px;max-width:300px;margin:0}
 .map-date-picker .map-date-field>span{font-size:9px;line-height:1.3;max-width:76px;color:var(--coast-glass-muted)}
 .map-date-picker .map-date-field select{min-width:160px;width:100%;min-height:34px;margin:0;padding:6px 8px;border-radius:9px;font-size:12px;line-height:1.3}
-.map-date-picker .map-date-caption{flex:1 1 150px;min-width:150px;max-width:270px;gap:3px;margin:0;font-size:10px;line-height:1.4}
+.map-date-picker .map-date-caption{flex:0 1 auto;min-width:150px;max-width:270px;gap:3px;margin:0;font-size:10px;line-height:1.4}
 .map-date-picker .map-date-caption small{font-size:10px;line-height:1.3;color:#ffcfb6}
 .map-date-picker .map-date-info{flex:0 0 28px;min-width:28px;width:28px;height:28px;font-size:13px}
 .map-date-picker .map-date-retry{min-height:28px;height:auto;min-width:0;padding:5px 9px;font-size:10px}
@@ -1210,15 +1267,12 @@ output.time-note, output.research-status { display: block; }
 .map-date-picker .map-date-progress{display:inline-flex;align-items:center;gap:5px;color:var(--coast-glass-muted);font-size:10px;white-space:nowrap}
 .map-date-picker .map-date-progress i{width:9px;height:9px;border:1px solid #ffffff30;border-top-color:currentColor;border-radius:50%;animation:coastal-date-progress .9s linear infinite}
 @keyframes coastal-date-progress{to{transform:rotate(360deg)}}
-@media(max-width:850px){.minimal-explorer .timeline-pill.map-date-picker{width:calc(100% - 28px);gap:8px;padding:10px 12px}.map-date-picker .imagery-choice button{padding:7px 10px}.map-date-picker .map-date-field{flex-basis:250px;min-width:220px}.map-date-picker .map-date-caption{max-width:250px}}
-@media(max-width:600px){.minimal-explorer .timeline-pill.map-date-picker{width:calc(100% - 24px);justify-content:flex-start;min-height:0;border-radius:18px;gap:8px;padding:10px 12px;bottom:24px}.map-date-picker .imagery-choice{flex:1 1 auto}.map-date-picker .imagery-choice button{padding:7px 10px;font-size:11px}.map-date-picker .map-date-field{flex:1 1 100%;min-width:0;max-width:none;order:2}.map-date-picker .map-date-field>span{max-width:none;flex:0 0 85px;font-size:10px}.map-date-picker .map-date-field select{flex:1;min-width:0}.map-date-picker .map-date-caption{flex:1 1 calc(100% - 80px);min-width:0;max-width:none;order:3;text-align:left}.map-date-picker .map-date-progress{order:4}.map-date-picker .map-date-notice{order:5}.map-date-picker .map-date-retry{order:4}.map-date-picker .map-date-info{margin-left:auto}}
+@media(max-width:850px){.minimal-explorer .timeline-pill.map-date-picker{width:calc(100% - 28px);max-width:calc(100% - 28px);gap:8px;padding:10px 12px}.map-date-picker .imagery-choice button{padding:7px 10px}.map-date-picker .map-date-field{flex-basis:250px;min-width:220px}.map-date-picker .map-date-caption{max-width:250px}}
+@media(max-width:600px){.minimal-explorer .timeline-pill.map-date-picker{width:calc(100% - 24px);max-width:calc(100% - 24px);justify-content:flex-start;min-height:0;border-radius:18px;gap:8px;padding:10px 12px;bottom:24px}.map-date-picker .imagery-choice{flex:1 1 auto}.map-date-picker .imagery-choice button{padding:7px 10px;font-size:11px}.map-date-picker .map-date-field{flex:1 1 100%;min-width:0;max-width:none;order:2}.map-date-picker .map-date-field>span{max-width:none;flex:0 0 85px;font-size:10px}.map-date-picker .map-date-field select{flex:1;min-width:0}.map-date-picker .map-date-caption{flex:1 1 calc(100% - 80px);min-width:0;max-width:none;order:3;text-align:left}.map-date-picker .map-date-progress{order:4}.map-date-picker .map-date-notice{order:5}.map-date-picker .map-date-retry{order:4}.map-date-picker .map-date-info{margin-left:auto}}
 @media(prefers-reduced-motion:reduce){.map-date-picker .map-date-progress i{animation:none}}
 .map-date-picker .map-date-notice{position:static;transform:none;left:auto;bottom:auto;max-width:none;width:auto;border:0;background:none;text-align:left}
 .minimal-explorer .littoral-background-date.is-compact{max-width:250px}
 
-.coastal-fixed-reference{display:flex;flex-direction:column;gap:5px;min-width:0}
-.coastal-fixed-reference>span{font-size:10px;line-height:1.3;color:var(--coast-glass-muted,#c1d3d1)}
-.coastal-fixed-reference>strong{display:flex;align-items:center;box-sizing:border-box;min-height:36px;padding:6px 9px;border:1px solid rgba(218,239,235,.2);border-radius:9px;background:rgba(230,245,241,.04);font-size:12px;font-weight:600;color:#f1faf6}
 
 /* Municipal pages share the existing glass controls and dated map renderer. */
 .coast-home{position:fixed;inset:0;background:#143c43;color:#f0f7f5;overflow:hidden}.coast-home-map{position:absolute;inset:0;z-index:0}.coast-home-title{position:absolute;z-index:500;top:28px;left:32px;padding:22px 26px;border:1px solid #ffffff35;border-radius:26px;background:#11383bc7;backdrop-filter:blur(22px);box-shadow:0 12px 40px #0002;max-width:370px}.coast-home-title span{font-size:12px;opacity:.75;letter-spacing:.09em;text-transform:uppercase}.coast-home-title h1{font-size:32px;margin:6px 0}.coast-home-title p{margin:0;font-size:14px;line-height:1.5;opacity:.85}.coast-home-menu{position:absolute;z-index:500;left:32px;bottom:36px;max-width:min(670px,calc(100vw - 110px));display:grid;grid-template-columns:repeat(3,minmax(140px,1fr));gap:7px;padding:12px;border-radius:24px;border:1px solid #ffffff38;background:#133c3dcc;backdrop-filter:blur(22px);box-shadow:0 10px 40px #0003}.coast-home-menu a{display:flex;justify-content:space-between;gap:14px;padding:11px 14px;border-radius:15px;color:#f2fbf9;text-decoration:none;font-size:14px;background:#ffffff07;border:1px solid transparent}.coast-home-menu a:hover,.coast-home-menu a:focus-visible{background:#ffffff20;border-color:#ffffff5c}.coast-home-menu span{opacity:.6}.coast-home-marker{display:block;white-space:nowrap;transform:translate(-50%,-50%);background:#153b40ce;color:white;border:1px solid #ffffff65;backdrop-filter:blur(8px);border-radius:20px;padding:7px 12px;text-decoration:none;font:600 12px system-ui;box-shadow:0 3px 12px #0003}.coast-home-actions{position:absolute;z-index:500;right:24px;bottom:45px;display:flex;flex-direction:column;border:1px solid #ffffff50;border-radius:25px;background:#173c42c9;backdrop-filter:blur(15px);overflow:hidden}.coast-home-actions button{width:45px;height:45px;background:none;border:0;color:white;font-size:25px}.coast-home-credit{position:absolute;z-index:500;bottom:8px;right:14px;font-size:10px;text-shadow:0 1px 4px #000}.coast-home-notice{position:absolute;z-index:510;top:15px;right:20px;max-width:300px;background:#133b40e8;padding:12px 16px;border-radius:18px;font-size:13px}.municipal-home-link{font-size:13px;padding:12px 16px;color:inherit;text-decoration:none;white-space:nowrap;border-right:1px solid #ffffff25}.road-search{position:relative;flex-shrink:0}.road-search-toggle{color:inherit;background:transparent;border:0;padding:12px 16px;font:inherit;white-space:nowrap}.road-search-panel{position:absolute;right:0;top:calc(100% + 14px);width:min(320px,85vw);padding:18px;background:#13393ff2;border:1px solid #ffffff48;backdrop-filter:blur(22px);border-radius:24px;box-shadow:0 14px 50px #0004;color:#f1faf7;display:grid;gap:12px}.road-search-panel label{display:grid;gap:5px;font-size:13px}.road-search-panel select,.road-search-panel input{min-width:0;width:100%;padding:10px 12px;border-radius:12px;border:1px solid #ffffff50;background:#ffffff12;color:inherit;font:inherit}.road-search-panel select option{background:#193d43;color:white}.road-search-panel button{padding:10px;border-radius:14px;border:1px solid #ffffff70;background:#aee5d925;color:white}.road-search-panel output,.road-search-panel p{font-size:12px;line-height:1.5}.road-search-panel output:empty{display:none}.map-nav:has(.municipal-home-link){max-width:calc(100% - 40px);width:max-content}.map-nav:has(.municipal-home-link) .coastal-place-picker{min-width:140px}.map-nav:has(.municipal-home-link) .coastal-place-select{max-width:245px}

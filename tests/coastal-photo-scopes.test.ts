@@ -4,6 +4,7 @@ import {readFileSync} from 'node:fs';
 import {createHash} from 'node:crypto';
 import {municipalPhotoOptions,municipalPhotoYears,municipalPhotoLocation,localMetadataBelongsToLocation,municipalComparisonOptions,municipalComparisonYears,compatibleAnalysisYear,type MunicipalPhotoCatalogue} from '../lib/coastal-photo-scopes.ts';
 import type {ReceivedCatalogue} from '../lib/esri-catalogue.ts';
+import {datedReviewForMunicipality} from '../lib/dated-image-reviews.ts';
 import {distinctLocalCaptures} from '../lib/esri-captures.ts';
 const read=(name:string)=>JSON.parse(readFileSync(new URL('../'+name,import.meta.url),'utf8'));
 const received=read('public/data/history/esri-local-captures.json') as ReceivedCatalogue;
@@ -56,7 +57,7 @@ test('compatible selectors require both a local exact-year release and an accept
  for(const anchor of catalogue.anchors){
   const options=municipalComparisonOptions(received.items,catalogue,anchor.municipality,anchor.coordinates,17,anchor.coordinates);
   assert.deepEqual([...new Set(options.map(o=>o.year))],municipalComparisonYears(catalogue,anchor.municipality,2010,2026,anchor.coordinates));
-  for(const option of options)assert(anchor.captures.some(c=>c.year===option.year&&c.releases.includes(option.item.releaseNum)),anchor.municipality+' '+option.year);
+  for(const option of options){const review=datedReviewForMunicipality(anchor.municipality);if(review){const ledger=read('lib/generated/'+(anchor.municipality==='Ixil'?'ixil':'celestun')+'-reviewed-photos.json');const profile=ledger.targets.find((t:{id:string})=>option.key.includes(t.id+':'));assert(profile,anchor.municipality+' missing source profile');assert(profile.readings.some(([capture,group]:number[])=>ledger.captures[capture].date===option.date&&ledger.release_groups[group].includes(option.item.releaseNum)));}else assert(anchor.captures.some(c=>c.year===option.year&&c.releases.includes(option.item.releaseNum)),anchor.municipality+' '+option.year);}
  }
 });
 
@@ -101,4 +102,36 @@ test('Progreso 2019 keeps the higher-coverage reviewed edition across the report
   const options=municipalComparisonOptions(received.items,catalogue,'Progreso',[longitude,21.30],17,anchor);
   assert.equal(options.find(option=>option.year===2019)?.item.releaseNum,15045);
  }
+});
+
+test('the current Progreso 2019 views expose Chicxulub with its own reviewed mosaic',async()=>{
+ const {progresoReviewedPhotoOptions}=await import('../lib/coastal-photo-scopes.ts');
+ const {createCoastalImageAlignment}=await import('../lib/coastal-image-alignment.ts');
+ const reviewed=read('lib/generated/municipal-photo-reviewed-catalogue.json') as MunicipalPhotoCatalogue;
+ const view=municipalPhotoLocation(reviewed,'Progreso')!;
+ const chicxulub:[number,number]=[-89.6071692,21.2944286];
+ const localAnchor=reviewed.anchors.find(anchor=>anchor.review_scope==='local'&&anchor.coordinates[0]===chicxulub[0]&&anchor.coordinates[1]===chicxulub[1]);
+ assert(localAnchor?.scope_profile_ids?.length);
+ const profiles=new Set(localAnchor.scope_profile_ids);
+ const selected=(coordinates:[number,number])=>progresoReviewedPhotoOptions(received.items,reviewed,coordinates).find(option=>option.year===2019)?.item.releaseNum;
+ const general=selected(view.coordinates),local=selected(chicxulub);
+ assert.equal(general,20753);
+ assert.equal(local,15045);
+ const alignment=createCoastalImageAlignment(
+  read('public/data/municipalities/progreso/scenario.json'),
+  read('public/data/municipalities/progreso/photos.json'),
+  read('public/data/shorelines/photo-alignment/revised-source-review.json'),
+ );
+ const accepted=(release:number)=>alignment.read(2019,release,17).layer.features.filter(feature=>
+  profiles.has(String(feature.id))&&feature.geometry.type==='LineString'&&feature.properties.photo_interpretation===true
+  &&feature.properties.photo_review_pending!==true&&feature.properties.context_review!==true,
+ );
+ assert.equal(accepted(general).length,0);
+ const observations=accepted(local);
+ assert(observations.length>0);
+ assert.deepEqual([...new Set(observations.map(feature=>feature.properties.date_after))].sort(),['2019-11-22','2019-11-27']);
+ assert(observations.every(feature=>{
+  const releases=feature.properties.photo_source_releases;
+  return Array.isArray(releases)&&releases.includes(local);
+ }));
 });

@@ -2,7 +2,26 @@
  * Build once per displayed result layer; a kd-tree avoids a quadratic scan
  * over the full coast on every pan. Every distinct point gets a neighbour. */
 export type SpacingPosition={id:string;coordinate:[number,number]};
-export type SpacingLink={from:SpacingPosition;to:SpacingPosition};
+import {coastalLocalDistance} from './coastal-100m-grid.ts';
+import type {CoastalAnalysisData} from './coastal-analysis.ts';
+export type SpacingLink={from:SpacingPosition;to:SpacingPosition;distance_m:number;chainage_m?:number;pending?:boolean};
+
+export function coastalGridSpacingLinks(layer:CoastalAnalysisData):SpacingLink[]{
+ const segments=new Map<string,{position:SpacingPosition;chainage:number;pending:boolean}[]>();
+ for(const f of layer.features){
+  const p=f.properties,coordinate=p.sampling_coordinate??p.baseline_coordinate;
+  if(p.grid_spacing_m!==100||typeof p.grid_segment!=='string'||typeof p.grid_chainage_m!=='number'||!Array.isArray(coordinate))continue;
+  const rows=segments.get(p.grid_segment)??[];
+  rows.push({position:{id:String(p.sampling_station_id??p.profile_id),coordinate:coordinate as [number,number]},chainage:p.grid_chainage_m,pending:p.sampling_gap===true});
+  segments.set(p.grid_segment,rows);
+ }
+ const links:SpacingLink[]=[];
+ for(const rows of segments.values()){
+  rows.sort((a,b)=>a.chainage-b.chainage);
+  for(let i=1;i<rows.length;i++){const a=rows[i-1],b=rows[i],interval=b.chainage-a.chainage;if(Math.abs(interval-100)>.001)continue;links.push({from:a.position,to:b.position,distance_m:coastalLocalDistance(a.position.coordinate,b.position.coordinate),chainage_m:interval,pending:a.pending||b.pending});}
+ }
+ return links;
+}
 type Point=SpacingPosition&{index:number;x:number;y:number};
 type Node={point:Point;axis:0|1;left:Node|null;right:Node|null};
 export function coastalSpacingLinks(positions:SpacingPosition[],maximumDistanceMeters=Infinity):SpacingLink[]{
@@ -38,7 +57,7 @@ export function coastalSpacingLinks(positions:SpacingPosition[],maximumDistanceM
     if((ax*bx+ay*by)/Math.sqrt(neighbours[0].d*neighbours[1].d)>.5)continue;
    }
    const key=[point.index,next.index].sort((a,b)=>a-b).join(':');if(seen.has(key))continue;seen.add(key);
-   links.push({from:point,to:next});
+   links.push({from:point,to:next,distance_m:coastalLocalDistance(point.coordinate,next.coordinate)});
   }
  }
  return links;

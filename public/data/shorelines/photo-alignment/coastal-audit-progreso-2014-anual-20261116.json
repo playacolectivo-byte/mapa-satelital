@@ -1,0 +1,245 @@
+{
+  "version": 1,
+  "field_validated": false,
+  "review_id": "coastal-audit-progreso-2014-anual-20261116",
+  "timestamp": "2026-11-16T20:00:41.152555+00:00",
+  "data_sha256": "250fa694f9c3829ac0d41598454e28988a6c681fc36c6330c0f950eb08aa76e5",
+  "model_sha256": "21ed574a9c464cab785197f95568e242da2358cae23b08a420afde98aa294513",
+  "method_url": "/data/shorelines/photo-alignment/coastal-audit-progreso-2014-anual-20261116-method.md",
+  "decisions": [
+    {
+      "profileId": "SC-218-0-0",
+      "capture": 48,
+      "oldOffset": 20,
+      "oldAccepted": true,
+      "newOffset": 13,
+      "newAccepted": true,
+      "sourceRelease": 18820,
+      "date": "2014-09-18",
+      "positionVisualInterval": [
+        11,
+        15.5
+      ],
+      "uncertaintyM": 3.5,
+      "evidence": [
+        {
+          "path": "/data/shorelines/photo-alignment/coastal-audit-progreso-2014-anual-20261116-evidence.json",
+          "sha256": "7a0e6e16950cf0f663135d31815c02e06fb2bfa55336fb966925026fd7c77cc3"
+        },
+        {
+          "path": "https://wayback.maptiles.arcgis.com/arcgis/rest/services/World_Imagery/WMTS/1.0.0/default028mm/MapServer/tile/18820/17/57612/32840",
+          "sha256": "a4390548aa0c465b9b0024972eb0e8143ecca6824ea46acbd351c6b5177b31ed"
+        },
+        {
+          "path": "https://wayback.maptiles.arcgis.com/arcgis/rest/services/World_Imagery/WMTS/1.0.0/default028mm/MapServer/tile/10768/17/57612/32840",
+          "sha256": "a4390548aa0c465b9b0024972eb0e8143ecca6824ea46acbd351c6b5177b31ed"
+        }
+      ],
+      "metadata": {
+        "release": 18820,
+        "positionOffset": 13,
+        "url": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2018_r14/MapServer/6/query?f=json&where=1%3D1&inSR=4326&outSR=4326&geometry=-89.800874819%2C21.257694048%2C-89.747097311%2C21.270695235&geometryType=esriGeometryEnvelope&spatialRel=esriSpatialRelIntersects&outFields=OBJECTID%2CSRC_DATE2%2CSRC_DESC%2CSAMP_RES%2CSRC_ACC%2CMinMapLevel%2CMaxMapLevel&returnGeometry=true",
+        "sha256": "2c8efdc8d41ef43c834da47876c91603f33cae10ecde61755506de547330641a",
+        "checks": [
+          {
+            "delta_m": -3,
+            "date": "2014-09-18",
+            "sensor": "GE01"
+          },
+          {
+            "delta_m": 0,
+            "date": "2014-09-18",
+            "sensor": "GE01"
+          },
+          {
+            "delta_m": 3,
+            "date": "2014-09-18",
+            "sensor": "GE01"
+          }
+        ]
+      },
+      "reason": "El cruce anterior queda en agua verde al lado marino de una transición de arena continua, visible a ambos lados del perfil en Chuburná.",
+      "equivalentMetadata": [
+        {
+          "release": 10768,
+          "positionOffset": 13,
+          "url": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2018_r01/MapServer/6/query?f=json&where=1%3D1&inSR=4326&outSR=4326&geometry=-89.800874819%2C21.257694048%2C-89.747097311%2C21.270695235&geometryType=esriGeometryEnvelope&spatialRel=esriSpatialRelIntersects&outFields=OBJECTID%2CSRC_DATE2%2CSRC_DESC%2CSAMP_RES%2CSRC_ACC%2CMinMapLevel%2CMaxMapLevel&returnGeometry=true",
+          "sha256": "6f8f2db055652bf9c084cef013e2605938a6c52526d8bbf8174ffe7044094c30",
+          "checks": [
+            {
+              "delta_m": -3,
+              "date": "2014-09-18",
+              "sensor": "GE01"
+            },
+            {
+              "delta_m": 0,
+              "date": "2014-09-18",
+              "sensor": "GE01"
+            },
+            {
+              "delta_m": 3,
+              "date": "2014-09-18",
+              "sensor": "GE01"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "profileId": "SC-469-0-0",
+      "capture": 48,
+      "oldOffset": 9,
+      "oldAccepted": true,
+      "newOffset": 4.5,
+      "newAccepted": true,
+      "sourceRelease": 18820,
+      "date": "2014-09-18",
+      "positionVisualInterval": [
+        2,
+        6.5
+      ],
+      "uncertaintyM": 3.5,
+      "evidence": [
+        {
+          "path": "/data/shorelines/photo-alignment/coastal-audit-progreso-2014-anual-20261116-evidence.json",
+          "sha256": "7a0e6e16950cf0f663135d31815c02e06fb2bfa55336fb966925026fd7c77cc3"
+        },
+        {
+          "path": "https://wayback.maptiles.arcgis.com/arcgis/rest/services/World_Imagery/WMTS/1.0.0/default028mm/MapServer/tile/18820/17/57607/32859",
+          "sha256": "640f64754d5979475cd4c1216173f68cb76abd17735998a1dd6f466cecf76b8e"
+        },
+        {
+          "path": "https://wayback.maptiles.arcgis.com/arcgis/rest/services/World_Imagery/WMTS/1.0.0/default028mm/MapServer/tile/10768/17/57607/32859",
+          "sha256": "640f64754d5979475cd4c1216173f68cb76abd17735998a1dd6f466cecf76b8e"
+        }
+      ],
+      "metadata": {
+        "release": 18820,
+        "positionOffset": 4.5,
+        "url": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2018_r14/MapServer/6/query?f=json&where=1%3D1&inSR=4326&outSR=4326&geometry=-89.800874819%2C21.257694048%2C-89.747097311%2C21.270695235&geometryType=esriGeometryEnvelope&spatialRel=esriSpatialRelIntersects&outFields=OBJECTID%2CSRC_DATE2%2CSRC_DESC%2CSAMP_RES%2CSRC_ACC%2CMinMapLevel%2CMaxMapLevel&returnGeometry=true",
+        "sha256": "2c8efdc8d41ef43c834da47876c91603f33cae10ecde61755506de547330641a",
+        "checks": [
+          {
+            "delta_m": -3,
+            "date": "2014-09-18",
+            "sensor": "GE01"
+          },
+          {
+            "delta_m": 0,
+            "date": "2014-09-18",
+            "sensor": "GE01"
+          },
+          {
+            "delta_m": 3,
+            "date": "2014-09-18",
+            "sensor": "GE01"
+          }
+        ]
+      },
+      "reason": "La marca anterior queda en agua sobre la inflexión del frente. El eje corta la banda clara de arena húmeda conectada a la playa y separable de la obra vecina.",
+      "equivalentMetadata": [
+        {
+          "release": 10768,
+          "positionOffset": 4.5,
+          "url": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2018_r01/MapServer/6/query?f=json&where=1%3D1&inSR=4326&outSR=4326&geometry=-89.800874819%2C21.257694048%2C-89.747097311%2C21.270695235&geometryType=esriGeometryEnvelope&spatialRel=esriSpatialRelIntersects&outFields=OBJECTID%2CSRC_DATE2%2CSRC_DESC%2CSAMP_RES%2CSRC_ACC%2CMinMapLevel%2CMaxMapLevel&returnGeometry=true",
+          "sha256": "6f8f2db055652bf9c084cef013e2605938a6c52526d8bbf8174ffe7044094c30",
+          "checks": [
+            {
+              "delta_m": -3,
+              "date": "2014-09-18",
+              "sensor": "GE01"
+            },
+            {
+              "delta_m": 0,
+              "date": "2014-09-18",
+              "sensor": "GE01"
+            },
+            {
+              "delta_m": 3,
+              "date": "2014-09-18",
+              "sensor": "GE01"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "profileId": "SC-C474-0-0",
+      "capture": 48,
+      "oldOffset": 11,
+      "oldAccepted": true,
+      "newOffset": 5.5,
+      "newAccepted": true,
+      "sourceRelease": 18820,
+      "date": "2014-09-18",
+      "positionVisualInterval": [
+        3,
+        8
+      ],
+      "uncertaintyM": 3.5,
+      "evidence": [
+        {
+          "path": "/data/shorelines/photo-alignment/coastal-audit-progreso-2014-anual-20261116-evidence.json",
+          "sha256": "7a0e6e16950cf0f663135d31815c02e06fb2bfa55336fb966925026fd7c77cc3"
+        },
+        {
+          "path": "https://wayback.maptiles.arcgis.com/arcgis/rest/services/World_Imagery/WMTS/1.0.0/default028mm/MapServer/tile/18820/17/57607/32860",
+          "sha256": "185188f2ff6f4915043fe61564a4fb244adab1fe039c0eb9f4834e8fc1285b2c"
+        },
+        {
+          "path": "https://wayback.maptiles.arcgis.com/arcgis/rest/services/World_Imagery/WMTS/1.0.0/default028mm/MapServer/tile/10768/17/57607/32860",
+          "sha256": "185188f2ff6f4915043fe61564a4fb244adab1fe039c0eb9f4834e8fc1285b2c"
+        }
+      ],
+      "metadata": {
+        "release": 18820,
+        "positionOffset": 5.5,
+        "url": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2018_r14/MapServer/6/query?f=json&where=1%3D1&inSR=4326&outSR=4326&geometry=-89.800874819%2C21.257694048%2C-89.747097311%2C21.270695235&geometryType=esriGeometryEnvelope&spatialRel=esriSpatialRelIntersects&outFields=OBJECTID%2CSRC_DATE2%2CSRC_DESC%2CSAMP_RES%2CSRC_ACC%2CMinMapLevel%2CMaxMapLevel&returnGeometry=true",
+        "sha256": "2c8efdc8d41ef43c834da47876c91603f33cae10ecde61755506de547330641a",
+        "checks": [
+          {
+            "delta_m": -3,
+            "date": "2014-09-18",
+            "sensor": "GE01"
+          },
+          {
+            "delta_m": 0,
+            "date": "2014-09-18",
+            "sensor": "GE01"
+          },
+          {
+            "delta_m": 3,
+            "date": "2014-09-18",
+            "sensor": "GE01"
+          }
+        ]
+      },
+      "reason": "El marcador previo cae sobre agua junto a una estructura transversal. El cruce nuevo se lee en el límite de arena húmeda conectado al terreno en el eje original.",
+      "equivalentMetadata": [
+        {
+          "release": 10768,
+          "positionOffset": 5.5,
+          "url": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2018_r01/MapServer/6/query?f=json&where=1%3D1&inSR=4326&outSR=4326&geometry=-89.800874819%2C21.257694048%2C-89.747097311%2C21.270695235&geometryType=esriGeometryEnvelope&spatialRel=esriSpatialRelIntersects&outFields=OBJECTID%2CSRC_DATE2%2CSRC_DESC%2CSAMP_RES%2CSRC_ACC%2CMinMapLevel%2CMaxMapLevel&returnGeometry=true",
+          "sha256": "6f8f2db055652bf9c084cef013e2605938a6c52526d8bbf8174ffe7044094c30",
+          "checks": [
+            {
+              "delta_m": -3,
+              "date": "2014-09-18",
+              "sensor": "GE01"
+            },
+            {
+              "delta_m": 0,
+              "date": "2014-09-18",
+              "sensor": "GE01"
+            },
+            {
+              "delta_m": 3,
+              "date": "2014-09-18",
+              "sensor": "GE01"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+"""Record two-operator decisions on native 2D contexts and full transects."""
+from pathlib import Path
+import hashlib,json
+ROOT=Path(__file__).resolve().parents[1];OUT=ROOT/'work/progreso-remaining-review-20261105';path=OUT/'manual-row-choices.json';choices=json.loads(path.read_text(encoding='utf-8'));records=[]
+groups=[
+ {'start':1484,'offsets':[0,10,10,12,20,20,15,8,-3,-10],'panel':'work/progreso-remaining-review-20261105/expanded-1484-1485-1486-1487-1488-1489-1490-1491-1492-1493.png','context':['work/hunucma-audit-20261105/progreso-remaining-independent/context1484-20753-transects.png','work/hunucma-audit-20261105/progreso-remaining-independent/context1484-11019-native.png']},
+ {'start':1721,'offsets':[-17.5,-20,-13,-12,-12.5,-4.5,-7,-15.5,-22.5,-29.5],'panel':'work/hunucma-audit-20261105/progreso-remaining-independent/expanded-native-1721-1730.png','context':['work/hunucma-audit-20261105/progreso-remaining-independent/context1721-17825-native.png']}]
+for group in groups:
+ for j,offset in enumerate(group['offsets']):
+  index=group['start']+j;key=str(index//24*24);old=choices[key][index%24];point=[104+j*128,345-offset*2];choice={'offset_m':offset,'panel':group['panel'],'panel_pixel':point,'context_panels':group['context'],'interpretation_basis':'two_operator_native_2d_and_full_transect_visible_water_sand_contact'};choices[key][index%24]=choice
+  records.append({'display_index':index,'previous_choice':old,'operator_contact_offset_m':offset,'source_panel':group['panel'],'source_panel_sha256':hashlib.sha256((ROOT/group['panel']).read_bytes()).hexdigest(),'source_pixel':point,'context_panels':[{'panel':p,'sha256':hashlib.sha256((ROOT/p).read_bytes()).hexdigest()}for p in group['context']],'reviewers':['dzemul_audit','hunucma_audit'],'operational_interpretation_tolerance_m':8,'field_validated':False})
+temporary=path.with_suffix('.json.tmp');temporary.write_text(json.dumps(choices,ensure_ascii=False,indent=2)+'\n',encoding='utf-8');temporary.replace(path)
+report={'date':'2026-11-06','status':'two_operator_visual_adjudication_complete_pending_endpoint_compilation','readings':records,'notes':['1484 was initially -18m from a narrow crop at a wet/dry sand boundary. Full native context establishes the apparent water/sand edge near 0m; that original candidate was withdrawn before final publication.','The lower dark interior band is not used as the coastline. Native two-dimensional texture continuity, not RGB classifier scores, defines the retained apparent contacts.','2011 context for the first group confirms that a much wider beach is visible in 2019; no cause, tide correction or physical accuracy is certified.']}
+(ROOT/'docs/qa/progreso-remaining-expanded-adjudication-20261106.json').write_text(json.dumps(report,ensure_ascii=False,indent=2)+'\n',encoding='utf-8');print({'native_2d_adjudicated':len(records),'choices_written':str(path)})

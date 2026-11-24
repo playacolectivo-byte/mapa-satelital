@@ -22,13 +22,15 @@ export type Camera = { center: [number, number]; zoom: number; bearing: number }
 export type MapHandle = { home: () => void; coverage: (bounds: Bounds) => void; zoom: (delta: number) => void; detail: (nativeZoom: number) => void; north: () => void; place: (id: string) => void; capture: () => Camera | undefined; restore: (camera: Camera) => void };
 export type TerritoryMapProps = {
   roadSearchSelection?:import('@/lib/road-search').RoadSearchRecord|null;
-  onRasterFrameDisplayed?: (key:string)=>void;
+  onStationEdition?: (year:number,release:number,date:string)=>void;
+  onRasterFrameDisplayed?: (key: string, tileZoom?: number) => void;
   referenceUnderlay?:boolean;
   keepRasterReference?:boolean;
   fallbackFrame?:RasterFrame|null;
   fallbackRetryToken?:number;
   shorelinePair?: ShorelinePair | null;
   coastalAnalysis?: CoastalAnalysisData | null;
+  continuousCoastalBars?: boolean;
   coastalCoverage?:CoastalAnalysisData|null;
   roadKilometres?: RoadKilometres | null;
   transectLabels?: BarMapLabel[];
@@ -43,7 +45,7 @@ export type TerritoryMapProps = {
   evidence: EvidenceLayers; evidenceSelected: EvidenceSelection | null; onEvidenceSelect: (selection: EvidenceSelection) => void;
   structures: StructureData | null; structuresVisible: boolean; structureSelected: StructureFeature | null; onStructureSelect: (feature: StructureFeature) => void;
   sentinel: SentinelScene | null; sentinelMode: boolean;
-  satellite: WaybackItem | null; satelliteWarm: WaybackItem[]; sentinelWarm: SentinelScene[]; satelliteDetail: SatelliteDetail; onSatelliteStatus: (status: 'loading' | 'ready' | 'error') => void;
+  satellite: WaybackItem | null; satelliteWarm: WaybackItem[]; sentinelWarm: SentinelScene[]; satelliteDetail: SatelliteDetail; satelliteTileZoomLimits?:Readonly<Record<number,number>>; onSatelliteStatus: (status: 'loading' | 'ready' | 'error') => void;
   issueVisibility: IssueVisibility; onCaseSelect: () => void;
   config: MapConfig; data: TerritoryData; visibility: Visibility; imageryVisible: boolean; entered: boolean; selected: TerritoryFeature | null; panelOpen: boolean;
   onSelect: (feature: TerritoryFeature | null) => void; onReady: () => void; onError: (message: string) => void;

@@ -3,7 +3,7 @@ import assert from 'node:assert/strict';
 import {readFileSync} from 'node:fs';
 import {createHash} from 'node:crypto';
 import {validateCoastalScenario} from '../lib/coastal-scenario.ts';
-import {validatePhotoCoast,photoCoastCoordinate} from '../lib/photo-coast.ts';
+import {validatePhotoCoast,photoCoastCoordinate,photoCoastDistance} from '../lib/photo-coast.ts';
 import {applyPhotoDigitization,type PhotoDigitization} from '../lib/photo-digitization.ts';
 import {applyPhotoVisualReview} from '../lib/photo-visual-review.ts';
 import {createCoastalImageAlignment} from '../lib/coastal-image-alignment.ts';
@@ -60,7 +60,7 @@ test('Chelem starts on the traced 2011 boundary, and the 2025 bar uses its recal
  assert.equal(before.properties.delta_m,0);assert.equal(before.properties.reference_only,true);
  assert.deepEqual(before.geometry.coordinates[0],photoCoastCoordinate(t,-63.1));
  assert.deepEqual(before.geometry.coordinates[0],after.geometry.coordinates[0]);
- assert.equal(after.properties.delta_m,63.1);assert.equal(after.properties.photo_interpretation,true);
+ assert.equal(after.properties.delta_m,photoCoastDistance(photoCoastCoordinate(t,-63.1),photoCoastCoordinate(t,0)));assert.equal(after.properties.photo_interpretation,true);
  assert.notEqual(after.properties.delta_m,after.properties.scenario_original_delta_m);
  assert.deepEqual(after.geometry.coordinates[1],photoCoastCoordinate(t,0));
 });

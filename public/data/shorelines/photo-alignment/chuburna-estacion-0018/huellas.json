@@ -1,0 +1,157 @@
+{
+  "station": "GRID100-progreso-002-0018",
+  "origin": [
+    -89.82750725845511,
+    21.253170113335695
+  ],
+  "axis": [
+    -0.19155268607038564,
+    0.9814823322195975
+  ],
+  "before": {
+    "release": 11019,
+    "coord": [
+      -89.82749895001842,
+      21.253130437704247
+    ],
+    "date": "2011-08-01",
+    "sensor": "WV02",
+    "offset": -4.5,
+    "verified": [
+      {
+        "release": 11019,
+        "positionOffset": -4.5,
+        "url": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2014_r17/MapServer/6/query?f=json&where=MinMapLevel+%3C%3D+17+AND+MaxMapLevel+%3E%3D+17&geometryType=esriGeometryEnvelope&geometry=-89.82756449%2C21.25304399%2C-89.82743341%2C21.25321689&inSR=4326&outSR=4326&outFields=OBJECTID%2CSRC_DATE2%2CSRC_DESC%2CSAMP_RES%2CSRC_ACC%2CMinMapLevel%2CMaxMapLevel&returnGeometry=true",
+        "sha256": "167e7145a077c878fc7ec68a4bbd177eb7ca744117ea2eaf4d09068e84d35ed8",
+        "file": "huellas-11019-003f6a0ac4a.json",
+        "checks": [
+          {
+            "delta_m": -3,
+            "date": "2011-08-01",
+            "sensor": "WV02"
+          },
+          {
+            "delta_m": 0,
+            "date": "2011-08-01",
+            "sensor": "WV02"
+          },
+          {
+            "delta_m": 3,
+            "date": "2011-08-01",
+            "sensor": "WV02"
+          }
+        ]
+      }
+    ],
+    "nearest": [
+      {
+        "profile": "SC-256-0-19",
+        "station": "GRID100-progreso-002-0019",
+        "distance": 54.22,
+        "date": "2011-08-01"
+      },
+      {
+        "profile": "SC-256-0-17",
+        "station": "GRID100-progreso-002-0017",
+        "distance": 141.37,
+        "date": "2011-08-01"
+      },
+      {
+        "profile": "SC-256-0-16",
+        "station": "GRID100-progreso-002-0016",
+        "distance": 224.62,
+        "date": "2011-08-01"
+      },
+      {
+        "profile": "SC-256-0-21",
+        "station": "GRID100-progreso-002-0020",
+        "distance": 235.81,
+        "date": "2011-08-01"
+      }
+    ]
+  },
+  "after": {
+    "release": 22252,
+    "coord": [
+      -89.82746202363313,
+      21.252954101435186
+    ],
+    "date": "2025-02-13",
+    "sensor": "WV03",
+    "offset": -24.5,
+    "verified": [
+      {
+        "release": 22252,
+        "positionOffset": -24.5,
+        "url": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2026_r01/MapServer/6/query?f=json&where=MinMapLevel+%3C%3D+17+AND+MaxMapLevel+%3E%3D+17&geometryType=esriGeometryEnvelope&geometry=-89.82752756%2C21.25286765%2C-89.82739648%2C21.25304055&inSR=4326&outSR=4326&outFields=OBJECTID%2CSRC_DATE2%2CSRC_DESC%2CSAMP_RES%2CSRC_ACC%2CMinMapLevel%2CMaxMapLevel&returnGeometry=true",
+        "sha256": "c3184333daea847dec63171678fd9dd844ba095c9ca30e659ea680347481f184",
+        "file": "huellas-22252-0975c9fd35a.json",
+        "checks": [
+          {
+            "delta_m": -3,
+            "date": "2025-02-13",
+            "sensor": "WV03"
+          },
+          {
+            "delta_m": 0,
+            "date": "2025-02-13",
+            "sensor": "WV03"
+          },
+          {
+            "delta_m": 3,
+            "date": "2025-02-13",
+            "sensor": "WV03"
+          }
+        ]
+      },
+      {
+        "release": 52304,
+        "positionOffset": -24.5,
+        "url": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2025_r08/MapServer/6/query?f=json&where=MinMapLevel+%3C%3D+17+AND+MaxMapLevel+%3E%3D+17&geometryType=esriGeometryEnvelope&geometry=-89.82752756%2C21.25286765%2C-89.82739648%2C21.25304055&inSR=4326&outSR=4326&outFields=OBJECTID%2CSRC_DATE2%2CSRC_DESC%2CSAMP_RES%2CSRC_ACC%2CMinMapLevel%2CMaxMapLevel&returnGeometry=true",
+        "sha256": "d67f60bc1372c41f6ee7e1016b10062c13c3aea5f0bc715669ee7180c9f1f874",
+        "file": "huellas-52304-685a4e9a6ad.json",
+        "checks": [
+          {
+            "delta_m": -3,
+            "date": "2025-02-13",
+            "sensor": "WV03"
+          },
+          {
+            "delta_m": 0,
+            "date": "2025-02-13",
+            "sensor": "WV03"
+          },
+          {
+            "delta_m": 3,
+            "date": "2025-02-13",
+            "sensor": "WV03"
+          }
+        ],
+        "match_native": {
+          "correlation": 0.999998927116394,
+          "mean_error": 0.0
+        }
+      }
+    ],
+    "nearest": [
+      {
+        "profile": "SC-256-0-19",
+        "station": "GRID100-progreso-002-0019",
+        "distance": 49.73,
+        "date": "2025-02-13"
+      },
+      {
+        "profile": "SC-256-0-17",
+        "station": "GRID100-progreso-002-0017",
+        "distance": 137.89,
+        "date": "2025-02-13"
+      },
+      {
+        "profile": "SC-256-0-16",
+        "station": "GRID100-progreso-002-0016",
+        "distance": 233.27,
+        "date": "2025-02-13"
+      }
+    ]
+  }
+}

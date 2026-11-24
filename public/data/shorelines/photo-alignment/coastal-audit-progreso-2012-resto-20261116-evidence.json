@@ -1,0 +1,213 @@
+{
+  "verified": {
+    "SC-88-0-14": {
+      "2011_reference": {
+        "date": "2011-08-01",
+        "coord": [
+          -89.59360943688799,
+          21.298074143253316
+        ],
+        "capture": 40,
+        "sensor": "WV02",
+        "resolution_m": 0.5,
+        "release": 11019,
+        "offset_m": -8.6,
+        "method": "refined-visible-water-contact-chicxulub-chelem-2011-20261106"
+      },
+      "2012_acquisition": {
+        "date": "2012-12-15",
+        "coord": [
+          -89.59362194268743,
+          21.298159590781918
+        ],
+        "capture": 177,
+        "sensor": "WV02",
+        "resolution_m": 0.5,
+        "release": 27946,
+        "offset_m": 1,
+        "method": "manual-progreso-apparent-water-sand-2011-20261105"
+      },
+      "native_zoom": 17,
+      "proposed_coordinates": [
+        [
+          -89.59360826446932,
+          21.29806613254496
+        ],
+        [
+          -89.59361217253164,
+          21.29809283490444
+        ],
+        [
+          -89.59361608059397,
+          21.29811953725907
+        ]
+      ],
+      "old_endpoint": [
+        -89.59362194268743,
+        21.298159590781918
+      ],
+      "same_native_tiles": true,
+      "dated_footprint_release": 6984,
+      "metadata": {
+        "27946": {
+          "url": "",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "positions": [
+            [],
+            [],
+            [],
+            []
+          ]
+        },
+        "6984": {
+          "url": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2016_r16/MapServer/6/query?f=json&where=1%3D1&inSR=4326&outSR=4326&geometry=-89.838229520%2C21.248794340%2C-89.755036080%2C21.271219850&geometryType=esriGeometryEnvelope&spatialRel=esriSpatialRelIntersects&outFields=OBJECTID%2CSRC_DATE2%2CSRC_DESC%2CSAMP_RES%2CSRC_ACC%2CMinMapLevel%2CMaxMapLevel&returnGeometry=true",
+          "sha256": "af8c00865b46442c7aacba2b94a84ceacba7e613db846e99a6fc51ebf4da7001",
+          "positions": [
+            [
+              [
+                "2012-12-15",
+                "WV02",
+                0.5,
+                10.2,
+                132859
+              ]
+            ],
+            [
+              [
+                "2012-12-15",
+                "WV02",
+                0.5,
+                10.2,
+                132859
+              ]
+            ],
+            [
+              [
+                "2012-12-15",
+                "WV02",
+                0.5,
+                10.2,
+                132859
+              ]
+            ],
+            [
+              [
+                "2012-12-15",
+                "WV02",
+                0.5,
+                10.2,
+                132859
+              ]
+            ]
+          ]
+        }
+      },
+      "source_tiles": {
+        "27946": [
+          {
+            "url": "https://wayback.maptiles.arcgis.com/arcgis/rest/services/World_Imagery/WMTS/1.0.0/default028mm/MapServer/tile/27946/17/57596/32915",
+            "sha256": "6558f38afb979e3cea3f37fc5e6c65c7e88c4ae5be4d9aed3cb1d02d0e710485",
+            "col": 32915,
+            "row": 57596
+          }
+        ],
+        "6984": [
+          {
+            "url": "https://wayback.maptiles.arcgis.com/arcgis/rest/services/World_Imagery/WMTS/1.0.0/default028mm/MapServer/tile/6984/17/57596/32915",
+            "sha256": "6558f38afb979e3cea3f37fc5e6c65c7e88c4ae5be4d9aed3cb1d02d0e710485",
+            "col": 32915,
+            "row": 57596
+          }
+        ]
+      },
+      "overview_sheet": "2012-resto-06.jpg",
+      "panel": 88,
+      "reason": "El cruce previo estaba en agua verde. En la imagen se distingue la transición continua de agua somera a arena húmeda hacia tierra."
+    },
+    "SC-88-0-53": {
+      "2011_reference": {
+        "date": "2011-08-01",
+        "coord": [
+          -89.55786556473015,
+          21.30580022583891
+        ],
+        "capture": 40,
+        "sensor": "WV02",
+        "resolution_m": 0.5,
+        "release": 11019,
+        "offset_m": 20,
+        "method": "coastal-audit-waterline-20261109"
+      },
+      "2012_acquisition": {
+        "date": "2012-12-15",
+        "coord": [
+          -89.55780304073652,
+          21.305639793796555
+        ],
+        "capture": 177,
+        "sensor": "WV02",
+        "resolution_m": 0.5,
+        "release": 27946,
+        "offset_m": 1,
+        "method": "manual-progreso-apparent-water-sand-2011-20261105"
+      },
+      "native_zoom": 17,
+      "proposed_coordinates": [],
+      "old_endpoint": [
+        -89.55780304073652,
+        21.305639793796555
+      ],
+      "same_native_tiles": true,
+      "dated_footprint_release": 6984,
+      "metadata": {
+        "27946": {
+          "url": "",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "positions": [
+            []
+          ]
+        },
+        "6984": {
+          "url": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2016_r16/MapServer/6/query?f=json&where=1%3D1&inSR=4326&outSR=4326&geometry=-89.838229520%2C21.248794340%2C-89.755036080%2C21.271219850&geometryType=esriGeometryEnvelope&spatialRel=esriSpatialRelIntersects&outFields=OBJECTID%2CSRC_DATE2%2CSRC_DESC%2CSAMP_RES%2CSRC_ACC%2CMinMapLevel%2CMaxMapLevel&returnGeometry=true",
+          "sha256": "af8c00865b46442c7aacba2b94a84ceacba7e613db846e99a6fc51ebf4da7001",
+          "positions": [
+            [
+              [
+                "2012-12-15",
+                "WV02",
+                0.5,
+                10.2,
+                132859
+              ]
+            ]
+          ]
+        }
+      },
+      "source_tiles": {
+        "27946": [
+          {
+            "url": "https://wayback.maptiles.arcgis.com/arcgis/rest/services/World_Imagery/WMTS/1.0.0/default028mm/MapServer/tile/27946/17/57593/32928",
+            "sha256": "d9ebf0c85d657813b0cfee7f4d9fd3b4926c10f6050798e922e1e518520a9cd7",
+            "col": 32928,
+            "row": 57593
+          }
+        ],
+        "6984": [
+          {
+            "url": "https://wayback.maptiles.arcgis.com/arcgis/rest/services/World_Imagery/WMTS/1.0.0/default028mm/MapServer/tile/6984/17/57593/32928",
+            "sha256": "d9ebf0c85d657813b0cfee7f4d9fd3b4926c10f6050798e922e1e518520a9cd7",
+            "col": 32928,
+            "row": 57593
+          }
+        ]
+      },
+      "overview_sheet": "2012-resto-09.jpg",
+      "panel": 124,
+      "reason": "El extremo anterior cae tierra adentro sobre una zona urbanizada. En este perfil la toma no permite separar con seguridad el contacto de arena continua junto a las obras."
+    }
+  },
+  "details": {
+    "file": "detalle-resto-2012-01.jpg",
+    "sha256": "415fb386612f108d16b489589023937ba8edcf14658b8e6a7a970aec97656940"
+  }
+}

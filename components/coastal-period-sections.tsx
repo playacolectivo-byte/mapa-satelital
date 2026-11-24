@@ -10,7 +10,7 @@ export function CoastalPeriodSections({chapter,onChapter,children,series,onSerie
 }){
  const panel=useRef<HTMLElement>(null);
  const panelId=useId();
- const [minimized,setMinimized]=useState(false);
+ const [minimized,setMinimized]=useState(true);
  const [collapsedChapter,setCollapsedChapter]=useState<CoastalChapter|null>(null);
  const [size,setSize]=useState<{width:number;height:number}|null>(null);
  const resizing=useRef<{pointer:number;x:number;y:number;width:number;height:number;maxWidth:number;maxHeight:number}|null>(null);

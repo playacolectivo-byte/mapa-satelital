@@ -3,7 +3,7 @@ import {distinctLocalCaptures,isVerifiedHdYear,type LocalEsriCapture} from './es
 import type {ReceivedSite} from './esri-catalogue.ts';
 
 export type PhotoReference={name:string;coordinates:[number,number];zoom:number};
-export type CoastalPhotoOption=LocalEsriCapture&{reference:PhotoReference;local:boolean};
+export type CoastalPhotoOption=LocalEsriCapture&{reference:PhotoReference;local:boolean;referenceOnly?:boolean};
 /** A date audited at another point retains its provenance. These catalogue
  * coordinates are never a command to move the visitor's camera. */
 export function coastalPhotoOptions(items:WaybackItem[],sites:ReceivedSite[],center:[number,number],zoom:number,localCaptures:LocalEsriCapture[]=[]):CoastalPhotoOption[]{

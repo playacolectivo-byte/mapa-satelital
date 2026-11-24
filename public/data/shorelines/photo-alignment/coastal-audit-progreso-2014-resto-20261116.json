@@ -1,0 +1,167 @@
+{
+  "version": 1,
+  "field_validated": false,
+  "review_id": "coastal-audit-progreso-2014-resto-20261116",
+  "timestamp": "2026-11-16T20:09:29.538006+00:00",
+  "data_sha256": "250fa694f9c3829ac0d41598454e28988a6c681fc36c6330c0f950eb08aa76e5",
+  "model_sha256": "21ed574a9c464cab785197f95568e242da2358cae23b08a420afde98aa294513",
+  "method_url": "/data/shorelines/photo-alignment/coastal-audit-progreso-2014-resto-20261116-method.md",
+  "decisions": [
+    {
+      "profileId": "SC-C180-0-0",
+      "capture": 48,
+      "oldOffset": 13.7,
+      "oldAccepted": true,
+      "newOffset": 2.7,
+      "newAccepted": true,
+      "sourceRelease": 18820,
+      "date": "2014-09-18",
+      "positionVisualInterval": [
+        0,
+        5.5
+      ],
+      "uncertaintyM": 4,
+      "evidence": [
+        {
+          "path": "/data/shorelines/photo-alignment/coastal-audit-progreso-2014-resto-20261116-evidence.json",
+          "sha256": "3762e9226d0cbd38f4b5a31460d391fb4dccd2634a278caea7fa6688e3430237"
+        },
+        {
+          "path": "https://wayback.maptiles.arcgis.com/arcgis/rest/services/World_Imagery/WMTS/1.0.0/default028mm/MapServer/tile/18820/17/57611/32844",
+          "sha256": "bbce162982652de85a477638681f16550301534d2e259307e975643256eb0f43"
+        },
+        {
+          "path": "https://wayback.maptiles.arcgis.com/arcgis/rest/services/World_Imagery/WMTS/1.0.0/default028mm/MapServer/tile/10768/17/57611/32844",
+          "sha256": "bbce162982652de85a477638681f16550301534d2e259307e975643256eb0f43"
+        }
+      ],
+      "metadata": {
+        "release": 18820,
+        "positionOffset": 2.7,
+        "url": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2018_r14/MapServer/6/query?f=json&where=1%3D1&inSR=4326&outSR=4326&geometry=-89.800874819%2C21.257694048%2C-89.747097311%2C21.270695235&geometryType=esriGeometryEnvelope&spatialRel=esriSpatialRelIntersects&outFields=OBJECTID%2CSRC_DATE2%2CSRC_DESC%2CSAMP_RES%2CSRC_ACC%2CMinMapLevel%2CMaxMapLevel&returnGeometry=true",
+        "sha256": "2c8efdc8d41ef43c834da47876c91603f33cae10ecde61755506de547330641a",
+        "checks": [
+          {
+            "delta_m": -3,
+            "date": "2014-09-18",
+            "sensor": "GE01"
+          },
+          {
+            "delta_m": 0,
+            "date": "2014-09-18",
+            "sensor": "GE01"
+          },
+          {
+            "delta_m": 3,
+            "date": "2014-09-18",
+            "sensor": "GE01"
+          }
+        ]
+      },
+      "reason": "La lectura anterior estaba sobre agua verde. El nuevo cruce coincide con el borde de arena unido a la playa. Se distingue la estructura transversal al este.",
+      "equivalentMetadata": [
+        {
+          "release": 10768,
+          "positionOffset": 2.7,
+          "url": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2018_r01/MapServer/6/query?f=json&where=1%3D1&inSR=4326&outSR=4326&geometry=-89.800874819%2C21.257694048%2C-89.747097311%2C21.270695235&geometryType=esriGeometryEnvelope&spatialRel=esriSpatialRelIntersects&outFields=OBJECTID%2CSRC_DATE2%2CSRC_DESC%2CSAMP_RES%2CSRC_ACC%2CMinMapLevel%2CMaxMapLevel&returnGeometry=true",
+          "sha256": "6f8f2db055652bf9c084cef013e2605938a6c52526d8bbf8174ffe7044094c30",
+          "checks": [
+            {
+              "delta_m": -3,
+              "date": "2014-09-18",
+              "sensor": "GE01"
+            },
+            {
+              "delta_m": 0,
+              "date": "2014-09-18",
+              "sensor": "GE01"
+            },
+            {
+              "delta_m": 3,
+              "date": "2014-09-18",
+              "sensor": "GE01"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "profileId": "SC-C101-0-0",
+      "capture": 48,
+      "oldOffset": 21,
+      "oldAccepted": true,
+      "newOffset": 15,
+      "newAccepted": true,
+      "sourceRelease": 18820,
+      "date": "2014-09-18",
+      "positionVisualInterval": [
+        12,
+        18
+      ],
+      "uncertaintyM": 4,
+      "evidence": [
+        {
+          "path": "/data/shorelines/photo-alignment/coastal-audit-progreso-2014-resto-20261116-evidence.json",
+          "sha256": "3762e9226d0cbd38f4b5a31460d391fb4dccd2634a278caea7fa6688e3430237"
+        },
+        {
+          "path": "https://wayback.maptiles.arcgis.com/arcgis/rest/services/World_Imagery/WMTS/1.0.0/default028mm/MapServer/tile/18820/17/57604/32871",
+          "sha256": "85d67d3d03b8d606e0f9df2dbc6784eb3c85f9ee77d629aa2920e2ccb8d40a41"
+        },
+        {
+          "path": "https://wayback.maptiles.arcgis.com/arcgis/rest/services/World_Imagery/WMTS/1.0.0/default028mm/MapServer/tile/10768/17/57604/32871",
+          "sha256": "85d67d3d03b8d606e0f9df2dbc6784eb3c85f9ee77d629aa2920e2ccb8d40a41"
+        }
+      ],
+      "metadata": {
+        "release": 18820,
+        "positionOffset": 15,
+        "url": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2018_r14/MapServer/6/query?f=json&where=1%3D1&inSR=4326&outSR=4326&geometry=-89.800874819%2C21.257694048%2C-89.747097311%2C21.270695235&geometryType=esriGeometryEnvelope&spatialRel=esriSpatialRelIntersects&outFields=OBJECTID%2CSRC_DATE2%2CSRC_DESC%2CSAMP_RES%2CSRC_ACC%2CMinMapLevel%2CMaxMapLevel&returnGeometry=true",
+        "sha256": "2c8efdc8d41ef43c834da47876c91603f33cae10ecde61755506de547330641a",
+        "checks": [
+          {
+            "delta_m": -3,
+            "date": "2014-09-18",
+            "sensor": "GE01"
+          },
+          {
+            "delta_m": 0,
+            "date": "2014-09-18",
+            "sensor": "GE01"
+          },
+          {
+            "delta_m": 3,
+            "date": "2014-09-18",
+            "sensor": "GE01"
+          }
+        ]
+      },
+      "reason": "La lectura anterior queda en agua cerca del eje de una estructura. La franja húmeda conectada a tierra se sigue a ambos lados y cruza el perfil más hacia la playa.",
+      "equivalentMetadata": [
+        {
+          "release": 10768,
+          "positionOffset": 15,
+          "url": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2018_r01/MapServer/6/query?f=json&where=1%3D1&inSR=4326&outSR=4326&geometry=-89.800874819%2C21.257694048%2C-89.747097311%2C21.270695235&geometryType=esriGeometryEnvelope&spatialRel=esriSpatialRelIntersects&outFields=OBJECTID%2CSRC_DATE2%2CSRC_DESC%2CSAMP_RES%2CSRC_ACC%2CMinMapLevel%2CMaxMapLevel&returnGeometry=true",
+          "sha256": "6f8f2db055652bf9c084cef013e2605938a6c52526d8bbf8174ffe7044094c30",
+          "checks": [
+            {
+              "delta_m": -3,
+              "date": "2014-09-18",
+              "sensor": "GE01"
+            },
+            {
+              "delta_m": 0,
+              "date": "2014-09-18",
+              "sensor": "GE01"
+            },
+            {
+              "delta_m": 3,
+              "date": "2014-09-18",
+              "sensor": "GE01"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

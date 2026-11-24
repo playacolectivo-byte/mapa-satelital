@@ -1,7 +1,6 @@
 'use client';
 import {lazy,Suspense,useEffect,useState} from 'react';
-import pages from '@/lib/generated/municipality-pages.json';
-import {routeMunicipality,type MunicipalityScope} from '@/lib/municipal-pages';
+import {reviewedMunicipalityPages as pages,routeMunicipality,type MunicipalityScope} from '@/lib/municipal-pages';
 const Explorer=lazy(()=>import('./explorer'));
 const CoastHome=lazy(()=>import('./coast-home'));
 export default function CoastApp({reviewMode=false}:{reviewMode?:boolean}){

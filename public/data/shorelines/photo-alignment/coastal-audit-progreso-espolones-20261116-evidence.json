@@ -1,0 +1,404 @@
+{
+  "scope": "Fotografía de Progreso del 13 de febrero de 2025, WV03, resolución de fuente 0,6 m, lectura en tesela nativa z17",
+  "original_screenshot_sha256": "36a599ac3d01ec47ce0c6e3efd58d9e0cc189060e0d387478dd67c9fcf347c3f",
+  "comparison_sheet_sha256": "a0a4bde2c1060a8dd83839eb532f089c835676bc353f6d87eea258f78977583d",
+  "groyne_axes_sha256": "dbf4c84206dccf43a7513e907fff2fa10528e2c71c959f0df837e416d51a0e31",
+  "side_by_side": [
+    {
+      "edition": 26334,
+      "x": 32859,
+      "y": 57607,
+      "zoom": 17,
+      "url": "https://wayback.maptiles.arcgis.com/arcgis/rest/services/World_Imagery/WMTS/1.0.0/default028mm/MapServer/tile/26334/17/57607/32859",
+      "sha256": "968890b67221391b7ac741262cab5bf07b0190428e2a17faa9d5be2bde9efabb",
+      "registration": [
+        {
+          "window": [
+            8,
+            8,
+            248,
+            248
+          ],
+          "displacement_native_pixels": [
+            0,
+            0
+          ],
+          "normalised_correlation": 0.9999992847442627,
+          "mean_grayscale_difference": 0.0
+        }
+      ]
+    },
+    {
+      "edition": 22252,
+      "x": 32859,
+      "y": 57607,
+      "zoom": 17,
+      "url": "https://wayback.maptiles.arcgis.com/arcgis/rest/services/World_Imagery/WMTS/1.0.0/default028mm/MapServer/tile/22252/17/57607/32859",
+      "sha256": "2f3147300251ed8aa17134196483d1ad9b9fcbb54619953274089635cc9d9fa9",
+      "registration": [
+        {
+          "window": [
+            8,
+            8,
+            248,
+            248
+          ],
+          "displacement_native_pixels": [
+            0,
+            0
+          ],
+          "normalised_correlation": 0.9982098937034607,
+          "mean_grayscale_difference": 2.2206770833333334
+        }
+      ]
+    },
+    {
+      "edition": 52304,
+      "x": 32859,
+      "y": 57607,
+      "zoom": 17,
+      "url": "https://wayback.maptiles.arcgis.com/arcgis/rest/services/World_Imagery/WMTS/1.0.0/default028mm/MapServer/tile/52304/17/57607/32859",
+      "sha256": "2f3147300251ed8aa17134196483d1ad9b9fcbb54619953274089635cc9d9fa9",
+      "registration": [
+        {
+          "window": [
+            8,
+            8,
+            248,
+            248
+          ],
+          "displacement_native_pixels": [
+            0,
+            0
+          ],
+          "normalised_correlation": 0.9982098937034607,
+          "mean_grayscale_difference": 2.2206770833333334
+        }
+      ]
+    },
+    {
+      "edition": 26334,
+      "x": 32860,
+      "y": 57607,
+      "zoom": 17,
+      "url": "https://wayback.maptiles.arcgis.com/arcgis/rest/services/World_Imagery/WMTS/1.0.0/default028mm/MapServer/tile/26334/17/57607/32860",
+      "sha256": "0150933157a433d4f22c231aa9596d89b49698600115a4afa7bfc533e9dc0162",
+      "registration": [
+        {
+          "window": [
+            8,
+            8,
+            248,
+            248
+          ],
+          "displacement_native_pixels": [
+            0,
+            0
+          ],
+          "normalised_correlation": 1.0,
+          "mean_grayscale_difference": 0.0
+        },
+        {
+          "window": [
+            60,
+            40,
+            220,
+            115
+          ],
+          "displacement_native_pixels": [
+            0,
+            0
+          ],
+          "normalised_correlation": 0.9999992847442627,
+          "mean_grayscale_difference": 0.0
+        }
+      ]
+    },
+    {
+      "edition": 22252,
+      "x": 32860,
+      "y": 57607,
+      "zoom": 17,
+      "url": "https://wayback.maptiles.arcgis.com/arcgis/rest/services/World_Imagery/WMTS/1.0.0/default028mm/MapServer/tile/22252/17/57607/32860",
+      "sha256": "1d3010bcf8a56414fb84d7bb519d5c4569512c29897056aa09d6abd697ddc543",
+      "registration": [
+        {
+          "window": [
+            8,
+            8,
+            248,
+            248
+          ],
+          "displacement_native_pixels": [
+            0,
+            0
+          ],
+          "normalised_correlation": 0.9980484247207642,
+          "mean_grayscale_difference": 2.4549131944444444
+        },
+        {
+          "window": [
+            60,
+            40,
+            220,
+            115
+          ],
+          "displacement_native_pixels": [
+            0,
+            0
+          ],
+          "normalised_correlation": 0.9985988140106201,
+          "mean_grayscale_difference": 1.81525
+        }
+      ]
+    },
+    {
+      "edition": 52304,
+      "x": 32860,
+      "y": 57607,
+      "zoom": 17,
+      "url": "https://wayback.maptiles.arcgis.com/arcgis/rest/services/World_Imagery/WMTS/1.0.0/default028mm/MapServer/tile/52304/17/57607/32860",
+      "sha256": "1d3010bcf8a56414fb84d7bb519d5c4569512c29897056aa09d6abd697ddc543",
+      "registration": [
+        {
+          "window": [
+            8,
+            8,
+            248,
+            248
+          ],
+          "displacement_native_pixels": [
+            0,
+            0
+          ],
+          "normalised_correlation": 0.9980484247207642,
+          "mean_grayscale_difference": 2.4549131944444444
+        },
+        {
+          "window": [
+            60,
+            40,
+            220,
+            115
+          ],
+          "displacement_native_pixels": [
+            0,
+            0
+          ],
+          "normalised_correlation": 0.9985988140106201,
+          "mean_grayscale_difference": 1.81525
+        }
+      ]
+    }
+  ],
+  "metadata": [
+    {
+      "edition": 26334,
+      "delta_m": -3,
+      "date": "2025-02-13",
+      "sensor": "WV03",
+      "position": [
+        -89.74629340459964,
+        21.270620622068087
+      ],
+      "url": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2026_r07/MapServer/6/query?f=json&where=1%3D1&inSR=4326&geometry=-89.7462934046%2C21.2706206221&geometryType=esriGeometryPoint&spatialRel=esriSpatialRelIntersects&outFields=OBJECTID%2CSRC_DATE2%2CSRC_DESC%2CSAMP_RES%2CMinMapLevel%2CMaxMapLevel&returnGeometry=false",
+      "sha256": "a1016b708d22cdab6b4bdb7feb3c669d5f4a4609faecd58a7136fb8c2802254e",
+      "attributes": {
+        "OBJECTID": 1151603,
+        "SRC_DATE2": 1739404800000,
+        "SRC_DESC": "WV03",
+        "SAMP_RES": 0.6,
+        "MinMapLevel": 12,
+        "MaxMapLevel": 18
+      }
+    },
+    {
+      "edition": 26334,
+      "delta_m": 0,
+      "date": "2025-02-13",
+      "sensor": "WV03",
+      "position": [
+        -89.74629529262836,
+        21.270647514042185
+      ],
+      "url": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2026_r07/MapServer/6/query?f=json&where=1%3D1&inSR=4326&geometry=-89.7462952926%2C21.2706475140&geometryType=esriGeometryPoint&spatialRel=esriSpatialRelIntersects&outFields=OBJECTID%2CSRC_DATE2%2CSRC_DESC%2CSAMP_RES%2CMinMapLevel%2CMaxMapLevel&returnGeometry=false",
+      "sha256": "a1016b708d22cdab6b4bdb7feb3c669d5f4a4609faecd58a7136fb8c2802254e",
+      "attributes": {
+        "OBJECTID": 1151603,
+        "SRC_DATE2": 1739404800000,
+        "SRC_DESC": "WV03",
+        "SAMP_RES": 0.6,
+        "MinMapLevel": 12,
+        "MaxMapLevel": 18
+      }
+    },
+    {
+      "edition": 26334,
+      "delta_m": 3,
+      "date": "2025-02-13",
+      "sensor": "WV03",
+      "position": [
+        -89.7462971806571,
+        21.270674406011366
+      ],
+      "url": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2026_r07/MapServer/6/query?f=json&where=1%3D1&inSR=4326&geometry=-89.7462971807%2C21.2706744060&geometryType=esriGeometryPoint&spatialRel=esriSpatialRelIntersects&outFields=OBJECTID%2CSRC_DATE2%2CSRC_DESC%2CSAMP_RES%2CMinMapLevel%2CMaxMapLevel&returnGeometry=false",
+      "sha256": "a1016b708d22cdab6b4bdb7feb3c669d5f4a4609faecd58a7136fb8c2802254e",
+      "attributes": {
+        "OBJECTID": 1151603,
+        "SRC_DATE2": 1739404800000,
+        "SRC_DESC": "WV03",
+        "SAMP_RES": 0.6,
+        "MinMapLevel": 12,
+        "MaxMapLevel": 18
+      }
+    },
+    {
+      "edition": 22252,
+      "delta_m": -3,
+      "date": "2025-02-13",
+      "sensor": "WV03",
+      "position": [
+        -89.74629340459964,
+        21.270620622068087
+      ],
+      "url": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2026_r01/MapServer/6/query?f=json&where=1%3D1&inSR=4326&geometry=-89.7462934046%2C21.2706206221&geometryType=esriGeometryPoint&spatialRel=esriSpatialRelIntersects&outFields=OBJECTID%2CSRC_DATE2%2CSRC_DESC%2CSAMP_RES%2CMinMapLevel%2CMaxMapLevel&returnGeometry=false",
+      "sha256": "81b3f68b9523ec019eff6a7d38b92c27505209fe82697cbc9f02b750af853890",
+      "attributes": {
+        "OBJECTID": 3456715,
+        "SRC_DATE2": 1739404800000,
+        "SRC_DESC": "WV03",
+        "SAMP_RES": 0.6,
+        "MinMapLevel": 12,
+        "MaxMapLevel": 18
+      }
+    },
+    {
+      "edition": 22252,
+      "delta_m": 0,
+      "date": "2025-02-13",
+      "sensor": "WV03",
+      "position": [
+        -89.74629529262836,
+        21.270647514042185
+      ],
+      "url": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2026_r01/MapServer/6/query?f=json&where=1%3D1&inSR=4326&geometry=-89.7462952926%2C21.2706475140&geometryType=esriGeometryPoint&spatialRel=esriSpatialRelIntersects&outFields=OBJECTID%2CSRC_DATE2%2CSRC_DESC%2CSAMP_RES%2CMinMapLevel%2CMaxMapLevel&returnGeometry=false",
+      "sha256": "81b3f68b9523ec019eff6a7d38b92c27505209fe82697cbc9f02b750af853890",
+      "attributes": {
+        "OBJECTID": 3456715,
+        "SRC_DATE2": 1739404800000,
+        "SRC_DESC": "WV03",
+        "SAMP_RES": 0.6,
+        "MinMapLevel": 12,
+        "MaxMapLevel": 18
+      }
+    },
+    {
+      "edition": 22252,
+      "delta_m": 3,
+      "date": "2025-02-13",
+      "sensor": "WV03",
+      "position": [
+        -89.7462971806571,
+        21.270674406011366
+      ],
+      "url": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2026_r01/MapServer/6/query?f=json&where=1%3D1&inSR=4326&geometry=-89.7462971807%2C21.2706744060&geometryType=esriGeometryPoint&spatialRel=esriSpatialRelIntersects&outFields=OBJECTID%2CSRC_DATE2%2CSRC_DESC%2CSAMP_RES%2CMinMapLevel%2CMaxMapLevel&returnGeometry=false",
+      "sha256": "81b3f68b9523ec019eff6a7d38b92c27505209fe82697cbc9f02b750af853890",
+      "attributes": {
+        "OBJECTID": 3456715,
+        "SRC_DATE2": 1739404800000,
+        "SRC_DESC": "WV03",
+        "SAMP_RES": 0.6,
+        "MinMapLevel": 12,
+        "MaxMapLevel": 18
+      }
+    },
+    {
+      "edition": 52304,
+      "delta_m": -3,
+      "date": "2025-02-13",
+      "sensor": "WV03",
+      "position": [
+        -89.74629340459964,
+        21.270620622068087
+      ],
+      "url": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2025_r08/MapServer/6/query?f=json&where=1%3D1&inSR=4326&geometry=-89.7462934046%2C21.2706206221&geometryType=esriGeometryPoint&spatialRel=esriSpatialRelIntersects&outFields=OBJECTID%2CSRC_DATE2%2CSRC_DESC%2CSAMP_RES%2CMinMapLevel%2CMaxMapLevel&returnGeometry=false",
+      "sha256": "d9648b13623ad2972e51b79b4c3ca70d5b56b55d9faba1def95b796f11950408",
+      "attributes": {
+        "OBJECTID": 3336634,
+        "SRC_DATE2": 1739404800000,
+        "SRC_DESC": "WV03",
+        "SAMP_RES": 0.6,
+        "MinMapLevel": 12,
+        "MaxMapLevel": 18
+      }
+    },
+    {
+      "edition": 52304,
+      "delta_m": 0,
+      "date": "2025-02-13",
+      "sensor": "WV03",
+      "position": [
+        -89.74629529262836,
+        21.270647514042185
+      ],
+      "url": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2025_r08/MapServer/6/query?f=json&where=1%3D1&inSR=4326&geometry=-89.7462952926%2C21.2706475140&geometryType=esriGeometryPoint&spatialRel=esriSpatialRelIntersects&outFields=OBJECTID%2CSRC_DATE2%2CSRC_DESC%2CSAMP_RES%2CMinMapLevel%2CMaxMapLevel&returnGeometry=false",
+      "sha256": "d9648b13623ad2972e51b79b4c3ca70d5b56b55d9faba1def95b796f11950408",
+      "attributes": {
+        "OBJECTID": 3336634,
+        "SRC_DATE2": 1739404800000,
+        "SRC_DESC": "WV03",
+        "SAMP_RES": 0.6,
+        "MinMapLevel": 12,
+        "MaxMapLevel": 18
+      }
+    },
+    {
+      "edition": 52304,
+      "delta_m": 3,
+      "date": "2025-02-13",
+      "sensor": "WV03",
+      "position": [
+        -89.7462971806571,
+        21.270674406011366
+      ],
+      "url": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2025_r08/MapServer/6/query?f=json&where=1%3D1&inSR=4326&geometry=-89.7462971807%2C21.2706744060&geometryType=esriGeometryPoint&spatialRel=esriSpatialRelIntersects&outFields=OBJECTID%2CSRC_DATE2%2CSRC_DESC%2CSAMP_RES%2CMinMapLevel%2CMaxMapLevel&returnGeometry=false",
+      "sha256": "d9648b13623ad2972e51b79b4c3ca70d5b56b55d9faba1def95b796f11950408",
+      "attributes": {
+        "OBJECTID": 3336634,
+        "SRC_DATE2": 1739404800000,
+        "SRC_DESC": "WV03",
+        "SAMP_RES": 0.6,
+        "MinMapLevel": 12,
+        "MaxMapLevel": 18
+      }
+    }
+  ],
+  "decisions": [
+    {
+      "profile": "SC-C476-0-0",
+      "old_m": 8,
+      "new_m": -4.0,
+      "visual_interval_m": [
+        -7,
+        -1
+      ],
+      "reason": "El extremo original cae en agua verde oscura a un lado del espolón 04. El cruce de la arena mojada conectada a la playa se distingue en el mismo perfil a unos 12 m hacia tierra del extremo anterior."
+    },
+    {
+      "profile": "SC-C476-0-1",
+      "old_m": 15,
+      "new_m": null,
+      "distance_to_axis_m": 0.25,
+      "groyne": "05",
+      "reason": "El extremo coincide con la franja del espolón 05. La obra y su sombra ocultan el borde de agua y arena sobre el perfil."
+    },
+    {
+      "profile": "SC-C480-0-1",
+      "old_m": 5,
+      "new_m": null,
+      "distance_to_axis_m": 0.92,
+      "groyne": "06",
+      "reason": "El extremo cae sobre la franja de la obra 06. El cruce plausible se superpone con su eje, sin separación visible."
+    }
+  ]
+}

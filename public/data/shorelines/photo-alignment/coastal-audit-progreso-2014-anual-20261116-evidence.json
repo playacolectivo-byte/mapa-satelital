@@ -1,0 +1,238 @@
+{
+  "scope": "Chuburná y Chelem, municipio de Progreso.",
+  "interpretation": "Croces leídos en las teselas de la imagen nativa z17, más metadatos del centro y a tres metros de cada lado.",
+  "sha256_inventario": "3d7161ef9f472e6b934f807c9dd8dd5b9dfc3d4bbecf35f9e44ab18f143c2396",
+  "verified": {
+    "SC-218-0-0": {
+      "2011_reference": {
+        "date": "2011-08-01",
+        "coord": [
+          -89.80078283641791,
+          21.25774556523308
+        ],
+        "capture": 40,
+        "sensor": "WV02",
+        "resolution_m": 0.5,
+        "release": 11019,
+        "offset_m": 6.8,
+        "method": "manual-progreso-apparent-water-sand-2011-20261105"
+      },
+      "source_before_review": {
+        "date": "2014-09-18",
+        "coord": [
+          -89.80080002828801,
+          21.25786305532042
+        ],
+        "capture": 48,
+        "sensor": "GE01",
+        "resolution_m": 0.46,
+        "release": 18820,
+        "offset_m": 20,
+        "method": "manual-progreso-apparent-water-sand-2011-20261105"
+      },
+      "new_coord": [
+        -89.8007909113872,
+        21.257800749982756
+      ],
+      "coordinates_metadata_check": [
+        [
+          -89.800787004144,
+          21.25777404768711
+        ],
+        [
+          -89.8007909113872,
+          21.257800749982756
+        ],
+        [
+          -89.80079481863041,
+          21.25782745227356
+        ]
+      ],
+      "equivalent_z17_tiles": true,
+      "tile_receipts": {
+        "18820": [
+          {
+            "tile": [
+              32840,
+              57612
+            ],
+            "url": "https://wayback.maptiles.arcgis.com/arcgis/rest/services/World_Imagery/WMTS/1.0.0/default028mm/MapServer/tile/18820/17/57612/32840",
+            "sha256": "a4390548aa0c465b9b0024972eb0e8143ecca6824ea46acbd351c6b5177b31ed",
+            "source_file": ".runtime/revision-progreso-anual-20261116/teselas/18820-17-32840-57612.jpg"
+          }
+        ],
+        "10768": [
+          {
+            "tile": [
+              32840,
+              57612
+            ],
+            "url": "https://wayback.maptiles.arcgis.com/arcgis/rest/services/World_Imagery/WMTS/1.0.0/default028mm/MapServer/tile/10768/17/57612/32840",
+            "sha256": "a4390548aa0c465b9b0024972eb0e8143ecca6824ea46acbd351c6b5177b31ed",
+            "source_file": ".runtime/revision-progreso-anual-20261116/revision-2012-2014/10768-17-32840-57612.jpg"
+          }
+        ]
+      },
+      "sheet": {
+        "name": "2014-chuburna-03.jpg",
+        "panel": 36,
+        "sha256": "f75b85c582952cab89f30b13e6e1a357380ddcde7975646b7fd5d00e3a48a4fa"
+      },
+      "aligned_evidence": "El cruce anterior queda en agua verde al lado marino de una transición de arena continua, visible a ambos lados del perfil en Chuburná."
+    },
+    "SC-469-0-0": {
+      "2011_reference": {
+        "date": "2011-08-01",
+        "coord": [
+          -89.7481522485505,
+          21.27036138257978
+        ],
+        "capture": 40,
+        "sensor": "WV02",
+        "resolution_m": 0.5,
+        "release": 11019,
+        "offset_m": -0.6,
+        "method": "manual-progreso-apparent-water-sand-2011-20261105"
+      },
+      "source_before_review": {
+        "date": "2014-09-18",
+        "coord": [
+          -89.74817547174237,
+          21.27044486128112
+        ],
+        "capture": 48,
+        "sensor": "GE01",
+        "resolution_m": 0.46,
+        "release": 18820,
+        "offset_m": 9,
+        "method": "manual-progreso-apparent-water-sand-2011-20261105"
+      },
+      "new_coord": [
+        -89.7481645858712,
+        21.270405730645766
+      ],
+      "coordinates_metadata_check": [
+        [
+          -89.74815732862373,
+          21.270379643549745
+        ],
+        [
+          -89.7481645858712,
+          21.270405730645766
+        ],
+        [
+          -89.74817184311864,
+          21.270431817737162
+        ]
+      ],
+      "equivalent_z17_tiles": true,
+      "tile_receipts": {
+        "18820": [
+          {
+            "tile": [
+              32859,
+              57607
+            ],
+            "url": "https://wayback.maptiles.arcgis.com/arcgis/rest/services/World_Imagery/WMTS/1.0.0/default028mm/MapServer/tile/18820/17/57607/32859",
+            "sha256": "640f64754d5979475cd4c1216173f68cb76abd17735998a1dd6f466cecf76b8e",
+            "source_file": ".runtime/revision-progreso-anual-20261116/teselas/18820-17-32859-57607.jpg"
+          }
+        ],
+        "10768": [
+          {
+            "tile": [
+              32859,
+              57607
+            ],
+            "url": "https://wayback.maptiles.arcgis.com/arcgis/rest/services/World_Imagery/WMTS/1.0.0/default028mm/MapServer/tile/10768/17/57607/32859",
+            "sha256": "640f64754d5979475cd4c1216173f68cb76abd17735998a1dd6f466cecf76b8e",
+            "source_file": ".runtime/revision-progreso-anual-20261116/revision-2012-2014/10768-17-32859-57607.jpg"
+          }
+        ]
+      },
+      "sheet": {
+        "name": "2014-chelem-01.jpg",
+        "panel": 15,
+        "sha256": "8d069983fe8724e70923143cffdc3a73f4dd09c91d339d3b95bcacdcf52b3f99"
+      },
+      "aligned_evidence": "La marca anterior queda en agua sobre la inflexión del frente. El eje corta la banda clara de arena húmeda conectada a la playa y separable de la obra vecina."
+    },
+    "SC-C474-0-0": {
+      "2011_reference": {
+        "date": "2011-08-01",
+        "coord": [
+          -89.74717782277536,
+          21.270566106899516
+        ],
+        "capture": 40,
+        "sensor": "WV02",
+        "resolution_m": 0.5,
+        "release": 11019,
+        "offset_m": 3,
+        "method": "manual-progreso-apparent-water-sand-2011-20261105"
+      },
+      "source_before_review": {
+        "date": "2014-09-18",
+        "coord": [
+          -89.74718601684295,
+          21.270637565274356
+        ],
+        "capture": 48,
+        "sensor": "GE01",
+        "resolution_m": 0.46,
+        "release": 18820,
+        "offset_m": 11,
+        "method": "manual-progreso-apparent-water-sand-2011-20261105"
+      },
+      "new_coord": [
+        -89.74718038342147,
+        21.270588437645372
+      ],
+      "coordinates_metadata_check": [
+        [
+          -89.74717731064612,
+          21.27056164074993
+        ],
+        [
+          -89.74718038342147,
+          21.270588437645372
+        ],
+        [
+          -89.7471834561968,
+          21.27061523453594
+        ]
+      ],
+      "equivalent_z17_tiles": true,
+      "tile_receipts": {
+        "18820": [
+          {
+            "tile": [
+              32860,
+              57607
+            ],
+            "url": "https://wayback.maptiles.arcgis.com/arcgis/rest/services/World_Imagery/WMTS/1.0.0/default028mm/MapServer/tile/18820/17/57607/32860",
+            "sha256": "185188f2ff6f4915043fe61564a4fb244adab1fe039c0eb9f4834e8fc1285b2c",
+            "source_file": ".runtime/revision-progreso-anual-20261116/teselas/18820-17-32860-57607.jpg"
+          }
+        ],
+        "10768": [
+          {
+            "tile": [
+              32860,
+              57607
+            ],
+            "url": "https://wayback.maptiles.arcgis.com/arcgis/rest/services/World_Imagery/WMTS/1.0.0/default028mm/MapServer/tile/10768/17/57607/32860",
+            "sha256": "185188f2ff6f4915043fe61564a4fb244adab1fe039c0eb9f4834e8fc1285b2c",
+            "source_file": ".runtime/revision-progreso-anual-20261116/revision-2012-2014/10768-17-32860-57607.jpg"
+          }
+        ]
+      },
+      "sheet": {
+        "name": "2014-chelem-02.jpg",
+        "panel": 16,
+        "sha256": "3020d8cb506065adc01df782f61d44476be732a72db47584d598c94aa43d809e"
+      },
+      "aligned_evidence": "El marcador previo cae sobre agua junto a una estructura transversal. El cruce nuevo se lee en el límite de arena húmeda conectado al terreno en el eje original."
+    }
+  }
+}

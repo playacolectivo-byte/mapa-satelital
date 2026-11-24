@@ -1,7 +1,14 @@
 import type {Bounds} from './view';
+import allMunicipalityPages from './generated/municipality-pages.json' with {type:'json'};
+import reviewedMunicipalitySlugs from './generated/reviewed-municipality-slugs.json' with {type:'json'};
 export type MunicipalityPage={name:string;slug:string;bounds:Bounds;navigation_bounds:Bounds;coordinates:[number,number]};
+const reviewedSlugs=new Set(reviewedMunicipalitySlugs);
+export const reviewedMunicipalityPages=allMunicipalityPages.filter(page=>reviewedSlugs.has(page.slug));
 type Asset={url:string;gzip_url:string;sha256:string;bytes:number};
-export type MunicipalityScope={municipality:MunicipalityPage;assets:Record<string,Asset>;model:Asset;photos:Asset;road_search:Asset;original_photo_sha256:string;reviews_applied:true};
+export type MunicipalityScope={municipality:MunicipalityPage;assets:Record<string,Asset>;model:Asset;photos:Asset;road_search:Asset;original_photo_sha256:string;reviews_applied:true;reviewed_context?:{profile_ids:string[];municipalities:string[];bounds:Bounds}};
+export function municipalProfileAllowed(scope:MunicipalityScope,target:{id:string;m:string}):boolean{
+ return target.m===scope.municipality.name||!!scope.reviewed_context?.profile_ids.includes(target.id)&&scope.reviewed_context.municipalities.includes(target.m);
+}
 export const municipalityHref=(slug:string)=>'/municipio/'+encodeURIComponent(slug)+'/';
 export function routeMunicipality(path:string):string|null{
  const match=path.match(/^\/municipio\/([a-z0-9-]+)\/?$/);return match?.[1]??null;

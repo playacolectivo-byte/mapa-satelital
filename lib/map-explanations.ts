@@ -90,6 +90,12 @@ export function evidenceExplanation(
   }
   if (selection.kind === 'geotubes') {
     const date = simpleDate(p.temporal_date);
+    if (p.type === 'geotube_probable_axis') {
+      return [
+        { label: 'Qué ves.', text: 'El trazo naranja delimita el eje visible de un geotubo probable, interpretado a partir de la imagen y las marcas de revisión.' },
+        { label: 'Fecha de la foto.', text: date ?? 'Fecha pendiente.' },
+      ];
+    }
     const dated = date && (p.temporal_state === 'present' || p.temporal_state === 'deflated');
     return [
       { label: 'Qué ves.', text: 'Un geotubo es un tubo de tela que se llena de arena. La línea naranja señala su ubicación histórica; no dibuja su ancho real.' },
@@ -97,6 +103,15 @@ export function evidenceExplanation(
         ? `${date}: el estudio lo reportó ${p.temporal_state === 'deflated' ? 'desinflado. Eso no significa que se retiró todo el material' : 'presente'}.`
         : `El estudio documenta obras de 2017–2018. No tenemos su estado confirmado${captureYear === null ? ' para esta imagen' : ` para ${captureYear}`}.` },
       { label: 'Qué significa.', text: 'Sirve para ubicar la obra estudiada. Este trazo no confirma su estado actual ni demuestra que causó erosión.' },
+    ];
+  }
+  if (selection.kind === 'groynes') {
+    return [
+      { label: 'Qué ves.', text: p.temporal_state === 'reference'
+        ? 'La línea azul discontinua ubica el espolón observado en otra toma de este año.'
+        : 'La línea azul sigue el eje del espolón, una estructura que sale de la playa hacia el agua.' },
+      { label: 'Foto de la observación.', text: simpleDate(p.temporal_date) ?? 'Fecha pendiente.' },
+      { label: 'Medición de la playa.', text: 'Los cruces de orilla se verifican en el contacto de la arena con el agua a ambos lados de la estructura.' },
     ];
   }
   if (selection.kind === 'barriers') {

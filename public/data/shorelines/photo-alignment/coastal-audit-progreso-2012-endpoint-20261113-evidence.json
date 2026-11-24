@@ -1,0 +1,80 @@
+{
+  "review_id": "coastal-audit-progreso-2012-endpoint-20261113",
+  "field_validated": false,
+  "profile_id": "SC-90-0-31",
+  "capture": 177,
+  "source_date": "2012-12-15",
+  "sensor": "WV02",
+  "exact_editions": [
+    27946,
+    6984
+  ],
+  "native_zoom": 17,
+  "overzoom_18_availability": "sin teselas z18",
+  "acquisition_metadata_check": "Las dos ediciones figuran en la lectura fechada del inventario. Las consultas nuevas de Esri para confirmar una coordenada sustituta agotaron el tiempo de espera.",
+  "pixel_identical_excerpt": true,
+  "prior_offset_m": -18,
+  "prior_accepted": true,
+  "fixed_reference_capture": 40,
+  "fixed_reference_offset_m": -43,
+  "files": [
+    {
+      "path": "detail-1086-z17.png",
+      "sha256": "2b65bfe5d651a3d53e627a34aef1381f1e2ef8506a1f514b81a69ba64419eec6",
+      "bytes": 47898
+    },
+    {
+      "path": "alternate-1086-z17.png",
+      "sha256": "2b65bfe5d651a3d53e627a34aef1381f1e2ef8506a1f514b81a69ba64419eec6",
+      "bytes": 47898
+    },
+    {
+      "path": "tiles/27946-17-32887-57600.jpg",
+      "sha256": "2b4b28b3162f6d4b0ddb5bc8ec92cc4d1f24aabd169fdbccede0fea93593125d",
+      "bytes": 3682,
+      "url": "https://wayback.maptiles.arcgis.com/arcgis/rest/services/World_Imagery/WMTS/1.0.0/default028mm/MapServer/tile/27946/17/57600/32887"
+    },
+    {
+      "path": "tiles/27946-17-32887-57601.jpg",
+      "sha256": "31f91d9aaf3712819daef57850f755ca81176e9d423e83adf190966048cbb84a",
+      "bytes": 14560,
+      "url": "https://wayback.maptiles.arcgis.com/arcgis/rest/services/World_Imagery/WMTS/1.0.0/default028mm/MapServer/tile/27946/17/57601/32887"
+    },
+    {
+      "path": "tiles/27946-17-32888-57600.jpg",
+      "sha256": "2cfc0edb7e887dd7aff9a5aa457549c45b673eaa860f8f9594e1079bf86e88d9",
+      "bytes": 4854,
+      "url": "https://wayback.maptiles.arcgis.com/arcgis/rest/services/World_Imagery/WMTS/1.0.0/default028mm/MapServer/tile/27946/17/57600/32888"
+    },
+    {
+      "path": "tiles/27946-17-32888-57601.jpg",
+      "sha256": "31d2bd618c326653e8c4095492108a0dd11cb65384f9a56eea4dafd70bb9439d",
+      "bytes": 19797,
+      "url": "https://wayback.maptiles.arcgis.com/arcgis/rest/services/World_Imagery/WMTS/1.0.0/default028mm/MapServer/tile/27946/17/57601/32888"
+    },
+    {
+      "path": "tiles/6984-17-32887-57600.jpg",
+      "sha256": "2b4b28b3162f6d4b0ddb5bc8ec92cc4d1f24aabd169fdbccede0fea93593125d",
+      "bytes": 3682,
+      "url": "https://wayback.maptiles.arcgis.com/arcgis/rest/services/World_Imagery/WMTS/1.0.0/default028mm/MapServer/tile/6984/17/57600/32887"
+    },
+    {
+      "path": "tiles/6984-17-32887-57601.jpg",
+      "sha256": "31f91d9aaf3712819daef57850f755ca81176e9d423e83adf190966048cbb84a",
+      "bytes": 14560,
+      "url": "https://wayback.maptiles.arcgis.com/arcgis/rest/services/World_Imagery/WMTS/1.0.0/default028mm/MapServer/tile/6984/17/57601/32887"
+    },
+    {
+      "path": "tiles/6984-17-32888-57600.jpg",
+      "sha256": "2cfc0edb7e887dd7aff9a5aa457549c45b673eaa860f8f9594e1079bf86e88d9",
+      "bytes": 4854,
+      "url": "https://wayback.maptiles.arcgis.com/arcgis/rest/services/World_Imagery/WMTS/1.0.0/default028mm/MapServer/tile/6984/17/57600/32888"
+    },
+    {
+      "path": "tiles/6984-17-32888-57601.jpg",
+      "sha256": "31d2bd618c326653e8c4095492108a0dd11cb65384f9a56eea4dafd70bb9439d",
+      "bytes": 19797,
+      "url": "https://wayback.maptiles.arcgis.com/arcgis/rest/services/World_Imagery/WMTS/1.0.0/default028mm/MapServer/tile/6984/17/57601/32888"
+    }
+  ]
+}

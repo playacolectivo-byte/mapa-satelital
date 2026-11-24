@@ -1,0 +1,2081 @@
+{
+  "reference": "laminas/pares-2015-01.jpg",
+  "records": [
+    {
+      "i": 1,
+      "profile": "-007-0036",
+      "station": "GRID100-progreso-007-0036",
+      "year": 2015,
+      "origin": [
+        -89.5732764725564,
+        21.301562811469346
+      ],
+      "axis": [
+        -0.22616390535305256,
+        0.9740892607535798
+      ],
+      "locality": "Chicxulub Puerto",
+      "before": {
+        "release": 11019,
+        "date": "2011-08-01",
+        "sensor": "WV02",
+        "resolution_m": 0.5,
+        "accuracy_m": 10.199999809265137,
+        "offset": -1.0,
+        "coord": [
+          -89.57327429191278,
+          21.301554061076377
+        ],
+        "candidate_pixels": [
+          [
+            17.83,
+            67
+          ],
+          [
+            9.39,
+            62
+          ],
+          [
+            5.63,
+            72
+          ]
+        ],
+        "raster_available": true,
+        "metadata": {
+          "url": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2014_r17/MapServer/6/query?f=json&where=MinMapLevel+%3C%3D+17+AND+MaxMapLevel+%3E%3D+17&geometryType=esriGeometryEnvelope&spatialRel=esriSpatialRelIntersects&geometry=-89.58631408%2C21.29828868%2C-89.55230934%2C21.30858911&inSR=4326&outSR=4326&outFields=OBJECTID%2CSRC_DATE2%2CSRC_DESC%2CSAMP_RES%2CSRC_ACC%2CMinMapLevel%2CMaxMapLevel&returnGeometry=true",
+          "sha256": "167e7145a077c878fc7ec68a4bbd177eb7ca744117ea2eaf4d09068e84d35ed8",
+          "file": "11019-8-27f5b187ca3.json",
+          "checks": [
+            {
+              "delta_m": -3,
+              "coordinate": [
+                -89.5732677499819,
+                21.30152780989434
+              ],
+              "match": true
+            },
+            {
+              "delta_m": 0,
+              "coordinate": [
+                -89.57327429191278,
+                21.301554061076377
+              ],
+              "match": true
+            },
+            {
+              "delta_m": 3,
+              "coordinate": [
+                -89.57328083384365,
+                21.30158031225373
+              ],
+              "match": true
+            }
+          ]
+        },
+        "verified": true
+      },
+      "after": {
+        "release": 18820,
+        "date": "2015-03-26",
+        "sensor": "WV02",
+        "resolution_m": 0.5,
+        "accuracy_m": 10.2,
+        "offset": -8.5,
+        "coord": [
+          -89.57325793708559,
+          21.30148843311249
+        ],
+        "candidate_pixels": [
+          [
+            39.79,
+            74
+          ],
+          [
+            19.49,
+            79
+          ],
+          [
+            19.38,
+            69
+          ]
+        ],
+        "raster_available": true,
+        "metadata": {
+          "url": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2018_r14/MapServer/6/query?f=json&where=MinMapLevel+%3C%3D+17+AND+MaxMapLevel+%3E%3D+17&geometryType=esriGeometryEnvelope&spatialRel=esriSpatialRelIntersects&geometry=-89.58631408%2C21.29828868%2C-89.55230934%2C21.30858911&inSR=4326&outSR=4326&outFields=OBJECTID%2CSRC_DATE2%2CSRC_DESC%2CSAMP_RES%2CSRC_ACC%2CMinMapLevel%2CMaxMapLevel&returnGeometry=true",
+          "sha256": "5be8a1f719e9c7a1c3e30e82f5fbf3d9d4ca2fb1f751ebfa1820523e90a13e75",
+          "file": "18820-8-7114589ce26.json",
+          "checks": [
+            {
+              "delta_m": -3,
+              "coordinate": [
+                -89.57325139515471,
+                21.301462181918723
+              ],
+              "match": true
+            },
+            {
+              "delta_m": 0,
+              "coordinate": [
+                -89.57325793708559,
+                21.30148843311249
+              ],
+              "match": true
+            },
+            {
+              "delta_m": 3,
+              "coordinate": [
+                -89.57326447901646,
+                21.30151468430156
+              ],
+              "match": true
+            }
+          ]
+        },
+        "verified": true
+      },
+      "sheet": "pares-2015-01.jpg",
+      "sheet_row": 0,
+      "sheet_column": 1,
+      "uncertainty_before_m": 5,
+      "uncertainty_after_m": 4
+    },
+    {
+      "i": 2,
+      "profile": "-007-0037",
+      "station": "GRID100-progreso-007-0037",
+      "year": 2015,
+      "origin": [
+        -89.57232754284409,
+        21.301699630052227
+      ],
+      "axis": [
+        -0.1956420149869022,
+        0.9806753805270451
+      ],
+      "locality": "Chicxulub Puerto",
+      "before": {
+        "release": 11019,
+        "date": "2011-08-01",
+        "sensor": "WV02",
+        "resolution_m": 0.5,
+        "accuracy_m": 10.199999809265137,
+        "offset": -1.0,
+        "coord": [
+          -89.5723256564869,
+          21.301690820495132
+        ],
+        "candidate_pixels": [
+          [
+            23.07,
+            66
+          ],
+          [
+            11.1,
+            71
+          ],
+          [
+            8.88,
+            61
+          ]
+        ],
+        "raster_available": true,
+        "metadata": {
+          "url": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2014_r17/MapServer/6/query?f=json&where=MinMapLevel+%3C%3D+17+AND+MaxMapLevel+%3E%3D+17&geometryType=esriGeometryEnvelope&spatialRel=esriSpatialRelIntersects&geometry=-89.58631408%2C21.29828868%2C-89.55230934%2C21.30858911&inSR=4326&outSR=4326&outFields=OBJECTID%2CSRC_DATE2%2CSRC_DESC%2CSAMP_RES%2CSRC_ACC%2CMinMapLevel%2CMaxMapLevel&returnGeometry=true",
+          "sha256": "167e7145a077c878fc7ec68a4bbd177eb7ca744117ea2eaf4d09068e84d35ed8",
+          "file": "11019-8-27f5b187ca3.json",
+          "checks": [
+            {
+              "delta_m": -3,
+              "coordinate": [
+                -89.57231999741532,
+                21.30166439182068
+              ],
+              "match": true
+            },
+            {
+              "delta_m": 0,
+              "coordinate": [
+                -89.5723256564869,
+                21.301690820495132
+              ],
+              "match": true
+            },
+            {
+              "delta_m": 3,
+              "coordinate": [
+                -89.57233131555849,
+                21.301717249164835
+              ],
+              "match": true
+            }
+          ]
+        },
+        "verified": true
+      },
+      "after": {
+        "release": 18820,
+        "date": "2015-03-26",
+        "sensor": "WV02",
+        "resolution_m": 0.5,
+        "accuracy_m": 10.2,
+        "offset": -7.5,
+        "coord": [
+          -89.57231339516514,
+          21.301633558361143
+        ],
+        "candidate_pixels": [
+          [
+            40.28,
+            74
+          ],
+          [
+            25.82,
+            111
+          ],
+          [
+            16.75,
+            69
+          ]
+        ],
+        "raster_available": true,
+        "metadata": {
+          "url": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2018_r14/MapServer/6/query?f=json&where=MinMapLevel+%3C%3D+17+AND+MaxMapLevel+%3E%3D+17&geometryType=esriGeometryEnvelope&spatialRel=esriSpatialRelIntersects&geometry=-89.58631408%2C21.29828868%2C-89.55230934%2C21.30858911&inSR=4326&outSR=4326&outFields=OBJECTID%2CSRC_DATE2%2CSRC_DESC%2CSAMP_RES%2CSRC_ACC%2CMinMapLevel%2CMaxMapLevel&returnGeometry=true",
+          "sha256": "5be8a1f719e9c7a1c3e30e82f5fbf3d9d4ca2fb1f751ebfa1820523e90a13e75",
+          "file": "18820-8-7114589ce26.json",
+          "checks": [
+            {
+              "delta_m": -3,
+              "coordinate": [
+                -89.57230773609356,
+                21.30160712967639
+              ],
+              "match": true
+            },
+            {
+              "delta_m": 0,
+              "coordinate": [
+                -89.57231339516514,
+                21.301633558361143
+              ],
+              "match": true
+            },
+            {
+              "delta_m": 3,
+              "coordinate": [
+                -89.57231905423673,
+                21.30165998704114
+              ],
+              "match": true
+            }
+          ]
+        },
+        "verified": true
+      },
+      "sheet": "pares-2015-01.jpg",
+      "sheet_row": 0,
+      "sheet_column": 2,
+      "uncertainty_before_m": 5,
+      "uncertainty_after_m": 4
+    },
+    {
+      "i": 3,
+      "profile": "-007-0038",
+      "station": "GRID100-progreso-007-0038",
+      "year": 2015,
+      "origin": [
+        -89.5713764205295,
+        21.30182681722042
+      ],
+      "axis": [
+        -0.2116662409417171,
+        0.9773420089434419
+      ],
+      "locality": "Chicxulub Puerto",
+      "before": {
+        "release": 11019,
+        "date": "2011-08-01",
+        "sensor": "WV02",
+        "resolution_m": 0.5,
+        "accuracy_m": 10.199999809265137,
+        "offset": -1.0,
+        "coord": [
+          -89.57137437966685,
+          21.301818037607514
+        ],
+        "candidate_pixels": [
+          [
+            23.09,
+            68
+          ],
+          [
+            10.44,
+            63
+          ],
+          [
+            7.96,
+            73
+          ]
+        ],
+        "raster_available": true,
+        "metadata": {
+          "url": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2014_r17/MapServer/6/query?f=json&where=MinMapLevel+%3C%3D+17+AND+MaxMapLevel+%3E%3D+17&geometryType=esriGeometryEnvelope&spatialRel=esriSpatialRelIntersects&geometry=-89.58631408%2C21.29828868%2C-89.55230934%2C21.30858911&inSR=4326&outSR=4326&outFields=OBJECTID%2CSRC_DATE2%2CSRC_DESC%2CSAMP_RES%2CSRC_ACC%2CMinMapLevel%2CMaxMapLevel&returnGeometry=true",
+          "sha256": "167e7145a077c878fc7ec68a4bbd177eb7ca744117ea2eaf4d09068e84d35ed8",
+          "file": "11019-8-27f5b187ca3.json",
+          "checks": [
+            {
+              "delta_m": -3,
+              "coordinate": [
+                -89.57136825707889,
+                21.301791698765648
+              ],
+              "match": true
+            },
+            {
+              "delta_m": 0,
+              "coordinate": [
+                -89.57137437966685,
+                21.301818037607514
+              ],
+              "match": true
+            },
+            {
+              "delta_m": 3,
+              "coordinate": [
+                -89.57138050225481,
+                21.30184437644466
+              ],
+              "match": true
+            }
+          ]
+        },
+        "verified": true
+      },
+      "after": {
+        "release": 18820,
+        "date": "2015-03-26",
+        "sensor": "WV02",
+        "resolution_m": 0.5,
+        "accuracy_m": 10.2,
+        "offset": -5.5,
+        "coord": [
+          -89.5713651957849,
+          21.301778529342943
+        ],
+        "candidate_pixels": [
+          [
+            41.89,
+            73
+          ],
+          [
+            24.46,
+            108
+          ],
+          [
+            20.65,
+            68
+          ]
+        ],
+        "raster_available": true,
+        "metadata": {
+          "url": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2018_r14/MapServer/6/query?f=json&where=MinMapLevel+%3C%3D+17+AND+MaxMapLevel+%3E%3D+17&geometryType=esriGeometryEnvelope&spatialRel=esriSpatialRelIntersects&geometry=-89.58631408%2C21.29828868%2C-89.55230934%2C21.30858911&inSR=4326&outSR=4326&outFields=OBJECTID%2CSRC_DATE2%2CSRC_DESC%2CSAMP_RES%2CSRC_ACC%2CMinMapLevel%2CMaxMapLevel&returnGeometry=true",
+          "sha256": "5be8a1f719e9c7a1c3e30e82f5fbf3d9d4ca2fb1f751ebfa1820523e90a13e75",
+          "file": "18820-8-7114589ce26.json",
+          "checks": [
+            {
+              "delta_m": -3,
+              "coordinate": [
+                -89.57135907319693,
+                21.301752190493993
+              ],
+              "match": true
+            },
+            {
+              "delta_m": 0,
+              "coordinate": [
+                -89.5713651957849,
+                21.301778529342943
+              ],
+              "match": true
+            },
+            {
+              "delta_m": 3,
+              "coordinate": [
+                -89.57137131837287,
+                21.30180486818717
+              ],
+              "match": true
+            }
+          ]
+        },
+        "verified": true
+      },
+      "sheet": "pares-2015-01.jpg",
+      "sheet_row": 0,
+      "sheet_column": 3,
+      "uncertainty_before_m": 5,
+      "uncertainty_after_m": 4
+    },
+    {
+      "i": 4,
+      "profile": "-007-0076",
+      "station": "GRID100-progreso-007-0076",
+      "year": 2015,
+      "origin": [
+        -89.53626617351485,
+        21.31021339321327
+      ],
+      "axis": [
+        -0.20610971328630062,
+        0.9785288887350434
+      ],
+      "locality": "Chicxulub Puerto",
+      "before": {
+        "release": 11019,
+        "date": "2011-08-01",
+        "sensor": "WV02",
+        "resolution_m": 0.5,
+        "accuracy_m": 10.199999809265137,
+        "offset": -2.0,
+        "coord": [
+          -89.5362621987135,
+          21.310195812663082
+        ],
+        "candidate_pixels": [
+          [
+            24.81,
+            68
+          ],
+          [
+            10.8,
+            63
+          ],
+          [
+            5.09,
+            110
+          ]
+        ],
+        "raster_available": true,
+        "metadata": {
+          "url": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2014_r17/MapServer/6/query?f=json&where=MinMapLevel+%3C%3D+17+AND+MaxMapLevel+%3E%3D+17&geometryType=esriGeometryEnvelope&spatialRel=esriSpatialRelIntersects&geometry=-89.55336433%2C21.30636487%2C-89.51820243%2C21.31400705&inSR=4326&outSR=4326&outFields=OBJECTID%2CSRC_DATE2%2CSRC_DESC%2CSAMP_RES%2CSRC_ACC%2CMinMapLevel%2CMaxMapLevel&returnGeometry=true",
+          "sha256": "167e7145a077c878fc7ec68a4bbd177eb7ca744117ea2eaf4d09068e84d35ed8",
+          "file": "11019-9-4f401746fd7.json",
+          "checks": [
+            {
+              "delta_m": -3,
+              "coordinate": [
+                -89.53625623651148,
+                21.310169441833853
+              ],
+              "match": true
+            },
+            {
+              "delta_m": 0,
+              "coordinate": [
+                -89.5362621987135,
+                21.310195812663082
+              ],
+              "match": true
+            },
+            {
+              "delta_m": 3,
+              "coordinate": [
+                -89.53626816091553,
+                21.31022218348757
+              ],
+              "match": true
+            }
+          ]
+        },
+        "verified": true
+      },
+      "after": {
+        "release": 18820,
+        "date": "2015-02-16",
+        "sensor": "WV03_VNIR",
+        "resolution_m": 0.31,
+        "accuracy_m": 10.2,
+        "offset": -2.0,
+        "coord": [
+          -89.5362621987135,
+          21.310195812663082
+        ],
+        "candidate_pixels": [
+          [
+            29.92,
+            66
+          ],
+          [
+            13.18,
+            102
+          ],
+          [
+            11.52,
+            77
+          ]
+        ],
+        "raster_available": true,
+        "metadata": {
+          "url": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2018_r14/MapServer/6/query?f=json&where=MinMapLevel+%3C%3D+17+AND+MaxMapLevel+%3E%3D+17&geometryType=esriGeometryEnvelope&spatialRel=esriSpatialRelIntersects&geometry=-89.55336433%2C21.30636487%2C-89.51820243%2C21.31400705&inSR=4326&outSR=4326&outFields=OBJECTID%2CSRC_DATE2%2CSRC_DESC%2CSAMP_RES%2CSRC_ACC%2CMinMapLevel%2CMaxMapLevel&returnGeometry=true",
+          "sha256": "0e6d2997624617c4c2be928a04fba9a3645e7570c4332e68df32383368647515",
+          "file": "18820-9-8104811effb.json",
+          "checks": [
+            {
+              "delta_m": -3,
+              "coordinate": [
+                -89.53625623651148,
+                21.310169441833853
+              ],
+              "match": true
+            },
+            {
+              "delta_m": 0,
+              "coordinate": [
+                -89.5362621987135,
+                21.310195812663082
+              ],
+              "match": true
+            },
+            {
+              "delta_m": 3,
+              "coordinate": [
+                -89.53626816091553,
+                21.31022218348757
+              ],
+              "match": true
+            }
+          ]
+        },
+        "verified": true
+      },
+      "sheet": "pares-2015-01.jpg",
+      "sheet_row": 0,
+      "sheet_column": 4,
+      "uncertainty_before_m": 5,
+      "uncertainty_after_m": 4
+    },
+    {
+      "i": 5,
+      "profile": "-007-0099",
+      "station": "GRID100-progreso-007-0099",
+      "year": 2015,
+      "origin": [
+        -89.51441408822613,
+        21.31320922475909
+      ],
+      "axis": [
+        -0.16762168047779488,
+        0.9858513945995107
+      ],
+      "locality": "Chicxulub Puerto",
+      "before": {
+        "release": 11019,
+        "date": "2011-08-01",
+        "sensor": "WV02",
+        "resolution_m": 0.5,
+        "accuracy_m": 10.199999809265137,
+        "offset": -8.5,
+        "coord": [
+          -89.51440034954801,
+          21.313133948282864
+        ],
+        "candidate_pixels": [
+          [
+            13.19,
+            78
+          ],
+          [
+            5.1,
+            68
+          ],
+          [
+            2.59,
+            73
+          ]
+        ],
+        "raster_available": true,
+        "metadata": {
+          "url": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2014_r17/MapServer/6/query?f=json&where=MinMapLevel+%3C%3D+17+AND+MaxMapLevel+%3E%3D+17&geometryType=esriGeometryEnvelope&spatialRel=esriSpatialRelIntersects&geometry=-89.51925052%2C21.31173510%2C-89.48790861%2C21.31865094&inSR=4326&outSR=4326&outFields=OBJECTID%2CSRC_DATE2%2CSRC_DESC%2CSAMP_RES%2CSRC_ACC%2CMinMapLevel%2CMaxMapLevel&returnGeometry=true",
+          "sha256": "167e7145a077c878fc7ec68a4bbd177eb7ca744117ea2eaf4d09068e84d35ed8",
+          "file": "11019-10-678e19c55c6.json",
+          "checks": [
+            {
+              "delta_m": -3,
+              "coordinate": [
+                -89.5143955006028,
+                21.313107380105574
+              ],
+              "match": true
+            },
+            {
+              "delta_m": 0,
+              "coordinate": [
+                -89.51440034954801,
+                21.313133948282864
+              ],
+              "match": true
+            },
+            {
+              "delta_m": 3,
+              "coordinate": [
+                -89.51440519849324,
+                21.31316051645535
+              ],
+              "match": true
+            }
+          ]
+        },
+        "verified": true
+      },
+      "after": {
+        "release": 18820,
+        "date": "2015-02-16",
+        "sensor": "WV03_VNIR",
+        "resolution_m": 0.31,
+        "accuracy_m": 10.2,
+        "offset": 9.5,
+        "coord": [
+          -89.51442944321933,
+          21.313293357245676
+        ],
+        "candidate_pixels": [
+          [
+            36.25,
+            56
+          ],
+          [
+            23.16,
+            110
+          ],
+          [
+            15.3,
+            99
+          ]
+        ],
+        "raster_available": true,
+        "metadata": {
+          "url": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2018_r14/MapServer/6/query?f=json&where=MinMapLevel+%3C%3D+17+AND+MaxMapLevel+%3E%3D+17&geometryType=esriGeometryEnvelope&spatialRel=esriSpatialRelIntersects&geometry=-89.51925052%2C21.31173510%2C-89.48790861%2C21.31865094&inSR=4326&outSR=4326&outFields=OBJECTID%2CSRC_DATE2%2CSRC_DESC%2CSAMP_RES%2CSRC_ACC%2CMinMapLevel%2CMaxMapLevel&returnGeometry=true",
+          "sha256": "5c117d1bed70a9e516b9c450d9e03005f4dcbe2a3e06b6b862a1973041bb1d7d",
+          "file": "18820-10-1e8e8bb6364.json",
+          "checks": [
+            {
+              "delta_m": -3,
+              "coordinate": [
+                -89.5144245942741,
+                21.313266789097224
+              ],
+              "match": true
+            },
+            {
+              "delta_m": 0,
+              "coordinate": [
+                -89.51442944321933,
+                21.313293357245676
+              ],
+              "match": true
+            },
+            {
+              "delta_m": 3,
+              "coordinate": [
+                -89.51443429216455,
+                21.313319925389322
+              ],
+              "match": true
+            }
+          ]
+        },
+        "verified": true
+      },
+      "sheet": "pares-2015-01.jpg",
+      "sheet_row": 1,
+      "sheet_column": 0,
+      "uncertainty_before_m": 6,
+      "uncertainty_after_m": 6
+    },
+    {
+      "i": 6,
+      "profile": "-007-0102",
+      "station": "GRID100-progreso-007-0102",
+      "year": 2015,
+      "origin": [
+        -89.51160733011565,
+        21.31373979966285
+      ],
+      "axis": [
+        -0.17411461882154267,
+        0.9847253929459873
+      ],
+      "locality": "Chicxulub Puerto",
+      "before": {
+        "release": 11019,
+        "date": "2011-08-01",
+        "sensor": "WV02",
+        "resolution_m": 0.5,
+        "accuracy_m": 10.199999809265137,
+        "offset": -3.0,
+        "coord": [
+          -89.5116022933251,
+          21.31371326184432
+        ],
+        "candidate_pixels": [
+          [
+            19.01,
+            67
+          ],
+          [
+            14.42,
+            111
+          ],
+          [
+            11.01,
+            72
+          ]
+        ],
+        "raster_available": true,
+        "metadata": {
+          "url": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2014_r17/MapServer/6/query?f=json&where=MinMapLevel+%3C%3D+17+AND+MaxMapLevel+%3E%3D+17&geometryType=esriGeometryEnvelope&spatialRel=esriSpatialRelIntersects&geometry=-89.51925052%2C21.31173510%2C-89.48790861%2C21.31865094&inSR=4326&outSR=4326&outFields=OBJECTID%2CSRC_DATE2%2CSRC_DESC%2CSAMP_RES%2CSRC_ACC%2CMinMapLevel%2CMaxMapLevel&returnGeometry=true",
+          "sha256": "167e7145a077c878fc7ec68a4bbd177eb7ca744117ea2eaf4d09068e84d35ed8",
+          "file": "11019-10-678e19c55c6.json",
+          "checks": [
+            {
+              "delta_m": -3,
+              "coordinate": [
+                -89.51159725653453,
+                21.31368672402099
+              ],
+              "match": true
+            },
+            {
+              "delta_m": 0,
+              "coordinate": [
+                -89.5116022933251,
+                21.31371326184432
+              ],
+              "match": true
+            },
+            {
+              "delta_m": 3,
+              "coordinate": [
+                -89.51160733011565,
+                21.31373979966285
+              ],
+              "match": true
+            }
+          ]
+        },
+        "verified": true
+      },
+      "after": {
+        "release": 18820,
+        "date": "2015-02-16",
+        "sensor": "WV03_VNIR",
+        "resolution_m": 0.31,
+        "accuracy_m": 10.2,
+        "offset": 0.0,
+        "coord": [
+          -89.51160733011565,
+          21.31373979966285
+        ],
+        "candidate_pixels": [
+          [
+            23.3,
+            65
+          ],
+          [
+            19.91,
+            70
+          ],
+          [
+            8.73,
+            60
+          ]
+        ],
+        "raster_available": true,
+        "metadata": {
+          "url": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2018_r14/MapServer/6/query?f=json&where=MinMapLevel+%3C%3D+17+AND+MaxMapLevel+%3E%3D+17&geometryType=esriGeometryEnvelope&spatialRel=esriSpatialRelIntersects&geometry=-89.51925052%2C21.31173510%2C-89.48790861%2C21.31865094&inSR=4326&outSR=4326&outFields=OBJECTID%2CSRC_DATE2%2CSRC_DESC%2CSAMP_RES%2CSRC_ACC%2CMinMapLevel%2CMaxMapLevel&returnGeometry=true",
+          "sha256": "5c117d1bed70a9e516b9c450d9e03005f4dcbe2a3e06b6b862a1973041bb1d7d",
+          "file": "18820-10-1e8e8bb6364.json",
+          "checks": [
+            {
+              "delta_m": -3,
+              "coordinate": [
+                -89.5116022933251,
+                21.31371326184432
+              ],
+              "match": true
+            },
+            {
+              "delta_m": 0,
+              "coordinate": [
+                -89.51160733011565,
+                21.31373979966285
+              ],
+              "match": true
+            },
+            {
+              "delta_m": 3,
+              "coordinate": [
+                -89.51161236690622,
+                21.313766337476586
+              ],
+              "match": true
+            }
+          ]
+        },
+        "verified": true
+      },
+      "sheet": "pares-2015-01.jpg",
+      "sheet_row": 1,
+      "sheet_column": 1,
+      "uncertainty_before_m": 6,
+      "uncertainty_after_m": 6
+    },
+    {
+      "i": 7,
+      "profile": "-007-0103",
+      "station": "GRID100-progreso-007-0103",
+      "year": 2015,
+      "origin": [
+        -89.51067580701617,
+        21.31395959451385
+      ],
+      "axis": [
+        -0.2504215810121773,
+        0.9681368868932541
+      ],
+      "locality": "Chicxulub Puerto",
+      "before": {
+        "release": 11019,
+        "date": "2011-08-01",
+        "sensor": "WV02",
+        "resolution_m": 0.5,
+        "accuracy_m": 10.199999809265137,
+        "offset": -1.0,
+        "coord": [
+          -89.51067339227936,
+          21.31395089759197
+        ],
+        "candidate_pixels": [
+          [
+            20.33,
+            66
+          ],
+          [
+            11.89,
+            61
+          ],
+          [
+            7.21,
+            71
+          ]
+        ],
+        "raster_available": true,
+        "metadata": {
+          "url": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2014_r17/MapServer/6/query?f=json&where=MinMapLevel+%3C%3D+17+AND+MaxMapLevel+%3E%3D+17&geometryType=esriGeometryEnvelope&spatialRel=esriSpatialRelIntersects&geometry=-89.51925052%2C21.31173510%2C-89.48790861%2C21.31865094&inSR=4326&outSR=4326&outFields=OBJECTID%2CSRC_DATE2%2CSRC_DESC%2CSAMP_RES%2CSRC_ACC%2CMinMapLevel%2CMaxMapLevel&returnGeometry=true",
+          "sha256": "167e7145a077c878fc7ec68a4bbd177eb7ca744117ea2eaf4d09068e84d35ed8",
+          "file": "11019-10-678e19c55c6.json",
+          "checks": [
+            {
+              "delta_m": -3,
+              "coordinate": [
+                -89.51066614806888,
+                21.313924806823227
+              ],
+              "match": true
+            },
+            {
+              "delta_m": 0,
+              "coordinate": [
+                -89.51067339227936,
+                21.31395089759197
+              ],
+              "match": true
+            },
+            {
+              "delta_m": 3,
+              "coordinate": [
+                -89.51068063648982,
+                21.313976988356078
+              ],
+              "match": true
+            }
+          ]
+        },
+        "verified": true
+      },
+      "after": {
+        "release": 18820,
+        "date": "2015-02-16",
+        "sensor": "WV03_VNIR",
+        "resolution_m": 0.31,
+        "accuracy_m": 10.2,
+        "offset": -1.0,
+        "coord": [
+          -89.51067339227936,
+          21.31395089759197
+        ],
+        "candidate_pixels": [
+          [
+            29.04,
+            66
+          ],
+          [
+            20.08,
+            112
+          ],
+          [
+            10.5,
+            61
+          ]
+        ],
+        "raster_available": true,
+        "metadata": {
+          "url": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2018_r14/MapServer/6/query?f=json&where=MinMapLevel+%3C%3D+17+AND+MaxMapLevel+%3E%3D+17&geometryType=esriGeometryEnvelope&spatialRel=esriSpatialRelIntersects&geometry=-89.51925052%2C21.31173510%2C-89.48790861%2C21.31865094&inSR=4326&outSR=4326&outFields=OBJECTID%2CSRC_DATE2%2CSRC_DESC%2CSAMP_RES%2CSRC_ACC%2CMinMapLevel%2CMaxMapLevel&returnGeometry=true",
+          "sha256": "5c117d1bed70a9e516b9c450d9e03005f4dcbe2a3e06b6b862a1973041bb1d7d",
+          "file": "18820-10-1e8e8bb6364.json",
+          "checks": [
+            {
+              "delta_m": -3,
+              "coordinate": [
+                -89.51066614806888,
+                21.313924806823227
+              ],
+              "match": true
+            },
+            {
+              "delta_m": 0,
+              "coordinate": [
+                -89.51067339227936,
+                21.31395089759197
+              ],
+              "match": true
+            },
+            {
+              "delta_m": 3,
+              "coordinate": [
+                -89.51068063648982,
+                21.313976988356078
+              ],
+              "match": true
+            }
+          ]
+        },
+        "verified": true
+      },
+      "sheet": "pares-2015-01.jpg",
+      "sheet_row": 1,
+      "sheet_column": 2,
+      "uncertainty_before_m": 6,
+      "uncertainty_after_m": 6
+    },
+    {
+      "i": 8,
+      "profile": "-007-0104",
+      "station": "GRID100-progreso-007-0104",
+      "year": 2015,
+      "origin": [
+        -89.50975779965857,
+        21.314234311306002
+      ],
+      "axis": [
+        -0.24328832633501127,
+        0.9699540145126
+      ],
+      "locality": "Chicxulub Puerto",
+      "before": {
+        "release": 11019,
+        "date": "2011-08-01",
+        "sensor": "WV02",
+        "resolution_m": 0.5,
+        "accuracy_m": 10.199999809265137,
+        "offset": -1.0,
+        "coord": [
+          -89.5097554537011,
+          21.31422559806058
+        ],
+        "candidate_pixels": [
+          [
+            17.03,
+            69
+          ],
+          [
+            15.16,
+            62
+          ],
+          [
+            7.01,
+            114
+          ]
+        ],
+        "raster_available": true,
+        "metadata": {
+          "url": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2014_r17/MapServer/6/query?f=json&where=MinMapLevel+%3C%3D+17+AND+MaxMapLevel+%3E%3D+17&geometryType=esriGeometryEnvelope&spatialRel=esriSpatialRelIntersects&geometry=-89.51925052%2C21.31173510%2C-89.48790861%2C21.31865094&inSR=4326&outSR=4326&outFields=OBJECTID%2CSRC_DATE2%2CSRC_DESC%2CSAMP_RES%2CSRC_ACC%2CMinMapLevel%2CMaxMapLevel&returnGeometry=true",
+          "sha256": "167e7145a077c878fc7ec68a4bbd177eb7ca744117ea2eaf4d09068e84d35ed8",
+          "file": "11019-10-678e19c55c6.json",
+          "checks": [
+            {
+              "delta_m": -3,
+              "coordinate": [
+                -89.5097484158287,
+                21.314199458321223
+              ],
+              "match": true
+            },
+            {
+              "delta_m": 0,
+              "coordinate": [
+                -89.5097554537011,
+                21.31422559806058
+              ],
+              "match": true
+            },
+            {
+              "delta_m": 3,
+              "coordinate": [
+                -89.50976249157353,
+                21.31425173779529
+              ],
+              "match": true
+            }
+          ]
+        },
+        "verified": true
+      },
+      "after": {
+        "release": 18820,
+        "date": "2015-02-16",
+        "sensor": "WV03_VNIR",
+        "resolution_m": 0.31,
+        "accuracy_m": 10.2,
+        "offset": -2.0,
+        "coord": [
+          -89.50975310774363,
+          21.314216884814645
+        ],
+        "candidate_pixels": [
+          [
+            31.19,
+            66
+          ],
+          [
+            9.09,
+            61
+          ],
+          [
+            7.6,
+            103
+          ]
+        ],
+        "raster_available": true,
+        "metadata": {
+          "url": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2018_r14/MapServer/6/query?f=json&where=MinMapLevel+%3C%3D+17+AND+MaxMapLevel+%3E%3D+17&geometryType=esriGeometryEnvelope&spatialRel=esriSpatialRelIntersects&geometry=-89.51925052%2C21.31173510%2C-89.48790861%2C21.31865094&inSR=4326&outSR=4326&outFields=OBJECTID%2CSRC_DATE2%2CSRC_DESC%2CSAMP_RES%2CSRC_ACC%2CMinMapLevel%2CMaxMapLevel&returnGeometry=true",
+          "sha256": "5c117d1bed70a9e516b9c450d9e03005f4dcbe2a3e06b6b862a1973041bb1d7d",
+          "file": "18820-10-1e8e8bb6364.json",
+          "checks": [
+            {
+              "delta_m": -3,
+              "coordinate": [
+                -89.50974606987121,
+                21.31419074507373
+              ],
+              "match": true
+            },
+            {
+              "delta_m": 0,
+              "coordinate": [
+                -89.50975310774363,
+                21.314216884814645
+              ],
+              "match": true
+            },
+            {
+              "delta_m": 3,
+              "coordinate": [
+                -89.50976014561606,
+                21.314243024550905
+              ],
+              "match": true
+            }
+          ]
+        },
+        "verified": true
+      },
+      "sheet": "pares-2015-01.jpg",
+      "sheet_row": 1,
+      "sheet_column": 3,
+      "uncertainty_before_m": 6,
+      "uncertainty_after_m": 6
+    },
+    {
+      "i": 9,
+      "profile": "-007-0105",
+      "station": "GRID100-progreso-007-0105",
+      "year": 2015,
+      "origin": [
+        -89.50882269372639,
+        21.314448447199776
+      ],
+      "axis": [
+        -0.25360268738465347,
+        0.9673084704225854
+      ],
+      "locality": "Chicxulub Puerto",
+      "before": {
+        "release": 11019,
+        "date": "2011-08-01",
+        "sensor": "WV02",
+        "resolution_m": 0.5,
+        "accuracy_m": 10.199999809265137,
+        "offset": -2.0,
+        "coord": [
+          -89.50881780288763,
+          21.31443106823908
+        ],
+        "candidate_pixels": [
+          [
+            22.34,
+            67
+          ],
+          [
+            9.45,
+            62
+          ],
+          [
+            7.97,
+            72
+          ]
+        ],
+        "raster_available": true,
+        "metadata": {
+          "url": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2014_r17/MapServer/6/query?f=json&where=MinMapLevel+%3C%3D+17+AND+MaxMapLevel+%3E%3D+17&geometryType=esriGeometryEnvelope&spatialRel=esriSpatialRelIntersects&geometry=-89.51925052%2C21.31173510%2C-89.48790861%2C21.31865094&inSR=4326&outSR=4326&outFields=OBJECTID%2CSRC_DATE2%2CSRC_DESC%2CSAMP_RES%2CSRC_ACC%2CMinMapLevel%2CMaxMapLevel&returnGeometry=true",
+          "sha256": "167e7145a077c878fc7ec68a4bbd177eb7ca744117ea2eaf4d09068e84d35ed8",
+          "file": "11019-10-678e19c55c6.json",
+          "checks": [
+            {
+              "delta_m": -3,
+              "coordinate": [
+                -89.5088104666295,
+                21.314404999794178
+              ],
+              "match": true
+            },
+            {
+              "delta_m": 0,
+              "coordinate": [
+                -89.50881780288763,
+                21.31443106823908
+              ],
+              "match": true
+            },
+            {
+              "delta_m": 3,
+              "coordinate": [
+                -89.50882513914576,
+                21.314457136679355
+              ],
+              "match": true
+            }
+          ]
+        },
+        "verified": true
+      },
+      "after": {
+        "release": 18820,
+        "date": "2015-02-16",
+        "sensor": "WV03_VNIR",
+        "resolution_m": 0.31,
+        "accuracy_m": 10.2,
+        "offset": -2.0,
+        "coord": [
+          -89.50881780288763,
+          21.31443106823908
+        ],
+        "candidate_pixels": [
+          [
+            30.07,
+            70
+          ],
+          [
+            8.18,
+            75
+          ],
+          [
+            4.89,
+            65
+          ]
+        ],
+        "raster_available": true,
+        "metadata": {
+          "url": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2018_r14/MapServer/6/query?f=json&where=MinMapLevel+%3C%3D+17+AND+MaxMapLevel+%3E%3D+17&geometryType=esriGeometryEnvelope&spatialRel=esriSpatialRelIntersects&geometry=-89.51925052%2C21.31173510%2C-89.48790861%2C21.31865094&inSR=4326&outSR=4326&outFields=OBJECTID%2CSRC_DATE2%2CSRC_DESC%2CSAMP_RES%2CSRC_ACC%2CMinMapLevel%2CMaxMapLevel&returnGeometry=true",
+          "sha256": "5c117d1bed70a9e516b9c450d9e03005f4dcbe2a3e06b6b862a1973041bb1d7d",
+          "file": "18820-10-1e8e8bb6364.json",
+          "checks": [
+            {
+              "delta_m": -3,
+              "coordinate": [
+                -89.5088104666295,
+                21.314404999794178
+              ],
+              "match": true
+            },
+            {
+              "delta_m": 0,
+              "coordinate": [
+                -89.50881780288763,
+                21.31443106823908
+              ],
+              "match": true
+            },
+            {
+              "delta_m": 3,
+              "coordinate": [
+                -89.50882513914576,
+                21.314457136679355
+              ],
+              "match": true
+            }
+          ]
+        },
+        "verified": true
+      },
+      "sheet": "pares-2015-01.jpg",
+      "sheet_row": 1,
+      "sheet_column": 4,
+      "uncertainty_before_m": 6,
+      "uncertainty_after_m": 6
+    },
+    {
+      "i": 10,
+      "profile": "-007-0106",
+      "station": "GRID100-progreso-007-0106",
+      "year": 2015,
+      "origin": [
+        -89.50790530224965,
+        21.314709186404567
+      ],
+      "axis": [
+        -0.301834294113144,
+        0.9533604034661919
+      ],
+      "locality": "Chicxulub Puerto",
+      "before": {
+        "release": 11019,
+        "date": "2011-08-01",
+        "sensor": "WV02",
+        "resolution_m": 0.5,
+        "accuracy_m": 10.199999809265137,
+        "offset": -2.0,
+        "coord": [
+          -89.50789948123294,
+          21.31469205803914
+        ],
+        "candidate_pixels": [
+          [
+            19.64,
+            63
+          ],
+          [
+            11.23,
+            58
+          ],
+          [
+            10.7,
+            69
+          ]
+        ],
+        "raster_available": true,
+        "metadata": {
+          "url": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2014_r17/MapServer/6/query?f=json&where=MinMapLevel+%3C%3D+17+AND+MaxMapLevel+%3E%3D+17&geometryType=esriGeometryEnvelope&spatialRel=esriSpatialRelIntersects&geometry=-89.51925052%2C21.31173510%2C-89.48790861%2C21.31865094&inSR=4326&outSR=4326&outFields=OBJECTID%2CSRC_DATE2%2CSRC_DESC%2CSAMP_RES%2CSRC_ACC%2CMinMapLevel%2CMaxMapLevel&returnGeometry=true",
+          "sha256": "167e7145a077c878fc7ec68a4bbd177eb7ca744117ea2eaf4d09068e84d35ed8",
+          "file": "11019-10-678e19c55c6.json",
+          "checks": [
+            {
+              "delta_m": -3,
+              "coordinate": [
+                -89.50789074970787,
+                21.31466636548724
+              ],
+              "match": true
+            },
+            {
+              "delta_m": 0,
+              "coordinate": [
+                -89.50789948123294,
+                21.31469205803914
+              ],
+              "match": true
+            },
+            {
+              "delta_m": 3,
+              "coordinate": [
+                -89.50790821275801,
+                21.31471775058654
+              ],
+              "match": true
+            }
+          ]
+        },
+        "verified": true
+      },
+      "after": {
+        "release": 18820,
+        "date": "2015-02-16",
+        "sensor": "WV03_VNIR",
+        "resolution_m": 0.31,
+        "accuracy_m": 10.2,
+        "offset": -4.0,
+        "coord": [
+          -89.50789366021621,
+          21.31467492967171
+        ],
+        "candidate_pixels": [
+          [
+            18.45,
+            74
+          ],
+          [
+            9.76,
+            64
+          ],
+          [
+            7.3,
+            55
+          ]
+        ],
+        "raster_available": true,
+        "metadata": {
+          "url": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2018_r14/MapServer/6/query?f=json&where=MinMapLevel+%3C%3D+17+AND+MaxMapLevel+%3E%3D+17&geometryType=esriGeometryEnvelope&spatialRel=esriSpatialRelIntersects&geometry=-89.51925052%2C21.31173510%2C-89.48790861%2C21.31865094&inSR=4326&outSR=4326&outFields=OBJECTID%2CSRC_DATE2%2CSRC_DESC%2CSAMP_RES%2CSRC_ACC%2CMinMapLevel%2CMaxMapLevel&returnGeometry=true",
+          "sha256": "5c117d1bed70a9e516b9c450d9e03005f4dcbe2a3e06b6b862a1973041bb1d7d",
+          "file": "18820-10-1e8e8bb6364.json",
+          "checks": [
+            {
+              "delta_m": -3,
+              "coordinate": [
+                -89.50788492869114,
+                21.314649237116814
+              ],
+              "match": true
+            },
+            {
+              "delta_m": 0,
+              "coordinate": [
+                -89.50789366021621,
+                21.31467492967171
+              ],
+              "match": true
+            },
+            {
+              "delta_m": 3,
+              "coordinate": [
+                -89.5079023917413,
+                21.314700622222105
+              ],
+              "match": true
+            }
+          ]
+        },
+        "verified": true
+      },
+      "sheet": "pares-2015-01.jpg",
+      "sheet_row": 2,
+      "sheet_column": 0,
+      "uncertainty_before_m": 6,
+      "uncertainty_after_m": 6
+    },
+    {
+      "i": 11,
+      "profile": "-007-0107",
+      "station": "GRID100-progreso-007-0107",
+      "year": 2015,
+      "origin": [
+        -89.5070030443792,
+        21.315024729809913
+      ],
+      "axis": [
+        -0.2502407471508408,
+        0.9681836439774166
+      ],
+      "locality": "Chicxulub Puerto",
+      "before": {
+        "release": 11019,
+        "date": "2011-08-01",
+        "sensor": "WV02",
+        "resolution_m": 0.5,
+        "accuracy_m": 10.199999809265137,
+        "offset": -4.0,
+        "coord": [
+          -89.5069933923368,
+          21.314989940439187
+        ],
+        "candidate_pixels": [
+          [
+            18.41,
+            70
+          ],
+          [
+            15.96,
+            102
+          ],
+          [
+            13.87,
+            65
+          ]
+        ],
+        "raster_available": true,
+        "metadata": {
+          "url": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2014_r17/MapServer/6/query?f=json&where=MinMapLevel+%3C%3D+17+AND+MaxMapLevel+%3E%3D+17&geometryType=esriGeometryEnvelope&spatialRel=esriSpatialRelIntersects&geometry=-89.51925052%2C21.31173510%2C-89.48790861%2C21.31865094&inSR=4326&outSR=4326&outFields=OBJECTID%2CSRC_DATE2%2CSRC_DESC%2CSAMP_RES%2CSRC_ACC%2CMinMapLevel%2CMaxMapLevel&returnGeometry=true",
+          "sha256": "167e7145a077c878fc7ec68a4bbd177eb7ca744117ea2eaf4d09068e84d35ed8",
+          "file": "11019-10-678e19c55c6.json",
+          "checks": [
+            {
+              "delta_m": -3,
+              "coordinate": [
+                -89.506986153305,
+                21.314963848405732
+              ],
+              "match": true
+            },
+            {
+              "delta_m": 0,
+              "coordinate": [
+                -89.5069933923368,
+                21.314989940439187
+              ],
+              "match": true
+            },
+            {
+              "delta_m": 3,
+              "coordinate": [
+                -89.5070006313686,
+                21.315016032468005
+              ],
+              "match": true
+            }
+          ]
+        },
+        "verified": true
+      },
+      "after": {
+        "release": 18820,
+        "date": "2015-02-16",
+        "sensor": "WV03_VNIR",
+        "resolution_m": 0.31,
+        "accuracy_m": 10.2,
+        "offset": -9.5,
+        "coord": [
+          -89.5069801207785,
+          21.314942105040974
+        ],
+        "candidate_pixels": [
+          [
+            29.38,
+            113
+          ],
+          [
+            17.57,
+            69
+          ],
+          [
+            15.7,
+            80
+          ]
+        ],
+        "raster_available": true,
+        "metadata": {
+          "url": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2018_r14/MapServer/6/query?f=json&where=MinMapLevel+%3C%3D+17+AND+MaxMapLevel+%3E%3D+17&geometryType=esriGeometryEnvelope&spatialRel=esriSpatialRelIntersects&geometry=-89.51925052%2C21.31173510%2C-89.48790861%2C21.31865094&inSR=4326&outSR=4326&outFields=OBJECTID%2CSRC_DATE2%2CSRC_DESC%2CSAMP_RES%2CSRC_ACC%2CMinMapLevel%2CMaxMapLevel&returnGeometry=true",
+          "sha256": "5c117d1bed70a9e516b9c450d9e03005f4dcbe2a3e06b6b862a1973041bb1d7d",
+          "file": "18820-10-1e8e8bb6364.json",
+          "checks": [
+            {
+              "delta_m": -3,
+              "coordinate": [
+                -89.50697288174669,
+                21.314916012999017
+              ],
+              "match": true
+            },
+            {
+              "delta_m": 0,
+              "coordinate": [
+                -89.5069801207785,
+                21.314942105040974
+              ],
+              "match": true
+            },
+            {
+              "delta_m": 3,
+              "coordinate": [
+                -89.5069873598103,
+                21.314968197078294
+              ],
+              "match": true
+            }
+          ]
+        },
+        "verified": true
+      },
+      "sheet": "pares-2015-01.jpg",
+      "sheet_row": 2,
+      "sheet_column": 1,
+      "uncertainty_before_m": 6,
+      "uncertainty_after_m": 6
+    },
+    {
+      "i": 12,
+      "profile": "-007-0108",
+      "station": "GRID100-progreso-007-0108",
+      "year": 2015,
+      "origin": [
+        -89.50606623393294,
+        21.315214921724998
+      ],
+      "axis": [
+        -0.1906277694629398,
+        0.9816623928365517
+      ],
+      "locality": "Chicxulub Puerto",
+      "before": {
+        "release": 11019,
+        "date": "2011-08-01",
+        "sensor": "WV02",
+        "resolution_m": 0.5,
+        "accuracy_m": 10.199999809265137,
+        "offset": -7.5,
+        "coord": [
+          -89.50605244758631,
+          21.315148783535257
+        ],
+        "candidate_pixels": [
+          [
+            18.81,
+            73
+          ],
+          [
+            12.09,
+            78
+          ],
+          [
+            9.35,
+            68
+          ]
+        ],
+        "raster_available": true,
+        "metadata": {
+          "url": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2014_r17/MapServer/6/query?f=json&where=MinMapLevel+%3C%3D+17+AND+MaxMapLevel+%3E%3D+17&geometryType=esriGeometryEnvelope&spatialRel=esriSpatialRelIntersects&geometry=-89.51925052%2C21.31173510%2C-89.48790861%2C21.31865094&inSR=4326&outSR=4326&outFields=OBJECTID%2CSRC_DATE2%2CSRC_DESC%2CSAMP_RES%2CSRC_ACC%2CMinMapLevel%2CMaxMapLevel&returnGeometry=true",
+          "sha256": "167e7145a077c878fc7ec68a4bbd177eb7ca744117ea2eaf4d09068e84d35ed8",
+          "file": "11019-10-678e19c55c6.json",
+          "checks": [
+            {
+              "delta_m": -3,
+              "coordinate": [
+                -89.50604693304766,
+                21.315122328251018
+              ],
+              "match": true
+            },
+            {
+              "delta_m": 0,
+              "coordinate": [
+                -89.50605244758631,
+                21.315148783535257
+              ],
+              "match": true
+            },
+            {
+              "delta_m": 3,
+              "coordinate": [
+                -89.50605796212497,
+                21.31517523881473
+              ],
+              "match": true
+            }
+          ]
+        },
+        "verified": true
+      },
+      "after": {
+        "release": 18820,
+        "date": "2015-02-16",
+        "sensor": "WV03_VNIR",
+        "resolution_m": 0.31,
+        "accuracy_m": 10.2,
+        "offset": -5.5,
+        "coord": [
+          -89.50605612394541,
+          21.315166420388767
+        ],
+        "candidate_pixels": [
+          [
+            23.55,
+            74
+          ],
+          [
+            12.79,
+            69
+          ],
+          [
+            10.71,
+            83
+          ]
+        ],
+        "raster_available": true,
+        "metadata": {
+          "url": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2018_r14/MapServer/6/query?f=json&where=MinMapLevel+%3C%3D+17+AND+MaxMapLevel+%3E%3D+17&geometryType=esriGeometryEnvelope&spatialRel=esriSpatialRelIntersects&geometry=-89.51925052%2C21.31173510%2C-89.48790861%2C21.31865094&inSR=4326&outSR=4326&outFields=OBJECTID%2CSRC_DATE2%2CSRC_DESC%2CSAMP_RES%2CSRC_ACC%2CMinMapLevel%2CMaxMapLevel&returnGeometry=true",
+          "sha256": "5c117d1bed70a9e516b9c450d9e03005f4dcbe2a3e06b6b862a1973041bb1d7d",
+          "file": "18820-10-1e8e8bb6364.json",
+          "checks": [
+            {
+              "delta_m": -3,
+              "coordinate": [
+                -89.50605060940676,
+                21.315139965107708
+              ],
+              "match": true
+            },
+            {
+              "delta_m": 0,
+              "coordinate": [
+                -89.50605612394541,
+                21.315166420388767
+              ],
+              "match": true
+            },
+            {
+              "delta_m": 3,
+              "coordinate": [
+                -89.50606163848407,
+                21.315192875665062
+              ],
+              "match": true
+            }
+          ]
+        },
+        "verified": true
+      },
+      "sheet": "pares-2015-01.jpg",
+      "sheet_row": 2,
+      "sheet_column": 2,
+      "uncertainty_before_m": 6,
+      "uncertainty_after_m": 6
+    },
+    {
+      "i": 13,
+      "profile": "-007-0109",
+      "station": "GRID100-progreso-007-0109",
+      "year": 2015,
+      "origin": [
+        -89.50511324505771,
+        21.31534525979032
+      ],
+      "axis": [
+        -0.18802576073146113,
+        0.9821640969315439
+      ],
+      "locality": "Chicxulub Puerto",
+      "before": {
+        "release": 11019,
+        "date": "2011-08-01",
+        "sensor": "WV02",
+        "resolution_m": 0.5,
+        "accuracy_m": 10.199999809265137,
+        "offset": 0.0,
+        "coord": [
+          -89.50511324505771,
+          21.315345259790323
+        ],
+        "candidate_pixels": [
+          [
+            17.3,
+            64
+          ],
+          [
+            15.2,
+            114
+          ],
+          [
+            10.85,
+            69
+          ]
+        ],
+        "raster_available": true,
+        "metadata": {
+          "url": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2014_r17/MapServer/6/query?f=json&where=MinMapLevel+%3C%3D+17+AND+MaxMapLevel+%3E%3D+17&geometryType=esriGeometryEnvelope&spatialRel=esriSpatialRelIntersects&geometry=-89.51925052%2C21.31173510%2C-89.48790861%2C21.31865094&inSR=4326&outSR=4326&outFields=OBJECTID%2CSRC_DATE2%2CSRC_DESC%2CSAMP_RES%2CSRC_ACC%2CMinMapLevel%2CMaxMapLevel&returnGeometry=true",
+          "sha256": "167e7145a077c878fc7ec68a4bbd177eb7ca744117ea2eaf4d09068e84d35ed8",
+          "file": "11019-10-678e19c55c6.json",
+          "checks": [
+            {
+              "delta_m": -3,
+              "coordinate": [
+                -89.50510780578594,
+                21.315318790997345
+              ],
+              "match": true
+            },
+            {
+              "delta_m": 0,
+              "coordinate": [
+                -89.50511324505771,
+                21.315345259790323
+              ],
+              "match": true
+            },
+            {
+              "delta_m": 3,
+              "coordinate": [
+                -89.50511868432949,
+                21.315371728578533
+              ],
+              "match": true
+            }
+          ]
+        },
+        "verified": true
+      },
+      "after": {
+        "release": 18820,
+        "date": "2015-02-16",
+        "sensor": "WV03_VNIR",
+        "resolution_m": 0.31,
+        "accuracy_m": 10.2,
+        "offset": -5.0,
+        "coord": [
+          -89.50510417960474,
+          21.315301145132707
+        ],
+        "candidate_pixels": [
+          [
+            23.46,
+            67
+          ],
+          [
+            13.59,
+            111
+          ],
+          [
+            13.04,
+            78
+          ]
+        ],
+        "raster_available": true,
+        "metadata": {
+          "url": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2018_r14/MapServer/6/query?f=json&where=MinMapLevel+%3C%3D+17+AND+MaxMapLevel+%3E%3D+17&geometryType=esriGeometryEnvelope&spatialRel=esriSpatialRelIntersects&geometry=-89.51925052%2C21.31173510%2C-89.48790861%2C21.31865094&inSR=4326&outSR=4326&outFields=OBJECTID%2CSRC_DATE2%2CSRC_DESC%2CSAMP_RES%2CSRC_ACC%2CMinMapLevel%2CMaxMapLevel&returnGeometry=true",
+          "sha256": "5c117d1bed70a9e516b9c450d9e03005f4dcbe2a3e06b6b862a1973041bb1d7d",
+          "file": "18820-10-1e8e8bb6364.json",
+          "checks": [
+            {
+              "delta_m": -3,
+              "coordinate": [
+                -89.50509874033298,
+                21.315274676331775
+              ],
+              "match": true
+            },
+            {
+              "delta_m": 0,
+              "coordinate": [
+                -89.50510417960474,
+                21.315301145132707
+              ],
+              "match": true
+            },
+            {
+              "delta_m": 3,
+              "coordinate": [
+                -89.50510961887653,
+                21.31532761392887
+              ],
+              "match": true
+            }
+          ]
+        },
+        "verified": true
+      },
+      "sheet": "pares-2015-01.jpg",
+      "sheet_row": 2,
+      "sheet_column": 3,
+      "uncertainty_before_m": 6,
+      "uncertainty_after_m": 6
+    },
+    {
+      "i": 14,
+      "profile": "-007-0110",
+      "station": "GRID100-progreso-007-0110",
+      "year": 2015,
+      "origin": [
+        -89.50416008555976,
+        21.315472870846886
+      ],
+      "axis": [
+        -0.19514228703530523,
+        0.9807749424871287
+      ],
+      "locality": "Chicxulub Puerto",
+      "before": {
+        "release": 11019,
+        "date": "2011-08-01",
+        "sensor": "WV02",
+        "resolution_m": 0.5,
+        "accuracy_m": 10.199999809265137,
+        "offset": 0.0,
+        "coord": [
+          -89.50416008555976,
+          21.315472870846882
+        ],
+        "candidate_pixels": [
+          [
+            19.79,
+            66
+          ],
+          [
+            8.89,
+            71
+          ],
+          [
+            7.8,
+            61
+          ]
+        ],
+        "raster_available": true,
+        "metadata": {
+          "url": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2014_r17/MapServer/6/query?f=json&where=MinMapLevel+%3C%3D+17+AND+MaxMapLevel+%3E%3D+17&geometryType=esriGeometryEnvelope&spatialRel=esriSpatialRelIntersects&geometry=-89.51925052%2C21.31173510%2C-89.48790861%2C21.31865094&inSR=4326&outSR=4326&outFields=OBJECTID%2CSRC_DATE2%2CSRC_DESC%2CSAMP_RES%2CSRC_ACC%2CMinMapLevel%2CMaxMapLevel&returnGeometry=true",
+          "sha256": "167e7145a077c878fc7ec68a4bbd177eb7ca744117ea2eaf4d09068e84d35ed8",
+          "file": "11019-10-678e19c55c6.json",
+          "checks": [
+            {
+              "delta_m": -3,
+              "coordinate": [
+                -89.50415444041384,
+                21.31544643949087
+              ],
+              "match": true
+            },
+            {
+              "delta_m": 0,
+              "coordinate": [
+                -89.50416008555976,
+                21.315472870846882
+              ],
+              "match": true
+            },
+            {
+              "delta_m": 3,
+              "coordinate": [
+                -89.50416573070568,
+                21.31549930219814
+              ],
+              "match": true
+            }
+          ]
+        },
+        "verified": true
+      },
+      "after": {
+        "release": 18820,
+        "date": "2015-02-16",
+        "sensor": "WV03_VNIR",
+        "resolution_m": 0.31,
+        "accuracy_m": 10.2,
+        "offset": -5.0,
+        "coord": [
+          -89.50415067698323,
+          21.315428818584223
+        ],
+        "candidate_pixels": [
+          [
+            22.05,
+            64
+          ],
+          [
+            11.34,
+            108
+          ],
+          [
+            9.29,
+            59
+          ]
+        ],
+        "raster_available": true,
+        "metadata": {
+          "url": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2018_r14/MapServer/6/query?f=json&where=MinMapLevel+%3C%3D+17+AND+MaxMapLevel+%3E%3D+17&geometryType=esriGeometryEnvelope&spatialRel=esriSpatialRelIntersects&geometry=-89.51925052%2C21.31173510%2C-89.48790861%2C21.31865094&inSR=4326&outSR=4326&outFields=OBJECTID%2CSRC_DATE2%2CSRC_DESC%2CSAMP_RES%2CSRC_ACC%2CMinMapLevel%2CMaxMapLevel&returnGeometry=true",
+          "sha256": "5c117d1bed70a9e516b9c450d9e03005f4dcbe2a3e06b6b862a1973041bb1d7d",
+          "file": "18820-10-1e8e8bb6364.json",
+          "checks": [
+            {
+              "delta_m": -3,
+              "coordinate": [
+                -89.50414503183731,
+                21.315402387220278
+              ],
+              "match": true
+            },
+            {
+              "delta_m": 0,
+              "coordinate": [
+                -89.50415067698323,
+                21.315428818584223
+              ],
+              "match": true
+            },
+            {
+              "delta_m": 3,
+              "coordinate": [
+                -89.50415632212915,
+                21.315455249943405
+              ],
+              "match": true
+            }
+          ]
+        },
+        "verified": true
+      },
+      "sheet": "pares-2015-01.jpg",
+      "sheet_row": 2,
+      "sheet_column": 4,
+      "uncertainty_before_m": 6,
+      "uncertainty_after_m": 6
+    },
+    {
+      "i": 15,
+      "profile": "-007-0117",
+      "station": "GRID100-progreso-007-0117",
+      "year": 2015,
+      "origin": [
+        -89.49748230334947,
+        21.316346379635704
+      ],
+      "axis": [
+        -0.11917160880558536,
+        0.9928736715487466
+      ],
+      "locality": "Chicxulub Puerto",
+      "before": {
+        "release": 11019,
+        "date": "2011-08-01",
+        "sensor": "WV02",
+        "resolution_m": 0.5,
+        "accuracy_m": 10.199999809265137,
+        "offset": 0.0,
+        "coord": [
+          -89.49748230334947,
+          21.3163463796357
+        ],
+        "candidate_pixels": [
+          [
+            17.48,
+            66
+          ],
+          [
+            7.45,
+            61
+          ],
+          [
+            6.7,
+            71
+          ]
+        ],
+        "raster_available": true,
+        "metadata": {
+          "url": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2014_r17/MapServer/6/query?f=json&where=MinMapLevel+%3C%3D+17+AND+MaxMapLevel+%3E%3D+17&geometryType=esriGeometryEnvelope&spatialRel=esriSpatialRelIntersects&geometry=-89.51925052%2C21.31173510%2C-89.48790861%2C21.31865094&inSR=4326&outSR=4326&outFields=OBJECTID%2CSRC_DATE2%2CSRC_DESC%2CSAMP_RES%2CSRC_ACC%2CMinMapLevel%2CMaxMapLevel&returnGeometry=true",
+          "sha256": "167e7145a077c878fc7ec68a4bbd177eb7ca744117ea2eaf4d09068e84d35ed8",
+          "file": "11019-10-678e19c55c6.json",
+          "checks": [
+            {
+              "delta_m": -3,
+              "coordinate": [
+                -89.49747885589001,
+                21.316319622225432
+              ],
+              "match": true
+            },
+            {
+              "delta_m": 0,
+              "coordinate": [
+                -89.49748230334947,
+                21.3163463796357
+              ],
+              "match": true
+            },
+            {
+              "delta_m": 3,
+              "coordinate": [
+                -89.49748575080893,
+                21.316373137041094
+              ],
+              "match": true
+            }
+          ]
+        },
+        "verified": true
+      },
+      "after": {
+        "release": 18820,
+        "date": "2015-02-16",
+        "sensor": "WV03_VNIR",
+        "resolution_m": 0.31,
+        "accuracy_m": 10.2,
+        "offset": -1.0,
+        "coord": [
+          -89.49748115419631,
+          21.31633746049949
+        ],
+        "candidate_pixels": [
+          [
+            20.82,
+            67
+          ],
+          [
+            7.7,
+            52
+          ],
+          [
+            4.3,
+            37
+          ]
+        ],
+        "raster_available": true,
+        "metadata": {
+          "url": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2018_r14/MapServer/6/query?f=json&where=MinMapLevel+%3C%3D+17+AND+MaxMapLevel+%3E%3D+17&geometryType=esriGeometryEnvelope&spatialRel=esriSpatialRelIntersects&geometry=-89.51925052%2C21.31173510%2C-89.48790861%2C21.31865094&inSR=4326&outSR=4326&outFields=OBJECTID%2CSRC_DATE2%2CSRC_DESC%2CSAMP_RES%2CSRC_ACC%2CMinMapLevel%2CMaxMapLevel&returnGeometry=true",
+          "sha256": "5c117d1bed70a9e516b9c450d9e03005f4dcbe2a3e06b6b862a1973041bb1d7d",
+          "file": "18820-10-1e8e8bb6364.json",
+          "checks": [
+            {
+              "delta_m": -3,
+              "coordinate": [
+                -89.49747770673686,
+                21.31631070308759
+              ],
+              "match": true
+            },
+            {
+              "delta_m": 0,
+              "coordinate": [
+                -89.49748115419631,
+                21.31633746049949
+              ],
+              "match": true
+            },
+            {
+              "delta_m": 3,
+              "coordinate": [
+                -89.49748460165577,
+                21.316364217906504
+              ],
+              "match": true
+            }
+          ]
+        },
+        "verified": true
+      },
+      "sheet": "pares-2015-01.jpg",
+      "sheet_row": 3,
+      "sheet_column": 0,
+      "uncertainty_before_m": 6,
+      "uncertainty_after_m": 6
+    }
+  ],
+  "rejected": [
+    {
+      "station": "GRID100-progreso-005-0042",
+      "reason": "Sombra y estructura sobre el eje de 2011. El borde continuo no se separa con seguridad."
+    }
+  ]
+}

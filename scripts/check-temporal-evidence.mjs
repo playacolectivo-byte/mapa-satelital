@@ -1,12 +1,12 @@
 import assert from 'node:assert/strict';
 import { readFileSync } from 'node:fs';
-import { temporalEvidence, resolveTemporalRecord, studyMatchesCapture } from '../lib/temporal-evidence.ts';
+import { temporalEvidence, resolveTemporalRecord, studyMatchesCapture, createTemporalEvidenceResolver, groynesForStudyYear } from '../lib/temporal-evidence.ts';
 
 const json = path => JSON.parse(readFileSync(new URL('../' + path, import.meta.url), 'utf8'));
 const registry = json('public/data/problems/temporal-observations.json');
 const original = json('public/data/problems/geotube-historical-axes.geojson');
 const originalText = JSON.stringify(original);
-const layers = { barriers: null, geotubes: original, vegetation: null };
+const layers = { barriers: null, geotubes: original, groynes: null, vegetation: null };
 const at = (key, date = null, center = [-89.55525, 21.30735]) => ({ key, date, center, source: key.startsWith('study:') ? 'study' : 'esri' });
 const states = frame => temporalEvidence(layers, frame, registry, false);
 
@@ -43,3 +43,52 @@ assert.equal(studyMatchesCapture('2016–2021', at('test', '2025-03-13')), false
 assert.equal(studyMatchesCapture('2016–2021', at('test')), false);
 assert.equal(JSON.stringify(original), originalText, 'Filtering must preserve received geometries and properties');
 console.log('Temporal evidence: 54 dated observations; chronology, missing-date, locality, deflation, references and study-period checks passed.');
+
+const observed = json('public/data/problems/geotube-dated-observations.json');
+assert.equal(observed.features.length, 12);
+assert.deepEqual(
+  observed.features.filter(feature => feature.properties.municipality_slug === 'ixil')
+    .map(feature => feature.properties.capture_date),
+  ['2025-10-11', '2025-11-25'],
+);
+const renderObserved = createTemporalEvidenceResolver({ ...layers, geotubes: observed }, registry, true);
+const matchedRaster = at('esri:26334', '2025-11-25');
+const onRaster = release => observed.features.filter(f => f.properties.capture_release === release);
+assert.deepEqual(
+  renderObserved(matchedRaster).layers.geotubes.features.map(feature => feature.properties.temporal_date),
+  onRaster(26334).map(feature => feature.properties.capture_date),
+  'The local capture dates come from the evidence for each feature',
+);
+const observedFebruary = renderObserved(at('esri:22252', '2025-02-13')).layers.geotubes.features;
+assert.deepEqual(observedFebruary.map(f => f.id), onRaster(22252).map(f => f.id));
+assert.equal(observedFebruary.length, 5);
+assert(observedFebruary.every(f => f.properties.temporal_date === '2025-02-13' && f.properties.temporal_state === 'present'));
+assert.equal(renderObserved({ ...matchedRaster, source: 'sentinel' }).layers.geotubes.features.length, 0);
+assert.equal(renderObserved(null).layers.geotubes.features.length, 0);
+assert.equal(renderObserved(matchedRaster).layers.geotubes.features.length, 7);
+console.log('The twelve dated geotube axes appear on their documented Esri mosaics.');
+
+const groynes = json('public/data/problems/groyne-dated-observations.json');
+assert(groynes.features.length >= 18);
+assert.equal(new Set(groynes.features.map(feature => feature.id)).size, groynes.features.length);
+assert(groynes.features.every(feature => feature.geometry.type === 'LineString' &&
+  feature.properties.municipality_slug === 'progreso'));
+assert(groynes.features.filter(feature =>
+  feature.properties.locality === 'Chelem' && feature.properties.capture_date === '2025-02-13').length >= 6);
+assert(groynes.features.filter(feature =>
+  feature.properties.locality === 'Chuburná' && feature.properties.capture_date === '2025-03-23').length >= 12);
+for(const [release,date,year] of [[11019,'2011-08-01',2011],[27946,'2012-12-15',2012],[18820,'2014-09-18',2014],[18820,'2015-03-26',2015],[20753,'2019-11-27',2019],[17825,'2020-06-07',2020],[64776,'2022-09-25',2022],[25285,'2023-09-21',2023],[26334,'2025-04-14',2025],[26334,'2026-02-07',2026]]){
+  const dated = groynesForStudyYear(groynes,year);
+  assert(dated.features.length > 0, String(year));
+  const render = createTemporalEvidenceResolver({ ...layers, groynes: dated }, registry, false);
+  const found = render(at('esri:'+release,date)).layers.groynes.features;
+  const eligible = dated.features.filter(({properties:p})=>p.capture_release===release||(p.capture_equivalent_releases??[]).includes(release));
+  assert(eligible.length > 0, String(year));
+  const exactSites = new Set(eligible.map(({id,properties:p})=>p.groyne_site_id??id));
+  assert.equal(found.filter(f=>f.properties.temporal_state==='present').length,exactSites.size);
+  assert.equal(new Set(found.map(({id,properties:p})=>p.groyne_site_id??id)).size,found.length);
+  assert(found.every(f=>String(f.properties.temporal_date).startsWith(year+'-')));
+  assert.equal(render(null).layers.groynes.features.length,0);
+  assert.equal(render({...at('esri:'+release,date),source:'sentinel'}).layers.groynes.features.length,0);
+}
+console.log('Los '+groynes.features.length+' ejes fechados quedan en sus respectivos años y muestran una sola línea por sitio.');

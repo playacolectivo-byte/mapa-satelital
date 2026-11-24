@@ -1,0 +1,3076 @@
+{
+  "version": 1,
+  "method": "user-drawn-shoreline-2011-20261105",
+  "field_validated": false,
+  "data_sha256": "250fa694f9c3829ac0d41598454e28988a6c681fc36c6330c0f950eb08aa76e5",
+  "model_sha256": "21ed574a9c464cab785197f95568e242da2358cae23b08a420afde98aa294513",
+  "reference_date": "2011-08-01",
+  "reference_capture": 40,
+  "scope": "Only existing beach profiles that intersect the white user annotation. Other dates are not newly certified by this reference correction.",
+  "overlap_policy": "Choose the capture with the largest horizontal margin at the crossing; retain every alternative.",
+  "source_zoom": 17,
+  "guides": [
+    {
+      "guide": 1,
+      "file": "C:\\Users\\papus\\AppData\\Local\\Temp\\codex-clipboard-1906c438-033a-4835-9833-d9c03cdf9de0.png",
+      "sha256": "1bb48b2f7d0f4a1337091ac150f34f20d377f941ff50e2b9405e749a0368a678",
+      "affine_screen_to_mosaic": [
+        [
+          0.44453589947731065,
+          2.2248970062348802e-05,
+          1270.8930186731052
+        ],
+        [
+          -2.2248970062348802e-05,
+          0.44453589947731065,
+          1447.515493075583
+        ]
+      ],
+      "inliers": 106,
+      "median_error_native_px": 0.07934181949180845,
+      "p95_error_native_px": 0.2661565259383202,
+      "size": [
+        972,
+        680
+      ]
+    },
+    {
+      "guide": 2,
+      "file": "C:\\Users\\papus\\AppData\\Local\\Temp\\codex-clipboard-e860ae6a-d4e7-4731-be2d-dc0faf985a99.png",
+      "sha256": "ac3a7f6001856abf9ab04933dab85c0fd27194d13cd65df945301e62c633c4ba",
+      "affine_screen_to_mosaic": [
+        [
+          0.44438415562879124,
+          1.8252499358435465e-05,
+          1544.9932953373116
+        ],
+        [
+          -1.8252499358435465e-05,
+          0.44438415562879124,
+          1379.7169300069813
+        ]
+      ],
+      "inliers": 117,
+      "median_error_native_px": 0.09400300708279354,
+      "p95_error_native_px": 0.3137903613642845,
+      "size": [
+        991,
+        727
+      ]
+    },
+    {
+      "guide": 3,
+      "file": "C:\\Users\\papus\\AppData\\Local\\Temp\\codex-clipboard-9a6f0ae5-5a69-4cc5-acbc-927bbff5fc00.png",
+      "sha256": "58c4dce9d618908590c32a90c73e5ee323416fbf59733f1c1f795593dd98ee00",
+      "affine_screen_to_mosaic": [
+        [
+          0.8888736681342665,
+          -5.161765618175684e-05,
+          2050.9937847979895
+        ],
+        [
+          5.161765618175684e-05,
+          0.8888736681342665,
+          685.817545861456
+        ]
+      ],
+      "inliers": 685,
+      "median_error_native_px": 0.07333157057099325,
+      "p95_error_native_px": 0.30347820750360616,
+      "size": [
+        1015,
+        826
+      ]
+    },
+    {
+      "guide": 4,
+      "file": "C:\\Users\\papus\\AppData\\Local\\Temp\\codex-clipboard-fa7fdafd-a56d-4ead-97c6-5f91faaa3d2d.png",
+      "sha256": "1dc91d65aa17468252c3b461daf1284564dbf58e9f492acb3f7951b522d4493b",
+      "affine_screen_to_mosaic": [
+        [
+          0.8889049742613034,
+          2.863296726729882e-05,
+          2925.9448159473513
+        ],
+        [
+          -2.863296726729882e-05,
+          0.8889049742613034,
+          606.0728822329988
+        ]
+      ],
+      "inliers": 481,
+      "median_error_native_px": 0.07963586905310435,
+      "p95_error_native_px": 0.24876547455718304,
+      "size": [
+        1023,
+        830
+      ]
+    },
+    {
+      "guide": 5,
+      "file": "C:\\Users\\papus\\AppData\\Local\\Temp\\codex-clipboard-ec710af1-de64-4a09-a4b6-ee88a71212b1.png",
+      "sha256": "77f8a2542402b03fe05b8a2b33dd80fdfc010fc245edd00990c52afb37a13451",
+      "affine_screen_to_mosaic": [
+        [
+          0.8888934184503833,
+          -2.332269958890459e-05,
+          3667.0179988337127
+        ],
+        [
+          2.332269958890459e-05,
+          0.8888934184503833,
+          493.9661930338659
+        ]
+      ],
+      "inliers": 678,
+      "median_error_native_px": 0.08475599286164968,
+      "p95_error_native_px": 0.36419646158413893,
+      "size": [
+        1003,
+        842
+      ]
+    },
+    {
+      "guide": 6,
+      "file": "C:\\Users\\papus\\AppData\\Local\\Temp\\codex-clipboard-ef37e230-c5ac-45ef-9601-9d38c739a55a.png",
+      "sha256": "b81a58fbc78d9a38bb3f040529a1b53871720a60a39be394502c0ce43cfaf96c",
+      "affine_screen_to_mosaic": [
+        [
+          0.8888988864845161,
+          -1.2877068425389235e-05,
+          4337.0676447559445
+        ],
+        [
+          1.2877068425389235e-05,
+          0.8888988864845161,
+          351.08986295243074
+        ]
+      ],
+      "inliers": 2321,
+      "median_error_native_px": 0.09201859228293846,
+      "p95_error_native_px": 0.3764699247722737,
+      "size": [
+        1006,
+        857
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "user-guide-1-SC-258-0-43",
+      "release": 11019,
+      "capture_date": "2011-08-01",
+      "screenshot_sha256": "1bb48b2f7d0f4a1337091ac150f34f20d377f941ff50e2b9405e749a0368a678",
+      "guide": 1,
+      "screen_pixel": [
+        452.2909843329189,
+        414.0411676939484
+      ],
+      "mosaic_pixel": [
+        1471.9618102085622,
+        1631.5615929684786
+      ],
+      "coordinate": [
+        -89.85237162828295,
+        21.24490677816567
+      ],
+      "metadata_url": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2014_r17/MapServer/6/query?f=json&where=1%3D1&outFields=SRC_DATE2%2CNICE_DESC%2CSRC_DESC%2CSAMP_RES%2CSRC_ACC&geometry=%7B%22spatialReference%22%3A+%7B%22wkid%22%3A+4326%7D%2C+%22x%22%3A+-89.85237162828295%2C+%22y%22%3A+21.24490677816567%7D&geometryType=esriGeometryPoint&returnGeometry=false&spatialRel=esriSpatialRelIntersects",
+      "metadata_sha256": "4269a2f820f1b0d99f5e4883359145e937467b5d4bb1ed69813e69ba81b53933",
+      "registration_p95_native_px": 0.2661565259383202
+    },
+    {
+      "id": "user-guide-1-SC-258-0-44",
+      "release": 11019,
+      "capture_date": "2011-08-01",
+      "screenshot_sha256": "1bb48b2f7d0f4a1337091ac150f34f20d377f941ff50e2b9405e749a0368a678",
+      "guide": 1,
+      "screen_pixel": [
+        647.2883623639805,
+        379.93106300897307
+      ],
+      "mosaic_pixel": [
+        1558.6443861326193,
+        1616.3940884102517
+      ],
+      "coordinate": [
+        -89.8514416290361,
+        21.245058461587615
+      ],
+      "metadata_url": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2014_r17/MapServer/6/query?f=json&where=1%3D1&outFields=SRC_DATE2%2CNICE_DESC%2CSRC_DESC%2CSAMP_RES%2CSRC_ACC&geometry=%7B%22spatialReference%22%3A+%7B%22wkid%22%3A+4326%7D%2C+%22x%22%3A+-89.8514416290361%2C+%22y%22%3A+21.245058461587615%7D&geometryType=esriGeometryPoint&returnGeometry=false&spatialRel=esriSpatialRelIntersects",
+      "metadata_sha256": "4269a2f820f1b0d99f5e4883359145e937467b5d4bb1ed69813e69ba81b53933",
+      "registration_p95_native_px": 0.2661565259383202
+    },
+    {
+      "id": "user-guide-2-SC-258-0-46",
+      "release": 11019,
+      "capture_date": "2011-08-01",
+      "screenshot_sha256": "ac3a7f6001856abf9ab04933dab85c0fd27194d13cd65df945301e62c633c4ba",
+      "guide": 2,
+      "screen_pixel": [
+        409.2629349722797,
+        428.5955453383517
+      ],
+      "mosaic_pixel": [
+        1726.8710820650451,
+        1570.170529456968
+      ],
+      "coordinate": [
+        -89.84963672847866,
+        21.24552061654013
+      ],
+      "metadata_url": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2014_r17/MapServer/6/query?f=json&where=1%3D1&outFields=SRC_DATE2%2CNICE_DESC%2CSRC_DESC%2CSAMP_RES%2CSRC_ACC&geometry=%7B%22spatialReference%22%3A+%7B%22wkid%22%3A+4326%7D%2C+%22x%22%3A+-89.84963672847866%2C+%22y%22%3A+21.24552061654013%7D&geometryType=esriGeometryPoint&returnGeometry=false&spatialRel=esriSpatialRelIntersects",
+      "metadata_sha256": "4269a2f820f1b0d99f5e4883359145e937467b5d4bb1ed69813e69ba81b53933",
+      "registration_p95_native_px": 0.3137903613642845
+    },
+    {
+      "id": "user-guide-2-SC-258-0-47",
+      "release": 11019,
+      "capture_date": "2011-08-01",
+      "screenshot_sha256": "ac3a7f6001856abf9ab04933dab85c0fd27194d13cd65df945301e62c633c4ba",
+      "guide": 2,
+      "screen_pixel": [
+        600.4074146096191,
+        364.8290217719964
+      ],
+      "mosaic_pixel": [
+        1811.8114963533585,
+        1541.830207860058
+      ],
+      "coordinate": [
+        -89.84872543938346,
+        21.24580406190824
+      ],
+      "metadata_url": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2014_r17/MapServer/6/query?f=json&where=1%3D1&outFields=SRC_DATE2%2CNICE_DESC%2CSRC_DESC%2CSAMP_RES%2CSRC_ACC&geometry=%7B%22spatialReference%22%3A+%7B%22wkid%22%3A+4326%7D%2C+%22x%22%3A+-89.84872543938346%2C+%22y%22%3A+21.24580406190824%7D&geometryType=esriGeometryPoint&returnGeometry=false&spatialRel=esriSpatialRelIntersects",
+      "metadata_sha256": "4269a2f820f1b0d99f5e4883359145e937467b5d4bb1ed69813e69ba81b53933",
+      "registration_p95_native_px": 0.3137903613642845
+    },
+    {
+      "id": "user-guide-2-SC-258-0-48",
+      "release": 11019,
+      "capture_date": "2011-08-01",
+      "screenshot_sha256": "ac3a7f6001856abf9ab04933dab85c0fd27194d13cd65df945301e62c633c4ba",
+      "guide": 2,
+      "screen_pixel": [
+        782.1633573872873,
+        287.1987482989575
+      ],
+      "mosaic_pixel": [
+        1892.5795405686106,
+        1507.3292268312805
+      ],
+      "coordinate": [
+        -89.84785889735602,
+        21.246149063594512
+      ],
+      "metadata_url": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2014_r17/MapServer/6/query?f=json&where=1%3D1&outFields=SRC_DATE2%2CNICE_DESC%2CSRC_DESC%2CSAMP_RES%2CSRC_ACC&geometry=%7B%22spatialReference%22%3A+%7B%22wkid%22%3A+4326%7D%2C+%22x%22%3A+-89.84785889735602%2C+%22y%22%3A+21.246149063594512%7D&geometryType=esriGeometryPoint&returnGeometry=false&spatialRel=esriSpatialRelIntersects",
+      "metadata_sha256": "4269a2f820f1b0d99f5e4883359145e937467b5d4bb1ed69813e69ba81b53933",
+      "registration_p95_native_px": 0.3137903613642845
+    },
+    {
+      "id": "user-guide-2-SC-258-0-49",
+      "release": 11019,
+      "capture_date": "2011-08-01",
+      "screenshot_sha256": "ac3a7f6001856abf9ab04933dab85c0fd27194d13cd65df945301e62c633c4ba",
+      "guide": 2,
+      "screen_pixel": [
+        961.1759713669139,
+        192.67370693921293
+      ],
+      "mosaic_pixel": [
+        1972.1281845605931,
+        1465.320528713232
+      ],
+      "coordinate": [
+        -89.84700540168807,
+        21.24656908130333
+      ],
+      "metadata_url": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2014_r17/MapServer/6/query?f=json&where=1%3D1&outFields=SRC_DATE2%2CNICE_DESC%2CSRC_DESC%2CSAMP_RES%2CSRC_ACC&geometry=%7B%22spatialReference%22%3A+%7B%22wkid%22%3A+4326%7D%2C+%22x%22%3A+-89.84700540168807%2C+%22y%22%3A+21.24656908130333%7D&geometryType=esriGeometryPoint&returnGeometry=false&spatialRel=esriSpatialRelIntersects",
+      "metadata_sha256": "4269a2f820f1b0d99f5e4883359145e937467b5d4bb1ed69813e69ba81b53933",
+      "registration_p95_native_px": 0.3137903613642845
+    },
+    {
+      "id": "user-guide-3-SC-256-0-0",
+      "release": 11019,
+      "capture_date": "2011-08-01",
+      "screenshot_sha256": "58c4dce9d618908590c32a90c73e5ee323416fbf59733f1c1f795593dd98ee00",
+      "guide": 3,
+      "screen_pixel": [
+        169.2202012058474,
+        429.9138906076124
+      ],
+      "mosaic_pixel": [
+        2201.3869746188566,
+        1067.965417537883
+      ],
+      "coordinate": [
+        -89.84454573950494,
+        21.25054242940687
+      ],
+      "metadata_url": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2014_r17/MapServer/6/query?f=json&where=1%3D1&outFields=SRC_DATE2%2CNICE_DESC%2CSRC_DESC%2CSAMP_RES%2CSRC_ACC&geometry=%7B%22spatialReference%22%3A+%7B%22wkid%22%3A+4326%7D%2C+%22x%22%3A+-89.84454573950494%2C+%22y%22%3A+21.25054242940687%7D&geometryType=esriGeometryPoint&returnGeometry=false&spatialRel=esriSpatialRelIntersects",
+      "metadata_sha256": "4269a2f820f1b0d99f5e4883359145e937467b5d4bb1ed69813e69ba81b53933",
+      "registration_p95_native_px": 0.30347820750360616
+    },
+    {
+      "id": "user-guide-3-SC-256-0-1",
+      "release": 11019,
+      "capture_date": "2011-08-01",
+      "screenshot_sha256": "58c4dce9d618908590c32a90c73e5ee323416fbf59733f1c1f795593dd98ee00",
+      "guide": 3,
+      "screen_pixel": [
+        267.411590038555,
+        436.00631152890503
+      ],
+      "mosaic_pixel": [
+        2288.666400113295,
+        1073.385878479359
+      ],
+      "coordinate": [
+        -89.84360933603645,
+        21.25048825397956
+      ],
+      "metadata_url": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2014_r17/MapServer/6/query?f=json&where=1%3D1&outFields=SRC_DATE2%2CNICE_DESC%2CSRC_DESC%2CSAMP_RES%2CSRC_ACC&geometry=%7B%22spatialReference%22%3A+%7B%22wkid%22%3A+4326%7D%2C+%22x%22%3A+-89.84360933603645%2C+%22y%22%3A+21.25048825397956%7D&geometryType=esriGeometryPoint&returnGeometry=false&spatialRel=esriSpatialRelIntersects",
+      "metadata_sha256": "4269a2f820f1b0d99f5e4883359145e937467b5d4bb1ed69813e69ba81b53933",
+      "registration_p95_native_px": 0.30347820750360616
+    },
+    {
+      "id": "user-guide-3-SC-256-0-2",
+      "release": 11019,
+      "capture_date": "2011-08-01",
+      "screenshot_sha256": "58c4dce9d618908590c32a90c73e5ee323416fbf59733f1c1f795593dd98ee00",
+      "guide": 3,
+      "screen_pixel": [
+        365.407947159948,
+        429.0351644824617
+      ],
+      "mosaic_pixel": [
+        2375.7731413658544,
+        1067.1944677753525
+      ],
+      "coordinate": [
+        -89.84267478426305,
+        21.250550198403438
+      ],
+      "metadata_url": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2014_r17/MapServer/6/query?f=json&where=1%3D1&outFields=SRC_DATE2%2CNICE_DESC%2CSRC_DESC%2CSAMP_RES%2CSRC_ACC&geometry=%7B%22spatialReference%22%3A+%7B%22wkid%22%3A+4326%7D%2C+%22x%22%3A+-89.84267478426305%2C+%22y%22%3A+21.250550198403438%7D&geometryType=esriGeometryPoint&returnGeometry=false&spatialRel=esriSpatialRelIntersects",
+      "metadata_sha256": "4269a2f820f1b0d99f5e4883359145e937467b5d4bb1ed69813e69ba81b53933",
+      "registration_p95_native_px": 0.30347820750360616
+    },
+    {
+      "id": "user-guide-3-SC-256-0-3",
+      "release": 11019,
+      "capture_date": "2011-08-01",
+      "screenshot_sha256": "58c4dce9d618908590c32a90c73e5ee323416fbf59733f1c1f795593dd98ee00",
+      "guide": 3,
+      "screen_pixel": [
+        466.1089535540377,
+        423.9877234322581
+      ],
+      "mosaic_pixel": [
+        2465.283874841258,
+        1062.713128284292
+      ],
+      "coordinate": [
+        -89.84171443650438,
+        21.250594976899116
+      ],
+      "metadata_url": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2014_r17/MapServer/6/query?f=json&where=1%3D1&outFields=SRC_DATE2%2CNICE_DESC%2CSRC_DESC%2CSAMP_RES%2CSRC_ACC&geometry=%7B%22spatialReference%22%3A+%7B%22wkid%22%3A+4326%7D%2C+%22x%22%3A+-89.84171443650438%2C+%22y%22%3A+21.250594976899116%7D&geometryType=esriGeometryPoint&returnGeometry=false&spatialRel=esriSpatialRelIntersects",
+      "metadata_sha256": "4269a2f820f1b0d99f5e4883359145e937467b5d4bb1ed69813e69ba81b53933",
+      "registration_p95_native_px": 0.30347820750360616
+    },
+    {
+      "id": "user-guide-3-SC-256-0-4",
+      "release": 11019,
+      "capture_date": "2011-08-01",
+      "screenshot_sha256": "58c4dce9d618908590c32a90c73e5ee323416fbf59733f1c1f795593dd98ee00",
+      "guide": 3,
+      "screen_pixel": [
+        566.827098475474,
+        425.0233985806832
+      ],
+      "mosaic_pixel": [
+        2554.80952830613,
+        1063.6389114870437
+      ],
+      "coordinate": [
+        -89.84075392965079,
+        21.250585713477737
+      ],
+      "metadata_url": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2014_r17/MapServer/6/query?f=json&where=1%3D1&outFields=SRC_DATE2%2CNICE_DESC%2CSRC_DESC%2CSAMP_RES%2CSRC_ACC&geometry=%7B%22spatialReference%22%3A+%7B%22wkid%22%3A+4326%7D%2C+%22x%22%3A+-89.84075392965079%2C+%22y%22%3A+21.250585713477737%7D&geometryType=esriGeometryPoint&returnGeometry=false&spatialRel=esriSpatialRelIntersects",
+      "metadata_sha256": "4269a2f820f1b0d99f5e4883359145e937467b5d4bb1ed69813e69ba81b53933",
+      "registration_p95_native_px": 0.30347820750360616
+    },
+    {
+      "id": "user-guide-3-SC-256-0-5",
+      "release": 11019,
+      "capture_date": "2011-08-01",
+      "screenshot_sha256": "58c4dce9d618908590c32a90c73e5ee323416fbf59733f1c1f795593dd98ee00",
+      "guide": 3,
+      "screen_pixel": [
+        663.8058636086889,
+        410.08511843775466
+      ],
+      "mosaic_pixel": [
+        2641.0121700802306,
+        1050.3656734373371
+      ],
+      "coordinate": [
+        -89.83982907587426,
+        21.250718438374467
+      ],
+      "metadata_url": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2014_r17/MapServer/6/query?f=json&where=1%3D1&outFields=SRC_DATE2%2CNICE_DESC%2CSRC_DESC%2CSAMP_RES%2CSRC_ACC&geometry=%7B%22spatialReference%22%3A+%7B%22wkid%22%3A+4326%7D%2C+%22x%22%3A+-89.83982907587426%2C+%22y%22%3A+21.250718438374467%7D&geometryType=esriGeometryPoint&returnGeometry=false&spatialRel=esriSpatialRelIntersects",
+      "metadata_sha256": "4269a2f820f1b0d99f5e4883359145e937467b5d4bb1ed69813e69ba81b53933",
+      "registration_p95_native_px": 0.30347820750360616
+    },
+    {
+      "id": "user-guide-3-SC-256-0-6",
+      "release": 11019,
+      "capture_date": "2011-08-01",
+      "screenshot_sha256": "58c4dce9d618908590c32a90c73e5ee323416fbf59733f1c1f795593dd98ee00",
+      "guide": 3,
+      "screen_pixel": [
+        761.4243996226205,
+        390.51017459102275
+      ],
+      "mosaic_pixel": [
+        2727.7837266775523,
+        1032.9710601367992
+      ],
+      "coordinate": [
+        -89.83889811627253,
+        21.250892359987432
+      ],
+      "metadata_url": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2014_r17/MapServer/6/query?f=json&where=1%3D1&outFields=SRC_DATE2%2CNICE_DESC%2CSRC_DESC%2CSAMP_RES%2CSRC_ACC&geometry=%7B%22spatialReference%22%3A+%7B%22wkid%22%3A+4326%7D%2C+%22x%22%3A+-89.83889811627253%2C+%22y%22%3A+21.250892359987432%7D&geometryType=esriGeometryPoint&returnGeometry=false&spatialRel=esriSpatialRelIntersects",
+      "metadata_sha256": "4269a2f820f1b0d99f5e4883359145e937467b5d4bb1ed69813e69ba81b53933",
+      "registration_p95_native_px": 0.30347820750360616
+    },
+    {
+      "id": "user-guide-3-SC-256-0-7",
+      "release": 11019,
+      "capture_date": "2011-08-01",
+      "screenshot_sha256": "58c4dce9d618908590c32a90c73e5ee323416fbf59733f1c1f795593dd98ee00",
+      "guide": 3,
+      "screen_pixel": [
+        858.0249248689943,
+        371.87564483039876
+      ],
+      "mosaic_pixel": [
+        2813.6503517677434,
+        1016.4123036072154
+      ],
+      "coordinate": [
+        -89.83797686998341,
+        21.251057954876426
+      ],
+      "metadata_url": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2014_r17/MapServer/6/query?f=json&where=1%3D1&outFields=SRC_DATE2%2CNICE_DESC%2CSRC_DESC%2CSAMP_RES%2CSRC_ACC&geometry=%7B%22spatialReference%22%3A+%7B%22wkid%22%3A+4326%7D%2C+%22x%22%3A+-89.83797686998341%2C+%22y%22%3A+21.251057954876426%7D&geometryType=esriGeometryPoint&returnGeometry=false&spatialRel=esriSpatialRelIntersects",
+      "metadata_sha256": "4269a2f820f1b0d99f5e4883359145e937467b5d4bb1ed69813e69ba81b53933",
+      "registration_p95_native_px": 0.30347820750360616
+    },
+    {
+      "id": "user-guide-3-SC-256-0-8",
+      "release": 11019,
+      "capture_date": "2011-08-01",
+      "screenshot_sha256": "58c4dce9d618908590c32a90c73e5ee323416fbf59733f1c1f795593dd98ee00",
+      "guide": 3,
+      "screen_pixel": [
+        955.0884335168826,
+        352.930410455912
+      ],
+      "mosaic_pixel": [
+        2899.9285266501684,
+        999.5773938259191
+      ],
+      "coordinate": [
+        -89.8370512017162,
+        21.251226261515367
+      ],
+      "metadata_url": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2014_r17/MapServer/6/query?f=json&where=1%3D1&outFields=SRC_DATE2%2CNICE_DESC%2CSRC_DESC%2CSAMP_RES%2CSRC_ACC&geometry=%7B%22spatialReference%22%3A+%7B%22wkid%22%3A+4326%7D%2C+%22x%22%3A+-89.8370512017162%2C+%22y%22%3A+21.251226261515367%7D&geometryType=esriGeometryPoint&returnGeometry=false&spatialRel=esriSpatialRelIntersects",
+      "metadata_sha256": "4269a2f820f1b0d99f5e4883359145e937467b5d4bb1ed69813e69ba81b53933",
+      "registration_p95_native_px": 0.30347820750360616
+    },
+    {
+      "id": "user-guide-4-SC-256-0-9",
+      "release": 11019,
+      "capture_date": "2011-08-01",
+      "screenshot_sha256": "1dc91d65aa17468252c3b461daf1284564dbf58e9f492acb3f7951b522d4493b",
+      "guide": 4,
+      "screen_pixel": [
+        69.35593645957442,
+        424.9402970164433
+      ],
+      "mosaic_pixel": [
+        2987.607820162433,
+        983.8024401487324
+      ],
+      "coordinate": [
+        -89.83611050707674,
+        21.251384018440184
+      ],
+      "metadata_url": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2014_r17/MapServer/6/query?f=json&where=1%3D1&outFields=SRC_DATE2%2CNICE_DESC%2CSRC_DESC%2CSAMP_RES%2CSRC_ACC&geometry=%7B%22spatialReference%22%3A+%7B%22wkid%22%3A+4326%7D%2C+%22x%22%3A+-89.83611050707674%2C+%22y%22%3A+21.251384018440184%7D&geometryType=esriGeometryPoint&returnGeometry=false&spatialRel=esriSpatialRelIntersects",
+      "metadata_sha256": "4269a2f820f1b0d99f5e4883359145e937467b5d4bb1ed69813e69ba81b53933",
+      "registration_p95_native_px": 0.24876547455718304
+    },
+    {
+      "id": "user-guide-4-SC-256-0-10",
+      "release": 11019,
+      "capture_date": "2011-08-01",
+      "screenshot_sha256": "1dc91d65aa17468252c3b461daf1284564dbf58e9f492acb3f7951b522d4493b",
+      "guide": 4,
+      "screen_pixel": [
+        164.72252028315643,
+        395.0509648105083
+      ],
+      "mosaic_pixel": [
+        3072.378795081252,
+        957.2309334452555
+      ],
+      "coordinate": [
+        -89.83520101155844,
+        21.251649705946974
+      ],
+      "metadata_url": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2014_r17/MapServer/6/query?f=json&where=1%3D1&outFields=SRC_DATE2%2CNICE_DESC%2CSRC_DESC%2CSAMP_RES%2CSRC_ACC&geometry=%7B%22spatialReference%22%3A+%7B%22wkid%22%3A+4326%7D%2C+%22x%22%3A+-89.83520101155844%2C+%22y%22%3A+21.251649705946974%7D&geometryType=esriGeometryPoint&returnGeometry=false&spatialRel=esriSpatialRelIntersects",
+      "metadata_sha256": "4269a2f820f1b0d99f5e4883359145e937467b5d4bb1ed69813e69ba81b53933",
+      "registration_p95_native_px": 0.24876547455718304
+    },
+    {
+      "id": "user-guide-4-SC-256-0-11",
+      "release": 11019,
+      "capture_date": "2011-08-01",
+      "screenshot_sha256": "1dc91d65aa17468252c3b461daf1284564dbf58e9f492acb3f7951b522d4493b",
+      "guide": 4,
+      "screen_pixel": [
+        260.562072765169,
+        371.07253636732867
+      ],
+      "mosaic_pixel": [
+        3157.5703634399333,
+        935.9136449563752
+      ],
+      "coordinate": [
+        -89.83428700941151,
+        21.25186288499987
+      ],
+      "metadata_url": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2014_r17/MapServer/6/query?f=json&where=1%3D1&outFields=SRC_DATE2%2CNICE_DESC%2CSRC_DESC%2CSAMP_RES%2CSRC_ACC&geometry=%7B%22spatialReference%22%3A+%7B%22wkid%22%3A+4326%7D%2C+%22x%22%3A+-89.83428700941151%2C+%22y%22%3A+21.25186288499987%7D&geometryType=esriGeometryPoint&returnGeometry=false&spatialRel=esriSpatialRelIntersects",
+      "metadata_sha256": "4269a2f820f1b0d99f5e4883359145e937467b5d4bb1ed69813e69ba81b53933",
+      "registration_p95_native_px": 0.24876547455718304
+    },
+    {
+      "id": "user-guide-4-SC-256-0-12",
+      "release": 11019,
+      "capture_date": "2011-08-01",
+      "screenshot_sha256": "1dc91d65aa17468252c3b461daf1284564dbf58e9f492acb3f7951b522d4493b",
+      "guide": 4,
+      "screen_pixel": [
+        356.24369706230254,
+        343.920553878839
+      ],
+      "mosaic_pixel": [
+        3242.6214577812307,
+        911.7753730124841
+      ],
+      "coordinate": [
+        -89.83337450679456,
+        21.25210422485239
+      ],
+      "metadata_url": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2014_r17/MapServer/6/query?f=json&where=1%3D1&outFields=SRC_DATE2%2CNICE_DESC%2CSRC_DESC%2CSAMP_RES%2CSRC_ACC&geometry=%7B%22spatialReference%22%3A+%7B%22wkid%22%3A+4326%7D%2C+%22x%22%3A+-89.83337450679456%2C+%22y%22%3A+21.25210422485239%7D&geometryType=esriGeometryPoint&returnGeometry=false&spatialRel=esriSpatialRelIntersects",
+      "metadata_sha256": "4269a2f820f1b0d99f5e4883359145e937467b5d4bb1ed69813e69ba81b53933",
+      "registration_p95_native_px": 0.24876547455718304
+    },
+    {
+      "id": "user-guide-4-SC-256-0-13",
+      "release": 11019,
+      "capture_date": "2011-08-01",
+      "screenshot_sha256": "1dc91d65aa17468252c3b461daf1284564dbf58e9f492acb3f7951b522d4493b",
+      "guide": 4,
+      "screen_pixel": [
+        453.07349146648085,
+        324.4910590553361
+      ],
+      "mosaic_pixel": [
+        3328.693387359715,
+        894.5016258921546
+      ],
+      "coordinate": [
+        -89.83245106011911,
+        21.25227698836389
+      ],
+      "metadata_url": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2014_r17/MapServer/6/query?f=json&where=1%3D1&outFields=SRC_DATE2%2CNICE_DESC%2CSRC_DESC%2CSAMP_RES%2CSRC_ACC&geometry=%7B%22spatialReference%22%3A+%7B%22wkid%22%3A+4326%7D%2C+%22x%22%3A+-89.83245106011911%2C+%22y%22%3A+21.25227698836389%7D&geometryType=esriGeometryPoint&returnGeometry=false&spatialRel=esriSpatialRelIntersects",
+      "metadata_sha256": "4269a2f820f1b0d99f5e4883359145e937467b5d4bb1ed69813e69ba81b53933",
+      "registration_p95_native_px": 0.24876547455718304
+    },
+    {
+      "id": "user-guide-4-SC-256-0-14",
+      "release": 11019,
+      "capture_date": "2011-08-01",
+      "screenshot_sha256": "1dc91d65aa17468252c3b461daf1284564dbf58e9f492acb3f7951b522d4493b",
+      "guide": 4,
+      "screen_pixel": [
+        550.3001823427808,
+        298.0172225037621
+      ],
+      "mosaic_pixel": [
+        3415.1179184861285,
+        870.9661170050224
+      ],
+      "coordinate": [
+        -89.83152382131976,
+        21.25251228973138
+      ],
+      "metadata_url": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2014_r17/MapServer/6/query?f=json&where=1%3D1&outFields=SRC_DATE2%2CNICE_DESC%2CSRC_DESC%2CSAMP_RES%2CSRC_ACC&geometry=%7B%22spatialReference%22%3A+%7B%22wkid%22%3A+4326%7D%2C+%22x%22%3A+-89.83152382131976%2C+%22y%22%3A+21.25251228973138%7D&geometryType=esriGeometryPoint&returnGeometry=false&spatialRel=esriSpatialRelIntersects",
+      "metadata_sha256": "4269a2f820f1b0d99f5e4883359145e937467b5d4bb1ed69813e69ba81b53933",
+      "registration_p95_native_px": 0.24876547455718304
+    },
+    {
+      "id": "user-guide-4-SC-256-0-15",
+      "release": 11019,
+      "capture_date": "2011-08-01",
+      "screenshot_sha256": "1dc91d65aa17468252c3b461daf1284564dbf58e9f492acb3f7951b522d4493b",
+      "guide": 4,
+      "screen_pixel": [
+        647.592366800377,
+        277.99179136800876
+      ],
+      "mosaic_pixel": [
+        3501.60085181972,
+        853.1626258927912
+      ],
+      "coordinate": [
+        -89.83059595677959,
+        21.25269027552329
+      ],
+      "metadata_url": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2014_r17/MapServer/6/query?f=json&where=1%3D1&outFields=SRC_DATE2%2CNICE_DESC%2CSRC_DESC%2CSAMP_RES%2CSRC_ACC&geometry=%7B%22spatialReference%22%3A+%7B%22wkid%22%3A+4326%7D%2C+%22x%22%3A+-89.83059595677959%2C+%22y%22%3A+21.25269027552329%7D&geometryType=esriGeometryPoint&returnGeometry=false&spatialRel=esriSpatialRelIntersects",
+      "metadata_sha256": "4269a2f820f1b0d99f5e4883359145e937467b5d4bb1ed69813e69ba81b53933",
+      "registration_p95_native_px": 0.24876547455718304
+    },
+    {
+      "id": "user-guide-4-SC-256-0-16",
+      "release": 11019,
+      "capture_date": "2011-08-01",
+      "screenshot_sha256": "1dc91d65aa17468252c3b461daf1284564dbf58e9f492acb3f7951b522d4493b",
+      "guide": 4,
+      "screen_pixel": [
+        747.85439874032,
+        262.50533330800715
+      ],
+      "mosaic_pixel": [
+        3590.7238273174344,
+        839.393765490088
+      ],
+      "coordinate": [
+        -89.8296397739876,
+        21.252827965759177
+      ],
+      "metadata_url": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2014_r17/MapServer/6/query?f=json&where=1%3D1&outFields=SRC_DATE2%2CNICE_DESC%2CSRC_DESC%2CSAMP_RES%2CSRC_ACC&geometry=%7B%22spatialReference%22%3A+%7B%22wkid%22%3A+4326%7D%2C+%22x%22%3A+-89.8296397739876%2C+%22y%22%3A+21.252827965759177%7D&geometryType=esriGeometryPoint&returnGeometry=false&spatialRel=esriSpatialRelIntersects",
+      "metadata_sha256": "4269a2f820f1b0d99f5e4883359145e937467b5d4bb1ed69813e69ba81b53933",
+      "registration_p95_native_px": 0.24876547455718304
+    },
+    {
+      "id": "user-guide-4-SC-256-0-17",
+      "release": 11019,
+      "capture_date": "2011-08-01",
+      "screenshot_sha256": "1dc91d65aa17468252c3b461daf1284564dbf58e9f492acb3f7951b522d4493b",
+      "guide": 4,
+      "screen_pixel": [
+        831.0362000241776,
+        249.8308090019624
+      ],
+      "mosaic_pixel": [
+        3664.664181337431,
+        828.1249360462556
+      ],
+      "coordinate": [
+        -89.82884647575256,
+        21.252940659662087
+      ],
+      "metadata_url": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2014_r17/MapServer/6/query?f=json&where=1%3D1&outFields=SRC_DATE2%2CNICE_DESC%2CSRC_DESC%2CSAMP_RES%2CSRC_ACC&geometry=%7B%22spatialReference%22%3A+%7B%22wkid%22%3A+4326%7D%2C+%22x%22%3A+-89.82884647575256%2C+%22y%22%3A+21.252940659662087%7D&geometryType=esriGeometryPoint&returnGeometry=false&spatialRel=esriSpatialRelIntersects",
+      "metadata_sha256": "4269a2f820f1b0d99f5e4883359145e937467b5d4bb1ed69813e69ba81b53933",
+      "registration_p95_native_px": 0.24876547455718304
+    },
+    {
+      "id": "user-guide-4-SC-256-0-18",
+      "release": 11019,
+      "capture_date": "2011-08-01",
+      "screenshot_sha256": "1dc91d65aa17468252c3b461daf1284564dbf58e9f492acb3f7951b522d4493b",
+      "guide": 4,
+      "screen_pixel": [
+        920.87145188249,
+        232.54621667741424
+      ],
+      "mosaic_pixel": [
+        3744.518688669136,
+        812.75800370106
+      ],
+      "coordinate": [
+        -89.82798975145288,
+        21.253094374030862
+      ],
+      "metadata_url": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2014_r17/MapServer/6/query?f=json&where=1%3D1&outFields=SRC_DATE2%2CNICE_DESC%2CSRC_DESC%2CSAMP_RES%2CSRC_ACC&geometry=%7B%22spatialReference%22%3A+%7B%22wkid%22%3A+4326%7D%2C+%22x%22%3A+-89.82798975145288%2C+%22y%22%3A+21.253094374030862%7D&geometryType=esriGeometryPoint&returnGeometry=false&spatialRel=esriSpatialRelIntersects",
+      "metadata_sha256": "4269a2f820f1b0d99f5e4883359145e937467b5d4bb1ed69813e69ba81b53933",
+      "registration_p95_native_px": 0.24876547455718304
+    },
+    {
+      "id": "user-guide-5-SC-256-0-19",
+      "release": 11019,
+      "capture_date": "2011-08-01",
+      "screenshot_sha256": "77f8a2542402b03fe05b8a2b33dd80fdfc010fc245edd00990c52afb37a13451",
+      "guide": 5,
+      "screen_pixel": [
+        191.77214263173573,
+        341.0202212072853
+      ],
+      "mosaic_pixel": [
+        3837.475040749018,
+        797.1012958675877
+      ],
+      "coordinate": [
+        -89.82699242315425,
+        21.253250927962544
+      ],
+      "metadata_url": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2014_r17/MapServer/6/query?f=json&where=1%3D1&outFields=SRC_DATE2%2CNICE_DESC%2CSRC_DESC%2CSAMP_RES%2CSRC_ACC&geometry=%7B%22spatialReference%22%3A+%7B%22wkid%22%3A+4326%7D%2C+%22x%22%3A+-89.82699242315425%2C+%22y%22%3A+21.253250927962544%7D&geometryType=esriGeometryPoint&returnGeometry=false&spatialRel=esriSpatialRelIntersects",
+      "metadata_sha256": "4269a2f820f1b0d99f5e4883359145e937467b5d4bb1ed69813e69ba81b53933",
+      "registration_p95_native_px": 0.36419646158413893
+    },
+    {
+      "id": "user-guide-5-SC-256-0-20",
+      "release": 11019,
+      "capture_date": "2011-08-01",
+      "screenshot_sha256": "77f8a2542402b03fe05b8a2b33dd80fdfc010fc245edd00990c52afb37a13451",
+      "guide": 5,
+      "screen_pixel": [
+        289.05513715267716,
+        323.9729211212979
+      ],
+      "mosaic_pixel": [
+        3923.949651894886,
+        781.9503319208612
+      ],
+      "coordinate": [
+        -89.82606465215963,
+        21.253402424224003
+      ],
+      "metadata_url": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2014_r17/MapServer/6/query?f=json&where=1%3D1&outFields=SRC_DATE2%2CNICE_DESC%2CSRC_DESC%2CSAMP_RES%2CSRC_ACC&geometry=%7B%22spatialReference%22%3A+%7B%22wkid%22%3A+4326%7D%2C+%22x%22%3A+-89.82606465215963%2C+%22y%22%3A+21.253402424224003%7D&geometryType=esriGeometryPoint&returnGeometry=false&spatialRel=esriSpatialRelIntersects",
+      "metadata_sha256": "4269a2f820f1b0d99f5e4883359145e937467b5d4bb1ed69813e69ba81b53933",
+      "registration_p95_native_px": 0.36419646158413893
+    },
+    {
+      "id": "user-guide-5-SC-256-0-21",
+      "release": 11019,
+      "capture_date": "2011-08-01",
+      "screenshot_sha256": "77f8a2542402b03fe05b8a2b33dd80fdfc010fc245edd00990c52afb37a13451",
+      "guide": 5,
+      "screen_pixel": [
+        372.9853213413635,
+        310.8391718418244
+      ],
+      "mosaic_pixel": [
+        3998.5549465440263,
+        770.277786105232
+      ],
+      "coordinate": [
+        -89.82526423507399,
+        21.2535191345393
+      ],
+      "metadata_url": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2014_r17/MapServer/6/query?f=json&where=1%3D1&outFields=SRC_DATE2%2CNICE_DESC%2CSRC_DESC%2CSAMP_RES%2CSRC_ACC&geometry=%7B%22spatialReference%22%3A+%7B%22wkid%22%3A+4326%7D%2C+%22x%22%3A+-89.82526423507399%2C+%22y%22%3A+21.2535191345393%7D&geometryType=esriGeometryPoint&returnGeometry=false&spatialRel=esriSpatialRelIntersects",
+      "metadata_sha256": "4269a2f820f1b0d99f5e4883359145e937467b5d4bb1ed69813e69ba81b53933",
+      "registration_p95_native_px": 0.36419646158413893
+    },
+    {
+      "id": "user-guide-5-SC-252-0-0",
+      "release": 11019,
+      "capture_date": "2011-08-01",
+      "screenshot_sha256": "77f8a2542402b03fe05b8a2b33dd80fdfc010fc245edd00990c52afb37a13451",
+      "guide": 5,
+      "screen_pixel": [
+        458.64839082562776,
+        304.4380982805203
+      ],
+      "mosaic_pixel": [
+        4074.7004345031623,
+        764.5899118396076
+      ],
+      "coordinate": [
+        -89.8244472850862,
+        21.25357600622792
+      ],
+      "metadata_url": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2014_r17/MapServer/6/query?f=json&where=1%3D1&outFields=SRC_DATE2%2CNICE_DESC%2CSRC_DESC%2CSAMP_RES%2CSRC_ACC&geometry=%7B%22spatialReference%22%3A+%7B%22wkid%22%3A+4326%7D%2C+%22x%22%3A+-89.8244472850862%2C+%22y%22%3A+21.25357600622792%7D&geometryType=esriGeometryPoint&returnGeometry=false&spatialRel=esriSpatialRelIntersects",
+      "metadata_sha256": "4269a2f820f1b0d99f5e4883359145e937467b5d4bb1ed69813e69ba81b53933",
+      "registration_p95_native_px": 0.36419646158413893
+    },
+    {
+      "id": "user-guide-5-SC-251-0-0",
+      "release": 11019,
+      "capture_date": "2011-08-01",
+      "screenshot_sha256": "77f8a2542402b03fe05b8a2b33dd80fdfc010fc245edd00990c52afb37a13451",
+      "guide": 5,
+      "screen_pixel": [
+        541.5269850299292,
+        288.99165745029836
+      ],
+      "mosaic_pixel": [
+        4148.3710316744855,
+        750.861605199695
+      ],
+      "coordinate": [
+        -89.82365686115168,
+        21.253713216351684
+      ],
+      "metadata_url": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2014_r17/MapServer/6/query?f=json&where=1%3D1&outFields=SRC_DATE2%2CNICE_DESC%2CSRC_DESC%2CSAMP_RES%2CSRC_ACC&geometry=%7B%22spatialReference%22%3A+%7B%22wkid%22%3A+4326%7D%2C+%22x%22%3A+-89.82365686115168%2C+%22y%22%3A+21.253713216351684%7D&geometryType=esriGeometryPoint&returnGeometry=false&spatialRel=esriSpatialRelIntersects",
+      "metadata_sha256": "4269a2f820f1b0d99f5e4883359145e937467b5d4bb1ed69813e69ba81b53933",
+      "registration_p95_native_px": 0.36419646158413893
+    },
+    {
+      "id": "user-guide-5-SC-251-0-1",
+      "release": 11019,
+      "capture_date": "2011-08-01",
+      "screenshot_sha256": "77f8a2542402b03fe05b8a2b33dd80fdfc010fc245edd00990c52afb37a13451",
+      "guide": 5,
+      "screen_pixel": [
+        597.5015620742124,
+        280.9997748858881
+      ],
+      "mosaic_pixel": [
+        4198.126651201969,
+        743.7589788654074
+      ],
+      "coordinate": [
+        -89.82312305357114,
+        21.25378428602601
+      ],
+      "metadata_url": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2014_r17/MapServer/6/query?f=json&where=1%3D1&outFields=SRC_DATE2%2CNICE_DESC%2CSRC_DESC%2CSAMP_RES%2CSRC_ACC&geometry=%7B%22spatialReference%22%3A+%7B%22wkid%22%3A+4326%7D%2C+%22x%22%3A+-89.82312305357114%2C+%22y%22%3A+21.25378428602601%7D&geometryType=esriGeometryPoint&returnGeometry=false&spatialRel=esriSpatialRelIntersects",
+      "metadata_sha256": "4269a2f820f1b0d99f5e4883359145e937467b5d4bb1ed69813e69ba81b53933",
+      "registration_p95_native_px": 0.36419646158413893
+    },
+    {
+      "id": "user-guide-5-SC-251-0-2",
+      "release": 11019,
+      "capture_date": "2011-08-01",
+      "screenshot_sha256": "77f8a2542402b03fe05b8a2b33dd80fdfc010fc245edd00990c52afb37a13451",
+      "guide": 5,
+      "screen_pixel": [
+        662.212328532416,
+        277.4986973873898
+      ],
+      "mosaic_pixel": [
+        4255.647707264125,
+        740.6484033492737
+      ],
+      "coordinate": [
+        -89.82250591613631,
+        21.25381539803283
+      ],
+      "metadata_url": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2014_r17/MapServer/6/query?f=json&where=1%3D1&outFields=SRC_DATE2%2CNICE_DESC%2CSRC_DESC%2CSAMP_RES%2CSRC_ACC&geometry=%7B%22spatialReference%22%3A+%7B%22wkid%22%3A+4326%7D%2C+%22x%22%3A+-89.82250591613631%2C+%22y%22%3A+21.25381539803283%7D&geometryType=esriGeometryPoint&returnGeometry=false&spatialRel=esriSpatialRelIntersects",
+      "metadata_sha256": "4269a2f820f1b0d99f5e4883359145e937467b5d4bb1ed69813e69ba81b53933",
+      "registration_p95_native_px": 0.36419646158413893
+    },
+    {
+      "id": "user-guide-5-SC-251-0-3",
+      "release": 11019,
+      "capture_date": "2011-08-01",
+      "screenshot_sha256": "77f8a2542402b03fe05b8a2b33dd80fdfc010fc245edd00990c52afb37a13451",
+      "guide": 5,
+      "screen_pixel": [
+        734.6011848564422,
+        258.0885586606761
+      ],
+      "mosaic_pixel": [
+        4319.994137916537,
+        723.3965470874386
+      ],
+      "coordinate": [
+        -89.82181555053751,
+        21.253987855279533
+      ],
+      "metadata_url": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2014_r17/MapServer/6/query?f=json&where=1%3D1&outFields=SRC_DATE2%2CNICE_DESC%2CSRC_DESC%2CSAMP_RES%2CSRC_ACC&geometry=%7B%22spatialReference%22%3A+%7B%22wkid%22%3A+4326%7D%2C+%22x%22%3A+-89.82181555053751%2C+%22y%22%3A+21.253987855279533%7D&geometryType=esriGeometryPoint&returnGeometry=false&spatialRel=esriSpatialRelIntersects",
+      "metadata_sha256": "4269a2f820f1b0d99f5e4883359145e937467b5d4bb1ed69813e69ba81b53933",
+      "registration_p95_native_px": 0.36419646158413893
+    },
+    {
+      "id": "user-guide-5-SC-251-0-4",
+      "release": 11019,
+      "capture_date": "2011-08-01",
+      "screenshot_sha256": "77f8a2542402b03fe05b8a2b33dd80fdfc010fc245edd00990c52afb37a13451",
+      "guide": 5,
+      "screen_pixel": [
+        792.8010302819903,
+        242.21794678926267
+      ],
+      "mosaic_pixel": [
+        4371.727967615649,
+        709.2906220256697
+      ],
+      "coordinate": [
+        -89.821260511542,
+        21.254128923269448
+      ],
+      "metadata_url": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2014_r17/MapServer/6/query?f=json&where=1%3D1&outFields=SRC_DATE2%2CNICE_DESC%2CSRC_DESC%2CSAMP_RES%2CSRC_ACC&geometry=%7B%22spatialReference%22%3A+%7B%22wkid%22%3A+4326%7D%2C+%22x%22%3A+-89.821260511542%2C+%22y%22%3A+21.254128923269448%7D&geometryType=esriGeometryPoint&returnGeometry=false&spatialRel=esriSpatialRelIntersects",
+      "metadata_sha256": "4269a2f820f1b0d99f5e4883359145e937467b5d4bb1ed69813e69ba81b53933",
+      "registration_p95_native_px": 0.36419646158413893
+    },
+    {
+      "id": "user-guide-5-SC-251-0-5",
+      "release": 11019,
+      "capture_date": "2011-08-01",
+      "screenshot_sha256": "77f8a2542402b03fe05b8a2b33dd80fdfc010fc245edd00990c52afb37a13451",
+      "guide": 5,
+      "screen_pixel": [
+        846.9189647396033,
+        228.25419617788418
+      ],
+      "mosaic_pixel": [
+        4419.833369047511,
+        696.8795981866606
+      ],
+      "coordinate": [
+        -89.8207443969052,
+        21.254253017624
+      ],
+      "metadata_url": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2014_r17/MapServer/6/query?f=json&where=1%3D1&outFields=SRC_DATE2%2CNICE_DESC%2CSRC_DESC%2CSAMP_RES%2CSRC_ACC&geometry=%7B%22spatialReference%22%3A+%7B%22wkid%22%3A+4326%7D%2C+%22x%22%3A+-89.8207443969052%2C+%22y%22%3A+21.254253017624%7D&geometryType=esriGeometryPoint&returnGeometry=false&spatialRel=esriSpatialRelIntersects",
+      "metadata_sha256": "4269a2f820f1b0d99f5e4883359145e937467b5d4bb1ed69813e69ba81b53933",
+      "registration_p95_native_px": 0.36419646158413893
+    },
+    {
+      "id": "user-guide-6-SC-251-0-6",
+      "release": 11019,
+      "capture_date": "2011-08-01",
+      "screenshot_sha256": "b81a58fbc78d9a38bb3f040529a1b53871720a60a39be394502c0ce43cfaf96c",
+      "guide": 6,
+      "screen_pixel": [
+        164.33117045571726,
+        374.9918953917897
+      ],
+      "mosaic_pixel": [
+        4483.136610392433,
+        684.421857310637
+      ],
+      "coordinate": [
+        -89.82006522667338,
+        21.254377542220936
+      ],
+      "metadata_url": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2014_r17/MapServer/6/query?f=json&where=1%3D1&outFields=SRC_DATE2%2CNICE_DESC%2CSRC_DESC%2CSAMP_RES%2CSRC_ACC&geometry=%7B%22spatialReference%22%3A+%7B%22wkid%22%3A+4326%7D%2C+%22x%22%3A+-89.82006522667338%2C+%22y%22%3A+21.254377542220936%7D&geometryType=esriGeometryPoint&returnGeometry=false&spatialRel=esriSpatialRelIntersects",
+      "metadata_sha256": "4269a2f820f1b0d99f5e4883359145e937467b5d4bb1ed69813e69ba81b53933",
+      "registration_p95_native_px": 0.3764699247722737
+    },
+    {
+      "id": "user-guide-6-SC-251-0-7",
+      "release": 11019,
+      "capture_date": "2011-08-01",
+      "screenshot_sha256": "b81a58fbc78d9a38bb3f040529a1b53871720a60a39be394502c0ce43cfaf96c",
+      "guide": 6,
+      "screen_pixel": [
+        232.8848217933837,
+        364.5450340262468
+      ],
+      "mosaic_pixel": [
+        4544.074009255881,
+        675.136536645607
+      ],
+      "coordinate": [
+        -89.81941142399884,
+        21.254470391575573
+      ],
+      "metadata_url": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2014_r17/MapServer/6/query?f=json&where=1%3D1&outFields=SRC_DATE2%2CNICE_DESC%2CSRC_DESC%2CSAMP_RES%2CSRC_ACC&geometry=%7B%22spatialReference%22%3A+%7B%22wkid%22%3A+4326%7D%2C+%22x%22%3A+-89.81941142399884%2C+%22y%22%3A+21.254470391575573%7D&geometryType=esriGeometryPoint&returnGeometry=false&spatialRel=esriSpatialRelIntersects",
+      "metadata_sha256": "4269a2f820f1b0d99f5e4883359145e937467b5d4bb1ed69813e69ba81b53933",
+      "registration_p95_native_px": 0.3764699247722737
+    },
+    {
+      "id": "user-guide-6-SC-251-0-8",
+      "release": 11019,
+      "capture_date": "2011-08-01",
+      "screenshot_sha256": "b81a58fbc78d9a38bb3f040529a1b53871720a60a39be394502c0ce43cfaf96c",
+      "guide": 6,
+      "screen_pixel": [
+        301.83108630903644,
+        350.0555201863571
+      ],
+      "mosaic_pixel": [
+        4605.360453593573,
+        662.2577117533929
+      ],
+      "coordinate": [
+        -89.81875390820274,
+        21.25459923332968
+      ],
+      "metadata_url": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2014_r17/MapServer/6/query?f=json&where=1%3D1&outFields=SRC_DATE2%2CNICE_DESC%2CSRC_DESC%2CSAMP_RES%2CSRC_ACC&geometry=%7B%22spatialReference%22%3A+%7B%22wkid%22%3A+4326%7D%2C+%22x%22%3A+-89.81875390820274%2C+%22y%22%3A+21.25459923332968%7D&geometryType=esriGeometryPoint&returnGeometry=false&spatialRel=esriSpatialRelIntersects",
+      "metadata_sha256": "4269a2f820f1b0d99f5e4883359145e937467b5d4bb1ed69813e69ba81b53933",
+      "registration_p95_native_px": 0.3764699247722737
+    },
+    {
+      "id": "user-guide-6-SC-251-0-9",
+      "release": 11019,
+      "capture_date": "2011-08-01",
+      "screenshot_sha256": "b81a58fbc78d9a38bb3f040529a1b53871720a60a39be394502c0ce43cfaf96c",
+      "guide": 6,
+      "screen_pixel": [
+        362.1717035341426,
+        341.9872704642376
+      ],
+      "mosaic_pixel": [
+        4658.9972649501615,
+        655.0866305697787
+      ],
+      "coordinate": [
+        -89.81817844723969,
+        21.254670936207933
+      ],
+      "metadata_url": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2014_r17/MapServer/6/query?f=json&where=1%3D1&outFields=SRC_DATE2%2CNICE_DESC%2CSRC_DESC%2CSAMP_RES%2CSRC_ACC&geometry=%7B%22spatialReference%22%3A+%7B%22wkid%22%3A+4326%7D%2C+%22x%22%3A+-89.81817844723969%2C+%22y%22%3A+21.254670936207933%7D&geometryType=esriGeometryPoint&returnGeometry=false&spatialRel=esriSpatialRelIntersects",
+      "metadata_sha256": "4269a2f820f1b0d99f5e4883359145e937467b5d4bb1ed69813e69ba81b53933",
+      "registration_p95_native_px": 0.3764699247722737
+    },
+    {
+      "id": "user-guide-6-SC-251-0-10",
+      "release": 11019,
+      "capture_date": "2011-08-01",
+      "screenshot_sha256": "b81a58fbc78d9a38bb3f040529a1b53871720a60a39be394502c0ce43cfaf96c",
+      "guide": 6,
+      "screen_pixel": [
+        448.2716765455125,
+        330.91763746138446
+      ],
+      "mosaic_pixel": [
+        4735.531577630737,
+        645.2479548349942
+      ],
+      "coordinate": [
+        -89.8173573236472,
+        21.254769290381354
+      ],
+      "metadata_url": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2014_r17/MapServer/6/query?f=json&where=1%3D1&outFields=SRC_DATE2%2CNICE_DESC%2CSRC_DESC%2CSAMP_RES%2CSRC_ACC&geometry=%7B%22spatialReference%22%3A+%7B%22wkid%22%3A+4326%7D%2C+%22x%22%3A+-89.8173573236472%2C+%22y%22%3A+21.254769290381354%7D&geometryType=esriGeometryPoint&returnGeometry=false&spatialRel=esriSpatialRelIntersects",
+      "metadata_sha256": "4269a2f820f1b0d99f5e4883359145e937467b5d4bb1ed69813e69ba81b53933",
+      "registration_p95_native_px": 0.3764699247722737
+    },
+    {
+      "id": "user-guide-6-SC-251-0-11",
+      "release": 11019,
+      "capture_date": "2011-08-01",
+      "screenshot_sha256": "b81a58fbc78d9a38bb3f040529a1b53871720a60a39be394502c0ce43cfaf96c",
+      "guide": 6,
+      "screen_pixel": [
+        519.7661745186742,
+        321.9292670714694
+      ],
+      "mosaic_pixel": [
+        4799.08307301271,
+        637.2591230436307
+      ],
+      "coordinate": [
+        -89.81667548261005,
+        21.254849117394407
+      ],
+      "metadata_url": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2014_r17/MapServer/6/query?f=json&where=1%3D1&outFields=SRC_DATE2%2CNICE_DESC%2CSRC_DESC%2CSAMP_RES%2CSRC_ACC&geometry=%7B%22spatialReference%22%3A+%7B%22wkid%22%3A+4326%7D%2C+%22x%22%3A+-89.81667548261005%2C+%22y%22%3A+21.254849117394407%7D&geometryType=esriGeometryPoint&returnGeometry=false&spatialRel=esriSpatialRelIntersects",
+      "metadata_sha256": "4269a2f820f1b0d99f5e4883359145e937467b5d4bb1ed69813e69ba81b53933",
+      "registration_p95_native_px": 0.3764699247722737
+    },
+    {
+      "id": "user-guide-6-SC-251-0-12",
+      "release": 11019,
+      "capture_date": "2011-08-01",
+      "screenshot_sha256": "b81a58fbc78d9a38bb3f040529a1b53871720a60a39be394502c0ce43cfaf96c",
+      "guide": 6,
+      "screen_pixel": [
+        576.1752046853007,
+        310.84323939386815
+      ],
+      "mosaic_pixel": [
+        4849.225139871033,
+        627.4054917684157
+      ],
+      "coordinate": [
+        -89.81613753125986,
+        21.25494772953185
+      ],
+      "metadata_url": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2014_r17/MapServer/6/query?f=json&where=1%3D1&outFields=SRC_DATE2%2CNICE_DESC%2CSRC_DESC%2CSAMP_RES%2CSRC_ACC&geometry=%7B%22spatialReference%22%3A+%7B%22wkid%22%3A+4326%7D%2C+%22x%22%3A+-89.81613753125986%2C+%22y%22%3A+21.25494772953185%7D&geometryType=esriGeometryPoint&returnGeometry=false&spatialRel=esriSpatialRelIntersects",
+      "metadata_sha256": "4269a2f820f1b0d99f5e4883359145e937467b5d4bb1ed69813e69ba81b53933",
+      "registration_p95_native_px": 0.3764699247722737
+    },
+    {
+      "id": "user-guide-6-SC-614-0-0",
+      "release": 11019,
+      "capture_date": "2011-08-01",
+      "screenshot_sha256": "b81a58fbc78d9a38bb3f040529a1b53871720a60a39be394502c0ce43cfaf96c",
+      "guide": 6,
+      "screen_pixel": [
+        663.0987164641747,
+        297.88453254375196
+      ],
+      "mosaic_pixel": [
+        4926.491519570753,
+        615.8876309990771
+      ],
+      "coordinate": [
+        -89.81530855051669,
+        21.255062893573477
+      ],
+      "metadata_url": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2014_r17/MapServer/6/query?f=json&where=1%3D1&outFields=SRC_DATE2%2CNICE_DESC%2CSRC_DESC%2CSAMP_RES%2CSRC_ACC&geometry=%7B%22spatialReference%22%3A+%7B%22wkid%22%3A+4326%7D%2C+%22x%22%3A+-89.81530855051669%2C+%22y%22%3A+21.255062893573477%7D&geometryType=esriGeometryPoint&returnGeometry=false&spatialRel=esriSpatialRelIntersects",
+      "metadata_sha256": "4269a2f820f1b0d99f5e4883359145e937467b5d4bb1ed69813e69ba81b53933",
+      "registration_p95_native_px": 0.3764699247722737
+    },
+    {
+      "id": "user-guide-6-SC-614-0-1",
+      "release": 11019,
+      "capture_date": "2011-08-01",
+      "screenshot_sha256": "b81a58fbc78d9a38bb3f040529a1b53871720a60a39be394502c0ce43cfaf96c",
+      "guide": 6,
+      "screen_pixel": [
+        697.6349931197556,
+        296.4606515228007
+      ],
+      "mosaic_pixel": [
+        4957.190795768633,
+        614.6223894710647
+      ],
+      "coordinate": [
+        -89.81497917838925,
+        21.255075517066995
+      ],
+      "metadata_url": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2014_r17/MapServer/6/query?f=json&where=1%3D1&outFields=SRC_DATE2%2CNICE_DESC%2CSRC_DESC%2CSAMP_RES%2CSRC_ACC&geometry=%7B%22spatialReference%22%3A+%7B%22wkid%22%3A+4326%7D%2C+%22x%22%3A+-89.81497917838925%2C+%22y%22%3A+21.255075517066995%7D&geometryType=esriGeometryPoint&returnGeometry=false&spatialRel=esriSpatialRelIntersects",
+      "metadata_sha256": "4269a2f820f1b0d99f5e4883359145e937467b5d4bb1ed69813e69ba81b53933",
+      "registration_p95_native_px": 0.3764699247722737
+    },
+    {
+      "id": "user-guide-6-SC-244-0-0",
+      "release": 11019,
+      "capture_date": "2011-08-01",
+      "screenshot_sha256": "b81a58fbc78d9a38bb3f040529a1b53871720a60a39be394502c0ce43cfaf96c",
+      "guide": 6,
+      "screen_pixel": [
+        775.7136000194059,
+        280.49603609249453
+      ],
+      "mosaic_pixel": [
+        5026.59498807744,
+        600.4324660154757
+      ],
+      "coordinate": [
+        -89.8142345485065,
+        21.255217370316398
+      ],
+      "metadata_url": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2014_r17/MapServer/6/query?f=json&where=1%3D1&outFields=SRC_DATE2%2CNICE_DESC%2CSRC_DESC%2CSAMP_RES%2CSRC_ACC&geometry=%7B%22spatialReference%22%3A+%7B%22wkid%22%3A+4326%7D%2C+%22x%22%3A+-89.8142345485065%2C+%22y%22%3A+21.255217370316398%7D&geometryType=esriGeometryPoint&returnGeometry=false&spatialRel=esriSpatialRelIntersects",
+      "metadata_sha256": "4269a2f820f1b0d99f5e4883359145e937467b5d4bb1ed69813e69ba81b53933",
+      "registration_p95_native_px": 0.3764699247722737
+    },
+    {
+      "id": "user-guide-6-SC-231-0-0",
+      "release": 11019,
+      "capture_date": "2011-08-01",
+      "screenshot_sha256": "b81a58fbc78d9a38bb3f040529a1b53871720a60a39be394502c0ce43cfaf96c",
+      "guide": 6,
+      "screen_pixel": [
+        912.1652216928378,
+        262.99656002108185
+      ],
+      "mosaic_pixel": [
+        5147.8869079839105,
+        584.8789583184035
+      ],
+      "coordinate": [
+        -89.81293322697776,
+        21.25537287405728
+      ],
+      "metadata_url": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2014_r17/MapServer/6/query?f=json&where=1%3D1&outFields=SRC_DATE2%2CNICE_DESC%2CSRC_DESC%2CSAMP_RES%2CSRC_ACC&geometry=%7B%22spatialReference%22%3A+%7B%22wkid%22%3A+4326%7D%2C+%22x%22%3A+-89.81293322697776%2C+%22y%22%3A+21.25537287405728%7D&geometryType=esriGeometryPoint&returnGeometry=false&spatialRel=esriSpatialRelIntersects",
+      "metadata_sha256": "4269a2f820f1b0d99f5e4883359145e937467b5d4bb1ed69813e69ba81b53933",
+      "registration_p95_native_px": 0.3764699247722737
+    },
+    {
+      "id": "user-guide-6-SC-231-0-1",
+      "release": 11019,
+      "capture_date": "2011-08-01",
+      "screenshot_sha256": "b81a58fbc78d9a38bb3f040529a1b53871720a60a39be394502c0ce43cfaf96c",
+      "guide": 6,
+      "screen_pixel": [
+        995.7473916088738,
+        249.1108286800408
+      ],
+      "mosaic_pixel": [
+        5222.183184559747,
+        572.5370234846501
+      ],
+      "coordinate": [
+        -89.81213611103428,
+        21.255496309341737
+      ],
+      "metadata_url": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2014_r17/MapServer/6/query?f=json&where=1%3D1&outFields=SRC_DATE2%2CNICE_DESC%2CSRC_DESC%2CSAMP_RES%2CSRC_ACC&geometry=%7B%22spatialReference%22%3A+%7B%22wkid%22%3A+4326%7D%2C+%22x%22%3A+-89.81213611103428%2C+%22y%22%3A+21.255496309341737%7D&geometryType=esriGeometryPoint&returnGeometry=false&spatialRel=esriSpatialRelIntersects",
+      "metadata_sha256": "4269a2f820f1b0d99f5e4883359145e937467b5d4bb1ed69813e69ba81b53933",
+      "registration_p95_native_px": 0.3764699247722737
+    }
+  ],
+  "corrections": [
+    {
+      "profile_id": "SC-258-0-43",
+      "capture": 40,
+      "date": "2011-08-01",
+      "releases": [
+        11019,
+        10
+      ],
+      "original_offset_m": 45,
+      "original_accepted": true,
+      "offset_m": 40.97,
+      "manual_uncertainty_m": 2,
+      "source": "user-guide-1-SC-258-0-43"
+    },
+    {
+      "profile_id": "SC-258-0-44",
+      "capture": 40,
+      "date": "2011-08-01",
+      "releases": [
+        11019,
+        10
+      ],
+      "original_offset_m": 45.5,
+      "original_accepted": true,
+      "offset_m": 39.59,
+      "manual_uncertainty_m": 2,
+      "source": "user-guide-1-SC-258-0-44"
+    },
+    {
+      "profile_id": "SC-258-0-46",
+      "capture": 40,
+      "date": "2011-08-01",
+      "releases": [
+        11019,
+        10
+      ],
+      "original_offset_m": 28.5,
+      "original_accepted": true,
+      "offset_m": 23.32,
+      "manual_uncertainty_m": 2,
+      "source": "user-guide-2-SC-258-0-46"
+    },
+    {
+      "profile_id": "SC-258-0-47",
+      "capture": 40,
+      "date": "2011-08-01",
+      "releases": [
+        11019,
+        10
+      ],
+      "original_offset_m": 22,
+      "original_accepted": true,
+      "offset_m": 13.71,
+      "manual_uncertainty_m": 2,
+      "source": "user-guide-2-SC-258-0-47"
+    },
+    {
+      "profile_id": "SC-258-0-48",
+      "capture": 40,
+      "date": "2011-08-01",
+      "releases": [
+        11019,
+        10
+      ],
+      "original_offset_m": 17,
+      "original_accepted": true,
+      "offset_m": 9.36,
+      "manual_uncertainty_m": 2,
+      "source": "user-guide-2-SC-258-0-48"
+    },
+    {
+      "profile_id": "SC-258-0-49",
+      "capture": 40,
+      "date": "2011-08-01",
+      "releases": [
+        11019,
+        10
+      ],
+      "original_offset_m": 9,
+      "original_accepted": true,
+      "offset_m": 5.29,
+      "manual_uncertainty_m": 2,
+      "source": "user-guide-2-SC-258-0-49"
+    },
+    {
+      "profile_id": "SC-256-0-0",
+      "capture": 40,
+      "date": "2011-08-01",
+      "releases": [
+        11019,
+        10
+      ],
+      "original_offset_m": null,
+      "original_accepted": false,
+      "offset_m": -24.15,
+      "manual_uncertainty_m": 2,
+      "source": "user-guide-3-SC-256-0-0"
+    },
+    {
+      "profile_id": "SC-256-0-1",
+      "capture": 40,
+      "date": "2011-08-01",
+      "releases": [
+        11019,
+        10
+      ],
+      "original_offset_m": null,
+      "original_accepted": false,
+      "offset_m": -36.46,
+      "manual_uncertainty_m": 2,
+      "source": "user-guide-3-SC-256-0-1"
+    },
+    {
+      "profile_id": "SC-256-0-2",
+      "capture": 40,
+      "date": "2011-08-01",
+      "releases": [
+        11019,
+        10
+      ],
+      "original_offset_m": null,
+      "original_accepted": false,
+      "offset_m": -35.83,
+      "manual_uncertainty_m": 2,
+      "source": "user-guide-3-SC-256-0-2"
+    },
+    {
+      "profile_id": "SC-256-0-3",
+      "capture": 40,
+      "date": "2011-08-01",
+      "releases": [
+        11019,
+        10
+      ],
+      "original_offset_m": null,
+      "original_accepted": false,
+      "offset_m": -40.36,
+      "manual_uncertainty_m": 2,
+      "source": "user-guide-3-SC-256-0-3"
+    },
+    {
+      "profile_id": "SC-256-0-4",
+      "capture": 40,
+      "date": "2011-08-01",
+      "releases": [
+        11019,
+        10
+      ],
+      "original_offset_m": null,
+      "original_accepted": false,
+      "offset_m": -53.86,
+      "manual_uncertainty_m": 2,
+      "source": "user-guide-3-SC-256-0-4"
+    },
+    {
+      "profile_id": "SC-256-0-5",
+      "capture": 40,
+      "date": "2011-08-01",
+      "releases": [
+        11019,
+        10
+      ],
+      "original_offset_m": null,
+      "original_accepted": false,
+      "offset_m": -52.52,
+      "manual_uncertainty_m": 2,
+      "source": "user-guide-3-SC-256-0-5"
+    },
+    {
+      "profile_id": "SC-256-0-6",
+      "capture": 40,
+      "date": "2011-08-01",
+      "releases": [
+        11019,
+        10
+      ],
+      "original_offset_m": null,
+      "original_accepted": false,
+      "offset_m": -44.21,
+      "manual_uncertainty_m": 2,
+      "source": "user-guide-3-SC-256-0-6"
+    },
+    {
+      "profile_id": "SC-256-0-7",
+      "capture": 40,
+      "date": "2011-08-01",
+      "releases": [
+        11019,
+        10
+      ],
+      "original_offset_m": null,
+      "original_accepted": false,
+      "offset_m": -40.34,
+      "manual_uncertainty_m": 2,
+      "source": "user-guide-3-SC-256-0-7"
+    },
+    {
+      "profile_id": "SC-256-0-8",
+      "capture": 40,
+      "date": "2011-08-01",
+      "releases": [
+        11019,
+        10
+      ],
+      "original_offset_m": null,
+      "original_accepted": false,
+      "offset_m": -30.8,
+      "manual_uncertainty_m": 2,
+      "source": "user-guide-3-SC-256-0-8"
+    },
+    {
+      "profile_id": "SC-256-0-9",
+      "capture": 40,
+      "date": "2011-08-01",
+      "releases": [
+        11019,
+        10
+      ],
+      "original_offset_m": 15,
+      "original_accepted": false,
+      "offset_m": -29.21,
+      "manual_uncertainty_m": 2,
+      "source": "user-guide-4-SC-256-0-9"
+    },
+    {
+      "profile_id": "SC-256-0-10",
+      "capture": 40,
+      "date": "2011-08-01",
+      "releases": [
+        11019,
+        10
+      ],
+      "original_offset_m": null,
+      "original_accepted": false,
+      "offset_m": -16.37,
+      "manual_uncertainty_m": 2,
+      "source": "user-guide-4-SC-256-0-10"
+    },
+    {
+      "profile_id": "SC-256-0-11",
+      "capture": 40,
+      "date": "2011-08-01",
+      "releases": [
+        11019,
+        10
+      ],
+      "original_offset_m": null,
+      "original_accepted": false,
+      "offset_m": -8.9,
+      "manual_uncertainty_m": 2,
+      "source": "user-guide-4-SC-256-0-11"
+    },
+    {
+      "profile_id": "SC-256-0-12",
+      "capture": 40,
+      "date": "2011-08-01",
+      "releases": [
+        11019,
+        10
+      ],
+      "original_offset_m": 15,
+      "original_accepted": false,
+      "offset_m": 1.11,
+      "manual_uncertainty_m": 2,
+      "source": "user-guide-4-SC-256-0-12"
+    },
+    {
+      "profile_id": "SC-256-0-13",
+      "capture": 40,
+      "date": "2011-08-01",
+      "releases": [
+        11019,
+        10
+      ],
+      "original_offset_m": 45,
+      "original_accepted": false,
+      "offset_m": 14.42,
+      "manual_uncertainty_m": 2,
+      "source": "user-guide-4-SC-256-0-13"
+    },
+    {
+      "profile_id": "SC-256-0-14",
+      "capture": 40,
+      "date": "2011-08-01",
+      "releases": [
+        11019,
+        10
+      ],
+      "original_offset_m": 40,
+      "original_accepted": false,
+      "offset_m": 28.77,
+      "manual_uncertainty_m": 2,
+      "source": "user-guide-4-SC-256-0-14"
+    },
+    {
+      "profile_id": "SC-256-0-15",
+      "capture": 40,
+      "date": "2011-08-01",
+      "releases": [
+        11019,
+        10
+      ],
+      "original_offset_m": null,
+      "original_accepted": false,
+      "offset_m": 39.97,
+      "manual_uncertainty_m": 2,
+      "source": "user-guide-4-SC-256-0-15"
+    },
+    {
+      "profile_id": "SC-256-0-16",
+      "capture": 40,
+      "date": "2011-08-01",
+      "releases": [
+        11019,
+        10
+      ],
+      "original_offset_m": 48,
+      "original_accepted": false,
+      "offset_m": 48.24,
+      "manual_uncertainty_m": 2,
+      "source": "user-guide-4-SC-256-0-16"
+    },
+    {
+      "profile_id": "SC-256-0-17",
+      "capture": 40,
+      "date": "2011-08-01",
+      "releases": [
+        11019,
+        10
+      ],
+      "original_offset_m": null,
+      "original_accepted": false,
+      "offset_m": 54.42,
+      "manual_uncertainty_m": 2,
+      "source": "user-guide-4-SC-256-0-17"
+    },
+    {
+      "profile_id": "SC-256-0-18",
+      "capture": 40,
+      "date": "2011-08-01",
+      "releases": [
+        11019,
+        10
+      ],
+      "original_offset_m": null,
+      "original_accepted": false,
+      "offset_m": 20.9,
+      "manual_uncertainty_m": 2,
+      "source": "user-guide-4-SC-256-0-18"
+    },
+    {
+      "profile_id": "SC-256-0-19",
+      "capture": 40,
+      "date": "2011-08-01",
+      "releases": [
+        11019,
+        10
+      ],
+      "original_offset_m": null,
+      "original_accepted": false,
+      "offset_m": 35.05,
+      "manual_uncertainty_m": 2,
+      "source": "user-guide-5-SC-256-0-19"
+    },
+    {
+      "profile_id": "SC-256-0-20",
+      "capture": 40,
+      "date": "2011-08-01",
+      "releases": [
+        11019,
+        10
+      ],
+      "original_offset_m": null,
+      "original_accepted": false,
+      "offset_m": 47.09,
+      "manual_uncertainty_m": 2,
+      "source": "user-guide-5-SC-256-0-20"
+    },
+    {
+      "profile_id": "SC-256-0-21",
+      "capture": 40,
+      "date": "2011-08-01",
+      "releases": [
+        11019,
+        10
+      ],
+      "original_offset_m": null,
+      "original_accepted": false,
+      "offset_m": 50.9,
+      "manual_uncertainty_m": 2,
+      "source": "user-guide-5-SC-256-0-21"
+    },
+    {
+      "profile_id": "SC-252-0-0",
+      "capture": 40,
+      "date": "2011-08-01",
+      "releases": [
+        11019,
+        10
+      ],
+      "original_offset_m": null,
+      "original_accepted": false,
+      "offset_m": 28.53,
+      "manual_uncertainty_m": 2,
+      "source": "user-guide-5-SC-252-0-0"
+    },
+    {
+      "profile_id": "SC-251-0-0",
+      "capture": 40,
+      "date": "2011-08-01",
+      "releases": [
+        11019,
+        10
+      ],
+      "original_offset_m": null,
+      "original_accepted": false,
+      "offset_m": -10.05,
+      "manual_uncertainty_m": 2,
+      "source": "user-guide-5-SC-251-0-0"
+    },
+    {
+      "profile_id": "SC-251-0-1",
+      "capture": 40,
+      "date": "2011-08-01",
+      "releases": [
+        11019,
+        10
+      ],
+      "original_offset_m": null,
+      "original_accepted": false,
+      "offset_m": -3.46,
+      "manual_uncertainty_m": 2,
+      "source": "user-guide-5-SC-251-0-1"
+    },
+    {
+      "profile_id": "SC-251-0-2",
+      "capture": 40,
+      "date": "2011-08-01",
+      "releases": [
+        11019,
+        10
+      ],
+      "original_offset_m": -60,
+      "original_accepted": false,
+      "offset_m": -6.35,
+      "manual_uncertainty_m": 2,
+      "source": "user-guide-5-SC-251-0-2"
+    },
+    {
+      "profile_id": "SC-251-0-3",
+      "capture": 40,
+      "date": "2011-08-01",
+      "releases": [
+        11019,
+        10
+      ],
+      "original_offset_m": null,
+      "original_accepted": false,
+      "offset_m": 1.8,
+      "manual_uncertainty_m": 2,
+      "source": "user-guide-5-SC-251-0-3"
+    },
+    {
+      "profile_id": "SC-251-0-4",
+      "capture": 40,
+      "date": "2011-08-01",
+      "releases": [
+        11019,
+        10
+      ],
+      "original_offset_m": null,
+      "original_accepted": false,
+      "offset_m": -5.65,
+      "manual_uncertainty_m": 2,
+      "source": "user-guide-5-SC-251-0-4"
+    },
+    {
+      "profile_id": "SC-251-0-5",
+      "capture": 40,
+      "date": "2011-08-01",
+      "releases": [
+        11019,
+        10
+      ],
+      "original_offset_m": 15,
+      "original_accepted": false,
+      "offset_m": 4.77,
+      "manual_uncertainty_m": 2,
+      "source": "user-guide-5-SC-251-0-5"
+    },
+    {
+      "profile_id": "SC-251-0-6",
+      "capture": 40,
+      "date": "2011-08-01",
+      "releases": [
+        11019,
+        10
+      ],
+      "original_offset_m": null,
+      "original_accepted": false,
+      "offset_m": 11.32,
+      "manual_uncertainty_m": 2,
+      "source": "user-guide-6-SC-251-0-6"
+    },
+    {
+      "profile_id": "SC-251-0-7",
+      "capture": 40,
+      "date": "2011-08-01",
+      "releases": [
+        11019,
+        10
+      ],
+      "original_offset_m": null,
+      "original_accepted": false,
+      "offset_m": 4.48,
+      "manual_uncertainty_m": 2,
+      "source": "user-guide-6-SC-251-0-7"
+    },
+    {
+      "profile_id": "SC-251-0-8",
+      "capture": 40,
+      "date": "2011-08-01",
+      "releases": [
+        11019,
+        10
+      ],
+      "original_offset_m": null,
+      "original_accepted": false,
+      "offset_m": 2.03,
+      "manual_uncertainty_m": 2,
+      "source": "user-guide-6-SC-251-0-8"
+    },
+    {
+      "profile_id": "SC-251-0-9",
+      "capture": 40,
+      "date": "2011-08-01",
+      "releases": [
+        11019,
+        10
+      ],
+      "original_offset_m": null,
+      "original_accepted": false,
+      "offset_m": 1.54,
+      "manual_uncertainty_m": 2,
+      "source": "user-guide-6-SC-251-0-9"
+    },
+    {
+      "profile_id": "SC-251-0-10",
+      "capture": 40,
+      "date": "2011-08-01",
+      "releases": [
+        11019,
+        10
+      ],
+      "original_offset_m": -38,
+      "original_accepted": false,
+      "offset_m": 5.53,
+      "manual_uncertainty_m": 2,
+      "source": "user-guide-6-SC-251-0-10"
+    },
+    {
+      "profile_id": "SC-251-0-11",
+      "capture": 40,
+      "date": "2011-08-01",
+      "releases": [
+        11019,
+        10
+      ],
+      "original_offset_m": null,
+      "original_accepted": false,
+      "offset_m": 5.15,
+      "manual_uncertainty_m": 2,
+      "source": "user-guide-6-SC-251-0-11"
+    },
+    {
+      "profile_id": "SC-251-0-12",
+      "capture": 40,
+      "date": "2011-08-01",
+      "releases": [
+        11019,
+        10
+      ],
+      "original_offset_m": null,
+      "original_accepted": false,
+      "offset_m": 4.57,
+      "manual_uncertainty_m": 2,
+      "source": "user-guide-6-SC-251-0-12"
+    },
+    {
+      "profile_id": "SC-614-0-0",
+      "capture": 40,
+      "date": "2011-08-01",
+      "releases": [
+        11019,
+        10
+      ],
+      "original_offset_m": null,
+      "original_accepted": false,
+      "offset_m": 14.81,
+      "manual_uncertainty_m": 2,
+      "source": "user-guide-6-SC-614-0-0"
+    },
+    {
+      "profile_id": "SC-614-0-1",
+      "capture": 40,
+      "date": "2011-08-01",
+      "releases": [
+        11019,
+        10
+      ],
+      "original_offset_m": null,
+      "original_accepted": false,
+      "offset_m": 2.35,
+      "manual_uncertainty_m": 2,
+      "source": "user-guide-6-SC-614-0-1"
+    },
+    {
+      "profile_id": "SC-244-0-0",
+      "capture": 40,
+      "date": "2011-08-01",
+      "releases": [
+        11019,
+        10
+      ],
+      "original_offset_m": null,
+      "original_accepted": false,
+      "offset_m": 13.03,
+      "manual_uncertainty_m": 2,
+      "source": "user-guide-6-SC-244-0-0"
+    },
+    {
+      "profile_id": "SC-231-0-0",
+      "capture": 40,
+      "date": "2011-08-01",
+      "releases": [
+        11019,
+        10
+      ],
+      "original_offset_m": -123,
+      "original_accepted": false,
+      "offset_m": 14.15,
+      "manual_uncertainty_m": 2,
+      "source": "user-guide-6-SC-231-0-0"
+    },
+    {
+      "profile_id": "SC-231-0-1",
+      "capture": 40,
+      "date": "2011-08-01",
+      "releases": [
+        11019,
+        10
+      ],
+      "original_offset_m": null,
+      "original_accepted": false,
+      "offset_m": 17.32,
+      "manual_uncertainty_m": 2,
+      "source": "user-guide-6-SC-231-0-1"
+    }
+  ],
+  "alternatives": [
+    {
+      "profile_id": "SC-258-0-43",
+      "selected_guide": 1,
+      "crossings": [
+        {
+          "profile_id": "SC-258-0-43",
+          "offset_candidates_m": [
+            40.96853429948578
+          ],
+          "guide": 1,
+          "stroke_pixels": 6,
+          "offset_m": 40.97,
+          "screen_pixel": [
+            452.2909843329189,
+            414.0411676939484
+          ],
+          "mosaic_pixel": [
+            1471.9618102085622,
+            1631.5615929684786
+          ],
+          "horizontal_margin_px": 452.2909843329189
+        }
+      ]
+    },
+    {
+      "profile_id": "SC-258-0-44",
+      "selected_guide": 1,
+      "crossings": [
+        {
+          "profile_id": "SC-258-0-44",
+          "offset_candidates_m": [
+            39.58704205261538
+          ],
+          "guide": 1,
+          "stroke_pixels": 7,
+          "offset_m": 39.59,
+          "screen_pixel": [
+            647.2883623639805,
+            379.93106300897307
+          ],
+          "mosaic_pixel": [
+            1558.6443861326193,
+            1616.3940884102517
+          ],
+          "horizontal_margin_px": 324.71163763601953
+        }
+      ]
+    },
+    {
+      "profile_id": "SC-258-0-46",
+      "selected_guide": 2,
+      "crossings": [
+        {
+          "profile_id": "SC-258-0-46",
+          "offset_candidates_m": [
+            23.32479726056927
+          ],
+          "guide": 2,
+          "stroke_pixels": 6,
+          "offset_m": 23.32,
+          "screen_pixel": [
+            409.2629349722797,
+            428.5955453383517
+          ],
+          "mosaic_pixel": [
+            1726.8710820650451,
+            1570.170529456968
+          ],
+          "horizontal_margin_px": 409.2629349722797
+        }
+      ]
+    },
+    {
+      "profile_id": "SC-258-0-47",
+      "selected_guide": 2,
+      "crossings": [
+        {
+          "profile_id": "SC-258-0-47",
+          "offset_candidates_m": [
+            13.708552664041427
+          ],
+          "guide": 2,
+          "stroke_pixels": 7,
+          "offset_m": 13.71,
+          "screen_pixel": [
+            600.4074146096191,
+            364.8290217719964
+          ],
+          "mosaic_pixel": [
+            1811.8114963533585,
+            1541.830207860058
+          ],
+          "horizontal_margin_px": 390.5925853903809
+        }
+      ]
+    },
+    {
+      "profile_id": "SC-258-0-48",
+      "selected_guide": 2,
+      "crossings": [
+        {
+          "profile_id": "SC-258-0-48",
+          "offset_candidates_m": [
+            9.357862096852964
+          ],
+          "guide": 2,
+          "stroke_pixels": 6,
+          "offset_m": 9.36,
+          "screen_pixel": [
+            782.1633573872873,
+            287.1987482989575
+          ],
+          "mosaic_pixel": [
+            1892.5795405686106,
+            1507.3292268312805
+          ],
+          "horizontal_margin_px": 208.8366426127127
+        }
+      ]
+    },
+    {
+      "profile_id": "SC-258-0-49",
+      "selected_guide": 2,
+      "crossings": [
+        {
+          "profile_id": "SC-258-0-49",
+          "offset_candidates_m": [
+            5.29457409874191
+          ],
+          "guide": 2,
+          "stroke_pixels": 8,
+          "offset_m": 5.29,
+          "screen_pixel": [
+            961.1759713669139,
+            192.67370693921293
+          ],
+          "mosaic_pixel": [
+            1972.1281845605931,
+            1465.320528713232
+          ],
+          "horizontal_margin_px": 29.824028633086073
+        }
+      ]
+    },
+    {
+      "profile_id": "SC-256-0-0",
+      "selected_guide": 3,
+      "crossings": [
+        {
+          "profile_id": "SC-256-0-0",
+          "offset_candidates_m": [
+            -24.147341347345094
+          ],
+          "guide": 3,
+          "stroke_pixels": 8,
+          "offset_m": -24.15,
+          "screen_pixel": [
+            169.2202012058474,
+            429.9138906076124
+          ],
+          "mosaic_pixel": [
+            2201.3869746188566,
+            1067.965417537883
+          ],
+          "horizontal_margin_px": 169.2202012058474
+        }
+      ]
+    },
+    {
+      "profile_id": "SC-256-0-1",
+      "selected_guide": 3,
+      "crossings": [
+        {
+          "profile_id": "SC-256-0-1",
+          "offset_candidates_m": [
+            -36.460201671443215
+          ],
+          "guide": 3,
+          "stroke_pixels": 6,
+          "offset_m": -36.46,
+          "screen_pixel": [
+            267.411590038555,
+            436.00631152890503
+          ],
+          "mosaic_pixel": [
+            2288.666400113295,
+            1073.385878479359
+          ],
+          "horizontal_margin_px": 267.411590038555
+        }
+      ]
+    },
+    {
+      "profile_id": "SC-256-0-2",
+      "selected_guide": 3,
+      "crossings": [
+        {
+          "profile_id": "SC-256-0-2",
+          "offset_candidates_m": [
+            -35.834048757336205
+          ],
+          "guide": 3,
+          "stroke_pixels": 7,
+          "offset_m": -35.83,
+          "screen_pixel": [
+            365.407947159948,
+            429.0351644824617
+          ],
+          "mosaic_pixel": [
+            2375.7731413658544,
+            1067.1944677753525
+          ],
+          "horizontal_margin_px": 365.407947159948
+        }
+      ]
+    },
+    {
+      "profile_id": "SC-256-0-3",
+      "selected_guide": 3,
+      "crossings": [
+        {
+          "profile_id": "SC-256-0-3",
+          "offset_candidates_m": [
+            -40.36049866197589
+          ],
+          "guide": 3,
+          "stroke_pixels": 9,
+          "offset_m": -40.36,
+          "screen_pixel": [
+            466.1089535540377,
+            423.9877234322581
+          ],
+          "mosaic_pixel": [
+            2465.283874841258,
+            1062.713128284292
+          ],
+          "horizontal_margin_px": 466.1089535540377
+        }
+      ]
+    },
+    {
+      "profile_id": "SC-256-0-4",
+      "selected_guide": 3,
+      "crossings": [
+        {
+          "profile_id": "SC-256-0-4",
+          "offset_candidates_m": [
+            -53.85980141176743
+          ],
+          "guide": 3,
+          "stroke_pixels": 9,
+          "offset_m": -53.86,
+          "screen_pixel": [
+            566.827098475474,
+            425.0233985806832
+          ],
+          "mosaic_pixel": [
+            2554.80952830613,
+            1063.6389114870437
+          ],
+          "horizontal_margin_px": 448.17290152452597
+        }
+      ]
+    },
+    {
+      "profile_id": "SC-256-0-5",
+      "selected_guide": 3,
+      "crossings": [
+        {
+          "profile_id": "SC-256-0-5",
+          "offset_candidates_m": [
+            -52.51998155145051
+          ],
+          "guide": 3,
+          "stroke_pixels": 8,
+          "offset_m": -52.52,
+          "screen_pixel": [
+            663.8058636086889,
+            410.08511843775466
+          ],
+          "mosaic_pixel": [
+            2641.0121700802306,
+            1050.3656734373371
+          ],
+          "horizontal_margin_px": 351.1941363913111
+        }
+      ]
+    },
+    {
+      "profile_id": "SC-256-0-6",
+      "selected_guide": 3,
+      "crossings": [
+        {
+          "profile_id": "SC-256-0-6",
+          "offset_candidates_m": [
+            -44.20858532361037
+          ],
+          "guide": 3,
+          "stroke_pixels": 6,
+          "offset_m": -44.21,
+          "screen_pixel": [
+            761.4243996226205,
+            390.51017459102275
+          ],
+          "mosaic_pixel": [
+            2727.7837266775523,
+            1032.9710601367992
+          ],
+          "horizontal_margin_px": 253.5756003773795
+        }
+      ]
+    },
+    {
+      "profile_id": "SC-256-0-7",
+      "selected_guide": 3,
+      "crossings": [
+        {
+          "profile_id": "SC-256-0-7",
+          "offset_candidates_m": [
+            -40.340720850012666
+          ],
+          "guide": 3,
+          "stroke_pixels": 9,
+          "offset_m": -40.34,
+          "screen_pixel": [
+            858.0249248689943,
+            371.87564483039876
+          ],
+          "mosaic_pixel": [
+            2813.6503517677434,
+            1016.4123036072154
+          ],
+          "horizontal_margin_px": 156.97507513100572
+        }
+      ]
+    },
+    {
+      "profile_id": "SC-256-0-8",
+      "selected_guide": 3,
+      "crossings": [
+        {
+          "profile_id": "SC-256-0-8",
+          "offset_candidates_m": [
+            -30.797315901054574
+          ],
+          "guide": 3,
+          "stroke_pixels": 10,
+          "offset_m": -30.8,
+          "screen_pixel": [
+            955.0884335168826,
+            352.930410455912
+          ],
+          "mosaic_pixel": [
+            2899.9285266501684,
+            999.5773938259191
+          ],
+          "horizontal_margin_px": 59.91156648311744
+        }
+      ]
+    },
+    {
+      "profile_id": "SC-256-0-9",
+      "selected_guide": 4,
+      "crossings": [
+        {
+          "profile_id": "SC-256-0-9",
+          "offset_candidates_m": [
+            -29.209429088509584
+          ],
+          "guide": 4,
+          "stroke_pixels": 7,
+          "offset_m": -29.21,
+          "screen_pixel": [
+            69.35593645957442,
+            424.9402970164433
+          ],
+          "mosaic_pixel": [
+            2987.607820162433,
+            983.8024401487324
+          ],
+          "horizontal_margin_px": 69.35593645957442
+        }
+      ]
+    },
+    {
+      "profile_id": "SC-256-0-10",
+      "selected_guide": 4,
+      "crossings": [
+        {
+          "profile_id": "SC-256-0-10",
+          "offset_candidates_m": [
+            -16.368543666336528
+          ],
+          "guide": 4,
+          "stroke_pixels": 7,
+          "offset_m": -16.37,
+          "screen_pixel": [
+            164.72252028315643,
+            395.0509648105083
+          ],
+          "mosaic_pixel": [
+            3072.378795081252,
+            957.2309334452555
+          ],
+          "horizontal_margin_px": 164.72252028315643
+        }
+      ]
+    },
+    {
+      "profile_id": "SC-256-0-11",
+      "selected_guide": 4,
+      "crossings": [
+        {
+          "profile_id": "SC-256-0-11",
+          "offset_candidates_m": [
+            -8.901071126626066
+          ],
+          "guide": 4,
+          "stroke_pixels": 7,
+          "offset_m": -8.9,
+          "screen_pixel": [
+            260.562072765169,
+            371.07253636732867
+          ],
+          "mosaic_pixel": [
+            3157.5703634399333,
+            935.9136449563752
+          ],
+          "horizontal_margin_px": 260.562072765169
+        }
+      ]
+    },
+    {
+      "profile_id": "SC-256-0-12",
+      "selected_guide": 4,
+      "crossings": [
+        {
+          "profile_id": "SC-256-0-12",
+          "offset_candidates_m": [
+            1.111642051519362
+          ],
+          "guide": 4,
+          "stroke_pixels": 8,
+          "offset_m": 1.11,
+          "screen_pixel": [
+            356.24369706230254,
+            343.920553878839
+          ],
+          "mosaic_pixel": [
+            3242.6214577812307,
+            911.7753730124841
+          ],
+          "horizontal_margin_px": 356.24369706230254
+        }
+      ]
+    },
+    {
+      "profile_id": "SC-256-0-13",
+      "selected_guide": 4,
+      "crossings": [
+        {
+          "profile_id": "SC-256-0-13",
+          "offset_candidates_m": [
+            8.835828688262602,
+            14.417196173347973
+          ],
+          "guide": 4,
+          "stroke_pixels": 18,
+          "offset_m": 14.42,
+          "screen_pixel": [
+            453.07349146648085,
+            324.4910590553361
+          ],
+          "mosaic_pixel": [
+            3328.693387359715,
+            894.5016258921546
+          ],
+          "horizontal_margin_px": 453.07349146648085
+        }
+      ]
+    },
+    {
+      "profile_id": "SC-256-0-14",
+      "selected_guide": 4,
+      "crossings": [
+        {
+          "profile_id": "SC-256-0-14",
+          "offset_candidates_m": [
+            28.771097460720775
+          ],
+          "guide": 4,
+          "stroke_pixels": 6,
+          "offset_m": 28.77,
+          "screen_pixel": [
+            550.3001823427808,
+            298.0172225037621
+          ],
+          "mosaic_pixel": [
+            3415.1179184861285,
+            870.9661170050224
+          ],
+          "horizontal_margin_px": 472.6998176572192
+        }
+      ]
+    },
+    {
+      "profile_id": "SC-256-0-15",
+      "selected_guide": 4,
+      "crossings": [
+        {
+          "profile_id": "SC-256-0-15",
+          "offset_candidates_m": [
+            39.97496180109484
+          ],
+          "guide": 4,
+          "stroke_pixels": 8,
+          "offset_m": 39.97,
+          "screen_pixel": [
+            647.592366800377,
+            277.99179136800876
+          ],
+          "mosaic_pixel": [
+            3501.60085181972,
+            853.1626258927912
+          ],
+          "horizontal_margin_px": 375.407633199623
+        }
+      ]
+    },
+    {
+      "profile_id": "SC-256-0-16",
+      "selected_guide": 4,
+      "crossings": [
+        {
+          "profile_id": "SC-256-0-16",
+          "offset_candidates_m": [
+            48.243494441825355
+          ],
+          "guide": 4,
+          "stroke_pixels": 10,
+          "offset_m": 48.24,
+          "screen_pixel": [
+            747.85439874032,
+            262.50533330800715
+          ],
+          "mosaic_pixel": [
+            3590.7238273174344,
+            839.393765490088
+          ],
+          "horizontal_margin_px": 275.14560125968
+        }
+      ]
+    },
+    {
+      "profile_id": "SC-256-0-17",
+      "selected_guide": 4,
+      "crossings": [
+        {
+          "profile_id": "SC-256-0-17",
+          "offset_candidates_m": [
+            54.421907302428096
+          ],
+          "guide": 4,
+          "stroke_pixels": 8,
+          "offset_m": 54.42,
+          "screen_pixel": [
+            831.0362000241776,
+            249.8308090019624
+          ],
+          "mosaic_pixel": [
+            3664.664181337431,
+            828.1249360462556
+          ],
+          "horizontal_margin_px": 191.96379997582244
+        }
+      ]
+    },
+    {
+      "profile_id": "SC-256-0-18",
+      "selected_guide": 4,
+      "crossings": [
+        {
+          "profile_id": "SC-256-0-18",
+          "offset_candidates_m": [
+            20.895067755882664
+          ],
+          "guide": 4,
+          "stroke_pixels": 8,
+          "offset_m": 20.9,
+          "screen_pixel": [
+            920.87145188249,
+            232.54621667741424
+          ],
+          "mosaic_pixel": [
+            3744.518688669136,
+            812.75800370106
+          ],
+          "horizontal_margin_px": 102.12854811751004
+        },
+        {
+          "profile_id": "SC-256-0-18",
+          "offset_candidates_m": [
+            20.79022615600064
+          ],
+          "guide": 5,
+          "stroke_pixels": 8,
+          "offset_m": 20.79,
+          "screen_pixel": [
+            87.23309713461731,
+            358.73638256435095
+          ],
+          "mosaic_pixel": [
+            3744.550558046835,
+            812.846636965335
+          ],
+          "horizontal_margin_px": 87.23309713461731
+        }
+      ]
+    },
+    {
+      "profile_id": "SC-256-0-19",
+      "selected_guide": 5,
+      "crossings": [
+        {
+          "profile_id": "SC-256-0-19",
+          "offset_candidates_m": [
+            35.045328953643555
+          ],
+          "guide": 5,
+          "stroke_pixels": 8,
+          "offset_m": 35.05,
+          "screen_pixel": [
+            191.77214263173573,
+            341.0202212072853
+          ],
+          "mosaic_pixel": [
+            3837.475040749018,
+            797.1012958675877
+          ],
+          "horizontal_margin_px": 191.77214263173573
+        }
+      ]
+    },
+    {
+      "profile_id": "SC-256-0-20",
+      "selected_guide": 5,
+      "crossings": [
+        {
+          "profile_id": "SC-256-0-20",
+          "offset_candidates_m": [
+            47.085353619708016
+          ],
+          "guide": 5,
+          "stroke_pixels": 10,
+          "offset_m": 47.09,
+          "screen_pixel": [
+            289.05513715267716,
+            323.9729211212979
+          ],
+          "mosaic_pixel": [
+            3923.949651894886,
+            781.9503319208612
+          ],
+          "horizontal_margin_px": 289.05513715267716
+        }
+      ]
+    },
+    {
+      "profile_id": "SC-256-0-21",
+      "selected_guide": 5,
+      "crossings": [
+        {
+          "profile_id": "SC-256-0-21",
+          "offset_candidates_m": [
+            50.89568871787192
+          ],
+          "guide": 5,
+          "stroke_pixels": 8,
+          "offset_m": 50.9,
+          "screen_pixel": [
+            372.9853213413635,
+            310.8391718418244
+          ],
+          "mosaic_pixel": [
+            3998.5549465440263,
+            770.277786105232
+          ],
+          "horizontal_margin_px": 372.9853213413635
+        }
+      ]
+    },
+    {
+      "profile_id": "SC-252-0-0",
+      "selected_guide": 5,
+      "crossings": [
+        {
+          "profile_id": "SC-252-0-0",
+          "offset_candidates_m": [
+            21.447501906055685,
+            28.525812105506155
+          ],
+          "guide": 5,
+          "stroke_pixels": 16,
+          "offset_m": 28.53,
+          "screen_pixel": [
+            458.64839082562776,
+            304.4380982805203
+          ],
+          "mosaic_pixel": [
+            4074.7004345031623,
+            764.5899118396076
+          ],
+          "horizontal_margin_px": 458.64839082562776
+        }
+      ]
+    },
+    {
+      "profile_id": "SC-251-0-0",
+      "selected_guide": 5,
+      "crossings": [
+        {
+          "profile_id": "SC-251-0-0",
+          "offset_candidates_m": [
+            -10.046966531750154
+          ],
+          "guide": 5,
+          "stroke_pixels": 8,
+          "offset_m": -10.05,
+          "screen_pixel": [
+            541.5269850299292,
+            288.99165745029836
+          ],
+          "mosaic_pixel": [
+            4148.3710316744855,
+            750.861605199695
+          ],
+          "horizontal_margin_px": 461.47301497007084
+        }
+      ]
+    },
+    {
+      "profile_id": "SC-251-0-1",
+      "selected_guide": 5,
+      "crossings": [
+        {
+          "profile_id": "SC-251-0-1",
+          "offset_candidates_m": [
+            -3.462669102946154
+          ],
+          "guide": 5,
+          "stroke_pixels": 6,
+          "offset_m": -3.46,
+          "screen_pixel": [
+            597.5015620742124,
+            280.9997748858881
+          ],
+          "mosaic_pixel": [
+            4198.126651201969,
+            743.7589788654074
+          ],
+          "horizontal_margin_px": 405.4984379257876
+        }
+      ]
+    },
+    {
+      "profile_id": "SC-251-0-2",
+      "selected_guide": 5,
+      "crossings": [
+        {
+          "profile_id": "SC-251-0-2",
+          "offset_candidates_m": [
+            -6.353648858713848
+          ],
+          "guide": 5,
+          "stroke_pixels": 12,
+          "offset_m": -6.35,
+          "screen_pixel": [
+            662.212328532416,
+            277.4986973873898
+          ],
+          "mosaic_pixel": [
+            4255.647707264125,
+            740.6484033492737
+          ],
+          "horizontal_margin_px": 340.787671467584
+        }
+      ]
+    },
+    {
+      "profile_id": "SC-251-0-3",
+      "selected_guide": 5,
+      "crossings": [
+        {
+          "profile_id": "SC-251-0-3",
+          "offset_candidates_m": [
+            1.8014735227552723
+          ],
+          "guide": 5,
+          "stroke_pixels": 7,
+          "offset_m": 1.8,
+          "screen_pixel": [
+            734.6011848564422,
+            258.0885586606761
+          ],
+          "mosaic_pixel": [
+            4319.994137916537,
+            723.3965470874386
+          ],
+          "horizontal_margin_px": 268.39881514355784
+        }
+      ]
+    },
+    {
+      "profile_id": "SC-251-0-4",
+      "selected_guide": 5,
+      "crossings": [
+        {
+          "profile_id": "SC-251-0-4",
+          "offset_candidates_m": [
+            -5.650988375741687
+          ],
+          "guide": 5,
+          "stroke_pixels": 11,
+          "offset_m": -5.65,
+          "screen_pixel": [
+            792.8010302819903,
+            242.21794678926267
+          ],
+          "mosaic_pixel": [
+            4371.727967615649,
+            709.2906220256697
+          ],
+          "horizontal_margin_px": 210.19896971800972
+        },
+        {
+          "profile_id": "SC-251-0-4",
+          "offset_candidates_m": [
+            3.258462302270026
+          ],
+          "guide": 6,
+          "stroke_pixels": 7,
+          "offset_m": 3.26,
+          "screen_pixel": [
+            37.387904740876365,
+            394.11125822169066
+          ],
+          "mosaic_pixel": [
+            4370.296636650459,
+            701.4154029833107
+          ],
+          "horizontal_margin_px": 37.387904740876365
+        }
+      ]
+    },
+    {
+      "profile_id": "SC-251-0-5",
+      "selected_guide": 5,
+      "crossings": [
+        {
+          "profile_id": "SC-251-0-5",
+          "offset_candidates_m": [
+            4.769473910373277
+          ],
+          "guide": 5,
+          "stroke_pixels": 8,
+          "offset_m": 4.77,
+          "screen_pixel": [
+            846.9189647396033,
+            228.25419617788418
+          ],
+          "mosaic_pixel": [
+            4419.833369047511,
+            696.8795981866606
+          ],
+          "horizontal_margin_px": 156.08103526039667
+        },
+        {
+          "profile_id": "SC-251-0-5",
+          "offset_candidates_m": [
+            10.799525548063142
+          ],
+          "guide": 6,
+          "stroke_pixels": 8,
+          "offset_m": 10.8,
+          "screen_pixel": [
+            90.67335984580677,
+            383.4241595162205
+          ],
+          "mosaic_pixel": [
+            4417.662155977554,
+            691.9163390047197
+          ],
+          "horizontal_margin_px": 90.67335984580677
+        }
+      ]
+    },
+    {
+      "profile_id": "SC-251-0-6",
+      "selected_guide": 6,
+      "crossings": [
+        {
+          "profile_id": "SC-251-0-6",
+          "offset_candidates_m": [
+            6.610981840147136
+          ],
+          "guide": 5,
+          "stroke_pixels": 11,
+          "offset_m": 6.61,
+          "screen_pixel": [
+            917.90603071655,
+            218.9954901388087
+          ],
+          "mosaic_pixel": [
+            4482.933520727542,
+            688.6512509351741
+          ],
+          "horizontal_margin_px": 85.09396928344995
+        },
+        {
+          "profile_id": "SC-251-0-6",
+          "offset_candidates_m": [
+            11.324107486891865
+          ],
+          "guide": 6,
+          "stroke_pixels": 6,
+          "offset_m": 11.32,
+          "screen_pixel": [
+            164.33117045571726,
+            374.9918953917897
+          ],
+          "mosaic_pixel": [
+            4483.136610392433,
+            684.421857310637
+          ],
+          "horizontal_margin_px": 164.33117045571726
+        }
+      ]
+    },
+    {
+      "profile_id": "SC-251-0-7",
+      "selected_guide": 6,
+      "crossings": [
+        {
+          "profile_id": "SC-251-0-7",
+          "offset_candidates_m": [
+            2.1546299689338375
+          ],
+          "guide": 5,
+          "stroke_pixels": 8,
+          "offset_m": 2.15,
+          "screen_pixel": [
+            987.5455997325053,
+            205.98217017184425
+          ],
+          "mosaic_pixel": [
+            4544.835978795298,
+            677.085420647098
+          ],
+          "horizontal_margin_px": 15.454400267494748
+        },
+        {
+          "profile_id": "SC-251-0-7",
+          "offset_candidates_m": [
+            4.483821652916523
+          ],
+          "guide": 6,
+          "stroke_pixels": 8,
+          "offset_m": 4.48,
+          "screen_pixel": [
+            232.8848217933837,
+            364.5450340262468
+          ],
+          "mosaic_pixel": [
+            4544.074009255881,
+            675.136536645607
+          ],
+          "horizontal_margin_px": 232.8848217933837
+        }
+      ]
+    },
+    {
+      "profile_id": "SC-251-0-8",
+      "selected_guide": 6,
+      "crossings": [
+        {
+          "profile_id": "SC-251-0-8",
+          "offset_candidates_m": [
+            2.0262308510620635
+          ],
+          "guide": 6,
+          "stroke_pixels": 8,
+          "offset_m": 2.03,
+          "screen_pixel": [
+            301.83108630903644,
+            350.0555201863571
+          ],
+          "mosaic_pixel": [
+            4605.360453593573,
+            662.2577117533929
+          ],
+          "horizontal_margin_px": 301.83108630903644
+        }
+      ]
+    },
+    {
+      "profile_id": "SC-251-0-9",
+      "selected_guide": 6,
+      "crossings": [
+        {
+          "profile_id": "SC-251-0-9",
+          "offset_candidates_m": [
+            1.5363546176969254
+          ],
+          "guide": 6,
+          "stroke_pixels": 9,
+          "offset_m": 1.54,
+          "screen_pixel": [
+            362.1717035341426,
+            341.9872704642376
+          ],
+          "mosaic_pixel": [
+            4658.9972649501615,
+            655.0866305697787
+          ],
+          "horizontal_margin_px": 362.1717035341426
+        }
+      ]
+    },
+    {
+      "profile_id": "SC-251-0-10",
+      "selected_guide": 6,
+      "crossings": [
+        {
+          "profile_id": "SC-251-0-10",
+          "offset_candidates_m": [
+            5.528891926474083
+          ],
+          "guide": 6,
+          "stroke_pixels": 9,
+          "offset_m": 5.53,
+          "screen_pixel": [
+            448.2716765455125,
+            330.91763746138446
+          ],
+          "mosaic_pixel": [
+            4735.531577630737,
+            645.2479548349942
+          ],
+          "horizontal_margin_px": 448.2716765455125
+        }
+      ]
+    },
+    {
+      "profile_id": "SC-251-0-11",
+      "selected_guide": 6,
+      "crossings": [
+        {
+          "profile_id": "SC-251-0-11",
+          "offset_candidates_m": [
+            5.154925077411092
+          ],
+          "guide": 6,
+          "stroke_pixels": 9,
+          "offset_m": 5.15,
+          "screen_pixel": [
+            519.7661745186742,
+            321.9292670714694
+          ],
+          "mosaic_pixel": [
+            4799.08307301271,
+            637.2591230436307
+          ],
+          "horizontal_margin_px": 486.23382548132577
+        }
+      ]
+    },
+    {
+      "profile_id": "SC-251-0-12",
+      "selected_guide": 6,
+      "crossings": [
+        {
+          "profile_id": "SC-251-0-12",
+          "offset_candidates_m": [
+            4.565273914232451
+          ],
+          "guide": 6,
+          "stroke_pixels": 8,
+          "offset_m": 4.57,
+          "screen_pixel": [
+            576.1752046853007,
+            310.84323939386815
+          ],
+          "mosaic_pixel": [
+            4849.225139871033,
+            627.4054917684157
+          ],
+          "horizontal_margin_px": 429.82479531469926
+        }
+      ]
+    },
+    {
+      "profile_id": "SC-614-0-0",
+      "selected_guide": 6,
+      "crossings": [
+        {
+          "profile_id": "SC-614-0-0",
+          "offset_candidates_m": [
+            14.80568308467602
+          ],
+          "guide": 6,
+          "stroke_pixels": 8,
+          "offset_m": 14.81,
+          "screen_pixel": [
+            663.0987164641747,
+            297.88453254375196
+          ],
+          "mosaic_pixel": [
+            4926.491519570753,
+            615.8876309990771
+          ],
+          "horizontal_margin_px": 342.9012835358253
+        }
+      ]
+    },
+    {
+      "profile_id": "SC-614-0-1",
+      "selected_guide": 6,
+      "crossings": [
+        {
+          "profile_id": "SC-614-0-1",
+          "offset_candidates_m": [
+            2.3487939056190807
+          ],
+          "guide": 6,
+          "stroke_pixels": 8,
+          "offset_m": 2.35,
+          "screen_pixel": [
+            697.6349931197556,
+            296.4606515228007
+          ],
+          "mosaic_pixel": [
+            4957.190795768633,
+            614.6223894710647
+          ],
+          "horizontal_margin_px": 308.36500688024444
+        }
+      ]
+    },
+    {
+      "profile_id": "SC-244-0-0",
+      "selected_guide": 6,
+      "crossings": [
+        {
+          "profile_id": "SC-244-0-0",
+          "offset_candidates_m": [
+            13.032398228512683
+          ],
+          "guide": 6,
+          "stroke_pixels": 6,
+          "offset_m": 13.03,
+          "screen_pixel": [
+            775.7136000194059,
+            280.49603609249453
+          ],
+          "mosaic_pixel": [
+            5026.59498807744,
+            600.4324660154757
+          ],
+          "horizontal_margin_px": 230.28639998059407
+        }
+      ]
+    },
+    {
+      "profile_id": "SC-231-0-0",
+      "selected_guide": 6,
+      "crossings": [
+        {
+          "profile_id": "SC-231-0-0",
+          "offset_candidates_m": [
+            14.154156010647908
+          ],
+          "guide": 6,
+          "stroke_pixels": 9,
+          "offset_m": 14.15,
+          "screen_pixel": [
+            912.1652216928378,
+            262.99656002108185
+          ],
+          "mosaic_pixel": [
+            5147.8869079839105,
+            584.8789583184035
+          ],
+          "horizontal_margin_px": 93.8347783071622
+        }
+      ]
+    },
+    {
+      "profile_id": "SC-231-0-1",
+      "selected_guide": 6,
+      "crossings": [
+        {
+          "profile_id": "SC-231-0-1",
+          "offset_candidates_m": [
+            17.32108600853354
+          ],
+          "guide": 6,
+          "stroke_pixels": 9,
+          "offset_m": 17.32,
+          "screen_pixel": [
+            995.7473916088738,
+            249.1108286800408
+          ],
+          "mosaic_pixel": [
+            5222.183184559747,
+            572.5370234846501
+          ],
+          "horizontal_margin_px": 10.25260839112616
+        }
+      ]
+    }
+  ]
+}

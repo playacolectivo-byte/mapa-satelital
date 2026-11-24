@@ -1,6 +1,6 @@
 import {test} from 'node:test';
 import assert from 'node:assert/strict';
-import {photoCoastPosition,photoCoastComparison,photoCoastBaselineYear,photoCoastCoordinate,compatiblePhotoCoastLayer,displayedPhotoCoastPresentation,validatePhotoCoast,type PhotoCoastPresentation,type PhotoCoastData} from '../lib/photo-coast.ts';
+import {photoCoastPosition,photoCoastComparison,photoCoastBaselineYear,photoCoastCoordinate,photoCoastDistance,compatiblePhotoCoastLayer,displayedPhotoCoastPresentation,validatePhotoCoast,type PhotoCoastPresentation,type PhotoCoastData} from '../lib/photo-coast.ts';
 import type {CoastalScenario} from '../lib/coastal-scenario.ts';
 const data:PhotoCoastData={version:1,method:'rgb-visible-boundary-v1',field_validated:false,model_sha256:'fixture',captures:[{date:'2011-08-01',provider:'Example',source:'Example',resolution_m:.5,accuracy_m:10},{date:'2015-03-01',provider:'Example',source:'Example',resolution_m:.5,accuracy_m:5},{date:'2025-04-14',provider:'Example',source:'Example',resolution_m:.6,accuracy_m:5}],targets:[{id:'A',readings:[{capture:0,offset_m:-35,spread_m:2,releases:[1],accepted:true,reasons:[]},{capture:1,offset_m:-25,spread_m:3,releases:[2],accepted:true,reasons:[]},{capture:2,offset_m:-10,spread_m:2,releases:[3],accepted:true,reasons:[]}]}]};
 const model={targets:[{id:'A',m:'Progreso',p:[-89.6,21.2],v:[0,1],type:'Playa',municipality_approximate:false}],coordinate_scale:[103715,111320]} as unknown as CoastalScenario;
@@ -10,7 +10,7 @@ test('actual photo offsets replace the previous invented displacement',()=>{
  const reading=photoCoastPosition(data,data.targets[0].readings,2011,1)!;
  assert.equal(reading.offset,-35);assert.equal(reading.kind,'photo');assert.equal(reading.date,'2011-08-01');
  const line=photoCoastComparison(model,data,2011,2025,3).features[0];
- assert.equal(line.properties.delta_m,25);
+ assert.equal(line.properties.delta_m,photoCoastDistance(photoCoastCoordinate(model.targets[0],-35),photoCoastCoordinate(model.targets[0],-10)));
  assert.equal(line.properties.scenario_unvalidated,false);assert.equal(line.properties.photo_interpretation,true);
  if(line.geometry.type!=='LineString')assert.fail();
  assert.deepEqual(line.geometry.coordinates[1],photoCoastCoordinate(model.targets[0],-10));
@@ -19,12 +19,12 @@ test('a missing 2010 photo uses the accepted 2011 photograph without inventing 2
  const f=photoCoastComparison(model,data,2010,2025,3).features[0];
  assert.equal(f.properties.baseline_year,2011);assert.equal(f.properties.comparison_start_year,2011);
  assert.equal(f.properties.photo_baseline_fallback,true);assert.equal(f.properties.photo_start_kind,'photo');
- assert.equal(f.properties.date_before,'2011-08-01');assert.equal(f.properties.estimated,false);assert.equal(f.properties.delta_m,25);
+ assert.equal(f.properties.date_before,'2011-08-01');assert.equal(f.properties.estimated,false);assert.equal(f.properties.delta_m,photoCoastDistance(photoCoastCoordinate(model.targets[0],-35),photoCoastCoordinate(model.targets[0],-10)));
 });
 test('an accepted 2010 photo remains the reference when 2011 is also available',()=>{
  const d=structuredClone(data);d.captures.push({...d.captures[0],date:'2010-12-01'});d.targets[0].readings.push({capture:3,offset_m:-40,spread_m:2,releases:[4],accepted:true,reasons:[]});
  const f=photoCoastComparison(model,d,2010,2025,3).features[0];
- assert.equal(f.properties.baseline_year,2010);assert.equal(f.properties.photo_baseline_fallback,false);assert.equal(f.properties.date_before,'2010-12-01');assert.equal(f.properties.delta_m,30);
+ assert.equal(f.properties.baseline_year,2010);assert.equal(f.properties.photo_baseline_fallback,false);assert.equal(f.properties.date_before,'2010-12-01');assert.equal(f.properties.delta_m,photoCoastDistance(photoCoastCoordinate(model.targets[0],-40),photoCoastCoordinate(model.targets[0],-10)));
 });
 test('a single accepted 2011 photograph can be a reference, not a reconstructed 2010 trend',()=>{
  const readings=[data.targets[0].readings[0]];assert.equal(photoCoastBaselineYear(data,readings),2011);

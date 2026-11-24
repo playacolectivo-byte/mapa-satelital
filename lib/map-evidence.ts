@@ -7,9 +7,9 @@ import type {
   MultiPolygon,
 } from 'geojson';
 import { GMW_SOURCE, isMangroveChange } from './mangrove-history';
-import type { Bounds } from './view';
+import { geometryBounds, type Bounds, type Point } from './view';
 
-export type EvidenceKind = 'barriers' | 'geotubes' | 'vegetation';
+export type EvidenceKind = 'barriers' | 'geotubes' | 'groynes' | 'vegetation';
 export type EvidenceFeature = Feature<
   LineString | MultiLineString | Polygon | MultiPolygon,
   Record<string, unknown>
@@ -26,18 +26,53 @@ export type EvidenceSelection = {
 export const evidenceKinds: EvidenceKind[] = [
   'barriers',
   'geotubes',
+  'groynes',
   'vegetation',
 ];
 export const evidenceColors: Record<EvidenceKind, string> = {
   barriers: '#d3a8e8',
   geotubes: '#ff5a00',
+  groynes: '#65c9ff',
   vegetation: '#b8d776',
 };
-export const evidenceViews: Record<EvidenceKind, Bounds> = {
+export const evidenceViews: Record<Exclude<EvidenceKind, 'groynes'>, Bounds> = {
   barriers: [-89.709, 21.277, -89.695, 21.29],
   geotubes: [-89.5564, 21.3068, -89.5541, 21.3079],
   vegetation: [-89.53, 21.276, -89.511, 21.288],
 };
+export function geotubeBounds(data: EvidenceData | null): Bounds | null {
+  const features = data?.features ?? [];
+  const dated = features.filter(({ properties }) => properties.type === 'geotube_probable_axis');
+  return boundsOfEvidence(dated.length ? dated : features);
+}
+export function nearestGroyneGroup(data: EvidenceData | null, center: Point | null) {
+  const groups = new Map<string, EvidenceFeature[]>();
+  for (const feature of data?.features ?? []) {
+    const locality = String(feature.properties.locality ?? '');
+    const features = groups.get(locality) ?? [];
+    features.push(feature);
+    groups.set(locality, features);
+  }
+  let nearest: { locality: string; bounds: Bounds } | null = null;
+  let distance = Infinity;
+  for (const [locality, features] of groups) {
+    const bounds = boundsOfEvidence(features);
+    if (!bounds) continue;
+    const [west, south, east, north] = bounds;
+    const gap = center ? Math.hypot((west + east) / 2 - center[0], (south + north) / 2 - center[1]) : 0;
+    if (gap < distance) {
+      nearest = { locality, bounds };
+      distance = gap;
+    }
+  }
+  return nearest;
+}
+export function boundsOfEvidence(features: EvidenceFeature[]): Bounds | null {
+  return geometryBounds({
+    type: 'GeometryCollection',
+    geometries: features.map(({ geometry }) => geometry),
+  });
+}
 export function evidenceTitle({ kind, feature }: EvidenceSelection) {
   const p = feature.properties;
   if (isMangroveChange(feature))
@@ -48,6 +83,7 @@ export function evidenceTitle({ kind, feature }: EvidenceSelection) {
       ' → ' +
       p.year
     );
+  if (kind === 'groynes') return typeof p.label === 'string' ? p.label : 'Espolón';
   return kind === 'barriers'
     ? typeof p.type_label === 'string'
       ? p.type_label
@@ -60,10 +96,12 @@ export function evidenceTitle({ kind, feature }: EvidenceSelection) {
 }
 export function evidenceSource({ kind, feature }: EvidenceSelection) {
   if (isMangroveChange(feature)) return GMW_SOURCE;
-  return kind === 'barriers'
+  return kind === 'barriers' || kind === 'groynes'
     ? String(feature.properties.source_url)
     : kind === 'geotubes'
-      ? 'https://doi.org/10.3390/w11040635'
+      ? typeof feature.properties.source_url === 'string'
+        ? feature.properties.source_url
+        : 'https://doi.org/10.3390/w11040635'
       : 'https://idefor.cnf.gob.mx/layers/geonode:mx_mp2020gw';
 }
 export const evidenceNotes: Record<EvidenceKind, string> = {
@@ -71,6 +109,8 @@ export const evidenceNotes: Record<EvidenceKind, string> = {
     'Trazo de OpenStreetMap; un polígono conserva su contorno cartografiado y una línea no define anchura. Fecha de edición cartográfica, no de construcción. Existencia actual y daños sin verificar.',
   geotubes:
     'Seis ejes interpretados de la disposición de 2017 señalada por los autores en la figura 5. El 11 de abril de 2018 G2 y G3 seguían llenos; los otros cuatro estaban desinflados. Desinflado no acredita retiro de todo el material. Anchura y precisión absoluta sin determinar; estado actual sin verificar.',
+  groynes:
+    'Eje de un espolón visible en una fotografía fechada. Para medir la orilla, se sigue el contacto arena–agua visible a ambos lados de la obra.',
   vegetation:
     'Polígonos oficiales de manglar perturbado de CONABIO, escala 1:50,000, imágenes de enero–mayo de 2020. La categoría puede incluir causas naturales y humanas; no equivale a retiro de vegetación ni demuestra responsabilidad.',
 };

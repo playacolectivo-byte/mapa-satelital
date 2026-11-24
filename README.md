@@ -4,7 +4,7 @@ Visor de Colectivo Playa para explorar imágenes y comparaciones costeras de Cel
 
 **Sitio:** https://mapa-satelital.pages.dev/
 
-Esta copia corresponde a la versión publicada el **4 de noviembre de 2026**, con menú panorámico, 13 páginas municipales y buscador de kilómetros. Conserva el código y los datos públicos preparados que utiliza esa entrega.
+El código de este repositorio corresponde a la vista previa con las correcciones de Progreso del **23 de noviembre de 2026**. La compilación habilita las páginas revisadas de Progreso e Ixil. El repositorio también conserva los datos preparados de los demás municipios. Las publicaciones en Cloudflare se registran por separado.
 
 ## Qué incluye
 
@@ -34,7 +34,7 @@ corepack pnpm build:public
 corepack pnpm preview
 ```
 
-La salida estática queda en `dist/public-map/`, con los 13 accesos municipales preparados para abrir directamente o recargar. El comando de compilación de este repositorio utiliza los datos incluidos; no vuelve a calcular mediciones ni necesita los archivos de trabajo internos.
+La salida estática queda en `dist/public-map/`, con los accesos de Progreso e Ixil preparados para abrir directamente o recargar. El comando de compilación de este repositorio utiliza los datos incluidos; no vuelve a calcular mediciones ni necesita los archivos de trabajo internos.
 
 Para generar el paquete de carga directa de Cloudflare Pages:
 

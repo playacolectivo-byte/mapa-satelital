@@ -16,6 +16,12 @@ export const issueTypes = [
     color: '#d3a8e8',
   },
   {
+    id: 'groynes',
+    title: 'Espolones',
+    note: 'Ejes de obras transversales identificadas en fotografías fechadas',
+    color: '#65c9ff',
+  },
+  {
     id: 'dunes',
     title: 'Alteración de dunas',
     count: 0,
@@ -33,7 +39,8 @@ export const issueTypes = [
 export type IssueType = (typeof issueTypes)[number]['id'];
 export type IssueVisibility = Record<IssueType, boolean>;
 export const initialIssues: IssueVisibility = {
-  geotubes: true,
+  geotubes: false,
+  groynes: false,
   barriers: true,
   dunes: false,
   vegetation: false,

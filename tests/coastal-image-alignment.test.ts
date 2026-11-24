@@ -3,10 +3,11 @@ import assert from 'node:assert/strict';
 import {readFileSync} from 'node:fs';
 import {createHash} from 'node:crypto';
 import {validateCoastalScenario} from '../lib/coastal-scenario.ts';
-import {validatePhotoCoast,photoCoastCoordinate,photoCoastBaselineYear,photoCoastPosition} from '../lib/photo-coast.ts';
+import {validatePhotoCoast,photoCoastCoordinate,photoCoastBaselineYear,photoCoastPosition,photoCoastDistance} from '../lib/photo-coast.ts';
 import {applyPhotoVisualReview} from '../lib/photo-visual-review.ts';
 import {createCoastalImageAlignment} from '../lib/coastal-image-alignment.ts';
 import {compatibleSourceLayer,type PhotoSourceReview} from '../lib/photo-source-review.ts';
+import {applyCoastalAuditReview,type CoastalAuditReview} from '../lib/coastal-audit-reviews.ts';
 
 const read=(path:string)=>JSON.parse(readFileSync(new URL('../'+path,import.meta.url),'utf8'));
 const model=validateCoastalScenario(read('public/data/shorelines/scenario/model.json'));
@@ -17,6 +18,36 @@ const sourceReview=read('public/data/shorelines/photo-alignment/source-position-
 const photos=applyPhotoVisualReview(applyPhotoVisualReview(originals,read('public/data/shorelines/photo-alignment/visual-review.json'),sha),review,sha);
 const catalogue=read('public/data/history/esri-local-captures.json');
 const world=(p:number[],z:number)=>[(p[0]+180)/360*256*2**z,(1-Math.asinh(Math.tan(p[1]*Math.PI/180))/Math.PI)/2*256*2**z];
+
+void test('a withdrawn audited endpoint retains the real reference date and point, or a locator without an invented base',()=>{
+ const target={...model.targets[0],id:'audit-pending',m:'Progreso',type:'Playa'};
+ const localModel={...model,targets:[target]};
+ for(const rejectReference of [false,true]){
+  const input=validatePhotoCoast({version:1,method:'fixture',field_validated:false,model_sha256:photos.model_sha256,
+   captures:[{date:'2011-04-01',source:'WV02',provider:'fixture',resolution_m:.5,accuracy_m:5},{date:'2025-02-02',source:'WV03',provider:'fixture',resolution_m:.5,accuracy_m:5}],
+   targets:[{id:target.id,fixed_reference:{capture:0,method:'legacy',source:'baseline',verified_release:101},readings:[
+    {capture:0,offset_m:-25,spread_m:3,releases:[101],accepted:true,reasons:[],manual_review:{id:'legacy',source:'baseline',uncertainty_m:4}},
+    {capture:1,offset_m:12,spread_m:3,releases:[201],accepted:true,reasons:[]}]}]});
+  const captures=rejectReference?[0,1]:[1];
+  const audit:CoastalAuditReview={version:1,field_validated:false,review_id:'pending-fixture',timestamp:'2026-11-09T14:00:00Z',data_sha256:sha,model_sha256:input.model_sha256,method_url:'/data/audit/method.md',
+   decisions:captures.map(capture=>({profileId:target.id,capture,oldOffset:input.targets[0].readings[capture].offset_m,oldAccepted:true,newOffset:null,newAccepted:false,sourceRelease:capture===0?101:201,date:input.captures[capture].date,positionVisualInterval:null,uncertaintyM:null,evidence:[{path:'fixture/strip.jpg',sha256:'c'.repeat(64)}],metadata:null,reason:'Contact cannot be identified'}))};
+  const reviewed=applyCoastalAuditReview(input,audit,sha);
+  const feature=createCoastalImageAlignment(localModel,reviewed).read(2025,201).layer.features[0];
+  if(feature.geometry.type!=='Point')throw new Error('A withdrawn endpoint must remain a point without metres');
+  assert.deepEqual(feature.geometry.coordinates,rejectReference?target.p:photoCoastCoordinate(target,-25));
+  if(!rejectReference)assert.notDeepEqual(feature.geometry.coordinates,target.p,'a real baseline must not be replaced by its nominal cartographic anchor');
+  assert.equal(feature.properties.baseline_year,2011);
+  assert.equal(feature.properties.comparison_start_year,2011);
+  assert.equal(feature.properties.comparison_end_year,2025);
+  assert.equal(feature.properties.baseline_date,rejectReference?null:'2011-04-01');
+  assert.equal(feature.properties.baseline_fixed,!rejectReference);
+  assert.equal(feature.properties.photo_review_pending,true);
+  assert.equal(feature.properties.photo_interpretation,false);
+  assert.equal(feature.properties.delta_m,null);
+  assert.equal(feature.properties.scenario_delta_m,null);
+  if(rejectReference)assert.equal(reviewed.targets[0].reference_unavailable?.year,2011);
+ }
+});
 
 void test('photographic coordinates reproduce the original local Mercator sampling at every profile and candidate offset',()=>{
  model.targets.forEach((t,i)=>photos.targets[i].readings.forEach(r=>{
@@ -55,7 +86,7 @@ void test('every year keeps the inventory and distinguishes photographic bars fr
     assert.ok(baseline===2010||baseline===2011);
     const usable=row.readings.filter(r=>r.accepted&&r.releases.some(release=>!sourceReview.blocked.some(b=>b.release===release&&b.profile_id===t.id)));
     const before=photoCoastPosition(photos,usable,baseline,null)!;
-    assert.equal(before.kind,'photo');assert.equal(f.properties.delta_m,baseline===year?0:r!.offset_m!-before.offset);
+    assert.equal(before.kind,'photo');assert.equal(f.properties.delta_m,baseline===year?0:Math.sign(r!.offset_m!-before.offset)*photoCoastDistance(photoCoastCoordinate(t,before.offset),photoCoastCoordinate(t,r!.offset_m!)));
     if(baseline===year)assert.equal(f.properties.delta_m,0,'the first photograph is a reference, not a change against another capture of the same year');
     if(f.geometry.type==='LineString'){
      assert.deepEqual(f.geometry.coordinates[0],photoCoastCoordinate(t,before.offset));
