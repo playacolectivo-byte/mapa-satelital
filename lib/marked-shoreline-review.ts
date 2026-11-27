@@ -5,6 +5,7 @@ import referenceReview from './generated/progreso-reference-2011-review.json' wi
 import comparisonReview from './generated/progreso-orilla-2025-20261121.json' with { type: 'json' };
 import februaryMarks from './generated/progreso-puntas-marcadas-20261123.json' with { type: 'json' };
 import marchMarks from './generated/progreso-puntas-marcadas-marzo-20261123.json' with { type: 'json' };
+import stationMarks from './generated/progreso-revision-estaciones-20261124.json' with { type: 'json' };
 
 type Coordinate = [number, number];
 type Feature = CoastalAnalysisData['features'][number];
@@ -42,15 +43,44 @@ type MarkedComparison = {
   supplemental?: boolean;
   direct?: boolean;
   registrationProxyM?: number;
+  releases?: number[];
+  station?: string;
 };
+type PendingMark = { profile: string; tip: Coordinate; reason: string; releases?: number[] };
+type MarkedPhoto = { date: string; sensor: string; marks: Map<string, MarkedComparison>; pending: PendingMark[] };
 const asProfileMap = (marks: MarkedComparison[]) => new Map(marks.map(mark => [mark.profile, mark]));
-const marchEdition = 26334;
-const recentMarkedPhotos = new Map([
-  [comparisonEdition, { date: comparisonDate, sensor: 'WV03', marks: asProfileMap(februaryMarks as MarkedComparison[]) }],
-  [marchEdition, { date: '2025-03-23', sensor: 'WV03', marks: asProfileMap(marchMarks.comparisons as MarkedComparison[]) }],
-]);
-const februaryReferenceMarks = asProfileMap([...marchMarks.comparisons, ...februaryMarks] as MarkedComparison[]);
-const marchReferenceMarks = asProfileMap([...februaryMarks, ...marchMarks.comparisons] as MarkedComparison[]);
+const mixedMosaicEdition = 26334;
+const septemberDate = '2023-09-21';
+const februaryComparisons = [...februaryMarks, ...stationMarks.february.comparisons] as MarkedComparison[];
+const septemberMarks = stationMarks.september.comparisons as MarkedComparison[];
+const aprilMarks = stationMarks.april.comparisons as MarkedComparison[];
+
+export function inProgresoMarkedSeptemberSector(longitude: number | undefined): boolean {
+  return longitude !== undefined && septemberMarks.some(mark =>
+    Math.abs(longitude - mark.tip[0]) <= .003);
+}
+
+const markedPhotoSources = [
+  { release: comparisonEdition, date: comparisonDate, sensor: 'WV03', marks: februaryComparisons,
+    pending: stationMarks.february.pending as PendingMark[] },
+  { release: mixedMosaicEdition, date: '2025-03-23', sensor: 'WV03', marks: marchMarks.comparisons as MarkedComparison[],
+    pending: marchMarks.pending as PendingMark[] },
+  { release: mixedMosaicEdition, date: stationMarks.april.date, sensor: 'LG02', marks: aprilMarks, pending: [] },
+  { release: mixedMosaicEdition, date: septemberDate, sensor: 'WV02', marks: septemberMarks, pending: [] },
+];
+const recentMarkedPhotos = new Map([comparisonEdition, mixedMosaicEdition].map(release => [
+  release,
+  markedPhotoSources.map(({ release: defaultRelease, date, sensor, marks, pending }): MarkedPhoto => ({
+    date, sensor, marks: asProfileMap(marks.filter(mark => (mark.releases ?? [defaultRelease]).includes(release))),
+    pending: pending.filter(mark => (mark.releases ?? [defaultRelease]).includes(release)),
+  })),
+]));
+const februaryReferenceMarks = asProfileMap([
+  ...septemberMarks, ...aprilMarks, ...marchMarks.comparisons, ...februaryComparisons,
+] as MarkedComparison[]);
+const marchReferenceMarks = asProfileMap([
+  ...septemberMarks, ...aprilMarks, ...februaryComparisons, ...marchMarks.comparisons,
+] as MarkedComparison[]);
 
 // Keep photographic endpoints and vertical display tips separate.
 const checked2025 = new Map<string, ReviewedComparison>([
@@ -150,10 +180,11 @@ function updateReference(feature: Feature, release: number): Feature {
 
 export function applyMarkedShorelineReview(
   layer: CoastalAnalysisData, release: number | null, source: CoastalAnalysisData, preferredRecentEdition?: number,
+  year = release === referenceEdition ? 2011 : 2025,
 ): CoastalAnalysisData {
   if (release === null) return layer;
   const reviewed = layer.features.map(feature => updateReference(feature, release));
-  const features = applyMarkedComparisons(reviewed, source, release, preferredRecentEdition);
+  const features = applyMarkedComparisons(reviewed, source, release, year, preferredRecentEdition);
   if (features.length === layer.features.length && features.every((feature, i) => feature === layer.features[i])) return layer;
 
   const byStation = new Map(features.map(f => [String(f.properties.sampling_station_id), f]));
@@ -170,8 +201,8 @@ export function applyMarkedShorelineReview(
     if (a.properties.date_after === b.properties.date_after && a.properties.date_after !== referenceDate) {
       distance.observed = coastalLocalDistance(leftAfter, rightAfter);
     }
-    if (adjustLeft) spacing.set(link.from.id, { ...spacing.get(link.from.id), next: distance });
-    if (adjustRight) spacing.set(link.to.id, { ...spacing.get(link.to.id), previous: distance });
+    spacing.set(link.from.id, { ...spacing.get(link.from.id), next: distance });
+    spacing.set(link.to.id, { ...spacing.get(link.to.id), previous: distance });
   }
   return {
     ...layer,
@@ -184,19 +215,36 @@ export function applyMarkedShorelineReview(
 
 /** Recompare the reviewed positions along the same meridian in both photos. */
 function applyMarkedComparisons(
-  features: Feature[], source: CoastalAnalysisData, release: number, preferredRecentEdition?: number,
+  features: Feature[], source: CoastalAnalysisData, release: number, year: number, preferredRecentEdition?: number,
 ): Feature[] {
-  const referenceView = release === referenceEdition;
-  const photo = recentMarkedPhotos.get(release);
-  if (!referenceView && !photo) return features;
-  const year = referenceView ? 2011 : 2025;
-  const date = photo?.date ?? referenceDate;
+  const referenceView = year === 2011 && release === referenceEdition;
+  const photos = (recentMarkedPhotos.get(release) ?? []).filter(photo => photo.date.startsWith(year + '-'));
+  if (!referenceView && !photos.length) return features;
   // The same profile can have a different historical crossing in each pair.
   // In the 2011 view prefer the pair offered for 2025 in the current sector.
-  const comparisonMarks = photo?.marks ??
-    (preferredRecentEdition === marchEdition ? marchReferenceMarks : februaryReferenceMarks);
-  const buildComparison = (mark: MarkedComparison, supplemental: boolean, feature?: Feature): Feature => {
-    const p: Feature['properties'] = feature?.properties ?? {
+  const referenceMarks = preferredRecentEdition === mixedMosaicEdition ? marchReferenceMarks : februaryReferenceMarks;
+  const marksByStation = new Map([...referenceMarks.values()].filter(mark => mark.station)
+    .map(mark => [mark.station, mark]));
+  const historicalByProfile = referenceView ? new Map(source.features.filter(feature =>
+    feature.properties.reference_only === true && feature.properties.date_after === referenceDate && measured(feature))
+    .map(feature => [feature.properties.profile_id, feature])) : undefined;
+  // A single Wayback release can contain mosaics from several dates.
+  const photosByDate = new Map(photos.map(photo => [photo.date, photo]));
+  const directByStation = new Map<string, { mark: MarkedComparison; photo: MarkedPhoto }>();
+  for (const photo of photos) {
+    for (const mark of photo.marks.values()) {
+      if (mark.direct && mark.station) directByStation.set(mark.station, { mark, photo });
+    }
+  }
+  const markForFeature = (feature: Feature) => {
+    const profile = String(feature.properties.profile_id);
+    const photo = photosByDate.get(String(feature.properties.date_after));
+    return { photo, mark: referenceView ? referenceMarks.get(profile) : photo?.marks.get(profile) };
+  };
+  const buildComparison = (mark: MarkedComparison, supplemental: boolean, photo?: MarkedPhoto, feature?: Feature): Feature => {
+    const date = photo?.date ?? referenceDate;
+    const station = feature?.properties;
+    const p: Feature['properties'] = (mark.direct ? undefined : station) ?? {
       profile_id: mark.profile, municipality: 'Progreso', year, baseline_year: 2011,
       reference_only: referenceView, baseline_fixed: true, photo_interpretation: true,
       photo_location_matched: true, date_before: referenceDate, date_after: date, photo_date: date,
@@ -205,6 +253,11 @@ function applyMarkedComparisons(
         ...(photo ? [{ date, provider: 'Esri Wayback', source: photo.sensor }] : []),
       ],
       direct_marked_profile: true,
+      ...(station?.sampling_station === true ? {
+        sampling_station: true, sampling_station_id: station.sampling_station_id,
+        sampling_coordinate: station.sampling_coordinate, grid_segment: station.grid_segment,
+        grid_chainage_m: station.grid_chainage_m, grid_spacing_m: station.grid_spacing_m,
+      } : {}),
     };
     const baseline: Coordinate = [mark.tip[0], mark.referenceLatitude2011];
     const end = referenceView ? baseline : mark.tip;
@@ -238,17 +291,34 @@ function applyMarkedComparisons(
   };
   const withMarkedComparison = (feature: Feature, supplemental = false): Feature => {
     const p = feature.properties;
-    const mark = comparisonMarks.get(String(p.profile_id));
+    const station = String(p.sampling_station_id ?? '');
+    if (referenceView && p.municipality === 'Progreso' && station) {
+      const stationMark = marksByStation.get(station);
+      if (stationMark?.direct) return buildComparison(stationMark, false, undefined, feature);
+      const historical = stationMark && historicalByProfile?.get(stationMark.profile);
+      if (stationMark && historical) {
+        return buildComparison(stationMark, false, undefined, {
+          ...historical,
+          properties: { ...p, ...historical.properties, sampling_gap: false, photo_review_pending: false },
+        });
+      }
+    }
+    const direct = directByStation.get(station);
+    if (direct && p.municipality === 'Progreso' && p.year === year &&
+        (p.sampling_gap === true || p.profile_id === direct.mark.profile)) {
+      return buildComparison(direct.mark, false, direct.photo, feature);
+    }
+    const { photo, mark } = markForFeature(feature);
     if (!mark || mark.direct || p.municipality !== 'Progreso' || !measured(feature) ||
         typeof p.delta_m !== 'number' || !Number.isFinite(p.delta_m) ||
-        p.date_after !== date || (referenceView && p.reference_only !== true)) return feature;
-    return buildComparison(mark, supplemental, feature);
+        (referenceView && (p.reference_only !== true || p.date_after !== referenceDate))) return feature;
+    return buildComparison(mark, supplemental, photo, feature);
   };
   const comparisons = features.map(feature => withMarkedComparison(feature));
   const present = new Set(comparisons.map(feature => feature.properties.profile_id));
   for (const feature of source.features) {
     const id = String(feature.properties.profile_id);
-    const mark = comparisonMarks.get(id);
+    const { mark } = markForFeature(feature);
     // The archival edition can sample a different profile at the same station.
     // Keep the exact historical point for a bar selected by the recent frame.
     if (!mark || (!mark.supplemental && !referenceView) || present.has(id)) continue;
@@ -257,16 +327,20 @@ function applyMarkedComparisons(
     comparisons.push(marked);
     present.add(id);
   }
-  const hasDatedFrame = source.features.some(feature => feature.properties.municipality === 'Progreso' &&
-    feature.properties.year === year && feature.properties.date_after === date && measured(feature));
-  if (hasDatedFrame) {
-    for (const mark of comparisonMarks.values()) {
+  const datedFrames = new Set(source.features.filter(feature => feature.properties.municipality === 'Progreso' &&
+    feature.properties.year === year && measured(feature)).map(feature => feature.properties.date_after));
+  const directPhotos = referenceView ? [{ date: referenceDate, marks: referenceMarks, photo: undefined }] :
+    photos.map(photo => ({ date: photo.date, marks: photo.marks, photo }));
+  for (const { date, marks, photo } of directPhotos) {
+    if (!datedFrames.has(date)) continue;
+    for (const mark of marks.values()) {
       if (mark.direct && mark.supplemental && Number.isFinite(mark.registrationProxyM) && !present.has(mark.profile)) {
-        comparisons.push(buildComparison(mark, true));
+        comparisons.push(buildComparison(mark, true, photo));
+        present.add(mark.profile);
       }
     }
-    if (release === marchEdition) {
-      for (const mark of marchMarks.pending) {
+    if (photo) {
+      for (const mark of photo.pending) {
         // The markup locates the site. No historical crossing was established here.
         const index = comparisons.findIndex(feature => feature.properties.profile_id === mark.profile);
         const previous = comparisons[index];

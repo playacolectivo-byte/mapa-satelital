@@ -76,10 +76,10 @@
     {
       "profile": "SC-C323-0-1",
       "tip": [
-        -89.79153254628183,
-        21.260111648407594
+        -89.79157090187073,
+        21.26011739764458
       ],
-      "referenceLatitude2011": 21.26011114847392,
+      "referenceLatitude2011": 21.260116147810468,
       "registrationProxyM": 16.584329835993035
     },
     {
@@ -118,16 +118,228 @@
       ],
       "referenceLatitude2011": 21.262105870278578,
       "registrationProxyM": 13.340866725966494
+    },
+    {
+      "profile": "SC-329-0-0",
+      "tip": [
+        -89.77575360020828,
+        21.263748611420045
+      ],
+      "referenceLatitude2011": 21.26379061426158,
+      "registrationProxyM": 12.214
+    },
+    {
+      "profile": "SC-C337-0-0",
+      "tip": [
+        -89.77396242102814,
+        21.264188041598388
+      ],
+      "referenceLatitude2011": 21.26427553699827,
+      "registrationProxyM": 12.074
+    },
+    {
+      "profile": "SC-148-0-0",
+      "tip": [
+        -89.7730531521721,
+        21.264477744849586
+      ],
+      "referenceLatitude2011": 21.264670472892366,
+      "registrationProxyM": 12.074
+    },
+    {
+      "profile": "SC-112-0-0",
+      "tip": [
+        -89.77199175867081,
+        21.26494061060354
+      ],
+      "referenceLatitude2011": 21.265065407727032,
+      "registrationProxyM": 12.074
+    },
+    {
+      "profile": "SC-C343-0-0",
+      "tip": [
+        -89.77151995810507,
+        21.26519556818816
+      ],
+      "referenceLatitude2011": 21.26527037348945,
+      "registrationProxyM": 12.214
+    },
+    {
+      "profile": "SC-C349-0-0",
+      "tip": [
+        -89.76962309988976,
+        21.265983934239628
+      ],
+      "referenceLatitude2011": 21.266025244934124,
+      "registrationProxyM": 12.214
+    },
+    {
+      "profile": "SC-C105-0-0",
+      "tip": [
+        -89.76853650470352,
+        21.266263672687245
+      ],
+      "referenceLatitude2011": 21.266295198021066,
+      "registrationProxyM": 12.074
+    },
+    {
+      "profile": "SC-C380-0-1",
+      "tip": [
+        -89.7666983868656,
+        21.266627358780113
+      ],
+      "referenceLatitude2011": 21.266665132928804,
+      "registrationProxyM": 12.074
+    },
+    {
+      "profile": "SC-C378-0-1",
+      "tip": [
+        -89.76619627733803,
+        21.266641856214004
+      ],
+      "referenceLatitude2011": 21.26676011606594,
+      "registrationProxyM": 12.214
+    },
+    {
+      "profile": "SC-C324-0-0",
+      "tip": [
+        -89.79231521487236,
+        21.25974119709865
+      ],
+      "referenceLatitude2011": 21.259706201650168,
+      "registrationProxyM": 12.489715851753793,
+      "station": "GRID100-progreso-002-0055"
+    },
+    {
+      "profile": "SC-C176-0-1",
+      "tip": [
+        -89.791080057621,
+        21.26030362280837
+      ],
+      "referenceLatitude2011": 21.260326119792076,
+      "registrationProxyM": 12.625364857849709,
+      "station": "GRID100-progreso-002-0057"
+    },
+    {
+      "profile": "SC-C180-0-0",
+      "tip": [
+        -89.7900165617466,
+        21.26099102909198
+      ],
+      "referenceLatitude2011": 21.260971031863587,
+      "registrationProxyM": 12.625360735293535
+    },
+    {
+      "profile": "SC-C170-0-0",
+      "tip": [
+        -89.78921324014664,
+        21.261126010312562
+      ],
+      "referenceLatitude2011": 21.261255992111735,
+      "registrationProxyM": 12.489710021738851
+    },
+    {
+      "profile": "SC-C370-0-0",
+      "tip": [
+        -89.7881269454956,
+        21.26140847061452
+      ],
+      "referenceLatitude2011": 21.261445965304134,
+      "registrationProxyM": 12.625358231733696
+    },
+    {
+      "profile": "SC-C159-0-1",
+      "tip": [
+        -89.7864331305027,
+        21.261739673375782
+      ],
+      "referenceLatitude2011": 21.261773418520963,
+      "registrationProxyM": 12.554631742400595
+    },
+    {
+      "profile": "SC-121-0-0",
+      "tip": [
+        -89.78320375084877,
+        21.26216836112666
+      ],
+      "referenceLatitude2011": 21.262245849741436,
+      "registrationProxyM": 12.783809437700562
+    },
+    {
+      "profile": "SC-C125-0-0",
+      "tip": [
+        -89.78240445256233,
+        21.262348334620935
+      ],
+      "referenceLatitude2011": 21.262380829811732,
+      "registrationProxyM": 12.78380798670713
+    },
+    {
+      "profile": "SC-126-0-1",
+      "tip": [
+        -89.78112637996674,
+        21.262504561434135
+      ],
+      "referenceLatitude2011": 21.262640791079956,
+      "registrationProxyM": 12.625351657857259
+    },
+    {
+      "profile": "SC-129-0-0",
+      "tip": [
+        -89.78038340806961,
+        21.262744525496366
+      ],
+      "referenceLatitude2011": 21.262855758705058,
+      "registrationProxyM": 12.783804792476955
+    },
+    {
+      "profile": "SC-C130-0-1",
+      "tip": [
+        -89.77936282753944,
+        21.262854508894193
+      ],
+      "referenceLatitude2011": 21.262950744299893,
+      "registrationProxyM": 12.964229521509132
+    },
+    {
+      "profile": "SC-C139-0-0",
+      "tip": [
+        -89.77747321128845,
+        21.263315688383745
+      ],
+      "referenceLatitude2011": 21.263280693784775,
+      "registrationProxyM": 12.489700802638458
+    },
+    {
+      "profile": "SC-144-0-0",
+      "tip": [
+        -89.77657467126846,
+        21.26355565112402
+      ],
+      "referenceLatitude2011": 21.26357564800139,
+      "registrationProxyM": 12.625345353617233
     }
   ],
   "pending": [
     {
       "profile": "SC-C182-0-0",
       "tip": [
-        -89.79092824459076,
-        21.260459601824717
+        -89.79091510176659,
+        21.260428606007704
       ],
       "reason": "La obra y su sombra impiden distinguir el borde continuo entre la arena y el agua en las fotos revisadas."
+    },
+    {
+      "profile": "SC-C347-0-0",
+      "tip": [
+        -89.77043580922127,
+        21.265759472807044
+      ],
+      "reason": "El meridiano coincide con la transición abrupta junto a una estructura. El agua conectada sigue más al sur del lado oeste y la franja de arena empieza más al norte del lado este. El píxel del cruce mezcla ambos lados.",
+      "releases": [
+        26334
+      ],
+      "date": "2025-03-23"
     }
   ]
 }

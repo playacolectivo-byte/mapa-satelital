@@ -272,5 +272,209 @@
     ],
     "referenceLatitude2011": 21.256586573973593,
     "registrationProxyM": 12.920901052171244
+  },
+  {
+    "profile": "SC-419-0-0",
+    "tip": [
+      -89.76000454515552,
+      21.267915382296916
+    ],
+    "referenceLatitude2011": 21.26793490243214,
+    "registrationProxyM": 12.808835865634718,
+    "releases": [
+      26334
+    ]
+  },
+  {
+    "profile": "SC-421-0-1",
+    "tip": [
+      -89.75849492202819,
+      21.26820230148413
+    ],
+    "referenceLatitude2011": 21.268219849201728,
+    "registrationProxyM": 13.736773632193445,
+    "releases": [
+      26334
+    ]
+  },
+  {
+    "profile": "SC-C453-0-1",
+    "tip": [
+      -89.7533602335396,
+      21.26914240194699
+    ],
+    "referenceLatitude2011": 21.269184664869552,
+    "registrationProxyM": 12.808822803232937,
+    "releases": [
+      26334
+    ]
+  },
+  {
+    "profile": "SC-C449-0-1",
+    "tip": [
+      -89.75237613105202,
+      21.269351611202246
+    ],
+    "referenceLatitude2011": 21.269384625874807,
+    "registrationProxyM": 12.808820712186218,
+    "releases": [
+      26334
+    ]
+  },
+  {
+    "profile": "SC-C445-0-1",
+    "tip": [
+      -89.75143467568779,
+      21.269614059668264
+    ],
+    "referenceLatitude2011": 21.269589585623272,
+    "registrationProxyM": 12.808818569754278,
+    "releases": [
+      26334
+    ]
+  },
+  {
+    "profile": "SC-C458-0-1",
+    "tip": [
+      -89.75089635633852,
+      21.269755031793952
+    ],
+    "referenceLatitude2011": 21.269699563907228,
+    "registrationProxyM": 13.23443683452128,
+    "releases": [
+      26334
+    ]
+  },
+  {
+    "profile": "SC-C461-0-1",
+    "tip": [
+      -89.74940095695113,
+      21.2699866379058
+    ],
+    "referenceLatitude2011": 21.270074489257656,
+    "registrationProxyM": 12.808813501510961,
+    "releases": [
+      26334
+    ]
+  },
+  {
+    "profile": "SC-C468-0-0",
+    "tip": [
+      -89.74877412470437,
+      21.270162352696218
+    ],
+    "referenceLatitude2011": 21.270219460137117,
+    "registrationProxyM": 12.808811986671591,
+    "releases": [
+      26334
+    ]
+  },
+  {
+    "profile": "SC-469-0-0",
+    "tip": [
+      -89.74788202198602,
+      21.27034281631668
+    ],
+    "referenceLatitude2011": 21.27042441872305,
+    "registrationProxyM": 13.234425375474371,
+    "releases": [
+      26334
+    ]
+  },
+  {
+    "profile": "SC-C474-0-0",
+    "tip": [
+      -89.74698696883773,
+      21.27053902651167
+    ],
+    "referenceLatitude2011": 21.270594384163193,
+    "registrationProxyM": 13.234422689495718,
+    "releases": [
+      26334
+    ]
+  },
+  {
+    "profile": "SC-C476-0-0",
+    "tip": [
+      -89.74607828310967,
+      21.270643891527346
+    ],
+    "referenceLatitude2011": 21.270724357602628,
+    "registrationProxyM": 13.234420634298019,
+    "releases": [
+      26334
+    ]
+  },
+  {
+    "profile": "SC-C481-0-0",
+    "tip": [
+      -89.74509820393563,
+      21.270785612512796
+    ],
+    "referenceLatitude2011": 21.270824337093323,
+    "registrationProxyM": 13.234419054458808,
+    "releases": [
+      26334
+    ]
+  },
+  {
+    "profile": "SC-C483-0-0",
+    "tip": [
+      -89.74414360574721,
+      21.271030062145822
+    ],
+    "referenceLatitude2011": 21.271064287593884,
+    "registrationProxyM": 13.234415261525582,
+    "releases": [
+      26334
+    ]
+  },
+  {
+    "profile": "SC-488-0-0",
+    "tip": [
+      -89.74359563044548,
+      21.271106546303447
+    ],
+    "referenceLatitude2011": 21.271184262697464,
+    "registrationProxyM": 13.234413365060881,
+    "releases": [
+      26334
+    ]
+  },
+  {
+    "profile": "SC-C400-0-1",
+    "tip": [
+      -89.76409197893715,
+      21.267039094556406
+    ],
+    "referenceLatitude2011": 21.2671500461972,
+    "registrationProxyM": 12.214,
+    "releases": [
+      26334
+    ]
+  },
+  {
+    "profile": "SC-C412-0-0",
+    "tip": [
+      -89.76336000409698,
+      21.26716557176734
+    ],
+    "referenceLatitude2011": 21.267255027209913,
+    "registrationProxyM": 12.214,
+    "releases": [
+      26334
+    ]
+  },
+  {
+    "profile": "SC-410-0-0",
+    "tip": [
+      -89.76243276444055,
+      21.267404278460262
+    ],
+    "referenceLatitude2011": 21.267444992661652,
+    "registrationProxyM": 12.378,
+    "releases": [
+      26334
+    ]
   }
 ]

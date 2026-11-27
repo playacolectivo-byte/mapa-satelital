@@ -2148,6 +2148,160 @@
         "field_verified": false,
         "display_code": "P10"
       }
+    },
+    {
+      "type": "Feature",
+      "id": "PROGRESO-GT-2025-04-01",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -89.62308257818222,
+            21.29328300774933
+          ],
+          [
+            -89.62293773889542,
+            21.29331049789973
+          ],
+          [
+            -89.62279289960861,
+            21.293350483563856
+          ],
+          [
+            -89.62262123823166,
+            21.29341795934741
+          ],
+          [
+            -89.62244421243668,
+            21.293465442287637
+          ],
+          [
+            -89.62225914001465,
+            21.293515424313416
+          ],
+          [
+            -89.62213307619095,
+            21.29355041172135
+          ],
+          [
+            -89.62203115224838,
+            21.293555409921797
+          ],
+          [
+            -89.62186485528946,
+            21.293587898220608
+          ]
+        ]
+      },
+      "properties": {
+        "label": "Chicxulub Puerto · geotubo señalado",
+        "type": "geotube_probable_axis",
+        "municipality_slug": "progreso",
+        "locality": "Chicxulub Puerto",
+        "capture_date": "2025-04-14",
+        "capture_release": 26334,
+        "capture_native_zoom": 17,
+        "capture_sensor": "LG02",
+        "source_resolution_m": 0.6,
+        "source_accuracy_m_reported": 5,
+        "length_m": 131.2,
+        "source_url": "https://wayback.maptiles.arcgis.com/arcgis/rest/services/World_Imagery/WMTS/1.0.0/default028mm/MapServer/tile/26334/17/57598/32905",
+        "source_tiles": [
+          {
+            "url": "https://wayback.maptiles.arcgis.com/arcgis/rest/services/World_Imagery/WMTS/1.0.0/default028mm/MapServer/tile/26334/17/57598/32905",
+            "sha256": "29677f93b1e21c5944077ef7349e00cb30659e5a675f716d647d8c089340b63b"
+          }
+        ],
+        "metadata_url": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2026_r07/MapServer/6/query?f=json&where=MinMapLevel+%3C%3D+17+AND+MaxMapLevel+%3E%3D+17&inSR=4326&outSR=4326&geometry=-89.623889923%2C21.291843516%2C-89.615306854%2C21.295692125&geometryType=esriGeometryEnvelope&spatialRel=esriSpatialRelIntersects&outFields=OBJECTID%2CSRC_DATE2%2CSRC_DESC%2CSAMP_RES%2CSRC_ACC%2CMinMapLevel%2CMaxMapLevel&returnGeometry=true",
+        "metadata_sha256": "0a18bbd1034e2b9ab92018e7e32d68f36fb00869fa35e8618c567af1cc27412f",
+        "metadata_receipt": [
+          {
+            "coordinate": [
+              -89.62308257818222,
+              21.29328300774933
+            ],
+            "records": [
+              1211132
+            ]
+          },
+          {
+            "coordinate": [
+              -89.62293773889542,
+              21.29331049789973
+            ],
+            "records": [
+              1211132
+            ]
+          },
+          {
+            "coordinate": [
+              -89.62279289960861,
+              21.293350483563856
+            ],
+            "records": [
+              1211132
+            ]
+          },
+          {
+            "coordinate": [
+              -89.62262123823166,
+              21.29341795934741
+            ],
+            "records": [
+              1211132
+            ]
+          },
+          {
+            "coordinate": [
+              -89.62244421243668,
+              21.293465442287637
+            ],
+            "records": [
+              1211132
+            ]
+          },
+          {
+            "coordinate": [
+              -89.62225914001465,
+              21.293515424313416
+            ],
+            "records": [
+              1211132
+            ]
+          },
+          {
+            "coordinate": [
+              -89.62213307619095,
+              21.29355041172135
+            ],
+            "records": [
+              1211132
+            ]
+          },
+          {
+            "coordinate": [
+              -89.62203115224838,
+              21.293555409921797
+            ],
+            "records": [
+              1211132
+            ]
+          },
+          {
+            "coordinate": [
+              -89.62186485528946,
+              21.293587898220608
+            ],
+            "records": [
+              1211132
+            ]
+          }
+        ],
+        "reference_capture_sha256": "378c9a6a1e319a648b41c0d0acbbb0ee8294c9f08ceb4a8514bd8af38de449ef",
+        "classification": "identified_by_user_and_aligned_to_native_raster",
+        "field_verified": false,
+        "display_code": "P11"
+      }
     }
   ]
 }

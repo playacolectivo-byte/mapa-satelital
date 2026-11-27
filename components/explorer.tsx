@@ -32,7 +32,7 @@ import {reviewedMunicipalityPages as municipalityPages} from '@/lib/municipal-pa
 import {validateCoastalScenario,type CoastalScenario} from '@/lib/coastal-scenario';
 import {scenarioReferencePhoto,type CoastalResultView} from '@/lib/coastal-result-view';
 import {createCoastalImageAlignment,type CoastalAlignedFrame} from '@/lib/coastal-image-alignment';
-import { applyMarkedShorelineReview } from '@/lib/marked-shoreline-review';
+import { applyMarkedShorelineReview, inProgresoMarkedSeptemberSector } from '@/lib/marked-shoreline-review';
 import {applyCoastal100mGrid,ixilSamplingSegments,sampleObservedCoast,type Coastal100mGrid} from '@/lib/coastal-100m-grid';
 import {hasRegionalAlternativeYear} from '@/lib/regional-shoreline-alternatives';
 import previousCoastalGrid from '@/public/data/shorelines/photo-alignment/coastal-100m-grid-20261106.json';
@@ -133,6 +133,7 @@ import {
   type TemporalRegistry,
 } from '@/lib/temporal-evidence';
 import {
+  boundsOfEvidence,
   isEvidenceData,
   type EvidenceKind,
   type EvidenceLayers,
@@ -344,13 +345,15 @@ export default function Explorer({reviewMode=false,municipalityScope}:{reviewMod
     if(photo&&center)setStationPhoto({photo,longitude:center[0]});
   },[center]);
 
+  const markedSeptemberSector = exactProgresoPhotos && inProgresoMarkedSeptemberSector(sectorLongitude);
   const availableComparisonPhotos=useMemo(()=>{
     if(!photoLocation)return [];
     const options=currentPhotoOptions(photoLocation,coastalResultView,chuburnaInlet,sectorLongitude).filter(photo=>
       photo.year>=activeYearBounds.first&&photo.year<=activeYearBounds.last&&
-      (coastalChapter!=='current'||!['Progreso','Ixil'].includes(photoLocation.municipality)||photo.year===2011||photo.year===2025));
+      (coastalChapter!=='current'||!['Progreso','Ixil'].includes(photoLocation.municipality)||photo.year===2011||photo.year===2025||
+        (markedSeptemberSector && photo.date==='2023-09-21' && photo.item.releaseNum===26334)));
     return localStationPhoto?options.map(option=>option.year===localStationPhoto.year?localStationPhoto:option):options;
-  },[coastalChapter,coastalResultView,photoLocation,activeYearBounds.first,activeYearBounds.last,chuburnaInlet,sectorLongitude,localStationPhoto]);
+  },[coastalChapter,coastalResultView,photoLocation,activeYearBounds.first,activeYearBounds.last,chuburnaInlet,sectorLongitude,localStationPhoto,markedSeptemberSector]);
   const availableAnalysisYears=useMemo(()=>availableComparisonPhotos.map(photo=>photo.year),[availableComparisonPhotos]);
   const imageYear=coastalChapter==='current'?(compatibleAnalysisYear(availableAnalysisYears,chapterYears.current)??chapterYears.current):chapterYears[coastalChapter];
   useEffect(()=>{
@@ -473,7 +476,7 @@ export default function Explorer({reviewMode=false,municipalityScope}:{reviewMod
             sampling_alternative_release:alternative[0],sampling_alternative_date:alternative[1]}),
           ...(capture && {sampling_observed_date:capture.date,sampling_observed_sensor:capture.sensor})}};
       })};
-      return applyMarkedShorelineReview(resolved, displayedAlignmentRelease, sourceScenarioLayer, progresoRecentEdition);
+      return applyMarkedShorelineReview(resolved, displayedAlignmentRelease, sourceScenarioLayer, progresoRecentEdition, sampledYear);
     }
     const frame=applyCoastal100mGrid(sourceScenarioLayer,coastal100mGrid);
     return showAlternativeLocators&&coastalResultView==='scenario'
@@ -828,6 +831,9 @@ export default function Explorer({reviewMode=false,municipalityScope}:{reviewMod
       vegetation: null,
     }),
     [showGeotubeControl, showGroynesControl, temporal.layers],
+  );
+  const chicxulubGeotube = displayedEvidence.geotubes?.features.find(
+    feature => feature.id === 'PROGRESO-GT-2025-04-01',
   );
   const visibleEvidenceSelection = evidenceSelected &&
     (evidenceSelected.kind === 'geotubes' || evidenceSelected.kind === 'groynes') &&
@@ -1250,7 +1256,8 @@ export default function Explorer({reviewMode=false,municipalityScope}:{reviewMod
         event.preventDefault();const id=reviewProfile.trim();
         const target=scenarioModel?.targets.find(t=>t.id===id);
         const direct=activeRegional?.features.find(f=>f.properties.profile_id===id&&f.properties.direct_marked_profile===true);
-        const location=target?.p??(direct?.geometry.type==='LineString'?direct.geometry.coordinates[0] as [number,number]:undefined);
+        const station=observedSampling?.flatMap<{id:string;coordinate:[number,number]}>(segment=>segment.stations).find(row=>row.id===id);
+        const location=target?.p??(direct?.geometry.type==='LineString'?direct.geometry.coordinates[0] as [number,number]:station?.coordinate);
         if(!location){setReviewError('Perfil no encontrado');return;}
         setReviewError('');map.current?.restore({center:location,zoom:reviewZoom,bearing:0});
       }}>
@@ -1371,6 +1378,19 @@ export default function Explorer({reviewMode=false,municipalityScope}:{reviewMod
       {!evolutionMode && pilotMode && pilotCut && pilotSeries && <LittoralLegend cut={pilotCut} count={pilotSeries.pilot.transects.features.length} />}
       <CoastalPeriodSections historicalEvidence={<Suspense fallback={<p>Cargando cálculo histórico…</p>}><HistoricalErosionSummary year={backgroundYear} onYear={setImageYear}/></Suspense>} onPartialYear={year=>{setImageYear(year);setPhotoYear(year,'archive');setImageSourceState('archive');setArchiveKind('inegi');setPanel(null);setSatelliteStatus('loading');const epoch=historicalEpochForYear(archiveManifests.inegi,year);const bounds=historicalEpochBounds(archiveManifests.inegi,epoch?.id??null);if(bounds)map.current?.coverage(bounds);}} chapter={coastalChapter} onChapter={chapter=>{setCoastalChapter(chapter);setPanel(null);setEvidenceSelected(null);setResearchSelectedId(null);setPilotMode(false);setEvolutionMode(chapter!=='alec');if(chapter==='alec'){setResearchFollowsTime(false);}}} series={researchSeriesId} onSeries={series=>{setManualResearchSeries(series);setImageYear(series==='L5'?2011:2021);setResearchFollowsTime(false);setResearchSelectedId(null);}} count={researchData?.features.length??0} status={researchStatus} onRetry={()=>setResearchAttempt(n=>n+1)}>
         <CoastalAnalysisControls reviewedMunicipality={['Progreso','Hunucmá','Dzemul','Yobaín'].includes(municipalityScope?.municipality.name??photoLocation?.municipality??'')} scopeLabel={municipalityScope?.municipality.name} resultView={coastalResultView} alignmentSummary={alignedCoast?.summary} visibleCount={viewResults.profiles} pendingStations={observedSampling?viewResults.pendingStations:undefined} displayedYear={coastalResultView==='scenario'?alignedCoast?.year??null:photoComparisonPresentation?.year??null} year={backgroundYear} years={availableAnalysisYears} referenceYear={exactProgresoPhotos?availableComparisonPhotos.find(photo=>photo.referenceOnly)?.year:undefined} municipality={photoLocation?.municipality??null} onYearChange={setImageYear} comparableCount={activeRegional?.features.filter(f=>f.properties.reference_only!==true).length??0} referenceCount={activeRegional?.features.filter(f=>f.properties.reference_only===true).length??0} status={alignmentPending?'loading':scenarioStatus!=='ready'?scenarioStatus:photoComparisonStatus==='ready'&&coastalResultView==='photos'&&imageSource==='detail'&&photoComparisonCandidate!==photoComparisonPresentation?'loading':photoComparisonStatus} onRetry={()=>setAttempt(n=>n+1)}/>
+        {chicxulubGeotube && (
+          <button type="button" className="coastal-popup-retry" onClick={() => {
+            const bounds = boundsOfEvidence([chicxulubGeotube]);
+            if (!bounds) return;
+            setIssueVisibility(visibility => ({ ...visibility, geotubes: true }));
+            setHistoricalReferences(true);
+            setEvidenceSelected({ kind: 'geotubes', feature: chicxulubGeotube });
+            setStructureSelected(null);
+            setResearchSelected(null);
+            setPanel('problems');
+            map.current?.coverage(bounds);
+          }}>Ver geotubo de Chicxulub Puerto</button>
+        )}
         {!scenarioActive&&coverageRows.length>0&&['regional','2015','2020'].includes(coastalAnalysisMode)&&<CoastalCoverageSummary rows={coverageRows} year={backgroundYear} visible={coverageVisible} onVisible={setCoverageVisible}/>}
         {seriesError&&<button className="coastal-popup-retry" onClick={()=>setAttempt(n=>n+1)}>Reintentar inventario regional</button>}
       </CoastalPeriodSections>

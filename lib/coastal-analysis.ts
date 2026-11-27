@@ -160,10 +160,12 @@ export function coastalPopup(feature: Feature, onStationEdition?: (year:number,r
     const details=document.createElement('details'),summary=document.createElement('summary');details.className='coastal-method-details';summary.textContent='Cómo se calculó';details.appendChild(summary);
     addUserReference(details);
     if(markedComparison)addText(details,p.reference_only===true
-      ? 'El punto blanco marca el borde visible de la arena en la foto de 2011 y es el inicio de la barra de 2025.'
+      ? 'El punto blanco marca el borde visible de la arena en la foto de 2011 y es el inicio de la barra de comparación.'
       : 'La barra une el punto blanco de 2011 con la marca de 2025 sobre la misma vertical. Los metros y el sentido se calculan entre esas dos marcas.');
     else addDirectionQuality(details);
-    if(p.direct_marked_profile===true)addText(details,'Perfil complementario leído directamente en las dos fotos, fuera de la malla de 100 m.');
+    if(p.direct_marked_profile===true)addText(details,p.sampling_station===true
+      ? 'Los cruces de esta estación se leyeron directamente en las dos fotos a partir de la marca.'
+      : 'Perfil complementario leído directamente en las dos fotos, fuera de la malla de 100 m.');
     else if(p.supplemental_profile===true)addText(details,'Perfil complementario a las estaciones de la malla de 100 m.');
     if(p.progreso_reference_method_url){
       if(!markedComparison){
@@ -171,13 +173,13 @@ export function coastalPopup(feature: Feature, onStationEdition?: (year:number,r
         if(p.reference_only!==true)addText(details,'Los metros indican la diferencia entre esa referencia y la orilla del año seleccionado en el mismo perfil.');
       }
       if(typeof p.display_shoreline_latitude==='number')addText(details,'La punta vertical se alinea con el borde visible. Los metros se miden sobre el perfil.');
-      const wholeMetres = (value:number) => Math.round(value).toLocaleString('es-MX');
-      const separations = p.marked_neighbor_spacing as { previous?: {reference:number; observed?:number}; next?: {reference:number; observed?:number} } | undefined;
-      for (const [label, separation] of [['anterior',separations?.previous],['siguiente',separations?.next]] as const) {
-        if (!separation) continue;
-        const observed = typeof separation.observed === 'number' ? ' · ≈ '+wholeMetres(separation.observed)+' m en '+p.year : '';
-        addText(details,'Separación con la estación '+label+': ≈ '+wholeMetres(separation.reference)+' m en 2011'+observed+'.');
-      }
+    }
+    const wholeMetres = (value:number) => Math.round(value).toLocaleString('es-MX');
+    const separations = p.marked_neighbor_spacing as { previous?: {reference:number; observed?:number}; next?: {reference:number; observed?:number} } | undefined;
+    for (const [label, separation] of [['anterior',separations?.previous],['siguiente',separations?.next]] as const) {
+      if (!separation) continue;
+      const observed = typeof separation.observed === 'number' ? ' · ≈ '+wholeMetres(separation.observed)+' m en '+p.year : '';
+      addText(details,'Separación con la estación '+label+': ≈ '+wholeMetres(separation.reference)+' m en 2011'+observed+'.');
     }
     if(p.photo_detail_review_pending===true)addText(details,'Se conserva la posición revisada en la imagen general de esta edición. El detalle HD aún no fue verificado; ampliar la foto no aumenta la precisión de la lectura.');
     if(hasProjectCoastLabel(String(p.municipality)))addText(details,'El nombre de esta costa es un rótulo del proyecto.');

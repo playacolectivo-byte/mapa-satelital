@@ -45,7 +45,7 @@ assert.equal(JSON.stringify(original), originalText, 'Filtering must preserve re
 console.log('Temporal evidence: 54 dated observations; chronology, missing-date, locality, deflation, references and study-period checks passed.');
 
 const observed = json('public/data/problems/geotube-dated-observations.json');
-assert.equal(observed.features.length, 12);
+assert.equal(observed.features.length, 13);
 assert.deepEqual(
   observed.features.filter(feature => feature.properties.municipality_slug === 'ixil')
     .map(feature => feature.properties.capture_date),
@@ -65,8 +65,14 @@ assert.equal(observedFebruary.length, 5);
 assert(observedFebruary.every(f => f.properties.temporal_date === '2025-02-13' && f.properties.temporal_state === 'present'));
 assert.equal(renderObserved({ ...matchedRaster, source: 'sentinel' }).layers.geotubes.features.length, 0);
 assert.equal(renderObserved(null).layers.geotubes.features.length, 0);
-assert.equal(renderObserved(matchedRaster).layers.geotubes.features.length, 7);
-console.log('The twelve dated geotube axes appear on their documented Esri mosaics.');
+const observed26334 = renderObserved(matchedRaster).layers.geotubes.features;
+assert.equal(observed26334.length, 8);
+const chicxulub = observed26334.find(f => f.id === 'PROGRESO-GT-2025-04-01');
+assert.equal(chicxulub?.properties.temporal_date, '2025-04-14');
+assert.equal(chicxulub?.properties.temporal_state, 'present');
+assert.equal(chicxulub?.geometry.type, 'LineString');
+assert.equal(chicxulub?.properties.field_verified, false);
+console.log('The dated geotube axes appear on their documented Esri mosaics.');
 
 const groynes = json('public/data/problems/groyne-dated-observations.json');
 assert(groynes.features.length >= 18);

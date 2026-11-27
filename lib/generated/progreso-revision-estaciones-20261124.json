@@ -1,0 +1,694 @@
+{
+  "february": {
+    "comparisons": [
+      {
+        "profile": "SC-C431-0-0",
+        "station": "GRID100-progreso-002-0094",
+        "tip": [
+          -89.7562869963242,
+          21.26852094865658
+        ],
+        "referenceLatitude2011": 21.26857478212572,
+        "registrationProxyM": 18.82,
+        "releases": [
+          26334
+        ]
+      },
+      {
+        "profile": "SC-C438-0-1",
+        "station": "GRID100-progreso-002-0096",
+        "tip": [
+          -89.75481687756313,
+          21.2689451175286
+        ],
+        "referenceLatitude2011": 21.268864726696098,
+        "registrationProxyM": 18.82,
+        "releases": [
+          26334
+        ]
+      },
+      {
+        "profile": "SC-C494-0-0",
+        "station": "GRID100-progreso-002-0109",
+        "tip": [
+          -89.74269519776152,
+          21.271159212176048
+        ],
+        "referenceLatitude2011": 21.271399217846785,
+        "registrationProxyM": 12.813235764938932,
+        "releases": [
+          26334
+        ]
+      },
+      {
+        "profile": "SC-C497-0-1",
+        "station": "GRID100-progreso-002-0110",
+        "tip": [
+          -89.74083106249617,
+          21.271789079972464
+        ],
+        "referenceLatitude2011": 21.271824128264765,
+        "registrationProxyM": 13.017035791619296,
+        "releases": [
+          26334
+        ]
+      },
+      {
+        "profile": "SC-C493-0-1",
+        "station": "GRID100-progreso-002-0111",
+        "tip": [
+          -89.73988960713194,
+          21.27200403423841
+        ],
+        "referenceLatitude2011": 21.27205407927348,
+        "registrationProxyM": 12.81322688598717,
+        "releases": [
+          26334
+        ]
+      },
+      {
+        "profile": "SC-C490-0-0",
+        "station": "GRID100-progreso-002-0112",
+        "tip": [
+          -89.73940949171828,
+          21.272181496244624
+        ],
+        "referenceLatitude2011": 21.27218405142382,
+        "registrationProxyM": 12.813225020851352,
+        "releases": [
+          26334
+        ]
+      },
+      {
+        "profile": "SC-508-0-0",
+        "station": "GRID100-progreso-002-0113",
+        "tip": [
+          -89.73847355872803,
+          21.272400504788664
+        ],
+        "referenceLatitude2011": 21.27243399754416,
+        "registrationProxyM": 18.82,
+        "releases": [
+          26334
+        ]
+      },
+      {
+        "profile": "SC-508-0-1",
+        "station": "GRID100-progreso-002-0114",
+        "tip": [
+          -89.73769045899964,
+          21.272659104267305
+        ],
+        "referenceLatitude2011": 21.27266394759994,
+        "registrationProxyM": 12.630661931531389,
+        "releases": [
+          26334
+        ]
+      },
+      {
+        "profile": "SC-510-0-0",
+        "station": "GRID100-progreso-002-0115",
+        "tip": [
+          -89.73670072387314,
+          21.27294654134122
+        ],
+        "referenceLatitude2011": 21.27298887641402,
+        "registrationProxyM": 12.81321698003648,
+        "releases": [
+          26334
+        ]
+      },
+      {
+        "profile": "SC-510-0-2",
+        "station": "GRID100-progreso-002-0117",
+        "tip": [
+          -89.7351074917183,
+          21.273376446177885
+        ],
+        "referenceLatitude2011": 21.273403784472116,
+        "registrationProxyM": 13.01701500699989,
+        "releases": [
+          26334
+        ]
+      },
+      {
+        "profile": "SC-511-0-0",
+        "station": "GRID100-progreso-002-0118",
+        "tip": [
+          -89.73404250199127,
+          21.273611635272538
+        ],
+        "referenceLatitude2011": 21.273613737501552,
+        "registrationProxyM": 12.208193969625482,
+        "releases": [
+          26334
+        ]
+      },
+      {
+        "profile": "SC-C515-0-0",
+        "station": "GRID100-progreso-002-0119",
+        "tip": [
+          -89.73324588591385,
+          21.27375910210432
+        ],
+        "referenceLatitude2011": 21.273803694746256,
+        "registrationProxyM": 12.208193969625482,
+        "releases": [
+          26334
+        ],
+        "direct": true
+      }
+    ],
+    "pending": [
+      {
+        "profile": "SC-510-0-1",
+        "tip": [
+          -89.73604090045548,
+          21.273243975635346
+        ],
+        "reason": "El meridiano alcanza directamente la cubierta y su sombra en 2011. No se distingue una franja continua de arena entre el agua y la estructura.",
+        "releases": [
+          26334
+        ]
+      }
+    ]
+  },
+  "september": {
+    "comparisons": [
+      {
+        "profile": "SC-522-0-1",
+        "station": "GRID100-progreso-002-0121",
+        "tip": [
+          -89.73126239234733,
+          21.274060283903342
+        ],
+        "referenceLatitude2011": 21.274093629015418,
+        "registrationProxyM": 12.208193969625482,
+        "releases": [
+          26334
+        ]
+      },
+      {
+        "profile": "GRID100-progreso-002-0122",
+        "station": "GRID100-progreso-002-0122",
+        "tip": [
+          -89.73027953274918,
+          21.274288949250042
+        ],
+        "referenceLatitude2011": 21.274303581060618,
+        "registrationProxyM": 11.707194370424094,
+        "releases": [
+          26334
+        ],
+        "direct": true
+      },
+      {
+        "profile": "SC-524-0-0",
+        "station": "GRID100-progreso-002-0123",
+        "tip": [
+          -89.72945153482627,
+          21.274400173735092
+        ],
+        "referenceLatitude2011": 21.27447354202066,
+        "registrationProxyM": 11.70719362803043,
+        "releases": [
+          26334
+        ]
+      },
+      {
+        "profile": "SC-102-0-0",
+        "station": "GRID100-progreso-002-0124",
+        "tip": [
+          -89.72838186987114,
+          21.27458338152382
+        ],
+        "referenceLatitude2011": 21.27466349815546,
+        "registrationProxyM": 12.017087538358856,
+        "releases": [
+          26334
+        ]
+      },
+      {
+        "profile": "SC-C531-0-1",
+        "station": "GRID100-progreso-002-0125",
+        "tip": [
+          -89.7274554348774,
+          21.27488656116969
+        ],
+        "referenceLatitude2011": 21.27485845288093,
+        "registrationProxyM": 11.85023268505371,
+        "releases": [
+          26334
+        ]
+      }
+    ]
+  },
+  "april": {
+    "date": "2025-04-14",
+    "comparisons": [
+      {
+        "profile": "SC-90-0-23",
+        "station": "GRID100-progreso-004-0019",
+        "tip": [
+          -89.67796459794044,
+          21.28459686247982
+        ],
+        "referenceLatitude2011": 21.283831089535564,
+        "registrationProxyM": 15.06784643235419,
+        "releases": [
+          26334
+        ]
+      },
+      {
+        "profile": "SC-90-0-24",
+        "station": "GRID100-progreso-004-0020",
+        "tip": [
+          -89.67706686258315,
+          21.284872279841938
+        ],
+        "referenceLatitude2011": 21.284091012914022,
+        "registrationProxyM": 14.66424209118933,
+        "releases": [
+          26334
+        ]
+      },
+      {
+        "profile": "SC-90-0-25",
+        "station": "GRID100-progreso-004-0021",
+        "tip": [
+          -89.67611977458002,
+          21.28512795266654
+        ],
+        "referenceLatitude2011": 21.284250965533985,
+        "registrationProxyM": 14.66424209118933,
+        "releases": [
+          26334
+        ]
+      },
+      {
+        "profile": "SC-90-0-26",
+        "station": "GRID100-progreso-004-0022",
+        "tip": [
+          -89.67517563700677,
+          21.285402869186335
+        ],
+        "referenceLatitude2011": 21.28459086427382,
+        "registrationProxyM": 14.66424209118933,
+        "releases": [
+          26334
+        ]
+      },
+      {
+        "profile": "SC-90-0-27",
+        "station": "GRID100-progreso-004-0023",
+        "tip": [
+          -89.67427012324333,
+          21.28570702622807
+        ],
+        "referenceLatitude2011": 21.28494075921488,
+        "registrationProxyM": 14.66424209118933,
+        "releases": [
+          26334
+        ]
+      },
+      {
+        "profile": "SC-90-0-28",
+        "station": "GRID100-progreso-004-0024",
+        "tip": [
+          -89.67340135574342,
+          21.286035675077173
+        ],
+        "referenceLatitude2011": 21.285240668501817,
+        "registrationProxyM": 14.66424209118933,
+        "releases": [
+          26334
+        ]
+      },
+      {
+        "profile": "SC-90-0-29",
+        "station": "GRID100-progreso-004-0025",
+        "tip": [
+          -89.67250925302505,
+          21.286309340288444
+        ],
+        "referenceLatitude2011": 21.285590561896925,
+        "registrationProxyM": 15.06784643235419,
+        "releases": [
+          26334
+        ]
+      },
+      {
+        "profile": "SC-90-0-30",
+        "station": "GRID100-progreso-004-0026",
+        "tip": [
+          -89.67164424061775,
+          21.28653027146647
+        ],
+        "referenceLatitude2011": 21.28599043904343,
+        "registrationProxyM": 14.66424209118933,
+        "releases": [
+          26334
+        ]
+      },
+      {
+        "profile": "SC-90-0-31",
+        "station": "GRID100-progreso-004-0027",
+        "tip": [
+          -89.6707486510277,
+          21.286728959289942
+        ],
+        "referenceLatitude2011": 21.286260355502655,
+        "registrationProxyM": 14.833745181477562,
+        "releases": [
+          26334
+        ]
+      },
+      {
+        "profile": "SC-90-0-32",
+        "station": "GRID100-progreso-004-0028",
+        "tip": [
+          -89.66981041431427,
+          21.286940142908637
+        ],
+        "referenceLatitude2011": 21.286500280828292,
+        "registrationProxyM": 14.66424209118933,
+        "releases": [
+          26334
+        ]
+      },
+      {
+        "profile": "SC-90-0-33",
+        "station": "GRID100-progreso-004-0029",
+        "tip": [
+          -89.66893547773363,
+          21.287128583420042
+        ],
+        "referenceLatitude2011": 21.286830177511895,
+        "registrationProxyM": 14.66424209118933,
+        "releases": [
+          26334
+        ]
+      },
+      {
+        "profile": "SC-90-0-34",
+        "station": "GRID100-progreso-004-0030",
+        "tip": [
+          -89.66799670457841,
+          21.287284534005487
+        ],
+        "referenceLatitude2011": 21.287140079782954,
+        "registrationProxyM": 14.833745181477562,
+        "releases": [
+          26334
+        ]
+      },
+      {
+        "profile": "SC-90-0-36",
+        "station": "GRID100-progreso-004-0032",
+        "tip": [
+          -89.66613444685936,
+          21.287823611918732
+        ],
+        "referenceLatitude2011": 21.287939824561814,
+        "registrationProxyM": 18.82,
+        "releases": [
+          26334
+        ]
+      },
+      {
+        "profile": "SC-89-0-0",
+        "station": "GRID100-progreso-005-0000",
+        "tip": [
+          -89.66404688358307,
+          21.288707825375727
+        ],
+        "referenceLatitude2011": 21.28838967908851,
+        "registrationProxyM": 14.66424209118933,
+        "releases": [
+          26334
+        ]
+      },
+      {
+        "profile": "SC-89-0-15",
+        "station": "GRID100-progreso-005-0015",
+        "tip": [
+          -89.64953345969862,
+          21.289107783949266
+        ],
+        "referenceLatitude2011": 21.28945932765857,
+        "registrationProxyM": 15.363593203056663,
+        "releases": [
+          26334
+        ]
+      },
+      {
+        "profile": "SC-89-0-20",
+        "station": "GRID100-progreso-005-0020",
+        "tip": [
+          -89.6452306509018,
+          21.289694999182938
+        ],
+        "referenceLatitude2011": 21.28981420934357,
+        "registrationProxyM": 15.06784643235419,
+        "releases": [
+          26334
+        ]
+      },
+      {
+        "profile": "SC-89-0-21",
+        "station": "GRID100-progreso-005-0021",
+        "tip": [
+          -89.64415803551674,
+          21.28975697848188
+        ],
+        "referenceLatitude2011": 21.289979154060518,
+        "registrationProxyM": 16.584329835993035,
+        "releases": [
+          26334
+        ]
+      },
+      {
+        "profile": "SC-89-0-22",
+        "station": "GRID100-progreso-005-0022",
+        "tip": [
+          -89.64329758286478,
+          21.28997015708072
+        ],
+        "referenceLatitude2011": 21.290059127190005,
+        "registrationProxyM": 15.06784643235419,
+        "releases": [
+          26334
+        ]
+      },
+      {
+        "profile": "SC-89-0-23",
+        "station": "GRID100-progreso-005-0023",
+        "tip": [
+          -89.64217346906662,
+          21.29000864415707
+        ],
+        "referenceLatitude2011": 21.290159093540694,
+        "registrationProxyM": 16.584329835993035,
+        "releases": [
+          26334
+        ]
+      },
+      {
+        "profile": "SC-89-0-28",
+        "station": "GRID100-progreso-005-0028",
+        "tip": [
+          -89.63707171908526,
+          21.290555899991148
+        ],
+        "referenceLatitude2011": 21.290703908957337,
+        "registrationProxyM": 16.584329835993035,
+        "releases": [
+          26334
+        ]
+      },
+      {
+        "profile": "SC-89-0-29",
+        "station": "GRID100-progreso-005-0029",
+        "tip": [
+          -89.63643871775774,
+          21.29070609889992
+        ],
+        "referenceLatitude2011": 21.290848859507992,
+        "registrationProxyM": 16.584329835993035,
+        "releases": [
+          26334
+        ]
+      },
+      {
+        "profile": "SC-89-0-30",
+        "station": "GRID100-progreso-005-0030",
+        "tip": [
+          -89.63560508719591,
+          21.290925024156017
+        ],
+        "referenceLatitude2011": 21.290968818476326,
+        "registrationProxyM": 16.584329835993035,
+        "releases": [
+          26334
+        ]
+      },
+      {
+        "profile": "SC-89-0-31",
+        "station": "GRID100-progreso-005-0031",
+        "tip": [
+          -89.63468895853323,
+          21.2911414654335
+        ],
+        "referenceLatitude2011": 21.291158753309354,
+        "registrationProxyM": 16.584329835993035,
+        "releases": [
+          26334
+        ]
+      },
+      {
+        "profile": "SC-89-0-32",
+        "station": "GRID100-progreso-005-0032",
+        "tip": [
+          -89.63383977115912,
+          21.291277168739086
+        ],
+        "referenceLatitude2011": 21.29125871891239,
+        "registrationProxyM": 16.584329835993035,
+        "releases": [
+          26334
+        ]
+      },
+      {
+        "profile": "SC-89-0-33",
+        "station": "GRID100-progreso-005-0033",
+        "tip": [
+          -89.63293962181372,
+          21.291377384175323
+        ],
+        "referenceLatitude2011": 21.29145864991455,
+        "registrationProxyM": 15.363593203056663,
+        "releases": [
+          26334
+        ]
+      },
+      {
+        "profile": "SC-89-0-34",
+        "station": "GRID100-progreso-005-0034",
+        "tip": [
+          -89.63207863271994,
+          21.29153532956211
+        ],
+        "referenceLatitude2011": 21.291643585849492,
+        "registrationProxyM": 16.584329835993035,
+        "releases": [
+          26334
+        ]
+      },
+      {
+        "profile": "SC-89-0-35",
+        "station": "GRID100-progreso-005-0035",
+        "tip": [
+          -89.63085293769836,
+          21.291691069362816
+        ],
+        "referenceLatitude2011": 21.291798531994253,
+        "registrationProxyM": 16.584329835993035,
+        "releases": [
+          26334
+        ]
+      },
+      {
+        "profile": "SC-89-0-37",
+        "station": "GRID100-progreso-005-0037",
+        "tip": [
+          -89.6289673447609,
+          21.292214636558764
+        ],
+        "referenceLatitude2011": 21.292248374715083,
+        "registrationProxyM": 16.584329835993035,
+        "releases": [
+          26334
+        ],
+        "direct": true
+      },
+      {
+        "profile": "SC-89-0-38",
+        "station": "GRID100-progreso-005-0038",
+        "tip": [
+          -89.6283370256424,
+          21.292340842214923
+        ],
+        "referenceLatitude2011": 21.292408318461888,
+        "registrationProxyM": 16.584329835993035,
+        "releases": [
+          26334
+        ]
+      },
+      {
+        "profile": "SC-89-0-48",
+        "station": "GRID100-progreso-005-0048",
+        "tip": [
+          -89.6190270781517,
+          21.29374084303853
+        ],
+        "referenceLatitude2011": 21.293787826055215,
+        "registrationProxyM": 16.584329835993035,
+        "releases": [
+          26334
+        ]
+      },
+      {
+        "profile": "SC-89-0-50",
+        "station": "GRID100-progreso-005-0050",
+        "tip": [
+          -89.61714416742325,
+          21.294121954841867
+        ],
+        "referenceLatitude2011": 21.294087717297298,
+        "registrationProxyM": 16.584329835993035,
+        "releases": [
+          26334
+        ]
+      },
+      {
+        "profile": "SC-89-0-54",
+        "station": "GRID100-progreso-006-0000",
+        "tip": [
+          -89.61341106891634,
+          21.294797957282043
+        ],
+        "referenceLatitude2011": 21.294712488753326,
+        "registrationProxyM": 16.584329835993035,
+        "releases": [
+          26334
+        ]
+      },
+      {
+        "profile": "SC-89-0-55",
+        "station": "GRID100-progreso-006-0001",
+        "tip": [
+          -89.61235883831978,
+          21.29500013263898
+        ],
+        "referenceLatitude2011": 21.294892422440157,
+        "registrationProxyM": 16.584329835993035,
+        "releases": [
+          26334
+        ]
+      },
+      {
+        "profile": "SC-89-0-56",
+        "station": "GRID100-progreso-006-0002",
+        "tip": [
+          -89.61141094565392,
+          21.295208805305386
+        ],
+        "referenceLatitude2011": 21.295177316993858,
+        "registrationProxyM": 16.584329835993035,
+        "releases": [
+          26334
+        ]
+      }
+    ]
+  }
+}
